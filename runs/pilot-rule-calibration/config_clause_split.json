@@ -1,0 +1,11 @@
+{
+ "script": "analysis/pilot/rule_clause_split.py",
+ "script_sha256": "6d3887c13f6939f74f5da0a6ac129eed007b2f4cd3a6a7f768b921ddbc07d559",
+ "input": "runs/pilot-side-by-side/table_a1.csv",
+ "input_sha256": "6098510c6bf521961c77c8affe50b5d34023c70b90369396b73902cd8e18fdfe",
+ "python": "3.12.14",
+ "numpy": "2.5.4",
+ "pandas": "3.0.6",
+ "seed": null,
+ "note": "deterministic table logic; no random numbers"
+}

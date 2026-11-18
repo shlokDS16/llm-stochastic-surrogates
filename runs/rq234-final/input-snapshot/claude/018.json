@@ -1,0 +1,61 @@
+{
+  "order": 18,
+  "study_id": "https://openalex.org/W3213674227",
+  "full_text": {"obtained": true, "source": "research/sources/md/fulltext/018_W3213674227.md (ACL Anthology PDF)"},
+  "eligibility": {
+    "decision": "YES",
+    "failed_criterion": null,
+    "borderline": true,
+    "evidence": "Sections 3-6, App. C-E. Pretrained unidirectional LMs (GPT, GPT-2 four sizes, Transformer-XL) are scored on come/go cloze items, with a preregistered Prolific human study (Sec. 4) and behavioural accuracy (Tables 8-9). Borderline: the headline model is a masked LM (RoBERTa), and the task is a new probe motivated by psycholinguistic perspective-taking work (Harris 2012; Brown-Schmidt and Heller 2018) rather than a named classic paradigm."
+  },
+  "A": {"doi": "10.18653/v1/2021.blackboxnlp-1.8", "arxiv_id": null,
+        "title": "ProSPer: Probing Human and Neural Network Language Model Understanding of Spatial Perspective",
+        "first_author": "Tessa Masis", "year": 2021,
+        "venue": "BlackboxNLP Workshop on Analyzing and Interpreting Neural Networks for NLP",
+        "peer_reviewed": "yes", "first_author_field": "not_reported", "country": "USA"},
+  "B": {
+    "models": [
+      {"name": "Transformer-XL base", "version": "base (trained on WikiText-103); Hugging Face Transformers", "access": "open_weights", "params_b": null, "release_date": "not_reported", "tuning": "base", "family": "other", "query_date": "not_reported"},
+      {"name": "GPT (OpenAI GPT-1) base", "version": "base (BooksCorpus); Hugging Face Transformers", "access": "open_weights", "params_b": null, "release_date": "not_reported", "tuning": "base", "family": "GPT", "query_date": "not_reported"},
+      {"name": "GPT-2 base", "version": "base size (12 layers); Hugging Face Transformers", "access": "open_weights", "params_b": null, "release_date": "not_reported", "tuning": "base", "family": "GPT", "query_date": "not_reported"},
+      {"name": "GPT-2 medium", "version": "medium (24 layers)", "access": "open_weights", "params_b": null, "release_date": "not_reported", "tuning": "base", "family": "GPT", "query_date": "not_reported"},
+      {"name": "GPT-2 large", "version": "large (36 layers)", "access": "open_weights", "params_b": null, "release_date": "not_reported", "tuning": "base", "family": "GPT", "query_date": "not_reported"},
+      {"name": "GPT-2 extra-large", "version": "extra-large (48 layers)", "access": "open_weights", "params_b": null, "release_date": "not_reported", "tuning": "base", "family": "GPT", "query_date": "not_reported"}
+    ],
+    "n_models": 6, "n_model_families": 2},
+  "C": {"paradigms": [
+    {"pid": "P1", "name": "Come/go perspectival motion-verb cloze (spatial perspective inference); walk/drive/arrive non-perspectival comparison verbs run as controls within the same task",
+     "family": "LANG", "source_paper": "novel probe; motivated by Harris (2012) and Brown-Schmidt and Heller (2018) on perspective inference",
+     "items_origin": "novel", "n_items": 47985, "languages": ["English"], "modality": "text",
+     "contamination_risk": "no",
+     "location": "Sec. 3 (Automatic subset 47,385 items from OANC/MASC, Annotated subset 600 items; Tables 1-4, App. A); Sec. 4 (human subsets); Sec. 5 footnote 9 (authors checked no training-data overlap)"}
+  ]},
+  "D": {"types": ["own_sample"], "primary_type": "own_sample", "human_n": 300,
+        "population": "monolingual American English speakers recruited on Prolific; preregistered on OSF with IRB approval",
+        "metric": "forced-choice accuracy by subset and verb (Table 7, Fig. 4-6); by-item Spearman correlation with model scores (Sec. 5.4)"},
+  "E": {
+    "outcome_types": ["accuracy", "human_correlation"],
+    "rows_aggregated": false,
+    "effects": [
+      {"pid": "P1", "model": "Transformer-XL base", "model_family": "other", "outcome_kind": "accuracy", "basis": null, "model_effect_present": "na", "human_effect_present": "na", "direction": "not_applicable", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "INSUFFICIENT",
+       "location": "Table 9 (Annotated come/go 48.5%, Random 71.7%); human Table 7 (Annotated come/go 73.8%, Random 87.2%); Fig. 5-6. Authors make no explicit comparison for this model."},
+      {"pid": "P1", "model": "GPT (OpenAI GPT-1) base", "model_family": "GPT", "outcome_kind": "accuracy", "basis": null, "model_effect_present": "na", "human_effect_present": "na", "direction": "not_applicable", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "INSUFFICIENT",
+       "location": "Table 9 (Annotated come/go 63.6%, Random 73.8%) vs human Table 7; Sec. 5.4 says GPT models struggle on Annotated but notes humans were tested bidirectionally."},
+      {"pid": "P1", "model": "GPT-2 base", "model_family": "GPT", "outcome_kind": "accuracy", "basis": null, "model_effect_present": "na", "human_effect_present": "na", "direction": "not_applicable", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "INSUFFICIENT",
+       "location": "Table 9 (Annotated come/go 54.4%, Random 75.4%) vs human Table 7; Sec. 5.4."},
+      {"pid": "P1", "model": "GPT-2 medium", "model_family": "GPT", "outcome_kind": "accuracy", "basis": null, "model_effect_present": "na", "human_effect_present": "na", "direction": "not_applicable", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "INSUFFICIENT",
+       "location": "Table 9 (Annotated come/go 60.0%, Random 77.9%) vs human Table 7; Sec. 5.4."},
+      {"pid": "P1", "model": "GPT-2 large", "model_family": "GPT", "outcome_kind": "accuracy", "basis": null, "model_effect_present": "na", "human_effect_present": "na", "direction": "not_applicable", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "INSUFFICIENT",
+       "location": "Table 9 (Annotated come/go 61.3%, Random 79.8%) vs human Table 7; Sec. 5.4."},
+      {"pid": "P1", "model": "GPT-2 extra-large", "model_family": "GPT", "outcome_kind": "accuracy", "basis": null, "model_effect_present": "na", "human_effect_present": "na", "direction": "not_applicable", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "INSUFFICIENT",
+       "location": "Table 9 (Annotated come/go 62.6%, Random 80.6%) vs human Table 7; Figs. 9-12 plot GPT-2 XL beside RoBERTa and humans; Sec. 5.4."}
+    ],
+    "headline": "RoBERTa, a bidirectional masked model, matches humans; GPT and GPT-2 do well on automatic items but struggle on annotated ones; humans and RoBERTa show opposite genre-frequency patterns."},
+  "F": {"f1": "yes", "f2": "na", "f3": "no", "f4": "yes", "f5": "no", "f6": "no", "f7": "no", "f8": "no",
+        "f9": "yes", "f10": "no", "f11": "yes", "f12": "yes",
+        "perturbations_tested": ["contamination"],
+        "robustness_outcome": "na"},
+  "G": {"notes": "Only unidirectional LMs enter B; BERT-family models, the paper's main comparison, are masked LMs and excluded. Humans did a bidirectional cloze, models a probability comparison, so accuracies are not strictly comparable. The NN Confounding subset was chosen from model errors. Regressions cover humans and RoBERTa only, with no tests on the generative models.",
+        "extractor": "paper-reader (claude-sonnet)", "date": "2026-10-16", "minutes": 4,
+        "sections_read": ["Abstract", "Sec. 1-7 (intro, task, dataset, human study, models, error analysis, conclusion)", "App. A-B (composition, annotation)", "App. C (human study, exclusions)", "App. D-E (model details, Tables 5-9)", "App. G (human regression tables, partial)", "footnotes on preregistration and code/data"]}
+}

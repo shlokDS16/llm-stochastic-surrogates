@@ -1,0 +1,13 @@
+item,A_n,A_pct,B_n,B_pct,S_n,S_pct
+N (denominator),2022,,992,,1470,
+Language: English (incl. varieties),93,4.6,62,6.2,78,5.3
+"Language: Chinese (incl. Mandarin, Cantonese)",36,1.8,22,2.2,29,2.0
+Language: other named,103,5.1,68,6.9,82,5.6
+Language: not stated,1856,91.8,887,89.4,1336,90.9
+Modality: text,1284,63.5,737,74.3,1062,72.2
+Modality: image+text,124,6.1,84,8.5,106,7.2
+Modality: not stated,614,30.4,171,17.2,302,20.5
+Human comparison: yes,816,40.4,571,57.6,668,45.4
+Human comparison: no,5,0.2,2,0.2,4,0.3
+Human comparison: not stated,1201,59.4,419,42.2,798,54.3
+RQ1 codable (paradigm family and model named),775,38.3,531,53.5,676,46.0

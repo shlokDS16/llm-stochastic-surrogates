@@ -1,0 +1,20 @@
+{
+ "model": "qwen2.5-0.5b-instruct",
+ "repo": "Qwen/Qwen2.5-0.5B-Instruct",
+ "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+ "stage": "S3",
+ "batch_size": 100,
+ "eos_ids": [
+  151643,
+  151645
+ ],
+ "torch": "2.11.0+cu128",
+ "transformers": "5.20.0",
+ "git_sha": "194cc376bdf3188c2079e29b012c8bd3f4e292a9",
+ "F": "F0",
+ "temps": [
+  0.7,
+  1.0
+ ],
+ "n": 50
+}

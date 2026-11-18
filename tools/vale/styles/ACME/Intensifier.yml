@@ -1,0 +1,12 @@
+extends: existence
+message: "Intensifier '%s' (grammarly-issue-catalog 3). Report the quantity, or delete."
+level: suggestion
+ignorecase: true
+tokens:
+  - very
+  - really
+  - quite
+  - extremely
+  - highly
+  - remarkably
+  - incredibly

@@ -1,0 +1,30 @@
+% HAND-BUILT body of Table checklist (CRP-S09 writer, 2026-11-07). Ordered by sources of evidence (Both, then Lit, then Own; the label counts sources and does not rate strength); within a tier the order follows the
+% pipeline of Fig. 1, never the size of a share. Shares are annotations from column (b) of the route table; their frozen intervals overlap (Section 7.8).
+% Every number is a \NUM key (au.*, sp.*, val.*, rt.*, vf.*, bm.*).
+{\footnotesize\setlength{\tabcolsep}{4pt}\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.03\textwidth}>{\raggedright\arraybackslash}p{0.28\textwidth}>{\raggedright\arraybackslash}p{0.07\textwidth}>{\raggedright\arraybackslash}p{0.28\textwidth}>{\raggedright\arraybackslash}p{0.265\textwidth}@{}}
+\toprule
+ & Reporting item & Evidence & Coded literature (percent, pass 1 and pass 2) & Verification case study \\
+\midrule
+\multicolumn{5}{@{}l}{\textit{Tier 1, literature and case study (Both)}} \\
+1 & Give every wording, run at least two, and cross them with the model & Both & Wording varied by \NUM{au.pw.p1} and \NUM{au.pw.p2} & Main effect at most \NUM{rt.b.W.cr.maxabs}; model-by-wording \NUM{rt.b.MW.cr.min} to \NUM{rt.b.MW.cr.max} \\
+2 & State the option order and vary it wherever options are listed & Both & Order varied by \NUM{au.po.p1} and \NUM{au.po.p2} & Order terms \NUM{rt.b.O.cr.min} to \NUM{rt.b.O.cr.max} \\
+3 & State the decoding temperature and say whether the contrast was computed at more than one level & Both & Stated by \NUM{sp.f2.p1} and \NUM{sp.f2.p2}; varied by \NUM{au.pd.p1} and \NUM{au.pd.p2} & Temperature terms \NUM{rt.b.T.cr.min} to \NUM{rt.b.T.cr.max} \\
+4 & Report sampling variance apart from set-up variance: seeds, draws per prompt & Both & Repeated sampling of one prompt by \NUM{au.rep.p1} and \NUM{au.rep.p2} & Draw noise \NUM{rt.a.draw.cr.min} to \NUM{rt.a.draw.cr.max} of the sampled arm \\
+5 & State which sources were crossed and report their interactions & Both & Full crossing of two or more sources in \NUM{cx.x1yes.p1k} and \NUM{cx.x1yes.p2k} studies (Section~\ref{sec:audit-cross}) & Model-by-wording share reaches \NUM{rt.b.MW.cr.max} \\
+6 & Name the human reference, its sample size and its between-site spread & Both & Multi-site reference in \NUM{val.ref.repl.p1k} of \NUM{val.ref.repl.n1} and \NUM{val.ref.repl.p2k} of \NUM{val.ref.repl.n2} studies & Single-site SE \NUM{cp.min} to \NUM{cp.max}; the between-site interval reaches zero for four items \\
+\addlinespace[3pt]
+\multicolumn{5}{@{}l}{\textit{Tier 2, literature only (Lit)}} \\
+7 & Name every model with its exact version and access date & Lit & Version and date stated by \NUM{sp.f1.p1} and \NUM{sp.f1.p2} (a field on which the two passes agree poorly) & Not varied; each model is one pinned revision, and the model share changes with the roster (item 14) \\
+8 & Publish the complete prompts, the scoring rule and a link to code and data & Lit & Code or data link by \NUM{au.code.p1} and \NUM{au.code.p2} & Not measured \\
+9 & Fix the wording, order and temperature in a preregistration & Lit & Preregistration cited by \NUM{au.prereg.p1} and \NUM{au.prereg.p2} & Not measured \\
+10 & Check contamination, or use novel or perturbed items & Lit & Novel or perturbed items by \NUM{au.nov.p1} and \NUM{au.nov.p2} & Not varied \\
+11 & Compare dated snapshots of a model that keeps one name & Lit & Two or more snapshots by \NUM{au.snap.p1} and \NUM{au.snap.p2} & Not varied \\
+\addlinespace[3pt]
+\multicolumn{5}{@{}l}{\textit{Tier 3, case study only (Own)}} \\
+12 & Describe the readout rule and its failures: valid answer mass, unparsed answers, refusals & Own & Not coded (no field in the coding scheme, Section~\ref{sec:spec-readout}) & \NUM{vf.g3.excl} of \NUM{vf.g3.pairs} model--item pairs excluded by the valid-mass rule \\
+13 & Test the estimator of variance shares on synthetic arrays of known structure before using model output & Own & Not coded & Estimator as first written had a false-positive rate up to \NUM{bm.g1.first.fp}; the amended one passed all four criteria \\
+14 & Report the roster behind every share and flag small rosters & Own & Not coded & AF model share \NUM{rt.c.M.AF} on \NUM{vf.g4.main.pass} models against \NUM{rt.b.M.AF} on \NUM{rt.b.n.AF} \\
+15 & Compare an exact and a sampled readout on the same cells & Own & Not coded & \NUM{rt.e.agree.within} of \NUM{rt.e.agree.n} shares differ by less than \NUM{rt.thr}, a bound for non-interpretation and not a validated tolerance; a consistency check only \\
+\bottomrule
+\end{tabular}}

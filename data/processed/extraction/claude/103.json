@@ -1,0 +1,17 @@
+{
+  "order": 103,
+  "study_id": "https://openalex.org/W4377235869",
+  "full_text": {"obtained": true, "source": "research/sources/md/fulltext/103_W4377235869.md"},
+  "eligibility": {"decision": "NO", "failed_criterion": "not-llm", "borderline": false,
+                  "evidence": "Sections 1.1-1.2, p.2: 402 Prolific participants rate a researcher who delegates work to an LLM versus a PhD student; no LLM is administered any task. The LLM is the stimulus, humans are the subjects."},
+  "A": {"doi": "10.2139/ssrn.4443934", "arxiv_id": "2305.11873", "title": "Judgments of research co-created by generative AI: experimental evidence", "first_author": "Pawel Niszczota", "year": 2023, "venue": "SSRN Electronic Journal (arXiv preprint)",
+        "peer_reviewed": "preprint", "first_author_field": "not_reported", "country": "Poland"},
+  "B": {"models": [], "n_models": 0, "n_model_families": 0},
+  "C": {"paradigms": []},
+  "D": {"types": [], "primary_type": "none", "human_n": null, "population": "not_reported", "metric": "not_reported"},
+  "E": {"outcome_types": [], "rows_aggregated": false, "effects": [], "headline": ""},
+  "F": {"f1": "no", "f2": "no", "f3": "no", "f4": "no", "f5": "no", "f6": "no", "f7": "no", "f8": "no",
+        "f9": "no", "f10": "no", "f11": "no", "f12": "no", "perturbations_tested": [],
+        "robustness_outcome": "na"},
+  "G": {"notes": "Human-subjects vignette experiment on attitudes to LLM use in research; LLMs generate no responses. Excluded as not-llm (LLM as stimulus, not subject).", "extractor": "paper-reader (claude-sonnet)", "date": "2026-10-16", "minutes": 3, "sections_read": ["abstract", "introduction", "1.1 participants", "1.2 design", "results", "limitations"]}
+}

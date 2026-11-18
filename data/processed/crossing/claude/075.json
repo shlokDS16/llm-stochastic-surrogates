@@ -1,0 +1,32 @@
+{
+ "order": 75,
+ "study_id": "https://openalex.org/W4387634965",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/075_W4387634965.md",
+ "sources_varied": [
+  "M"
+ ],
+ "X1": {
+  "value": "no",
+  "sources_crossed": [],
+  "evidence": "Methods and Results: one bilingual model trained by the authors, evaluated at successive pre-training checkpoints; checkpoint is the only factor."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "anova_or_mixed_term"
+  ],
+  "x2_sources": [
+   "M"
+  ],
+  "evidence": "Results: linear mixed-effects models of priming on training step with a step-by-condition interaction."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "Training step is a model attribute; no second source."
+ },
+ "notes": ""
+}

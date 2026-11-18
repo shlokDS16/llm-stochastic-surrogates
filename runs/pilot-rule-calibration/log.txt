@@ -1,0 +1,62 @@
+rule calibration: reps=2000 seed=20261017 workers=10 smoke=False
+params (human_mu, SD): {'P1': (1.197, nan), 'P2a': (1.186, 0.291), 'P2b': (2.025, 0.72), 'P2c': (2.227, 0.675), 'P2d': (2.602, 1.268), 'P3': (0.293, 2.185), 'P4': (0.394, 1.176)} P1 p0=0.3352 p1_set=0.6254 p1_pooled=0.6219 lor_pooled_data=1.183
+empirical-variant pooled g: {'P2a': 1.161, 'P2b': 1.767, 'P2c': 1.975, 'P2d': 2.444, 'P3': 0.272, 'P4': 0.399}
+  1000/26000 replicates, 25 s
+  2000/26000 replicates, 46 s
+  3000/26000 replicates, 57 s
+  4000/26000 replicates, 69 s
+  5000/26000 replicates, 80 s
+  6000/26000 replicates, 91 s
+  7000/26000 replicates, 102 s
+  8000/26000 replicates, 113 s
+  9000/26000 replicates, 124 s
+  10000/26000 replicates, 136 s
+  11000/26000 replicates, 147 s
+  12000/26000 replicates, 158 s
+  13000/26000 replicates, 169 s
+  14000/26000 replicates, 181 s
+  15000/26000 replicates, 192 s
+  16000/26000 replicates, 203 s
+  17000/26000 replicates, 215 s
+  18000/26000 replicates, 226 s
+  19000/26000 replicates, 237 s
+  20000/26000 replicates, 248 s
+  21000/26000 replicates, 260 s
+  22000/26000 replicates, 271 s
+  23000/26000 replicates, 283 s
+  24000/26000 replicates, 294 s
+  25000/26000 replicates, 305 s
+  26000/26000 replicates, 316 s
+replicates: 26000, not ok (deterministic cells): 0
+# Rule calibration: zero-spread human-replica model, n = 50 per arm per cell
+
+Replicates per paradigm and variant: 2000 (smoke=False); seed 20261017; Monte-Carlo SE in brackets. Source: `analysis/pilot/rule_calibration.py`; rule = `side_by_side.rule_outcome`. Evidence level E4.
+
+| paradigm | variant | cells | P(fragile) | P(stable) | P(neither) | mean sigma | P(sigma<0.6) | P(range clause) |
+|---|---|---|---|---|---|---|---|---|
+| P1 | normal | 32 | 0.001 (0.000) | 0.283 (0.010) | 0.716 (0.010) | 0.853 (0.001) | 0.001 | 0.000 |
+| P2a | normal | 16 | 0.000 (0.000) | 1.000 (0.000) | 0.000 (0.000) | 1.000 (0.000) | 0.000 | 0.000 |
+| P2a | empirical | 16 | 0.000 (0.000) | 1.000 (0.000) | 0.000 (0.000) | 1.000 (0.000) | 0.000 | 0.000 |
+| P2b | normal | 16 | 0.000 (0.000) | 1.000 (0.000) | 0.000 (0.000) | 1.000 (0.000) | 0.000 | 0.000 |
+| P2b | empirical | 16 | 0.000 (0.000) | 1.000 (0.000) | 0.000 (0.000) | 1.000 (0.000) | 0.000 | 0.000 |
+| P2c | normal | 16 | 0.000 (0.000) | 1.000 (0.000) | 0.000 (0.000) | 1.000 (0.000) | 0.000 | 0.000 |
+| P2c | empirical | 16 | 0.000 (0.000) | 1.000 (0.000) | 0.000 (0.000) | 1.000 (0.000) | 0.000 | 0.000 |
+| P2d | normal | 16 | 0.000 (0.000) | 1.000 (0.000) | 0.000 (0.000) | 1.000 (0.000) | 0.000 | 0.000 |
+| P2d | empirical | 16 | 0.000 (0.000) | 1.000 (0.000) | 0.000 (0.000) | 1.000 (0.000) | 0.000 | 0.000 |
+| P3 | normal | 16 | 0.991 (0.002) | 0.000 (0.000) | 0.009 (0.002) | 0.308 (0.003) | 0.991 | 0.074 |
+| P3 | empirical | 16 | 0.997 (0.001) | 0.000 (0.000) | 0.004 (0.001) | 0.278 (0.003) | 0.997 | 0.097 |
+| P4 | normal | 16 | 0.809 (0.009) | 0.001 (0.001) | 0.190 (0.009) | 0.491 (0.003) | 0.807 | 0.025 |
+| P4 | empirical | 16 | 0.744 (0.010) | 0.000 (0.000) | 0.256 (0.010) | 0.518 (0.003) | 0.743 | 0.016 |
+
+## Human ML1 sites as cells (36 sites; A1 metric rows of site_effects.csv)
+
+| paradigm | sigma (sites with CI above 0) | dbar | S (moment, site_effects) | S^H (table_a1) | range clause | label (moment S) | label (S^H, interval for stable) |
+|---|---|---|---|---|---|---|---|
+| P1 | 0.861 (31/36) | 1.234 | 0.160 | 0.121 | False | neither | neither |
+| P2a | 1.000 (36/36) | 1.236 | 0.171 | 0.128 | False | stable | stable |
+| P2b | 1.000 (36/36) | 2.067 | 0.470 | 0.376 | False | stable | stable |
+| P2c | 1.000 (36/36) | 2.261 | 0.771 | 0.684 | False | stable | stable |
+| P2d | 1.000 (36/36) | 2.640 | 0.423 | 0.288 | False | stable | stable |
+| P3 | 0.417 (15/36) | 0.303 | 0.000 | 0.000 | False | fragile | fragile |
+| P4 | 0.556 (20/36) | 0.377 | 0.151 | 0.154 | False | fragile | fragile |
+done in 317 s

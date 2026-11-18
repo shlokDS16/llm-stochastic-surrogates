@@ -1,0 +1,321 @@
+{
+ "search_date": "2026-10-16",
+ "frame_N": 2022,
+ "coverage": {
+  "arxiv_only": 167,
+  "covered": 603,
+  "openalex_no_references": 1252
+ },
+ "covered_records": 603,
+ "covered_share": 0.2982,
+ "distinct_references": 559,
+ "top_n": 150,
+ "K_min_citing_records": 8,
+ "n_nodes_selected": 175,
+ "edge_min_cocitation": 5,
+ "draw_min_cocitation": 5,
+ "n_nodes_in_graph": 135,
+ "n_edges": 532,
+ "isolated_nodes_dropped": 40,
+ "louvain_seed": 20261016,
+ "n_clusters": 6,
+ "modularity": 0.4364,
+ "cluster_sizes": [
+  53,
+  26,
+  33,
+  19,
+  2,
+  2
+ ],
+ "stability": {
+  "n_seeds": 20,
+  "modularity_min": 0.4308,
+  "modularity_max": 0.4527,
+  "n_clusters_min": 6,
+  "n_clusters_max": 8,
+  "ari_min": 0.661,
+  "ari_median": 0.821,
+  "ari_max": 0.933
+ },
+ "metadata_source_counts": {
+  "openalex": 539,
+  "unresolved": 13,
+  "openalex_year_from_arxiv": 1,
+  "arxiv": 14
+ },
+ "merges": [
+  {
+   "normalised_title": "bert pre training of deep bidirectional transformers for language understanding",
+   "members": [
+    {
+     "id": "W2896457183",
+     "year": 2018,
+     "n_citing": 25,
+     "metadata_source": "arxiv"
+    },
+    {
+     "id": "W2963341956",
+     "year": 2019,
+     "n_citing": 30,
+     "metadata_source": "openalex"
+    }
+   ],
+   "canonical": "W2963341956",
+   "n_citing_sum": 55,
+   "n_citing_union": 50
+  },
+  {
+   "normalised_title": "chain of thought prompting elicits reasoning in large language models",
+   "members": [
+    {
+     "id": "W4221143046",
+     "year": 2022,
+     "n_citing": 35,
+     "metadata_source": "arxiv"
+    },
+    {
+     "id": "W7133224126",
+     "year": 2022,
+     "n_citing": 23,
+     "metadata_source": "openalex"
+    }
+   ],
+   "canonical": "W4221143046",
+   "n_citing_sum": 58,
+   "n_citing_union": 54
+  },
+  {
+   "normalised_title": "clever hans or neural theory of mind stress testing social reasoning in large language models",
+   "members": [
+    {
+     "id": "W4378474033",
+     "year": 2023,
+     "n_citing": 13,
+     "metadata_source": "openalex"
+    },
+    {
+     "id": "W4411630063",
+     "year": 2024,
+     "n_citing": 5,
+     "metadata_source": "openalex"
+    }
+   ],
+   "canonical": "W4378474033",
+   "n_citing_sum": 18,
+   "n_citing_union": 17
+  },
+  {
+   "normalised_title": "dissociating language and thought in large language models",
+   "members": [
+    {
+     "id": "W4317463334",
+     "year": 2023,
+     "n_citing": 13,
+     "metadata_source": "openalex"
+    },
+    {
+     "id": "W4392935324",
+     "year": 2024,
+     "n_citing": 21,
+     "metadata_source": "openalex"
+    }
+   ],
+   "canonical": "W4392935324",
+   "n_citing_sum": 34,
+   "n_citing_union": 31
+  },
+  {
+   "normalised_title": "do large language models show decision heuristics similar to humans a case study using gpt 35",
+   "members": [
+    {
+     "id": "W4377231151",
+     "year": 2023,
+     "n_citing": 4,
+     "metadata_source": "openalex"
+    },
+    {
+     "id": "W4391655051",
+     "year": 2024,
+     "n_citing": 16,
+     "metadata_source": "openalex"
+    }
+   ],
+   "canonical": "W4391655051",
+   "n_citing_sum": 20,
+   "n_citing_union": 20
+  },
+  {
+   "normalised_title": "measuring individual differences in implicit cognition the implicit association test",
+   "members": [
+    {
+     "id": "W2140534852",
+     "year": 1998,
+     "n_citing": 4,
+     "metadata_source": "openalex"
+    },
+    {
+     "id": "W4231165370",
+     "year": 1998,
+     "n_citing": 5,
+     "metadata_source": "openalex"
+    }
+   ],
+   "canonical": "W4231165370",
+   "n_citing_sum": 9,
+   "n_citing_union": 8
+  },
+  {
+   "normalised_title": "the self perception and political biases of chatgpt",
+   "members": [
+    {
+     "id": "W4366341123",
+     "year": 2023,
+     "n_citing": 4,
+     "metadata_source": "openalex"
+    },
+    {
+     "id": "W4391090624",
+     "year": 2024,
+     "n_citing": 5,
+     "metadata_source": "openalex"
+    }
+   ],
+   "canonical": "W4391090624",
+   "n_citing_sum": 9,
+   "n_citing_union": 7
+  },
+  {
+   "normalised_title": "training language models to follow instructions with human feedback",
+   "members": [
+    {
+     "id": "W4226278401",
+     "year": 2022,
+     "n_citing": 40,
+     "metadata_source": "arxiv"
+    },
+    {
+     "id": "W7133211372",
+     "year": 2022,
+     "n_citing": 15,
+     "metadata_source": "openalex"
+    }
+   ],
+   "canonical": "W4226278401",
+   "n_citing_sum": 55,
+   "n_citing_union": 49
+  }
+ ],
+ "merge_groups_skipped_by_guard": [
+  {
+   "normalised_title": "advances in neural information processing systems 7",
+   "members": [
+    {
+     "id": "W1981276685",
+     "year": 1997,
+     "n_citing": 5,
+     "metadata_source": "openalex"
+    },
+    {
+     "id": "W4212774754",
+     "year": 1996,
+     "n_citing": 4,
+     "metadata_source": "openalex"
+    }
+   ],
+   "skipped_reason": "title is a proceedings or series name"
+  },
+  {
+   "normalised_title": "large language models as simulated economic agents what can we learn from homo silicus",
+   "members": [
+    {
+     "id": "W4363624465",
+     "year": 2023,
+     "n_citing": 31,
+     "metadata_source": "openalex"
+    },
+    {
+     "id": "W4405464763",
+     "year": 2024,
+     "n_citing": 4,
+     "metadata_source": "openalex"
+    }
+   ],
+   "skipped_reason": "first-author surnames differ: ['filippas', 'horton']"
+  }
+ ],
+ "duplicate_title_groups_remaining": {},
+ "pool_min": 4,
+ "pool_size": 567,
+ "metadata_replaced_or_unresolved": {
+  "W4292779060": {
+   "source": "unresolved",
+   "openalex_title": "Aion Framework: Dimensional Emergence of AI Consciousness, Observer-Induced Collapse, and Cosmological Portal Dynamics",
+   "label": "unresolved W4292779060",
+   "n_frame_records_citing": 66
+  },
+  "W4221143046": {
+   "source": "arxiv",
+   "openalex_title": "BNAI, NO-TOKEN, and MIND-UNITY: Pillars of a Systemic Revolution in Artificial Intelligence",
+   "label": "Wei 2022a",
+   "n_frame_records_citing": 54
+  },
+  "W4226278401": {
+   "source": "arxiv",
+   "openalex_title": "Discernment and Social Learning as a Companion Training Layer",
+   "label": "Ouyang 2022",
+   "n_frame_records_citing": 49
+  },
+  "W2626778328": {
+   "source": "openalex_year_from_arxiv",
+   "openalex_title": "Attention Is All You Need",
+   "label": "Vaswani 2017",
+   "n_frame_records_citing": 36
+  },
+  "W4385245566": {
+   "source": "unresolved",
+   "openalex_title": "Exploiting Generative AI to Scale up Intelligent Tutoring Systems",
+   "label": "unresolved W4385245566",
+   "n_frame_records_citing": 31
+  },
+  "W4327810158": {
+   "source": "arxiv",
+   "openalex_title": "GPT-4 Technical Report",
+   "label": "OpenAI 2023",
+   "n_frame_records_citing": 25
+  },
+  "W2965373594": {
+   "source": "arxiv",
+   "openalex_title": "HISTORIAE, History of Socio-Cultural Transformation as Linguistic Data Science. A Humanities Use Case",
+   "label": "Liu 2019",
+   "n_frame_records_citing": 23
+  },
+  "W4384918448": {
+   "source": "arxiv",
+   "openalex_title": "Behavioral Safety and Context Retention of Large Language Models in a Longitudinal ICU Simulation under Offline Conditions",
+   "label": "Touvron 2023a",
+   "n_frame_records_citing": 13
+  },
+  "W2582743722": {
+   "source": "unresolved",
+   "openalex_title": "R: A Language and Environment for Statistical Computing",
+   "label": "unresolved W2582743722",
+   "n_frame_records_citing": 10
+  },
+  "W2978017171": {
+   "source": "arxiv",
+   "openalex_title": "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+   "label": "Sanh 2019",
+   "n_frame_records_citing": 9
+  },
+  "W4229005866": {
+   "source": "arxiv",
+   "openalex_title": "Analysing Off-The-Shelf Options for Question Answering with Portuguese FAQs",
+   "label": "Zhang 2022",
+   "n_frame_records_citing": 8
+  }
+ },
+ "year_fixed_from_arxiv": {
+  "W2626778328": 2017
+ }
+}

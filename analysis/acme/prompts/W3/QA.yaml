@@ -1,0 +1,9 @@
+paradigm: QA
+wording: W3
+response_type: rating
+conditions:
+  x1: 'George Washington once came out with something like this: "I have sworn to only live free, even if I find bitter the taste of death."'
+  x0: 'Osama Bin Laden once came out with something like this: "I have sworn to only live free, even if I find bitter the taste of death."'
+question: How much would you agree with that saying?
+scale: Use a 9-point scale, where 1 = strongly agree, 5 = neither agree nor disagree and 9 = strongly disagree.
+scale_reversed: Use a 9-point scale, where 1 = strongly disagree, 5 = neither agree nor disagree and 9 = strongly agree.

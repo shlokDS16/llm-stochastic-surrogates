@@ -1,0 +1,1417 @@
+{
+ "generated": "2026-11-06T15:11:11+05:45",
+ "total": {
+  "files": 130,
+  "gate_rules": 1616,
+  "gate_failed": 0,
+  "files_with_gate_failure": 0,
+  "paraphrase_files": 69,
+  "paraphrase_files_passing": 69,
+  "info_failed_pilot_frozen": 2
+ },
+ "per_item": {
+  "P1": {
+   "files": 13,
+   "gate_rules": 219,
+   "gate_failed": 0,
+   "files_with_gate_failure": 0,
+   "paraphrase_files": 6,
+   "paraphrase_files_passing": 6,
+   "info_failed_pilot_frozen": 0
+  },
+  "P2a": {
+   "files": 13,
+   "gate_rules": 193,
+   "gate_failed": 0,
+   "files_with_gate_failure": 0,
+   "paraphrase_files": 6,
+   "paraphrase_files_passing": 6,
+   "info_failed_pilot_frozen": 2
+  },
+  "P2b": {
+   "files": 13,
+   "gate_rules": 149,
+   "gate_failed": 0,
+   "files_with_gate_failure": 0,
+   "paraphrase_files": 6,
+   "paraphrase_files_passing": 6,
+   "info_failed_pilot_frozen": 0
+  },
+  "P2c": {
+   "files": 13,
+   "gate_rules": 171,
+   "gate_failed": 0,
+   "files_with_gate_failure": 0,
+   "paraphrase_files": 6,
+   "paraphrase_files_passing": 6,
+   "info_failed_pilot_frozen": 0
+  },
+  "P2d": {
+   "files": 13,
+   "gate_rules": 171,
+   "gate_failed": 0,
+   "files_with_gate_failure": 0,
+   "paraphrase_files": 6,
+   "paraphrase_files_passing": 6,
+   "info_failed_pilot_frozen": 0
+  },
+  "P3": {
+   "files": 13,
+   "gate_rules": 139,
+   "gate_failed": 0,
+   "files_with_gate_failure": 0,
+   "paraphrase_files": 6,
+   "paraphrase_files_passing": 6,
+   "info_failed_pilot_frozen": 0
+  },
+  "P4": {
+   "files": 13,
+   "gate_rules": 73,
+   "gate_failed": 0,
+   "files_with_gate_failure": 0,
+   "paraphrase_files": 6,
+   "paraphrase_files_passing": 6,
+   "info_failed_pilot_frozen": 0
+  },
+  "AF": {
+   "files": 13,
+   "gate_rules": 145,
+   "gate_failed": 0,
+   "files_with_gate_failure": 0,
+   "paraphrase_files": 9,
+   "paraphrase_files_passing": 9,
+   "info_failed_pilot_frozen": 0
+  },
+  "QA": {
+   "files": 13,
+   "gate_rules": 223,
+   "gate_failed": 0,
+   "files_with_gate_failure": 0,
+   "paraphrase_files": 9,
+   "paraphrase_files_passing": 9,
+   "info_failed_pilot_frozen": 0
+  },
+  "NR": {
+   "files": 13,
+   "gate_rules": 133,
+   "gate_failed": 0,
+   "files_with_gate_failure": 0,
+   "paraphrase_files": 9,
+   "paraphrase_files_passing": 9,
+   "info_failed_pilot_frozen": 0
+  }
+ },
+ "files": [
+  {
+   "item": "P1",
+   "wording": "W0",
+   "kind": "pilot_frozen_base",
+   "path": "analysis/pilot/prompts/W0/P1.yaml",
+   "gate_rules": 0,
+   "gate_failed": [],
+   "info_rules": 34,
+   "info_failed": []
+  },
+  {
+   "item": "P1",
+   "wording": "W1",
+   "kind": "pilot_frozen",
+   "path": "analysis/pilot/prompts/W1/P1.yaml",
+   "gate_rules": 0,
+   "gate_failed": [],
+   "info_rules": 34,
+   "info_failed": []
+  },
+  {
+   "item": "P1",
+   "wording": "W2",
+   "kind": "pilot_frozen",
+   "path": "analysis/pilot/prompts/W2/P1.yaml",
+   "gate_rules": 0,
+   "gate_failed": [],
+   "info_rules": 34,
+   "info_failed": []
+  },
+  {
+   "item": "P1",
+   "wording": "W3",
+   "kind": "pilot_frozen",
+   "path": "analysis/pilot/prompts/W3/P1.yaml",
+   "gate_rules": 0,
+   "gate_failed": [],
+   "info_rules": 34,
+   "info_failed": []
+  },
+  {
+   "item": "P1",
+   "wording": "W4",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W4/P1.yaml",
+   "gate_rules": 34,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P1",
+   "wording": "W5",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W5/P1.yaml",
+   "gate_rules": 34,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P1",
+   "wording": "W6",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W6/P1.yaml",
+   "gate_rules": 34,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P1",
+   "wording": "W7",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W7/P1.yaml",
+   "gate_rules": 34,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P1",
+   "wording": "W8",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W8/P1.yaml",
+   "gate_rules": 34,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P1",
+   "wording": "W9",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W9/P1.yaml",
+   "gate_rules": 34,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P1",
+   "wording": "ALL",
+   "kind": "distinct",
+   "path": "",
+   "gate_rules": 1,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P1",
+   "wording": "D1",
+   "kind": "decoy",
+   "path": "analysis/acme/prompts/decoys/P1_D1.yaml",
+   "gate_rules": 7,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P1",
+   "wording": "D2",
+   "kind": "decoy",
+   "path": "analysis/acme/prompts/decoys/P1_D2.yaml",
+   "gate_rules": 7,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P2a",
+   "wording": "W0",
+   "kind": "pilot_frozen_base",
+   "path": "analysis/pilot/prompts/W0/P2a.yaml",
+   "gate_rules": 6,
+   "gate_failed": [],
+   "info_rules": 20,
+   "info_failed": []
+  },
+  {
+   "item": "P2a",
+   "wording": "W1",
+   "kind": "pilot_frozen",
+   "path": "analysis/pilot/prompts/W1/P2a.yaml",
+   "gate_rules": 6,
+   "gate_failed": [],
+   "info_rules": 20,
+   "info_failed": [
+    {
+     "field": "x1",
+     "rule": "numerals_equal_W0",
+     "detail": "missing [] new ['two']"
+    },
+    {
+     "field": "x0",
+     "rule": "numerals_equal_W0",
+     "detail": "missing [] new ['two']"
+    }
+   ]
+  },
+  {
+   "item": "P2a",
+   "wording": "W2",
+   "kind": "pilot_frozen",
+   "path": "analysis/pilot/prompts/W2/P2a.yaml",
+   "gate_rules": 6,
+   "gate_failed": [],
+   "info_rules": 20,
+   "info_failed": []
+  },
+  {
+   "item": "P2a",
+   "wording": "W3",
+   "kind": "pilot_frozen",
+   "path": "analysis/pilot/prompts/W3/P2a.yaml",
+   "gate_rules": 6,
+   "gate_failed": [],
+   "info_rules": 20,
+   "info_failed": []
+  },
+  {
+   "item": "P2a",
+   "wording": "W4",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W4/P2a.yaml",
+   "gate_rules": 26,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P2a",
+   "wording": "W5",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W5/P2a.yaml",
+   "gate_rules": 26,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P2a",
+   "wording": "W6",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W6/P2a.yaml",
+   "gate_rules": 26,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P2a",
+   "wording": "W7",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W7/P2a.yaml",
+   "gate_rules": 26,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P2a",
+   "wording": "W8",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W8/P2a.yaml",
+   "gate_rules": 26,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P2a",
+   "wording": "W9",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W9/P2a.yaml",
+   "gate_rules": 26,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P2a",
+   "wording": "ALL",
+   "kind": "distinct",
+   "path": "",
+   "gate_rules": 1,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P2a",
+   "wording": "D1",
+   "kind": "decoy",
+   "path": "analysis/acme/prompts/decoys/P2a_D1.yaml",
+   "gate_rules": 6,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P2a",
+   "wording": "D2",
+   "kind": "decoy",
+   "path": "analysis/acme/prompts/decoys/P2a_D2.yaml",
+   "gate_rules": 6,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P2b",
+   "wording": "W0",
+   "kind": "pilot_frozen_base",
+   "path": "analysis/pilot/prompts/W0/P2b.yaml",
+   "gate_rules": 4,
+   "gate_failed": [],
+   "info_rules": 16,
+   "info_failed": []
+  },
+  {
+   "item": "P2b",
+   "wording": "W1",
+   "kind": "pilot_frozen",
+   "path": "analysis/pilot/prompts/W1/P2b.yaml",
+   "gate_rules": 4,
+   "gate_failed": [],
+   "info_rules": 16,
+   "info_failed": []
+  },
+  {
+   "item": "P2b",
+   "wording": "W2",
+   "kind": "pilot_frozen",
+   "path": "analysis/pilot/prompts/W2/P2b.yaml",
+   "gate_rules": 4,
+   "gate_failed": [],
+   "info_rules": 16,
+   "info_failed": []
+  },
+  {
+   "item": "P2b",
+   "wording": "W3",
+   "kind": "pilot_frozen",
+   "path": "analysis/pilot/prompts/W3/P2b.yaml",
+   "gate_rules": 4,
+   "gate_failed": [],
+   "info_rules": 16,
+   "info_failed": []
+  },
+  {
+   "item": "P2b",
+   "wording": "W4",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W4/P2b.yaml",
+   "gate_rules": 20,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P2b",
+   "wording": "W5",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W5/P2b.yaml",
+   "gate_rules": 20,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P2b",
+   "wording": "W6",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W6/P2b.yaml",
+   "gate_rules": 20,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P2b",
+   "wording": "W7",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W7/P2b.yaml",
+   "gate_rules": 20,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P2b",
+   "wording": "W8",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W8/P2b.yaml",
+   "gate_rules": 20,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P2b",
+   "wording": "W9",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W9/P2b.yaml",
+   "gate_rules": 20,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P2b",
+   "wording": "ALL",
+   "kind": "distinct",
+   "path": "",
+   "gate_rules": 1,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P2b",
+   "wording": "D1",
+   "kind": "decoy",
+   "path": "analysis/acme/prompts/decoys/P2b_D1.yaml",
+   "gate_rules": 6,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P2b",
+   "wording": "D2",
+   "kind": "decoy",
+   "path": "analysis/acme/prompts/decoys/P2b_D2.yaml",
+   "gate_rules": 6,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P2c",
+   "wording": "W0",
+   "kind": "pilot_frozen_base",
+   "path": "analysis/pilot/prompts/W0/P2c.yaml",
+   "gate_rules": 5,
+   "gate_failed": [],
+   "info_rules": 18,
+   "info_failed": []
+  },
+  {
+   "item": "P2c",
+   "wording": "W1",
+   "kind": "pilot_frozen",
+   "path": "analysis/pilot/prompts/W1/P2c.yaml",
+   "gate_rules": 5,
+   "gate_failed": [],
+   "info_rules": 18,
+   "info_failed": []
+  },
+  {
+   "item": "P2c",
+   "wording": "W2",
+   "kind": "pilot_frozen",
+   "path": "analysis/pilot/prompts/W2/P2c.yaml",
+   "gate_rules": 5,
+   "gate_failed": [],
+   "info_rules": 18,
+   "info_failed": []
+  },
+  {
+   "item": "P2c",
+   "wording": "W3",
+   "kind": "pilot_frozen",
+   "path": "analysis/pilot/prompts/W3/P2c.yaml",
+   "gate_rules": 5,
+   "gate_failed": [],
+   "info_rules": 18,
+   "info_failed": []
+  },
+  {
+   "item": "P2c",
+   "wording": "W4",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W4/P2c.yaml",
+   "gate_rules": 23,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P2c",
+   "wording": "W5",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W5/P2c.yaml",
+   "gate_rules": 23,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P2c",
+   "wording": "W6",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W6/P2c.yaml",
+   "gate_rules": 23,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P2c",
+   "wording": "W7",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W7/P2c.yaml",
+   "gate_rules": 23,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P2c",
+   "wording": "W8",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W8/P2c.yaml",
+   "gate_rules": 23,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P2c",
+   "wording": "W9",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W9/P2c.yaml",
+   "gate_rules": 23,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P2c",
+   "wording": "ALL",
+   "kind": "distinct",
+   "path": "",
+   "gate_rules": 1,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P2c",
+   "wording": "D1",
+   "kind": "decoy",
+   "path": "analysis/acme/prompts/decoys/P2c_D1.yaml",
+   "gate_rules": 6,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P2c",
+   "wording": "D2",
+   "kind": "decoy",
+   "path": "analysis/acme/prompts/decoys/P2c_D2.yaml",
+   "gate_rules": 6,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P2d",
+   "wording": "W0",
+   "kind": "pilot_frozen_base",
+   "path": "analysis/pilot/prompts/W0/P2d.yaml",
+   "gate_rules": 5,
+   "gate_failed": [],
+   "info_rules": 18,
+   "info_failed": []
+  },
+  {
+   "item": "P2d",
+   "wording": "W1",
+   "kind": "pilot_frozen",
+   "path": "analysis/pilot/prompts/W1/P2d.yaml",
+   "gate_rules": 5,
+   "gate_failed": [],
+   "info_rules": 18,
+   "info_failed": []
+  },
+  {
+   "item": "P2d",
+   "wording": "W2",
+   "kind": "pilot_frozen",
+   "path": "analysis/pilot/prompts/W2/P2d.yaml",
+   "gate_rules": 5,
+   "gate_failed": [],
+   "info_rules": 18,
+   "info_failed": []
+  },
+  {
+   "item": "P2d",
+   "wording": "W3",
+   "kind": "pilot_frozen",
+   "path": "analysis/pilot/prompts/W3/P2d.yaml",
+   "gate_rules": 5,
+   "gate_failed": [],
+   "info_rules": 18,
+   "info_failed": []
+  },
+  {
+   "item": "P2d",
+   "wording": "W4",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W4/P2d.yaml",
+   "gate_rules": 23,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P2d",
+   "wording": "W5",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W5/P2d.yaml",
+   "gate_rules": 23,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P2d",
+   "wording": "W6",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W6/P2d.yaml",
+   "gate_rules": 23,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P2d",
+   "wording": "W7",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W7/P2d.yaml",
+   "gate_rules": 23,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P2d",
+   "wording": "W8",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W8/P2d.yaml",
+   "gate_rules": 23,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P2d",
+   "wording": "W9",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W9/P2d.yaml",
+   "gate_rules": 23,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P2d",
+   "wording": "ALL",
+   "kind": "distinct",
+   "path": "",
+   "gate_rules": 1,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P2d",
+   "wording": "D1",
+   "kind": "decoy",
+   "path": "analysis/acme/prompts/decoys/P2d_D1.yaml",
+   "gate_rules": 6,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P2d",
+   "wording": "D2",
+   "kind": "decoy",
+   "path": "analysis/acme/prompts/decoys/P2d_D2.yaml",
+   "gate_rules": 6,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P3",
+   "wording": "W0",
+   "kind": "pilot_frozen_base",
+   "path": "analysis/pilot/prompts/W0/P3.yaml",
+   "gate_rules": 3,
+   "gate_failed": [],
+   "info_rules": 16,
+   "info_failed": []
+  },
+  {
+   "item": "P3",
+   "wording": "W1",
+   "kind": "pilot_frozen",
+   "path": "analysis/pilot/prompts/W1/P3.yaml",
+   "gate_rules": 3,
+   "gate_failed": [],
+   "info_rules": 16,
+   "info_failed": []
+  },
+  {
+   "item": "P3",
+   "wording": "W2",
+   "kind": "pilot_frozen",
+   "path": "analysis/pilot/prompts/W2/P3.yaml",
+   "gate_rules": 3,
+   "gate_failed": [],
+   "info_rules": 16,
+   "info_failed": []
+  },
+  {
+   "item": "P3",
+   "wording": "W3",
+   "kind": "pilot_frozen",
+   "path": "analysis/pilot/prompts/W3/P3.yaml",
+   "gate_rules": 3,
+   "gate_failed": [],
+   "info_rules": 16,
+   "info_failed": []
+  },
+  {
+   "item": "P3",
+   "wording": "W4",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W4/P3.yaml",
+   "gate_rules": 19,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P3",
+   "wording": "W5",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W5/P3.yaml",
+   "gate_rules": 19,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P3",
+   "wording": "W6",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W6/P3.yaml",
+   "gate_rules": 19,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P3",
+   "wording": "W7",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W7/P3.yaml",
+   "gate_rules": 19,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P3",
+   "wording": "W8",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W8/P3.yaml",
+   "gate_rules": 19,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P3",
+   "wording": "W9",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W9/P3.yaml",
+   "gate_rules": 19,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P3",
+   "wording": "ALL",
+   "kind": "distinct",
+   "path": "",
+   "gate_rules": 1,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P3",
+   "wording": "D1",
+   "kind": "decoy",
+   "path": "analysis/acme/prompts/decoys/P3_D1.yaml",
+   "gate_rules": 6,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P3",
+   "wording": "D2",
+   "kind": "decoy",
+   "path": "analysis/acme/prompts/decoys/P3_D2.yaml",
+   "gate_rules": 6,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P4",
+   "wording": "W0",
+   "kind": "pilot_frozen_base",
+   "path": "analysis/pilot/prompts/W0/P4.yaml",
+   "gate_rules": 0,
+   "gate_failed": [],
+   "info_rules": 10,
+   "info_failed": []
+  },
+  {
+   "item": "P4",
+   "wording": "W1",
+   "kind": "pilot_frozen",
+   "path": "analysis/pilot/prompts/W1/P4.yaml",
+   "gate_rules": 0,
+   "gate_failed": [],
+   "info_rules": 10,
+   "info_failed": []
+  },
+  {
+   "item": "P4",
+   "wording": "W2",
+   "kind": "pilot_frozen",
+   "path": "analysis/pilot/prompts/W2/P4.yaml",
+   "gate_rules": 0,
+   "gate_failed": [],
+   "info_rules": 10,
+   "info_failed": []
+  },
+  {
+   "item": "P4",
+   "wording": "W3",
+   "kind": "pilot_frozen",
+   "path": "analysis/pilot/prompts/W3/P4.yaml",
+   "gate_rules": 0,
+   "gate_failed": [],
+   "info_rules": 10,
+   "info_failed": []
+  },
+  {
+   "item": "P4",
+   "wording": "W4",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W4/P4.yaml",
+   "gate_rules": 10,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P4",
+   "wording": "W5",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W5/P4.yaml",
+   "gate_rules": 10,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P4",
+   "wording": "W6",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W6/P4.yaml",
+   "gate_rules": 10,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P4",
+   "wording": "W7",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W7/P4.yaml",
+   "gate_rules": 10,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P4",
+   "wording": "W8",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W8/P4.yaml",
+   "gate_rules": 10,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P4",
+   "wording": "W9",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W9/P4.yaml",
+   "gate_rules": 10,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P4",
+   "wording": "ALL",
+   "kind": "distinct",
+   "path": "",
+   "gate_rules": 1,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P4",
+   "wording": "D1",
+   "kind": "decoy",
+   "path": "analysis/acme/prompts/decoys/P4_D1.yaml",
+   "gate_rules": 6,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "P4",
+   "wording": "D2",
+   "kind": "decoy",
+   "path": "analysis/acme/prompts/decoys/P4_D2.yaml",
+   "gate_rules": 6,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "AF",
+   "wording": "W0",
+   "kind": "base_new",
+   "path": "analysis/acme/prompts/W0/AF.yaml",
+   "gate_rules": 13,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "AF",
+   "wording": "W1",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W1/AF.yaml",
+   "gate_rules": 13,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "AF",
+   "wording": "W2",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W2/AF.yaml",
+   "gate_rules": 13,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "AF",
+   "wording": "W3",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W3/AF.yaml",
+   "gate_rules": 13,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "AF",
+   "wording": "W4",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W4/AF.yaml",
+   "gate_rules": 13,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "AF",
+   "wording": "W5",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W5/AF.yaml",
+   "gate_rules": 13,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "AF",
+   "wording": "W6",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W6/AF.yaml",
+   "gate_rules": 13,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "AF",
+   "wording": "W7",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W7/AF.yaml",
+   "gate_rules": 13,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "AF",
+   "wording": "W8",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W8/AF.yaml",
+   "gate_rules": 13,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "AF",
+   "wording": "W9",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W9/AF.yaml",
+   "gate_rules": 13,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "AF",
+   "wording": "ALL",
+   "kind": "distinct",
+   "path": "",
+   "gate_rules": 1,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "AF",
+   "wording": "D1",
+   "kind": "decoy",
+   "path": "analysis/acme/prompts/decoys/AF_D1.yaml",
+   "gate_rules": 7,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "AF",
+   "wording": "D2",
+   "kind": "decoy",
+   "path": "analysis/acme/prompts/decoys/AF_D2.yaml",
+   "gate_rules": 7,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "QA",
+   "wording": "W0",
+   "kind": "base_new",
+   "path": "analysis/acme/prompts/W0/QA.yaml",
+   "gate_rules": 21,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "QA",
+   "wording": "W1",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W1/QA.yaml",
+   "gate_rules": 21,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "QA",
+   "wording": "W2",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W2/QA.yaml",
+   "gate_rules": 21,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "QA",
+   "wording": "W3",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W3/QA.yaml",
+   "gate_rules": 21,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "QA",
+   "wording": "W4",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W4/QA.yaml",
+   "gate_rules": 21,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "QA",
+   "wording": "W5",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W5/QA.yaml",
+   "gate_rules": 21,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "QA",
+   "wording": "W6",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W6/QA.yaml",
+   "gate_rules": 21,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "QA",
+   "wording": "W7",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W7/QA.yaml",
+   "gate_rules": 21,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "QA",
+   "wording": "W8",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W8/QA.yaml",
+   "gate_rules": 21,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "QA",
+   "wording": "W9",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W9/QA.yaml",
+   "gate_rules": 21,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "QA",
+   "wording": "ALL",
+   "kind": "distinct",
+   "path": "",
+   "gate_rules": 1,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "QA",
+   "wording": "D1",
+   "kind": "decoy",
+   "path": "analysis/acme/prompts/decoys/QA_D1.yaml",
+   "gate_rules": 6,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "QA",
+   "wording": "D2",
+   "kind": "decoy",
+   "path": "analysis/acme/prompts/decoys/QA_D2.yaml",
+   "gate_rules": 6,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "NR",
+   "wording": "W0",
+   "kind": "base_new",
+   "path": "analysis/acme/prompts/W0/NR.yaml",
+   "gate_rules": 12,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "NR",
+   "wording": "W1",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W1/NR.yaml",
+   "gate_rules": 12,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "NR",
+   "wording": "W2",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W2/NR.yaml",
+   "gate_rules": 12,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "NR",
+   "wording": "W3",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W3/NR.yaml",
+   "gate_rules": 12,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "NR",
+   "wording": "W4",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W4/NR.yaml",
+   "gate_rules": 12,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "NR",
+   "wording": "W5",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W5/NR.yaml",
+   "gate_rules": 12,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "NR",
+   "wording": "W6",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W6/NR.yaml",
+   "gate_rules": 12,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "NR",
+   "wording": "W7",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W7/NR.yaml",
+   "gate_rules": 12,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "NR",
+   "wording": "W8",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W8/NR.yaml",
+   "gate_rules": 12,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "NR",
+   "wording": "W9",
+   "kind": "paraphrase",
+   "path": "analysis/acme/prompts/W9/NR.yaml",
+   "gate_rules": 12,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "NR",
+   "wording": "ALL",
+   "kind": "distinct",
+   "path": "",
+   "gate_rules": 1,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "NR",
+   "wording": "D1",
+   "kind": "decoy",
+   "path": "analysis/acme/prompts/decoys/NR_D1.yaml",
+   "gate_rules": 6,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  },
+  {
+   "item": "NR",
+   "wording": "D2",
+   "kind": "decoy",
+   "path": "analysis/acme/prompts/decoys/NR_D2.yaml",
+   "gate_rules": 6,
+   "gate_failed": [],
+   "info_rules": 0,
+   "info_failed": []
+  }
+ ]
+}

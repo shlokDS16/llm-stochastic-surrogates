@@ -1,0 +1,26 @@
+{
+  "order": 21,
+  "study_id": "https://openalex.org/W4389520324",
+  "pass": "codex",
+  "brief_version": "1.0",
+  "date": "2026-11-07",
+  "full_text": "research/sources/md/fulltext/021_W4389520324.md",
+  "sources_varied": ["M", "W", "R"],
+  "X1": {
+    "value": "partial",
+    "sources_crossed": [],
+    "evidence": "Sec. 3.1 and Appendix D: three models used the same social-group prompts; Appendix L varied prompt styles in a sensitivity analysis across the models. Ten rounds were aggregated and prompt-style runs analyzed separately, but the sources were not fully crossed."
+  },
+  "X2": {
+    "value": "yes",
+    "x2_types": ["effect_change"],
+    "x2_sources": ["W"],
+    "evidence": "Appendix L, Tables 13–14: prompt-style sensitivity reports coefficient-of-variation results across prompt variants for Competence and Warmth."
+  },
+  "X3": {
+    "value": "no",
+    "x3_pairs": [],
+    "evidence": "Appendix L, Tables 13–14 reports prompt-style sensitivity by model but does not estimate or show a model-by-wording interaction."
+  },
+  "notes": "R counted because the study reports results aggregated over ten rounds; it does not analyze run-to-run variation as a design factor."
+}

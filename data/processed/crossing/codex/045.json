@@ -1,0 +1,36 @@
+{
+ "order": 45,
+ "study_id": "https://openalex.org/W4386272709",
+ "pass": "codex",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/045_W4386272709.md",
+ "sources_varied": [
+  "M",
+  "T",
+  "W"
+ ],
+ "X1": {
+  "value": "partial",
+  "sources_crossed": [],
+  "evidence": "Methods, Procedures: GPT-3.5 and GPT-4 were each tested across four temperatures with the original prompt, then at temperature 0 across three prompt sets; these factors were varied in separate rounds."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "anova_or_mixed_term",
+   "effect_change"
+  ],
+  "x2_sources": [
+   "T",
+   "W"
+  ],
+  "evidence": "Methods, Procedures; Results, Figure 1: authors checked statistical changes and report outcomes across varying temperatures and prompts, with standard deviations shown at fixed levels."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "Results, Figure 1 and Methods, Procedures: robustness results are shown across separate temperature and prompt variations; no source-by-source interaction is estimated or described."
+ },
+ "notes": ""
+}

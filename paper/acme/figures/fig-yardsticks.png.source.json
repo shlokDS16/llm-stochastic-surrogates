@@ -1,0 +1,25 @@
+{
+ "script": "analysis/acme/figures/fig_yardsticks_route.py",
+ "gstudy_dir": "runs/acme-gstudy/route-table",
+ "gstudy_dir_resolved": "C:\\Users\\Shlok\\Downloads\\Thenboli ma'am review paper\\runs\\acme-gstudy\\route-table",
+ "git_head": "998723cbed0898076c76fd888bc57a6d0237ebb7",
+ "timestamp_utc": "2026-11-07T19:26:39+00:00",
+ "inputs": {
+  "runs/acme-gstudy/A1-route-b-pertype/yardsticks.csv": "7382472efdb81fcd7f18a45c00702ce02b40ad3c4bc7158d8a4f6a2effb10350",
+  "runs/acme-S-gstudy/route-a-yardsticks/drawcorr/yardsticks.csv": "ac86cb409721ce7c942c910afd17fbe18996a20cacd0cfe839bdcd073c154fcc",
+  "runs/acme-S-gstudy/route-a-yardsticks/raw/yardsticks.csv": "1dd51748c44f556aa19492648b8df144b71ba6cf9dfffb9bf040e38d2731d487",
+  "runs/human-ml1-acme/arml_scales.csv": "6be5e76ffa533f7180fa10638265e7f04ca8019b2a2f3c7e26385fbd49ad8a2a"
+ },
+ "items": [
+  "P1",
+  "P3",
+  "AF",
+  "QA",
+  "NR",
+  "P2a",
+  "P2b",
+  "P2c",
+  "P2d",
+  "P4"
+ ]
+}

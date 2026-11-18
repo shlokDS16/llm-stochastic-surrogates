@@ -1,0 +1,260 @@
+{
+  "order": 134,
+  "study_id": "https://openalex.org/W4387185333",
+  "full_text": {
+    "obtained": true,
+    "source": "research/sources/md/fulltext/134_W4387185333.md"
+  },
+  "eligibility": {
+    "decision": "YES",
+    "failed_criterion": null,
+    "borderline": false,
+    "evidence": "Sections 3.1–3.5 test GPT-3 on five cognitive effects drawn from cited human paradigms, using model prompts and reported results."
+  },
+  "A": {
+    "doi": null,
+    "arxiv_id": null,
+    "title": "Cognitive Effects in Large Language Models",
+    "first_author": "Jonathan Shaki",
+    "year": 2023,
+    "venue": "not_reported",
+    "peer_reviewed": "preprint",
+    "first_author_field": "CS",
+    "country": "Israel"
+  },
+  "B": {
+    "models": [
+      {
+        "name": "GPT-3",
+        "version": "text-davinci-003",
+        "access": "API",
+        "params_b": null,
+        "release_date": "not_reported",
+        "tuning": "instruction",
+        "family": "GPT",
+        "query_date": "not_reported"
+      }
+    ],
+    "n_models": 1,
+    "n_model_families": 1
+  },
+  "C": {
+    "paradigms": [
+      {
+        "pid": "P1",
+        "name": "Semantic priming in word recognition",
+        "family": "LANG",
+        "source_paper": "Hutchison et al. (2013), The semantic priming project",
+        "items_origin": "adapted",
+        "n_items": 300,
+        "languages": [
+          "English"
+        ],
+        "modality": "text",
+        "contamination_risk": "partly",
+        "location": "Section 3.1; Table 1"
+      },
+      {
+        "pid": "P2",
+        "name": "Distance effect in comparative judgments",
+        "family": "NUM",
+        "source_paper": "Moyer and Landauer (1967); Moyer (1973); Paivio (1975)",
+        "items_origin": "adapted",
+        "n_items": null,
+        "languages": [
+          "English"
+        ],
+        "modality": "text",
+        "contamination_risk": "partly",
+        "location": "Section 3.2; Figure 1; Figure 2"
+      },
+      {
+        "pid": "P3",
+        "name": "SNARC effect",
+        "family": "NUM",
+        "source_paper": "Shaki and Fischer (2018)",
+        "items_origin": "adapted",
+        "n_items": 8,
+        "languages": [
+          "English"
+        ],
+        "modality": "text",
+        "contamination_risk": "partly",
+        "location": "Section 3.3; Table 2"
+      },
+      {
+        "pid": "P4",
+        "name": "Size congruity effect",
+        "family": "NUM",
+        "source_paper": "Foltz et al. (1984); Rubinsten and Henik (2002)",
+        "items_origin": "adapted",
+        "n_items": null,
+        "languages": [
+          "English"
+        ],
+        "modality": "text",
+        "contamination_risk": "partly",
+        "location": "Section 3.4; Table 3"
+      },
+      {
+        "pid": "P5",
+        "name": "Anchoring effect in sequence-length estimation",
+        "family": "HB",
+        "source_paper": "Tversky and Kahneman (1974)",
+        "items_origin": "novel",
+        "n_items": 21,
+        "languages": [
+          "English"
+        ],
+        "modality": "text",
+        "contamination_risk": "no",
+        "location": "Section 3.5; Table 4"
+      }
+    ]
+  },
+  "D": {
+    "types": [
+      "published_norms"
+    ],
+    "primary_type": "published_norms",
+    "human_n": null,
+    "population": "Human paradigms and findings from cited prior studies; no human sample collected in this paper.",
+    "metric": "not_reported"
+  },
+  "E": {
+    "outcome_types": [
+      "bias_magnitude",
+      "effect_size"
+    ],
+    "rows_aggregated": false,
+    "effects": [
+      {
+        "pid": "P1",
+        "model": "text-davinci-003",
+        "model_family": "GPT",
+        "outcome_kind": "effect",
+        "basis": "test",
+        "model_effect_present": "yes",
+        "human_effect_present": "yes",
+        "direction": "same",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "SAME-DIRECTION-UNQUANTIFIED",
+        "location": "Section 3.1; Table 1"
+      },
+      {
+        "pid": "P2",
+        "model": "text-davinci-003",
+        "model_family": "GPT",
+        "outcome_kind": "effect",
+        "basis": "test",
+        "model_effect_present": "yes",
+        "human_effect_present": "yes",
+        "direction": "same",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "SAME-DIRECTION-UNQUANTIFIED",
+        "location": "Section 3.2; Figure 1; Figure 2"
+      },
+      {
+        "pid": "P3",
+        "model": "text-davinci-003",
+        "model_family": "GPT",
+        "outcome_kind": "effect",
+        "basis": "test",
+        "model_effect_present": "yes",
+        "human_effect_present": "yes",
+        "direction": "same",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "SAME-DIRECTION-UNQUANTIFIED",
+        "location": "Section 3.3; Table 2"
+      },
+      {
+        "pid": "P4",
+        "model": "text-davinci-003",
+        "model_family": "GPT",
+        "outcome_kind": "effect",
+        "basis": "test",
+        "model_effect_present": "yes",
+        "human_effect_present": "yes",
+        "direction": "same",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "SAME-DIRECTION-UNQUANTIFIED",
+        "location": "Section 3.4; Table 3"
+      },
+      {
+        "pid": "P5",
+        "model": "text-davinci-003",
+        "model_family": "GPT",
+        "outcome_kind": "effect",
+        "basis": "test",
+        "model_effect_present": "no",
+        "human_effect_present": "yes",
+        "direction": "not_applicable",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "SUPER-NORMATIVE",
+        "location": "Section 3.5; Table 4"
+      }
+    ],
+    "headline": "GPT-3 showed priming, distance, SNARC, and size congruity effects, while anchoring was absent."
+  },
+  "F": {
+    "f1": "no",
+    "f2": "no",
+    "f3": "no",
+    "f4": "yes",
+    "f5": "no",
+    "f6": "na",
+    "f7": "no",
+    "f8": "no",
+    "f9": "yes",
+    "f10": "yes",
+    "f11": "no",
+    "f12": "yes",
+    "perturbations_tested": [
+      "wording",
+      "option_order",
+      "response_format",
+      "contamination",
+      "other"
+    ],
+    "robustness_outcome": "reversed"
+  },
+  "G": {
+    "notes": "The authors treat multiple prompt and stimulus variants as repeated observations from one model, while acknowledging this does not provide independent participants. The distance effect varies by comparison domain, including reversal for months.",
+    "extractor": "codex (default)",
+    "date": "2026-10-16",
+    "minutes": null,
+    "sections_read": [
+      "Abstract",
+      "Sections 1–5",
+      "Tables 1–4",
+      "Figures 1–2",
+      "Technical Appendix",
+      "References"
+    ]
+  }
+}

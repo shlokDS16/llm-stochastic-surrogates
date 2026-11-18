@@ -1,0 +1,21 @@
+cluster,n,pct_of_frame,top_terms,dominant_first_families,flag_yes_share_pct,median_year
+1,233,11.5,agents; game; social; llm; strategic; cooperation,JDM 146; none 27; OTH 25,55.8,2026.0
+2,190,9.4,moral; llms; models; ethical; dilemmas; human,MOR 158; none 17; OTH 6,50.5,2026.0
+3,187,9.2,language; models; syntactic; processing; humans; human,LANG 164; DEV 7; none 5,59.4,2025.0
+4,110,5.4,tom; theory mind; reasoning; llms; models; mental,TOM 104; DEV 3; none 1,51.8,2025.0
+5,97,4.8,biases; bias; cognitive; llms; framing; models,HB 51; none 15; OTH 13,46.4,2026.0
+6,77,3.8,reasoning; llms; logical; models; language; content,RE 60; none 10; OTH 2,48.1,2025.0
+7,69,3.4,pragmatic; language; pragmatics; models; competence; chatgpt,LANG 57; none 10; DEV 1,34.8,2025.0
+8,67,3.3,risk; decision-making; choice; llms; behavioral; models,JDM 51; none 9; HB 4,62.7,2025.0
+9,54,2.7,emotional; emotion; affective; gpt; human; emotions,OTH 27; TOM 8; none 8,61.1,2025.0
+10,43,2.1,memory; cognitive; working; llms; human; models,MEM 29; none 5; LANG 3,62.8,2025.0
+11,42,2.1,chatgpt; human; ai; study; goal; questions,none 14; LANG 8; RE 7,21.4,2024.0
+12,39,1.9,visual; spatial; vlms; models; vision-language; mllms,OTH 11; MEM 8; LANG 7,66.7,2025.0
+13,37,1.8,semantic; llms; human; word; language; ratings,LANG 25; LEARN 12,70.3,2025.0
+14,35,1.7,learning; task; cognitive; models; human; tasks,LEARN 15; none 7; OTH 5,60.0,2025.0
+15,30,1.5,medical; bias; clinical; biases; patient; chatgpt,HB 16; none 6; OTH 3,23.3,2025.0
+16,30,1.5,causal; reasoning; llms; language; models; large,RE 16; LANG 5; LEARN 4,40.0,2025.0
+17,27,1.3,analogical; analogies; reasoning; analogy; relational; llms,RE 26; none 1,40.7,2025.0
+18,26,1.3,large; language models; risk; experiments; behavioral; synthetic,none 11; JDM 11; HB 2,7.7,2025.5
+19,25,1.2,anchoring; bias; anchor; effect; models; anchors,HB 23; none 2,64.0,2026.0
+0,604,29.9,(unclustered),none 122; JDM 96; OTH 87,43.0,2025.0

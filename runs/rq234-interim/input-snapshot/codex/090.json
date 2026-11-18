@@ -1,0 +1,141 @@
+{
+ "order": 90,
+ "study_id": "https://openalex.org/W7154250513",
+ "full_text": {
+  "obtained": true,
+  "source": "research/sources/md/fulltext/090_W7154250513.md"
+ },
+ "eligibility": {
+  "decision": "NO",
+  "failed_criterion": "benchmark-only",
+  "borderline": false,
+  "evidence": "Sections 3–5 and Appendix D: The study tests LLMs on a newly curated benchmark of policy-evaluation cases and compares their answers with a normative answer key; human annotators validate case intuitiveness but are not a cognitive-experimental comparison."
+ },
+ "A": {
+  "doi": null,
+  "arxiv_id": "2406.05101v2",
+  "title": "Thinking Fast, Thinking Wrong: Intuitiveness Modulates LLM Counterfactual Reasoning in Policy Evaluation",
+  "first_author": "Yanjie He",
+  "year": 2026,
+  "venue": "arXiv preprint",
+  "peer_reviewed": "preprint",
+  "first_author_field": "not_reported",
+  "country": "not_reported"
+ },
+ "B": {
+  "models": [
+   {
+    "name": "GPT-5.2",
+    "version": "GPT-5.2",
+    "access": "API",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "GPT",
+    "query_date": "May 2026"
+   },
+   {
+    "name": "Claude Sonnet 4.5",
+    "version": "Claude Sonnet 4.5",
+    "access": "API",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "Claude",
+    "query_date": "May 2026"
+   },
+   {
+    "name": "Claude Opus 4.6",
+    "version": "Claude Opus 4.6",
+    "access": "API",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "Claude",
+    "query_date": "May 2026"
+   },
+   {
+    "name": "GPT-4.1",
+    "version": "GPT-4.1",
+    "access": "API",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "GPT",
+    "query_date": "May 2026"
+   }
+  ],
+  "n_models": 4,
+  "n_model_families": 2
+ },
+ "C": {
+  "paradigms": [
+   {
+    "pid": "P1",
+    "name": "Empirical policy-evaluation counterfactual reasoning benchmark",
+    "family": "OTH",
+    "source_paper": "not_reported",
+    "items_origin": "novel",
+    "n_items": 40,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "partly",
+    "location": "Sections 3.1–3.4; Table 5"
+   }
+  ]
+ },
+ "D": {
+  "types": [
+   "crowd_norms"
+  ],
+  "primary_type": "crowd_norms",
+  "human_n": 3,
+  "population": "Three annotators with economics, statistics, and medicine backgrounds",
+  "metric": "Annotator accuracy and Fleiss' kappa for validating intuitiveness classifications; not a cognitive-experimental human comparison"
+ },
+ "E": {
+  "outcome_types": [
+   "accuracy"
+  ],
+  "rows_aggregated": false,
+  "effects": [],
+  "headline": ""
+ },
+ "F": {
+  "f1": "no",
+  "f2": "no",
+  "f3": "yes",
+  "f4": "yes",
+  "f5": "no",
+  "f6": "no",
+  "f7": "no",
+  "f8": "no",
+  "f9": "no",
+  "f10": "yes",
+  "f11": "no",
+  "f12": "no",
+  "perturbations_tested": [
+   "wording",
+   "seeds"
+  ],
+  "robustness_outcome": "weakened"
+ },
+ "G": {
+  "notes": "The intuitiveness labels were author-assigned and had only fair annotator agreement (κ = 0.32); ask how classification uncertainty affects the reported interaction. The paper also describes API evaluation in May 2026 despite a 2024 arXiv identifier.",
+  "extractor": "codex (default)",
+  "date": "2026-10-16",
+  "minutes": 0.6,
+  "sections_read": [
+   "Abstract",
+   "Sections 1–8",
+   "Limitations",
+   "Appendix A",
+   "Appendix B",
+   "Appendix C",
+   "Appendix D",
+   "References"
+  ]
+ }
+}

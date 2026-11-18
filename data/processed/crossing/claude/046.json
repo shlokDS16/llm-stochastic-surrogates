@@ -1,0 +1,35 @@
+{
+ "order": 46,
+ "study_id": "arxiv:2607.21558",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/046_arxiv_2607.21558.md",
+ "sources_varied": [
+  "M",
+  "W",
+  "X"
+ ],
+ "X1": {
+  "value": "partial",
+  "sources_crossed": [],
+  "evidence": "Robustness section (Appendix Tables 2-8, 13): eight models on all dilemmas; three wordings on a 20% sample; cues regenerated five times on a 20-dilemma subsample at temperature 1.0 and four models."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "W",
+   "X"
+  ],
+  "evidence": "Robustness section: distance coefficient moved 3 to 19% when persuasion covariates were added; sign preserved under three wordings and cue regeneration; ICC reported."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "No interaction among sources estimated."
+ },
+ "notes": ""
+}

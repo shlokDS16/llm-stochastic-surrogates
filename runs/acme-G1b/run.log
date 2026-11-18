@@ -1,0 +1,124 @@
+[18:11:30] H1_null: 25/500 new replicates, 74s
+[18:12:37] H1_null: 50/500 new replicates, 141s
+[18:13:49] H1_null: 75/500 new replicates, 214s
+[18:15:00] H1_null: 100/500 new replicates, 284s
+[18:16:08] H1_null: 125/500 new replicates, 352s
+[18:17:16] H1_null: 150/500 new replicates, 420s
+[18:18:24] H1_null: 175/500 new replicates, 488s
+[18:19:30] H1_null: 200/500 new replicates, 554s
+[18:20:40] H1_null: 225/500 new replicates, 624s
+[18:21:48] H1_null: 250/500 new replicates, 692s
+[18:22:52] H1_null: 275/500 new replicates, 756s
+[18:24:06] H1_null: 300/500 new replicates, 830s
+[18:25:15] H1_null: 325/500 new replicates, 900s
+[18:26:29] H1_null: 350/500 new replicates, 974s
+[18:27:44] H1_null: 375/500 new replicates, 1049s
+[18:28:52] H1_null: 400/500 new replicates, 1116s
+[18:30:04] H1_null: 425/500 new replicates, 1189s
+[18:30:11] free RAM 6.0 GB < 6.0 GB: pausing new tasks
+[18:30:41] RAM recovered (6.1 GB): resuming
+[18:31:03] free RAM 5.9 GB < 6.0 GB: pausing new tasks
+[18:31:33] RAM recovered (6.3 GB): resuming
+[18:32:11] H1_null: 450/500 new replicates, 1316s
+[18:32:22] free RAM 5.8 GB < 6.0 GB: pausing new tasks
+[18:33:52] RAM recovered (6.1 GB): resuming
+[18:33:57] free RAM 5.7 GB < 6.0 GB: pausing new tasks
+[18:34:57] RAM recovered (6.6 GB): resuming
+[18:35:09] free RAM 5.8 GB < 6.0 GB: pausing new tasks
+[18:35:39] RAM recovered (6.1 GB): resuming
+[18:35:45] free RAM 5.8 GB < 6.0 GB: pausing new tasks
+[18:36:15] RAM recovered (6.0 GB): resuming
+[18:36:22] free RAM 6.0 GB < 6.0 GB: pausing new tasks
+[18:41:22] RAM recovered (8.2 GB): resuming
+[18:41:55] H1_null: 475/500 new replicates, 1899s
+[18:43:02] H1_null: 500/500 new replicates, 1966s
+[18:43:02] H1_null complete (500 new replicates) [1966s]
+[18:43:02] H2_null: 25/500 new replicates, 1967s
+[18:43:03] H2_null: 50/500 new replicates, 1967s
+[18:43:03] H2_null: 75/500 new replicates, 1967s
+[18:43:04] H2_null: 100/500 new replicates, 1968s
+[18:43:04] H2_null: 125/500 new replicates, 1968s
+[18:43:04] H2_null: 150/500 new replicates, 1969s
+[18:43:05] H2_null: 175/500 new replicates, 1969s
+[18:43:05] H2_null: 200/500 new replicates, 1970s
+[18:43:06] H2_null: 225/500 new replicates, 1970s
+[18:43:06] H2_null: 250/500 new replicates, 1970s
+[18:43:07] H2_null: 275/500 new replicates, 1971s
+[18:43:07] H2_null: 300/500 new replicates, 1971s
+[18:43:07] H2_null: 325/500 new replicates, 1972s
+[18:43:08] H2_null: 350/500 new replicates, 1972s
+[18:43:08] H2_null: 375/500 new replicates, 1972s
+[18:43:09] H2_null: 400/500 new replicates, 1973s
+[18:43:09] H2_null: 425/500 new replicates, 1973s
+[18:43:09] H2_null: 450/500 new replicates, 1974s
+[18:43:10] H2_null: 475/500 new replicates, 1974s
+[18:43:10] H2_null: 500/500 new replicates, 1975s
+[18:43:10] H2_null complete (500 new replicates) [1975s]
+[18:43:15] free RAM 5.2 GB < 6.0 GB: pausing new tasks
+[18:44:45] RAM recovered (6.0 GB): resuming
+[18:44:47] free RAM 6.0 GB < 6.0 GB: pausing new tasks
+[18:46:17] RAM recovered (6.0 GB): resuming
+[18:46:19] free RAM 6.0 GB < 6.0 GB: pausing new tasks
+[18:47:19] RAM recovered (6.6 GB): resuming
+[18:47:22] H3_null: 25/500 new replicates, 2226s
+[18:47:30] H3_null: 50/500 new replicates, 2234s
+[18:47:38] H3_null: 75/500 new replicates, 2242s
+[18:47:46] H3_null: 100/500 new replicates, 2250s
+[18:47:54] H3_null: 125/500 new replicates, 2258s
+[18:48:02] H3_null: 150/500 new replicates, 2266s
+[18:48:10] H3_null: 175/500 new replicates, 2274s
+[18:48:19] H3_null: 200/500 new replicates, 2283s
+[18:48:28] H3_null: 225/500 new replicates, 2292s
+[18:48:36] H3_null: 250/500 new replicates, 2300s
+[18:48:44] H3_null: 275/500 new replicates, 2308s
+[18:48:52] H3_null: 300/500 new replicates, 2317s
+[18:49:00] H3_null: 325/500 new replicates, 2324s
+[18:49:09] H3_null: 350/500 new replicates, 2333s
+[18:49:16] H3_null: 375/500 new replicates, 2340s
+[18:49:24] H3_null: 400/500 new replicates, 2349s
+[18:49:33] H3_null: 425/500 new replicates, 2357s
+[18:49:41] H3_null: 450/500 new replicates, 2365s
+[18:49:49] H3_null: 475/500 new replicates, 2373s
+[18:49:57] H3_null: 500/500 new replicates, 2381s
+[18:49:57] H3_null complete (500 new replicates) [2381s]
+[18:51:07] H1_alt: 25/300 new replicates, 2451s
+[18:52:13] H1_alt: 50/300 new replicates, 2517s
+[18:53:23] H1_alt: 75/300 new replicates, 2587s
+[18:54:26] H1_alt: 100/300 new replicates, 2650s
+[18:55:37] H1_alt: 125/300 new replicates, 2721s
+[18:56:44] H1_alt: 150/300 new replicates, 2788s
+[18:57:57] H1_alt: 175/300 new replicates, 2861s
+[18:58:35] free RAM 5.9 GB < 6.0 GB: pausing new tasks
+[19:03:35] RAM recovered (7.7 GB): resuming
+[19:04:09] H1_alt: 200/300 new replicates, 3233s
+[19:05:21] H1_alt: 225/300 new replicates, 3305s
+[19:06:29] H1_alt: 250/300 new replicates, 3373s
+[19:07:39] H1_alt: 275/300 new replicates, 3443s
+[19:08:47] H1_alt: 300/300 new replicates, 3511s
+[19:08:47] H1_alt complete (300 new replicates) [3511s]
+[19:08:47] H2_alt: 25/300 new replicates, 3511s
+[19:08:48] H2_alt: 50/300 new replicates, 3512s
+[19:08:48] H2_alt: 75/300 new replicates, 3512s
+[19:08:49] H2_alt: 100/300 new replicates, 3513s
+[19:08:49] H2_alt: 125/300 new replicates, 3513s
+[19:08:49] H2_alt: 150/300 new replicates, 3514s
+[19:08:50] H2_alt: 175/300 new replicates, 3514s
+[19:08:50] H2_alt: 200/300 new replicates, 3515s
+[19:08:51] H2_alt: 225/300 new replicates, 3515s
+[19:08:51] H2_alt: 250/300 new replicates, 3515s
+[19:08:52] H2_alt: 275/300 new replicates, 3516s
+[19:08:52] H2_alt: 300/300 new replicates, 3516s
+[19:08:52] H2_alt complete (300 new replicates) [3516s]
+[19:09:01] H3_alt: 25/300 new replicates, 3525s
+[19:09:08] H3_alt: 50/300 new replicates, 3532s
+[19:09:16] H3_alt: 75/300 new replicates, 3541s
+[19:09:24] H3_alt: 100/300 new replicates, 3548s
+[19:09:32] H3_alt: 125/300 new replicates, 3556s
+[19:09:40] H3_alt: 150/300 new replicates, 3564s
+[19:09:49] H3_alt: 175/300 new replicates, 3573s
+[19:09:56] H3_alt: 200/300 new replicates, 3580s
+[19:10:05] H3_alt: 225/300 new replicates, 3589s
+[19:10:13] H3_alt: 250/300 new replicates, 3597s
+[19:10:21] H3_alt: 275/300 new replicates, 3605s
+[19:10:29] H3_alt: 300/300 new replicates, 3613s
+[19:10:29] H3_alt complete (300 new replicates) [3613s]

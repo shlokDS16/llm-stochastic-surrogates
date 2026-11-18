@@ -1,0 +1,15 @@
+extends: existence
+message: "Booster '%s' (ai-patterns-academic D4). Show the evidence instead, or state the claim plainly."
+level: suggestion
+ignorecase: true
+tokens:
+  - undoubtedly
+  - unquestionably
+  - needless to say
+  - it is evident that
+  - it is obvious that
+  - it is clear that
+  - clearly
+  - obviously
+  - certainly
+  - without a doubt

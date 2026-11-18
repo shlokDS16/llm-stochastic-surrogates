@@ -1,0 +1,42 @@
+{
+ "config_hash_sha256": "80fc0cc1dcf24864211bf42ca58085ab9c54f0d98475e36ed969f3ecbe30fa14",
+ "date": "2026-10-16T23:13:55",
+ "git_sha": "81ce40c095e327a0ae8a60127aabc3b3576df9a2",
+ "inputs": {
+  "analysis/rq1/fig4_cocitation.py": "f740fdc8ecbebeebcad2d10807f263f056b8449593044cc97798e67261686761",
+  "analysis/rq1/fig4_fetch_refs.py": "9984b545a6c7a6133207c47a93c437bec31b4655a37a6ce8129cd50b2fdf5794",
+  "data/processed/records.jsonl": "4d60b82251fda20b275cabcb36530bb5f8eca4fb60491e5062f67e803d223709",
+  "data/processed/references/arxiv-meta.jsonl": "5156929cd69ecde329e89246eff0f8b5afae646a17eaa6a0b26adb432d8622c2",
+  "data/processed/references/frame-refs.jsonl": "9fffdb440e324a669747e5eb85e7e5488905b7a17a10d3cec2a717bf200f595d",
+  "data/processed/references/ref-meta.jsonl": "43b94c2e155c7a980507779c3a3b15fe0f69219d33a790a7c32a84ac8563d62a",
+  "data/processed/rq1/manifest.json": "058d55e401ac29af645e3e745e5e7c71c989da1db395459aad4768f0bb257497",
+  "data/processed/screen/abstract-decisions-v08.jsonl": "ca422cde43fd5e2fb780cc7cce7275b5cd9f164d76088b66f07ddeda1a6e4158"
+ },
+ "packages": {
+  "matplotlib": "3.11.2",
+  "networkx": "3.6.1",
+  "numpy": "2.5.4",
+  "scikit-learn": "1.9.1"
+ },
+ "params": {
+  "dpi_png": 600,
+  "draw_min": 5,
+  "edge_min": 5,
+  "figure_width_mm": 174,
+  "hub_weight": 0.8,
+  "labels": "first author surname + year from OpenAlex; three most-cited members per cluster",
+  "layout": "networkx spring_layout, seed 20261016, weight = sqrt(co-citation count), weak hub (weight 0.8) for gravity",
+  "louvain": {
+   "resolution": 1,
+   "seed": 20261016,
+   "weight": "cocitation_count"
+  },
+  "stability_seeds": 20,
+  "ties_kept_at_cutoff": true,
+  "top_n": 150
+ },
+ "platform": "Windows-11-10.0.26300-SP0",
+ "python": "3.12.14",
+ "script": "analysis/rq1/fig4_cocitation.py",
+ "seed": 20261016
+}

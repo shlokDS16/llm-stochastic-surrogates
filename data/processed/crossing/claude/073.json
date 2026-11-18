@@ -1,0 +1,35 @@
+{
+ "order": 73,
+ "study_id": "https://openalex.org/W4388787315",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/073_W4388787315.md",
+ "sources_varied": [
+  "M",
+  "T",
+  "X"
+ ],
+ "X1": {
+  "value": "partial",
+  "sources_crossed": [],
+  "evidence": "Sec 3-4, Tables 1-2: GPT-4 run at temperature 0 and 0.5; GPT-4V run zero-shot and one-shot with a different input format; temperature is not varied for GPT-4V."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "T",
+   "X"
+  ],
+  "evidence": "Sec 4: accuracies at the two temperatures compared (0.69 versus 0.65) and zero-shot compared with one-shot; no variance share."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": ""
+ },
+ "notes": ""
+}

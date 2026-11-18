@@ -1,0 +1,93 @@
+{"id": "1810.04805", "first_author": "Jacob Devlin", "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "year": 2018}
+{"id": "1907.11692", "first_author": "Yinhan Liu", "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach", "year": 2019}
+{"id": "1910.01108", "first_author": "Victor Sanh", "title": "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter", "year": 2019}
+{"id": "2201.11903", "first_author": "Jason Wei", "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models", "year": 2022}
+{"id": "2203.02155", "first_author": "Long Ouyang", "title": "Training language models to follow instructions with human feedback", "year": 2022}
+{"id": "2205.01068", "first_author": "Susan Zhang", "title": "OPT: Open Pre-trained Transformer Language Models", "year": 2022}
+{"id": "2303.08774", "first_author": "OpenAI", "title": "GPT-4 Technical Report", "year": 2023}
+{"id": "2307.09288", "first_author": "Hugo Touvron", "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models", "year": 2023}
+{"id": "1604.00289", "first_author": "Brenden M. Lake", "title": "Building Machines That Learn and Think Like People", "year": 2016}
+{"id": "1608.07187", "first_author": "Aylin Caliskan", "title": "Semantics derived automatically from language corpora contain human-like biases", "year": 2016}
+{"id": "1704.05426", "first_author": "Adina Williams", "title": "A Broad-Coverage Challenge Corpus for Sentence Understanding through Inference", "year": 2017}
+{"id": "1706.03762", "first_author": "Ashish Vaswani", "title": "Attention Is All You Need", "year": 2017}
+{"id": "1802.05365", "first_author": "Matthew E. Peters", "title": "Deep contextualized word representations", "year": 2018}
+{"id": "1803.11138", "first_author": "Kristina Gulordava", "title": "Colorless green recurrent networks dream hierarchically", "year": 2018}
+{"id": "1808.09352", "first_author": "Aida Nematzadeh", "title": "Evaluating Theory of Mind in Question Answering", "year": 2018}
+{"id": "1809.00042", "first_author": "Ethan Wilcox", "title": "What do RNN Language Models Learn about Filler-Gap Dependencies?", "year": 2018}
+{"id": "1902.01007", "first_author": "R. Thomas McCoy", "title": "Right for the Wrong Reasons: Diagnosing Syntactic Heuristics in Natural Language Inference", "year": 2019}
+{"id": "1904.09728", "first_author": "Maarten Sap", "title": "SocialIQA: Commonsense Reasoning about Social Interactions", "year": 2019}
+{"id": "1907.13528", "first_author": "Allyson Ettinger", "title": "What BERT is not: Lessons from a new suite of psycholinguistic diagnostics for language models", "year": 2019}
+{"id": "1909.10579", "first_author": "Grusha Prasad", "title": "Using Priming to Uncover the Organization of Syntactic Representations in Neural Language Models", "year": 2019}
+{"id": "1910.10683", "first_author": "Colin Raffel", "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer", "year": 2019}
+{"id": "1911.03343", "first_author": "Nora Kassner", "title": "Negated and Misprimed Probes for Pretrained Language Models: Birds Can Talk, But Cannot Fly", "year": 2019}
+{"id": "2001.09768", "first_author": "Iason Gabriel", "title": "Artificial Intelligence, Values and Alignment", "year": 2020}
+{"id": "2002.12327", "first_author": "Anna Rogers", "title": "A Primer in BERTology: What we know about how BERT works", "year": 2020}
+{"id": "2004.03066", "first_author": "Paloma Jeretic", "title": "Are Natural Language Inference Models IMPPRESsive? Learning IMPlicature and PRESupposition", "year": 2020}
+{"id": "2004.09456", "first_author": "Moin Nadeem", "title": "StereoSet: Measuring stereotypical bias in pretrained language models", "year": 2020}
+{"id": "2004.10827", "first_author": "Tal Linzen", "title": "Syntactic Structure from Deep Learning", "year": 2020}
+{"id": "2005.14165", "first_author": "Tom B. Brown", "title": "Language Models are Few-Shot Learners", "year": 2020}
+{"id": "2006.01912", "first_author": "Ethan Gotlieb Wilcox", "title": "On the Predictive Power of Neural Language Models for Human Real-Time Comprehension Behavior", "year": 2020}
+{"id": "2010.00133", "first_author": "Nikita Nangia", "title": "CrowS-Pairs: A Challenge Dataset for Measuring Social Biases in Masked Language Models", "year": 2020}
+{"id": "2010.03010", "first_author": "Kanishka Misra", "title": "Exploring BERT's Sensitivity to Lexical Cues using Tests from Semantic Priming", "year": 2020}
+{"id": "2101.05783", "first_author": "Abubakar Abid", "title": "Persistent Anti-Muslim Bias in Large Language Models", "year": 2021}
+{"id": "2102.07350", "first_author": "Laria Reynolds", "title": "Prompt Programming for Large Language Models: Beyond the Few-Shot Paradigm", "year": 2021}
+{"id": "2102.10717", "first_author": "Melanie Mitchell", "title": "Abstraction and Analogy-Making in Artificial Intelligence", "year": 2021}
+{"id": "2103.11790", "first_author": "Patrick Schramowski", "title": "Large Pre-trained Language Models Contain Human-like Biases of What is Right and Wrong to Do", "year": 2021}
+{"id": "2107.13586", "first_author": "Pengfei Liu", "title": "Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing", "year": 2021}
+{"id": "2108.07258", "first_author": "Rishi Bommasani", "title": "On the Opportunities and Risks of Foundation Models", "year": 2021}
+{"id": "2109.01652", "first_author": "Jason Wei", "title": "Finetuned Language Models Are Zero-Shot Learners", "year": 2021}
+{"id": "2109.14989", "first_author": "Arabella Sinclair", "title": "Structural Persistence in Language Models: Priming as a Window into Abstract Language Representations", "year": 2021}
+{"id": "2201.08239", "first_author": "Romal Thoppilan", "title": "LaMDA: Language Models for Dialog Applications", "year": 2022}
+{"id": "2202.03629", "first_author": "Ziwei Ji", "title": "Survey of Hallucination in Natural Language Generation", "year": 2022}
+{"id": "2204.02311", "first_author": "Aakanksha Chowdhery", "title": "PaLM: Scaling Language Modeling with Pathways", "year": 2022}
+{"id": "2205.11916", "first_author": "Takeshi Kojima", "title": "Large Language Models are Zero-Shot Reasoners", "year": 2022}
+{"id": "2206.04615", "first_author": "Aarohi Srivastava", "title": "Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models", "year": 2022}
+{"id": "2206.07682", "first_author": "Jason Wei", "title": "Emergent Abilities of Large Language Models", "year": 2022}
+{"id": "2206.14576", "first_author": "Marcel Binz", "title": "Using cognitive psychology to understand GPT-3", "year": 2022}
+{"id": "2207.07051", "first_author": "Ishita Dasgupta", "title": "Language models show human-like content effects on reasoning tasks", "year": 2022}
+{"id": "2208.07998", "first_author": "Alex Warstadt", "title": "What Artificial Neural Networks Can Tell Us About Human Language Acquisition", "year": 2022}
+{"id": "2208.10264", "first_author": "Gati Aher", "title": "Using Large Language Models to Simulate Multiple Humans and Replicate Human Subject Studies", "year": 2022}
+{"id": "2209.01515", "first_author": "Sean Trott", "title": "Do Large Language Models know what humans know?", "year": 2022}
+{"id": "2209.06899", "first_author": "Lisa P. Argyle", "title": "Out of One, Many: Using Language Models to Simulate Human Samples", "year": 2022}
+{"id": "2210.11416", "first_author": "Hyung Won Chung", "title": "Scaling Instruction-Finetuned Language Models", "year": 2022}
+{"id": "2210.13312", "first_author": "Maarten Sap", "title": "Neural Theory-of-Mind? On the Limits of Social Intelligence in Large LMs", "year": 2022}
+{"id": "2210.13966", "first_author": "Melanie Mitchell", "title": "The Debate Over Understanding in AI's Large Language Models", "year": 2022}
+{"id": "2212.01488", "first_author": "Carina Kauf", "title": "Event knowledge in large language models: the gap between the impossible and the unlikely", "year": 2022}
+{"id": "2212.05206", "first_author": "Thilo Hagendorff", "title": "Thinking Fast and Slow in Large Language Models", "year": 2022}
+{"id": "2212.06801", "first_author": "Jennifer Hu", "title": "A fine-grained comparison of pragmatic language understanding in humans and language models", "year": 2022}
+{"id": "2212.09196", "first_author": "Taylor Webb", "title": "Emergent Analogical Reasoning in Large Language Models", "year": 2022}
+{"id": "2212.12131", "first_author": "Byung-Doh Oh", "title": "Why Does Surprisal From Larger Transformer-Based Language Models Provide a Poorer Fit to Human Reading Times?", "year": 2022}
+{"id": "2301.06627", "first_author": "Kyle Mahowald", "title": "Dissociating language and thought in large language models", "year": 2023}
+{"id": "2302.02083", "first_author": "Michal Kosinski", "title": "Evaluating Large Language Models in Theory of Mind Tasks", "year": 2023}
+{"id": "2302.07267", "first_author": "Peter S. Park", "title": "Diminished Diversity-of-Thought in a Standard Large Language Model", "year": 2023}
+{"id": "2302.08399", "first_author": "Tomer Ullman", "title": "Large Language Models Fail on Trivial Alterations to Theory-of-Mind Tasks", "year": 2023}
+{"id": "2302.10724", "first_author": "Jan Kocoń", "title": "ChatGPT: Jack of all trades, master of none", "year": 2023}
+{"id": "2302.13971", "first_author": "Hugo Touvron", "title": "LLaMA: Open and Efficient Foundation Language Models", "year": 2023}
+{"id": "2303.12712", "first_author": "Sébastien Bubeck", "title": "Sparks of Artificial General Intelligence: Early experiments with GPT-4", "year": 2023}
+{"id": "2303.13988", "first_author": "Thilo Hagendorff", "title": "Machine Psychology", "year": 2023}
+{"id": "2303.15056", "first_author": "Fabrizio Gilardi", "title": "ChatGPT Outperforms Crowd-Workers for Text-Annotation Tasks", "year": 2023}
+{"id": "2304.03442", "first_author": "Joon Sung Park", "title": "Generative Agents: Interactive Simulacra of Human Behavior", "year": 2023}
+{"id": "2305.12763", "first_author": "Yiting Chen", "title": "The Emergence of Economic Rationality of GPT", "year": 2023}
+{"id": "2305.13264", "first_author": "Jennifer Hu", "title": "Prompting is not a substitute for probability measurements in large language models", "year": 2023}
+{"id": "2305.14763", "first_author": "Natalie Shapira", "title": "Clever Hans or Neural Theory of Mind? Stress Testing Social Reasoning in Large Language Models", "year": 2023}
+{"id": "2305.16367", "first_author": "Murray Shanahan", "title": "Role-Play with Large Language Models", "year": 2023}
+{"id": "2305.16867", "first_author": "Elif Akata", "title": "Playing repeated games with Large Language Models", "year": 2023}
+{"id": "2307.03109", "first_author": "Yupeng Chang", "title": "A Survey on Evaluation of Large Language Models", "year": 2023}
+{"id": "2307.16513", "first_author": "Thilo Hagendorff", "title": "Deception Abilities Emerged in Large Language Models", "year": 2023}
+{"id": "2308.01264", "first_author": "Guilherme F. C. F. Almeida", "title": "Exploring the psychology of LLMs' Moral and Legal Reasoning", "year": 2023}
+{"id": "2308.11432", "first_author": "Lei Wang", "title": "A Survey on Large Language Model based Autonomous Agents", "year": 2023}
+{"id": "2308.14921", "first_author": "Hadas Kotek", "title": "Gender bias and stereotypes in Large Language Models", "year": 2023}
+{"id": "2309.00770", "first_author": "Isabel O. Gallegos", "title": "Bias and Fairness in Large Language Models: A Survey", "year": 2023}
+{"id": "2309.05958", "first_author": "Kazuhiro Takemoto", "title": "The Moral Machine Experiment on Large Language Models", "year": 2023}
+{"id": "2310.10701", "first_author": "Huao Li", "title": "Theory of Mind for Multi-Agent Collaboration via Large Language Models", "year": 2023}
+{"id": "2310.15337", "first_author": "Marwa Abdulhai", "title": "Moral Foundations of Large Language Models", "year": 2023}
+{"id": "2310.15421", "first_author": "Hyunwoo Kim", "title": "FANToM: A Benchmark for Stress-testing Machine Theory of Mind in Interactions", "year": 2023}
+{"id": "2312.11805", "first_author": "Gemini Team", "title": "Gemini: A Family of Highly Capable Multimodal Models", "year": 2023}
+{"id": "2402.09193", "first_author": "Olivia Macmillan-Scott", "title": "(Ir)rationality and Cognitive Biases in Large Language Models", "year": 2024}
+{"id": "2403.00811", "first_author": "Jessica Echterhoff", "title": "Cognitive Bias in Decision-Making with LLMs", "year": 2024}
+{"id": "2001.08361", "first_author": "Jared Kaplan", "title": "Scaling Laws for Neural Language Models", "year": 2020}
+{"id": "2212.08073", "first_author": "Yuntao Bai", "title": "Constitutional AI: Harmlessness from AI Feedback", "year": 2022}
+{"id": "2304.01373", "first_author": "Stella Biderman", "title": "Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling", "year": 2023}
+{"id": "2306.05685", "first_author": "Lianmin Zheng", "title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena", "year": 2023}
+{"id": "2401.03408", "first_author": "Juan-Pablo Rivera", "title": "Escalation Risks from Language Models in Military and Diplomatic Decision-Making", "year": 2024}
+{"id": "2407.21783", "first_author": "Aaron Grattafiori", "title": "The Llama 3 Herd of Models", "year": 2024}

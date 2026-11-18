@@ -1,0 +1,25 @@
+Warning messages:
+1: package 'metafor' was built under R version 4.5.3 
+2: package 'metadat' was built under R version 4.5.3 
+metafor 5.2.1  R R version 4.5.2 (2025-10-31 ucrt) 
+P1         primary   k=36 mu=1.197 tau=0.002 [0.000, 0.372] I2=0.0 Q=37.0 p=0.376
+P1         check_ml1_g_on_01 k=36 mu=0.602 tau=0.001 [0.000, 0.203] I2=0.0 Q=42.3 p=0.186
+P2a        primary   k=36 mu=1.187 tau=0.123 [0.000, 0.276] I2=30.6 Q=52.8 p=0.027
+P2a        sens_log  k=36 mu=1.186 tau=0.119 [0.000, 0.282] I2=29.2 Q=52.6 p=0.029
+P2a        check_ml1_rank k=36 mu=1.209 tau=0.152 [0.064, 0.312] I2=40.3 Q=59.7 p=0.006
+P2b        primary   k=36 mu=1.969 tau=0.336 [0.234, 0.496] I2=73.0 Q=141.7 p=0.000
+P2b        sens_log  k=36 mu=2.025 tau=0.434 [0.329, 0.643] I2=81.8 Q=186.8 p=0.000
+P2b        check_ml1_rank k=36 mu=1.997 tau=0.358 [0.257, 0.533] I2=75.4 Q=152.3 p=0.000
+P2c        primary   k=36 mu=2.545 tau=0.813 [0.650, 1.135] I2=93.3 Q=368.9 p=0.000
+P2c        sens_log  k=36 mu=2.227 tau=0.745 [0.591, 1.030] I2=92.9 Q=341.0 p=0.000
+P2c        check_ml1_rank k=36 mu=2.413 tau=0.693 [0.544, 0.956] I2=91.3 Q=312.8 p=0.000
+P2d        primary   k=36 mu=2.269 tau=0.328 [0.241, 0.540] I2=70.8 Q=94.5 p=0.000
+P2d        sens_log  k=36 mu=2.602 tau=0.388 [0.283, 0.593] I2=75.4 Q=118.1 p=0.000
+P2d        check_ml1_rank k=36 mu=2.527 tau=0.298 [0.202, 0.492] I2=64.7 Q=88.1 p=0.000
+P3         primary   k=36 mu=0.293 tau=0.050 [0.000, 0.145] I2=9.2 Q=35.6 p=0.442
+P4check    check_ml1_released_group k=36 mu=0.613 tau=0.090 [0.000, 0.248] I2=22.8 Q=50.8 p=0.041
+P4         primary   k=36 mu=0.394 tau=0.044 [0.000, 0.245] I2=6.8 Q=49.2 p=0.057
+P4         sens_raw  k=36 mu=0.334 tau=0.001 [0.000, 0.174] I2=0.0 Q=34.9 p=0.475
+P4         check_ml1_sqrt k=36 mu=0.401 tau=0.001 [0.000, 0.212] I2=0.0 Q=41.6 p=0.204
+sessionInfo
+[1] "R version 4.5.2 (2025-10-31 ucrt)"

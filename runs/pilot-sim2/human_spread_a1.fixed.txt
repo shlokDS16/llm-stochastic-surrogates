@@ -1,0 +1,13 @@
+metric                 sites    S2hat    S^H         TI 95% S  basic-ish lower>0 | formula-v S^H
+P1 framing log OR         36   0.0146  0.121 [ 0.000,  0.386]              False | 0.160
+P2a NYC g (raw)           36   0.0118  0.109 [ 0.000,  0.262]              False | 0.162
+P2a NYC g (log)           36   0.0164  0.128 [ 0.000,  0.273]              False | 0.171
+P2b Chicago g (raw)       36   0.0774  0.278 [ 0.032,  0.430]               True | 0.342
+P2b Chicago g (log)       36   0.1413  0.376 [ 0.000,  0.584]              False | 0.470
+P2c Everest g (raw)       36   0.3378  0.581 [ 0.000,  1.094]              False | 0.857
+P2c Everest g (log)       36   0.4679  0.684 [ 0.277,  0.936]               True | 0.771
+P2d babies g (raw)        36   0.1155  0.340 [ 0.131,  0.502]               True | 0.389
+P2d babies g (log)        36   0.0828  0.288 [ 0.000,  0.524]              False | 0.423
+P3 sunk g                 36  -0.0001  0.000 [ 0.000,  0.147]              False | 0.000
+P4 gambler g log1p        36   0.0238  0.154 [ 0.033,  0.247]               True | 0.151
+P4 gambler g raw          36   0.0125  0.112 [ 0.000,  0.205]              False | 0.078

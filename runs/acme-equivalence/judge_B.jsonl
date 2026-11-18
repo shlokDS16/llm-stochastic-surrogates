@@ -1,0 +1,110 @@
+{"id": "E001", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "The ticket cost conditions, freezing weather, attendance task, and normal and reversed scale endpoints match."}
+{"id": "E002", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Chicago population estimation, both numeric anchors, and the no-anchor version match across conditions."}
+{"id": "E003", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Both versions ask the same reporter-entry questions in the same order, or ask the second question alone."}
+{"id": "E004", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Baby-birth estimation, both numeric anchors, and the no-anchor version match."}
+{"id": "E005", "label": "NOT-EQUIVALENT", "element": "manipulation", "confidence": 5, "reason": "The Chicago anchors differ: A uses 3,000,000 and 2,000,000; B uses 5,000,000 and 200,000."}
+{"id": "E006", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "The daily U.S. baby-birth estimation task and both anchors match; the no-anchor version asks the same estimate."}
+{"id": "E007", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "The daily U.S. baby-birth estimation task and both anchors match; the no-anchor version asks the same estimate."}
+{"id": "E008", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Both dice outcomes and the question about prior rolls in the imagined casino scenario match."}
+{"id": "E009", "label": "NOT-EQUIVALENT", "element": "task", "confidence": 5, "reason": "A asks participants which program they would choose; B asks which they would reject."}
+{"id": "E010", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Both conditions preserve the disease scenario, program outcomes, probabilities, and selection task."}
+{"id": "E011", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "The attributed speaker, quote, agreement task, and normal and reversed scale endpoints match."}
+{"id": "E012", "label": "NOT-EQUIVALENT", "element": "scenario_fact", "confidence": 5, "reason": "A describes pleasantly warm match-day weather; B describes freezing cold weather."}
+{"id": "E013", "label": "NOT-EQUIVALENT", "element": "manipulation", "confidence": 5, "reason": "The Chicago anchors reverse direction: A says above 5,000,000 and below 200,000; B says below 5,000,000 and above 200,000."}
+{"id": "E014", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Both conditions ask about forbidding or allowing the same speeches in the United States."}
+{"id": "E015", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Both conditions preserve the disease scenario, program outcomes, probabilities, and choice task."}
+{"id": "E016", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "The daily U.S. baby-birth estimation task and both anchors match, as does the no-anchor task."}
+{"id": "E017", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "The height-estimation task, feet units, both Everest anchors, and no-anchor version match."}
+{"id": "E018", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Chicago population estimation and both anchors match; the no-anchor version asks for the same population estimate."}
+{"id": "E019", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "The height-estimation task, feet units, both Everest anchors, and no-anchor version match."}
+{"id": "E020", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Both versions retain the same quoted content, attributed speaker by condition, agreement task, scale anchors, and response format."}
+{"id": "E021", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Both versions ask the same reciprocal reporter-entry questions in the same order, with matching countries, destinations, purposes, and yes/no options."}
+{"id": "E022", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Both versions present the same casino scenario, dice outcomes in each condition, and estimate of prior rolls."}
+{"id": "E023", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Ticket cost or gift, game circumstances, stay-or-go task, scale endpoints, and reversed-scale condition all match."}
+{"id": "E024", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "The estimate task, mileage unit, matching upper and lower anchors, and no-anchor version are preserved."}
+{"id": "E025", "label": "NOT-EQUIVALENT", "element": "manipulation", "confidence": 5, "reason": "The baby-count anchors reverse direction in both anchored conditions: A uses less than 50,000 and more than 100; B uses more than 50,000 and less than 100."}
+{"id": "E026", "label": "NOT-EQUIVALENT", "element": "manipulation", "confidence": 5, "reason": "The attributed speakers differ by condition: A names Robert Hale and Mark Dunn, while B names George Washington and Osama Bin Laden."}
+{"id": "E027", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Both versions use the same casino, man, three dice, matching outcomes, and estimate of rolls before the participant passes."}
+{"id": "E028", "label": "NOT-EQUIVALENT", "element": "scenario_fact", "confidence": 5, "reason": "The country whose government would forbid or allow anti-democracy speeches changes from North Korea to the United States."}
+{"id": "E029", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "The mileage estimate, units, upper and lower anchors, and no-anchor condition match; wording conveys the same facts."}
+{"id": "E030", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "All versions ask for the same mileage estimate with matching anchor directions and values, or without an anchor."}
+{"id": "E031", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Both conditions ask for the same opinion about forbidding or allowing anti-democracy speeches in the United States."}
+{"id": "E032", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "The ticket circumstances, cold-weather game scenario, choice task, and normal and reversed scale endpoints match."}
+{"id": "E033", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "The height estimate, feet unit, matching upper and lower anchors, and no-anchor version are preserved."}
+{"id": "E034", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Both conditions ask whether the United States should forbid or allow speeches opposing democracy; wording changes do not alter the task."}
+{"id": "E035", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Speaker attribution, quoted content, agreement task, scale anchors, and reversed-scale condition all match."}
+{"id": "E036", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Both versions preserve the disease scenario, each program's outcomes and probabilities, choice task, and program-letter response."}
+{"id": "E037", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Both versions preserve ticket circumstances, freezing weather, game choice, and normal and reversed scale endpoints."}
+{"id": "E038", "label": "NOT-EQUIVALENT", "element": "task", "confidence": 5, "reason": "A asks how many future rolls occur after passing; B asks how many prior rolls occurred before passing."}
+{"id": "E039", "label": "NOT-EQUIVALENT", "element": "scenario_fact", "confidence": 5, "reason": "The quoted statement changes from a pledge to live free despite death to advice about building good habits."}
+{"id": "E040", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "The quote, speaker conditions, agreement task, and scale anchors match; wording changes are stylistic."}
+{"id": "E041", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "The paid and free ticket scenarios, cold weather, decision task, and scale directions match."}
+{"id": "E042", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Both retain the same cities, miles, upper and lower anchors, and unanchored estimate task."}
+{"id": "E043", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Both ask the same paired and standalone press-access questions in the same order with the same Yes/No options."}
+{"id": "E044", "label": "NOT-EQUIVALENT", "element": "scenario_fact", "confidence": 5, "reason": "B substitutes South Korea for North Korea in both the paired and standalone questions."}
+{"id": "E045", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "The quote, attributed speakers, agreement task, and normal and reversed scale anchors match."}
+{"id": "E046", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "The Mount Everest estimate, feet, matching upper and lower anchors, and no-anchor task are preserved."}
+{"id": "E047", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "The Chicago population estimate and both matching numerical anchors are preserved across versions."}
+{"id": "E048", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "The city pair, miles, matching upper and lower anchors, and unanchored distance estimate are preserved."}
+{"id": "E049", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Both versions preserve the disease scenario, program outcomes and probabilities, choices, and letter response."}
+{"id": "E050", "label": "NOT-EQUIVALENT", "element": "manipulation", "confidence": 5, "reason": "Condition 1 and 2 anchors differ: A uses 31,000 and 27,000 feet; B uses 45,500 and 2,000 feet."}
+{"id": "E051", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Paid and free ticket conditions, cold weather, decision task, and normal and reversed scale anchors match."}
+{"id": "E052", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Speaker conditions, quoted statement, agreement task, and normal and reversed scale anchors match."}
+{"id": "E053", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Both preserve the paired and standalone press-access questions, their order, and Yes/No options."}
+{"id": "E054", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "The daily U.S. births estimate and both matching numerical anchors are preserved."}
+{"id": "E055", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Both versions ask the same paired and standalone press-access questions with the same Yes/No options."}
+{"id": "E056", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Both versions preserve the disease scenario, program outcomes and probabilities, choices, and letter response."}
+{"id": "E057", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "The paid and free ticket conditions, cold weather, decision task, and scale directions match."}
+{"id": "E058", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Attribution, quote, agreement task, and all scale anchors including the reversed version match."}
+{"id": "E059", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "The estimate task, U.S. daily birth quantity, upper and lower anchor values, and no-anchor version match."}
+{"id": "E060", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Both versions give the same three-dice outcomes and ask for prior rolls in the same casino scenario."}
+{"id": "E061", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Attributions, quote, agreement task, and standard and reversed scale endpoints match."}
+{"id": "E062", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "The Chicago population estimate and both numeric anchors match, as does the no-anchor version."}
+{"id": "E063", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "The distance estimate, city pair, mile units, and both anchor values match across conditions."}
+{"id": "E064", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Both versions use the same casino scenario, three-dice outcomes, and ask for prior rolls."}
+{"id": "E065", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "The U.S. daily birth estimate, anchor values, and no-anchor version match."}
+{"id": "E066", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "The Chicago population task, anchor values, and no-anchor version match."}
+{"id": "E067", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "The Everest height estimate, feet units, upper and lower anchors, and no-anchor version match."}
+{"id": "E068", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Both versions ask whether each country should admit the same journalists to report news back home, in the same order."}
+{"id": "E069", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Both conditions ask whether the U.S. should forbid or allow public speeches opposing democracy."}
+{"id": "E070", "label": "NOT-EQUIVALENT", "element": "manipulation", "confidence": 5, "reason": "The upper anchor changes from 3,500 miles in A to 6,000 miles in B; the lower anchor matches."}
+{"id": "E071", "label": "NOT-EQUIVALENT", "element": "scenario_fact", "confidence": 5, "reason": "A describes two dice and B describes three dice in both matching conditions."}
+{"id": "E072", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "The ticket cost or gift, cold-weather scenario, action task, and normal and reversed scale anchors match."}
+{"id": "E073", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Both versions describe the same three-dice outcomes and ask how many prior rolls occurred."}
+{"id": "E074", "label": "NOT-EQUIVALENT", "element": "manipulation", "confidence": 5, "reason": "The upper and lower anchors change from 50,000 and 100 to 12,000 and 8,000, respectively."}
+{"id": "E075", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "The estimate task, U.S. daily birth quantity, anchors, and no-anchor version match."}
+{"id": "E076", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Both conditions ask whether the U.S. should forbid or allow public speeches against democracy."}
+{"id": "E077", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "All versions preserve the same Chicago population estimate task and matching upper and lower numeric anchors."}
+{"id": "E078", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same population estimate task, matching anchors, and no-anchor version; wording changes are stylistic."}
+{"id": "E079", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Both conditions preserve the observed dice outcomes and ask for the number of prior rolls."}
+{"id": "E080", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Ticket facts, cold-weather scenario, question, and normal and reversed scale endpoints match."}
+{"id": "E081", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Both conditions ask the same forbid or allow question about public speeches against democracy."}
+{"id": "E082", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Matching dice outcomes and prior-roll estimate task in both conditions."}
+{"id": "E083", "label": "NOT-EQUIVALENT", "element": "scenario_fact", "confidence": 5, "reason": "Program A saves 300 in A but 200 in B; Program C causes 300 deaths in A but 400 in B."}
+{"id": "E084", "label": "NOT-EQUIVALENT", "element": "scenario_fact", "confidence": 5, "reason": "A concerns speeches in favor of democracy; B concerns speeches against democracy."}
+{"id": "E085", "label": "NOT-EQUIVALENT", "element": "scenario_fact", "confidence": 5, "reason": "Condition 1 and its reversed-scale version say the ticket cost almost nothing in B versus paid handsomely in A."}
+{"id": "E086", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same reciprocal journalist-entry questions, order, and standalone version; newspaper/reporters wording is stylistic."}
+{"id": "E087", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Both preserve who admits which journalists and the reciprocal sequence; passive phrasing leaves the task unchanged."}
+{"id": "E088", "label": "NOT-EQUIVALENT", "element": "manipulation", "confidence": 5, "reason": "Condition 1 flips taller than versus shorter than 45,500 feet; condition 2 also flips the 2,000-foot anchor direction."}
+{"id": "E089", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Quote source, agreement task, and normal and reversed scale anchors match in each condition."}
+{"id": "E090", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Each version presents the same dice outcomes and asks how many prior throws occurred."}
+{"id": "E091", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "The upper and lower anchor directions and values, estimate task, and feet units match."}
+{"id": "E092", "label": "NOT-EQUIVALENT", "element": "manipulation", "confidence": 5, "reason": "Both anchored conditions reverse the distance comparisons: shorter versus longer than 6,000 miles and longer versus shorter than 1,500."}
+{"id": "E093", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same reciprocal journalist-entry questions, order, and standalone version; the added opinion phrase does not change the task."}
+{"id": "E094", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Both preserve the Everest estimate task, feet units, and matching upper and lower numeric anchors."}
+{"id": "E095", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same Chicago population estimate task and matching numeric anchors across conditions; no-anchor versions also match."}
+{"id": "E096", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Both versions preserve the same cities, mile units, anchors, estimates, and no-anchor question."}
+{"id": "E097", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Both conditions retain the same disease scenario, program outcomes, probabilities, and choice task."}
+{"id": "E098", "label": "NOT-EQUIVALENT", "element": "manipulation", "confidence": 5, "reason": "A asks whether reporters should be barred; B asks whether they should be allowed, reversing the response frame."}
+{"id": "E099", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Both versions preserve the scenario, program outcomes, probabilities, and program-choice task."}
+{"id": "E100", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Both versions ask whether the U.S. should forbid or allow public speech against democracy in matching conditions."}
+{"id": "E101", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Both versions ask for Everest's height in feet with matching anchors and no-anchor condition."}
+{"id": "E102", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Both versions preserve the daily U.S. birth estimate task, anchors, and no-anchor question."}
+{"id": "E103", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Both versions preserve the Everest height estimate, feet, matching anchors, and no-anchor condition."}
+{"id": "E104", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Both versions ask whether the U.S. should forbid or allow public talks or speeches against democracy."}
+{"id": "E105", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Both versions retain identical disease outcomes, probabilities, program labels, and choice task."}
+{"id": "E106", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Both versions preserve Chicago population estimation with matching numeric anchors and no-anchor condition."}
+{"id": "E107", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Both versions preserve the city pair, mile units, anchors, and estimate task in each condition."}
+{"id": "E108", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Both versions preserve the city pair, distance estimate, mile units, anchors, and no-anchor condition."}
+{"id": "E109", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Both versions preserve the disease scenario, program outcomes, probabilities, and choice task."}
+{"id": "E110", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Both versions ask whether the U.S. should forbid or allow public addresses or speeches against democracy."}

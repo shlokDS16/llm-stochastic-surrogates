@@ -1,0 +1,149 @@
+{
+ "rule": {
+  "slope": [
+   0.9,
+   1.1
+  ],
+  "z_sd_max": 1.3,
+  "T": [
+   0.7,
+   1.0
+  ],
+  "W": [
+   "W0",
+   "W1",
+   "W2",
+   "W3"
+  ],
+  "F": "F0",
+  "n_per_condition": 50
+ },
+ "effects": "C:\\Users\\Shlok\\Downloads\\Thenboli ma'am review paper\\runs\\acme-L\\outcomes\\effects.csv",
+ "exclusions": [],
+ "n_cells": 1568,
+ "n_usable": 1565,
+ "verdict": {
+  "granite-3.3-2b-instruct": {
+   "status": "fail",
+   "failing_types": [
+    "numeric: slope 0.676, z SD 16.105",
+    "rating: slope 0.997, z SD 1.354"
+   ],
+   "not_evaluable": []
+  },
+  "granite-3.3-8b-instruct": {
+   "status": "fail",
+   "failing_types": [
+    "binary: slope 1.002, z SD 1.344",
+    "numeric: slope 0.844, z SD 20.623",
+    "rating: slope 1.001, z SD 1.471"
+   ],
+   "not_evaluable": []
+  },
+  "mistral-7b-instruct-v0.3": {
+   "status": "fail",
+   "failing_types": [
+    "numeric: slope 0.108, z SD 183.069"
+   ],
+   "not_evaluable": []
+  },
+  "olmo2-13b-instruct": {
+   "status": "fail",
+   "failing_types": [
+    "numeric: slope 0.201, z SD 2011.244",
+    "rating: slope 0.633, z SD 0.985"
+   ],
+   "not_evaluable": []
+  },
+  "olmo2-1b-dpo": {
+   "status": "fail",
+   "failing_types": [
+    "numeric: slope 0.742, z SD 1.885",
+    "rating: slope 1.169, z SD 1.071"
+   ],
+   "not_evaluable": []
+  },
+  "olmo2-1b-instruct": {
+   "status": "fail",
+   "failing_types": [
+    "numeric: slope 0.891, z SD 1.133"
+   ],
+   "not_evaluable": []
+  },
+  "olmo2-1b-sft": {
+   "status": "pass",
+   "failing_types": [],
+   "not_evaluable": []
+  },
+  "olmo2-7b-instruct": {
+   "status": "fail",
+   "failing_types": [
+    "numeric: slope 0.239, z SD 53.982",
+    "rating: slope 0.889, z SD 1.057"
+   ],
+   "not_evaluable": []
+  },
+  "phi4-mini-instruct": {
+   "status": "fail",
+   "failing_types": [
+    "numeric: slope 0.900, z SD 2.173"
+   ],
+   "not_evaluable": []
+  },
+  "qwen2.5-0.5b-instruct": {
+   "status": "pass",
+   "failing_types": [],
+   "not_evaluable": []
+  },
+  "qwen2.5-1.5b-instruct": {
+   "status": "fail",
+   "failing_types": [
+    "numeric: slope 0.873, z SD 4.334",
+    "rating: slope 1.271, z SD 0.969"
+   ],
+   "not_evaluable": []
+  },
+  "qwen2.5-14b-instruct": {
+   "status": "fail",
+   "failing_types": [
+    "numeric: slope 1.032, z SD 3.810"
+   ],
+   "not_evaluable": []
+  },
+  "qwen2.5-7b-instruct": {
+   "status": "fail",
+   "failing_types": [
+    "numeric: slope 0.592, z SD 184.127"
+   ],
+   "not_evaluable": []
+  },
+  "smollm2-1.7b-instruct": {
+   "status": "fail",
+   "failing_types": [
+    "numeric: slope 0.749, z SD 0.985",
+    "rating: slope -0.505, z SD 0.946"
+   ],
+   "not_evaluable": []
+  }
+ },
+ "models_pass": [
+  "olmo2-1b-sft",
+  "qwen2.5-0.5b-instruct"
+ ],
+ "models_fail": [
+  "granite-3.3-2b-instruct",
+  "granite-3.3-8b-instruct",
+  "mistral-7b-instruct-v0.3",
+  "olmo2-13b-instruct",
+  "olmo2-1b-dpo",
+  "olmo2-1b-instruct",
+  "olmo2-7b-instruct",
+  "phi4-mini-instruct",
+  "qwen2.5-1.5b-instruct",
+  "qwen2.5-14b-instruct",
+  "qwen2.5-7b-instruct",
+  "smollm2-1.7b-instruct"
+ ],
+ "models_incomplete": [],
+ "G4_complete": true
+}

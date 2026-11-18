@@ -1,0 +1,32 @@
+{
+ "order": 127,
+ "study_id": "https://openalex.org/W7147187740",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/127_W7147187740.md",
+ "sources_varied": [
+  "M",
+  "X"
+ ],
+ "X1": {
+  "value": "yes",
+  "sources_crossed": [
+   "M",
+   "X"
+  ],
+  "evidence": "Methods (p.6) and SI: three models, 100 repeats per item and condition at temperature 1, chain-of-thought by default with the no-CoT results repeated in SI for each model."
+ },
+ "X2": {
+  "value": "no",
+  "x2_types": [],
+  "x2_sources": [],
+  "evidence": "Regressions use model and question fixed effects and model-by-jailbreak interaction terms (SI Eq 7); the CoT contrast is only repeated in SI without a stated attribution."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "Model-by-jailbreak interactions involve the treatment, so X3 is no."
+ },
+ "notes": ""
+}

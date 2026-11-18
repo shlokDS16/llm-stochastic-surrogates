@@ -1,0 +1,9 @@
+{
+ "order": 99,
+ "exit": 0,
+ "seconds": 19.1,
+ "ok": true,
+ "error": null,
+ "tokens": "26,399",
+ "prompt_sha": "513362f15f2e51deb5c657f2169c2e78ecddc4cdbb54e9ebcd939cc54c124c13"
+}

@@ -1,0 +1,76 @@
+====================================================================================================
+PART A  retrospective gambler's fallacy
+respondents by question actually answered (raw columns): {'three6': 3152, 'two6': 3129, 'neither': 63}
+released gambfalgroup   0.0   1.0   All
+saw                                    
+neither                  63     0    63
+three6                  442  2710  3152
+two6                   3129     0  3129
+All                    3634  2710  6344
+
+with a valid released DV (gambfalDV, N = 5942):
+released gambfalgroup   0.0   1.0   All
+saw                                    
+three6                  297  2680  2977
+two6                   2965     0  2965
+All                    3262  2680  5942
+
+valid-DV respondents who saw the three-6s question but sit in released group 0 ('two6'): 297
+  their released DV (sqrt scale) values: {0.0: 296, 2.2e-05: 1}
+  their raw answer strings: {'0': 295, '0-100': 1, '5-10': 1}
+  all released-group-0 respondents who saw the three-6s question (incl. no valid DV): 442 | of which non-numeric text answers (DV missing): 145
+valid-DV respondents who saw the two-6s question but sit in group 1: 0
+released gambfalgroup == (numeric raw gamblerfallacya >= 1) for how many of 6344 rows: 6344
+three-6s rows with valid DV where cleaned value is not sqrt(numeric raw): 2 ['0-100', '5-10'] [0.0, 2.2360679774997898e-05]
+the non-zero one: [['5-10', 2.2360679774997898e-05]]
+
+Effect sizes on the ML1 analysis scale (sqrt of response), valid DV only (N = 5942):
+released coding (gambfalgroup)                 n1= 2680 n0= 3262 t= 24.01 (df 5940) weighted d=0.612 unweighted mean d=0.594 median=0.611 sites=36 Q=46.34 I2=0.245
+corrected: group = question answered           n1= 2977 n0= 2965 t= 15.42 (df 5940) weighted d=0.400 unweighted mean d=0.379 median=0.414 sites=36 Q=42.28 I2=0.172
+drop the 297 (neither group)                   n1= 2680 n0= 2965 t= 20.42 (df 5643) weighted d=0.538 unweighted mean d=0.518 median=0.551 sites=36 Q=46.01 I2=0.239
+drop all answers of 0, correct coding          n1= 2681 n0= 2701 t= 16.87 (df 5380) weighted d=0.459 unweighted mean d=0.441 median=0.478 sites=36 Q=40.66 I2=0.139
+released coding, log(1+x)                      n1= 2680 n0= 3262 t= 28.80 (df 5940) weighted d=0.745 unweighted mean d=0.717 median=0.721 sites=36 Q=61.22 I2=0.428
+corrected coding, log(1+x)                     n1= 2977 n0= 2965 t= 15.39 (df 5940) weighted d=0.399 unweighted mean d=0.379 median=0.380 sites=36 Q=50.21 I2=0.303
+released coding, raw x                         n1= 2680 n0= 3262 t= 15.17 (df 5940) weighted d=0.385 unweighted mean d=0.399 median=0.409 sites=36 Q=35.93 I2=0.026
+corrected coding, raw x                        n1= 2977 n0= 2965 t= 12.07 (df 5940) weighted d=0.313 unweighted mean d=0.322 median=0.338 sites=36 Q=34.74 I2=0.000
+
+Published (Klein et al. 2014 Table 2, ML-_Summary_Statistics.xlsx row 'Retrospective gambler fallacy'): unweighted 0.59, median 0.61, weighted 0.61 [0.54, 0.68], t = 24.01, df 5940, N 5942; Table 3: Q 50.83, df 35, I2 .229.
+
+mean sqrt-DV by released group / corrected group:
+            count   mean    std
+g_released                     
+0.0          3262  2.066  2.073
+1.0          2680  3.762  3.324
+            count   mean    std
+g_question                     
+0            2965  2.273  2.063
+1            2977  3.387  3.349
+zeros: released group 0 n_zero = 560 | correct two-6s group n_zero = 264 | correct three-6s group n_zero = 296
+
+====================================================================================================
+PART B  anchoring: item content versus Table 3 rows
+codebook text per item (first column = variable name):
+  anchoring1a: The distance from San Francisco to New York City is longer than 1,500 miles. How far do you think it is?
+  anchoring1b: The distance from San Francisco to New York City is shorter than 6,000 miles. How far do you think it is?
+  anchoring2a: The population of Chicago is more than 200,000. What do you think the population of Chicago is?
+  anchoring2b: The population of Chicago is less than 5,000,000. What do you think the population of Chicago is?
+  anchoring3a: Mount Everest is taller than 2,000 feet. How tall do you think Mount Everest is?
+  anchoring3b: Mount Everest is shorter than 45,500 feet. How tall do you think Mount Everest is?
+  anchoring4a: More than 100 babies are born per day in the United States. How many babies do you think are born in the U.S. each day?
+  anchoring4b: Less than 50,000 babies are born per day in the United States. How many babies do you think are born in the U.S. each day?
+data item 1: N=5362 median raw answer low/high anchor = 3000/4000; rank-scale Cochran Q = 63.03, I2 = 0.445; Cond x US/intl F = 5.635; Cond x lab/online F = 13.384
+data item 2: N=5284 median raw answer low/high anchor = 600000/3000000; rank-scale Cochran Q = 153.67, I2 = 0.772; Cond x US/intl F = 1.112; Cond x lab/online F = 13.216
+data item 3: N=5627 median raw answer low/high anchor = 7000/36825; rank-scale Cochran Q = 313.99, I2 = 0.889; Cond x US/intl F = 135.125; Cond x lab/online F = 169.786
+data item 4: N=5609 median raw answer low/high anchor = 667/30000; rank-scale Cochran Q = 91.86, I2 = 0.619; Cond x US/intl F = 0.264; Cond x lab/online F = 6.336
+
+published rows (Q, I2, F US/intl, F lab/online):
+  Babies born      (59.71, 0.402, 0.157, 16.135)
+  Mt. Everest      (152.34, 0.754, 94.325, 119.555)
+  Chicago          (312.75, 0.913, 0.616, 32.954)
+  Distance to NYC  (88.16, 0.643, 9.348, 15.738)
+
+best data item for each published row by (Q, F_country, F_location) distance:
+  published 'Babies born' <- data item 4
+  published 'Mt. Everest' <- data item 2
+  published 'Chicago' <- data item 2
+  published 'Distance to NYC' <- data item 1

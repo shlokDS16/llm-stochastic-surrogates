@@ -1,0 +1,16 @@
+{
+  "order": 27,
+  "study_id": "https://openalex.org/W4389523946",
+  "full_text": {"obtained": true, "source": "https://arxiv.org/pdf/2310.13206 (research/sources/md/fulltext/027_W4389523946.md)"},
+  "eligibility": {"decision": "NO", "failed_criterion": "benchmark-only", "borderline": true,
+    "evidence": "Sections 2-3 (pp. 1-4): gpt-3.5-turbo is given relation-extraction and intent-detection benchmarks (TACRED, Banking77, MASSIVE, GoEmotions, 20 Newsgroups) with labels shuffled; label-order bias is called 'primacy effect' and Asch 1946 is cited, but no cognitive-experimental task or human-study item is administered. Reviewer could count the cited primacy bias as the paradigm."},
+  "A": {"doi": "10.18653/v1/2023.emnlp-main.8", "arxiv_id": "2310.13206", "title": "Primacy Effect of ChatGPT", "first_author": "Yiwei Wang", "year": 2023, "venue": "EMNLP 2023", "peer_reviewed": "yes", "first_author_field": "not_reported", "country": "USA"},
+  "B": {"models": [], "n_models": 0, "n_model_families": 0},
+  "C": {"paradigms": []},
+  "D": {"types": [], "primary_type": "none", "human_n": null, "population": "not_reported", "metric": "not_reported"},
+  "E": {"outcome_types": [], "rows_aggregated": false, "effects": [], "headline": ""},
+  "F": {"f1": "no", "f2": "no", "f3": "no", "f4": "no", "f5": "no", "f6": "no", "f7": "no", "f8": "no",
+        "f9": "no", "f10": "no", "f11": "no", "f12": "no", "perturbations_tested": [],
+        "robustness_outcome": "na"},
+  "G": {"notes": "Borderline on E2: the primacy label is borrowed from Asch (1946) to name a label-position bias in NLU classification; no human comparison and no cognitive task. Referee would ask whether any classic serial-position or order-effect paradigm was adapted. Only gpt-3.5-turbo (temperature 0.0) tested.", "extractor": "paper-reader (claude-sonnet)", "date": "2026-10-16", "minutes": 4, "sections_read": ["abstract", "1 Introduction", "2 Primacy effect (prompts, label shuffling)", "3 Experiments (setup, Tables 1-2, Fig. 4)", "4 Related work", "5 Conclusion", "Limitation"]}
+}

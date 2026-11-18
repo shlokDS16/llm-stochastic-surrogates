@@ -1,0 +1,12 @@
+paradigm: AF
+wording: W4
+response_type: yesno
+conditions:
+  x1: Do you think public speeches against democracy should be forbidden in the United States?
+  x0: Do you think public speeches against democracy should be allowed in the United States?
+condition_names:
+  x1: forbid question
+  x0: allow question
+options:
+- 'Yes'
+- 'No'

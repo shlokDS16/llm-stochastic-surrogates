@@ -1,0 +1,34 @@
+{
+ "order": 144,
+ "study_id": "https://openalex.org/W7133348821",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/144_W7133348821.md",
+ "sources_varied": [
+  "M"
+ ],
+ "X1": {
+  "value": "no",
+  "sources_crossed": [],
+  "evidence": "Sec 3-4 (p.4-6): 39 models at temperature 0 on one interference protocol; parameter count and context window are model attributes; sessions run until the bootstrap CI is narrow."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "variance_share",
+   "anova_or_mixed_term",
+   "effect_change"
+  ],
+  "x2_sources": [
+   "M"
+  ],
+  "evidence": "Sec 4, Fig 3 (p.6): parameter count accounts for 49% of between-model variance in RIES (R2 = 0.49) versus R2 = 0.06 for PIES; size tiers F(3,35) = 11.83."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": ""
+ },
+ "notes": "The percent of variance is a share of between-model variance explained by one model attribute, not a share of total variance across sources; the only variance-share-like entry found."
+}

@@ -1,0 +1,26 @@
+{
+ "order": 65,
+ "study_id": "https://openalex.org/W4402667152",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/065_W4402667152.md",
+ "sources_varied": [],
+ "X1": {
+  "value": "no",
+  "sources_crossed": [],
+  "evidence": "Methods: one language model scored on sentence variants taken from the psycholinguistic items; no model, wording, order or sampling variation."
+ },
+ "X2": {
+  "value": "no",
+  "x2_types": [],
+  "x2_sources": [],
+  "evidence": "Comparison is model surprisal against human data; no source decomposed."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": ""
+ },
+ "notes": ""
+}

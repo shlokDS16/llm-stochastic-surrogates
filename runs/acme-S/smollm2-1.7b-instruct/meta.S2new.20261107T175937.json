@@ -1,0 +1,18 @@
+{
+ "model": "smollm2-1.7b-instruct",
+ "repo": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+ "revision": "31b70e2e869a7173562077fd711b654946d38674",
+ "stage": "S2new",
+ "batch_size": 32,
+ "eos_ids": [
+  2
+ ],
+ "torch": "2.11.0+cu128",
+ "transformers": "5.20.0",
+ "git_sha": "54b2c1aa814f1c438ac24874f84df19dc510b8a4",
+ "F": "F1",
+ "temps": [
+  1.0
+ ],
+ "n": 25
+}

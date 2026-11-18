@@ -1,0 +1,11 @@
+item,scale_primary,se_single_site_primary,median_n1,median_n0,median_sd_pooled,scale_raw,se_single_site_raw,k_sites,definition
+P1,log odds ratio,0.4246471050716024,52.0,52.0,,risk difference (sure option),0.0941763154622744,36,median over the sites of sqrt(v) of the site's primary effect (x1 minus x0); raw: sqrt(s1^2/n1 + s0^2/n0)
+P2a,Hedges g,0.23932834503871683,46.0,41.5,1002.8985886308974,miles,208.6031743914712,36,median over the sites of sqrt(v) of the site's primary effect (x1 minus x0); raw: sqrt(s1^2/n1 + s0^2/n0)
+P2b,Hedges g,0.265406197265571,41.0,45.0,1030413.6710527999,people,223598.8898712817,36,median over the sites of sqrt(v) of the site's primary effect (x1 minus x0); raw: sqrt(s1^2/n1 + s0^2/n0)
+P2c,Hedges g,0.2832744494953689,45.0,46.5,9338.261248944333,feet,1951.511718806129,36,median over the sites of sqrt(v) of the site's primary effect (x1 minus x0); raw: sqrt(s1^2/n1 + s0^2/n0)
+P2d,Hedges g,0.270305904394913,47.5,46.0,10605.857091697246,babies per day,2052.4423446088185,36,median over the sites of sqrt(v) of the site's primary effect (x1 minus x0); raw: sqrt(s1^2/n1 + s0^2/n0)
+P3,Hedges g,0.19910504603120296,51.5,54.5,1.8785213229199302,rating points (1-9),0.3613324248662948,36,median over the sites of sqrt(v) of the site's primary effect (x1 minus x0); raw: sqrt(s1^2/n1 + s0^2/n0)
+P4,Hedges g,0.20641792027014277,50.5,49.0,1.1332906880932014,estimated earlier rolls (count),6.488541715268266,36,median over the sites of sqrt(v) of the site's primary effect (x1 minus x0); raw: sqrt(s1^2/n1 + s0^2/n0)
+AF,log odds ratio,0.6547690868874183,50.5,53.5,,risk difference (anti-speech),0.06805122904178461,36,median over the sites of sqrt(v) of the site's primary effect (x1 minus x0); raw: sqrt(s1^2/n1 + s0^2/n0)
+QA,Hedges g,0.20156688552541258,53.5,49.0,2.075103557256799,"rating points (1-9, higher = agree)",0.40235867528754965,36,median over the sites of sqrt(v) of the site's primary effect (x1 minus x0); raw: sqrt(s1^2/n1 + s0^2/n0)
+NR,log odds ratio,0.4427415083017671,51.0,54.0,,risk difference (Yes to US question),0.08693933134684978,36,median over the sites of sqrt(v) of the site's primary effect (x1 minus x0); raw: sqrt(s1^2/n1 + s0^2/n0)

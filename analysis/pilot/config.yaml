@@ -1,0 +1,49 @@
+# Pilot harness configuration (design v0.4). Frozen workload is recorded as a dated amendment after staging.
+design:
+  wordings: [W0, W1, W2, W3]
+  formats: [F0, F1]
+  temps: [0.7, 1.0]
+  orders_P1: [sure_first, risky_first]
+  n: 50              # independent sampled responses per cell and condition (cut order if over budget: n >= 30, then F1)
+  greedy: true       # one T=0 response per prompt, descriptive only
+generation:
+  max_new_tokens: {F0: 24, F1: 256}   # amendment 2026-10-16: 128 truncated 20% of OLMo-1B F1 answers
+# revision = full commit sha of the source repository (recorded by tools/fetch_model.py in runs/models/MODELS.jsonl)
+# quant: bf16 | nf4_saved (bitsandbytes NF4 checkpoint made by tools/quantize_model.py from the pinned bf16 revision)
+models:
+  olmo2-1b-instruct:
+    repo: allenai/OLMo-2-0425-1B-Instruct
+    revision: 48d788eca847d4d7548f375ad03d3c9312f6139e
+    path: models/raw/olmo2-1b-instruct
+    quant: bf16
+    batch_size: 40     # 2026-10-16: 100 ran out of memory with F1 at 256 tokens (async CUDA OOM is not recoverable by halving)
+  olmo2-7b-instruct:
+    repo: allenai/OLMo-2-1124-7B-Instruct
+    revision: 470b1fba1ae01581f270116362ee4aa1b97f4c84
+    path: models/q4/olmo2-7b-instruct     # NF4 (no double quant) saved from the pinned bf16 revision by tools/quantize_model.py
+    quant: nf4_saved
+    batch_size: 6      # 2026-10-16: 24 and 12 ran out of memory with F1 at 256 tokens (no GQA: large KV cache)
+  qwen2.5-1.5b-instruct:
+    repo: Qwen/Qwen2.5-1.5B-Instruct
+    revision: 989aa7980e4cf806f80c7fef2b1adb7bc71aa306
+    path: models/raw/qwen2.5-1.5b-instruct
+    quant: bf16
+    batch_size: 100
+  qwen2.5-7b-instruct:
+    repo: Qwen/Qwen2.5-7B-Instruct
+    revision: a09a35458c702b33eeacc393d103063234e8bc28
+    path: models/q4/qwen2.5-7b-instruct
+    quant: nf4_saved
+    batch_size: 64
+  granite-3.3-2b-instruct:
+    repo: ibm-granite/granite-3.3-2b-instruct
+    revision: 707f574c62054322f6b5b04b6d075f0a8f05e0f0
+    path: models/raw/granite-3.3-2b-instruct
+    quant: bf16
+    batch_size: 80
+  granite-3.3-8b-instruct:
+    repo: ibm-granite/granite-3.3-8b-instruct
+    revision: 51dd4bc2ade4059a6bd87649d68aa11e4fb2529b
+    path: models/q4/granite-3.3-8b-instruct
+    quant: nf4_saved
+    batch_size: 24     # 2026-10-16: 50 ran out of memory with F1 at 256 tokens

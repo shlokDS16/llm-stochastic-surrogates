@@ -1,0 +1,26 @@
+{
+  "order": 11,
+  "study_id": "https://openalex.org/W7139097623",
+  "full_text": {"obtained": true, "source": "research/sources/md/fulltext/011_W7139097623.md"},
+  "eligibility": {
+    "decision": "NO",
+    "failed_criterion": "benchmark-only",
+    "borderline": true,
+    "evidence": "Whole paper (Abstract, Methodology, Experiments, Results): a new 65k-question movie-based QA benchmark whose questions are generated from an LLM-built Social-Causal Graph. It labels the content Theory of Mind but cites no human paradigm the tasks derive from and names no classic paradigm (false-belief tasks appear only as prior work in the Introduction). Fails the E2 operational test; a reviewer could count 'ToM' as the domain and include it."
+  },
+  "A": {"doi": null, "arxiv_id": null,
+        "title": "MovieGraph-ToM: Evaluating Long-Range Theory of Mind in Large Language Models via Implicit Social-Causal Graphs",
+        "first_author": "Tingjiang Wei", "year": 2026,
+        "venue": "AAAI Conference on Artificial Intelligence (AAAI-26)",
+        "peer_reviewed": "yes", "first_author_field": "CS", "country": "China"},
+  "B": {"models": [], "n_models": 0, "n_model_families": 0},
+  "C": {"paradigms": []},
+  "D": {"types": [], "primary_type": "none", "human_n": null, "population": "not_reported", "metric": "not_reported"},
+  "E": {"outcome_types": [], "rows_aggregated": false, "effects": [], "headline": ""},
+  "F": {"f1": "no", "f2": "no", "f3": "no", "f4": "no", "f5": "no", "f6": "no", "f7": "no", "f8": "no",
+        "f9": "no", "f10": "no", "f11": "no", "f12": "no", "perturbations_tested": [],
+        "robustness_outcome": "na"},
+  "G": {"notes": "Excluded as benchmark-only. The converted text has no appendix (cited for model list, metric definitions, human evaluation), so model details could not be checked. Ten models tested; no human comparison; code link given in the abstract.",
+        "extractor": "paper-reader (claude-sonnet)", "date": "2026-10-16", "minutes": 6,
+        "sections_read": ["Abstract", "Introduction", "Related Work", "Methodology (construction pipeline, graph and question statistics)", "Task formulation and two-phase protocol", "Experiments and Results (Tables 4-6)", "Discussion", "Conclusion and limitations", "reference-list check for appendix"]}
+}

@@ -1,0 +1,7 @@
+extends: occurrence
+message: "Three or more sentence-opening connectives in one paragraph (ai-patterns-academic C2). Keep only those that mark a real relation."
+level: warning
+scope: paragraph
+ignorecase: false
+max: 2
+token: '(?:^|\.\s+)(?:Moreover|Furthermore|Additionally|In addition|Notably|Importantly|Consequently|Therefore|Thus|Overall),'

@@ -1,0 +1,39 @@
+{
+ "order": 22,
+ "study_id": "https://openalex.org/W7165006854",
+ "pass": "codex",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/022_W7165006854.md",
+ "sources_varied": [
+  "M",
+  "W"
+ ],
+ "X1": {
+  "value": "yes",
+  "sources_crossed": [
+   "M",
+   "W"
+  ],
+  "evidence": "Secs. 3.4–3.6; Sec. 4.4, Tables 2–3: the same tasks were administered in English, Hebrew, and Russian to all three models."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "M",
+   "W"
+  ],
+  "evidence": "Secs. 4.1 and 4.4, Tables 2–3: correctness percentages and attributed differences are reported across models and languages."
+ },
+ "X3": {
+  "value": "yes",
+  "x3_pairs": [
+   "M x W"
+  ],
+  "evidence": "Sec. 4.4, Figs. 5–8: model-language results are shown together, and the text reports model-specific language variation."
+ },
+ "notes": ""
+}

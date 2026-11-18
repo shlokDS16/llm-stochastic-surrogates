@@ -1,0 +1,22 @@
+paradigm: P1
+wording: D1
+response_type: choice
+stem: 'Imagine that the United States is preparing for the outbreak of an unusual disease, which is expected to kill 600 people. Two alternative programs to fight the disease have been proposed. Assume that the exact scientific estimate of the consequences of the program are as follows:'
+question: Which program would you choose?
+frames:
+  x1:
+    name: gain
+    labels:
+    - A
+    - B
+    sure: If Program {L} is adopted, 300 people will be saved
+    risky: If Program {L} is adopted, there is 1/3 probability that 600 people will be saved and 2/3 probability that no people will be saved.
+  x0:
+    name: loss
+    labels:
+    - C
+    - D
+    sure: If Program {L} is adopted, 300 people will die.
+    risky: If Program {L} is adopted, there is 1/3 probability that no people will die and 2/3 probability that 600 people will die.
+order_note: O=sure_first puts the sure program on the first label; O=risky_first swaps the two lines (labels stay in order).
+decoy_change: sure program has 300 saved / 300 die instead of 200 saved / 400 die (risky program unchanged)

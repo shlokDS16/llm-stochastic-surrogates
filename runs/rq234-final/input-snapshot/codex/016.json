@@ -1,0 +1,464 @@
+{
+ "order": 16,
+ "study_id": "https://openalex.org/W7168344152",
+ "full_text": {
+  "obtained": true,
+  "source": "research/sources/md/fulltext/016_W7168344152.md"
+ },
+ "eligibility": {
+  "decision": "YES",
+  "failed_criterion": null,
+  "borderline": false,
+  "evidence": "Sections 2.1 and 4–5: the paper tests human-established implicit-causality and coherence biases with generated LLM continuations and compares results with human experimental data."
+ },
+ "A": {
+  "doi": "10.5210/dad.2026.201",
+  "arxiv_id": null,
+  "title": "Implicit Causality-biases in humans and LLMs as a tool for benchmarking LLM discourse capabilities",
+  "first_author": "Florian Kankowski",
+  "year": 2026,
+  "venue": "Dialogue & Discourse 17(2)",
+  "peer_reviewed": "yes",
+  "first_author_field": "not_reported",
+  "country": "Germany"
+ },
+ "B": {
+  "models": [
+   {
+    "name": "German GPT-2",
+    "version": "stefan-it/german-gpt2-larger",
+    "access": "open_weights",
+    "params_b": null,
+    "release_date": "2021-09-17",
+    "tuning": "base",
+    "family": "GPT",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "XGLM",
+    "version": "564M",
+    "access": "open_weights",
+    "params_b": 0.564,
+    "release_date": "not_reported",
+    "tuning": "base",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "XGLM",
+    "version": "1.7B",
+    "access": "open_weights",
+    "params_b": 1.7,
+    "release_date": "not_reported",
+    "tuning": "base",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "XGLM",
+    "version": "2.9B",
+    "access": "open_weights",
+    "params_b": 2.9,
+    "release_date": "not_reported",
+    "tuning": "base",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "XGLM",
+    "version": "4.5B",
+    "access": "open_weights",
+    "params_b": 4.5,
+    "release_date": "not_reported",
+    "tuning": "base",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "XGLM",
+    "version": "7.5B",
+    "access": "open_weights",
+    "params_b": 7.5,
+    "release_date": "not_reported",
+    "tuning": "base",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "German BLOOM",
+    "version": "350M",
+    "access": "open_weights",
+    "params_b": 0.35,
+    "release_date": "2022-10-18",
+    "tuning": "base",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "German BLOOM CLP",
+    "version": "1.5B",
+    "access": "open_weights",
+    "params_b": 1.5,
+    "release_date": "2023-07-12",
+    "tuning": "base",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "German BLOOM CLP",
+    "version": "6.4B",
+    "access": "open_weights",
+    "params_b": 6.4,
+    "release_date": "2023-07-12",
+    "tuning": "base",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Llama 3.2",
+    "version": "1B foundation",
+    "access": "open_weights",
+    "params_b": 1,
+    "release_date": "not_reported",
+    "tuning": "base",
+    "family": "Llama",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Llama 3.2",
+    "version": "1B instruction-tuned",
+    "access": "open_weights",
+    "params_b": 1,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "Llama",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Llama 3.2",
+    "version": "3B foundation",
+    "access": "open_weights",
+    "params_b": 3,
+    "release_date": "not_reported",
+    "tuning": "base",
+    "family": "Llama",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Llama 3.2",
+    "version": "3B instruction-tuned",
+    "access": "open_weights",
+    "params_b": 3,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "Llama",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Llama 3.1",
+    "version": "8B foundation",
+    "access": "open_weights",
+    "params_b": 8,
+    "release_date": "not_reported",
+    "tuning": "base",
+    "family": "Llama",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Llama 3.1",
+    "version": "8B instruction-tuned",
+    "access": "open_weights",
+    "params_b": 8,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "Llama",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Mistral-NeMo",
+    "version": "12B foundation",
+    "access": "open_weights",
+    "params_b": 12,
+    "release_date": "2024-07",
+    "tuning": "base",
+    "family": "Mistral",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Mistral-NeMo",
+    "version": "12B instruction-tuned",
+    "access": "open_weights",
+    "params_b": 12,
+    "release_date": "2024-07",
+    "tuning": "instruction",
+    "family": "Mistral",
+    "query_date": "not_reported"
+   }
+  ],
+  "n_models": 17,
+  "n_model_families": 5
+ },
+ "C": {
+  "paradigms": [
+   {
+    "pid": "P1",
+    "name": "Implicit causality and consequentiality next-mention coreference continuation task",
+    "family": "LANG",
+    "source_paper": "Solstad and Bott (2022), Experiment 1",
+    "items_origin": "adapted",
+    "n_items": 38,
+    "languages": [
+     "German"
+    ],
+    "modality": "text",
+    "contamination_risk": "partly",
+    "location": "Sections 4.1.1–4.1.2 and 5.1.1"
+   },
+   {
+    "pid": "P2",
+    "name": "Implicit-causality coherence-relation continuation task",
+    "family": "LANG",
+    "source_paper": "Solstad and Bott (2022), Experiment 2; coherence items adapted for this study",
+    "items_origin": "adapted",
+    "n_items": 40,
+    "languages": [
+     "German"
+    ],
+    "modality": "text",
+    "contamination_risk": "partly",
+    "location": "Sections 4.2.1–4.2.2 and 5.2.1"
+   }
+  ]
+ },
+ "D": {
+  "types": [
+   "own_sample",
+   "published_norms"
+  ],
+  "primary_type": "own_sample",
+  "human_n": 30,
+  "population": "Native German speakers; 30 participants in the newly collected coherence comparison. The coreference comparison uses published Solstad and Bott (2022) data from 52 participants.",
+  "metric": "For coreference, proportions of subject versus object reference and mixed-effects logistic regression; for coherence, proportion of explanations versus other relations and mixed-effects logistic regression."
+ },
+ "E": {
+  "outcome_types": [
+   "bias_magnitude",
+   "choice_distribution"
+  ],
+  "rows_aggregated": true,
+  "effects": [
+   {
+    "pid": "P1",
+    "model": "German GPT-2",
+    "model_family": "GPT",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "no",
+    "human_effect_present": "yes",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "different",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SUPER-NORMATIVE",
+    "location": "Section 4.1.5, Table 2: no significant verb-class effect for I-Caus; I-Cons effect reported."
+   },
+   {
+    "pid": "P1",
+    "model": "XGLM 7.5B",
+    "model_family": "other",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Section 4.1.5, Table 2: I-Cons distinction is significant in the human direction; the paper reports no human-versus-model magnitude test."
+   },
+   {
+    "pid": "P1",
+    "model": "German BLOOM CLP 6.4B",
+    "model_family": "other",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Section 4.1.5, Table 2: only model with significant I-Caus verb-class distinction; paper describes it as not close to the human pattern."
+   },
+   {
+    "pid": "P1",
+    "model": "Llama 3.1 8B instruction-tuned",
+    "model_family": "Llama",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Section 5.1.3, Table 4: instruction-tuned models generally show significant verb-type differences for both connectives; results are pooled at family level here."
+   },
+   {
+    "pid": "P1",
+    "model": "Mistral-NeMo 12B instruction-tuned",
+    "model_family": "Mistral",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Section 5.1.3, Table 4: the authors identify this as closest to human coreference biases; no model-human magnitude test is reported."
+   },
+   {
+    "pid": "P2",
+    "model": "German GPT-2",
+    "model_family": "GPT",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "no",
+    "human_effect_present": "yes",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "different",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SUPER-NORMATIVE",
+    "location": "Sections 4.2.4–4.2.5, Table 3: explanation proportion below 50%, unlike the human comparison."
+   },
+   {
+    "pid": "P2",
+    "model": "XGLM 7.5B",
+    "model_family": "other",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "no",
+    "human_effect_present": "yes",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "different",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SUPER-NORMATIVE",
+    "location": "Sections 4.2.4–4.2.5, Table 3: explanation proportion significantly below 50%, unlike the human comparison."
+   },
+   {
+    "pid": "P2",
+    "model": "German BLOOM CLP 6.4B",
+    "model_family": "other",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "no",
+    "human_effect_present": "yes",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "different",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SUPER-NORMATIVE",
+    "location": "Sections 4.2.4–4.2.5, Table 3: explanation proportion significantly below 50%, unlike the human comparison."
+   },
+   {
+    "pid": "P2",
+    "model": "Llama 3.1 8B instruction-tuned",
+    "model_family": "Llama",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Section 5.2.3, Table 5: instruction-tuned Llama 8B showed a significant explanation bias, with a higher proportion than humans; no model-human test is reported."
+   },
+   {
+    "pid": "P2",
+    "model": "Mistral-NeMo 12B instruction-tuned",
+    "model_family": "Mistral",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Section 5.2.3, Table 5: Mistral 12B instruction-tuned showed 93% explanations versus about 81% for humans; authors describe the model as overshooting, without a model-human magnitude test."
+   }
+  ],
+  "headline": "Larger and instruction-tuned models more often produced human-aligned implicit-causality and coherence biases; Mistral-NeMo 12B instruction-tuned was closest overall and exceeded the human explanation rate."
+ },
+ "F": {
+  "f1": "no",
+  "f2": "yes",
+  "f3": "no",
+  "f4": "yes",
+  "f5": "no",
+  "f6": "na",
+  "f7": "no",
+  "f8": "yes",
+  "f9": "no",
+  "f10": "yes",
+  "f11": "no",
+  "f12": "yes",
+  "perturbations_tested": [
+   "model_version"
+  ],
+  "robustness_outcome": "na"
+ },
+ "G": {
+  "notes": "The coherence comparison uses newly collected human data, whereas coreference relies on a prior study. Coherence analyses exclude many model continuations that lack a parse or explicit connective, potentially affecting comparability with human production. Model-human magnitude comparisons are not formally tested.",
+  "extractor": "codex (default)",
+  "date": "2026-10-16",
+  "minutes": 0.6,
+  "sections_read": [
+   "Abstract",
+   "Sections 1–7",
+   "Tables 1–5",
+   "Figures 1–7 captions and results discussion",
+   "Funding and data availability statement"
+  ]
+ }
+}

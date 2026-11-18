@@ -1,0 +1,26 @@
+{
+ "order": 35,
+ "study_id": "https://openalex.org/W4390754474",
+ "pass": "codex",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/035_W4390754474.md",
+ "sources_varied": [],
+ "X1": {
+  "value": "no",
+  "sources_crossed": [],
+  "evidence": "Overview of study, pp. 2–3: ChatGPT3 retold the same stories with identical instructions; different accounts were used, but account identity was not analyzed as a repeated-draw factor."
+ },
+ "X2": {
+  "value": "no",
+  "x2_types": [],
+  "x2_sources": [],
+  "evidence": "Results, pp. 4–7: analyses compare human and ChatGPT retellings and retelling iterations; no varied simulation-uncertainty source is quantified."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "Results, pp. 4–7: condition-by-producer interactions are discussed, but no interaction between varied simulation-uncertainty sources is estimated or shown."
+ },
+ "notes": "The three retellings are successive task iterations, not repeated simulation draws treated as a design factor. Human-versus-model and story condition comparisons do not count as sources."
+}

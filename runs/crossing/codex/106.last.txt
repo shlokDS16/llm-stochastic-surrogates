@@ -1,0 +1,26 @@
+{
+  "order": 106,
+  "study_id": "https://openalex.org/W4416843768",
+  "pass": "codex",
+  "brief_version": "1.0",
+  "date": "2026-11-07",
+  "full_text": "research/sources/md/fulltext/106_W4416843768.md",
+  "sources_varied": ["M", "W", "T", "X"],
+  "X1": {
+    "value": "partial",
+    "sources_crossed": [],
+    "evidence": "Secs. 3.2, 4.2–4.5, Apps. B, E: Multiple models, story paraphrasing/prompt variants, and GPT-4 temperature levels are examined in separate experiments; character count also varies, without a full factorial crossing."
+  },
+  "X2": {
+    "value": "yes",
+    "x2_types": ["effect_change"],
+    "x2_sources": ["M", "W", "T", "X"],
+    "evidence": "Secs. 4.2–4.5, Apps. B, E: Accuracy is quantified across models, paraphrased versus template stories, character counts, and GPT-4 temperature levels."
+  },
+  "X3": {
+    "value": "no",
+    "x3_pairs": [],
+    "evidence": "Secs. 4.2–4.5, Apps. B, E: No source-by-source interaction is estimated or shown; comparisons vary sources separately."
+  },
+  "notes": "X denotes number of characters in the story, varied in Section 4.5."
+}

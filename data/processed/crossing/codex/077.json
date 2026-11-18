@@ -1,0 +1,33 @@
+{
+ "order": 77,
+ "study_id": "https://openalex.org/W4405785524",
+ "pass": "codex",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/077_W4405785524.md",
+ "sources_varied": [
+  "M",
+  "W"
+ ],
+ "X1": {
+  "value": "partial",
+  "sources_crossed": [],
+  "evidence": "Sec. IV-D, V-A: multiple models were run on original stimuli and a rewritten set was tested as a separate robustness check; model and wording were not fully crossed."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "W"
+  ],
+  "evidence": "Sec. V-A: rewritten stimuli yielded a GPT-4 correlation of 0.81 versus 0.83 on the original stimuli, quantifying the outcome change across wording."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "Sec. V-A: results for rewritten stimuli are reported separately, with no source-by-source interaction estimated or shown."
+ },
+ "notes": "Models are varied on the original stimuli; rewritten stimuli are a wording robustness check. Temperature is fixed at 0, and stated API variance is not analyzed as run-to-run variation."
+}

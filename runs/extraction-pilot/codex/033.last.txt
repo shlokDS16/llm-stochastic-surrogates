@@ -1,0 +1,213 @@
+{
+  "order": 33,
+  "study_id": "https://openalex.org/W4414079627",
+  "full_text": {
+    "obtained": true,
+    "source": "IEEE Xplore PDF (arnumber 11147285), converted to markdown"
+  },
+  "eligibility": {
+    "decision": "YES",
+    "failed_criterion": null,
+    "borderline": false,
+    "evidence": "Process; Results: the authors tested four LLMs on paired positive and negative framings of seven questions and report response changes."
+  },
+  "A": {
+    "doi": "10.1109/ISEC64801.2025.11147285",
+    "arxiv_id": null,
+    "title": "Framing Effects on Large Language Models",
+    "first_author": "Kelvin Sam Zebah Singh Alfred",
+    "year": 2025,
+    "venue": "2025 IEEE Integrated STEM Education Conference (ISEC)",
+    "peer_reviewed": "yes",
+    "first_author_field": "not_reported",
+    "country": "United States"
+  },
+  "B": {
+    "models": [
+      {
+        "name": "ChatGPT",
+        "version": "not_reported",
+        "access": "not_reported",
+        "params_b": null,
+        "release_date": "not_reported",
+        "tuning": "not_reported",
+        "family": "GPT",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "Gemini",
+        "version": "not_reported",
+        "access": "not_reported",
+        "params_b": null,
+        "release_date": "not_reported",
+        "tuning": "not_reported",
+        "family": "Gemini",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "Perplexity",
+        "version": "not_reported",
+        "access": "not_reported",
+        "params_b": null,
+        "release_date": "not_reported",
+        "tuning": "not_reported",
+        "family": "other",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "DeepSeek",
+        "version": "not_reported",
+        "access": "not_reported",
+        "params_b": null,
+        "release_date": "not_reported",
+        "tuning": "not_reported",
+        "family": "other",
+        "query_date": "not_reported"
+      }
+    ],
+    "n_models": 4,
+    "n_model_families": 4
+  },
+  "C": {
+    "paradigms": [
+      {
+        "pid": "P1",
+        "name": "Framing effect in paired yes-or-no decision questions",
+        "family": "HB",
+        "source_paper": "not_reported",
+        "items_origin": "not_reported",
+        "n_items": 7,
+        "languages": [
+          "English"
+        ],
+        "modality": "text",
+        "contamination_risk": "not_reported",
+        "location": "Process; Results"
+      }
+    ]
+  },
+  "D": {
+    "types": [
+      "none"
+    ],
+    "primary_type": "none",
+    "human_n": null,
+    "population": "not_reported",
+    "metric": "not_reported"
+  },
+  "E": {
+    "outcome_types": [
+      "choice_distribution",
+      "bias_magnitude"
+    ],
+    "rows_aggregated": false,
+    "effects": [
+      {
+        "pid": "P1",
+        "model": "ChatGPT",
+        "model_family": "GPT",
+        "outcome_kind": "effect",
+        "basis": "descriptive",
+        "model_effect_present": "yes",
+        "human_effect_present": "no_human_reference",
+        "direction": "not_reported",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "NO-HUMAN-REFERENCE",
+        "location": "Results: authors report six answer changes"
+      },
+      {
+        "pid": "P1",
+        "model": "Gemini",
+        "model_family": "Gemini",
+        "outcome_kind": "effect",
+        "basis": "descriptive",
+        "model_effect_present": "yes",
+        "human_effect_present": "no_human_reference",
+        "direction": "not_reported",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "NO-HUMAN-REFERENCE",
+        "location": "Results: authors report one answer change"
+      },
+      {
+        "pid": "P1",
+        "model": "Perplexity",
+        "model_family": "other",
+        "outcome_kind": "effect",
+        "basis": "descriptive",
+        "model_effect_present": "yes",
+        "human_effect_present": "no_human_reference",
+        "direction": "not_reported",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "NO-HUMAN-REFERENCE",
+        "location": "Results: authors report three answer changes"
+      },
+      {
+        "pid": "P1",
+        "model": "DeepSeek",
+        "model_family": "other",
+        "outcome_kind": "effect",
+        "basis": "descriptive",
+        "model_effect_present": "yes",
+        "human_effect_present": "no_human_reference",
+        "direction": "not_reported",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "NO-HUMAN-REFERENCE",
+        "location": "Results: authors report one answer change"
+      }
+    ],
+    "headline": "ChatGPT changed answers most often across framings, while DeepSeek and Gemini changed once each; Perplexity changed three times."
+  },
+  "F": {
+    "f1": "no",
+    "f2": "no",
+    "f3": "no",
+    "f4": "no",
+    "f5": "no",
+    "f6": "no",
+    "f7": "no",
+    "f8": "no",
+    "f9": "no",
+    "f10": "no",
+    "f11": "no",
+    "f12": "no",
+    "perturbations_tested": [
+      "wording"
+    ],
+    "robustness_outcome": "weakened"
+  },
+  "G": {
+    "notes": "A referee would ask how model versions, query conditions, and the seven question pairs were selected, and whether answer changes were scored consistently. The paper reports no human comparison or statistical uncertainty.",
+    "extractor": "codex (default)",
+    "date": "2026-10-17",
+    "minutes": 4,
+    "sections_read": [
+      "Abstract",
+      "Introduction",
+      "Background",
+      "Process",
+      "Results",
+      "Future Work",
+      "References"
+    ]
+  }
+}

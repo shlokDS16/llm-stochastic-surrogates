@@ -1,0 +1,23 @@
+% HAND-BUILT synthesis table (no runs/ file). Each limitation cell cites the section that evidences it; each direction cell cites
+% a source or a section of this paper. Numbers appear only through \NUM keys (none are needed in this table).
+{\footnotesize\setlength{\tabcolsep}{4pt}\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.04\textwidth}>{\raggedright\arraybackslash}p{0.32\textwidth}>{\raggedright\arraybackslash}p{0.33\textwidth}>{\raggedright\arraybackslash}p{0.25\textwidth}@{}}
+\toprule
+ & Limitation (evidence) & Direction & Expected impact \\
+\midrule
+\multicolumn{4}{@{}l}{\textit{What studies report}} \\
+1 & Version, administration and readout are unreported or invisible to the coding scheme (Sections~\ref{sec:spec-model} and~\ref{sec:spec-readout}); hosted models change under one name \cite{chen2024drift} & A specification record with version, query date, administration, readout and parser; exact answer probabilities where logits are exposed \cite{hu2023prompting} & Results can be re-run, and a disagreement between studies can be traced to a choice \\
+2 & No sampled study sizes a simulated gap against multi-site variation (Section~\ref{sec:val-reference}) & Site-level data of further multi-site projects, where open \cite{klein2018manylabs2,moshontz2018psa} & Both human yardsticks for more effects than the case study covers \\
+3 & Full crossing is the minority design, and a variance share per source is coded for at most one study (Section~\ref{sec:audit-cross}) & Crossed designs that report a variance share per source (Section~\ref{sec:bench-shares}) & An uncertainty budget for each study \\
+\addlinespace[3pt]
+\multicolumn{4}{@{}l}{\textit{What a simulation estimates}} \\
+4 & The estimand is a choice preference without personas (Section~\ref{sec:background-sim}) & Persona and sampler facets in the same effect-level design \cite{argyle2023out,bisbee2024synthetic} & A test of whether the shares hold when the output is a sample \\
+5 & Hosted models withhold logits, so the exact readout does not reach them (Section~\ref{sec:bench-models}) & A sampled version of the design, with the estimator verified for sampling noise (Section~\ref{sec:bench-estimator}) & Reach to the models used in practice \\
+6 & The wording set is designed, equivalence rests on two blinded judgments, and numeric truncation was calibrated on small models (Section~\ref{sec:bench-design}) & Wordings sampled by a documented scheme and rated by an independent panel; truncation calibration on larger models in both conditions & A wording share about a universe; a bounded truncation error \\
+7 & Shares sit on the probability-difference scale, where saturation can create interactions (Section~\ref{sec:bench-sensitivity}) & A scale on which saturation cannot create interactions, reported beside the logit version & Shares that compare across models of different confidence \\
+8 & Many Labs~1 materials are public and contamination is not varied (Section~\ref{sec:bench-design}) \cite{balloccu2024leak,magar2022contamination} & New paradigms with a multi-site human reference; items whose overlap with open training data can be measured & Memory of a published effect separated from the response to the manipulation \\
+\addlinespace[3pt]
+\multicolumn{4}{@{}l}{\textit{How the field can check both}} \\
+9 & The coding scheme has no field for the administration of a persona, system prompt or examples, and codes persona only as a perturbation type that a study varied; the recode for crossing came after the main coding, and its two passes agree only moderately (Sections~\ref{sec:spec-prompt} and~\ref{sec:audit-cross}); the checklist ranks only the factors that were crossed (Section~\ref{sec:discussion}) & An extended scheme under a registered protocol, a corpus that adds survey-simulation studies and the sources not searched (Section~\ref{sec:method-search}) & A later audit can test whether the practice gaps have narrowed \\
+\bottomrule
+\end{tabular}}

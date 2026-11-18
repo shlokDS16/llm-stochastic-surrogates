@@ -1,0 +1,26 @@
+{
+  "order": 73,
+  "study_id": "https://openalex.org/W4388787315",
+  "pass": "codex",
+  "brief_version": "1.0",
+  "date": "2026-11-07",
+  "full_text": "research/sources/md/fulltext/073_W4388787315.md",
+  "sources_varied": ["M", "W", "T"],
+  "X1": {
+    "value": "partial",
+    "sources_crossed": [],
+    "evidence": "Secs. 4–5, Tables 1–2: GPT-4 temperature 0 and 0.5; GPT-4V zero-shot and one-shot prompts, with GPT-4V also tested zero-shot. These settings are varied in separate experiments and are not fully crossed."
+  },
+  "X2": {
+    "value": "yes",
+    "x2_types": ["effect_change"],
+    "x2_sources": ["T", "W"],
+    "evidence": "Secs. 4–5, Tables 1–2: reports accuracy by GPT-4 temperature and GPT-4V prompt setting, enabling quantified outcome differences across those levels."
+  },
+  "X3": {
+    "value": "no",
+    "x3_pairs": [],
+    "evidence": "Secs. 4–5, Tables 1–2: results compare temperature levels for GPT-4 and prompt settings for GPT-4V separately; no source-by-source interaction is estimated or shown."
+  },
+  "notes": "GPT-4 and GPT-4V are distinct models, but the study does not report them on the same task and prompt conditions in a crossed design."
+}

@@ -1,0 +1,11 @@
+paradigm: P2a
+wording: W5
+response_type: number
+intro: The beliefs that people hold about the world around them are of interest to us. For the question below, your most accurate estimate is requested. Should the correct answer be unknown to you, you are asked simply to offer your best conjecture.
+conditions:
+  x1: The distance between San Francisco and New York City is known to be less than 6,000 miles. What is your estimate of that distance?
+  x0: The distance between San Francisco and New York City is known to be greater than 1,500 miles. What is your estimate of that distance?
+condition_names:
+  x1: high anchor
+  x0: low anchor
+baseline: What is your estimate of the distance between San Francisco and New York City, in miles?

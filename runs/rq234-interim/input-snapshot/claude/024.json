@@ -1,0 +1,61 @@
+{
+  "order": 24,
+  "study_id": "https://openalex.org/W4404986392",
+  "full_text": {"obtained": true, "source": "research/sources/md/fulltext/024_W4404986392.md (arXiv 2411.15396 v1 PDF, dated Nov 2024)"},
+  "eligibility": {
+    "decision": "YES",
+    "failed_criterion": null,
+    "borderline": false,
+    "evidence": "Sec. 2.1 (p.3-4) and Sec. 4.2 (p.8-11): nine LLMs rate article credibility under a decoy manipulation that replicates a human crowdsourcing experiment; the decoy effect is a named classic paradigm and a human sample is run in the same paper."
+  },
+  "A": {"doi": null, "arxiv_id": "2411.15396", "title": "The Decoy Dilemma in Online Medical Information Evaluation: A Comparative Study of Credibility Assessments by LLM and Human Judges", "first_author": "Jiqun Liu", "year": 2024,
+        "venue": "arXiv preprint in ACM template (conference placeholder); record lists ACM TiiS", "peer_reviewed": "preprint", "first_author_field": "not_reported", "country": "USA"},
+  "B": {"models": [
+    {"name": "Llama-3.1-70B-Instruct", "version": "Llama-3.1-70B-Instruct EXL2 4.5bpw quantised", "access": "open_weights", "params_b": 70, "release_date": "July 2024", "tuning": "instruction", "family": "Llama", "query_date": "not_reported"},
+    {"name": "Llama-3-70B-Instruct", "version": "Llama-3-70B-Instruct EXL2 4.5bpw quantised", "access": "open_weights", "params_b": 70, "release_date": "April 2024", "tuning": "instruction", "family": "Llama", "query_date": "not_reported"},
+    {"name": "Llama-3-8B-Instruct", "version": "Llama-3-8B-Instruct EXL2 5.0bpw quantised", "access": "open_weights", "params_b": 8, "release_date": "not_reported", "tuning": "instruction", "family": "Llama", "query_date": "not_reported"},
+    {"name": "gpt-4o", "version": "gpt-4o-2024-05-13", "access": "API", "params_b": null, "release_date": "not_reported", "tuning": "not_reported", "family": "GPT", "query_date": "not_reported"},
+    {"name": "gpt-4o-mini", "version": "gpt-4o-mini-2024-07-18", "access": "API", "params_b": null, "release_date": "not_reported", "tuning": "not_reported", "family": "GPT", "query_date": "not_reported"},
+    {"name": "gpt-3.5-turbo", "version": "gpt-3.5-turbo-0125", "access": "API", "params_b": null, "release_date": "not_reported", "tuning": "not_reported", "family": "GPT", "query_date": "not_reported"},
+    {"name": "claude-3.5-sonnet", "version": "claude-3-5-sonnet-20240620", "access": "API", "params_b": null, "release_date": "not_reported", "tuning": "not_reported", "family": "Claude", "query_date": "not_reported"},
+    {"name": "claude-3-sonnet", "version": "claude-3-sonnet-20240229", "access": "API", "params_b": null, "release_date": "not_reported", "tuning": "not_reported", "family": "Claude", "query_date": "not_reported"},
+    {"name": "claude-3-haiku", "version": "claude-3-haiku-20240307", "access": "API", "params_b": null, "release_date": "not_reported", "tuning": "not_reported", "family": "Claude", "query_date": "not_reported"}
+  ], "n_models": 9, "n_model_families": 3},
+  "C": {"paradigms": [
+    {"pid": "P1", "name": "Decoy effect on credibility ratings of COVID-19 treatment web pages (3 topics, SERP sessions)", "family": "HB", "source_paper": "decoy / asymmetric dominance effect; paper cites [66] Tversky & Kahneman 1985 in Sec. 2.1",
+     "items_origin": "adapted", "n_items": 120, "languages": ["English"], "modality": "text", "contamination_risk": "partly",
+     "location": "Sec. 4.1.2-4.1.3 (p.7-8): 40 TREC Health Misinformation pages per topic, decoy snippets written by the authors"}
+  ]},
+  "D": {"types": ["own_sample"], "primary_type": "own_sample", "human_n": 540,
+        "population": "Prolific participants: native English speakers, no medical training (UK 60.6%, US 25.3%); 617 completers reported in Sec. 4.1.1 versus 540 analysed in Sec. 4.1.4",
+        "metric": "mean 5-point credibility rating of the target article, treatment versus control, independent t-test"},
+  "E": {"outcome_types": ["bias_magnitude"], "rows_aggregated": false,
+        "effects": [
+          {"pid": "P1", "model": "Llama-3.1-70B-Instruct", "model_family": "Llama", "outcome_kind": "effect", "basis": "test", "model_effect_present": "no", "human_effect_present": "yes", "direction": "not_applicable", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "SUPER-NORMATIVE",
+           "location": "Table 1 (p.15), Topic 1 (ACE ARB) multi-query prompt, t = -1.74 ns; topics reported only separately, first-reported topic used. Human: Table 2 (p.16) clicked-decoy-first subset t = -2.95**; all-sessions t = -0.37 ns"},
+          {"pid": "P1", "model": "Llama-3-70B-Instruct", "model_family": "Llama", "outcome_kind": "effect", "basis": "test", "model_effect_present": "no", "human_effect_present": "yes", "direction": "not_applicable", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "SUPER-NORMATIVE",
+           "location": "Table 1 (p.15), Topic 1, t = -0.75 ns; human as in row 1"},
+          {"pid": "P1", "model": "Llama-3-8B-Instruct", "model_family": "Llama", "outcome_kind": "effect", "basis": "test", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "SAME-DIRECTION-UNQUANTIFIED",
+           "location": "Table 1 (p.15), Topic 1, t = -3.28**; human as in row 1"},
+          {"pid": "P1", "model": "gpt-4o", "model_family": "GPT", "outcome_kind": "effect", "basis": "test", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "SAME-DIRECTION-UNQUANTIFIED",
+           "location": "Table 1 (p.15), Topic 1, t = -6.85***; all three topics significant; human as in row 1"},
+          {"pid": "P1", "model": "gpt-4o-mini", "model_family": "GPT", "outcome_kind": "effect", "basis": "test", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "SAME-DIRECTION-UNQUANTIFIED",
+           "location": "Table 1 (p.15), Topic 1, t = -2.11*; human as in row 1"},
+          {"pid": "P1", "model": "gpt-3.5-turbo", "model_family": "GPT", "outcome_kind": "effect", "basis": "test", "model_effect_present": "no", "human_effect_present": "yes", "direction": "not_applicable", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "SUPER-NORMATIVE",
+           "location": "Table 1 (p.15), Topic 1, t = -1.00 ns (Topics 2 and 3 significant); human as in row 1"},
+          {"pid": "P1", "model": "claude-3.5-sonnet", "model_family": "Claude", "outcome_kind": "effect", "basis": "test", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "opposite", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "DIFFERENT",
+           "location": "Table 1 (p.15), Topic 1, t = 3.87*** (control target rated higher than treatment target); Topics 2 and 3 in decoy direction; human as in row 1"},
+          {"pid": "P1", "model": "claude-3-sonnet", "model_family": "Claude", "outcome_kind": "effect", "basis": "test", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "SAME-DIRECTION-UNQUANTIFIED",
+           "location": "Table 1 (p.15), Topic 1, t = -1.98*; all three topics significant; human as in row 1"},
+          {"pid": "P1", "model": "claude-3-haiku", "model_family": "Claude", "outcome_kind": "effect", "basis": "test", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "opposite", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "DIFFERENT",
+           "location": "Table 1 (p.15), Topic 1, t = 2.90** (reversed); human as in row 1"}
+        ],
+        "headline": "Decoy effects occur in both LLM and human credibility ratings but are more widespread in LLMs, especially GPT-4o and Claude-3-Sonnet with session-wide context."},
+  "F": {"f1": "no", "f2": "no", "f3": "yes", "f4": "no", "f5": "no", "f6": "na", "f7": "no", "f8": "yes",
+        "f9": "no", "f10": "yes", "f11": "no", "f12": "no",
+        "perturbations_tested": ["other"],
+        "robustness_outcome": "na"},
+  "G": {"notes": "Human effect holds only in click and prior-knowledge subsets; the all-sessions t-tests are not significant. Temperature, query dates and the decoy snippets are not reported; no code link. Participant counts differ (617 versus 540). Decoy is an obviously false item, not asymmetric dominance. Single- versus multi-query context is the only variant.",
+        "extractor": "paper-reader (claude-sonnet)", "date": "2026-10-16", "minutes": 8,
+        "sections_read": ["abstract", "2.1 Decoy effect", "3 Research questions", "4.1 Crowdsourcing experiment", "4.2 LLM experiment (system prompt, models)", "5.1 RQ1 with Tables 1-2", "5.2 RQ2 with Table 3", "6.1-6.3 Discussion and limitations", "7 Conclusion"]}
+}

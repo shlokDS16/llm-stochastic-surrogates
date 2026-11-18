@@ -1,0 +1,152 @@
+{
+ "order": 6,
+ "study_id": "https://openalex.org/W4409762247",
+ "full_text": {
+  "obtained": true,
+  "source": "research/sources/md/fulltext/006_W4409762247.md"
+ },
+ "eligibility": {
+  "decision": "YES",
+  "failed_criterion": null,
+  "borderline": false,
+  "evidence": "Studies 1 and 2 compare GPT-4’s emotional appraisal and attribution with human ratings using established emotion-eliciting stimuli and a human-annotated corpus (Studies 1–2)."
+ },
+ "A": {
+  "doi": "10.1109/ACII59096.2023.10388119",
+  "arxiv_id": null,
+  "title": "GPT-4 Cognition Emulates Average-Human from a Third-Person Perspective",
+  "first_author": "Ala N. Tak",
+  "year": 2023,
+  "venue": "11th International Conference on Affective Computing and Intelligent Interaction (ACII)",
+  "peer_reviewed": "yes",
+  "first_author_field": "other",
+  "country": "USA"
+ },
+ "B": {
+  "models": [
+   {
+    "name": "GPT-4",
+    "version": "GPT-4 (exact checkpoint not reported)",
+    "access": "API",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "GPT",
+    "query_date": "not_reported"
+   }
+  ],
+  "n_models": 1,
+  "n_model_families": 1
+ },
+ "C": {
+  "paradigms": [
+   {
+    "pid": "P1",
+    "name": "Appraisal and emotion ratings of crafted emotion-evoking stimuli (third-person appraisal derivation, emotion attribution, and appraisal-to-emotion mapping)",
+    "family": "TOM",
+    "source_paper": "Skerry and Saxe (2015), “Neural representations of emotion are organized around abstract event features”",
+    "items_origin": "adapted",
+    "n_items": 200,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "partly",
+    "location": "Study 1; Table I–II; Figures 2–7"
+   },
+   {
+    "pid": "P2",
+    "name": "Emotion and appraisal attribution for self-reported vignettes, compared with authors and external readers",
+    "family": "TOM",
+    "source_paper": "Troiano et al. (2023), crowd-enVENT",
+    "items_origin": "adapted",
+    "n_items": 1200,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "partly",
+    "location": "Study 2; Figures 8–9"
+   }
+  ]
+ },
+ "D": {
+  "types": [
+   "published_norms",
+   "crowd_norms"
+  ],
+  "primary_type": "crowd_norms",
+  "human_n": 1521,
+  "population": "Study 1 participants rating crafted stimuli; Study 2 authors and five human readers, with crowd-enVENT annotations",
+  "metric": "Correlation with human mean ratings; classification accuracy; Krippendorff’s alpha agreement"
+ },
+ "E": {
+  "outcome_types": [
+   "accuracy",
+   "bias_magnitude",
+   "human_correlation",
+   "other"
+  ],
+  "rows_aggregated": false,
+  "effects": [
+   {
+    "pid": "P1",
+    "model": "GPT-4",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": 0.997,
+    "human_es": 0.566,
+    "es_metric": "classification accuracy",
+    "authors_comparison": "different",
+    "label": "SUPER-NORMATIVE",
+    "location": "Study 1; Results; Figures 2–4"
+   },
+   {
+    "pid": "P2",
+    "model": "GPT-4",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "different",
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Study 2; Results; Figures 8–9"
+   }
+  ],
+  "headline": "GPT-4’s ratings and emotion attributions align closely with average readers, and in Study 1 it classifies intended emotions more accurately than human participants."
+ },
+ "F": {
+  "f1": "no",
+  "f2": "no",
+  "f3": "yes",
+  "f4": "yes",
+  "f5": "no",
+  "f6": "na",
+  "f7": "no",
+  "f8": "no",
+  "f9": "no",
+  "f10": "yes",
+  "f11": "no",
+  "f12": "no",
+  "perturbations_tested": [],
+  "robustness_outcome": "na"
+ },
+ "G": {
+  "notes": "A referee would ask how GPT-4 accuracy was statistically compared with human accuracy, given repeated prompts on each stimulus and differing human/model response variability. Study 2’s reported agreement comparisons and statistical tests are not detailed in the extracted text.",
+  "extractor": "codex (default)",
+  "date": "2026-10-16",
+  "minutes": 0.6,
+  "sections_read": [
+   "Abstract",
+   "Introduction",
+   "Study 1",
+   "Study 2",
+   "General Discussion",
+   "Ethical Impact Statement",
+   "References"
+  ]
+ }
+}

@@ -1,0 +1,26 @@
+{
+  "order": 127,
+  "study_id": "https://openalex.org/W7147187740",
+  "pass": "codex",
+  "brief_version": "1.0",
+  "date": "2026-11-07",
+  "full_text": "research/sources/md/fulltext/127_W7147187740.md",
+  "sources_varied": ["M", "R"],
+  "X1": {
+    "value": "partial",
+    "sources_crossed": [],
+    "evidence": "Materials and Methods, Response Generation and Statistical Analysis: three models were tested and each survey item was repeated 100 times per model per condition; the repeats estimate outcomes, with no run-to-run analysis. Models vary alongside the baseline/jailbroken experimental condition, not another source."
+  },
+  "X2": {
+    "value": "yes",
+    "x2_types": ["anova_or_mixed_term", "effect_change"],
+    "x2_sources": ["M"],
+    "evidence": "Supplementary Information, Tables S1–S2 and Statistical Analysis: reports model-specific effects and model-by-jailbreak interaction contrasts, quantifying differences in the condition effect across models."
+  },
+  "X3": {
+    "value": "no",
+    "x3_pairs": [],
+    "evidence": "Supplementary Information, Statistical Analysis and Tables S2, S4, S6, S8: model-by-jailbreak condition interactions are estimated, but no interaction between two varied simulation-uncertainty sources is estimated or shown."
+  },
+  "notes": "R not counted: 100 repetitions per model and condition estimate outcomes; run-to-run variation is not analyzed. The condition-by-model interaction does not qualify as X3."
+}

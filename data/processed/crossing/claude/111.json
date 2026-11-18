@@ -1,0 +1,32 @@
+{
+ "order": 111,
+ "study_id": "https://openalex.org/W7155407217",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/111_W7155407217.md",
+ "sources_varied": [
+  "X"
+ ],
+ "X1": {
+  "value": "no",
+  "sources_crossed": [],
+  "evidence": "Sec 3.1 (p.5): one action model (Sonnet 4.5) at temperature 1.0 in three agent architectures (ablation by design); seeds govern environment generation only."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "X"
+  ],
+  "evidence": "Sec 3-4, Table 4: success rates compared across the three architectures and attributed to the added components; no variance share."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": ""
+ },
+ "notes": "Architecture is the intervention under test, coded as X; only one source varies."
+}

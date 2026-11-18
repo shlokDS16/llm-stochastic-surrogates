@@ -1,0 +1,182 @@
+{
+ "n_used": 53,
+ "skipped": {
+  "no_full_text": 17,
+  "unclear": 0
+ },
+ "n_confirmed_by_shlok": 40,
+ "reference_yes": 32,
+ "rules": {
+  "strict": {
+   "false_excl": 9,
+   "ref_yes": 32,
+   "fe_rate": 0.281,
+   "fe_ci": [
+    0.156,
+    0.454
+   ],
+   "false_incl": 15,
+   "ref_no": 21,
+   "fi_rate": 0.714,
+   "fi_ci": [
+    0.5,
+    0.862
+   ]
+  },
+  "liberal": {
+   "false_excl": 5,
+   "ref_yes": 32,
+   "fe_rate": 0.156,
+   "fe_ci": [
+    0.069,
+    0.318
+   ],
+   "false_incl": 18,
+   "ref_no": 21,
+   "fi_rate": 0.857,
+   "fi_ci": [
+    0.654,
+    0.95
+   ]
+  },
+  "claude": {
+   "false_excl": 4,
+   "ref_yes": 32,
+   "fe_rate": 0.125,
+   "fe_ci": [
+    0.05,
+    0.281
+   ],
+   "false_incl": 9,
+   "ref_no": 21,
+   "fi_rate": 0.429,
+   "fi_ci": [
+    0.245,
+    0.635
+   ]
+  },
+  "olmo": {
+   "false_excl": 11,
+   "ref_yes": 32,
+   "fe_rate": 0.344,
+   "fe_ci": [
+    0.204,
+    0.517
+   ],
+   "false_incl": 18,
+   "ref_no": 21,
+   "fi_rate": 0.857,
+   "fi_ci": [
+    0.654,
+    0.95
+   ]
+  },
+  "qwen": {
+   "false_excl": 9,
+   "ref_yes": 32,
+   "fe_rate": 0.281,
+   "fe_ci": [
+    0.156,
+    0.454
+   ],
+   "false_incl": 16,
+   "ref_no": 21,
+   "fi_rate": 0.762,
+   "fi_ci": [
+    0.549,
+    0.894
+   ]
+  }
+ },
+ "by_cell": {
+  "EXCLUDE/INCLUDE": {
+   "n": 9,
+   "ref_yes": 2,
+   "fe_strict": 0,
+   "fe_liberal": 0
+  },
+  "EXCLUDE/MAYBE": {
+   "n": 7,
+   "ref_yes": 2,
+   "fe_strict": 0,
+   "fe_liberal": 0
+  },
+  "INCLUDE/EXCLUDE": {
+   "n": 7,
+   "ref_yes": 6,
+   "fe_strict": 2,
+   "fe_liberal": 2
+  },
+  "INCLUDE/MAYBE": {
+   "n": 9,
+   "ref_yes": 9,
+   "fe_strict": 0,
+   "fe_liberal": 0
+  },
+  "MAYBE/EXCLUDE": {
+   "n": 7,
+   "ref_yes": 5,
+   "fe_strict": 4,
+   "fe_liberal": 3
+  },
+  "MAYBE/INCLUDE": {
+   "n": 8,
+   "ref_yes": 4,
+   "fe_strict": 0,
+   "fe_liberal": 0
+  },
+  "MAYBE/MAYBE": {
+   "n": 6,
+   "ref_yes": 4,
+   "fe_strict": 3,
+   "fe_liberal": 0
+  }
+ },
+ "strict_vs_liberal_discordant": [
+  {
+   "pilot_id": "F13",
+   "ref": "NO",
+   "cell": "EXCLUDE/MAYBE"
+  },
+  {
+   "pilot_id": "F19",
+   "ref": "NO",
+   "cell": "EXCLUDE/MAYBE"
+  },
+  {
+   "pilot_id": "F45",
+   "ref": "YES",
+   "cell": "MAYBE/EXCLUDE"
+  },
+  {
+   "pilot_id": "F61",
+   "ref": "YES",
+   "cell": "MAYBE/MAYBE"
+  },
+  {
+   "pilot_id": "F66",
+   "ref": "NO",
+   "cell": "MAYBE/MAYBE"
+  },
+  {
+   "pilot_id": "F68",
+   "ref": "YES",
+   "cell": "MAYBE/MAYBE"
+  },
+  {
+   "pilot_id": "F70",
+   "ref": "YES",
+   "cell": "MAYBE/MAYBE"
+  }
+ ],
+ "no_include_records": {
+  "n": 12,
+  "ref_yes": 7,
+  "rq1_codable": 4
+ },
+ "switch_rule": {
+  "diff_false_excl_pp": 12.5,
+  "records_driving_difference": 4,
+  "outcome": "liberal becomes primary"
+ }
+}

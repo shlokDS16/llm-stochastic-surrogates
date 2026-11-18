@@ -1,0 +1,34 @@
+{
+ "order": 94,
+ "study_id": "https://openalex.org/W4404554448",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/094_W4404554448.md",
+ "sources_varied": [
+  "M",
+  "W"
+ ],
+ "X1": {
+  "value": "partial",
+  "sources_crossed": [],
+  "evidence": "Sec 4-6 (pp.12-26, robustness paragraph ~p.27): 69 independent runs per landscape with the main model; a second, weaker model mixed in as a population; two framings and small prompt deviations tested as robustness checks on the main model."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "M",
+   "W"
+  ],
+  "evidence": "Abstract and Sec 5: variance of search behaviour matched to humans by mixing model populations; prompt deviations reported as qualitatively comparable."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": ""
+ },
+ "notes": ""
+}

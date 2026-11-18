@@ -1,0 +1,26 @@
+inputs verified against runs/rq234-final/config.json: 223 files identical (extraction snapshot, sample, reading list, records)
+claude: respondents 110 (w 1.33-55.00, Kish n_eff 67.3); eligible 80 (w 1.33-49.00, Kish n_eff 51.8); strata 32, groups 28, df 82, t 1.989
+codex: respondents 110 (w 1.33-55.00, Kish n_eff 67.3); eligible 81 (w 1.33-49.00, Kish n_eff 50.5); strata 32, groups 28, df 82, t 1.989
+claude Wording perturbation: k/n 27/80 = 33.8%  weighted 24.4% (Wald 14.4 to 34.3; logit 15.8 to 35.6) df 82; domain Kish n_eff 51.8
+codex Wording perturbation: k/n 32/81 = 39.5%  weighted 28.9% (Wald 16.9 to 40.9; logit 18.5 to 42.2) df 82; domain Kish n_eff 50.5
+claude Any of the judged perturbation types: k/n 48/80 = 60.0%  weighted 54.1% (Wald 41.2 to 66.9; logit 41.2 to 66.4) df 82; domain Kish n_eff 51.8
+codex Any of the judged perturbation types: k/n 47/81 = 58.0%  weighted 49.0% (Wald 36.6 to 61.4; logit 36.9 to 61.2) df 82; domain Kish n_eff 50.5
+claude f2 temperature stated: k/n 31/80 = 38.8%  weighted 42.2% (Wald 30.3 to 54.0; logit 31.0 to 54.3) df 82; domain Kish n_eff 51.8
+codex f2 temperature stated: k/n 38/81 = 46.9%  weighted 50.0% (Wald 37.1 to 62.9; logit 37.4 to 62.6) df 82; domain Kish n_eff 50.5
+claude f11 preregistration cited: k/n 5/80 = 6.2%  weighted 5.3% (Wald 0.0 to 12.4; logit 1.3 to 18.8) df 82; domain Kish n_eff 51.8
+codex f11 preregistration cited: k/n 7/81 = 8.6%  weighted 6.3% (Wald 0.0 to 13.9; logit 1.8 to 19.6) df 82; domain Kish n_eff 50.5
+claude f12 code or data link: k/n 41/80 = 51.2%  weighted 46.4% (Wald 32.9 to 60.0; logit 33.4 to 59.9) df 82; domain Kish n_eff 51.8
+codex f12 code or data link: k/n 53/81 = 65.4%  weighted 62.6% (Wald 48.5 to 76.7; logit 47.8 to 75.3) df 82; domain Kish n_eff 50.5
+recomputed weighted shares and Wald intervals equal runs/rq234-interim/rq4.csv (assert, tolerance 0.006 percentage points)
+claude venue response: conference 33/39, journal 25/37, preprint/other 52/74; Kish n_eff 67.0
+claude Wording perturbation: primary 24.4% -> venue-adjusted 24.9% (14.7 to 35.1)
+claude Any of the judged perturbation types: primary 54.1% -> venue-adjusted 54.3% (41.5 to 67.2)
+claude f2 temperature stated: primary 42.2% -> venue-adjusted 42.4% (30.5 to 54.2)
+claude f11 preregistration cited: primary 5.3% -> venue-adjusted 5.1% (0.0 to 11.9)
+claude f12 code or data link: primary 46.4% -> venue-adjusted 46.7% (33.2 to 60.2)
+codex venue response: conference 33/39, journal 25/37, preprint/other 52/74; Kish n_eff 67.0
+codex Wording perturbation: primary 28.9% -> venue-adjusted 28.8% (16.8 to 40.9)
+codex Any of the judged perturbation types: primary 49.0% -> venue-adjusted 48.5% (36.2 to 60.9)
+codex f2 temperature stated: primary 50.0% -> venue-adjusted 50.2% (37.3 to 63.0)
+codex f11 preregistration cited: primary 6.3% -> venue-adjusted 6.1% (0.0 to 13.4)
+codex f12 code or data link: primary 62.6% -> venue-adjusted 63.1% (49.1 to 77.1)

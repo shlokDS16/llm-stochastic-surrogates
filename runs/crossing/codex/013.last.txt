@@ -1,0 +1,26 @@
+{
+  "order": 13,
+  "study_id": "https://openalex.org/W4404782648",
+  "pass": "codex",
+  "brief_version": "1.0",
+  "date": "2026-11-07",
+  "full_text": "research/sources/md/fulltext/013_W4404782648.md",
+  "sources_varied": ["M", "W", "X"],
+  "X1": {
+    "value": "partial",
+    "sources_crossed": [],
+    "evidence": "Sec. 3.3 and Appendix B.3: models are tested with different methods and 0–3 exemplars; Appendix B.4.2 lists eight prompt variants for Raven items. These factors are not reported as a full factorial crossing."
+  },
+  "X2": {
+    "value": "yes",
+    "x2_types": ["effect_change"],
+    "x2_sources": ["M", "W", "X"],
+    "evidence": "Secs. 5 and Appendix B.3, Tables 7–10: results are compared across models, methods, and exemplar contexts; Tables 8–10 report run-to-run SDs for three models."
+  },
+  "X3": {
+    "value": "no",
+    "x3_pairs": [],
+    "evidence": "Secs. 5 and Appendix B.3–B.4: no source-by-source interaction is estimated or reported; prompt and exemplar comparisons are not shown as a combined factorial analysis."
+  },
+  "notes": "R is not counted: repeated generations are averaged or used to describe variation, not treated as a design factor."
+}

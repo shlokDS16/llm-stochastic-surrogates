@@ -1,0 +1,2 @@
+{"paradigm": "P1", "F": "F0", "batch": 0, "rows": 20, "seconds": 1.382, "new_tokens": 20, "padded_prompt_len": 144, "peak_vram_gib": 6.034}
+{"paradigm": "P1", "F": "F1", "batch": 1, "rows": 20, "seconds": 5.107, "new_tokens": 705, "padded_prompt_len": 164, "peak_vram_gib": 6.088}

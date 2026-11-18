@@ -1,0 +1,178 @@
+{
+ "n_pairs": 110,
+ "n_paraphrase": 90,
+ "n_decoy": 20,
+ "judgeA": {
+  "decoy_detected": 20,
+  "paraphrase_equivalent": 90,
+  "paraphrase_not_equivalent": 0,
+  "per_item": {
+   "P1": {
+    "decoy_detected": 2,
+    "paraphrase_equivalent": 9
+   },
+   "P2a": {
+    "decoy_detected": 2,
+    "paraphrase_equivalent": 9
+   },
+   "P2b": {
+    "decoy_detected": 2,
+    "paraphrase_equivalent": 9
+   },
+   "P2c": {
+    "decoy_detected": 2,
+    "paraphrase_equivalent": 9
+   },
+   "P2d": {
+    "decoy_detected": 2,
+    "paraphrase_equivalent": 9
+   },
+   "P3": {
+    "decoy_detected": 2,
+    "paraphrase_equivalent": 9
+   },
+   "P4": {
+    "decoy_detected": 2,
+    "paraphrase_equivalent": 9
+   },
+   "AF": {
+    "decoy_detected": 2,
+    "paraphrase_equivalent": 9
+   },
+   "QA": {
+    "decoy_detected": 2,
+    "paraphrase_equivalent": 9
+   },
+   "NR": {
+    "decoy_detected": 2,
+    "paraphrase_equivalent": 9
+   }
+  },
+  "mean_confidence": 4.93
+ },
+ "judgeB": {
+  "decoy_detected": 20,
+  "paraphrase_equivalent": 90,
+  "paraphrase_not_equivalent": 0,
+  "per_item": {
+   "P1": {
+    "decoy_detected": 2,
+    "paraphrase_equivalent": 9
+   },
+   "P2a": {
+    "decoy_detected": 2,
+    "paraphrase_equivalent": 9
+   },
+   "P2b": {
+    "decoy_detected": 2,
+    "paraphrase_equivalent": 9
+   },
+   "P2c": {
+    "decoy_detected": 2,
+    "paraphrase_equivalent": 9
+   },
+   "P2d": {
+    "decoy_detected": 2,
+    "paraphrase_equivalent": 9
+   },
+   "P3": {
+    "decoy_detected": 2,
+    "paraphrase_equivalent": 9
+   },
+   "P4": {
+    "decoy_detected": 2,
+    "paraphrase_equivalent": 9
+   },
+   "AF": {
+    "decoy_detected": 2,
+    "paraphrase_equivalent": 9
+   },
+   "QA": {
+    "decoy_detected": 2,
+    "paraphrase_equivalent": 9
+   },
+   "NR": {
+    "decoy_detected": 2,
+    "paraphrase_equivalent": 9
+   }
+  },
+  "mean_confidence": 5.0
+ },
+ "decoys_missed": {
+  "A": [],
+  "B": []
+ },
+ "kappa_paraphrase": {
+  "kappa": null,
+  "percent_agreement": 1.0,
+  "n": 90,
+  "both_ne": 0,
+  "A_only_ne": 0,
+  "B_only_ne": 0
+ },
+ "kappa_all110": {
+  "kappa": 1.0,
+  "percent_agreement": 1.0,
+  "n": 110
+ },
+ "decoy_element_match_when_both_detect": {
+  "n_both_detect": 20,
+  "same_element": 16
+ },
+ "flagged_per_item": {
+  "P1": 0,
+  "P2a": 0,
+  "P2b": 0,
+  "P2c": 0,
+  "P2d": 0,
+  "P3": 0,
+  "P4": 0,
+  "AF": 0,
+  "QA": 0,
+  "NR": 0
+ },
+ "flagged_total": 0,
+ "flagged_by_wording": {
+  "W1": 0,
+  "W2": 0,
+  "W3": 0,
+  "W4": 0,
+  "W5": 0,
+  "W6": 0,
+  "W7": 0,
+  "W8": 0,
+  "W9": 0
+ },
+ "flagged_wordings_items": [],
+ "low_confidence_paraphrases": {
+  "A": [
+   "NR_W7:4",
+   "P1_W2:3",
+   "P2c_W5:4",
+   "P2c_W6:4",
+   "P2c_W9:4",
+   "P3_W2:4",
+   "P3_W9:4"
+  ],
+  "B": []
+ },
+ "decoy_element_disagreements": [
+  "P4_D1: A=manipulation, B=scenario_fact",
+  "P1_D1: A=manipulation, B=scenario_fact",
+  "P3_D1: A=manipulation, B=scenario_fact",
+  "NR_D2: A=task, B=manipulation"
+ ],
+ "elements_used_decoys": {
+  "A": {
+   "manipulation": 12,
+   "scenario_fact": 5,
+   "task": 3
+  },
+  "B": {
+   "manipulation": 10,
+   "scenario_fact": 8,
+   "task": 2
+  }
+ },
+ "judgeB_model_logged": "gpt-6-luna"
+}

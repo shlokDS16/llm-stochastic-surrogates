@@ -1,0 +1,21 @@
+{
+  "order": 84,
+  "study_id": "https://openalex.org/W4381888913",
+  "full_text": {"obtained": true, "source": "research/sources/md/fulltext/084_W4381888913.md (Research Square PDF, v2 posted 2024-01-15)"},
+  "eligibility": {"decision": "NO", "failed_criterion": "other", "borderline": true,
+    "evidence": "Methods (Set-up and Data Collection; Community Analysis): observational network analysis of about 24,000 GPT-3.5 character bots on Chirper.ai; the outcome is community structure and assortativity, not responses to an administered cognitive task. Homophily is cited from sociology (McPherson et al., 2001), not as a laboratory paradigm. A reviewer could treat it as social cognition."},
+  "A": {"doi": "10.21203/rs.3.rs-3096289/v1", "arxiv_id": null,
+        "title": "Artificial Intelligence Chatbots Mimic Human Collective Behaviour (indexed title: Homophily in An Artificial Social Network of Agents Powered By Large Language Models)",
+        "first_author": "James K. He", "year": 2024, "venue": "Research Square (preprint)", "peer_reviewed": "preprint",
+        "first_author_field": "psychology", "country": "United Kingdom"},
+  "B": {"models": [], "n_models": 0, "n_model_families": 0},
+  "C": {"paradigms": []},
+  "D": {"types": [], "primary_type": "none", "human_n": null, "population": "not_reported", "metric": "not_reported"},
+  "E": {"outcome_types": [], "rows_aggregated": false, "effects": [], "headline": ""},
+  "F": {"f1": "no", "f2": "no", "f3": "no", "f4": "no", "f5": "no", "f6": "no", "f7": "no", "f8": "no",
+        "f9": "no", "f10": "no", "f11": "no", "f12": "no", "perturbations_tested": [],
+        "robustness_outcome": "na"},
+  "G": {"notes": "Excluded: no cognitive-experimental paradigm; field observation of a deployed bot platform, model mostly GPT-3.5 without a snapshot. Borderline on social cognition. First author is in a psychology department at Cambridge (corresponding-author line); the file shows v2 (2024) of a 2023 v1. Data on OSF.",
+        "extractor": "paper-reader (claude-sonnet)", "date": "2026-10-16", "minutes": 5,
+        "sections_read": ["abstract", "background", "methods (data collection, community analysis)", "discussion", "limitations"]}
+}

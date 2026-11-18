@@ -1,0 +1,32 @@
+{
+ "order": 31,
+ "study_id": "W7170054352",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/031_W7170054352.md",
+ "sources_varied": [
+  "M"
+ ],
+ "X1": {
+  "value": "no",
+  "sources_crossed": [],
+  "evidence": "Procedure (LLMs): Gemini 3, Grok 4.1 and DeepSeek 3.2, 40 independent default-setting prompts each (20 per scenario type); scenario is the manipulated condition."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "anova_or_mixed_term"
+  ],
+  "x2_sources": [
+   "M"
+  ],
+  "evidence": "Exploratory analyses: one-way ANOVA for LLM type on offence severity (eta2 = .09) and RJ support (eta2 = .07); LLM entered as a random intercept in mixed models."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": ""
+ },
+ "notes": ""
+}

@@ -1,0 +1,28 @@
+{
+ "order": 101,
+ "study_id": "https://openalex.org/W7133241468",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/101_W7133241468.md",
+ "sources_varied": [
+  "M"
+ ],
+ "X1": {
+  "value": "no",
+  "sources_crossed": [],
+  "evidence": "Methods (p.5-9): GPT-3.5-turbo and GPT-4 at temperature 0 on the fixed puzzle set; the 16 random seeds and shuffled clue orders apply to the embedding-clustering baselines, and the authors state they did not test LLM sensitivity to ordering."
+ },
+ "X2": {
+  "value": "no",
+  "x2_types": [],
+  "x2_sources": [],
+  "evidence": "No decomposition for the LLMs."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": ""
+ },
+ "notes": ""
+}

@@ -1,0 +1,5 @@
+model,paradigm,sigma,llm_mu,llm_S,rule_outcome,sigma_clause,range_clause,clause,dbar_minus_2S_lower,nd_flag_any,sign_agrees_with_human
+granite-3.3-2b-instruct,P2d,1.0,7.938140698410468,8.954711498211578,fragile,False,True,range only,-11.229665619111325,True,True
+qwen2.5-7b-instruct,P1,0.9375,6.768899216096997,2.1229545968742887,stable,False,False,none,0.8044984205392351,True,True
+qwen2.5-7b-instruct,P2a,1.0,1.1608543403221194,0.7732088062853313,fragile,False,True,range only,-0.6293443567389314,True,True
+qwen2.5-7b-instruct,P2d,0.9375,3.586218568796279,1.8429716893715795,fragile,False,True,range only,-1.5048647533746262,True,True

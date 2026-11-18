@@ -1,0 +1,11 @@
+paradigm: P2b
+wording: W9
+response_type: number
+intro: Don't know the right answer? Just take a best guess. We're curious what people think about the world around them, so for this question, give us your best estimate.
+conditions:
+  x1: Under 5,000,000 people live in Chicago. How many would you guess live there?
+  x0: Over 200,000 people live in Chicago. How many would you guess live there?
+condition_names:
+  x1: high anchor
+  x0: low anchor
+baseline: How many people would you guess live in Chicago?

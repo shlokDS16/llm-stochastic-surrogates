@@ -1,0 +1,10 @@
+paradigm: P2c
+wording: W0
+response_type: number
+intro: We are interested in people's beliefs about the world around them. For the following question we would like you to give your best estimate. If you do not know the correct answer, just give your best guess.
+conditions:
+  x1: Mount Everest is shorter than 45,500 feet. How tall do you think Mount Everest is?
+  x0: Mount Everest is taller than 2,000 feet. How tall do you think Mount Everest is?
+condition_names:
+  x1: high anchor
+  x0: low anchor

@@ -1,0 +1,26 @@
+{
+  "order": 48,
+  "study_id": "https://openalex.org/W7166838030",
+  "pass": "codex",
+  "brief_version": "1.0",
+  "date": "2026-11-07",
+  "full_text": "research/sources/md/fulltext/048_W7166838030.md",
+  "sources_varied": ["M", "W", "X"],
+  "X1": {
+    "value": "partial",
+    "sources_crossed": [],
+    "evidence": "Secs. 3.1, 4.1, 5.1–5.2; Figs. 4–8, 11–13: Pythia model sizes vary; item-recognition prompts are reworded in Appendix B; Experiment 3 varies RoPE and causal-mask ablations. These factors are not fully crossed across the study."
+  },
+  "X2": {
+    "value": "yes",
+    "x2_types": ["effect_change"],
+    "x2_sources": ["M"],
+    "evidence": "Secs. 3.2, 4.2; Figs. 4 and 6: results describe larger Pythia models as showing stronger surprisal reduction and compare serial-position patterns across model sizes."
+  },
+  "X3": {
+    "value": "no",
+    "x3_pairs": [],
+    "evidence": "Secs. 3–5; Figs. 4–13: results show model-size curves and prompt-variant results separately; no source-by-source interaction is estimated or stated."
+  },
+  "notes": "X names the architectural ablations (RoPE and causal mask) in Experiment 3."
+}

@@ -1,0 +1,8 @@
+{
+ "script": "analysis/acme/figures/fig_s_validmass.py",
+ "git_head": "998723cbed0898076c76fd888bc57a6d0237ebb7",
+ "timestamp_utc": "2026-11-07T19:41:50+00:00",
+ "inputs": {
+  "runs/acme-L/outcomes/valid_mass.csv": "885b1404cd5bdcfbccd7c9753dfd2bdf4e7928b7ed1b9745f6a269302d10ef4c"
+ }
+}

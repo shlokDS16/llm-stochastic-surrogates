@@ -1,0 +1,35 @@
+{
+ "order": 55,
+ "study_id": "https://openalex.org/W7155065994",
+ "pass": "codex",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/055_W7155065994.md",
+ "sources_varied": [
+  "M",
+  "T"
+ ],
+ "X1": {
+  "value": "partial",
+  "sources_crossed": [],
+  "evidence": "Secs. 4.1, 4.6: six model variants and ten temperature settings were run, but the paper does not report a full model-by-temperature factorial analysis; temperature stability is analyzed separately."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "T"
+  ],
+  "evidence": "Secs. 5.6, 5.9, 5.13: response consistency, temperature sensitivity, and decision shifts across temperature levels are quantified."
+ },
+ "X3": {
+  "value": "yes",
+  "x3_pairs": [
+   "M x T"
+  ],
+  "evidence": "Secs. 5.9, 5.13: temperature sensitivity is reported by model and domain, and temperature-dependent response shifts are described for specific models."
+ },
+ "notes": "Three repeated runs are reported as byte-identical at each model-prompt-temperature condition, so repeated draws are not coded as a varied source."
+}

@@ -1,0 +1,26 @@
+{
+  "order": 19,
+  "study_id": "https://openalex.org/W7166839453",
+  "pass": "codex",
+  "brief_version": "1.0",
+  "date": "2026-11-07",
+  "full_text": "research/sources/md/fulltext/019_W7166839453.md",
+  "sources_varied": ["M", "W"],
+  "X1": {
+    "value": "yes",
+    "sources_crossed": ["M", "W"],
+    "evidence": "Sec. 3.1, Table 3: each scenario combines levels of task variables; all 17 models were tested on the same 192 variants, crossing model with knowledge cue and location-mention order. Knowledge state is an experimental condition, not a source."
+  },
+  "X2": {
+    "value": "yes",
+    "x2_types": ["anova_or_mixed_term", "effect_change"],
+    "x2_sources": ["M", "W"],
+    "evidence": "Secs. 3.4, 4.1–4.2: the Bayesian multilevel model estimates model-size and model-variant effects; reported coefficients quantify effects of scaling and the knowledge-cue wording contrast."
+  },
+  "X3": {
+    "value": "yes",
+    "x3_pairs": ["M x W"],
+    "evidence": "Sec. 4.2, Fig. 3: the knowledge-state-by-cue crossover is reported across model sizes, with a coefficient for the interaction."
+  },
+  "notes": "W includes knowledge-cue wording and location-mention order. Knowledge state is an experimental condition and is excluded as a source."
+}

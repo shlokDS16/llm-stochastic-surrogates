@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use these data or this code, please cite the article and this deposit."
+title: "Large language models as stochastic surrogates of human participants: data and code"
+type: dataset
+doi: 10.5281/zenodo.24046587
+version: 1.0.0
+date-released: 2026-11-08
+license: CC-BY-4.0
+authors:
+  - family-names: Goenka
+    given-names: Shlok Kumar
+    affiliation: "School of Computer Science and Engineering, Vellore Institute of Technology, Vellore, India"
+  - family-names: Thenmozhi
+    given-names: M.
+    affiliation: "School of Social Sciences and Languages, Vellore Institute of Technology, Vellore, India"
+    orcid: "https://orcid.org/0000-0002-2528-5327"
+  - family-names: M
+    given-names: Lawanya Shri
+    affiliation: "School of Computer Science Engineering and Information Systems, Vellore Institute of Technology, Vellore, India"
+keywords:
+  - uncertainty quantification
+  - verification and validation
+  - sensitivity analysis
+  - large language models
+  - simulated participants
+  - generalizability theory
+  - Many Labs

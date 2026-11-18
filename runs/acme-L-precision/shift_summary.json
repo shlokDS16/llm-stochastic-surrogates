@@ -1,0 +1,26 @@
+{
+ "model": "qwen2.5-1.5b-instruct",
+ "control": "qwen2.5-1.5b-instruct-nf4ctl",
+ "valid_threshold": 0.9,
+ "common_cells": 600,
+ "choice": {
+  "cells": 230,
+  "mean_abs_shift": 0.08907799542259516,
+  "max_abs_shift": 0.8146341109058989
+ },
+ "rating": {
+  "cells": 158,
+  "mean_abs_shift": 0.3521097705460954,
+  "max_abs_shift": 2.2609200347084695
+ },
+ "numeric": {
+  "cells": 101,
+  "mean_abs_shift": 1.9556009720501242,
+  "max_abs_shift": 9.507079773830517
+ },
+ "binary_and_rating": {
+  "cells": 388,
+  "mean_abs_shift": 0.1961888729213401,
+  "max_abs_shift": 2.2609200347084695
+ }
+}

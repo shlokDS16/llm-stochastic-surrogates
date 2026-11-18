@@ -1,0 +1,39 @@
+{
+ "order": 12,
+ "study_id": "W7140226071",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/012_W7140226071.md",
+ "sources_varied": [
+  "M",
+  "T"
+ ],
+ "X1": {
+  "value": "yes",
+  "sources_crossed": [
+   "M",
+   "T"
+  ],
+  "evidence": "Sec 3 (sampling): 11 models x temperature 0.0 to 1.0 in 0.1 steps x geographic categories, 50 independent sessions per cell; same prompts for every model."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "T",
+   "M"
+  ],
+  "evidence": "Sec 4.1-4.3, Tables 3 and 5, Figs 3-5: diversity and default strength reported by model and temperature, with the stated monotone rise of diversity with temperature and model contrasts; no variance share."
+ },
+ "X3": {
+  "value": "yes",
+  "x3_pairs": [
+   "M x T"
+  ],
+  "evidence": "Sec 4.1: diversity per model-temperature combination; authors note DeepSeek-V3 departs from the monotone pattern shown by others (descriptive, not tested)."
+ },
+ "notes": "X3 rests on a descriptive remark, borderline."
+}

@@ -1,0 +1,7 @@
+extends: existence
+message: "Rewriter attractor '%s' (ai-patterns-academic F). Not journal register; state the point plainly."
+level: suggestion
+scope: sentence
+ignorecase: true
+raw:
+  - '^(Put simply|In short|In essence|Simply put|The upshot is|The bottom line is|At its core|In a nutshell)\b'

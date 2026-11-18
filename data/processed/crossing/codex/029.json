@@ -1,0 +1,33 @@
+{
+ "order": 29,
+ "study_id": "W7154453073",
+ "pass": "codex",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/029_W7154453073.md",
+ "sources_varied": [
+  "W",
+  "O"
+ ],
+ "X1": {
+  "value": "partial",
+  "sources_crossed": [],
+  "evidence": "Sec. III-A, III-C–E: neutral, positive, and negative decoy framings were tested; alternative order was randomized across replicates."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "W"
+  ],
+  "evidence": "Sec. IV-A, IV-C: Route A shares were reported by framing, and logistic regression quantified framing-associated changes in Route A selection."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "Sec. IV-F: order effects were tested; no source-by-source interaction was estimated or shown."
+ },
+ "notes": ""
+}

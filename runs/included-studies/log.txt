@@ -1,0 +1,7 @@
+2026-10-17 09:37:04,264 analysed 150; full text 102; extracted claude 102 codex 102; included (YES in either) 82
+2026-10-17 09:37:04,264 prisma-fulltext.json cross-check: fulltext_assessed 102 (extracted here 102)
+2026-10-17 09:37:04,264 decision counts claude {'NO': 28, 'YES': 72, 'no_full_text': 48, 'UNCLEAR': 2} codex {'NO': 27, 'YES': 75, 'no_full_text': 48}
+2026-10-17 09:37:04,264 bib keys present for 82 of 82 included; missing 0
+2026-10-17 09:37:04,264 T-included.tex: 82 studies; family counts {'HB': 10, 'JDM': 8, 'RE': 7, 'TOM': 16, 'MEM': 7, 'LANG': 14, 'LEARN': 4, 'NUM': 3, 'MOR': 7, 'DEV': 1, 'OTH': 5}
+2026-10-17 09:37:04,264 ESM_1 csv: 150 rows
+2026-10-17 09:37:04,287 done

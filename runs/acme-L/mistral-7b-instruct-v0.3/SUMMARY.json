@@ -1,0 +1,67 @@
+{
+ "model": "mistral-7b-instruct-v0.3",
+ "dir": "runs/acme-L/mistral-7b-instruct-v0.3",
+ "recorded": "2026-11-07T09:17:14+05:45",
+ "files": [
+  {
+   "file": "AF.jsonl",
+   "rows": 48,
+   "bytes": 153239,
+   "sha256": "402d4b8a609137a5c33c69cc3824d591dda48b9acdac1b767e55ca348c48dbbc"
+  },
+  {
+   "file": "NR.jsonl",
+   "rows": 48,
+   "bytes": 290894,
+   "sha256": "6a73ccc855b2caf34839b94b8aa6d6914dc74d5a828e00628023d16cbd95638a"
+  },
+  {
+   "file": "P1.jsonl",
+   "rows": 48,
+   "bytes": 225560,
+   "sha256": "e946653238bc6923b71b130890439a03f9c9388529fe793c3285a3065b5790a5"
+  },
+  {
+   "file": "P2a.jsonl",
+   "rows": 34,
+   "bytes": 2329835,
+   "sha256": "45437e126b252e4b0d7481e6f402051512a1c0c3d3e427e6fb87f28702da632b"
+  },
+  {
+   "file": "P2b.jsonl",
+   "rows": 34,
+   "bytes": 2925410,
+   "sha256": "654cd3801b91740403d5a8952654e8d3c8fa5cbfe67a53416a58766f547c1864"
+  },
+  {
+   "file": "P2c.jsonl",
+   "rows": 34,
+   "bytes": 872657,
+   "sha256": "3cfec0e4765cb689caf0a1766b911d42a6c568ec6e61c7b796adf9b88cfafdde"
+  },
+  {
+   "file": "P2d.jsonl",
+   "rows": 34,
+   "bytes": 7982726,
+   "sha256": "6a7f679d886eef8d6446b94bcdf8e200644a05fa689cc318a25b2882392b7a94"
+  },
+  {
+   "file": "P3.jsonl",
+   "rows": 48,
+   "bytes": 293356,
+   "sha256": "2ea3fab7ef9e4b3506fc9a35af297413f1cdb688380884c302476e0aed0aa98b"
+  },
+  {
+   "file": "P4.jsonl",
+   "rows": 24,
+   "bytes": 4022980,
+   "sha256": "c356de60bf42640942204aeaf46dc44659a7981c683af09abc4843b887927342"
+  },
+  {
+   "file": "QA.jsonl",
+   "rows": 48,
+   "bytes": 292336,
+   "sha256": "cd31d1fe41a338135096e8503632f760c85188f27d1570664eea5ce54cd525d9"
+  }
+ ]
+}

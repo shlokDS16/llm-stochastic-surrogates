@@ -1,0 +1,36 @@
+{
+ "order": 15,
+ "study_id": "https://openalex.org/W7133223423",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/015_W7133223423.md",
+ "sources_varied": [
+  "M",
+  "W"
+ ],
+ "X1": {
+  "value": "yes",
+  "sources_crossed": [
+   "M",
+   "W"
+  ],
+  "evidence": "Table 3 caption and App B.3 (pp.8, 24-25): each prompted method (GPT-3, InstructGPT, MoralCoT) run under four paraphrases of the prompt on the same MoralExceptQA items."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "W"
+  ],
+  "evidence": "Table 3: mean and variance of F1 under the four paraphrases reported per method; Limitations paragraph calls the paraphrase analysis a sensitivity check (no variance share across sources)."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "No model-by-paraphrase interaction estimated; variance across paraphrases given per method only."
+ },
+ "notes": ""
+}

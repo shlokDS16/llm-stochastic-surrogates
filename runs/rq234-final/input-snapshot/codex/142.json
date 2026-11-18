@@ -1,0 +1,479 @@
+{
+ "order": 142,
+ "study_id": "https://openalex.org/W4390920734",
+ "full_text": {
+  "obtained": true,
+  "source": "provided full text"
+ },
+ "eligibility": {
+  "decision": "YES",
+  "failed_criterion": null,
+  "borderline": false,
+  "evidence": "Sections 3–4 and Appendix Tables 2–7: tests LaMDA on adapted developmental psychology experiments and reports new model results compared with child findings."
+ },
+ "A": {
+  "doi": null,
+  "arxiv_id": null,
+  "title": "Comparing Machines and Children: Using Developmental Psychology Experiments to Assess the Strengths and Weaknesses of LaMDA Responses",
+  "first_author": "Eliza Kosoy",
+  "year": 2023,
+  "venue": "NeurIPS MP2 (Morality and AI) Workshop",
+  "peer_reviewed": "yes",
+  "first_author_field": "psychology",
+  "country": "United States"
+ },
+ "B": {
+  "models": [
+   {
+    "name": "LaMDA",
+    "version": "137B",
+    "access": "not_reported",
+    "params_b": 137,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "Gemini",
+    "query_date": "not_reported"
+   }
+  ],
+  "n_models": 1,
+  "n_model_families": 1
+ },
+ "C": {
+  "paradigms": [
+   {
+    "pid": "P1",
+    "name": "Object permanence",
+    "family": "DEV",
+    "source_paper": "Baillargeon et al. (1985)",
+    "items_origin": "adapted",
+    "n_items": 1,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "partly",
+    "location": "Appendix Table 2; Table 3"
+   },
+   {
+    "pid": "P2",
+    "name": "Tracking addition and subtraction in objects (number task)",
+    "family": "NUM",
+    "source_paper": "Wynn (1992)",
+    "items_origin": "adapted",
+    "n_items": 1,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "partly",
+    "location": "Appendix Table 2; Table 3"
+   },
+   {
+    "pid": "P3",
+    "name": "Intentional action",
+    "family": "DEV",
+    "source_paper": "Gergely (1995)",
+    "items_origin": "adapted",
+    "n_items": 1,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "partly",
+    "location": "Appendix Table 2; Table 3"
+   },
+   {
+    "pid": "P4",
+    "name": "Understanding goals / violation of expectation",
+    "family": "DEV",
+    "source_paper": "Woodward (1999)",
+    "items_origin": "adapted",
+    "n_items": 1,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "partly",
+    "location": "Appendix Table 2; Table 3"
+   },
+   {
+    "pid": "P5",
+    "name": "Sally-Anne false-belief task",
+    "family": "TOM",
+    "source_paper": "Wimmer (1983); Baron-Cohen et al. (1985)",
+    "items_origin": "adapted",
+    "n_items": 1,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "partly",
+    "location": "Appendix Table 2; Table 4"
+   },
+   {
+    "pid": "P6",
+    "name": "Variations on theory-of-mind tasks",
+    "family": "TOM",
+    "source_paper": "Ullman (2023)",
+    "items_origin": "adapted",
+    "n_items": 4,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "partly",
+    "location": "Appendix Table 2; Table 4"
+   },
+   {
+    "pid": "P7",
+    "name": "False-belief task (Smarties/pencils)",
+    "family": "TOM",
+    "source_paper": "Perner et al. (1987)",
+    "items_origin": "adapted",
+    "n_items": 1,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "partly",
+    "location": "Appendix Table 2; Table 4"
+   },
+   {
+    "pid": "P8",
+    "name": "Helper/hinderer preference",
+    "family": "TOM",
+    "source_paper": "Hamlin et al. (2013)",
+    "items_origin": "adapted",
+    "n_items": 1,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "partly",
+    "location": "Appendix Table 2; Table 5"
+   },
+   {
+    "pid": "P9",
+    "name": "Prosociality and intention / helping",
+    "family": "TOM",
+    "source_paper": "Warneken and Tomasello (2006)",
+    "items_origin": "adapted",
+    "n_items": 2,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "partly",
+    "location": "Appendix Table 2; Table 5"
+   },
+   {
+    "pid": "P10",
+    "name": "Causal gear task",
+    "family": "RE",
+    "source_paper": "Schulz et al. (2007)",
+    "items_origin": "adapted",
+    "n_items": 2,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "partly",
+    "location": "Appendix Table 2; Table 6"
+   },
+   {
+    "pid": "P11",
+    "name": "Blicket induction task",
+    "family": "LEARN",
+    "source_paper": "Gopnik and Sobel (2000)",
+    "items_origin": "adapted",
+    "n_items": 2,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "partly",
+    "location": "Appendix Table 2; Table 6"
+   },
+   {
+    "pid": "P12",
+    "name": "Disjunctive/conjunctive Blicket task",
+    "family": "RE",
+    "source_paper": "Lucas (2014)",
+    "items_origin": "adapted",
+    "n_items": 4,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "partly",
+    "location": "Appendix Table 2; Table 6"
+   }
+  ]
+ },
+ "D": {
+  "types": [
+   "published_norms"
+  ],
+  "primary_type": "published_norms",
+  "human_n": null,
+  "population": "Children in the cited original developmental experiments; ages stated by experiment, participant counts not reported here.",
+  "metric": "LLM Response Score (LRS), a 0–5 rubric comparing model responses with children’s task performance."
+ },
+ "E": {
+  "outcome_types": [
+   "accuracy",
+   "other"
+  ],
+  "rows_aggregated": false,
+  "effects": [
+   {
+    "pid": "P1",
+    "model": "LaMDA 137B",
+    "model_family": "Gemini",
+    "outcome_kind": "accuracy",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "similar",
+    "agreement_value": null,
+    "label": "HUMAN-LEVEL",
+    "location": "Section 4.2; Appendix Table 3"
+   },
+   {
+    "pid": "P2",
+    "model": "LaMDA 137B",
+    "model_family": "Gemini",
+    "outcome_kind": "accuracy",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "below",
+    "agreement_value": null,
+    "label": "BELOW-HUMAN",
+    "location": "Section 4.2; Appendix Table 3"
+   },
+   {
+    "pid": "P3",
+    "model": "LaMDA 137B",
+    "model_family": "Gemini",
+    "outcome_kind": "accuracy",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "similar",
+    "agreement_value": null,
+    "label": "HUMAN-LEVEL",
+    "location": "Section 4.2; Appendix Table 3"
+   },
+   {
+    "pid": "P4",
+    "model": "LaMDA 137B",
+    "model_family": "Gemini",
+    "outcome_kind": "accuracy",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "below",
+    "agreement_value": null,
+    "label": "BELOW-HUMAN",
+    "location": "Section 4.2; Appendix Table 3"
+   },
+   {
+    "pid": "P5",
+    "model": "LaMDA 137B",
+    "model_family": "Gemini",
+    "outcome_kind": "accuracy",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "below",
+    "agreement_value": null,
+    "label": "BELOW-HUMAN",
+    "location": "Section 4.3; Appendix Table 4"
+   },
+   {
+    "pid": "P6",
+    "model": "LaMDA 137B",
+    "model_family": "Gemini",
+    "outcome_kind": "accuracy",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "below",
+    "agreement_value": null,
+    "label": "BELOW-HUMAN",
+    "location": "Section 4.3; Appendix Table 4"
+   },
+   {
+    "pid": "P7",
+    "model": "LaMDA 137B",
+    "model_family": "Gemini",
+    "outcome_kind": "accuracy",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "below",
+    "agreement_value": null,
+    "label": "BELOW-HUMAN",
+    "location": "Section 4.3; Appendix Table 4"
+   },
+   {
+    "pid": "P8",
+    "model": "LaMDA 137B",
+    "model_family": "Gemini",
+    "outcome_kind": "accuracy",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "similar",
+    "agreement_value": null,
+    "label": "HUMAN-LEVEL",
+    "location": "Section 4.1; Appendix Table 5"
+   },
+   {
+    "pid": "P9",
+    "model": "LaMDA 137B",
+    "model_family": "Gemini",
+    "outcome_kind": "accuracy",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "below",
+    "agreement_value": null,
+    "label": "BELOW-HUMAN",
+    "location": "Section 4.1; Appendix Table 5"
+   },
+   {
+    "pid": "P10",
+    "model": "LaMDA 137B",
+    "model_family": "Gemini",
+    "outcome_kind": "accuracy",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "below",
+    "agreement_value": null,
+    "label": "BELOW-HUMAN",
+    "location": "Section 4.4; Appendix Table 6"
+   },
+   {
+    "pid": "P11",
+    "model": "LaMDA 137B",
+    "model_family": "Gemini",
+    "outcome_kind": "accuracy",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "below",
+    "agreement_value": null,
+    "label": "BELOW-HUMAN",
+    "location": "Section 4.4; Appendix Table 6"
+   },
+   {
+    "pid": "P12",
+    "model": "LaMDA 137B",
+    "model_family": "Gemini",
+    "outcome_kind": "accuracy",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "below",
+    "agreement_value": null,
+    "label": "BELOW-HUMAN",
+    "location": "Section 4.4; Appendix Table 6"
+   }
+  ],
+  "headline": "LaMDA’s responses were most child-like in social and moral tasks, near chance in perception and theory of mind, and especially weak in causal reasoning."
+ },
+ "F": {
+  "f1": "no",
+  "f2": "no",
+  "f3": "yes",
+  "f4": "yes",
+  "f5": "no",
+  "f6": "na",
+  "f7": "no",
+  "f8": "no",
+  "f9": "yes",
+  "f10": "no",
+  "f11": "no",
+  "f12": "yes",
+  "perturbations_tested": [
+   "wording",
+   "contamination"
+  ],
+  "robustness_outcome": "na"
+ },
+ "G": {
+  "notes": "The paper reports aggregate rubric scores but no participant counts, direct model–child statistical comparisons, inferential tests for individual task scores, or complete prompt text in the manuscript; it cites a Google document for prompts and outputs.",
+  "extractor": "codex (default)",
+  "date": "2026-10-16",
+  "minutes": 0.8,
+  "sections_read": [
+   "Abstract",
+   "Sections 1–5",
+   "References",
+   "Appendix Tables 2–7"
+  ]
+ }
+}

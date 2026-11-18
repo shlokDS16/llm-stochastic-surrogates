@@ -1,0 +1,26 @@
+{
+  "order": 147,
+  "study_id": "https://openalex.org/W7160676434",
+  "pass": "codex",
+  "brief_version": "1.0",
+  "date": "2026-11-07",
+  "full_text": "research/sources/md/fulltext/147_W7160676434.md",
+  "sources_varied": ["M", "W", "R"],
+  "X1": {
+    "value": "partial",
+    "sources_crossed": [],
+    "evidence": "Sec. 4.3, 5.5, and Supplement A: models varied by hidden size, training corpus size, and five training subsets; template-generated sentences included variable noun number, modifiers, and adverb position. These factors were not reported as a full factorial crossing of model and wording."
+  },
+  "X2": {
+    "value": "yes",
+    "x2_types": ["anova_or_mixed_term", "effect_change"],
+    "x2_sources": ["M"],
+    "evidence": "Sec. 5.5, Fig. 5 and Table 3: mixed-effects terms and a reported interaction quantify how hidden-unit size and corpus size relate to similarity distance."
+  },
+  "X3": {
+    "value": "yes",
+    "x3_pairs": ["M x M"],
+    "evidence": "Supplement C.5, Table 3: the mixed-effects model includes a hidden-unit-size by corpus-size interaction."
+  },
+  "notes": "The reported M x M interaction is between two model-configuration dimensions (hidden size and training corpus size), both coded as model variation."
+}

@@ -1,0 +1,34 @@
+{
+ "order": 117,
+ "study_id": "https://openalex.org/W4403007278",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/117_W4403007278.md",
+ "sources_varied": [
+  "M",
+  "T",
+  "W"
+ ],
+ "X1": {
+  "value": "yes",
+  "sources_crossed": [
+   "M",
+   "T",
+   "W"
+  ],
+  "evidence": "Sec 3-4 (p.4-5): eight LLMs at temperatures 0.001, 0.5, 1.0 and 1.5 and three prompt variants on the same country-pair items."
+ },
+ "X2": {
+  "value": "no",
+  "x2_types": [],
+  "x2_sources": [],
+  "evidence": "Order effects (the effect under test) tested per model-temperature pair; no test of temperature, prompt or model as a source, and no comparison of the size of the order effect across settings."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "Country-pair order is the experimental condition, not a source."
+ },
+ "notes": ""
+}

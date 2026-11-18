@@ -1,0 +1,26 @@
+{
+  "order": 105,
+  "study_id": "W4405133564",
+  "pass": "codex",
+  "brief_version": "1.0",
+  "date": "2026-11-07",
+  "full_text": "research/sources/md/fulltext/105_W4405133564.md",
+  "sources_varied": ["W", "O"],
+  "X1": {
+    "value": "partial",
+    "sources_crossed": [],
+    "evidence": "Secs. 4.2 and 5: the main prompt counterbalanced option order; a follow-up asked about the same letters without explicit options. The text does not report a full crossing of wording and order."
+  },
+  "X2": {
+    "value": "no",
+    "x2_types": [],
+    "x2_sources": [],
+    "evidence": "Sec. 5: outcomes are reported for the main study and follow-up, but no quantified change or test is attributed to wording or option order."
+  },
+  "X3": {
+    "value": "no",
+    "x3_pairs": [],
+    "evidence": "Secs. 4.2 and 5: no interaction between wording and option order is estimated or shown."
+  },
+  "notes": "The full text is partial; the captured sections describe the study design and results."
+}

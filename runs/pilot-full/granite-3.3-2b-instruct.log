@@ -1,0 +1,189 @@
+﻿.venv\Scripts\python.exe : W1016 04:38:22.835000 37340 
+Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not 
+supported in Windows or MacOs.
+At line:1 char:727
++ ... \queue.log; .venv\Scripts\python.exe -I analysis\pilot\run_pilot.py - ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (W1016 04:38:22....ndows or MacOs.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+granite-3.3-2b-instruct P1: 3232 planned, 0 done, 3232 to do
+granite-3.3-2b-instruct P2a: 1616 planned, 0 done, 1616 to do
+granite-3.3-2b-instruct P2b: 1616 planned, 0 done, 1616 to do
+granite-3.3-2b-instruct P2c: 1616 planned, 0 done, 1616 to do
+granite-3.3-2b-instruct P2d: 1616 planned, 0 done, 1616 to do
+granite-3.3-2b-instruct P3: 1616 planned, 0 done, 1616 to do
+granite-3.3-2b-instruct P4: 1616 planned, 0 done, 1616 to do
+
+Loading weights:   0%|          | 0/362 [00:00<?, ?it/s]
+Loading weights:   3%|2         | 10/362 [00:00<00:04, 76.39it/s]
+Loading weights:   5%|4         | 18/362 [00:00<00:04, 72.38it/s]
+Loading weights:   7%|7         | 26/362 [00:00<00:04, 68.41it/s]
+Loading weights:   9%|9         | 33/362 [00:00<00:05, 58.54it/s]
+Loading weights:  11%|#         | 39/362 [00:00<00:06, 49.97it/s]
+Loading weights:  12%|#2        | 45/362 [00:00<00:06, 50.89it/s]
+Loading weights:  15%|#4        | 53/362 [00:01<00:07, 43.06it/s]
+Loading weights:  17%|#7        | 62/362 [00:01<00:06, 49.52it/s]
+Loading weights:  19%|#8        | 68/362 [00:01<00:06, 48.58it/s]
+Loading weights:  20%|##        | 74/362 [00:01<00:05, 48.88it/s]
+Loading weights:  22%|##2       | 81/362 [00:01<00:06, 44.33it/s]
+Loading weights:  25%|##4       | 89/362 [00:01<00:06, 44.75it/s]
+Loading weights:  27%|##7       | 98/362 [00:01<00:05, 50.01it/s]
+Loading weights:  29%|##8       | 104/362 [00:02<00:05, 43.71it/s]
+Loading weights:  31%|###1      | 113/362 [00:02<00:04, 50.34it/s]
+Loading weights:  33%|###3      | 120/362 [00:02<00:04, 54.09it/s]
+Loading weights:  35%|###4      | 126/362 [00:02<00:04, 48.13it/s]
+Loading weights:  37%|###7      | 134/362 [00:02<00:04, 50.99it/s]
+Loading weights:  40%|###9      | 143/362 [00:02<00:03, 55.77it/s]
+Loading weights:  41%|####1     | 149/362 [00:02<00:04, 51.95it/s]
+Loading weights:  43%|####2     | 155/362 [00:03<00:04, 41.72it/s]
+Loading weights:  45%|####4     | 162/362 [00:03<00:04, 43.84it/s]
+Loading weights:  46%|####6     | 167/362 [00:03<00:04, 40.35it/s]
+Loading weights:  48%|####7     | 172/362 [00:03<00:05, 34.23it/s]
+Loading weights:  49%|####9     | 179/362 [00:03<00:06, 29.44it/s]
+Loading weights:  52%|#####1    | 188/362 [00:04<00:04, 37.68it/s]
+Loading weights:  53%|#####3    | 193/362 [00:04<00:04, 36.95it/s]
+Loading weights:  55%|#####4    | 198/362 [00:04<00:04, 34.43it/s]
+Loading weights:  57%|#####6    | 206/362 [00:04<00:04, 37.65it/s]
+Loading weights:  59%|#####9    | 214/362 [00:04<00:03, 42.95it/s]
+Loading weights:  60%|######    | 219/362 [00:04<00:03, 40.16it/s]
+Loading weights:  62%|######1   | 224/362 [00:04<00:03, 41.67it/s]
+Loading weights:  64%|######4   | 233/362 [00:05<00:02, 47.06it/s]
+Loading weights:  66%|######5   | 238/362 [00:05<00:02, 44.65it/s]
+Loading weights:  67%|######7   | 243/362 [00:05<00:02, 44.08it/s]
+Loading weights:  69%|######9   | 250/362 [00:05<00:02, 45.80it/s]
+Loading weights:  70%|#######   | 255/362 [00:05<00:02, 44.39it/s]
+Loading weights:  72%|#######2  | 261/362 [00:05<00:02, 40.90it/s]
+Loading weights:  75%|#######4  | 270/362 [00:05<00:01, 47.94it/s]
+Loading weights:  77%|#######6  | 278/362 [00:06<00:02, 41.90it/s]
+Loading weights:  80%|#######9  | 288/362 [00:06<00:01, 49.07it/s]
+Loading weights:  82%|########1 | 296/362 [00:06<00:01, 51.08it/s]
+Loading weights:  83%|########3 | 302/362 [00:06<00:01, 44.49it/s]
+Loading weights:  85%|########4 | 307/362 [00:06<00:01, 37.82it/s]
+Loading weights:  87%|########7 | 315/362 [00:07<00:01, 40.07it/s]
+Loading weights:  90%|########9 | 324/362 [00:07<00:00, 44.54it/s]
+Loading weights:  91%|#########1| 330/362 [00:07<00:00, 44.05it/s]
+Loading weights:  93%|#########2| 335/362 [00:07<00:00, 42.95it/s]
+Loading weights:  94%|#########4| 341/362 [00:07<00:00, 38.06it/s]
+Loading weights:  97%|#########6| 350/362 [00:07<00:00, 38.17it/s]
+Loading weights: 100%|##########| 362/362 [00:07<00:00, 45.51it/s]
+[transformers] Ignoring clean_up_tokenization_spaces=True for BPE tokenizer TokenizersBackend. The 
+clean_up_tokenization post-processing step is designed for WordPiece tokenizers and is destructive for BPE (it strips 
+spaces before punctuation). Set clean_up_tokenization_spaces=False to suppress this warning, or set 
+clean_up_tokenization_spaces_for_bpe_even_though_it_will_corrupt_output=True to force cleanup anyway.
+P1 batch 1/42 F=F0 rows=80 3.0s 26 tok/s peak 6.58 GiB elapsed 3s
+P1 batch 6/42 F=F0 rows=80 2.5s 32 tok/s peak 6.63 GiB elapsed 16s
+P1 batch 11/42 F=F0 rows=80 2.2s 37 tok/s peak 6.39 GiB elapsed 28s
+P1 batch 16/42 F=F0 rows=80 2.2s 37 tok/s peak 6.41 GiB elapsed 41s
+P1 batch 21/42 F=F0 rows=16 0.5s 30 tok/s peak 5.14 GiB elapsed 54s
+P1 batch 26/42 F=F1 rows=80 19.6s 248 tok/s peak 6.96 GiB elapsed 157s
+P1 batch 31/42 F=F1 rows=80 35.4s 153 tok/s peak 7.57 GiB elapsed 283s
+.venv\Scripts\python.exe : W1016 06:06:03.410000 24508 
+Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not 
+supported in Windows or MacOs.
+At line:1 char:639
++ ... \queue.log; .venv\Scripts\python.exe -I analysis\pilot\run_pilot.py - ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (W1016 06:06:03....ndows or MacOs.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+granite-3.3-2b-instruct P1: 3232 planned, 2656 done, 576 to do
+granite-3.3-2b-instruct P2a: 1616 planned, 0 done, 1616 to do
+granite-3.3-2b-instruct P2b: 1616 planned, 0 done, 1616 to do
+granite-3.3-2b-instruct P2c: 1616 planned, 0 done, 1616 to do
+granite-3.3-2b-instruct P2d: 1616 planned, 0 done, 1616 to do
+granite-3.3-2b-instruct P3: 1616 planned, 0 done, 1616 to do
+granite-3.3-2b-instruct P4: 1616 planned, 0 done, 1616 to do
+
+Loading weights:   0%|          | 0/362 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/362 [00:00<01:28,  4.09it/s]
+Loading weights:   2%|2         | 9/362 [00:00<00:13, 26.75it/s]
+Loading weights:   5%|4         | 17/362 [00:00<00:09, 37.43it/s]
+Loading weights:   7%|7         | 26/362 [00:00<00:08, 40.73it/s]
+Loading weights:  10%|9         | 36/362 [00:00<00:06, 47.35it/s]
+Loading weights:  12%|#1        | 43/362 [00:01<00:06, 47.16it/s]
+Loading weights:  15%|#4        | 53/362 [00:01<00:05, 57.75it/s]
+Loading weights:  17%|#7        | 62/362 [00:01<00:05, 56.85it/s]
+Loading weights:  20%|#9        | 71/362 [00:01<00:04, 61.45it/s]
+Loading weights:  22%|##1       | 78/362 [00:01<00:04, 60.77it/s]
+Loading weights:  23%|##3       | 85/362 [00:01<00:04, 56.91it/s]
+Loading weights:  25%|##5       | 91/362 [00:01<00:04, 54.24it/s]
+Loading weights:  27%|##7       | 99/362 [00:02<00:05, 52.15it/s]
+Loading weights:  30%|##9       | 107/362 [00:02<00:05, 50.78it/s]
+Loading weights:  32%|###1      | 115/362 [00:02<00:04, 54.84it/s]
+Loading weights:  34%|###3      | 122/362 [00:02<00:04, 56.32it/s]
+Loading weights:  36%|###5      | 130/362 [00:02<00:03, 61.07it/s]
+Loading weights:  38%|###7      | 137/362 [00:02<00:03, 58.66it/s]
+Loading weights:  40%|###9      | 143/362 [00:02<00:04, 51.78it/s]
+Loading weights:  41%|####1     | 149/362 [00:02<00:04, 49.97it/s]
+Loading weights:  44%|####4     | 160/362 [00:03<00:03, 57.79it/s]
+Loading weights:  47%|####6     | 170/362 [00:03<00:03, 60.96it/s]
+Loading weights:  49%|####9     | 179/362 [00:03<00:03, 59.28it/s]
+Loading weights:  52%|#####1    | 188/362 [00:03<00:03, 57.54it/s]
+Loading weights:  54%|#####3    | 194/362 [00:03<00:03, 55.21it/s]
+Loading weights:  56%|#####5    | 202/362 [00:03<00:02, 60.19it/s]
+Loading weights:  58%|#####7    | 209/362 [00:03<00:02, 58.01it/s]
+Loading weights:  59%|#####9    | 215/362 [00:04<00:02, 53.76it/s]
+Loading weights:  62%|######1   | 223/362 [00:04<00:02, 58.74it/s]
+Loading weights:  64%|######4   | 233/362 [00:04<00:01, 67.76it/s]
+Loading weights:  66%|######6   | 240/362 [00:04<00:01, 67.71it/s]
+Loading weights:  68%|######8   | 247/362 [00:04<00:01, 60.66it/s]
+Loading weights:  70%|#######   | 254/362 [00:04<00:01, 58.20it/s]
+Loading weights:  72%|#######2  | 261/362 [00:04<00:01, 52.07it/s]
+Loading weights:  74%|#######4  | 269/362 [00:04<00:01, 52.40it/s]
+Loading weights:  77%|#######6  | 278/362 [00:05<00:01, 53.23it/s]
+Loading weights:  79%|#######9  | 287/362 [00:05<00:01, 56.86it/s]
+Loading weights:  81%|########1 | 294/362 [00:05<00:01, 57.21it/s]
+Loading weights:  83%|########2 | 300/362 [00:05<00:01, 57.67it/s]
+Loading weights:  85%|########4 | 306/362 [00:05<00:00, 58.00it/s]
+Loading weights:  87%|########6 | 314/362 [00:05<00:00, 50.26it/s]
+Loading weights:  89%|########9 | 323/362 [00:05<00:00, 52.64it/s]
+Loading weights:  92%|#########1| 332/362 [00:06<00:00, 47.66it/s]
+Loading weights:  94%|#########4| 341/362 [00:06<00:00, 54.16it/s]
+Loading weights:  96%|#########5| 347/362 [00:06<00:00, 53.36it/s]
+Loading weights:  98%|#########7| 353/362 [00:06<00:00, 49.43it/s]
+Loading weights: 100%|##########| 362/362 [00:06<00:00, 54.75it/s]
+[transformers] Ignoring clean_up_tokenization_spaces=True for BPE tokenizer TokenizersBackend. The 
+clean_up_tokenization post-processing step is designed for WordPiece tokenizers and is destructive for BPE (it strips 
+spaces before punctuation). Set clean_up_tokenization_spaces=False to suppress this warning, or set 
+clean_up_tokenization_spaces_for_bpe_even_though_it_will_corrupt_output=True to force cleanup anyway.
+P1 batch 1/8 F=F1 rows=80 23.0s 234 tok/s peak 7.10 GiB elapsed 23s
+P1 batch 6/8 F=F1 rows=80 22.9s 209 tok/s peak 7.15 GiB elapsed 133s
+P1 batch 8/8 F=F1 rows=16 12.1s 86 tok/s peak 5.23 GiB elapsed 173s
+P2a batch 1/22 F=F0 rows=80 4.4s 128 tok/s peak 6.03 GiB elapsed 4s
+P2a batch 6/22 F=F0 rows=80 3.6s 210 tok/s peak 5.91 GiB elapsed 25s
+P2a batch 11/22 F=F0 rows=8 1.6s 37 tok/s peak 4.87 GiB elapsed 45s
+P2a batch 16/22 F=F1 rows=80 23.3s 258 tok/s peak 6.92 GiB elapsed 154s
+P2a batch 21/22 F=F1 rows=80 26.2s 229 tok/s peak 7.05 GiB elapsed 246s
+P2a batch 22/22 F=F1 rows=8 7.8s 64 tok/s peak 4.93 GiB elapsed 253s
+P2b batch 1/22 F=F0 rows=80 4.1s 187 tok/s peak 5.98 GiB elapsed 4s
+P2b batch 6/22 F=F0 rows=80 4.2s 213 tok/s peak 6.04 GiB elapsed 22s
+P2b batch 11/22 F=F0 rows=8 1.9s 79 tok/s peak 4.88 GiB elapsed 39s
+P2b batch 16/22 F=F1 rows=80 22.8s 262 tok/s peak 6.90 GiB elapsed 128s
+P2b batch 21/22 F=F1 rows=80 23.1s 274 tok/s peak 6.94 GiB elapsed 218s
+P2b batch 22/22 F=F1 rows=8 7.2s 89 tok/s peak 4.92 GiB elapsed 225s
+P2c batch 1/22 F=F0 rows=80 4.1s 160 tok/s peak 6.00 GiB elapsed 4s
+P2c batch 6/22 F=F0 rows=80 4.1s 163 tok/s peak 6.01 GiB elapsed 23s
+P2c batch 11/22 F=F0 rows=8 0.6s 79 tok/s peak 4.87 GiB elapsed 39s
+P2c batch 16/22 F=F1 rows=80 18.6s 277 tok/s peak 6.67 GiB elapsed 140s
+P2c batch 21/22 F=F1 rows=80 32.7s 180 tok/s peak 7.01 GiB elapsed 249s
+P2c batch 22/22 F=F1 rows=8 8.8s 63 tok/s peak 4.92 GiB elapsed 258s
+P2d batch 1/22 F=F0 rows=80 5.3s 75 tok/s peak 6.08 GiB elapsed 5s
+P2d batch 6/22 F=F0 rows=80 3.9s 113 tok/s peak 6.05 GiB elapsed 24s
+P2d batch 11/22 F=F0 rows=8 0.9s 59 tok/s peak 4.89 GiB elapsed 43s
+P2d batch 16/22 F=F1 rows=80 21.8s 254 tok/s peak 6.90 GiB elapsed 140s
+P2d batch 21/22 F=F1 rows=80 30.2s 196 tok/s peak 7.25 GiB elapsed 243s
+P2d batch 22/22 F=F1 rows=8 6.0s 89 tok/s peak 4.92 GiB elapsed 249s
+P3 batch 1/22 F=F0 rows=80 1.9s 42 tok/s peak 6.18 GiB elapsed 2s
+P3 batch 6/22 F=F0 rows=80 1.7s 48 tok/s peak 6.08 GiB elapsed 11s
+P3 batch 11/22 F=F0 rows=8 0.3s 30 tok/s peak 4.89 GiB elapsed 19s
+P3 batch 16/22 F=F1 rows=80 19.7s 222 tok/s peak 6.82 GiB elapsed 98s
+P3 batch 21/22 F=F1 rows=80 21.0s 221 tok/s peak 6.88 GiB elapsed 185s
+P3 batch 22/22 F=F1 rows=8 6.2s 86 tok/s peak 4.92 GiB elapsed 191s
+P4 batch 1/22 F=F0 rows=80 1.9s 119 tok/s peak 5.86 GiB elapsed 2s
+P4 batch 6/22 F=F0 rows=80 1.7s 141 tok/s peak 5.80 GiB elapsed 14s
+P4 batch 11/22 F=F0 rows=8 0.4s 50 tok/s peak 4.86 GiB elapsed 24s
+P4 batch 16/22 F=F1 rows=80 27.0s 259 tok/s peak 7.05 GiB elapsed 135s
+P4 batch 21/22 F=F1 rows=80 30.6s 218 tok/s peak 7.20 GiB elapsed 251s
+P4 batch 22/22 F=F1 rows=8 5.8s 123 tok/s peak 4.94 GiB elapsed 257s
+done

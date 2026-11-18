@@ -1,0 +1,26 @@
+{
+  "order": 12,
+  "study_id": "W7140226071",
+  "pass": "codex",
+  "brief_version": "1.0",
+  "date": "2026-11-07",
+  "full_text": "research/sources/md/fulltext/012_W7140226071.md",
+  "sources_varied": ["M", "T"],
+  "X1": {
+    "value": "yes",
+    "sources_crossed": ["M x T"],
+    "evidence": "Sec. 3.2–3.3: 11 models were run across temperatures 0.0–1.0 in 0.1 increments, with 50 sessions at each temperature."
+  },
+  "X2": {
+    "value": "yes",
+    "x2_types": ["effect_change"],
+    "x2_sources": ["T"],
+    "evidence": "Sec. 4.1, Figs. 2–5, Table 3: reports exemplar frequency and diversity changes across temperatures, including temperature ranges where one exemplar persists."
+  },
+  "X3": {
+    "value": "no",
+    "x3_pairs": [],
+    "evidence": "Secs. 4.1–4.3: results compare temperature patterns and models, but do not estimate or show that a source’s effect depends on the other."
+  },
+  "notes": "50 sessions per model-category-temperature cell estimate output distributions; repeated draws are not coded as R."
+}

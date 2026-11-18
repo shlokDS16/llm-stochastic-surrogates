@@ -1,0 +1,26 @@
+{
+  "order": 121,
+  "study_id": "https://openalex.org/W4387075046",
+  "pass": "codex",
+  "brief_version": "1.0",
+  "date": "2026-11-07",
+  "full_text": "research/sources/md/fulltext/121_W4387075046.md",
+  "sources_varied": ["M", "O", "X"],
+  "X1": {
+    "value": "partial",
+    "sources_crossed": [],
+    "evidence": "Sec. 3.2, pp. 5–7: seven models and 8 dilemma-statement permutations plus all 6 option permutations were used; GPT-3 required a different prompt structure."
+  },
+  "X2": {
+    "value": "no",
+    "x2_types": [],
+    "x2_sources": [],
+    "evidence": "Sec. 4, pp. 6–8: scores are compared by model and dilemma, but no quantified outcome difference is attributed to model, order, or prompt structure."
+  },
+  "X3": {
+    "value": "no",
+    "x3_pairs": [],
+    "evidence": "Sec. 4, pp. 6–8: results are presented by model and dilemma; no source-by-source interaction is estimated or shown."
+  },
+  "notes": "Repeated responses shown as variability across runs are not coded as R because the study does not describe runs as a design factor or analyze run-to-run variation."
+}

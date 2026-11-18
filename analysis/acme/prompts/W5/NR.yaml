@@ -1,0 +1,8 @@
+paradigm: NR
+wording: W5
+response_type: yesno2
+q_us: Is it your opinion that journalists from North Korea ought to be permitted by the United States to come in here and to send back to their newspapers the news as they see it?
+q_other: Is it your opinion that American newspaper journalists ought to be permitted by North Korea to come in and to send back to America the news as they see it?
+options:
+- 'Yes'
+- 'No'

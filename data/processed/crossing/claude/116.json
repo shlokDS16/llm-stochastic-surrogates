@@ -1,0 +1,35 @@
+{
+ "order": 116,
+ "study_id": "https://openalex.org/W4410251374",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/116_W4410251374.md",
+ "sources_varied": [
+  "M",
+  "O",
+  "W"
+ ],
+ "X1": {
+  "value": "partial",
+  "sources_crossed": [],
+  "evidence": "Sec 2-4 and Robustness checks (p.4-6): five LLMs play every pairing at temperature 0; order of options, option labels, prompt wording and payoffs varied in checks reported for selected games and for GPT-4."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "O",
+   "W"
+  ],
+  "evidence": "Robustness checks (p.4, p.6, figures on prompt variations): behavioural signature compared under randomised order, relabelled options and prompt variants and reported as stable."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": ""
+ },
+ "notes": ""
+}

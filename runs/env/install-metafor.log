@@ -1,0 +1,24 @@
+also installing the dependencies 'metadat', 'mathjaxr', 'pbapply'
+
+trying URL 'https://cloud.r-project.org/bin/windows/contrib/4.5/metadat_1.6-0.zip'
+trying URL 'https://cloud.r-project.org/bin/windows/contrib/4.5/mathjaxr_2.0-0.zip'
+trying URL 'https://cloud.r-project.org/bin/windows/contrib/4.5/pbapply_1.7-5.zip'
+trying URL 'https://cloud.r-project.org/bin/windows/contrib/4.5/metafor_5.2-1.zip'
+package 'metadat' successfully unpacked and MD5 sums checked
+package 'mathjaxr' successfully unpacked and MD5 sums checked
+package 'pbapply' successfully unpacked and MD5 sums checked
+package 'metafor' successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\Shlok\AppData\Local\Temp\Rtmpo5xaVc\downloaded_packages
+Loading required package: Matrix
+Loading required package: metadat
+Loading required package: numDeriv
+
+Loading the 'metafor' package (version 5.2-1). For an
+introduction to the package please type: help(metafor)
+
+Warning messages:
+1: package 'metafor' was built under R version 4.5.3 
+2: package 'metadat' was built under R version 4.5.3 
+[1] '5.2.1'

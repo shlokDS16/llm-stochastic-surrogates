@@ -1,0 +1,433 @@
+{
+  "order": 55,
+  "study_id": "https://openalex.org/W7155065994",
+  "full_text": {
+    "obtained": true,
+    "source": "research/sources/md/fulltext/055_W7155065994.md"
+  },
+  "eligibility": {
+    "decision": "YES",
+    "failed_criterion": null,
+    "borderline": false,
+    "evidence": "Sections 4.5 and Appendix A administer named moral-psychology paradigms, including the trolley and Heinz dilemmas, to generative Llama models; results report model responses."
+  },
+  "A": {
+    "doi": null,
+    "arxiv_id": null,
+    "title": "Six Llamas: Comparative Religious Ethics Through LoRA-Adapted Language Models",
+    "first_author": "Chad Coleman",
+    "year": 2026,
+    "venue": "not_reported",
+    "peer_reviewed": "preprint",
+    "first_author_field": "not_reported",
+    "country": "not_reported"
+  },
+  "B": {
+    "models": [
+      {
+        "name": "Meta-Llama-3.1-8B-Instruct",
+        "version": "base control",
+        "access": "open_weights",
+        "params_b": 8,
+        "release_date": "not_reported",
+        "tuning": "instruction",
+        "family": "Llama",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "Meta-Llama-3.1-8B-Instruct",
+        "version": "Christian LoRA-adapted checkpoint; exact checkpoint name not_reported",
+        "access": "open_weights",
+        "params_b": 8,
+        "release_date": "not_reported",
+        "tuning": "instruction",
+        "family": "Llama",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "Meta-Llama-3.1-8B-Instruct",
+        "version": "Jewish LoRA-adapted checkpoint; exact checkpoint name not_reported",
+        "access": "open_weights",
+        "params_b": 8,
+        "release_date": "not_reported",
+        "tuning": "instruction",
+        "family": "Llama",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "Meta-Llama-3.1-8B-Instruct",
+        "version": "Islamic LoRA-adapted checkpoint; exact checkpoint name not_reported",
+        "access": "open_weights",
+        "params_b": 8,
+        "release_date": "not_reported",
+        "tuning": "instruction",
+        "family": "Llama",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "Meta-Llama-3.1-8B-Instruct",
+        "version": "Hindu LoRA-adapted checkpoint; exact checkpoint name not_reported",
+        "access": "open_weights",
+        "params_b": 8,
+        "release_date": "not_reported",
+        "tuning": "instruction",
+        "family": "Llama",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "Meta-Llama-3.1-8B-Instruct",
+        "version": "Buddhist LoRA-adapted checkpoint; exact checkpoint name not_reported",
+        "access": "open_weights",
+        "params_b": 8,
+        "release_date": "not_reported",
+        "tuning": "instruction",
+        "family": "Llama",
+        "query_date": "not_reported"
+      }
+    ],
+    "n_models": 6,
+    "n_model_families": 1
+  },
+  "C": {
+    "paradigms": [
+      {
+        "pid": "P1",
+        "name": "Trolley Problem",
+        "family": "MOR",
+        "source_paper": "Foot (1967)",
+        "items_origin": "verbatim",
+        "n_items": 1,
+        "languages": [
+          "English"
+        ],
+        "modality": "text",
+        "contamination_risk": "yes",
+        "location": "Sections 4.5, 5.1; Appendix A"
+      },
+      {
+        "pid": "P2",
+        "name": "Footbridge variant of the Trolley Problem",
+        "family": "MOR",
+        "source_paper": "Thomson (1985)",
+        "items_origin": "verbatim",
+        "n_items": 1,
+        "languages": [
+          "English"
+        ],
+        "modality": "text",
+        "contamination_risk": "yes",
+        "location": "Sections 4.5, 5.1; Appendix A"
+      },
+      {
+        "pid": "P3",
+        "name": "Heinz Dilemma",
+        "family": "MOR",
+        "source_paper": "Kohlberg (1981)",
+        "items_origin": "verbatim",
+        "n_items": 1,
+        "languages": [
+          "English"
+        ],
+        "modality": "text",
+        "contamination_risk": "yes",
+        "location": "Sections 4.5, 5.1; Appendix A"
+      },
+      {
+        "pid": "P4",
+        "name": "Lifeboat triage scenario",
+        "family": "MOR",
+        "source_paper": "not_reported",
+        "items_origin": "not_reported",
+        "n_items": 1,
+        "languages": [
+          "English"
+        ],
+        "modality": "text",
+        "contamination_risk": "not_reported",
+        "location": "Sections 4.5, 5.1; Appendix A"
+      },
+      {
+        "pid": "P5",
+        "name": "Dictator Game allocation",
+        "family": "JDM",
+        "source_paper": "Axelrod (1984) cited for game-theoretic scenarios; specific source for this item not_reported",
+        "items_origin": "adapted",
+        "n_items": 1,
+        "languages": [
+          "English"
+        ],
+        "modality": "text",
+        "contamination_risk": "partly",
+        "location": "Sections 4.5, 5.1, 5.15; Appendix A"
+      },
+      {
+        "pid": "P6",
+        "name": "Single-shot Prisoner's Dilemma",
+        "family": "JDM",
+        "source_paper": "Axelrod (1984)",
+        "items_origin": "verbatim",
+        "n_items": 1,
+        "languages": [
+          "English"
+        ],
+        "modality": "text",
+        "contamination_risk": "yes",
+        "location": "Sections 4.5, 5.1; Appendix A"
+      },
+      {
+        "pid": "P7",
+        "name": "Public policy attitude questions (abortion, immigration, gun control, healthcare, social welfare, taxation, U.S. world affairs)",
+        "family": "OTH",
+        "source_paper": "General Social Survey and Gallup instruments cited; item-level sources not_reported",
+        "items_origin": "adapted",
+        "n_items": 7,
+        "languages": [
+          "English"
+        ],
+        "modality": "text",
+        "contamination_risk": "partly",
+        "location": "Sections 4.5, 5.2; Appendix A"
+      },
+      {
+        "pid": "P8",
+        "name": "Moral Foundations Theory value ranking",
+        "family": "MOR",
+        "source_paper": "Haidt (2012)",
+        "items_origin": "adapted",
+        "n_items": 1,
+        "languages": [
+          "English"
+        ],
+        "modality": "text",
+        "contamination_risk": "partly",
+        "location": "Sections 4.5, 5.3; Appendix A"
+      },
+      {
+        "pid": "P9",
+        "name": "Kohlberg moral-development stage self-distribution",
+        "family": "DEV",
+        "source_paper": "Kohlberg (1981)",
+        "items_origin": "adapted",
+        "n_items": 1,
+        "languages": [
+          "English"
+        ],
+        "modality": "text",
+        "contamination_risk": "partly",
+        "location": "Sections 4.5 and Appendix A"
+      }
+    ]
+  },
+  "D": {
+    "types": [],
+    "primary_type": "none",
+    "human_n": null,
+    "population": "not_reported",
+    "metric": "not_reported"
+  },
+  "E": {
+    "outcome_types": [
+      "choice_distribution",
+      "other"
+    ],
+    "rows_aggregated": true,
+    "effects": [
+      {
+        "pid": "P1",
+        "model": "Meta-Llama-3.1-8B-Instruct base control",
+        "model_family": "Llama",
+        "outcome_kind": "effect",
+        "basis": "descriptive",
+        "model_effect_present": "not_reported",
+        "human_effect_present": "no_human_reference",
+        "direction": "not_reported",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "NO-HUMAN-REFERENCE",
+        "location": "Section 5.1; Table 2"
+      },
+      {
+        "pid": "P2",
+        "model": "Meta-Llama-3.1-8B-Instruct base control",
+        "model_family": "Llama",
+        "outcome_kind": "effect",
+        "basis": "descriptive",
+        "model_effect_present": "not_reported",
+        "human_effect_present": "no_human_reference",
+        "direction": "not_reported",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "NO-HUMAN-REFERENCE",
+        "location": "Section 5.1; Table 2"
+      },
+      {
+        "pid": "P3",
+        "model": "Meta-Llama-3.1-8B-Instruct base control",
+        "model_family": "Llama",
+        "outcome_kind": "effect",
+        "basis": "descriptive",
+        "model_effect_present": "not_reported",
+        "human_effect_present": "no_human_reference",
+        "direction": "not_reported",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "NO-HUMAN-REFERENCE",
+        "location": "Section 5.1; Table 2"
+      },
+      {
+        "pid": "P4",
+        "model": "Meta-Llama-3.1-8B-Instruct base control",
+        "model_family": "Llama",
+        "outcome_kind": "effect",
+        "basis": "descriptive",
+        "model_effect_present": "not_reported",
+        "human_effect_present": "no_human_reference",
+        "direction": "not_reported",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "NO-HUMAN-REFERENCE",
+        "location": "Section 5.1; Table 2"
+      },
+      {
+        "pid": "P5",
+        "model": "Meta-Llama-3.1-8B-Instruct base control",
+        "model_family": "Llama",
+        "outcome_kind": "effect",
+        "basis": "descriptive",
+        "model_effect_present": "not_reported",
+        "human_effect_present": "no_human_reference",
+        "direction": "not_reported",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "NO-HUMAN-REFERENCE",
+        "location": "Section 5.1; Table 2"
+      },
+      {
+        "pid": "P6",
+        "model": "Meta-Llama-3.1-8B-Instruct base control",
+        "model_family": "Llama",
+        "outcome_kind": "effect",
+        "basis": "descriptive",
+        "model_effect_present": "not_reported",
+        "human_effect_present": "no_human_reference",
+        "direction": "not_reported",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "NO-HUMAN-REFERENCE",
+        "location": "Section 5.1; Table 2"
+      },
+      {
+        "pid": "P7",
+        "model": "Meta-Llama-3.1-8B-Instruct base control",
+        "model_family": "Llama",
+        "outcome_kind": "effect",
+        "basis": "descriptive",
+        "model_effect_present": "not_reported",
+        "human_effect_present": "no_human_reference",
+        "direction": "not_reported",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "NO-HUMAN-REFERENCE",
+        "location": "Section 5.2; Table 3"
+      },
+      {
+        "pid": "P8",
+        "model": "Meta-Llama-3.1-8B-Instruct base control",
+        "model_family": "Llama",
+        "outcome_kind": "effect",
+        "basis": "descriptive",
+        "model_effect_present": "not_reported",
+        "human_effect_present": "no_human_reference",
+        "direction": "not_reported",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "NO-HUMAN-REFERENCE",
+        "location": "Section 5.3; Table 4"
+      },
+      {
+        "pid": "P9",
+        "model": "Meta-Llama-3.1-8B-Instruct base control",
+        "model_family": "Llama",
+        "outcome_kind": "effect",
+        "basis": "descriptive",
+        "model_effect_present": "not_reported",
+        "human_effect_present": "no_human_reference",
+        "direction": "not_reported",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "NO-HUMAN-REFERENCE",
+        "location": "Appendix A; results not separately reported"
+      }
+    ],
+    "headline": "The authors report tradition-specific ethical response patterns across six Llama variants, with decision and response stability varying across temperature settings."
+  },
+  "F": {
+    "f1": "no",
+    "f2": "yes",
+    "f3": "yes",
+    "f4": "yes",
+    "f5": "no",
+    "f6": "no",
+    "f7": "yes",
+    "f8": "no",
+    "f9": "no",
+    "f10": "no",
+    "f11": "no",
+    "f12": "yes",
+    "perturbations_tested": [
+      "decoding"
+    ],
+    "robustness_outcome": "mixed"
+  },
+  "G": {
+    "notes": "The paper reports inconsistent temperature-condition counts and stability summaries, and some table values conflict with the prose. Clarify the actual evaluation protocol, model checkpoints, and analysis before interpreting the reported patterns.",
+    "extractor": "codex (default)",
+    "date": "2026-10-16",
+    "minutes": null,
+    "sections_read": [
+      "Abstract",
+      "Sections 4.1-4.7",
+      "Sections 5.1-5.15",
+      "Sections 6-8",
+      "Appendix A",
+      "Appendix B",
+      "References"
+    ]
+  }
+}

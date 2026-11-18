@@ -1,0 +1,3 @@
+coder,n_analysed,n_full_text,n_respondents,respondents_w_min,respondents_w_max,respondents_w_ratio,respondents_kish_neff,respondents_deff,n_eligible,eligible_w_min,eligible_w_max,eligible_w_ratio,eligible_kish_neff,eligible_deff,n_strata,n_estimation_groups,groups_ge2_respondents,groups_1_respondent,groups_0_respondents,df,t_quantile_975,frame_N,frame_N_covered,merges_applied
+claude,150,110,110,1.3333333333333333,55.0,41.25,67.33771369848263,1.6335570953974743,80,1.3333333333333333,49.0,36.75,51.82136222211822,1.543764898674444,32,28,28,0,0,82,1.989318557136572,2022,2022,4
+codex,150,110,110,1.3333333333333333,55.0,41.25,67.33771369848263,1.6335570953974743,81,1.3333333333333333,49.0,36.75,50.46190588915466,1.6051712390317907,32,28,28,0,0,82,1.989318557136572,2022,2022,4

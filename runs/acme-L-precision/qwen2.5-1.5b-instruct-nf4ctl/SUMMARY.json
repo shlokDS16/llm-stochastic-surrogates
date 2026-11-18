@@ -1,0 +1,67 @@
+{
+ "model": "qwen2.5-1.5b-instruct-nf4ctl",
+ "dir": "runs/acme-L-precision/qwen2.5-1.5b-instruct-nf4ctl",
+ "recorded": "2026-11-07T12:18:24+05:45",
+ "files": [
+  {
+   "file": "AF.jsonl",
+   "rows": 48,
+   "bytes": 143732,
+   "sha256": "c36a1a2f85f05c101f7674f7c749472630be9610ed77a612f20d74c5e971c139"
+  },
+  {
+   "file": "NR.jsonl",
+   "rows": 48,
+   "bytes": 271421,
+   "sha256": "5c0be8532d0fa57264d6fdb9d631ed69ecd0adf60f32f4f04b7a531f14c5921e"
+  },
+  {
+   "file": "P1.jsonl",
+   "rows": 48,
+   "bytes": 205397,
+   "sha256": "13e07ec5ce6dc578cef7f69e5b536804bf7a41021da82956665c3149c2165010"
+  },
+  {
+   "file": "P2a.jsonl",
+   "rows": 34,
+   "bytes": 31104069,
+   "sha256": "62c214ee1e6758435d7d57d4b0fe6a1f7c1bd816d9ebcf8e470942296fd7c966"
+  },
+  {
+   "file": "P2b.jsonl",
+   "rows": 34,
+   "bytes": 34149772,
+   "sha256": "d70365cce264481577a9a74c7ed3f573fc449a8abcdaa89638a34d83360cbd8e"
+  },
+  {
+   "file": "P2c.jsonl",
+   "rows": 34,
+   "bytes": 31356328,
+   "sha256": "4d245bbe2ec6bf929cd715b8c831f2ab73e4b4e35253340250a4a6c98c95e5b8"
+  },
+  {
+   "file": "P2d.jsonl",
+   "rows": 34,
+   "bytes": 28957923,
+   "sha256": "ecf5315e27b1bc48885111a7c232fe67de9b414180474a3ef6f74c417697f317"
+  },
+  {
+   "file": "P3.jsonl",
+   "rows": 48,
+   "bytes": 286557,
+   "sha256": "03023cf287b1f8d196a3d7d252dfe80ed9891d1b3e59b7a8b0771beb45abddb2"
+  },
+  {
+   "file": "P4.jsonl",
+   "rows": 24,
+   "bytes": 1548971,
+   "sha256": "2487ce7369cf0cfb949454e6ce6225c1cf624023211fdf58010d2091c52a8a0e"
+  },
+  {
+   "file": "QA.jsonl",
+   "rows": 48,
+   "bytes": 286272,
+   "sha256": "ebf53ebcec437c36875a71537c24736b143ac0a9092d950003ca4ba15b7534c2"
+  }
+ ]
+}

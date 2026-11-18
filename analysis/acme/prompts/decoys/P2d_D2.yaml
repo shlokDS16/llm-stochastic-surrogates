@@ -1,0 +1,12 @@
+paradigm: P2d
+wording: D2
+response_type: number
+intro: We are interested in people's beliefs about the world around them. For the following question we would like you to give your best estimate. If you do not know the correct answer, just give your best guess.
+conditions:
+  x1: More than 50,000 babies are born per day in the United States. How many babies do you think are born in the U.S. each day?
+  x0: Less than 100 babies are born per day in the United States. How many babies do you think are born in the U.S. each day?
+condition_names:
+  x1: high anchor
+  x0: low anchor
+baseline: How many babies do you think are born in the U.S. each day?
+decoy_change: 'anchor directions flipped: high anchor now reads ''More than 50,000'', low anchor ''Less than 100'' (both false statements)'

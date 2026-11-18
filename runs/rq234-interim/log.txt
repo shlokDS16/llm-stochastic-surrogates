@@ -1,0 +1,4 @@
+2026-10-17 00:53:08,087 analysed units 150; extraction files claude 102 codex 102; unparseable []
+2026-10-17 00:53:10,186 model generation (rows per generation): {'claude': {'G1': 147, 'G2': 199, 'G3': 374, 'unknown': 59}, 'codex': {'G1': 110, 'G2': 190, 'G3': 312, 'unknown': 37}}
+2026-10-17 00:53:12,274 adjudication NOT drawn (use --draw-adjudication after the final extraction); pool size 263
+2026-10-17 00:53:12,285 done

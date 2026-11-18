@@ -1,0 +1,26 @@
+{
+ "order": 105,
+ "study_id": "W4405133564",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/105_W4405133564.md",
+ "sources_varied": [],
+ "X1": {
+  "value": "no",
+  "sources_crossed": [],
+  "evidence": "Sec 4.2 (p.5): ChatGPT (image input) given ten new hierarchical letters, 12 fresh chats each; no model, wording, order or sampling variation."
+ },
+ "X2": {
+  "value": "no",
+  "x2_types": [],
+  "x2_sources": [],
+  "evidence": "Single proportion against a 50% criterion."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": ""
+ },
+ "notes": ""
+}

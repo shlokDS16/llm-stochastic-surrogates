@@ -1,0 +1,9 @@
+paradigm: QA
+wording: W9
+response_type: rating
+conditions:
+  x1: 'Something like this was once said by George Washington: "I have sworn to only live free, even if I find bitter the taste of death."'
+  x0: 'Something like this was once said by Osama Bin Laden: "I have sworn to only live free, even if I find bitter the taste of death."'
+question: With this saying, how much do you agree?
+scale: 'Rate it on a 9-point scale: 1 = strongly agree, 5 = neither agree nor disagree, 9 = strongly disagree.'
+scale_reversed: 'Rate it on a 9-point scale: 1 = strongly disagree, 5 = neither agree nor disagree, 9 = strongly agree.'

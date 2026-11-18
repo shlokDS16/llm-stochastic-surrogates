@@ -1,0 +1,12 @@
+paradigm: P2a
+wording: D1
+response_type: number
+intro: We are interested in people's beliefs about the world around them. For the following question we would like you to give your best estimate. If you do not know the correct answer, just give your best guess.
+conditions:
+  x1: The distance from San Francisco to New York City is shorter than 3,500 miles. How far do you think it is?
+  x0: The distance from San Francisco to New York City is longer than 2,500 miles. How far do you think it is?
+condition_names:
+  x1: high anchor
+  x0: low anchor
+baseline: How far do you think it is from San Francisco to New York City, in miles?
+decoy_change: anchors moved next to the true value, so the high and low anchors are close to each other (shorter than 3,500 miles and longer than 2,500 miles instead of shorter than 6,000 miles and longer than 1,500 miles)

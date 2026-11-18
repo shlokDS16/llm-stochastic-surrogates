@@ -1,0 +1,129 @@
+﻿.venv\Scripts\python.exe : W1016 06:33:32.725000 39452 
+Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not 
+supported in Windows or MacOs.
+At line:1 char:639
++ ... \queue.log; .venv\Scripts\python.exe -I analysis\pilot\run_pilot.py - ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (W1016 06:33:32....ndows or MacOs.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+W1016 06:33:36.421000 39452 Lib\site-packages\torch\utils\flop_counter.py:29] triton not found; flop counting will not 
+work for triton kernels
+qwen2.5-7b-instruct P1: 3232 planned, 0 done, 3232 to do
+qwen2.5-7b-instruct P2a: 1616 planned, 0 done, 1616 to do
+qwen2.5-7b-instruct P2b: 1616 planned, 0 done, 1616 to do
+qwen2.5-7b-instruct P2c: 1616 planned, 0 done, 1616 to do
+qwen2.5-7b-instruct P2d: 1616 planned, 0 done, 1616 to do
+qwen2.5-7b-instruct P3: 1616 planned, 0 done, 1616 to do
+qwen2.5-7b-instruct P4: 1616 planned, 0 done, 1616 to do
+
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/339 [00:00<01:39,  3.40it/s]
+Loading weights:   1%|1         | 5/339 [00:00<00:23, 14.52it/s]
+Loading weights:   4%|4         | 14/339 [00:00<00:10, 30.04it/s]
+Loading weights:   5%|5         | 18/339 [00:00<00:10, 31.17it/s]
+Loading weights:   8%|7         | 26/339 [00:00<00:08, 36.69it/s]
+Loading weights:   9%|8         | 30/339 [00:01<00:08, 35.18it/s]
+Loading weights:  11%|#1        | 38/339 [00:01<00:07, 39.83it/s]
+Loading weights:  13%|#2        | 43/339 [00:01<00:08, 32.95it/s]
+Loading weights:  14%|#4        | 48/339 [00:01<00:08, 36.24it/s]
+Loading weights:  15%|#5        | 52/339 [00:01<00:09, 29.88it/s]
+Loading weights:  18%|#7        | 60/339 [00:01<00:08, 34.24it/s]
+Loading weights:  19%|#8        | 64/339 [00:02<00:09, 29.82it/s]
+Loading weights:  21%|##1       | 72/339 [00:02<00:07, 35.14it/s]
+Loading weights:  22%|##2       | 76/339 [00:02<00:08, 31.71it/s]
+Loading weights:  25%|##4       | 84/339 [00:02<00:07, 33.10it/s]
+Loading weights:  26%|##5       | 88/339 [00:02<00:07, 33.55it/s]
+Loading weights:  28%|##8       | 96/339 [00:02<00:05, 41.36it/s]
+Loading weights:  30%|##9       | 101/339 [00:03<00:06, 36.04it/s]
+Loading weights:  31%|###1      | 106/339 [00:03<00:06, 37.79it/s]
+Loading weights:  33%|###2      | 111/339 [00:03<00:06, 37.97it/s]
+Loading weights:  35%|###4      | 117/339 [00:03<00:05, 38.22it/s]
+Loading weights:  36%|###5      | 121/339 [00:03<00:06, 33.02it/s]
+Loading weights:  39%|###8      | 132/339 [00:03<00:04, 47.54it/s]
+Loading weights:  41%|####      | 138/339 [00:04<00:05, 36.44it/s]
+Loading weights:  43%|####3     | 146/339 [00:04<00:04, 39.90it/s]
+Loading weights:  45%|####4     | 151/339 [00:04<00:04, 39.40it/s]
+Loading weights:  46%|####6     | 156/339 [00:04<00:06, 29.79it/s]
+Loading weights:  49%|####8     | 165/339 [00:04<00:05, 33.97it/s]
+Loading weights:  51%|#####1    | 173/339 [00:04<00:04, 41.24it/s]
+Loading weights:  53%|#####2    | 178/339 [00:05<00:04, 34.86it/s]
+Loading weights:  54%|#####3    | 183/339 [00:05<00:04, 35.35it/s]
+Loading weights:  57%|#####6    | 192/339 [00:05<00:04, 34.71it/s]
+Loading weights:  58%|#####7    | 196/339 [00:05<00:04, 34.41it/s]
+Loading weights:  59%|#####8    | 200/339 [00:05<00:03, 35.36it/s]
+Loading weights:  61%|######    | 206/339 [00:05<00:03, 36.78it/s]
+Loading weights:  62%|######1   | 210/339 [00:06<00:03, 34.75it/s]
+Loading weights:  64%|######4   | 218/339 [00:06<00:03, 37.06it/s]
+Loading weights:  65%|######5   | 222/339 [00:06<00:03, 31.05it/s]
+Loading weights:  67%|######6   | 227/339 [00:06<00:03, 33.74it/s]
+Loading weights:  68%|######8   | 232/339 [00:06<00:03, 29.77it/s]
+Loading weights:  70%|######9   | 236/339 [00:06<00:03, 30.33it/s]
+Loading weights:  71%|#######   | 240/339 [00:07<00:05, 19.19it/s]
+Loading weights:  73%|#######3  | 249/339 [00:07<00:03, 29.19it/s]
+Loading weights:  75%|#######4  | 254/339 [00:07<00:03, 24.15it/s]
+Loading weights:  76%|#######6  | 258/339 [00:07<00:03, 24.26it/s]
+Loading weights:  78%|#######7  | 264/339 [00:08<00:02, 29.86it/s]
+Loading weights:  79%|#######9  | 268/339 [00:08<00:02, 27.72it/s]
+Loading weights:  81%|########1 | 276/339 [00:08<00:01, 35.83it/s]
+Loading weights:  83%|########2 | 281/339 [00:08<00:01, 31.66it/s]
+Loading weights:  84%|########4 | 286/339 [00:08<00:01, 31.83it/s]
+Loading weights:  86%|########5 | 290/339 [00:08<00:01, 29.41it/s]
+Loading weights:  89%|########9 | 302/339 [00:09<00:01, 35.69it/s]
+Loading weights:  90%|######### | 306/339 [00:09<00:00, 33.20it/s]
+Loading weights:  92%|#########2| 312/339 [00:09<00:00, 36.81it/s]
+Loading weights:  93%|#########3| 316/339 [00:09<00:00, 30.88it/s]
+Loading weights:  96%|#########5| 324/339 [00:09<00:00, 36.17it/s]
+Loading weights:  97%|#########6| 328/339 [00:09<00:00, 31.92it/s]
+Loading weights: 100%|##########| 339/339 [00:10<00:00, 33.78it/s]
+[transformers] The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set 
+`TRANSFORMERS_VERBOSITY=info` for more details.
+P1 batch 1/52 F=F0 rows=64 6.5s 10 tok/s peak 7.05 GiB elapsed 6s
+P1 batch 6/52 F=F0 rows=64 3.0s 21 tok/s peak 7.08 GiB elapsed 23s
+P1 batch 11/52 F=F0 rows=64 3.7s 17 tok/s peak 7.09 GiB elapsed 39s
+P1 batch 16/52 F=F0 rows=64 5.0s 13 tok/s peak 7.14 GiB elapsed 58s
+P1 batch 21/52 F=F0 rows=64 17.4s 4 tok/s peak 7.17 GiB elapsed 121s
+P1 batch 26/52 F=F0 rows=16 1.1s 15 tok/s peak 5.94 GiB elapsed 196s
+P1 batch 31/52 F=F1 rows=64 32.8s 72 tok/s peak 7.33 GiB elapsed 349s
+P1 batch 36/52 F=F1 rows=64 26.2s 87 tok/s peak 7.34 GiB elapsed 495s
+P1 batch 41/52 F=F1 rows=64 29.2s 76 tok/s peak 7.37 GiB elapsed 640s
+P1 batch 46/52 F=F1 rows=64 33.6s 69 tok/s peak 7.40 GiB elapsed 792s
+P1 batch 51/52 F=F1 rows=64 29.1s 81 tok/s peak 7.42 GiB elapsed 945s
+P1 batch 52/52 F=F1 rows=16 4.1s 127 tok/s peak 6.00 GiB elapsed 949s
+P2a batch 1/26 F=F0 rows=64 3.0s 103 tok/s peak 6.62 GiB elapsed 3s
+P2a batch 6/26 F=F0 rows=64 3.0s 95 tok/s peak 6.66 GiB elapsed 17s
+P2a batch 11/26 F=F0 rows=64 2.9s 98 tok/s peak 6.71 GiB elapsed 31s
+P2a batch 16/26 F=F1 rows=64 12.2s 238 tok/s peak 6.84 GiB elapsed 74s
+P2a batch 21/26 F=F1 rows=64 14.3s 195 tok/s peak 6.90 GiB elapsed 137s
+P2a batch 26/26 F=F1 rows=40 10.5s 174 tok/s peak 6.38 GiB elapsed 201s
+P2b batch 1/26 F=F0 rows=64 2.8s 148 tok/s peak 6.58 GiB elapsed 3s
+P2b batch 6/26 F=F0 rows=64 2.8s 155 tok/s peak 6.64 GiB elapsed 16s
+P2b batch 11/26 F=F0 rows=64 2.9s 97 tok/s peak 6.69 GiB elapsed 34s
+P2b batch 16/26 F=F1 rows=64 12.8s 187 tok/s peak 6.84 GiB elapsed 69s
+P2b batch 21/26 F=F1 rows=64 9.7s 300 tok/s peak 6.89 GiB elapsed 119s
+P2b batch 26/26 F=F1 rows=40 8.3s 203 tok/s peak 6.38 GiB elapsed 163s
+P2c batch 1/26 F=F0 rows=64 2.6s 147 tok/s peak 6.58 GiB elapsed 3s
+P2c batch 6/26 F=F0 rows=64 2.6s 145 tok/s peak 6.59 GiB elapsed 15s
+P2c batch 11/26 F=F0 rows=64 2.7s 125 tok/s peak 6.64 GiB elapsed 28s
+P2c batch 16/26 F=F1 rows=64 9.3s 278 tok/s peak 6.82 GiB elapsed 64s
+P2c batch 21/26 F=F1 rows=64 12.4s 254 tok/s peak 6.83 GiB elapsed 128s
+P2c batch 26/26 F=F1 rows=40 12.4s 165 tok/s peak 6.35 GiB elapsed 194s
+P2d batch 1/26 F=F0 rows=64 2.7s 80 tok/s peak 6.64 GiB elapsed 3s
+P2d batch 6/26 F=F0 rows=64 2.8s 75 tok/s peak 6.76 GiB elapsed 16s
+P2d batch 11/26 F=F0 rows=64 3.3s 90 tok/s peak 6.79 GiB elapsed 32s
+P2d batch 16/26 F=F1 rows=64 19.9s 171 tok/s peak 7.00 GiB elapsed 82s
+P2d batch 21/26 F=F1 rows=64 12.4s 233 tok/s peak 7.01 GiB elapsed 146s
+P2d batch 26/26 F=F1 rows=40 13.3s 167 tok/s peak 6.44 GiB elapsed 230s
+P3 batch 1/26 F=F0 rows=64 2.6s 24 tok/s peak 6.77 GiB elapsed 3s
+P3 batch 6/26 F=F0 rows=64 2.6s 24 tok/s peak 6.82 GiB elapsed 16s
+P3 batch 11/26 F=F0 rows=64 2.6s 25 tok/s peak 6.87 GiB elapsed 28s
+P3 batch 16/26 F=F1 rows=64 8.4s 221 tok/s peak 7.01 GiB elapsed 57s
+P3 batch 21/26 F=F1 rows=64 7.4s 262 tok/s peak 7.06 GiB elapsed 99s
+P3 batch 26/26 F=F1 rows=40 7.4s 166 tok/s peak 6.49 GiB elapsed 145s
+P4 batch 1/26 F=F0 rows=64 2.2s 29 tok/s peak 6.50 GiB elapsed 2s
+P4 batch 6/26 F=F0 rows=64 2.3s 28 tok/s peak 6.53 GiB elapsed 13s
+P4 batch 11/26 F=F0 rows=64 2.3s 27 tok/s peak 6.58 GiB elapsed 24s
+P4 batch 16/26 F=F1 rows=64 11.1s 202 tok/s peak 6.74 GiB elapsed 54s
+P4 batch 21/26 F=F1 rows=64 8.8s 206 tok/s peak 6.81 GiB elapsed 100s
+P4 batch 26/26 F=F1 rows=40 9.6s 154 tok/s peak 6.32 GiB elapsed 153s
+done

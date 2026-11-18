@@ -1,0 +1,131 @@
+{
+  "order": 135,
+  "study_id": "https://openalex.org/W4317547570",
+  "full_text": {
+    "obtained": true,
+    "source": "provided full text"
+  },
+  "eligibility": {
+    "decision": "YES",
+    "failed_criterion": null,
+    "borderline": false,
+    "evidence": "Introduction, Results, and Materials and Methods: the study elicited moral advice from ChatGPT and experimentally tested its influence on participants’ judgments using trolley dilemmas."
+  },
+  "A": {
+    "doi": null,
+    "arxiv_id": null,
+    "title": "The moral authority of ChatGPT",
+    "first_author": "Sebastian Krügel",
+    "year": null,
+    "venue": "not_reported",
+    "peer_reviewed": "not_reported",
+    "first_author_field": "not_reported",
+    "country": "Germany"
+  },
+  "B": {
+    "models": [
+      {
+        "name": "ChatGPT",
+        "version": "not_reported",
+        "access": "not_reported",
+        "params_b": null,
+        "release_date": "not_reported",
+        "tuning": "not_reported",
+        "family": "GPT",
+        "query_date": "December 2022"
+      }
+    ],
+    "n_models": 1,
+    "n_model_families": 1
+  },
+  "C": {
+    "paradigms": [
+      {
+        "pid": "P1",
+        "name": "Trolley problem moral judgment: switch and bridge dilemmas",
+        "family": "MOR",
+        "source_paper": "Foot (1967), Greene et al. (2001), and Thomson (1976)",
+        "items_origin": "adapted",
+        "n_items": 2,
+        "languages": [
+          "English"
+        ],
+        "modality": "text",
+        "contamination_risk": "partly",
+        "location": "Results, pp. 2–3; Supporting Information, Questionnaire"
+      }
+    ]
+  },
+  "D": {
+    "types": [
+      "own_sample"
+    ],
+    "primary_type": "own_sample",
+    "human_n": 767,
+    "population": "US residents recruited through CloudResearch Prime Panels who correctly identified their advisor and the advice; mean age 39",
+    "metric": "Proportion finding sacrifice of one life to save five morally acceptable"
+  },
+  "E": {
+    "outcome_types": [
+      "other"
+    ],
+    "rows_aggregated": false,
+    "effects": [
+      {
+        "pid": "P1",
+        "model": "ChatGPT",
+        "model_family": "GPT",
+        "outcome_kind": "effect",
+        "basis": "descriptive",
+        "model_effect_present": "yes",
+        "human_effect_present": "no_human_reference",
+        "direction": "not_reported",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "NO-HUMAN-REFERENCE",
+        "location": "Results, p. 1; Figure 1"
+      }
+    ],
+    "headline": "ChatGPT gave inconsistent moral advice; in a separate experiment, its advice influenced participants’ moral judgments, even when identified as chatbot advice."
+  },
+  "F": {
+    "f1": "no",
+    "f2": "no",
+    "f3": "no",
+    "f4": "yes",
+    "f5": "yes",
+    "f6": "yes",
+    "f7": "no",
+    "f8": "no",
+    "f9": "no",
+    "f10": "yes",
+    "f11": "yes",
+    "f12": "yes",
+    "perturbations_tested": [
+      "wording",
+      "option_order",
+      "persona"
+    ],
+    "robustness_outcome": "weakened"
+  },
+  "G": {
+    "notes": "The paper does not report the ChatGPT version, query date beyond the study’s December 21, 2022 data-collection date, or decoding settings. The authors analyze only the 41% who correctly identified both advisor and advice; a referee may ask about exclusions and generalizability.",
+    "extractor": "codex (default)",
+    "date": "2026-10-16",
+    "minutes": null,
+    "sections_read": [
+      "Abstract",
+      "Introduction",
+      "Results",
+      "Discussion",
+      "Materials and Methods",
+      "References",
+      "Figures 1–3",
+      "Supporting Information: Transcripts and Questionnaire"
+    ]
+  }
+}

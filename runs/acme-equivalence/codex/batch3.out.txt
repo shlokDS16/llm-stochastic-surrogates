@@ -1,0 +1,19 @@
+{"id":"E039","label":"NOT-EQUIVALENT","element":"scenario_fact","confidence":5,"reason":"The quoted statement changes from a pledge to live free despite death to advice about building good habits."}
+{"id":"E040","label":"EQUIVALENT","element":"none","confidence":5,"reason":"The quote, speaker conditions, agreement task, and scale anchors match; wording changes are stylistic."}
+{"id":"E041","label":"EQUIVALENT","element":"none","confidence":5,"reason":"The paid and free ticket scenarios, cold weather, decision task, and scale directions match."}
+{"id":"E042","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Both retain the same cities, miles, upper and lower anchors, and unanchored estimate task."}
+{"id":"E043","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Both ask the same paired and standalone press-access questions in the same order with the same Yes/No options."}
+{"id":"E044","label":"NOT-EQUIVALENT","element":"scenario_fact","confidence":5,"reason":"B substitutes South Korea for North Korea in both the paired and standalone questions."}
+{"id":"E045","label":"EQUIVALENT","element":"none","confidence":5,"reason":"The quote, attributed speakers, agreement task, and normal and reversed scale anchors match."}
+{"id":"E046","label":"EQUIVALENT","element":"none","confidence":5,"reason":"The Mount Everest estimate, feet, matching upper and lower anchors, and no-anchor task are preserved."}
+{"id":"E047","label":"EQUIVALENT","element":"none","confidence":5,"reason":"The Chicago population estimate and both matching numerical anchors are preserved across versions."}
+{"id":"E048","label":"EQUIVALENT","element":"none","confidence":5,"reason":"The city pair, miles, matching upper and lower anchors, and unanchored distance estimate are preserved."}
+{"id":"E049","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Both versions preserve the disease scenario, program outcomes and probabilities, choices, and letter response."}
+{"id":"E050","label":"NOT-EQUIVALENT","element":"manipulation","confidence":5,"reason":"Condition 1 and 2 anchors differ: A uses 31,000 and 27,000 feet; B uses 45,500 and 2,000 feet."}
+{"id":"E051","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Paid and free ticket conditions, cold weather, decision task, and normal and reversed scale anchors match."}
+{"id":"E052","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Speaker conditions, quoted statement, agreement task, and normal and reversed scale anchors match."}
+{"id":"E053","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Both preserve the paired and standalone press-access questions, their order, and Yes/No options."}
+{"id":"E054","label":"EQUIVALENT","element":"none","confidence":5,"reason":"The daily U.S. births estimate and both matching numerical anchors are preserved."}
+{"id":"E055","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Both versions ask the same paired and standalone press-access questions with the same Yes/No options."}
+{"id":"E056","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Both versions preserve the disease scenario, program outcomes and probabilities, choices, and letter response."}
+{"id":"E057","label":"EQUIVALENT","element":"none","confidence":5,"reason":"The paid and free ticket conditions, cold weather, decision task, and scale directions match."}

@@ -1,0 +1,11 @@
+paradigm: P2b
+wording: W4
+response_type: number
+intro: People's beliefs about the world around them are of interest to us. For the following question, a best estimate is requested from you. If the correct answer is not known to you, just give your best guess.
+conditions:
+  x1: Chicago is populated by fewer than 5,000,000 people. By how many people do you think Chicago is populated?
+  x0: Chicago is populated by more than 200,000 people. By how many people do you think Chicago is populated?
+condition_names:
+  x1: high anchor
+  x0: low anchor
+baseline: By how many people do you think Chicago is populated?

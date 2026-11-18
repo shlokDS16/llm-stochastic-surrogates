@@ -1,0 +1,467 @@
+{
+ "model": "qwen2.5-1.5b-instruct",
+ "repo": "Qwen/Qwen2.5-1.5B-Instruct",
+ "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+ "quant": "bf16",
+ "bs_f0": 100,
+ "bs_f1": 100,
+ "started": "2026-11-06T14:52:44",
+ "ram_before": {
+  "avail_phys_gb": 9.3,
+  "avail_commit_gb": 15.24
+ },
+ "gpu_before": {
+  "mem_used_mib": 12.0,
+  "temp_c": 72.0,
+  "power_w": 5.64,
+  "t": "2026-11-06T14:52:44"
+ },
+ "torch": "2.11.0+cu128",
+ "transformers": "5.20.0",
+ "load_seconds": 7.4,
+ "ram_after_load": {
+  "avail_phys_gb": 8.46,
+  "avail_commit_gb": 9.17
+ },
+ "vram_after_load_gib": 2.875,
+ "end_of_turn_id": 151645,
+ "end_of_turn_piece": "<|im_end|>",
+ "answer_token_ids": {
+  "A": 32,
+  " A": 362,
+  "B": 33,
+  " B": 425,
+  "C": 34,
+  " C": 356,
+  "D": 35,
+  " D": 422,
+  "Yes": 9454,
+  " Yes": 7414,
+  "No": 2753,
+  " No": 2308,
+  "yes": 9693,
+  " yes": 9834,
+  "no": 2152,
+  " no": 902,
+  "1": 16,
+  "2": 17,
+  "3": 18,
+  "4": 19,
+  "5": 20,
+  "6": 21,
+  "7": 22,
+  "8": 23,
+  "9": 24
+ },
+ "forward_seconds_per_prompt": 0.0431,
+ "n_f0_prompts": 64,
+ "n_bf16_ties": 9,
+ "fwd_eq_gen_rate_all": 0.921875,
+ "fwd_eq_gen_rate_nontie": 1.0,
+ "fwd_gen_mismatches": [
+  {
+   "key": "P1|W3|F0|0.0|risky_first|1|0",
+   "tie": true,
+   "gap12_bf16": 0.0,
+   "top5": [
+    [
+     "A",
+     34.773
+    ],
+    [
+     "B",
+     34.706
+    ],
+    [
+     "Program",
+     33.236
+    ],
+    [
+     "ĠProgram",
+     22.866
+    ],
+    [
+     "program",
+     22.74
+    ]
+   ],
+   "gen": "A"
+  },
+  {
+   "key": "P2a|W0|F0|0.0|None|0|0",
+   "tie": true,
+   "gap12_bf16": 0.0,
+   "top5": [
+    [
+     "3",
+     25.183
+    ],
+    [
+     "2",
+     25.098
+    ],
+    [
+     "Over",
+     23.866
+    ],
+    [
+     "1",
+     22.877
+    ],
+    [
+     "More",
+     22.768
+    ]
+   ],
+   "gen": "2"
+  },
+  {
+   "key": "P2d|W2|F0|0.0|None|1|0",
+   "tie": true,
+   "gap12_bf16": 0.0,
+   "top5": [
+    [
+     "5",
+     26.434
+    ],
+    [
+     "1",
+     26.415
+    ],
+    [
+     "4",
+     25.318
+    ],
+    [
+     "3",
+     25.087
+    ],
+    [
+     "2",
+     24.654
+    ]
+   ],
+   "gen": "1"
+  },
+  {
+   "key": "P4|W3|F0|0.0|None|1|0",
+   "tie": true,
+   "gap12_bf16": 0.0,
+   "top5": [
+    [
+     "1",
+     25.123
+    ],
+    [
+     "I",
+     25.115
+    ],
+    [
+     "Once",
+     24.211
+    ],
+    [
+     "One",
+     23.078
+    ],
+    [
+     "2",
+     22.595
+    ]
+   ],
+   "gen": "1"
+  },
+  {
+   "key": "P4|W3|F0|0.0|None|0|0",
+   "tie": true,
+   "gap12_bf16": 0.0,
+   "top5": [
+    [
+     "I",
+     24.665
+    ],
+    [
+     "1",
+     24.603
+    ],
+    [
+     "2",
+     24.29
+    ],
+    [
+     "Once",
+     23.806
+    ],
+    [
+     "3",
+     22.975
+    ]
+   ],
+   "gen": "1"
+  }
+ ],
+ "mass_letters_P1": {
+  "min": 0.9739,
+  "mean": 0.9977,
+  "share_below_0p9": 0.0
+ },
+ "mass_letters_first_token_P1": {
+  "min": 0.0974,
+  "mean": 0.8158,
+  "share_below_0p9": 0.5
+ },
+ "mass_digits_P3": {
+  "min": 0.9989,
+  "mean": 0.9995,
+  "share_below_0p9": 0.0
+ },
+ "argmax_pieces_numeric": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "8",
+  "I"
+ ],
+ "pilot_parity": {
+  "n": 64,
+  "first_token_match_all": 0.90625,
+  "n_nontie": 55,
+  "first_token_match_nontie": 1.0,
+  "restricted_n": 22,
+  "restricted_match": 1.0,
+  "mismatches": [
+   {
+    "key": "P1|W3|F0|0.0|risky_first|1|0",
+    "argmax": "B",
+    "pilot_raw": "A",
+    "tie": true,
+    "gap12_bf16": 0.0,
+    "top5": [
+     [
+      "A",
+      34.773
+     ],
+     [
+      "B",
+      34.706
+     ],
+     [
+      "Program",
+      33.236
+     ],
+     [
+      "ĠProgram",
+      22.866
+     ],
+     [
+      "program",
+      22.74
+     ]
+    ]
+   },
+   {
+    "key": "P2a|W0|F0|0.0|None|0|0",
+    "argmax": "3",
+    "pilot_raw": "2,500 miles",
+    "tie": true,
+    "gap12_bf16": 0.0,
+    "top5": [
+     [
+      "3",
+      25.183
+     ],
+     [
+      "2",
+      25.098
+     ],
+     [
+      "Over",
+      23.866
+     ],
+     [
+      "1",
+      22.877
+     ],
+     [
+      "More",
+      22.768
+     ]
+    ]
+   },
+   {
+    "key": "P2d|W2|F0|0.0|None|1|0",
+    "argmax": "5",
+    "pilot_raw": "10,000",
+    "tie": true,
+    "gap12_bf16": 0.0,
+    "top5": [
+     [
+      "5",
+      26.434
+     ],
+     [
+      "1",
+      26.415
+     ],
+     [
+      "4",
+      25.318
+     ],
+     [
+      "3",
+      25.087
+     ],
+     [
+      "2",
+      24.654
+     ]
+    ]
+   },
+   {
+    "key": "P4|W1|F0|0.0|None|1|0",
+    "argmax": "I",
+    "pilot_raw": "1",
+    "tie": true,
+    "gap12_bf16": 0.125,
+    "top5": [
+     [
+      "I",
+      25.322
+     ],
+     [
+      "1",
+      25.305
+     ],
+     [
+      "Once",
+      23.466
+     ],
+     [
+      "One",
+      22.538
+     ],
+     [
+      "2",
+      22.498
+     ]
+    ]
+   },
+   {
+    "key": "P4|W3|F0|0.0|None|1|0",
+    "argmax": "I",
+    "pilot_raw": "1",
+    "tie": true,
+    "gap12_bf16": 0.0,
+    "top5": [
+     [
+      "1",
+      25.123
+     ],
+     [
+      "I",
+      25.115
+     ],
+     [
+      "Once",
+      24.211
+     ],
+     [
+      "One",
+      23.078
+     ],
+     [
+      "2",
+      22.595
+     ]
+    ]
+   },
+   {
+    "key": "P4|W3|F0|0.0|None|0|0",
+    "argmax": "I",
+    "pilot_raw": "1",
+    "tie": true,
+    "gap12_bf16": 0.0,
+    "top5": [
+     [
+      "I",
+      24.665
+     ],
+     [
+      "1",
+      24.603
+     ],
+     [
+      "2",
+      24.29
+     ],
+     [
+      "Once",
+      23.806
+     ],
+     [
+      "3",
+      22.975
+     ]
+    ]
+   }
+  ]
+ },
+ "grid_test": {
+  "grid": [
+   "1500",
+   "2000",
+   "2500",
+   "2900",
+   "3000",
+   "4000",
+   "6000"
+  ],
+  "n_tokens": [
+   5,
+   5,
+   5,
+   5,
+   5,
+   5,
+   5
+  ],
+  "logp": [
+   -11.635,
+   -8.836,
+   -10.911,
+   -15.424,
+   -6.007,
+   -6.588,
+   -8.92
+  ],
+  "Z": 0.004143753251530134,
+  "finite": true
+ },
+ "vram_f1": {
+  "batch": 100,
+  "new_tokens": 256,
+  "seconds": 26.8,
+  "tok_per_s": 955,
+  "peak_gib": 4.359
+ },
+ "vram_f0": {
+  "batch": 100,
+  "new_tokens": 24,
+  "seconds": 2.85,
+  "tok_per_s": 843,
+  "peak_gib": 4.164
+ },
+ "nonfinite": 0,
+ "gpu_after": {
+  "mem_used_mib": 5303.0,
+  "temp_c": 81.0,
+  "power_w": 58.65,
+  "t": "2026-11-06T14:53:32"
+ },
+ "fails": [],
+ "status": "pass",
+ "finished": "2026-11-06T14:53:32"
+}

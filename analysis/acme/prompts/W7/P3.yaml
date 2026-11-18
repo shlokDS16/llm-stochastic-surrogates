@@ -1,0 +1,11 @@
+paradigm: P3
+wording: W7
+response_type: rating
+conditions:
+  x1: On the day of an important game for your favorite football team, it happens to be freezing cold. You hold a ticket to the game that you paid a lot for. What do you do?
+  x0: On the day of an important game for your favorite football team, it happens to be freezing cold. You hold a ticket to the game that a friend gave you for free. What do you do?
+condition_names:
+  x1: paid ticket
+  x0: free ticket
+scale: On a 9-point scale, 1 = definitely stay at home and 9 = definitely go to the game.
+scale_reversed: On a 9-point scale, 1 = definitely go to the game and 9 = definitely stay at home.

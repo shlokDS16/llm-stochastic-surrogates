@@ -1,0 +1,48 @@
+{
+  "order": 15,
+  "study_id": "https://openalex.org/W7133223423",
+  "full_text": {"obtained": true, "source": "research/sources/md/fulltext/015_W7133223423.md (arXiv 2210.01478 v3 PDF, NeurIPS 2022 version)"},
+  "eligibility": {
+    "decision": "YES",
+    "failed_criterion": null,
+    "borderline": true,
+    "evidence": "Sec 3, Table 1, App A: 148 vignettes from moral-psychology experiments (Levine et al. 2018; Awad et al. 2022b plus a new cannonball study) with human permissibility data; GPT-3, InstructGPT, Delphi tested. Borderline: framed as an AI-safety challenge set and prompting method scored by F1."
+  },
+  "A": {"doi": "10.52202/068431-2063", "arxiv_id": "2210.01478",
+        "title": "When to Make Exceptions: Exploring Language Models as Accounts of Human Moral Judgment",
+        "first_author": "Zhijing Jin", "year": 2022,
+        "venue": "Advances in Neural Information Processing Systems (NeurIPS 36)",
+        "peer_reviewed": "yes", "first_author_field": "not_reported", "country": "Germany/Switzerland"},
+  "B": {
+    "models": [
+      {"name": "GPT-3 (davinci)", "version": "davinci", "access": "API", "params_b": 175, "release_date": "not_reported", "tuning": "base", "family": "GPT", "query_date": "not_reported"},
+      {"name": "InstructGPT (text-davinci-002)", "version": "text-davinci-002 (written as davinci-text-002)", "access": "API", "params_b": null, "release_date": "not_reported", "tuning": "instruction", "family": "GPT", "query_date": "not_reported"},
+      {"name": "Delphi", "version": "not_reported", "access": "API", "params_b": null, "release_date": "not_reported", "tuning": "not_reported", "family": "other", "query_date": "not_reported"},
+      {"name": "Delphi++", "version": "not_reported", "access": "API", "params_b": null, "release_date": "not_reported", "tuning": "not_reported", "family": "other", "query_date": "not_reported"}
+    ],
+    "n_models": 4, "n_model_families": 2},
+  "C": {"paradigms": [
+    {"pid": "P1", "name": "Moral exception permissibility judgments (when is it OK to break a rule): cutting in line, property damage, novel cannonball rule", "family": "MOR",
+     "source_paper": "Awad et al. 2022b; Levine et al. 2018", "items_origin": "mixed", "n_items": 148,
+     "languages": ["English"], "modality": "text", "contamination_risk": "partly",
+     "location": "Sec 3, Tables 1-2, App A. Three case studies pooled as the authors pool them in the overall result; Table 3 also gives F1 per subset (Line 66, Property 54, Cannonball 28 vignettes)."}
+  ]},
+  "D": {"types": ["own_sample", "published_norms"], "primary_type": "own_sample", "human_n": 912,
+        "population": "US adults recruited on Amazon Mechanical Turk (CloudResearch/TurkPrime)",
+        "metric": "Proportion of participants judging the rule break permissible per vignette, binarised to permissible/not (majority); also MAE and cross-entropy against the proportion (Sec 5.1)"},
+  "E": {"outcome_types": ["accuracy", "choice_distribution"], "rows_aggregated": false,
+    "effects": [
+      {"pid": "P1", "model": "GPT-3 (davinci)", "model_family": "GPT", "outcome_kind": "agreement", "basis": null, "model_effect_present": "na", "human_effect_present": "na", "direction": "not_applicable", "model_es": null, "human_es": null, "es_metric": "weighted F1 against human-majority permissibility label (mean of four prompt paraphrases)", "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": 52.32, "label": "AGREEMENT-ONLY", "location": "Table 3 (F1 52.32 +- 3.14; accuracy 58.95; random baseline F1 49.37). Standard single-step prompt."},
+      {"pid": "P1", "model": "InstructGPT (text-davinci-002)", "model_family": "GPT", "outcome_kind": "agreement", "basis": null, "model_effect_present": "na", "human_effect_present": "na", "direction": "not_applicable", "model_es": null, "human_es": null, "es_metric": "weighted F1 against human-majority permissibility label (mean of four prompt paraphrases)", "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": 53.94, "label": "AGREEMENT-ONLY", "location": "Table 3 (F1 53.94 +- 5.48; accuracy 64.36). Default prompt row; the MoralCoT chain-of-thought prompt on the same model gives F1 64.47 +- 5.31 (Table 3) and is the headline result but is a prompting method, not a separate checkpoint."},
+      {"pid": "P1", "model": "Delphi", "model_family": "other", "outcome_kind": "agreement", "basis": null, "model_effect_present": "na", "human_effect_present": "na", "direction": "not_applicable", "model_es": null, "human_es": null, "es_metric": "weighted F1 against human-majority permissibility label", "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": 48.51, "label": "AGREEMENT-ONLY", "location": "Table 3 (F1 48.51 +- 0.42; accuracy 61.26). Table is garbled in the markdown; row alignment checked against the stated +10.53 and +6.2 F1 gains."},
+      {"pid": "P1", "model": "Delphi++", "model_family": "other", "outcome_kind": "agreement", "basis": null, "model_effect_present": "na", "human_effect_present": "na", "direction": "not_applicable", "model_es": null, "human_es": null, "es_metric": "weighted F1 against human-majority permissibility label", "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": 58.27, "label": "AGREEMENT-ONLY", "location": "Table 3 (F1 58.27 +- 0.00; accuracy 62.16); Sec 5.1 states MoralCoT beats Delphi++ by 6.2 F1."}
+    ],
+    "headline": "A step-wise moral chain-of-thought prompt raises InstructGPT agreement with human permissibility judgments to 64.5% F1, yet most models stay near chance and are over-conservative."},
+  "F": {"f1": "no", "f2": "no", "f3": "no", "f4": "yes", "f5": "yes", "f6": "no", "f7": "no", "f8": "no",
+        "f9": "yes", "f10": "no", "f11": "no", "f12": "yes",
+        "perturbations_tested": ["wording"],
+        "robustness_outcome": "survived"},
+  "G": {"notes": "Benchmark-style paper; human data are the authors' own MTurk studies, partly published earlier. MoralCoT result is tuned on the test set (no dev set, Sec 5.3). Only wording variants tested (four paraphrases, spread reported); no significance tests, query dates or Delphi decoding details. Referee would ask about prompt tuning on test items.",
+        "extractor": "paper-reader (claude-sonnet)", "date": "2026-10-16", "minutes": 2,
+        "sections_read": ["Abstract", "1 Introduction", "2 Background", "3 MoralExceptQA (3.1-3.3, Tables 1-2)", "4 MoralCoT", "5.1-5.3 (Tables 3-5)", "6 Conclusion", "Checklist", "App A human-subject details", "App B.1-B.3 implementation, prompts, paraphrases", "App C headings"]}
+}

@@ -1,0 +1,329 @@
+{
+ "order": 117,
+ "study_id": "https://openalex.org/W4403007278",
+ "full_text": {
+  "obtained": true,
+  "source": "research/sources/md/fulltext/117_W4403007278.md"
+ },
+ "eligibility": {
+  "decision": "YES",
+  "failed_criterion": null,
+  "borderline": false,
+  "evidence": "Sections 3–5: administers a cited classic similarity-judgment experiment to generative language models and reports new model results."
+ },
+ "A": {
+  "doi": "10.1145/nnnnnnn.nnnnnnn",
+  "arxiv_id": "2407.01174",
+  "title": "Investigating Context Effects in Similarity Judgements in Large Language Models",
+  "first_author": "Sagar Uprety",
+  "year": 2024,
+  "venue": "Unspecified ACM conference (paper header says Conference’17)",
+  "peer_reviewed": "preprint",
+  "first_author_field": "not_reported",
+  "country": "United Kingdom"
+ },
+ "B": {
+  "models": [
+   {
+    "name": "Mistral 7B",
+    "version": "Mistral 7B",
+    "access": "open_weights",
+    "params_b": 7,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "Mistral",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Llama 2 7B",
+    "version": "Llama 2 7B",
+    "access": "open_weights",
+    "params_b": 7,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "Llama",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Llama 2 13B",
+    "version": "Llama 2 13B",
+    "access": "open_weights",
+    "params_b": 13,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "Llama",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Llama 2 70B",
+    "version": "Llama 2 70B",
+    "access": "open_weights",
+    "params_b": 70,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "Llama",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Llama 3 8B",
+    "version": "Llama 3 8B",
+    "access": "open_weights",
+    "params_b": 8,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "Llama",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Llama 3 70B",
+    "version": "Llama 3 70B",
+    "access": "open_weights",
+    "params_b": 70,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "Llama",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "GPT-3.5",
+    "version": "GPT-3.5",
+    "access": "API",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "GPT",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "GPT-4",
+    "version": "GPT-4",
+    "access": "API",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "GPT",
+    "query_date": "not_reported"
+   }
+  ],
+  "n_models": 8,
+  "n_model_families": 3
+ },
+ "C": {
+  "paradigms": [
+   {
+    "pid": "P1",
+    "name": "Order effects in country-pair similarity judgments",
+    "family": "LANG",
+    "source_paper": "Tversky and Gati, 1978, Studies of Similarity",
+    "items_origin": "verbatim",
+    "n_items": 21,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "yes",
+    "location": "Sections 3–5; Figures 1–3; Table 1"
+   }
+  ]
+ },
+ "D": {
+  "types": [
+   "published_norms"
+  ],
+  "primary_type": "published_norms",
+  "human_n": null,
+  "population": "Participants in Tversky and Gati's country-pair similarity study; details not reported here",
+  "metric": "Similarity ratings on a 0–20 scale; order-effect mean differences"
+ },
+ "E": {
+  "outcome_types": [
+   "bias_magnitude",
+   "effect_size"
+  ],
+  "rows_aggregated": false,
+  "effects": [
+   {
+    "pid": "P1",
+    "model": "Mistral 7B",
+    "model_family": "Mistral",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Results, Table 1; significant single-prompt settings include SSA at temperatures 1.0 and 1.5, and SSD at 0.5 and 1.5"
+   },
+   {
+    "pid": "P1",
+    "model": "Llama 2 7B",
+    "model_family": "Llama",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "not_reported",
+    "human_effect_present": "yes",
+    "direction": "not_reported",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "INSUFFICIENT",
+    "location": "Results, Sections 5–6; no significant setting for this model is identified"
+   },
+   {
+    "pid": "P1",
+    "model": "Llama 2 13B",
+    "model_family": "Llama",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Results, Table 1; significant SSD settings at temperatures 0.5 and 1.5"
+   },
+   {
+    "pid": "P1",
+    "model": "Llama 2 70B",
+    "model_family": "Llama",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "not_reported",
+    "human_effect_present": "yes",
+    "direction": "not_reported",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "INSUFFICIENT",
+    "location": "Results, Sections 5–6; no significant setting for this model is identified"
+   },
+   {
+    "pid": "P1",
+    "model": "Llama 3 8B",
+    "model_family": "Llama",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Results, Table 1; significant SST settings at temperatures 0.001 and 0.5"
+   },
+   {
+    "pid": "P1",
+    "model": "Llama 3 70B",
+    "model_family": "Llama",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "not_reported",
+    "human_effect_present": "yes",
+    "direction": "not_reported",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "INSUFFICIENT",
+    "location": "Results, Sections 5–6; no significant setting for this model is identified"
+   },
+   {
+    "pid": "P1",
+    "model": "GPT-3.5",
+    "model_family": "GPT",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "not_reported",
+    "human_effect_present": "yes",
+    "direction": "not_reported",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "INSUFFICIENT",
+    "location": "Results, Sections 5–6; no significant setting for this model is identified"
+   },
+   {
+    "pid": "P1",
+    "model": "GPT-4",
+    "model_family": "GPT",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Results, Table 1; significant SSD setting at temperature 0.5"
+   }
+  ],
+  "headline": "Only Llama 3 8B and GPT-4 show statistically significant human-direction order effects in reported settings; changing temperature can remove them."
+ },
+ "F": {
+  "f1": "no",
+  "f2": "yes",
+  "f3": "no",
+  "f4": "no",
+  "f5": "no",
+  "f6": "na",
+  "f7": "yes",
+  "f8": "yes",
+  "f9": "no",
+  "f10": "yes",
+  "f11": "no",
+  "f12": "no",
+  "perturbations_tested": [
+   "wording",
+   "decoding"
+  ],
+  "robustness_outcome": "weakened"
+ },
+ "G": {
+  "notes": "The paper does not report exact API snapshots, query dates, sample counts, or full system prompts, and it gives no human sample size. The significant settings appear only in a table, while the headline summarizes results more narrowly.",
+  "extractor": "codex (default)",
+  "date": "2026-10-16",
+  "minutes": 0.7,
+  "sections_read": [
+   "Abstract",
+   "Introduction",
+   "Tversky and Gati’s similarity effects study",
+   "Models",
+   "Experiment 1",
+   "Experiment 2",
+   "Results and discussion",
+   "Conclusion",
+   "Appendix",
+   "References"
+  ]
+ }
+}

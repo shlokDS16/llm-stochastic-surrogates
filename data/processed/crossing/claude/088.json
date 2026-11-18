@@ -1,0 +1,26 @@
+{
+ "order": 88,
+ "study_id": "https://openalex.org/W4321277158",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/088_W4321277158.md",
+ "sources_varied": [],
+ "X1": {
+  "value": "no",
+  "sources_crossed": [],
+  "evidence": "Sec 2 (p.2-4): one model (GPT-3.5, the version of the original study) on the original vignettes and altered vignettes; the alterations change the task items, not a source."
+ },
+ "X2": {
+  "value": "no",
+  "x2_types": [],
+  "x2_sources": [],
+  "evidence": "Completion probabilities reported per vignette; no source decomposed."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": ""
+ },
+ "notes": ""
+}

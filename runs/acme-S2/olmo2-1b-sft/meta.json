@@ -1,0 +1,41 @@
+{
+  "model": "olmo2-1b-sft",
+  "repo": "allenai/OLMo-2-0425-1B-SFT",
+  "revision": "0d85a3d037876ce6ac7d4311d994400fc66ac27f",
+  "quant": "bf16",
+  "batch_size": 40,
+  "torch": "2.11.0+cu128",
+  "transformers": "5.20.0",
+  "cuda": "12.8",
+  "gpu": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+  "git_sha": "95ffe8a04b30b172589846cf08859760dbd5ea33",
+  "config_sha256_16": "183ebc20bb760e97",
+  "n": 25,
+  "wordings": [
+    "W0",
+    "W1",
+    "W2",
+    "W3"
+  ],
+  "formats": [
+    "F1"
+  ],
+  "temps": [
+    1.0
+  ],
+  "orders": [
+    "sure_first",
+    "risky_first"
+  ],
+  "greedy": false,
+  "max_new_tokens": {
+    "F0": 24,
+    "F1": 256
+  },
+  "eos_ids": [
+    100257,
+    100265
+  ],
+  "prompt_manifest": "verified",
+  "started": "2026-11-07T21:56:45+0545"
+}

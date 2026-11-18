@@ -1,0 +1,26 @@
+{
+  "order": 6,
+  "study_id": "W4409762247",
+  "pass": "codex",
+  "brief_version": "1.0",
+  "date": "2026-11-07",
+  "full_text": "research/sources/md/fulltext/006_W4409762247.md",
+  "sources_varied": ["R"],
+  "X1": {
+    "value": "no",
+    "sources_crossed": [],
+    "evidence": "Study 1 methods: each prompt was repeated eight times to analyze response variability; no other simulation source was varied."
+  },
+  "X2": {
+    "value": "yes",
+    "x2_types": ["effect_change"],
+    "x2_sources": ["R"],
+    "evidence": "Study 1 results, Fig. 4: rating distributions and Jensen-Shannon distances quantify response variability across repeated GPT-4 ratings."
+  },
+  "X3": {
+    "value": "no",
+    "x3_pairs": [],
+    "evidence": "Studies 1–2 results: no interaction between simulation-uncertainty sources is estimated or shown."
+  },
+  "notes": ""
+}

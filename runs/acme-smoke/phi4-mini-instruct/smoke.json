@@ -1,0 +1,302 @@
+{
+ "model": "phi4-mini-instruct",
+ "repo": "microsoft/Phi-4-mini-instruct",
+ "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+ "quant": "nf4_saved",
+ "bs_f0": 48,
+ "bs_f1": 24,
+ "started": "2026-11-06T15:31:48",
+ "ram_before": {
+  "avail_phys_gb": 8.52,
+  "avail_commit_gb": 18.11
+ },
+ "gpu_before": {
+  "mem_used_mib": 12.0,
+  "temp_c": 82.0,
+  "power_w": 16.72,
+  "t": "2026-11-06T15:31:48"
+ },
+ "torch": "2.11.0+cu128",
+ "transformers": "5.20.0",
+ "load_seconds": 13.6,
+ "ram_after_load": {
+  "avail_phys_gb": 7.87,
+  "avail_commit_gb": 12.76
+ },
+ "vram_after_load_gib": 2.834,
+ "end_of_turn_id": 200020,
+ "end_of_turn_piece": "<|end|>",
+ "answer_token_ids": {
+  "A": 32,
+  " A": 32,
+  "B": 33,
+  " B": 33,
+  "C": 34,
+  " C": 34,
+  "D": 35,
+  " D": 35,
+  "Yes": 13022,
+  " Yes": 13022,
+  "No": 3160,
+  " No": 3160,
+  "yes": 6763,
+  " yes": 6763,
+  "no": 1750,
+  " no": 1750,
+  "1": 16,
+  " 1": 16,
+  "2": 17,
+  " 2": 17,
+  "3": 18,
+  " 3": 18,
+  "4": 19,
+  " 4": 19,
+  "5": 20,
+  " 5": 20,
+  "6": 21,
+  " 6": 21,
+  "7": 22,
+  " 7": 22,
+  "8": 23,
+  " 8": 23,
+  "9": 24,
+  " 9": 24
+ },
+ "forward_seconds_per_prompt": 0.0886,
+ "n_f0_prompts": 64,
+ "n_bf16_ties": 22,
+ "fwd_eq_gen_rate_all": 0.921875,
+ "fwd_eq_gen_rate_nontie": 1.0,
+ "fwd_gen_mismatches": [
+  {
+   "key": "P1|W1|F0|0.0|sure_first|0|0",
+   "tie": true,
+   "gap12_bf16": 0.0,
+   "top5": [
+    [
+     "D",
+     46.305
+    ],
+    [
+     "C",
+     46.199
+    ],
+    [
+     "B",
+     44.21
+    ],
+    [
+     "Program",
+     44.167
+    ],
+    [
+     "I",
+     42.741
+    ]
+   ],
+   "gen": "C"
+  },
+  {
+   "key": "P1|W1|F0|0.0|risky_first|0|0",
+   "tie": true,
+   "gap12_bf16": 0.0,
+   "top5": [
+    [
+     "C",
+     46.311
+    ],
+    [
+     "D",
+     46.144
+    ],
+    [
+     "B",
+     45.573
+    ],
+    [
+     "Program",
+     45.034
+    ],
+    [
+     "A",
+     43.842
+    ]
+   ],
+   "gen": "C"
+  },
+  {
+   "key": "P2b|W2|F0|0.0|None|0|0",
+   "tie": true,
+   "gap12_bf16": 0.25,
+   "top5": [
+    [
+     "Under",
+     34.229
+    ],
+    [
+     "3",
+     34.033
+    ],
+    [
+     "Approximately",
+     33.979
+    ],
+    [
+     "Over",
+     33.865
+    ],
+    [
+     "968",
+     33.65
+    ]
+   ],
+   "gen": "3"
+  },
+  {
+   "key": "P2d|W0|F0|0.0|None|1|0",
+   "tie": true,
+   "gap12_bf16": 0.0,
+   "top5": [
+    [
+     "40",
+     35.543
+    ],
+    [
+     "45",
+     35.378
+    ],
+    [
+     "30",
+     35.319
+    ],
+    [
+     "Approximately",
+     35.148
+    ],
+    [
+     "42",
+     35.09
+    ]
+   ],
+   "gen": "40"
+  },
+  {
+   "key": "P2d|W0|F0|0.0|None|0|0",
+   "tie": true,
+   "gap12_bf16": 0.0,
+   "top5": [
+    [
+     "100",
+     38.553
+    ],
+    [
+     "140",
+     38.477
+    ],
+    [
+     "150",
+     37.894
+    ],
+    [
+     "No",
+     37.625
+    ],
+    [
+     "More",
+     37.369
+    ]
+   ],
+   "gen": "100"
+  }
+ ],
+ "mass_letters_P1": {
+  "min": 0.7878,
+  "mean": 0.9674,
+  "share_below_0p9": 0.0625
+ },
+ "mass_letters_first_token_P1": {
+  "min": 0.6759,
+  "mean": 0.9056,
+  "share_below_0p9": 0.25
+ },
+ "mass_digits_P3": {
+  "min": 0.6303,
+  "mean": 0.7457,
+  "share_below_0p9": 1.0
+ },
+ "argmax_pieces_numeric": [
+  "1",
+  "100",
+  "150",
+  "2",
+  "238",
+  "270",
+  "29",
+  "3",
+  "331",
+  "379",
+  "40",
+  "45",
+  "884",
+  "968",
+  "Approximately",
+  "Around",
+  "I",
+  "Under"
+ ],
+ "grid_test": {
+  "grid": [
+   "1500",
+   "2000",
+   "2500",
+   "2900",
+   "3000",
+   "4000",
+   "6000"
+  ],
+  "n_tokens": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "logp": [
+   -9.482,
+   -7.453,
+   -5.545,
+   -5.902,
+   -4.972,
+   -5.249,
+   -10.06
+  ],
+  "Z": 0.019522097100600294,
+  "finite": true
+ },
+ "vram_f1": {
+  "batch": 24,
+  "new_tokens": 256,
+  "seconds": 23.14,
+  "tok_per_s": 266,
+  "peak_gib": 4.177
+ },
+ "vram_f0": {
+  "batch": 48,
+  "new_tokens": 24,
+  "seconds": 4.07,
+  "tok_per_s": 283,
+  "peak_gib": 4.131
+ },
+ "nonfinite": 0,
+ "gpu_after": {
+  "mem_used_mib": 5199.0,
+  "temp_c": 87.0,
+  "power_w": 50.14,
+  "t": "2026-11-06T15:32:46"
+ },
+ "fails": [],
+ "status": "pass",
+ "finished": "2026-11-06T15:32:46"
+}

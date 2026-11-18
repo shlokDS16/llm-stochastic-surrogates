@@ -1,0 +1,10 @@
+paradigm: P2b
+wording: W1
+response_type: number
+intro: We would like to know what people believe about the world around them. Please give your best estimate for the following question. If you do not know the answer, just make your best guess.
+conditions:
+  x1: Chicago has a population of less than 5,000,000. How many people do you think live in Chicago?
+  x0: Chicago has a population of more than 200,000. How many people do you think live in Chicago?
+condition_names:
+  x1: high anchor
+  x0: low anchor

@@ -1,0 +1,32 @@
+{
+ "order": 76,
+ "study_id": "https://openalex.org/W7140140566",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/076_W7140140566.md",
+ "sources_varied": [
+  "M"
+ ],
+ "X1": {
+  "value": "no",
+  "sources_crossed": [],
+  "evidence": "Sec 3-4: 16 pretrained and instruction-tuned models of several sizes generated with a fixed temperature of 0.4 and top-p 0.8; datasets are the conditions."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "M"
+  ],
+  "evidence": "Sec 4 and Table: convergence contrasted between pretrained and instruction-tuned models and across size, with a stated pattern."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": ""
+ },
+ "notes": ""
+}

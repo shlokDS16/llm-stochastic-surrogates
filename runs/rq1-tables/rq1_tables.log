@@ -1,0 +1,8 @@
+2026-10-16 20:53:44,999 denominators {'A': 2022, 'B': 992, 'S': 1470}
+2026-10-16 20:53:45,002 flag counts in liberal frame {'unclear': 759, 'yes': 992, 'no': 271}
+2026-10-16 20:53:45,071 wrote T-RQ1a (12 rows)
+2026-10-16 20:53:45,079 wrote T-RQ1b (9 rows)
+2026-10-16 20:53:45,105 wrote T-RQ1c
+2026-10-16 20:53:45,155 wrote T-RQ1d
+2026-10-16 20:53:45,192 wrote T-RQ1e; distinct normalised names in A 1761 (1645 once)
+2026-10-16 20:53:45,732 done

@@ -1,0 +1,9 @@
+paradigm: P4
+wording: W5
+response_type: number
+conditions:
+  x1: Suppose that you are in a casino and are passing a man who is throwing dice. Three dice are thrown by him, and all three land on 6. In this imagined scenario, how many times do you estimate the dice had been thrown by the man before you walked by?
+  x0: Suppose that you are in a casino and are passing a man who is throwing dice. Three dice are thrown by him, and one lands on 3 and two land on 6. In this imagined scenario, how many times do you estimate the dice had been thrown by the man before you walked by?
+condition_names:
+  x1: three 6s
+  x0: one 3 and two 6s

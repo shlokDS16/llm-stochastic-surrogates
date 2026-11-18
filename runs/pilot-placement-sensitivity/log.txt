@@ -1,0 +1,50 @@
+granite-3.3-2b-instruct P1: orig larger S=1.137 | F0 no statement (intervals overlap) S=0.000 | F1 larger S=1.414
+granite-3.3-2b-instruct P2a: orig larger S=0.727 | F0 larger S=0.524 | F1 larger S=0.512
+granite-3.3-2b-instruct P2b: orig no statement (intervals overlap) S=0.359 | F0 no statement (intervals overlap) S=0.000 | F1 no statement (intervals overlap) S=0.353
+granite-3.3-2b-instruct P2c: orig no statement (intervals overlap) S=0.803 | F0 no statement (intervals overlap) S=0.699 | F1 no statement (intervals overlap) S=0.869
+granite-3.3-2b-instruct P2d: orig larger S=8.955 | F0 larger S=10.607 | F1 no statement (intervals overlap) S=2.297
+granite-3.3-2b-instruct P3: orig no statement (intervals overlap) S=0.123 | F0 no statement (intervals overlap) S=0.000 | F1 no statement (intervals overlap) S=0.173
+granite-3.3-2b-instruct P4: orig larger S=0.521 | F0 larger S=0.559 | F1 no statement (intervals overlap) S=0.317
+granite-3.3-8b-instruct P1: orig larger S=4.975 | F0 larger S=5.233 | F1 larger S=4.503
+granite-3.3-8b-instruct P2a: orig no statement (intervals overlap) S=0.121 | F0 no statement (intervals overlap) S=0.096 | F1 no statement (intervals overlap) S=0.152
+granite-3.3-8b-instruct P2b: orig larger S=1.041 | F0 larger S=1.465 | F1 no statement (intervals overlap) S=0.141
+granite-3.3-8b-instruct P2c: orig larger S=1.446 | F0 larger S=2.059 | F1 smaller S=0.000
+granite-3.3-8b-instruct P2d: orig no statement (intervals overlap) S=0.489 | F0 no statement (intervals overlap) S=0.600 | F1 no statement (intervals overlap) S=0.252
+granite-3.3-8b-instruct P3: orig larger S=1.122 | F0 larger S=1.535 | F1 no statement (intervals overlap) S=0.271
+granite-3.3-8b-instruct P4: orig larger S=0.718 | F0 larger S=0.543 | F1 larger S=0.836
+olmo2-1b-instruct P1: orig larger S=1.548 | F0 larger S=1.978 | F1 no statement (intervals overlap) S=0.716
+olmo2-1b-instruct P2a: orig larger S=1.735 | F0 larger S=1.944 | F1 no statement (intervals overlap) S=0.161
+olmo2-1b-instruct P2b: orig no statement (intervals overlap) S=0.311 | F0 no statement (intervals overlap) S=0.000 | F1 no statement (intervals overlap) S=0.000
+olmo2-1b-instruct P2c: orig no statement (intervals overlap) S=0.308 | F0 no statement (intervals overlap) S=0.473 | F1 no statement (intervals overlap) S=0.000
+olmo2-1b-instruct P2d: orig larger S=0.806 | F0 larger S=0.884 | F1 larger S=0.706
+olmo2-1b-instruct P3: orig no statement (intervals overlap) S=0.000 | F0 no statement (intervals overlap) S=0.000 | F1 no statement (intervals overlap) S=0.000
+olmo2-1b-instruct P4: orig no statement (intervals overlap) S=0.087 | F0 no statement (intervals overlap) S=0.163 | F1 no statement (intervals overlap) S=0.000
+olmo2-7b-instruct P1: orig larger S=2.102 | F0 larger S=2.541 | F1 larger S=1.374
+olmo2-7b-instruct P2a: orig larger S=0.690 | F0 larger S=0.677 | F1 no statement (intervals overlap) S=0.336
+olmo2-7b-instruct P2b: orig larger S=0.831 | F0 larger S=1.129 | F1 no statement (intervals overlap) S=0.302
+olmo2-7b-instruct P2c: orig no statement (intervals overlap) S=0.352 | F0 no statement (intervals overlap) S=0.426 | F1 no statement (intervals overlap) S=0.141
+olmo2-7b-instruct P2d: orig larger S=2.207 | F0 larger S=2.172 | F1 no statement (intervals overlap) S=0.647
+olmo2-7b-instruct P3: orig no statement (intervals overlap) S=0.096 | F0 no statement (intervals overlap) S=0.000 | F1 no statement (intervals overlap) S=0.136
+olmo2-7b-instruct P4: orig larger S=1.363 | F0 larger S=0.855 | F1 no statement (intervals overlap) S=0.161
+qwen2.5-1.5b-instruct P1: orig no statement (intervals overlap) S=0.852 | F0 no statement (intervals overlap) S=0.862 | F1 no statement (intervals overlap) S=0.658
+qwen2.5-1.5b-instruct P2a: orig larger S=1.410 | F0 larger S=1.749 | F1 no statement (intervals overlap) S=0.169
+qwen2.5-1.5b-instruct P2b: orig larger S=2.397 | F0 larger S=2.945 | F1 no statement (intervals overlap) S=0.000
+qwen2.5-1.5b-instruct P2c: orig no statement (intervals overlap) S=0.000 | F0 no statement (intervals overlap) S=0.000 | F1 smaller S=0.000
+qwen2.5-1.5b-instruct P2d: orig no statement (intervals overlap) S=1.260 | F0 no statement (intervals overlap) S=1.189 | F1 no statement (intervals overlap) S=0.012
+qwen2.5-1.5b-instruct P3: orig no statement (intervals overlap) S=0.179 | F0 no statement (intervals overlap) S=0.150 | F1 no statement (intervals overlap) S=0.000
+qwen2.5-1.5b-instruct P4: orig no statement (intervals overlap) S=0.242 | F0 no statement (intervals overlap) S=0.174 | F1 no statement (intervals overlap) S=0.241
+qwen2.5-7b-instruct P1: orig larger S=2.123 | F0 no statement (intervals overlap) S=0.000 | F1 larger S=1.697
+qwen2.5-7b-instruct P2a: orig larger S=0.773 | F0 larger S=0.598 | F1 no statement (intervals overlap) S=0.141
+qwen2.5-7b-instruct P2b: orig no statement (intervals overlap) S=0.541 | F0 no statement (intervals overlap) S=0.767 | F1 no statement (intervals overlap) S=0.000
+qwen2.5-7b-instruct P2c: orig smaller S=0.057 | F0 smaller S=0.043 | F1 smaller S=0.075
+qwen2.5-7b-instruct P2d: orig larger S=1.843 | F0 larger S=2.074 | F1 no statement (intervals overlap) S=0.982
+qwen2.5-7b-instruct P3: orig larger S=0.454 | F0 no statement (intervals overlap) S=0.338 | F1 no statement (intervals overlap) S=0.261
+qwen2.5-7b-instruct P4: orig larger S=0.979 | F0 larger S=1.293 | F1 larger S=0.465
+original (all grids, F kept): n=42 larger 24 / overlap 17 / smaller 1
+(a) grids without near-deterministic cells, F kept: n=10 larger 4 / overlap 6 / smaller 0
+(a') grids with near-deterministic cells, F kept: n=32 larger 20 / overlap 11 / smaller 1
+(b) F0 cells only (F removed), all grids: n=42 larger 21 / overlap 20 / smaller 1
+(b) F0 cells only, grids without near-deterministic cells: n=10 larger 4 / overlap 6 / smaller 0
+(b') F1 cells only (F removed), all grids: n=42 larger 8 / overlap 31 / smaller 3
+(b') F1 cells only, grids without near-deterministic cells: n=10 larger 1 / overlap 9 / smaller 0
+done in 59 s

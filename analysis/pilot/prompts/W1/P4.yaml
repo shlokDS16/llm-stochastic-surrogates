@@ -1,0 +1,9 @@
+paradigm: P4
+wording: W1
+response_type: number
+conditions:
+  x1: Suppose you are in a casino and walk past a man who is rolling dice. You see him roll three dice, and all three land on 6. Given this imagined scenario, how many times do you think the man had rolled the dice before you walked by?
+  x0: Suppose you are in a casino and walk past a man who is rolling dice. You see him roll three dice, and one lands on 3 and two land on 6. Given this imagined scenario, how many times do you think the man had rolled the dice before you walked by?
+condition_names:
+  x1: three 6s
+  x0: one 3 and two 6s

@@ -1,0 +1,37 @@
+{
+ "order": 21,
+ "study_id": "https://openalex.org/W4389520324",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/021_W4389520324.md",
+ "sources_varied": [
+  "M",
+  "W"
+ ],
+ "X1": {
+  "value": "yes",
+  "sources_crossed": [
+   "M",
+   "W"
+  ],
+  "evidence": "App L, Tables 13-14: three models (Davinci, GPT-3.5, Bard) each run with the full prompt and with CoT, instructions or both removed, five extra rounds per prompt style and group."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "W",
+   "M"
+  ],
+  "evidence": "App L, Table 13: score consistency (coefficient of variation) per model and prompt ablation (Table 14); no variance share."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "No model-by-prompt interaction estimated; ablation shown in the appendix per model only."
+ },
+ "notes": ""
+}

@@ -1,0 +1,19 @@
+{
+ "model": "granite-3.3-2b-instruct",
+ "repo": "ibm-granite/granite-3.3-2b-instruct",
+ "revision": "707f574c62054322f6b5b04b6d075f0a8f05e0f0",
+ "stage": "S3",
+ "batch_size": 80,
+ "eos_ids": [
+  0
+ ],
+ "torch": "2.11.0+cu128",
+ "transformers": "5.20.0",
+ "git_sha": "c46b5d3de9c80b0f265e66e1f19f6d3336b20ce2",
+ "F": "F0",
+ "temps": [
+  0.7,
+  1.0
+ ],
+ "n": 50
+}

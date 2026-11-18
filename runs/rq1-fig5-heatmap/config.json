@@ -1,0 +1,48 @@
+{
+ "config_hash_sha256": "726c2779bc98457cc9ee9b64a7cc3f49d2f9e8cee1fcffd96fc97698b20a2998",
+ "date": "2026-10-16T22:53:13",
+ "git_sha": "f36ff757e24a57b4de8a41bde2ab54f7d6f19ee2",
+ "inputs": {
+  "analysis/rq1/fig5_heatmap.py": "37f6c651caab95a4581df7769ef12b452e17c43c7e5105c1d7ab8683b266c7ac",
+  "data/processed/rq1/manifest.json": "058d55e401ac29af645e3e745e5e7c71c989da1db395459aad4768f0bb257497",
+  "data/processed/rq1/rq1-batch-01.jsonl": "d08de16a00271de54af56cd626aa2d57eb5af8e0053e4c3da679e8997aef69e5",
+  "data/processed/rq1/rq1-batch-02.jsonl": "0508ef69826e0df707d4e2af22181a899a30b23344da7a85dc563ab3137496d2",
+  "data/processed/rq1/rq1-batch-03.jsonl": "cdc82435851e527464d2a87d64d565b6eee39807b86657e13952de936b47a74e",
+  "data/processed/rq1/rq1-batch-04.jsonl": "7413ddb8f18d7fe1b1637ebb737593e468e20e2b72b640b0f3329a77810ddb45",
+  "data/processed/rq1/rq1-batch-05.jsonl": "b32e9476994c54ccc6b0fdec7b12a63ee57ae184d33f1dbab6f5f3961425fd6b",
+  "data/processed/rq1/rq1-batch-06.jsonl": "49948f07243dd9f9ce70bf54a6bb75390cdb0f10388606fb88f26e9d64337c36",
+  "data/processed/rq1/rq1-batch-07.jsonl": "4cbaf5b7a8c289a19c10f46b7433a9f25a6cb1ba6e837c5bf56c98e8e20e0db2",
+  "data/processed/rq1/rq1-batch-08.jsonl": "5bc7b28c5d8bbdbc030381803c83e1175f88c094699b71b68b9e01370cc3f2e7",
+  "data/processed/rq1/rq1-batch-09.jsonl": "c4351b3c9dc1d07d3333ef69594f5ff5f9d51379ad88f99a74f61daf9e6aae92",
+  "data/processed/rq1/rq1-batch-10.jsonl": "9633c7c8245121c5d8eb9c7a71a67dc1bc0f7539b00aec2fed7a52d4b81f1630",
+  "data/processed/rq1/rq1-batch-11.jsonl": "371f094d2b973c119c7396dbf24882cd8ad1087c42c9c80434a3959fbe117ede",
+  "data/processed/rq1/rq1-batch-12.jsonl": "12a8e4191c057a3311fb4e112236e81588623e223761f4d2261a38755fd3719b",
+  "data/processed/rq1/rq1-batch-13.jsonl": "ac4ec176e0239abe20b48d8fb2bd3a4ad8b5034be8606933de0f1284e0cbdff6",
+  "data/processed/rq1/rq1-batch-14.jsonl": "7302cc2a9f8bf90ec16a12393938a1ab3bb2d53bc92f2d5c4b37f67c62ae142d",
+  "data/processed/rq1/rq1-batch-15.jsonl": "464db2800bda686c472ea1a1d7736a5c5a5e1ee761d984cee7c69c207d567c36",
+  "data/processed/rq1/rq1-batch-16.jsonl": "e2eaf0565264c064f801a29699110c1f779e2441ed4594ab46665bbc3540bed4",
+  "data/processed/rq1/rq1-batch-17.jsonl": "73fa7d72fd9492306d8a3e81a068298059d24949ce2fa7d4b5d984727c6adce5",
+  "data/processed/rq1/rq1-batch-18.jsonl": "8fb08de48c742e2f405e31a1957184c1d049568fde0d2f59ada381eb1c7c0bde",
+  "data/processed/rq1/rq1-batch-19.jsonl": "386f37be90a9c1045168f3bd2881df488bb1259d99e5d5901ca7b0175c7b37b2",
+  "data/processed/rq1/rq1-batch-20.jsonl": "28bf7b8a77974d62953c8277e1724ee7d5fcbe339d6cb4c73898fc30461cdc9f",
+  "data/processed/rq1/rq1-batch-21.jsonl": "a941032a6f779681b8485ff03f326e62bb44d59e9f52b41a2aabde9942ea0658",
+  "data/processed/screen/abstract-decisions-v08.jsonl": "ca422cde43fd5e2fb780cc7cce7275b5cd9f164d76088b66f07ddeda1a6e4158"
+ },
+ "packages": {
+  "matplotlib": "3.11.2",
+  "numpy": "2.5.4"
+ },
+ "params": {
+  "cell": "records with >=1 paradigm of the family and >=1 model of the family (multi-membership)",
+  "dpi_png": 600,
+  "figure_width_mm": 174,
+  "views": {
+   "A": "liberal frame",
+   "B": "meets_criteria_on_abstract == yes within A"
+  }
+ },
+ "platform": "Windows-11-10.0.26300-SP0",
+ "python": "3.12.14",
+ "script": "analysis/rq1/fig5_heatmap.py",
+ "seed": 20261016
+}

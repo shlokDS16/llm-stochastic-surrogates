@@ -1,0 +1,11 @@
+paradigm: P2d
+wording: W7
+response_type: number
+intro: If you do not know the correct answer, just make your best guess. We are interested in people's opinions about the world around them, so for the following question please give your best estimate.
+conditions:
+  x1: Each day in the United States, fewer than 50,000 babies are born. How many babies would you estimate are born in the U.S. daily?
+  x0: Each day in the United States, more than 100 babies are born. How many babies would you estimate are born in the U.S. daily?
+condition_names:
+  x1: high anchor
+  x0: low anchor
+baseline: How many babies would you estimate are born in the U.S. daily?

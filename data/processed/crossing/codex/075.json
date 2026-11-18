@@ -1,0 +1,26 @@
+{
+ "order": 75,
+ "study_id": "https://openalex.org/W4387634965",
+ "pass": "codex",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/075_W4387634965.md",
+ "sources_varied": [],
+ "X1": {
+  "value": "no",
+  "sources_crossed": [],
+  "evidence": "Sec. 2.1 and Fig. 1: one GPT-2 model is evaluated across pre-training steps; steps are not a varied decoding or prompt source."
+ },
+ "X2": {
+  "value": "no",
+  "x2_types": [],
+  "x2_sources": [],
+  "evidence": "Sec. 3: the mixed-effects analysis tests prime type by pre-training step, with no simulation-uncertainty source decomposed."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "Sec. 3: prime type by pre-training step is an interaction involving the experimental condition, not two varied uncertainty sources."
+ },
+ "notes": "Pre-training step and prime type are study design variables, not sources in the brief's list."
+}

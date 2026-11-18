@@ -1,0 +1,107 @@
+{
+ "G_E1": {
+  "cells": 774,
+  "reps_per_cell": 2000,
+  "max_abs_bias": 2.5179625970210004,
+  "n_abs_bias_gt_0p02": 131,
+  "worst": {
+   "item": "P4",
+   "scenario": "e1",
+   "term": "MW",
+   "bias": 2.5179625970210004,
+   "bias_se": 1.708307590494636
+  },
+  "max_abs_bias_wordings_only": 0.05504221439565388,
+  "n_wordings_only_gt_0p02": 31,
+  "max_abs_bias_draw_attributable": 2.5176391633936794,
+  "n_draw_attributable_gt_0p02": 107,
+  "worst_draw_attributable": {
+   "item": "P4",
+   "scenario": "e1",
+   "term": "MW",
+   "bias_draw_attributable": 2.5176391633936794,
+   "bias_draw_attributable_se": 1.7082932336732104
+  },
+  "pass_strict": false
+ },
+ "G_E2": {
+  "cells": 848,
+  "reps_per_cell": 2000,
+  "max_abs_bias": 0.056503232823613206,
+  "n_abs_bias_gt_0p02": 25,
+  "worst": {
+   "item": "P4",
+   "scenario": "e1",
+   "term": "draw",
+   "bias": 0.056503232823613206,
+   "bias_se": 0.0037617636693376404
+  },
+  "max_abs_bias_wordings_only": 0.045083956087437885,
+  "n_wordings_only_gt_0p02": 8,
+  "max_abs_bias_draw_attributable": 0.02868691983865771,
+  "n_draw_attributable_gt_0p02": 5,
+  "worst_draw_attributable": {
+   "item": "P4",
+   "scenario": "e1",
+   "term": "res",
+   "bias_draw_attributable": -0.02868691983865771,
+   "bias_draw_attributable_se": 0.009029720946030707
+  },
+  "pass_strict": false
+ },
+ "C_bias": {
+  "cells": 1622,
+  "reps_per_cell": 500,
+  "max_abs_bias": 12.746557922705838,
+  "n_abs_bias_gt_0p02": 79,
+  "worst_bias": {
+   "item": "P4",
+   "scenario": "e1",
+   "basis": "E1",
+   "term": "T",
+   "bias": 12.746557922705838,
+   "bias_se": 13.980864433177002
+  },
+  "pass_strict": false
+ },
+ "C_coverage_corrected": {
+  "cells": 1622,
+  "reps_per_cell": 500,
+  "min": 0.894,
+  "median": 0.99,
+  "max": 1.0,
+  "worst": {
+   "item": "QA",
+   "scenario": "e12",
+   "basis": "E2",
+   "term": "draw",
+   "coverage": 0.894
+  },
+  "frac_cells_in_0p90_0p98": 0.31011097410604194,
+  "frac_nonzero_truth_cells_in_range": 0.42636579572446553,
+  "n_below_0p90": 1,
+  "n_above_0p98": 1118,
+  "pass_strict": false,
+  "pass_g1_rule": false
+ },
+ "C_coverage_naive": {
+  "cells": 1622,
+  "reps_per_cell": 500,
+  "min": 0.002,
+  "median": 0.982,
+  "max": 1.0,
+  "worst": {
+   "item": "QA",
+   "scenario": "e1",
+   "basis": "E2",
+   "term": "draw",
+   "coverage_naive": 0.002
+  },
+  "frac_cells_in_0p90_0p98": 0.33353884093711467,
+  "frac_nonzero_truth_cells_in_range": 0.41330166270783847,
+  "n_below_0p90": 269,
+  "n_above_0p98": 812,
+  "pass_strict": false,
+  "pass_g1_rule": false
+ }
+}

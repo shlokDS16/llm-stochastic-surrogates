@@ -1,0 +1,20 @@
+{
+ "stage": "title",
+ "n": 79009,
+ "decisions": {
+  "excluded_title": 72800,
+  "to_stage2": 6209
+ },
+ "claude": {
+  "EXCLUDE": 73155,
+  "MAYBE": 5152,
+  "INCLUDE": 702
+ },
+ "local": {
+  "EXCLUDE": 77982,
+  "MAYBE": 1024,
+  "INCLUDE": 3
+ },
+ "kappa_3class": 0.153,
+ "kappa_exclude_vs_not": 0.177
+}

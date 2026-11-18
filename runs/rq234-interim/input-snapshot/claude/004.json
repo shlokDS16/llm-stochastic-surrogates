@@ -1,0 +1,31 @@
+{
+  "order": 4,
+  "study_id": "https://openalex.org/W4415795297",
+  "full_text": {"obtained": true, "source": "research/sources/md/fulltext/004_W4415795297.md"},
+  "eligibility": {
+    "decision": "NO",
+    "failed_criterion": "benchmark-only",
+    "borderline": true,
+    "evidence": "Abstract and Sec. 2 (pp. 1-3): LLMs run as agents on stochastic Bernoulli multi-armed bandits, framed as an RL exploration problem and compared with UCB/Thompson sampling baselines. The paradigm is cited to bandit theory (Slivkins; Lattimore and Szepesvari), not to a human cognitive study. Human bandit work appears only in related work (Sec. 4, p. 14) as other papers' designs. E2 operational test fails; borderline because bandit tasks overlap with learning and decision-making paradigms."
+  },
+  "A": {"doi": null, "arxiv_id": "2403.15371", "title": "Can Large Language Models Explore In-Context?", "first_author": "Akshay Krishnamurthy", "year": 2024, "venue": "Advances in Neural Information Processing Systems (NeurIPS 2024)",
+        "peer_reviewed": "yes", "first_author_field": "CS", "country": "not_reported"},
+  "B": {"models": [{"name": "", "version": "not_reported", "access": "not_reported", "params_b": null,
+                    "release_date": "not_reported", "tuning": "not_reported", "family": "",
+                    "query_date": "not_reported"}],
+        "n_models": 0, "n_model_families": 0},
+  "C": {"paradigms": [{"pid": "P1", "name": "", "family": "", "source_paper": "not_reported",
+                       "items_origin": "not_reported", "n_items": null, "languages": [], "modality": "text",
+                       "contamination_risk": "not_reported", "location": ""}]},
+  "D": {"types": [], "primary_type": "none", "human_n": null, "population": "not_reported", "metric": "not_reported"},
+  "E": {"outcome_types": [], "rows_aggregated": false,
+        "effects": [{"pid": "P1", "model": "", "model_effect_present": "not_reported",
+                     "human_effect_present": "not_reported", "direction": "not_reported", "model_es": null,
+                     "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "label": "",
+                     "location": ""}],
+        "headline": ""},
+  "F": {"f1": "no", "f2": "no", "f3": "no", "f4": "no", "f5": "no", "f6": "no", "f7": "no", "f8": "no",
+        "f9": "no", "f10": "no", "f11": "no", "f12": "no", "perturbations_tested": [],
+        "robustness_outcome": "na"},
+  "G": {"notes": "Excluded at full text on E2: bandit exploration is treated as an RL capability with algorithmic baselines and no human comparison. A referee may argue bandits are a learning/decision paradigm (borderline). Sections beyond Sec. 2 start not coded because decision is NO.", "extractor": "paper-reader (claude-sonnet)", "date": "2026-10-16", "minutes": 4, "sections_read": ["Abstract", "1 Introduction", "2 Experimental setup (start)", "4 Related work", "Protocol section 3 and extraction form"]}
+}

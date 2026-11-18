@@ -1,0 +1,22 @@
+extends: existence
+message: "Redundant pair '%s' (grammarly-issue-catalog 3). Drop one half."
+level: warning
+ignorecase: true
+tokens:
+  - each and every
+  - first and foremost
+  - various different
+  - future plans
+  - final outcome
+  - completely eliminate
+  - may possibly
+  - basic fundamentals
+  - end result
+  - past history
+  - close proximity
+  - totally unique
+  - absolutely essential
+  - join together
+  - revert back
+  - repeat again
+  - combine together

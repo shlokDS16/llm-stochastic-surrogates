@@ -1,0 +1,25 @@
+extends: substitution
+message: "Wordy: use '%s' instead of '%s' (grammarly-issue-catalog 3)."
+level: suggestion
+ignorecase: true
+swap:
+  in order to: to
+  due to the fact that: because
+  owing to the fact that: because
+  a number of: several
+  has the ability to: can
+  have the ability to: can
+  is able to: can
+  are able to: can
+  in the case of: for
+  with regard to: about
+  at the present time: now
+  at this point in time: now
+  in the event that: if
+  for the purpose of: for
+  prior to: before
+  subsequent to: after
+  in spite of the fact that: although
+  despite the fact that: although
+  take into consideration: consider
+  in light of the fact that: because

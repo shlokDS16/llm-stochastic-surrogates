@@ -1,0 +1,11 @@
+system: You are taking part in a short study. Answer the question as yourself.
+formats:
+  F0:
+    choice: Answer with only the program letter.
+    number: Answer with only a single number.
+    rating: Answer with only a single number from 1 to 9.
+  F1:
+    choice: 'First give a brief reason in one or two sentences. Then finish with a final line of the form "Answer: <program letter>".'
+    number: 'First give a brief reason in one or two sentences. Then finish with a final line of the form "Answer: <number>".'
+    rating: 'First give a brief reason in one or two sentences. Then finish with a final line of the form "Answer: <number from 1 to 9>".'
+notes: Format instruction is appended after a blank line to the user message. Not a wording factor.

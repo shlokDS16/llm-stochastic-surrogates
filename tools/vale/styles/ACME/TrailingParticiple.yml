@@ -1,0 +1,6 @@
+extends: existence
+message: "Trailing participle '%s' (ai-patterns-academic A4). Give a real inference its own sentence with a calibrated verb, or delete."
+level: suggestion
+ignorecase: true
+raw:
+  - ',\s+(?:thereby\s+|thus\s+|hence\s+)?(?:highlighting|demonstrating|indicating|ensuring|underscoring|showcasing|emphasi[sz]ing|enabling|facilitating|enhancing|reflecting|suggesting|revealing)\b'

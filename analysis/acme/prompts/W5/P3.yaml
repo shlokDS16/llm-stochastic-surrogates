@@ -1,0 +1,11 @@
+paradigm: P3
+wording: W5
+response_type: rating
+conditions:
+  x1: Consider that an important match is being contested by your favorite football team. A ticket for the match, for which you paid a considerable sum, is in your possession. On the day of the match, however, the weather happens to be freezing cold. What do you do?
+  x0: Consider that an important match is being contested by your favorite football team. A ticket for the match, which was given to you free of charge by a friend, is in your possession. On the day of the match, however, the weather happens to be freezing cold. What do you do?
+condition_names:
+  x1: paid ticket
+  x0: free ticket
+scale: Please respond using a 9-point scale, on which 1 denotes definitely staying at home and 9 denotes definitely attending the match.
+scale_reversed: Please respond using a 9-point scale, on which 1 denotes definitely attending the match and 9 denotes definitely staying at home.

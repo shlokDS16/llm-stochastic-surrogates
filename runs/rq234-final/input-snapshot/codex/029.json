@@ -1,0 +1,128 @@
+{
+ "order": 29,
+ "study_id": "https://openalex.org/W7154453073",
+ "full_text": {
+  "obtained": true,
+  "source": "IEEE Xplore PDF (arnumber 11467175), converted from PDF"
+ },
+ "eligibility": {
+  "decision": "YES",
+  "failed_criterion": null,
+  "borderline": false,
+  "evidence": "Sections III–V: tests ChatGPT-4o mini on the named decoy (asymmetric-dominance) effect, a classic judgment and decision-making paradigm, using repeated route-choice scenarios and reports model results."
+ },
+ "A": {
+  "doi": "10.1109/I-COSTE68047.2025.11467175",
+  "arxiv_id": null,
+  "title": "Leveraging Large Language Models to Investigate the Decoy Effect in Route Choice Behavior",
+  "first_author": "Mahbub Hassan",
+  "year": 2025,
+  "venue": "2025 International Conference on Sustainable Technology and Engineering (i-COSTE)",
+  "peer_reviewed": "yes",
+  "first_author_field": "other",
+  "country": "Thailand"
+ },
+ "B": {
+  "models": [
+   {
+    "name": "ChatGPT-4o mini",
+    "version": "gpt-4o-mini (May 2024 release)",
+    "access": "API",
+    "params_b": null,
+    "release_date": "May 2024",
+    "tuning": "instruction",
+    "family": "GPT",
+    "query_date": "not_reported"
+   }
+  ],
+  "n_models": 1,
+  "n_model_families": 1
+ },
+ "C": {
+  "paradigms": [
+   {
+    "pid": "P1",
+    "name": "Decoy (asymmetric dominance) effect in route choice with neutral, positive, and negative decoy framing",
+    "family": "HB",
+    "source_paper": "not_reported",
+    "items_origin": "novel",
+    "n_items": 1,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "no",
+    "location": "Section III.A–E; Tables I–II"
+   }
+  ]
+ },
+ "D": {
+  "types": [
+   "none"
+  ],
+  "primary_type": "none",
+  "human_n": null,
+  "population": "not_reported",
+  "metric": "not_reported"
+ },
+ "E": {
+  "outcome_types": [
+   "bias_magnitude",
+   "choice_distribution"
+  ],
+  "rows_aggregated": false,
+  "effects": [
+   {
+    "pid": "P1",
+    "model": "ChatGPT-4o mini",
+    "model_family": "GPT",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "yes",
+    "human_effect_present": "no_human_reference",
+    "direction": "not_reported",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "NO-HUMAN-REFERENCE",
+    "location": "Section IV.A–C; Table II",
+    "headline": "The decoy shifted choices toward the premium route, most strongly with positive framing; negative framing weakened the shift."
+   }
+  ],
+  "headline": "The decoy shifted choices toward the premium route, most strongly with positive framing; negative framing weakened the shift."
+ },
+ "F": {
+  "f1": "no",
+  "f2": "yes",
+  "f3": "yes",
+  "f4": "yes",
+  "f5": "no",
+  "f6": "no",
+  "f7": "no",
+  "f8": "no",
+  "f9": "no",
+  "f10": "yes",
+  "f11": "no",
+  "f12": "yes",
+  "perturbations_tested": [
+   "option_order"
+  ],
+  "robustness_outcome": "survived"
+ },
+ "G": {
+  "notes": "The decoy and route attributes are novel, but no human validation anchors the synthetic choices. The reported chi-square test and regression are described without detailed degrees of freedom or confidence intervals; sensitivity analysis varies MNL parameters rather than LLM settings.",
+  "extractor": "codex (default)",
+  "date": "2026-10-17",
+  "minutes": 0.4,
+  "sections_read": [
+   "Abstract",
+   "Sections I–VI",
+   "Tables I–III",
+   "Figures 1–4 descriptions",
+   "References"
+  ]
+ }
+}

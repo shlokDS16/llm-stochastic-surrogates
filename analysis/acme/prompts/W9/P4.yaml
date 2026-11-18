@@ -1,0 +1,9 @@
+paradigm: P4
+wording: W9
+response_type: number
+conditions:
+  x1: Picture a casino. You happen to walk past a man throwing dice, and you see three dice come up, all three of them 6's. Before you walked by, how many times do you reckon he had thrown them?
+  x0: Picture a casino. You happen to walk past a man throwing dice, and you see three dice come up, one of them a 3 and two of them 6's. Before you walked by, how many times do you reckon he had thrown them?
+condition_names:
+  x1: three 6s
+  x0: one 3 and two 6s

@@ -1,0 +1,9 @@
+extends: existence
+message: "Stacked hedge '%s' (ai-patterns-academic D1). One hedge is enough; match its strength to the evidence."
+level: warning
+ignorecase: true
+tokens:
+  - (may|might|could|can|would) (potentially|possibly|perhaps|conceivably|arguably)
+  - (potentially|possibly|perhaps) (may|might|could)
+  - (appears?|seems?) to (potentially|possibly|perhaps)
+  - may be (potentially|possibly)

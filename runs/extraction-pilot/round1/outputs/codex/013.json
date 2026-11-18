@@ -1,0 +1,548 @@
+{
+ "order": 13,
+ "study_id": "https://openalex.org/W4404782648",
+ "full_text": {
+  "obtained": true,
+  "source": "research/sources/md/fulltext/013_W4404782648.md"
+ },
+ "eligibility": {
+  "decision": "YES",
+  "failed_criterion": null,
+  "borderline": false,
+  "evidence": "Sections 3.1–3.4: evaluates language models on tasks adapted from cited human cognitive paradigms, including magnitude comparison, BLiMP, typicality, and Raven’s matrices."
+ },
+ "A": {
+  "doi": null,
+  "arxiv_id": "2407.04710",
+  "title": "Development of Cognitive Intelligence in Pre-trained Language Models",
+  "first_author": "Raj Sanjay Shah",
+  "year": 2024,
+  "venue": "arXiv preprint",
+  "peer_reviewed": "preprint",
+  "first_author_field": "CS",
+  "country": "United States"
+ },
+ "B": {
+  "models": [
+   {
+    "name": "Amber",
+    "version": "Amber-7B",
+    "access": "open_weights",
+    "params_b": 7,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Falcon",
+    "version": "Falcon-7B",
+    "access": "open_weights",
+    "params_b": 7,
+    "release_date": "not_reported",
+    "tuning": "base",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Starling",
+    "version": "Starling-LM-7B-alpha",
+    "access": "open_weights",
+    "params_b": 7,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Llama",
+    "version": "Llama-2-7B",
+    "access": "open_weights",
+    "params_b": 7,
+    "release_date": "not_reported",
+    "tuning": "base",
+    "family": "Llama",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Llama",
+    "version": "Llama-2-13B",
+    "access": "open_weights",
+    "params_b": 13,
+    "release_date": "not_reported",
+    "tuning": "base",
+    "family": "Llama",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Llama",
+    "version": "Llama-3-8B",
+    "access": "open_weights",
+    "params_b": 8,
+    "release_date": "not_reported",
+    "tuning": "base",
+    "family": "Llama",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Llama",
+    "version": "Llama-3-8B-Instruct",
+    "access": "open_weights",
+    "params_b": 8,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "Llama",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Mistral",
+    "version": "Mistral-7B",
+    "access": "open_weights",
+    "params_b": 7,
+    "release_date": "not_reported",
+    "tuning": "base",
+    "family": "Mistral",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Mistral",
+    "version": "Mistral-7B-Instruct",
+    "access": "open_weights",
+    "params_b": 7,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "Mistral",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Qwen",
+    "version": "Qwen-0.5B",
+    "access": "open_weights",
+    "params_b": 0.5,
+    "release_date": "not_reported",
+    "tuning": "base",
+    "family": "Qwen",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Qwen",
+    "version": "Qwen-1.8B",
+    "access": "open_weights",
+    "params_b": 1.8,
+    "release_date": "not_reported",
+    "tuning": "base",
+    "family": "Qwen",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Qwen",
+    "version": "Qwen-4B",
+    "access": "open_weights",
+    "params_b": 4,
+    "release_date": "not_reported",
+    "tuning": "base",
+    "family": "Qwen",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Qwen",
+    "version": "Qwen-7B",
+    "access": "open_weights",
+    "params_b": 7,
+    "release_date": "not_reported",
+    "tuning": "base",
+    "family": "Qwen",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Qwen",
+    "version": "Qwen-14B",
+    "access": "open_weights",
+    "params_b": 14,
+    "release_date": "not_reported",
+    "tuning": "base",
+    "family": "Qwen",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Pythia",
+    "version": "Pythia-70M",
+    "access": "open_weights",
+    "params_b": 0.07,
+    "release_date": "not_reported",
+    "tuning": "base",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Pythia",
+    "version": "Pythia-160M",
+    "access": "open_weights",
+    "params_b": 0.16,
+    "release_date": "not_reported",
+    "tuning": "base",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Pythia",
+    "version": "Pythia-410M",
+    "access": "open_weights",
+    "params_b": 0.41,
+    "release_date": "not_reported",
+    "tuning": "base",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Pythia",
+    "version": "Pythia-1B",
+    "access": "open_weights",
+    "params_b": 1,
+    "release_date": "not_reported",
+    "tuning": "base",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Pythia",
+    "version": "Pythia-1.4B",
+    "access": "open_weights",
+    "params_b": 1.4,
+    "release_date": "not_reported",
+    "tuning": "base",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Pythia",
+    "version": "Pythia-2.8B",
+    "access": "open_weights",
+    "params_b": 2.8,
+    "release_date": "not_reported",
+    "tuning": "base",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Pythia",
+    "version": "Pythia-6.9B",
+    "access": "open_weights",
+    "params_b": 6.9,
+    "release_date": "not_reported",
+    "tuning": "base",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Pythia",
+    "version": "Pythia-12B",
+    "access": "open_weights",
+    "params_b": 12,
+    "release_date": "not_reported",
+    "tuning": "base",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Gemini",
+    "version": "Gemini-1-Pro",
+    "access": "API",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "Gemini",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "GPT-3.5-Turbo",
+    "version": "gpt-3.5-turbo-0613",
+    "access": "API",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "GPT",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "GPT-4",
+    "version": "gpt-4-1106",
+    "access": "API",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "GPT",
+    "query_date": "not_reported"
+   }
+  ],
+  "n_models": 25,
+  "n_model_families": 7
+ },
+ "C": {
+  "paradigms": [
+   {
+    "pid": "P1",
+    "name": "Magnitude comparison effects (distance, ratio, size)",
+    "family": "NUM",
+    "source_paper": "Moyer and Landauer (1967); Halberda et al. (2008); Parkman (1971)",
+    "items_origin": "adapted",
+    "n_items": null,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "partly",
+    "location": "Section 3.1; Appendix B.1"
+   },
+   {
+    "pid": "P2",
+    "name": "BLiMP linguistic acceptability",
+    "family": "LANG",
+    "source_paper": "Warstadt et al. (2020)",
+    "items_origin": "verbatim",
+    "n_items": 67000,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "yes",
+    "location": "Section 3.2; Appendix B.2"
+   },
+   {
+    "pid": "P3",
+    "name": "Typicality effects",
+    "family": "LEARN",
+    "source_paper": "Rosch (1975); Vemuri et al. (2024); category norms including De Deyne et al. (2008)",
+    "items_origin": "adapted",
+    "n_items": 27,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "partly",
+    "location": "Section 3.3; Appendix B.3"
+   },
+   {
+    "pid": "P4",
+    "name": "Raven’s Progressive Matrices (textual I-Raven)",
+    "family": "RE",
+    "source_paper": "Raven (2003); Hu et al. (2021, 2023)",
+    "items_origin": "adapted",
+    "n_items": null,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "partly",
+    "location": "Section 3.4; Appendix B.4.2"
+   }
+  ]
+ },
+ "D": {
+  "types": [
+   "published_norms"
+  ],
+  "primary_type": "published_norms",
+  "human_n": null,
+  "population": "Published human performance characteristics and category norms; sample size not reported in this paper",
+  "metric": "Task-specific alignment measures; typicality correlations against published category norms"
+ },
+ "E": {
+  "outcome_types": [
+   "effect_size",
+   "accuracy",
+   "human_correlation"
+  ],
+  "rows_aggregated": true,
+  "effects": [
+   {
+    "pid": "P1",
+    "model": "Pythia-12B",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": 0.595,
+    "human_es": null,
+    "es_metric": "R² for ratio effect; human effect size not quantified on this metric",
+    "authors_comparison": "not_tested",
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Table 3; Appendix Table 4"
+   },
+   {
+    "pid": "P1",
+    "model": "Qwen-14B",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": 0.507,
+    "human_es": null,
+    "es_metric": "R² for ratio effect; human effect size not quantified on this metric",
+    "authors_comparison": "not_tested",
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Table 3; Appendix Table 4"
+   },
+   {
+    "pid": "P1",
+    "model": "GPT-4",
+    "model_effect_present": "not_reported",
+    "human_effect_present": "yes",
+    "direction": "not_reported",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "label": "INSUFFICIENT",
+    "location": "Table 3 (task not available for API model)"
+   },
+   {
+    "pid": "P2",
+    "model": "Pythia-12B",
+    "model_effect_present": "yes",
+    "human_effect_present": "no_human_reference",
+    "direction": "not_applicable",
+    "model_es": 0.829,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "label": "NO-HUMAN-REFERENCE",
+    "location": "Table 3; Appendix Table 5"
+   },
+   {
+    "pid": "P2",
+    "model": "Qwen-14B",
+    "model_effect_present": "yes",
+    "human_effect_present": "no_human_reference",
+    "direction": "not_applicable",
+    "model_es": 0.792,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "label": "NO-HUMAN-REFERENCE",
+    "location": "Table 3; Appendix Table 5"
+   },
+   {
+    "pid": "P2",
+    "model": "GPT-4",
+    "model_effect_present": "yes",
+    "human_effect_present": "no_human_reference",
+    "direction": "not_applicable",
+    "model_es": 0.849,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "label": "NO-HUMAN-REFERENCE",
+    "location": "Table 3; Appendix Table 5"
+   },
+   {
+    "pid": "P3",
+    "model": "Pythia-12B",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": 0.184,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Table 3; Table 7"
+   },
+   {
+    "pid": "P3",
+    "model": "Qwen-14B",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": -0.14,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Table 3; Table 7"
+   },
+   {
+    "pid": "P3",
+    "model": "GPT-4",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": 0.559,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Table 3; Tables 6 and 10"
+   },
+   {
+    "pid": "P4",
+    "model": "Pythia-12B",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": 0.756,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Table 3"
+   },
+   {
+    "pid": "P4",
+    "model": "Qwen-14B",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": 0.776,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Table 3"
+   },
+   {
+    "pid": "P4",
+    "model": "GPT-4",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": 0.822,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Table 3"
+   }
+  ],
+  "headline": "Across tasks, PLMs show human-related cognitive patterns and developmental windows, with performance varying by ability, model, and training."
+ },
+ "F": {
+  "f1": "no",
+  "f2": "no",
+  "f3": "yes",
+  "f4": "yes",
+  "f5": "no",
+  "f6": "no",
+  "f7": "no",
+  "f8": "no",
+  "f9": "yes",
+  "f10": "yes",
+  "f11": "no",
+  "f12": "yes",
+  "perturbations_tested": [
+   "other"
+  ],
+  "robustness_outcome": "not_reported"
+ },
+ "G": {
+  "notes": "Authors acknowledge task adaptation may affect alignment and that textual Raven items may be contaminated; SAT analogy items were excluded from reported focus after near-ceiling/API and contamination concerns. Human sample sizes and directly comparable human effect sizes are not supplied.",
+  "extractor": "codex (default)",
+  "date": "2026-10-16",
+  "minutes": 0.8,
+  "sections_read": [
+   "Abstract",
+   "Sections 1–8",
+   "Tables 1–7",
+   "Appendix B.1–B.4.2",
+   "Data and code availability statement"
+  ]
+ }
+}

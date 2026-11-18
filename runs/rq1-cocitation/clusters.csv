@@ -1,0 +1,7 @@
+cluster,n_nodes,n_internal_edges,internal_cocitation_weight,total_citations_of_members,label_top3,top3_ids
+1,53,135,1001,1001,Binz 2023; Dillion 2023; Hagendorff 2023a,https://openalex.org/W4318919287 https://openalex.org/W4376117416 https://openalex.org/W4387378202
+2,26,52,404,579,Brown 2020; Wei 2022a; Bender 2021,https://openalex.org/W3030163527 https://openalex.org/W4221143046 https://openalex.org/W3133702157
+3,33,103,755,541,Devlin 2019; Vaswani 2017; Ettinger 2020,https://openalex.org/W2963341956 https://openalex.org/W2626778328 https://openalex.org/W2965647350
+4,19,69,516,398,Kosiński 2024; Strachan 2024; Bubeck 2023,https://openalex.org/W4403863303 https://openalex.org/W4398143508 https://openalex.org/W4360836968
+5,2,1,5,19,Bowman 2015; Williams 2018,https://openalex.org/W1840435438 https://openalex.org/W2607892599
+6,2,1,5,19,Nadeem 2021; Nangia 2020,https://openalex.org/W3019416653 https://openalex.org/W3089430725

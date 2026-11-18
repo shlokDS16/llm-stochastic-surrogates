@@ -1,0 +1,21 @@
+{
+  "order": 83,
+  "study_id": "arxiv:2609.04708",
+  "full_text": {"obtained": true, "source": "research/sources/md/fulltext/083_arxiv_2609.04708.md (arXiv PDF)"},
+  "eligibility": {"decision": "NO", "failed_criterion": "neural-only", "borderline": true,
+    "evidence": "Mechanistic-interpretability study (Sections 4-7): linear probe on token embeddings, nonce-embedding interventions, FutureLens forecasting. The 'token-level wug test' (cites Berko 1958, Sec 5) manipulates embeddings, not a human-style task administered to the model; the only prompted task, explicit sound-judgment yes/no (Sec 7.2, Table 7), is not tied to a cited human paradigm. No human data. A reviewer could count a/an selection plus the wug-test link as E2/E4."},
+  "A": {"doi": "10.48550/arxiv.2609.04708", "arxiv_id": "2609.04708",
+        "title": "How Do Language Models Represent and Use Phonological Information for Allomorph Selection?",
+        "first_author": "Sangwoo Kim", "year": 2026, "venue": "arXiv", "peer_reviewed": "preprint",
+        "first_author_field": "linguistics", "country": "South Korea"},
+  "B": {"models": [], "n_models": 0, "n_model_families": 0},
+  "C": {"paradigms": []},
+  "D": {"types": [], "primary_type": "none", "human_n": null, "population": "not_reported", "metric": "not_reported"},
+  "E": {"outcome_types": [], "rows_aggregated": false, "effects": [], "headline": ""},
+  "F": {"f1": "no", "f2": "no", "f3": "no", "f4": "no", "f5": "no", "f6": "no", "f7": "no", "f8": "no",
+        "f9": "no", "f10": "no", "f11": "no", "f12": "no", "perturbations_tested": [],
+        "robustness_outcome": "na"},
+  "G": {"notes": "Excluded as neural-only; borderline because the paper adapts the wug-test logic (Berko 1958) and reports next-token article probabilities under embedding interventions in Llama-3.2-3B, Qwen2.5-3B, Gemma-3-1b (plus Llama-3.3-70B appendix). Code link at github.com/Koolkumn/allomorph-selection.",
+        "extractor": "paper-reader (claude-sonnet)", "date": "2026-10-16", "minutes": 8,
+        "sections_read": ["abstract", "1 Introduction", "3 setup", "5 token-level wug test", "7 generalization", "8 conclusion", "limitations"]}
+}

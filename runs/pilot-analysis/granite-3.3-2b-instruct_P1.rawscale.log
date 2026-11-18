@@ -1,0 +1,2 @@
+granite-3.3-2b-instruct P1: sampled=3200 validity=0.999 by_format={'F0': 0.99875, 'F1': 0.99875}
+  primary [raw_difference_forced]: cells 32/32 dbar=0.058 S=0.203 CI95=[0.172, 0.236] shares_reportable=True sign_stab=0.28

@@ -1,0 +1,58 @@
+% tab-positioning.tex  (Table 1, key `positioning`; \TabPositioning in floats.tex)
+% HAND-BUILT by decision of the Section 1 brief (2026-11-07): the cells are literature facts, not results of this study. Every row
+% carries its citation key and a `% src:` comment that names the dossier file. Cells of this study's own row come from the design (no result).
+% Cell values: "yes" / "no" as read from the paper; "n.a." = not applicable (no review component, or no computation); "n.r." = not recorded
+% in our reading notes (the reading targeted design, estimand, human reference and limitations); a dagger on the study name = abstract and
+% record only, full text not read. Layout: text width 455 pt (sn-jnl iicol), so the nine columns sum to about 14.5 cm plus 2 pt column
+% separators; keep cells to two or three lines or the float exceeds the page height.
+% Cells for Intervals, Preregistration and Open artefact that the dossiers did not hold were completed on 2026-11-07 by a keyword search of
+% the arXiv HTML text (Huang, Meyer, Li, Liu, Messing, Schwager, Feng, Wadi); the hits are listed in the Section 1 report.
+\begingroup
+\scriptsize
+\setlength{\tabcolsep}{2pt}
+\renewcommand{\arraystretch}{1.05}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{2.25cm}>{\raggedright\arraybackslash}p{1.2cm}>{\raggedright\arraybackslash}p{1.55cm}>{\raggedright\arraybackslash}p{1.95cm}>{\raggedright\arraybackslash}p{2.9cm}>{\raggedright\arraybackslash}p{1.3cm}>{\raggedright\arraybackslash}p{1.25cm}>{\raggedright\arraybackslash}p{1.25cm}>{\raggedright\arraybackslash}p{1.2cm}@{}}
+\toprule
+Study & Search protocol & Own computation & Human reference & Perturbation coverage & Effect-level estimand & Intervals & Prereg\-istration & Open artefact \\
+\midrule
+\multicolumn{9}{@{}l}{\emph{Reviews}}\\
+% src: research/relaunch/rivals/zhong.md section 9 (full text of the English machine translation); VERIFY row 41; key zhong2026review
+Zhong et al.\ \cite{zhong2026review} & yes & yes, 14 re-tests & original baselines & surface edits on four tasks, one model & no & none & not stated & not stated \\
+% src: research/relaunch/domain-best-papers-VERIFY.md row 45 (Crossref abstract); key kuric2026synthetic
+Kuric et al.\ \cite{kuric2026synthetic}$^{\dagger}$ & yes & no & n.a. & n.r. & n.a. & n.r. & n.r. & n.r. \\
+\midrule
+\multicolumn{9}{@{}l}{\emph{Computations}}\\
+% src: research/relaunch/domain-best-papers.md N1 (Messing); arXiv HTML keyword search 2026-11-07 for the artefact (GitHub package); key messing2026hidden
+Messing \cite{messing2026hidden} & n.a. & yes & votes, rater consensus & prompt, temperature, judge, replicate & no & yes & no & yes \\
+% src: research/relaunch/domain-best-papers.md N2 (Schwager et al.); arXiv HTML keyword search 2026-11-07 for the artefact (GitHub repository); key schwager2026unsampled
+Schwager et al.\ \cite{schwager2026unsampled} & n.a. & yes & no & persona, instruction, item wording, option symbol & no & no & no & yes \\
+% src: research/relaunch/rivals/anand.md section 9; key anand2026which
+Anand \cite{anand2026which} & partial & yes & no & item, judge, pairwise order; no temperature & no & yes & audit only & on request \\
+% src: research/relaunch/rivals/pagliaro.md section 9; key pagliaro2026biases
+Pagliaro \cite{pagliaro2026biases} & n.a. & yes & two published values & wording variants; temperature fixed; no order & yes & yes & not stated & yes \\
+% src: research/relaunch/domain-best-papers.md N5 (Cummins); key cummins2026flexibility
+Cummins \cite{cummins2026flexibility} & n.a. & yes & random halves of one human sample & model, temperature, demographics, sampling strategy & no & band from 2,000 random splits & no & yes \\
+% src: research/relaunch/novelty-sweep/papers/2608.10503.md (Wadi et al.); key wadi2026token
+Wadi et al.\ \cite{wadi2026token} & n.a. & yes & one historical sample & model, target country, framing; temperature argued away & no & n.r. & none found & n.r. \\
+% src: research/relaunch/novelty-sweep/papers/2608.16253.md (Feng et al.); arXiv HTML keyword search 2026-11-07 for the bootstrap bands; key feng2026second
+Feng et al.\ \cite{feng2026second} & n.a. & yes & no & prompt, answer order; no model or temperature facet & no & yes & none found & n.r. \\
+% src: research/relaunch/novelty-sweep/papers/2607.05552.md (Huang); arXiv HTML keyword search 2026-11-07 (protocol frozen and called pre-registered in the text; per-item bootstrap); key huang2026yesno
+Huang \cite{huang2026yesno} & n.a. & yes & none & order, wording, label crossed & no & yes & frozen protocol & n.r. \\
+% src: research/relaunch/novelty-sweep/papers/2606.20205.md (Meyer et al.); arXiv HTML text 2026-11-07 (code on GitHub; non-confirmatory); key meyer2026artifact
+Meyer et al.\ \cite{meyer2026artifact} & n.a. & yes & person-level samples & context, elicitation, order; wording fixed & no & yes & no & yes \\
+% src: research/relaunch/novelty-sweep/papers/2509.07869.md (Li et al.); arXiv HTML text 2026-11-07 (repository link); key li2025brittle
+Li et al.\ \cite{li2025brittle} & n.a. & yes & humans, same variants & label set, label order, typos, wording & no & n.r. & n.r. & yes \\
+% src: research/relaunch/novelty-sweep/papers/2602.00685_2605.15473.md (Liu et al.); arXiv HTML text 2026-11-07 (bootstrap SE; open platform); key liu2026validated
+Liu et al.\ \cite{liu2026validated} & n.a. & yes & published effects & agent design, model; temperature varied for one model & partial & yes & n.r. & yes \\
+% src: research/relaunch/novelty-sweep/papers/ssrn-7047739.md and ADDENDUM-chrome-reads.md (abstract only); key pirla2026demand
+Pirla and Molina \cite{pirla2026demand}$^{\dagger}$ & n.a. & yes & same treatments in humans & demand wording & yes & n.r. & n.r. & n.r. \\
+\midrule
+% src: this study; design facts from paper/acme/07-benchmark.tex and the review sections, not results; preregistration = frozen plan in the project repository (commit and hash; OSF Registries entry osf.io/t82jc, decision D0032); open artefact = planned Zenodo deposit, none yet
+\textbf{This study} & yes & yes & Many Labs 1 sites & model, wording, order, temperature, crossed & yes & yes & yes, OSF & planned \\
+\bottomrule
+\end{tabular}
+\par\smallskip\noindent\parbox{\linewidth}{\scriptsize
+``yes'' and ``no'' are read from the paper; ``n.a.'' means not applicable; ``n.r.'' means not recorded in our reading of the paper;
+$^{\dagger}$ abstract and record only. Search protocol is a documented literature search; own computation is new model runs; human
+reference is human data used as a yardstick; effect-level estimand is a manipulation contrast and not a score level.}
+\endgroup

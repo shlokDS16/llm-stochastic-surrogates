@@ -1,0 +1,16 @@
+extends: existence
+message: "Chat or markdown residue '%s' (ai-patterns-academic E). Must be zero in a manuscript."
+level: error
+ignorecase: true
+nonword: true
+tokens:
+  - '\bhere is the (revised|updated|rewritten)'
+  - '\bI hope this helps'
+  - '\bas an AI\b'
+  - '\bas a language model'
+  - '\[insert [^\]]*\]'
+  - '\bXX\s?%'
+  - '\blorem ipsum'
+  - '\*\*[^*]+\*\*'
+  - '\[PENDING'
+  - '\[TODO'

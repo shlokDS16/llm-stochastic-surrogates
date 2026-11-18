@@ -1,0 +1,21 @@
+{
+  "order": 67,
+  "study_id": "https://openalex.org/W7134113913",
+  "full_text": {"obtained": true, "source": "research/sources/md/fulltext/067_W7134113913.md"},
+  "eligibility": {"decision": "NO", "failed_criterion": "not-english", "borderline": true,
+                  "evidence": "Body text, tables and prompt discussion are in Spanish (pp. 70-81); only title, keywords and abstract carry English versions. Otherwise it would meet E1-E4 (GPT-3.5-turbo-0125 in the Dictator Game, 500 runs, compared with Engel 2011 meta-study). E5 requires English full text."},
+  "A": {"doi": "10.18845/tm.v39i5.8524", "arxiv_id": null,
+        "title": "Comportamiento altruista de la inteligencia artificial generativa: estudio comparativo mediante experimentos de Dictator Game",
+        "first_author": "Federico Torres-Carballo", "year": 2026, "venue": "Tecnologia en Marcha",
+        "peer_reviewed": "yes", "first_author_field": "other", "country": "Costa Rica"},
+  "B": {"models": [], "n_models": 0, "n_model_families": 0},
+  "C": {"paradigms": []},
+  "D": {"types": [], "primary_type": "none", "human_n": null, "population": "not_reported", "metric": "not_reported"},
+  "E": {"outcome_types": [], "rows_aggregated": false, "effects": [], "headline": ""},
+  "F": {"f1": "no", "f2": "no", "f3": "no", "f4": "no", "f5": "no", "f6": "no", "f7": "no", "f8": "no",
+        "f9": "no", "f10": "no", "f11": "no", "f12": "no", "perturbations_tested": [],
+        "robustness_outcome": "na"},
+  "G": {"notes": "Spanish-language full text; borderline on E5 because title and abstract are bilingual. Left B, C, E empty per NO rule. If a referee overrules: 2 model versions (0301 from prior study, 0125 new), one dictator-game paradigm, compared with Engel's meta-study.",
+        "extractor": "paper-reader (claude-sonnet)", "date": "2026-10-16", "minutes": 4,
+        "sections_read": ["whole paper (all sections, 11 pages)", "protocol section 3"]}
+}

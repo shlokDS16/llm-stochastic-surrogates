@@ -1,0 +1,79 @@
+{
+ "order": 53,
+ "study_id": "https://openalex.org/W7138379839",
+ "full_text": {
+  "obtained": true,
+  "source": "provided full text"
+ },
+ "eligibility": {
+  "decision": "NO",
+  "failed_criterion": "benchmark-only",
+  "borderline": false,
+  "evidence": "Sections 3–5 and conclusion: the paper evaluates LLMs on fallacy detection and categorization benchmarks, without administering a cognitive-experimental paradigm."
+ },
+ "A": {
+  "doi": null,
+  "arxiv_id": "2504.12312",
+  "title": "Socrates or Smartypants: Testing Logic Reasoning Capabilities of Large Language Models with Logic Programming-Based Test Oracles",
+  "first_author": "Zihao Xu",
+  "year": 2026,
+  "venue": "Proceedings of the Fortieth AAAI Conference on Artificial Intelligence (AAAI-26)",
+  "peer_reviewed": "yes",
+  "first_author_field": "not_reported",
+  "country": "Australia"
+ },
+ "B": {
+  "models": [],
+  "n_models": 0,
+  "n_model_families": 0
+ },
+ "C": {
+  "paradigms": []
+ },
+ "D": {
+  "types": [],
+  "primary_type": "none",
+  "human_n": null,
+  "population": "not_reported",
+  "metric": "not_reported"
+ },
+ "E": {
+  "outcome_types": [],
+  "rows_aggregated": false,
+  "effects": [],
+  "headline": ""
+ },
+ "F": {
+  "f1": "no",
+  "f2": "no",
+  "f3": "no",
+  "f4": "no",
+  "f5": "no",
+  "f6": "no",
+  "f7": "no",
+  "f8": "no",
+  "f9": "no",
+  "f10": "no",
+  "f11": "no",
+  "f12": "no",
+  "perturbations_tested": [],
+  "robustness_outcome": "na"
+ },
+ "G": {
+  "notes": "",
+  "extractor": "codex (default)",
+  "date": "2026-10-16",
+  "minutes": 0.4,
+  "sections_read": [
+   "Abstract",
+   "Introduction",
+   "Related Work",
+   "Preliminary Study",
+   "Methodology",
+   "Experimentation",
+   "Results",
+   "Conclusion",
+   "References"
+  ]
+ }
+}

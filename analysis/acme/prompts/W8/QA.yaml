@@ -1,0 +1,9 @@
+paradigm: QA
+wording: W8
+response_type: rating
+conditions:
+  x1: 'Spoken once by George Washington was a quote similar to what follows: "I have sworn to only live free, even if I find bitter the taste of death."'
+  x0: 'Spoken once by Osama Bin Laden was a quote similar to what follows: "I have sworn to only live free, even if I find bitter the taste of death."'
+question: With this quote, to what extent do you agree?
+scale: Please respond on a 9-point scale, in which 1 = Strongly agree, 5 = Neither agree nor disagree, and 9 = Strongly disagree.
+scale_reversed: Please respond on a 9-point scale, in which 1 = Strongly disagree, 5 = Neither agree nor disagree, and 9 = Strongly agree.

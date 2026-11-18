@@ -1,0 +1,260 @@
+{
+  "order": 145,
+  "study_id": "https://openalex.org/W3163651756",
+  "full_text": {
+    "obtained": true,
+    "source": "research/sources/md/fulltext/145_W3163651756.md"
+  },
+  "eligibility": {
+    "decision": "YES",
+    "failed_criterion": null,
+    "borderline": false,
+    "evidence": "Methods and Results: evaluates pretrained language models on two human-derived typicality paradigms using Rosch ratings and reports model results."
+  },
+  "A": {
+    "doi": null,
+    "arxiv_id": null,
+    "title": "Do language models learn typicality judgments from text?",
+    "first_author": "Kanishka Misra",
+    "year": 2021,
+    "venue": "Proceedings of the 43rd Annual Conference of the Cognitive Science Society",
+    "peer_reviewed": "yes",
+    "first_author_field": "CS",
+    "country": "United States"
+  },
+  "B": {
+    "models": [
+      {
+        "name": "GPT",
+        "version": "not_reported",
+        "access": "open_weights",
+        "params_b": null,
+        "release_date": "not_reported",
+        "tuning": "base",
+        "family": "GPT",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "GPT2",
+        "version": "not_reported",
+        "access": "open_weights",
+        "params_b": null,
+        "release_date": "not_reported",
+        "tuning": "base",
+        "family": "GPT",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "distilGPT2",
+        "version": "not_reported",
+        "access": "open_weights",
+        "params_b": null,
+        "release_date": "not_reported",
+        "tuning": "base",
+        "family": "GPT",
+        "query_date": "not_reported"
+      }
+    ],
+    "n_models": 3,
+    "n_model_families": 1
+  },
+  "C": {
+    "paradigms": [
+      {
+        "pid": "P1",
+        "name": "Taxonomic sentence verification typicality",
+        "family": "LEARN",
+        "source_paper": "Rips et al. (1973); Rosch (1973, 1975)",
+        "items_origin": "verbatim",
+        "n_items": 565,
+        "languages": [
+          "English"
+        ],
+        "modality": "text",
+        "contamination_risk": "yes",
+        "location": "Methods, Experiments 1; Table 2"
+      },
+      {
+        "pid": "P2",
+        "name": "Category-based induction typicality",
+        "family": "LEARN",
+        "source_paper": "Rips (1975); Osherson et al. (1990)",
+        "items_origin": "adapted",
+        "n_items": 12180,
+        "languages": [
+          "English"
+        ],
+        "modality": "text",
+        "contamination_risk": "partly",
+        "location": "Methods, Experiments 2"
+      }
+    ]
+  },
+  "D": {
+    "types": [
+      "published_norms"
+    ],
+    "primary_type": "published_norms",
+    "human_n": 209,
+    "population": "Native English speakers; Rosch (1975) typicality ratings",
+    "metric": "Spearman correlation between model scores and human typicality ratings"
+  },
+  "E": {
+    "outcome_types": [
+      "effect_size",
+      "human_correlation"
+    ],
+    "rows_aggregated": false,
+    "effects": [
+      {
+        "pid": "P1",
+        "model": "GPT",
+        "model_family": "GPT",
+        "outcome_kind": "effect",
+        "basis": "test",
+        "model_effect_present": "yes",
+        "human_effect_present": "yes",
+        "direction": "same",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "different",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "ATTENUATED",
+        "location": "Results, Figure 1; text reports model typicality effects weaker than human effects (p < .001 across models).",
+        "headline": "Models show typicality sensitivity, but their distinctions between typical and atypical category members are weaker than humans’."
+      },
+      {
+        "pid": "P1",
+        "model": "GPT2",
+        "model_family": "GPT",
+        "outcome_kind": "effect",
+        "basis": "test",
+        "model_effect_present": "yes",
+        "human_effect_present": "yes",
+        "direction": "same",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "different",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "ATTENUATED",
+        "location": "Results, Figure 1; text reports model typicality effects weaker than human effects (p < .001 across models).",
+        "headline": "Models show typicality sensitivity, but their distinctions between typical and atypical category members are weaker than humans’."
+      },
+      {
+        "pid": "P1",
+        "model": "distilGPT2",
+        "model_family": "GPT",
+        "outcome_kind": "effect",
+        "basis": "test",
+        "model_effect_present": "yes",
+        "human_effect_present": "yes",
+        "direction": "same",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "different",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "ATTENUATED",
+        "location": "Results, Figure 1; text reports model typicality effects weaker than human effects (p < .001 across models).",
+        "headline": "Models show typicality sensitivity, but their distinctions between typical and atypical category members are weaker than humans’."
+      },
+      {
+        "pid": "P2",
+        "model": "GPT",
+        "model_family": "GPT",
+        "outcome_kind": "effect",
+        "basis": "test",
+        "model_effect_present": "yes",
+        "human_effect_present": "yes",
+        "direction": "same",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "different",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "ATTENUATED",
+        "location": "Results, Figure 2; adjusted model typicality scores are less extreme than human ratings.",
+        "headline": "Category-based induction shows modest typicality sensitivity, weaker than human ratings."
+      },
+      {
+        "pid": "P2",
+        "model": "GPT2",
+        "model_family": "GPT",
+        "outcome_kind": "effect",
+        "basis": "test",
+        "model_effect_present": "yes",
+        "human_effect_present": "yes",
+        "direction": "same",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "different",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "ATTENUATED",
+        "location": "Results, Figure 2; adjusted model typicality scores are less extreme than human ratings.",
+        "headline": "Category-based induction shows modest typicality sensitivity, weaker than human ratings."
+      },
+      {
+        "pid": "P2",
+        "model": "distilGPT2",
+        "model_family": "GPT",
+        "outcome_kind": "effect",
+        "basis": "test",
+        "model_effect_present": "yes",
+        "human_effect_present": "yes",
+        "direction": "same",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "different",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "ATTENUATED",
+        "location": "Results, Figure 2; adjusted model typicality scores are less extreme than human ratings.",
+        "headline": "Category-based induction shows modest typicality sensitivity, weaker than human ratings."
+      }
+    ],
+    "headline": "Pretrained LMs show positive but modest typicality sensitivity in both tasks and are less extreme than humans."
+  },
+  "F": {
+    "f1": "no",
+    "f2": "na",
+    "f3": "no",
+    "f4": "yes",
+    "f5": "no",
+    "f6": "na",
+    "f7": "no",
+    "f8": "yes",
+    "f9": "yes",
+    "f10": "yes",
+    "f11": "no",
+    "f12": "yes",
+    "perturbations_tested": [
+      "model_version",
+      "contamination"
+    ],
+    "robustness_outcome": "na"
+  },
+  "G": {
+    "notes": "The model list includes many checkpoints, but exact checkpoint sizes and versions are not preserved in the supplied text; results are not itemized by checkpoint in the figures. Clarify how confounds were regressed from induction scores and whether that adjustment supports the human comparison.",
+    "extractor": "codex (default)",
+    "date": "2026-10-16",
+    "minutes": 8,
+    "sections_read": [
+      "Abstract",
+      "Introduction",
+      "Methods",
+      "Results",
+      "General Discussion and Conclusion",
+      "Reproducibility",
+      "References"
+    ]
+  }
+}

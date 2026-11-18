@@ -1,0 +1,41 @@
+{
+ "order": 141,
+ "study_id": "https://openalex.org/W4415797152",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/141_W4415797152.md",
+ "sources_varied": [
+  "M",
+  "W",
+  "X"
+ ],
+ "X1": {
+  "value": "yes",
+  "sources_crossed": [
+   "M",
+   "W"
+  ],
+  "evidence": "Sec 3-4.1 (p.6-9): four LLMs run on graphs from five domains with matched and cross-evaluated narrative styles (every style on every domain); noise and memory-clearance variants in later sections."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "W",
+   "M",
+   "X"
+  ],
+  "evidence": "Sec 4.1-4.2: recall accuracy compared for matched versus mismatched narrative style and for noise levels per model; no variance share."
+ },
+ "X3": {
+  "value": "yes",
+  "x3_pairs": [
+   "M x X"
+  ],
+  "evidence": "Sec 4.2 (p.10): authors state that models differ in their sensitivity to noise in the graph context (Gemini-Pro more than GPT); descriptive."
+ },
+ "notes": ""
+}

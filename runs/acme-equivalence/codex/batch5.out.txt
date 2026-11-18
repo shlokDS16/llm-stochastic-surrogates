@@ -1,0 +1,19 @@
+{"id":"E077","label":"EQUIVALENT","element":"none","confidence":5,"reason":"All versions preserve the same Chicago population estimate task and matching upper and lower numeric anchors."}
+{"id":"E078","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Same population estimate task, matching anchors, and no-anchor version; wording changes are stylistic."}
+{"id":"E079","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Both conditions preserve the observed dice outcomes and ask for the number of prior rolls."}
+{"id":"E080","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Ticket facts, cold-weather scenario, question, and normal and reversed scale endpoints match."}
+{"id":"E081","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Both conditions ask the same forbid or allow question about public speeches against democracy."}
+{"id":"E082","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Matching dice outcomes and prior-roll estimate task in both conditions."}
+{"id":"E083","label":"NOT-EQUIVALENT","element":"scenario_fact","confidence":5,"reason":"Program A saves 300 in A but 200 in B; Program C causes 300 deaths in A but 400 in B."}
+{"id":"E084","label":"NOT-EQUIVALENT","element":"scenario_fact","confidence":5,"reason":"A concerns speeches in favor of democracy; B concerns speeches against democracy."}
+{"id":"E085","label":"NOT-EQUIVALENT","element":"scenario_fact","confidence":5,"reason":"Condition 1 and its reversed-scale version say the ticket cost almost nothing in B versus paid handsomely in A."}
+{"id":"E086","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Same reciprocal journalist-entry questions, order, and standalone version; newspaper/reporters wording is stylistic."}
+{"id":"E087","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Both preserve who admits which journalists and the reciprocal sequence; passive phrasing leaves the task unchanged."}
+{"id":"E088","label":"NOT-EQUIVALENT","element":"manipulation","confidence":5,"reason":"Condition 1 flips taller than versus shorter than 45,500 feet; condition 2 also flips the 2,000-foot anchor direction."}
+{"id":"E089","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Quote source, agreement task, and normal and reversed scale anchors match in each condition."}
+{"id":"E090","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Each version presents the same dice outcomes and asks how many prior throws occurred."}
+{"id":"E091","label":"EQUIVALENT","element":"none","confidence":5,"reason":"The upper and lower anchor directions and values, estimate task, and feet units match."}
+{"id":"E092","label":"NOT-EQUIVALENT","element":"manipulation","confidence":5,"reason":"Both anchored conditions reverse the distance comparisons: shorter versus longer than 6,000 miles and longer versus shorter than 1,500."}
+{"id":"E093","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Same reciprocal journalist-entry questions, order, and standalone version; the added opinion phrase does not change the task."}
+{"id":"E094","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Both preserve the Everest estimate task, feet units, and matching upper and lower numeric anchors."}
+{"id":"E095","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Same Chicago population estimate task and matching numeric anchors across conditions; no-anchor versions also match."}

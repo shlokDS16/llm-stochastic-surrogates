@@ -1,0 +1,11 @@
+item,gate_g4_scale,arml_scales_scale,match,sd_within
+P1,0/1,0/1,True,0.4784407977939925
+AF,0/1,0/1,True,0.3653779320381559
+NR,0/1,0/1,True,0.4678224240877072
+P3,1-9,1-9,True,1.8785213229199305
+QA,1-9,1-9,True,2.0751035572567984
+P2a,y_log,y_log,True,0.3003069193820545
+P2b,y_log,y_log,True,0.703411526427869
+P2c,y_log,y_log,True,0.669908694370772
+P2d,y_log,y_log,True,1.2339102635331036
+P4,y_log,y_log,True,1.1332906880932017

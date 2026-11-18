@@ -1,0 +1,19 @@
+{"id":"E001","label":"EQUIVALENT","element":"none","confidence":5,"reason":"The ticket cost conditions, freezing weather, attendance task, and normal and reversed scale endpoints match."}
+{"id":"E002","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Chicago population estimation, both numeric anchors, and the no-anchor version match across conditions."}
+{"id":"E003","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Both versions ask the same reporter-entry questions in the same order, or ask the second question alone."}
+{"id":"E004","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Baby-birth estimation, both numeric anchors, and the no-anchor version match."}
+{"id":"E005","label":"NOT-EQUIVALENT","element":"manipulation","confidence":5,"reason":"The Chicago anchors differ: A uses 3,000,000 and 2,000,000; B uses 5,000,000 and 200,000."}
+{"id":"E006","label":"EQUIVALENT","element":"none","confidence":5,"reason":"The daily U.S. baby-birth estimation task and both anchors match; the no-anchor version asks the same estimate."}
+{"id":"E007","label":"EQUIVALENT","element":"none","confidence":5,"reason":"The daily U.S. baby-birth estimation task and both anchors match; the no-anchor version asks the same estimate."}
+{"id":"E008","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Both dice outcomes and the question about prior rolls in the imagined casino scenario match."}
+{"id":"E009","label":"NOT-EQUIVALENT","element":"task","confidence":5,"reason":"A asks participants which program they would choose; B asks which they would reject."}
+{"id":"E010","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Both conditions preserve the disease scenario, program outcomes, probabilities, and selection task."}
+{"id":"E011","label":"EQUIVALENT","element":"none","confidence":5,"reason":"The attributed speaker, quote, agreement task, and normal and reversed scale endpoints match."}
+{"id":"E012","label":"NOT-EQUIVALENT","element":"scenario_fact","confidence":5,"reason":"A describes pleasantly warm match-day weather; B describes freezing cold weather."}
+{"id":"E013","label":"NOT-EQUIVALENT","element":"manipulation","confidence":5,"reason":"The Chicago anchors reverse direction: A says above 5,000,000 and below 200,000; B says below 5,000,000 and above 200,000."}
+{"id":"E014","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Both conditions ask about forbidding or allowing the same speeches in the United States."}
+{"id":"E015","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Both conditions preserve the disease scenario, program outcomes, probabilities, and choice task."}
+{"id":"E016","label":"EQUIVALENT","element":"none","confidence":5,"reason":"The daily U.S. baby-birth estimation task and both anchors match, as does the no-anchor task."}
+{"id":"E017","label":"EQUIVALENT","element":"none","confidence":5,"reason":"The height-estimation task, feet units, both Everest anchors, and no-anchor version match."}
+{"id":"E018","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Chicago population estimation and both anchors match; the no-anchor version asks for the same population estimate."}
+{"id":"E019","label":"EQUIVALENT","element":"none","confidence":5,"reason":"The height-estimation task, feet units, both Everest anchors, and no-anchor version match."}

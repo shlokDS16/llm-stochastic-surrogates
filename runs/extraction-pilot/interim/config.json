@@ -1,0 +1,48 @@
+{
+ "orders": [
+  1,
+  2,
+  4,
+  6,
+  9,
+  10,
+  13,
+  15
+ ],
+ "pairs": [
+  1,
+  2,
+  4,
+  6,
+  9,
+  10,
+  13,
+  15
+ ],
+ "yes_both": [
+  6,
+  9,
+  13,
+  15
+ ],
+ "matched_effect_keys": 15,
+ "unmatched_effect_keys": 20,
+ "inputs": {
+  "data\\processed\\extraction\\claude\\001.json": "b6aacec2e5c7eb2ac8b5a27668d3599a9447ebe98d12f968ef098877a3108192",
+  "data\\processed\\extraction\\codex\\001.json": "7fadf3158e1a89ab268905809b93b761c1f4b63852518f679226d9d1b26bc96b",
+  "data\\processed\\extraction\\claude\\002.json": "de01500bcd4e2b2d7aeb413d8ec6738d625d19066c0dacb3cb10327080775382",
+  "data\\processed\\extraction\\codex\\002.json": "d11694f0ed356512a6fadbfab92d94e922c1a7f7e7e74a5d671b05fabc1e6742",
+  "data\\processed\\extraction\\claude\\004.json": "f07a1ab5b497e920eaf9a0cfcf1c2bbda534e984ce3c412814202dc114459145",
+  "data\\processed\\extraction\\codex\\004.json": "a5c111d2d677d3f90bfc63efec221b8292c4d4189b4600fbea22825e85ee653b",
+  "data\\processed\\extraction\\claude\\006.json": "e96b3a126b9179aea466c734342a26a1ba449a711d6b0513da3754de8f7148d7",
+  "data\\processed\\extraction\\codex\\006.json": "0b87f798845992c4e12c5d4ca088998cad6a35316f1d358e7fa8eec08015f557",
+  "data\\processed\\extraction\\claude\\009.json": "54a2a55270d13fef842a359e9553067e87be8b26426d41803e180195c6790712",
+  "data\\processed\\extraction\\codex\\009.json": "76d828c8d8dfc0d038e4d5724ec0dbd2095a7ec6e5799c848ff34ea5c45cdabb",
+  "data\\processed\\extraction\\claude\\010.json": "43eacc78bbea662f95a71727b33dfe189bcef43acad4371aa72e3dedde023b76",
+  "data\\processed\\extraction\\codex\\010.json": "daedc5c4fa00d20f5edc0ee685c66ba4400a6f9bc7041e16683f5a4174f95c55",
+  "data\\processed\\extraction\\claude\\013.json": "b37b98525602e88b21080e5bf7515712376686cf09e4f5c6e02b4b258ff816cb",
+  "data\\processed\\extraction\\codex\\013.json": "97a717aeda0d94510f7037b8840dd829cc64eea61fef79dbee98e36dfd41e656",
+  "data\\processed\\extraction\\claude\\015.json": "d577ee9c77be1f06217774db3b80406d39786fe8dd771f7a1479122db6bee730",
+  "data\\processed\\extraction\\codex\\015.json": "432ea282fea42626ed43798bc037cd70abbf2cfd16369091362584ccc2e097b4"
+ }
+}

@@ -1,0 +1,10 @@
+paradigm: P2b
+wording: W2
+response_type: number
+intro: This question is about people's beliefs about the world around them. Give your best estimate. If you do not know the correct answer, simply give your best guess.
+conditions:
+  x1: Fewer than 5,000,000 people live in Chicago. What is your best estimate of the city's population?
+  x0: More than 200,000 people live in Chicago. What is your best estimate of the city's population?
+condition_names:
+  x1: high anchor
+  x0: low anchor

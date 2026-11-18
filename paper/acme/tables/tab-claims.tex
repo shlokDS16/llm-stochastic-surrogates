@@ -1,0 +1,21 @@
+% HAND-BUILT body of Table claims (CRP-S09 writer, 2026-11-07): main claims of the paper, the section that states each, the run file or coded field behind it, and the status.
+% Status vocabulary: Coded sample (design-weighted share, coding pass named); Descriptive (computed on the retained rosters, no test); Verified (check against a known answer on
+% synthetic data); Outcome of a gate (rule fixed before the outcome); Instrument limit (the coding scheme cannot answer the question). Every number is a \NUM key.
+{\footnotesize\setlength{\tabcolsep}{4pt}\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.37\textwidth}>{\raggedright\arraybackslash}p{0.10\textwidth}>{\raggedright\arraybackslash}p{0.29\textwidth}>{\raggedright\arraybackslash}p{0.18\textwidth}@{}}
+\toprule
+Claim & Section & Run file or coded field & Status \\
+\midrule
+Wording and decoding are the two perturbation types that both coding passes read alike, and each is varied by a minority of studies & \ref{sec:audit-vary} & \texttt{runs/\allowbreak{}rq234-final/\allowbreak{}rq4.csv}, fields on wording and decoding perturbation (kappa \NUM{au.pw.kappa} and \NUM{au.pd.kappa}) & Coded sample, both passes \\
+Temperature is stated more often than the model version, and stating it is not varying it & \ref{sec:spec-decoding} & \texttt{runs/\allowbreak{}rq234-final/\allowbreak{}rq4.csv}, rows for fields f1 (version) and f2 (temperature) & Coded sample, per pass \\
+No sampled study uses a multi-site dataset as its human reference & \ref{sec:val-reference} & \texttt{runs/\allowbreak{}rq234-final/\allowbreak{}rq3.csv}, reference type (zero events, upper bound \NUM{val.ref.repl.ub1} percent) & Coded sample, zero-event bound \\
+Full crossing of two or more sources is a minority design in both passes of the recode, and a variance share is coded for at most one study & \ref{sec:audit-cross} & \texttt{runs/\allowbreak{}crossing/\allowbreak{}counts.csv}, fields X1 and X2 (agreement kappa \NUM{cx.agr.x1y.kappa} for X1, fully crossed against other, and \NUM{cx.agr.x2.kappa} for X2) & Coded sample, unweighted counts, per pass \\
+The estimator recovers known components after amendment A-G1 & \ref{sec:bench-estimator} & \texttt{runs/\allowbreak{}acme-G1/\allowbreak{}results\_\allowbreak{}A1.csv}, \texttt{runs/\allowbreak{}acme-G1b/\allowbreak{}} & Verified on synthetic arrays \\
+Gate G3 fails, so the case study is descriptive and the rosters are small & \ref{sec:bench-verification} & \texttt{runs/\allowbreak{}acme-L/\allowbreak{}rosters.csv} (\NUM{vf.g3.a} models valid on \NUM{bm.g3.items} items, \NUM{vf.g3.b} items with \NUM{bm.g3.models} models) & Outcome of a gate \\
+Exact and sampled readouts divide the effect alike on the choice and rating items & \ref{sec:bench-readouts} & \texttt{runs/\allowbreak{}acme-gstudy/\allowbreak{}route-table/\allowbreak{}route\_\allowbreak{}table.csv}, columns (e) & Descriptive consistency check against a non-validated bound, P3 exceptions \\
+Model and option order carry most of the variance of the effect on P1, QA and AF, the variance of wording sits in the interaction with the model on AF, NR and P3, and temperature adds little & \ref{sec:bench-shares} & \texttt{route\_\allowbreak{}table.csv}, column (b); \texttt{hypotheses\_\allowbreak{}estimates.csv} & Descriptive, underpowered \\
+Shares depend on the roster & \ref{sec:bench-shares} & \texttt{route\_\allowbreak{}table.csv}, columns (b) and (c) & Descriptive \\
+Numeric items are not decomposed with these readouts & \ref{sec:bench-numeric} & \texttt{runs/\allowbreak{}acme-L/\allowbreak{}rosters.csv}; \texttt{route\_\allowbreak{}table.csv}, column (a) & Defect of the reader, repair open \\
+Set-up spread exceeds the single-site standard error on most choice and rating items & \ref{sec:bench-yardsticks} & \texttt{runs/\allowbreak{}acme-gstudy/\allowbreak{}A1-route-b-pertype/\allowbreak{}yardsticks.csv} & Descriptive, no validation claim \\
+\bottomrule
+\end{tabular}}

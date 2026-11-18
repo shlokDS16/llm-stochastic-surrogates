@@ -1,0 +1,34 @@
+{
+ "order": 34,
+ "study_id": "https://openalex.org/W4392181976",
+ "pass": "codex",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/034_W4392181976.md",
+ "sources_varied": [
+  "M",
+  "W",
+  "O"
+ ],
+ "X1": {
+  "value": "partial",
+  "sources_crossed": [],
+  "evidence": "Sec. 3.3–3.4, Sec. 4.1: ten LLMs were evaluated with vanilla and CoT prompts; option orders were shuffled five times for non-GPT-4 models, but these factors are not reported as fully crossed."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "W"
+  ],
+  "evidence": "Sec. 4.2, Tables 2–3: results compare vanilla and CoT performance, and the authors quantify that CoT almost never improves performance and can cause declines."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "Sec. 4.2, Tables 2–3: model and prompting results are reported by model and prompt, with no source-by-source interaction estimated or stated."
+ },
+ "notes": ""
+}

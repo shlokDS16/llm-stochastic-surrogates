@@ -1,0 +1,10 @@
+{
+ "script": "analysis/fulltext/rq234_design_diagnostics.py",
+ "script_sha256": "ec56cd5dee9e9d5873da3b43f1875185a0e1f9807e9c801ec9c9edfa1097ee9f",
+ "rq234_analysis_sha256": "76c4c49ce0dc04018bb841e28578d28e7661b4c1c9fedd0d6d2462f74aec9822",
+ "source_run": "runs/rq234-final",
+ "source_config_sha256": "128cfb36fcb6a8663d5f90f4fe1ae7e14ffeb87439aa15653bf151357c5c1083",
+ "source_rq4_sha256": "ab4fdbb7b2d902b28c8606625e8a0f84b73bb8ddbb6de5b7d6a20db253550d72",
+ "seed": null,
+ "note": "no random numbers; deterministic from the frozen snapshot"
+}

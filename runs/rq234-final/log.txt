@@ -1,0 +1,3 @@
+2026-10-17 10:57:38,100 analysed units 150; extraction files claude 110 codex 110; unparseable []
+2026-10-17 10:57:39,538 model generation (rows per generation): {'claude': {'G1': 148, 'G2': 211, 'G3': 393, 'unknown': 61}, 'codex': {'G1': 110, 'G2': 200, 'G3': 328, 'unknown': 40}}
+2026-10-17 10:57:40,651 done

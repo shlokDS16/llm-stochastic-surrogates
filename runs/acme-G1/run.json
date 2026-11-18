@@ -1,0 +1,494 @@
+{
+ "cfg": {
+  "reps": 1000,
+  "B": 2000,
+  "scenarios": [
+   "a",
+   "b",
+   "c",
+   "d",
+   "e",
+   "f",
+   "g",
+   "h25",
+   "h50"
+  ],
+  "workers": 6
+ },
+ "runtime_s": 2892.1300189495087,
+ "pooled_median_share_mean": {
+  "a": [
+   0.003255699943055986,
+   3.0718009392903355e-06,
+   4.53030851411184e-05,
+   0.0037780253370505957,
+   0.5131546805964109,
+   5.1667671793963223e-05,
+   0.41728529529552927
+  ],
+  "b": [
+   0.0009912750153418125,
+   1.7273006299193188e-06,
+   1.8125756560308464e-05,
+   0.6713967795678918,
+   0.12544871694395257,
+   1.9712151815143207e-05,
+   0.10547674016874259
+  ],
+  "c": [
+   0.004474204454314042,
+   1.855876247189682e-07,
+   2.3723698121406e-05,
+   0.0030405131089707954,
+   0.8284799624146004,
+   2.4398715722787036e-05,
+   0.12096623488862508
+  ],
+  "d": [
+   0.0011100384247279547,
+   0.6820363446510921,
+   0.0020023990663069003,
+   0.001427712119537623,
+   0.005853968076280762,
+   0.0017638869166270415,
+   0.2936077818565329
+  ],
+  "e": [
+   0.10137035142734763,
+   0.015634723391955558,
+   0.028635834226349587,
+   0.08418335853036671,
+   0.4387519080487954,
+   0.019070882601376665,
+   0.15606429590064907
+  ],
+  "f": [
+   0.2904200529537342,
+   0.001658440314405551,
+   0.02017821373212944,
+   0.030737583734436844,
+   0.37585816353786755,
+   0.005212102576424925,
+   0.14175763578167644
+  ],
+  "g": [
+   0.0983778712497735,
+   0.013218399446337717,
+   0.027146486231540718,
+   0.09204922298975018,
+   0.41932127419927356,
+   0.021405543172471314,
+   0.16334296723331176
+  ],
+  "h25": [
+   0.22874902193885585,
+   0.002424674273732745,
+   0.007694354523253149,
+   0.02545168132731653,
+   0.40047458308241407,
+   0.00317452497930301,
+   0.18237994060793494
+  ],
+  "h50": [
+   0.2222403350549998,
+   0.0073860295681920105,
+   0.020597896341956422,
+   0.028619602913252114,
+   0.38950488796827115,
+   0.0032416251169296215,
+   0.16994726758042644
+  ]
+ },
+ "verdicts": {
+  "as_written": {
+   "C1": {
+    "pass_": false,
+    "n_cells": 63,
+    "n_violations": 4,
+    "worst": {
+     "scenario": "b",
+     "scenario_label": "W dominant",
+     "level": "pooled_mean",
+     "variant": "as_written",
+     "component": "W",
+     "n_models": 14,
+     "reps": 1000,
+     "B": 2000,
+     "true_share": 0.7000000000000001,
+     "mean_estimate": 0.6563891301938147,
+     "bias": -0.04361086980618534,
+     "sd_estimate": 0.03706422957668021,
+     "coverage": 0.189,
+     "lower_gt0_rate": 1.0,
+     "true_is_zero": false,
+     "false_positive_rate": NaN,
+     "mean_lo": 0.5255853644686362,
+     "mean_hi": 0.6687561512654522,
+     "rank_applicable": true,
+     "rank_correct_rate": 1.0,
+     "rank_correct_rate_any": 1.0,
+     "true_top_component": "W"
+    }
+   },
+   "C2": {
+    "pass_": false,
+    "fraction": 0.12698412698412698,
+    "n_cells": 63,
+    "n_ok": 8
+   },
+   "C3": {
+    "pass_": false,
+    "n_cells": 19,
+    "n_violations": 19,
+    "worst": {
+     "scenario": "a",
+     "scenario_label": "residual only",
+     "level": "pooled_mean",
+     "variant": "as_written",
+     "component": "M",
+     "n_models": 14,
+     "reps": 1000,
+     "B": 2000,
+     "true_share": 0.0,
+     "mean_estimate": 0.01210653312842733,
+     "bias": 0.01210653312842733,
+     "sd_estimate": 0.00675436066106395,
+     "coverage": 0.0,
+     "lower_gt0_rate": 1.0,
+     "true_is_zero": true,
+     "false_positive_rate": 1.0,
+     "mean_lo": 0.04159078807708352,
+     "mean_hi": 0.10925012939567463,
+     "rank_applicable": false,
+     "rank_correct_rate": NaN,
+     "rank_correct_rate_any": 0.974,
+     "true_top_component": "MW"
+    }
+   },
+   "C4": {
+    "pass_": true,
+    "scenarios": {
+     "b": 1.0,
+     "c": 1.0,
+     "d": 1.0,
+     "e": 1.0,
+     "g": 1.0
+    },
+    "n_violations": 0
+   },
+   "overall": false
+  },
+  "untruncated": {
+   "C1": {
+    "pass_": false,
+    "n_cells": 63,
+    "n_violations": 1,
+    "worst": {
+     "scenario": "b",
+     "scenario_label": "W dominant",
+     "level": "pooled_mean",
+     "variant": "untruncated",
+     "component": "W",
+     "n_models": 14,
+     "reps": 1000,
+     "B": 2000,
+     "true_share": 0.7000000000000001,
+     "mean_estimate": 0.6659916972555191,
+     "bias": -0.03400830274448097,
+     "sd_estimate": 0.03651616748231277,
+     "coverage": 0.242,
+     "lower_gt0_rate": 1.0,
+     "true_is_zero": false,
+     "false_positive_rate": NaN,
+     "mean_lo": 0.5322482093826681,
+     "mean_hi": 0.6752408063086643,
+     "rank_applicable": true,
+     "rank_correct_rate": 1.0,
+     "rank_correct_rate_any": 1.0,
+     "true_top_component": "W"
+    }
+   },
+   "C2": {
+    "pass_": false,
+    "fraction": 0.25396825396825395,
+    "n_cells": 63,
+    "n_ok": 16
+   },
+   "C3": {
+    "pass_": false,
+    "n_cells": 19,
+    "n_violations": 11,
+    "worst": {
+     "scenario": "a",
+     "scenario_label": "residual only",
+     "level": "pooled_mean",
+     "variant": "untruncated",
+     "component": "M",
+     "n_models": 14,
+     "reps": 1000,
+     "B": 2000,
+     "true_share": 0.0,
+     "mean_estimate": 0.00035701035142472336,
+     "bias": 0.00035701035142472336,
+     "sd_estimate": 0.010512150378650734,
+     "coverage": 0.0,
+     "lower_gt0_rate": 1.0,
+     "true_is_zero": true,
+     "false_positive_rate": 1.0,
+     "mean_lo": 0.04017016965496508,
+     "mean_hi": 0.11172714835798413,
+     "rank_applicable": false,
+     "rank_correct_rate": NaN,
+     "rank_correct_rate_any": 0.48,
+     "true_top_component": "MW"
+    }
+   },
+   "C4": {
+    "pass_": true,
+    "scenarios": {
+     "b": 1.0,
+     "c": 1.0,
+     "d": 1.0,
+     "e": 1.0,
+     "g": 1.0
+    },
+    "n_violations": 0
+   },
+   "overall": false
+  },
+  "D1_centered": {
+   "C1": {
+    "pass_": true,
+    "n_cells": 63,
+    "n_violations": 0,
+    "worst": {
+     "scenario": "b",
+     "scenario_label": "W dominant",
+     "level": "pooled_mean",
+     "variant": "D1_centered",
+     "component": "W",
+     "n_models": 14,
+     "reps": 1000,
+     "B": 2000,
+     "true_share": 0.7000000000000001,
+     "mean_estimate": 0.7036808949483757,
+     "bias": 0.003680894948375646,
+     "sd_estimate": 0.03859687456148918,
+     "coverage": 0.934,
+     "lower_gt0_rate": 1.0,
+     "true_is_zero": false,
+     "false_positive_rate": NaN,
+     "mean_lo": 0.6255783415308628,
+     "mean_hi": 0.768570938456859,
+     "rank_applicable": true,
+     "rank_correct_rate": 1.0,
+     "rank_correct_rate_any": 1.0,
+     "true_top_component": "W"
+    }
+   },
+   "C2": {
+    "pass_": false,
+    "fraction": 0.5238095238095238,
+    "n_cells": 63,
+    "n_ok": 33
+   },
+   "C3": {
+    "pass_": false,
+    "n_cells": 19,
+    "n_violations": 3,
+    "worst": {
+     "scenario": "d",
+     "scenario_label": "O dominant (two-order items)",
+     "level": "pooled_mean",
+     "variant": "D1_centered",
+     "component": "W",
+     "n_models": 14,
+     "reps": 1000,
+     "B": 2000,
+     "true_share": 0.0,
+     "mean_estimate": -7.983852420154483e-05,
+     "bias": -7.983852420154483e-05,
+     "sd_estimate": 0.00348088051226882,
+     "coverage": 0.885,
+     "lower_gt0_rate": 0.058,
+     "true_is_zero": true,
+     "false_positive_rate": 0.058,
+     "mean_lo": -0.005567858633606104,
+     "mean_hi": 0.0053795267523287565,
+     "rank_applicable": true,
+     "rank_correct_rate": 1.0,
+     "rank_correct_rate_any": 1.0,
+     "true_top_component": "O"
+    }
+   },
+   "C4": {
+    "pass_": true,
+    "scenarios": {
+     "b": 1.0,
+     "c": 1.0,
+     "d": 1.0,
+     "e": 1.0,
+     "g": 1.0
+    },
+    "n_violations": 0
+   },
+   "overall": false
+  },
+  "D2_shrunk_centered": {
+   "C1": {
+    "pass_": true,
+    "n_cells": 63,
+    "n_violations": 0,
+    "worst": {
+     "scenario": "b",
+     "scenario_label": "W dominant",
+     "level": "pooled_mean",
+     "variant": "D2_shrunk_centered",
+     "component": "W",
+     "n_models": 14,
+     "reps": 1000,
+     "B": 2000,
+     "true_share": 0.7000000000000001,
+     "mean_estimate": 0.7036808949483757,
+     "bias": 0.003680894948375646,
+     "sd_estimate": 0.03859687456148918,
+     "coverage": 0.942,
+     "lower_gt0_rate": 1.0,
+     "true_is_zero": false,
+     "false_positive_rate": NaN,
+     "mean_lo": 0.6215204964069565,
+     "mean_hi": 0.7710843001384998,
+     "rank_applicable": true,
+     "rank_correct_rate": 1.0,
+     "rank_correct_rate_any": 1.0,
+     "true_top_component": "W"
+    }
+   },
+   "C2": {
+    "pass_": false,
+    "fraction": 0.7777777777777778,
+    "n_cells": 63,
+    "n_ok": 49
+   },
+   "C3": {
+    "pass_": true,
+    "n_cells": 19,
+    "n_violations": 0,
+    "worst": {
+     "scenario": "d",
+     "scenario_label": "O dominant (two-order items)",
+     "level": "pooled_mean",
+     "variant": "D2_shrunk_centered",
+     "component": "W",
+     "n_models": 14,
+     "reps": 1000,
+     "B": 2000,
+     "true_share": 0.0,
+     "mean_estimate": -7.983852420154483e-05,
+     "bias": -7.983852420154483e-05,
+     "sd_estimate": 0.00348088051226882,
+     "coverage": 0.914,
+     "lower_gt0_rate": 0.042,
+     "true_is_zero": true,
+     "false_positive_rate": 0.042,
+     "mean_lo": -0.006107282854466029,
+     "mean_hi": 0.005915337451561399,
+     "rank_applicable": true,
+     "rank_correct_rate": 1.0,
+     "rank_correct_rate_any": 1.0,
+     "true_top_component": "O"
+    }
+   },
+   "C4": {
+    "pass_": true,
+    "scenarios": {
+     "b": 1.0,
+     "c": 1.0,
+     "d": 1.0,
+     "e": 1.0,
+     "g": 1.0
+    },
+    "n_violations": 0
+   },
+   "overall": false
+  },
+  "A1": {
+   "C1": {
+    "pass_": true,
+    "n_cells": 63,
+    "n_violations": 0,
+    "worst": {
+     "scenario": "b",
+     "scenario_label": "W dominant",
+     "level": "pooled_mean",
+     "variant": "A1",
+     "component": "W",
+     "n_models": 14,
+     "reps": 1000,
+     "B": 2000,
+     "true_share": 0.7000000000000001,
+     "mean_estimate": 0.7036808949483757,
+     "bias": 0.003680894948375646,
+     "sd_estimate": 0.03859687456148918,
+     "coverage": 0.945,
+     "lower_gt0_rate": 1.0,
+     "true_is_zero": false,
+     "false_positive_rate": NaN,
+     "mean_lo": 0.6278497987265701,
+     "mean_hi": 0.7831186367598504,
+     "rank_applicable": true,
+     "rank_correct_rate": 1.0,
+     "rank_correct_rate_any": 1.0,
+     "true_top_component": "W"
+    }
+   },
+   "C2": {
+    "pass_": true,
+    "fraction": 0.9841269841269841,
+    "n_cells": 63,
+    "n_ok": 62
+   },
+   "C3": {
+    "pass_": true,
+    "n_cells": 19,
+    "n_violations": 0,
+    "worst": {
+     "scenario": "d",
+     "scenario_label": "O dominant (two-order items)",
+     "level": "pooled_mean",
+     "variant": "A1",
+     "component": "W",
+     "n_models": 14,
+     "reps": 1000,
+     "B": 2000,
+     "true_share": 0.0,
+     "mean_estimate": -7.983852420154483e-05,
+     "bias": -7.983852420154483e-05,
+     "sd_estimate": 0.00348088051226882,
+     "coverage": 0.928,
+     "lower_gt0_rate": 0.034,
+     "true_is_zero": true,
+     "false_positive_rate": 0.034,
+     "mean_lo": -0.007047274534181942,
+     "mean_hi": 0.0068140082312335695,
+     "rank_applicable": true,
+     "rank_correct_rate": 1.0,
+     "rank_correct_rate_any": 1.0,
+     "true_top_component": "O"
+    }
+   },
+   "C4": {
+    "pass_": true,
+    "scenarios": {
+     "b": 1.0,
+     "c": 1.0,
+     "d": 1.0,
+     "e": 1.0,
+     "g": 1.0
+    },
+    "n_violations": 0
+   },
+   "overall": true
+  }
+ }
+}

@@ -1,0 +1,47 @@
+{
+  "order": 26,
+  "study_id": "https://openalex.org/W7139936057",
+  "full_text": {"obtained": true, "source": "https://arxiv.org/pdf/2603.19087 (v3); research/sources/md/fulltext/026_W7139936057.md"},
+  "eligibility": {"decision": "YES", "failed_criterion": null, "borderline": true,
+                  "evidence": "Sec 1.4, 2.1: seven LLMs and 140 Prolific humans do an analogy-based cross-domain product-ideation task (random source vs user-need), modelled on analogical-design studies; rated for originality by humans."},
+  "A": {"doi": "10.48550/arxiv.2603.19087", "arxiv_id": "2603.19087",
+        "title": "Assessing the Effect of Cross-Domain Mapping on Creativity in Humans and Large Language Models",
+        "first_author": "Liu", "year": 2026, "venue": "arXiv (Cornell University)",
+        "peer_reviewed": "preprint", "first_author_field": "not_reported", "country": "United States"},
+  "B": {"models": [
+          {"name": "o3", "version": "o3", "access": "API", "params_b": null, "release_date": "not_reported", "tuning": "not_reported", "family": "GPT", "query_date": "not_reported"},
+          {"name": "Claude-Sonnet-4", "version": "Claude-Sonnet-4", "access": "API", "params_b": null, "release_date": "not_reported", "tuning": "not_reported", "family": "Claude", "query_date": "not_reported"},
+          {"name": "gpt-4o", "version": "gpt-4o", "access": "API", "params_b": null, "release_date": "not_reported", "tuning": "not_reported", "family": "GPT", "query_date": "not_reported"},
+          {"name": "gemini-2.5-pro", "version": "gemini-2.5-pro", "access": "API", "params_b": null, "release_date": "not_reported", "tuning": "not_reported", "family": "Gemini", "query_date": "not_reported"},
+          {"name": "deepseek-v3", "version": "deepseek-v3", "access": "open_weights", "params_b": null, "release_date": "not_reported", "tuning": "not_reported", "family": "other", "query_date": "not_reported"},
+          {"name": "Llama-3.3-70b", "version": "Llama-3.3-70b", "access": "open_weights", "params_b": 70, "release_date": "not_reported", "tuning": "not_reported", "family": "Llama", "query_date": "not_reported"},
+          {"name": "Qwen2.5-72B", "version": "Qwen2.5-72B", "access": "open_weights", "params_b": 72, "release_date": "not_reported", "tuning": "not_reported", "family": "Qwen", "query_date": "not_reported"}
+        ],
+        "n_models": 7, "n_model_families": 6},
+  "C": {"paradigms": [
+          {"pid": "P1", "name": "Cross-domain mapping (random inspiration source) vs user-need product ideation; originality of the idea rated by human judges", "family": "OTH",
+           "source_paper": "not_reported", "items_origin": "novel", "n_items": 100, "languages": ["English"], "modality": "text",
+           "contamination_risk": "no", "location": "Sec 1.4, 2.1 (10 targets x 26 sources, 100 sampled target-source pairs; 10 targets in user-need condition)"}
+        ]},
+  "D": {"types": ["own_sample"], "primary_type": "own_sample", "human_n": 140,
+        "population": "English-speaking adults on Prolific, mean age 43; ideas rated by a separate 1,002 Prolific raters (108 excluded)",
+        "metric": "mean originality rating (1-5 Likert, human raters) per idea, mixed-effects model"},
+  "E": {"outcome_types": ["effect_size", "other"], "rows_aggregated": false,
+        "effects": [
+          {"pid": "P1", "model": "o3", "model_family": "GPT", "outcome_kind": "effect", "basis": "test", "model_effect_present": "no", "human_effect_present": "yes", "direction": "not_applicable", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "different", "model_vs_human": "not_compared", "agreement_value": null, "label": "SUPER-NORMATIVE", "location": "Sec 3.4 (condition x source interaction b=0.48, p<.001); Sec 3.5 (o3 and Claude-Sonnet-4 pooled, all pairs b=0.02, p=.64; top 50% distant pairs b=0.12, p=.029); per-model estimates only in Fig 2"},
+          {"pid": "P1", "model": "Claude-Sonnet-4", "model_family": "Claude", "outcome_kind": "effect", "basis": "test", "model_effect_present": "no", "human_effect_present": "yes", "direction": "not_applicable", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "different", "model_vs_human": "not_compared", "agreement_value": null, "label": "SUPER-NORMATIVE", "location": "Sec 3.4; Sec 3.5 (pooled with o3, all pairs b=0.02, p=.64; top 50% distant b=0.12, p=.029); per-model estimates only in Fig 2"},
+          {"pid": "P1", "model": "gpt-4o", "model_family": "GPT", "outcome_kind": "effect", "basis": null, "model_effect_present": "not_reported", "human_effect_present": "yes", "direction": "not_reported", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "INSUFFICIENT", "location": "Sec 3.3-3.4: only pooled-LLM test in text (no overall benefit); per-model values only in Fig 2 (not in text)"},
+          {"pid": "P1", "model": "gemini-2.5-pro", "model_family": "Gemini", "outcome_kind": "effect", "basis": null, "model_effect_present": "not_reported", "human_effect_present": "yes", "direction": "not_reported", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "INSUFFICIENT", "location": "Sec 3.3-3.4: only pooled-LLM test in text; per-model values only in Fig 2"},
+          {"pid": "P1", "model": "deepseek-v3", "model_family": "other", "outcome_kind": "effect", "basis": null, "model_effect_present": "not_reported", "human_effect_present": "yes", "direction": "not_reported", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "INSUFFICIENT", "location": "Sec 3.3-3.4: only pooled-LLM test in text; per-model values only in Fig 2"},
+          {"pid": "P1", "model": "Llama-3.3-70b", "model_family": "Llama", "outcome_kind": "effect", "basis": null, "model_effect_present": "not_reported", "human_effect_present": "yes", "direction": "not_reported", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "INSUFFICIENT", "location": "Sec 3.3-3.4: only pooled-LLM test in text; per-model values only in Fig 2"},
+          {"pid": "P1", "model": "Qwen2.5-72B", "model_family": "Qwen", "outcome_kind": "effect", "basis": null, "model_effect_present": "not_reported", "human_effect_present": "yes", "direction": "not_reported", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "INSUFFICIENT", "location": "Sec 3.3-3.4: only pooled-LLM test in text; per-model values only in Fig 2"}
+        ],
+        "headline": "Cross-domain mapping raised originality for humans but gave LLMs no overall benefit; LLMs were more original than humans, and only top LLMs gained from distant sources."},
+  "F": {"f1": "no", "f2": "no", "f3": "no", "f4": "no", "f5": "no", "f6": "na", "f7": "no", "f8": "no",
+        "f9": "no", "f10": "yes", "f11": "yes", "f12": "yes",
+        "perturbations_tested": ["persona", "other"],
+        "robustness_outcome": "na"},
+  "G": {"notes": "LLM prompts, temperature, snapshots, dates and number of draws not given in the text read (Supplement not in the markdown); per-model effects only in Fig 2. o3 rephrased all ideas and was also a subject. First-author coded structure transfer alone (no reliability). Preregistration covers the rating study.",
+        "extractor": "paper-reader (claude-sonnet)", "date": "2026-10-16", "minutes": 6,
+        "sections_read": ["Abstract", "Introduction 1.1-1.4", "Methods 2.1-2.2", "Results 3.1-3.7", "Discussion 4.1-4.4", "Data availability statement"]}
+}

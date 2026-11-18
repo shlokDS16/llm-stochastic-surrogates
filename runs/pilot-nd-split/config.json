@@ -1,0 +1,24 @@
+{
+ "script": "analysis/pilot/nd_split.py",
+ "script_sha256": "b31f50155ea8ff23ed805598da721b7dfe759304f25be8efbfc4e1323027cdd6",
+ "python": "3.12.14",
+ "inputs_sha256": {
+  "runs/pilot-side-by-side/fig_inputs/fig11_forest.csv": "93cf1e84d8a818779c1a2977152fe73d347977f631bdceda240666d3d0e3805c",
+  "runs/pilot-side-by-side/fig_inputs/fig12_variance_terms.csv": "7e38786889030a45adc6f31d4f63afdaef073bfaee7daf8b4a74be502efdc76e"
+ },
+ "nd_definition": "nd_flag_any from analysis/pilot/diagnose_near_deterministic.py (any flagged cell in the grid), as stored in fig11_forest.csv",
+ "wording_dominated": "share of term W (corrected SS of the wording main effect over total corrected SS) >= 0.5, among grids with shares_reportable",
+ "thresholds_sensitivity": [
+  0.4,
+  0.5,
+  0.6
+ ],
+ "label": "descriptive over cells; shares are not variance components (prereg section 6)",
+ "outputs": [
+  "grids.csv",
+  "summary.csv",
+  "summary.md",
+  "config.json",
+  "log.txt"
+ ]
+}

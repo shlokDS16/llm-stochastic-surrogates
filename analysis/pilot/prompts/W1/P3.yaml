@@ -1,0 +1,10 @@
+paradigm: P3
+wording: W1
+response_type: rating
+conditions:
+  x1: Suppose your favorite football team is playing an important game. You hold a ticket to the game that you paid handsomely for. On the day of the game, however, it happens to be freezing cold. What do you do?
+  x0: Suppose your favorite football team is playing an important game. You hold a ticket to the game that you received for free from a friend. On the day of the game, however, it happens to be freezing cold. What do you do?
+condition_names:
+  x1: paid ticket
+  x0: free ticket
+scale: Answer on a scale from 1 to 9, where 1 means definitely stay at home and 9 means definitely go to the game.

@@ -1,0 +1,39 @@
+{
+ "order": 110,
+ "study_id": "https://openalex.org/W4412944072",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/110_W4412944072.md",
+ "sources_varied": [
+  "M",
+  "O"
+ ],
+ "X1": {
+  "value": "yes",
+  "sources_crossed": [
+   "M",
+   "O"
+  ],
+  "evidence": "Sec 3 (p.3): prompt for every permutation of the order of strategy labels, 108 experiments per permutation set, for five model families and several sizes."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "O",
+   "M"
+  ],
+  "evidence": "Sec 4, Fig 2: sensitivity of preferences to arbitrary labels computed per model and shown to decrease with model size."
+ },
+ "X3": {
+  "value": "yes",
+  "x3_pairs": [
+   "M x O"
+  ],
+  "evidence": "Fig 2 (p.4): label sensitivity falls as models get larger; descriptive."
+ },
+ "notes": ""
+}

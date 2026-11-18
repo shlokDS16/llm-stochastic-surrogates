@@ -1,0 +1,37 @@
+{
+ "order": 15,
+ "study_id": "https://openalex.org/W7133223423",
+ "pass": "codex",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/015_W7133223423.md",
+ "sources_varied": [
+  "M",
+  "W",
+  "O",
+  "T"
+ ],
+ "X1": {
+  "value": "partial",
+  "sources_crossed": [],
+  "evidence": "Sec. 5.1, Table 3 and Appendix B.3: multiple models were run; GPT-3 and InstructGPT were evaluated under four prompt paraphrases. Appendix A.2.1 randomizes property-damage item order; Appendix B.1 sets GPT temperature to zero, so neither O nor T was varied."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "W"
+  ],
+  "evidence": "Sec. 5.1, Table 3: reports mean and variance of each method's performance across four prompt paraphrases."
+ },
+ "X3": {
+  "value": "yes",
+  "x3_pairs": [
+   "M x W"
+  ],
+  "evidence": "Sec. 5.1, Table 3: performance is reported across four prompt paraphrases separately for each model, showing model-by-wording cells."
+ },
+ "notes": "O was randomized for property-damage items, but the paper does not report analyzing order-related variation. T was fixed at zero."
+}

@@ -1,0 +1,246 @@
+{
+ "order": 30,
+ "study_id": "https://openalex.org/W4392811684",
+ "full_text": {
+  "obtained": true,
+  "source": "research/sources/md/fulltext/030_W4392811684.md"
+ },
+ "eligibility": {
+  "decision": "YES",
+  "failed_criterion": null,
+  "borderline": false,
+  "evidence": "Sections 2–4: ChatGPT-3.5 and GPT-4 were administered human theory-of-mind paradigms, with results compared against published human norms."
+ },
+ "A": {
+  "doi": "10.1007/978-3-031-55245-8_7",
+  "arxiv_id": null,
+  "title": "Can a Conversational Agent Pass Theory-of-Mind Tasks? A Case Study of ChatGPT with the Hinting, False Beliefs, and Strange Stories Paradigms",
+  "first_author": "Eric Brunet-Gouet",
+  "year": 2024,
+  "venue": "International Conference on Human and Artificial Rationalities, Lecture Notes in Computer Science vol. 14522, Springer",
+  "peer_reviewed": "yes",
+  "first_author_field": "not_reported",
+  "country": "France"
+ },
+ "B": {
+  "models": [
+   {
+    "name": "ChatGPT-3.5",
+    "version": "Dec 15th 2023 version (paper notes limitation dates Dec 2022 and Jan 2023); Jan 09th and 30th versions used for a subpart",
+    "access": "API",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "GPT",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "GPT-4",
+    "version": "GPT-4-0314",
+    "access": "API",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "GPT",
+    "query_date": "April 2023"
+   }
+  ],
+  "n_models": 2,
+  "n_model_families": 1
+ },
+ "C": {
+  "paradigms": [
+   {
+    "pid": "P1",
+    "name": "Hinting Task",
+    "family": "TOM",
+    "source_paper": "Corcoran, Mercer, and Frith (1995); revised scoring norms from Klein et al. (2020)",
+    "items_origin": "mixed",
+    "n_items": 10,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "partly",
+    "location": "Sections 2.1–2.2, 3.1–3.2"
+   },
+   {
+    "pid": "P2",
+    "name": "False Beliefs and False Photographs Task",
+    "family": "TOM",
+    "source_paper": "Classic false-belief paradigms cited: Wimmer (1983); Baron-Cohen et al. (1985); Perner and Wimmer (1985); study's task designed specifically for ChatGPT",
+    "items_origin": "mixed",
+    "n_items": null,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "partly",
+    "location": "Sections 2.1–2.2, 3.1–3.2"
+   },
+   {
+    "pid": "P3",
+    "name": "Strange Stories Mental and Physical Task",
+    "family": "TOM",
+    "source_paper": "Happé (1994); White et al. (2009)",
+    "items_origin": "verbatim",
+    "n_items": 16,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "yes",
+    "location": "Sections 2.1–2.2"
+   }
+  ]
+ },
+ "D": {
+  "types": [
+   "published_norms"
+  ],
+  "primary_type": "published_norms",
+  "human_n": 661,
+  "population": "Healthy subjects (n=286) and patients with chronic schizophrenia (n=375), from Klein et al. (2020)",
+  "metric": "Hinting Task scores using Corcoran and Klein scoring systems; model and human score comparison"
+ },
+ "E": {
+  "outcome_types": [
+   "accuracy",
+   "bias_magnitude"
+  ],
+  "rows_aggregated": false,
+  "effects": [
+   {
+    "pid": "P1",
+    "model": "ChatGPT-3.5",
+    "model_family": "GPT",
+    "outcome_kind": "accuracy",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "different",
+    "model_vs_human": "below",
+    "agreement_value": null,
+    "label": "BELOW-HUMAN",
+    "location": "Section 2.2: best Hinting scores 10/20 and 8–9/20 versus healthy norms 17.9/20 and 16/20; z-scores -2.4 and -2.8"
+   },
+   {
+    "pid": "P2",
+    "model": "ChatGPT-3.5",
+    "model_family": "GPT",
+    "outcome_kind": "accuracy",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "INSUFFICIENT",
+    "location": "Section 2.2: EXPECT 100% correct; LOOK 0% correct; no human comparison"
+   },
+   {
+    "pid": "P3",
+    "model": "ChatGPT-3.5",
+    "model_family": "GPT",
+    "outcome_kind": "accuracy",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "INSUFFICIENT",
+    "location": "Section 2.2: Mental 13/16 and Physical 12/16; no human comparison"
+   },
+   {
+    "pid": "P1",
+    "model": "GPT-4-0314",
+    "model_family": "GPT",
+    "outcome_kind": "accuracy",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "different",
+    "model_vs_human": "below",
+    "agreement_value": null,
+    "label": "BELOW-HUMAN",
+    "location": "Sections 3.2–3.3: mean Klein score 13.4 (SD 1.3); healthy controls comparison z=-1.04"
+   },
+   {
+    "pid": "P2",
+    "model": "GPT-4-0314",
+    "model_family": "GPT",
+    "outcome_kind": "accuracy",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "INSUFFICIENT",
+    "location": "Section 3.2: maximum performance on first- and second-order false-belief tests; failed Visibility and second-order Different Place; no human comparison"
+   }
+  ],
+  "headline": "ChatGPT-4 improved over ChatGPT-3.5 on Hinting and false-belief tasks, but remained below healthy Hinting norms and failed some practical or complex conditions."
+ },
+ "F": {
+  "f1": "no",
+  "f2": "no",
+  "f3": "yes",
+  "f4": "no",
+  "f5": "no",
+  "f6": "na",
+  "f7": "no",
+  "f8": "yes",
+  "f9": "yes",
+  "f10": "yes",
+  "f11": "no",
+  "f12": "yes",
+  "perturbations_tested": [
+   "wording",
+   "model_version",
+   "contamination"
+  ],
+  "robustness_outcome": "weakened"
+ },
+ "G": {
+  "notes": "The tables and supplementary results are unavailable in the supplied text, limiting item-level extraction. The paper gives conflicting ChatGPT-3.5 dates and does not report decoding settings. Strange Stories contamination is acknowledged; the False Beliefs task was newly designed but lacks validation.",
+  "extractor": "codex (default)",
+  "date": "2026-10-17",
+  "minutes": 0.5,
+  "sections_read": [
+   "Abstract",
+   "Introduction",
+   "Experiment 1 Methods",
+   "Experiment 1 Results",
+   "Experiment 1 Discussion",
+   "Experiment 2 Methods",
+   "Experiment 2 Results",
+   "Experiment 2 Discussion",
+   "General Discussion",
+   "Limitations",
+   "Conclusion",
+   "Ethical Statement"
+  ]
+ }
+}

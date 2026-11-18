@@ -1,0 +1,32 @@
+{
+ "order": 115,
+ "study_id": "https://openalex.org/W4402671882",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/115_W4402671882.md",
+ "sources_varied": [
+  "M",
+  "R"
+ ],
+ "X1": {
+  "value": "yes",
+  "sources_crossed": [
+   "M",
+   "R"
+  ],
+  "evidence": "Sec 3 (p.4-5): five models each solve the propositional problems across five random seeds at T = 0.6 with nucleus sampling; Table 1 and Table 4 report seed means and standard deviations."
+ },
+ "X2": {
+  "value": "no",
+  "x2_types": [],
+  "x2_sources": [],
+  "evidence": "Table 4 gives standard deviations across seeds per model; no variance share, test or attributed change."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "R counts because seed variation is reported."
+ },
+ "notes": ""
+}

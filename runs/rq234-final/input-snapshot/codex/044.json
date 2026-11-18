@@ -1,0 +1,336 @@
+{
+ "order": 44,
+ "study_id": "https://openalex.org/W4389518675",
+ "full_text": {
+  "obtained": true,
+  "source": "research/sources/md/fulltext/044_W4389518675.md"
+ },
+ "eligibility": {
+  "decision": "YES",
+  "failed_criterion": null,
+  "borderline": true,
+  "evidence": "Sections 3–5 and Limitations: evaluates four vision-language model series on visual-illusion tasks grounded in named human illusion paradigms; human responses are author annotations, not a new participant study."
+ },
+ "A": {
+  "doi": null,
+  "arxiv_id": "2301.07400",
+  "title": "Grounding Visual Illusions in Language: Do Vision-Language Models Perceive Illusions Like Humans?",
+  "first_author": "Yichi Zhang",
+  "year": 2023,
+  "venue": "arXiv preprint",
+  "peer_reviewed": "preprint",
+  "first_author_field": "not_reported",
+  "country": "United States"
+ },
+ "B": {
+  "models": [
+   {
+    "name": "OFA",
+    "version": "Tiny (33M)",
+    "access": "open_weights",
+    "params_b": 0.033,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "OFA",
+    "version": "Base (93M)",
+    "access": "open_weights",
+    "params_b": 0.093,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "OFA",
+    "version": "Large (470M)",
+    "access": "open_weights",
+    "params_b": 0.47,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "OFA",
+    "version": "Huge (930M)",
+    "access": "open_weights",
+    "params_b": 0.93,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Unified-IO",
+    "version": "Small (71M)",
+    "access": "open_weights",
+    "params_b": 0.071,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Unified-IO",
+    "version": "Base (241M)",
+    "access": "open_weights",
+    "params_b": 0.241,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Unified-IO",
+    "version": "Large (776M)",
+    "access": "open_weights",
+    "params_b": 0.776,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Unified-IO",
+    "version": "XL (2925M)",
+    "access": "open_weights",
+    "params_b": 2.925,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "LLaVA",
+    "version": "Vicuna-7B",
+    "access": "open_weights",
+    "params_b": 7,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "LLaVA",
+    "version": "Vicuna-13B",
+    "access": "open_weights",
+    "params_b": 13,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "InstructBLIP",
+    "version": "Vicuna-7B",
+    "access": "open_weights",
+    "params_b": 7,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "InstructBLIP",
+    "version": "Vicuna-13B",
+    "access": "open_weights",
+    "params_b": 13,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "other",
+    "query_date": "not_reported"
+   }
+  ],
+  "n_models": 12,
+  "n_model_families": 1
+ },
+ "C": {
+  "paradigms": [
+   {
+    "pid": "P1",
+    "name": "Same-Different Question Answering (SameDiffQA) across five visual illusion categories",
+    "family": "OTH",
+    "source_paper": "Classic illusion paradigms cited in Section 3: Adelson (1995); Delboeuf (1865); Jastrow (1892); Müller-Lyer (1889); Ponzo (1911)",
+    "items_origin": "mixed",
+    "n_items": 1600,
+    "languages": [
+     "English"
+    ],
+    "modality": "image plus text",
+    "contamination_risk": "partly",
+    "location": "Sections 3.1–3.2; Table 2; Figure 3"
+   },
+   {
+    "pid": "P2",
+    "name": "Referential Question Answering (RefQA) across five visual illusion categories",
+    "family": "OTH",
+    "source_paper": "Classic illusion paradigms cited in Section 3: Adelson (1995); Delboeuf (1865); Jastrow (1892); Müller-Lyer (1889); Ponzo (1911)",
+    "items_origin": "mixed",
+    "n_items": 1600,
+    "languages": [
+     "English"
+    ],
+    "modality": "image plus text",
+    "contamination_risk": "partly",
+    "location": "Sections 3.1–3.2; Table 2; Figure 4"
+   },
+   {
+    "pid": "P3",
+    "name": "Attribute Question Answering (AttrQA) across five visual illusion categories",
+    "family": "OTH",
+    "source_paper": "Classic illusion paradigms cited in Section 3: Adelson (1995); Delboeuf (1865); Jastrow (1892); Müller-Lyer (1889); Ponzo (1911)",
+    "items_origin": "mixed",
+    "n_items": 1600,
+    "languages": [
+     "English"
+    ],
+    "modality": "image plus text",
+    "contamination_risk": "partly",
+    "location": "Sections 3.1–3.2; Table 2; Figure 4"
+   },
+   {
+    "pid": "P4",
+    "name": "Referential Localization (RefLoc) across five visual illusion categories",
+    "family": "OTH",
+    "source_paper": "Classic illusion paradigms cited in Section 3: Adelson (1995); Delboeuf (1865); Jastrow (1892); Müller-Lyer (1889); Ponzo (1911)",
+    "items_origin": "mixed",
+    "n_items": 1600,
+    "languages": [
+     "English"
+    ],
+    "modality": "image plus text",
+    "contamination_risk": "partly",
+    "location": "Sections 3.1–3.2; Table 2; Figure 4"
+   }
+  ]
+ },
+ "D": {
+  "types": [
+   "crowd_norms"
+  ],
+  "primary_type": "crowd_norms",
+  "human_n": 3,
+  "population": "At least three human annotators from the author team verified annotations; no external human participants",
+  "metric": "Percentage of model responses matching human-annotated answers (humanlike rate)"
+ },
+ "E": {
+  "outcome_types": [
+   "human_correlation",
+   "choice_distribution"
+  ],
+  "rows_aggregated": true,
+  "effects": [
+   {
+    "pid": "P1",
+    "model": "OFA Huge (930M)",
+    "model_family": "other",
+    "outcome_kind": "agreement",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": "humanlike response rate (%)",
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": 15,
+    "label": "AGREEMENT-ONLY",
+    "location": "Figure 5; Section 5.1"
+   },
+   {
+    "pid": "P2",
+    "model": "OFA Huge (930M)",
+    "model_family": "other",
+    "outcome_kind": "agreement",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": "humanlike response rate (%)",
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": 14,
+    "label": "AGREEMENT-ONLY",
+    "location": "Figure 6; Section 5.2"
+   },
+   {
+    "pid": "P3",
+    "model": "OFA Huge (930M)",
+    "model_family": "other",
+    "outcome_kind": "agreement",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": "humanlike response rate (%)",
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": 11.2,
+    "label": "AGREEMENT-ONLY",
+    "location": "Figure 6; Section 5.2"
+   },
+   {
+    "pid": "P4",
+    "model": "OFA Huge (930M)",
+    "model_family": "other",
+    "outcome_kind": "agreement",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": "humanlike response rate (%)",
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": 44.5,
+    "label": "AGREEMENT-ONLY",
+    "location": "Figure 6; Section 5.2"
+   }
+  ],
+  "headline": "Models showed low overall alignment with human illusion responses; localization aligned better than visual question answering, and humanlike alignment tended to increase with model scale."
+ },
+ "F": {
+  "f1": "no",
+  "f2": "no",
+  "f3": "no",
+  "f4": "yes",
+  "f5": "yes",
+  "f6": "yes",
+  "f7": "no",
+  "f8": "no",
+  "f9": "no",
+  "f10": "yes",
+  "f11": "no",
+  "f12": "yes",
+  "perturbations_tested": [
+   "wording",
+   "option_order"
+  ],
+  "robustness_outcome": "not_reported"
+ },
+ "G": {
+  "notes": "The dataset's human labels were verified by author-team annotators, and the authors acknowledge illusion effects were not validated in a wider human sample. Figure values and model-to-family assignments are difficult to recover from the text extraction; confirm precise rates against the original figures before quantitative synthesis.",
+  "extractor": "codex (default)",
+  "date": "2026-10-16",
+  "minutes": 0.7,
+  "sections_read": [
+   "Abstract",
+   "Sections 1–6",
+   "Tables 2–4",
+   "Figures 1–9",
+   "Limitations",
+   "Ethics Statement",
+   "Appendix A statistical analysis"
+  ]
+ }
+}

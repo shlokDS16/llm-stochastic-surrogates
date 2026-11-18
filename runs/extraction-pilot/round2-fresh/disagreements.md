@@ -1,0 +1,46 @@
+# Disagreements (pilot orders [18, 19, 23, 24, 25]; both YES: [19, 23, 24, 25]; effect keys matched 5, unmatched 10)
+
+- eligibility.decision [18]: claude=yes codex=no
+- A.peer_reviewed [23]: claude=preprint codex=yes
+- A.peer_reviewed [24]: claude=preprint codex=yes
+- F.f1 [19]: claude=yes codex=no
+- F.f1 [23]: claude=no codex=yes
+- F.f2 [19]: claude=na codex=no
+- F.f3 [23]: claude=no codex=yes
+- F.f4 [24]: claude=no codex=yes
+- F.f5 [19]: claude=yes codex=no
+- F.f6 [19]: claude=na codex=no
+- F.f6 [23]: claude=no codex=na
+- F.f6 [24]: claude=na codex=no
+- F.f6 [25]: claude=yes codex=na
+- F.f8 [19]: claude=yes codex=no
+- F.f8 [23]: claude=no codex=yes
+- F.f10 [25]: claude=no codex=yes
+- F.f12 [24]: claude=no codex=yes
+- F.f12 [25]: claude=no codex=yes
+- F.robustness_outcome [19]: claude=mixed codex=weakened
+- F.robustness_outcome [24]: claude=na codex=weakened
+- F.robustness_outcome [25]: claude=reversed codex=weakened
+- C.family_presence (pooled) [25:HB]: claude=True codex=False
+- C.family_presence (pooled) [25:OTH]: claude=False codex=True
+- F.perturbations_tested (pooled) [19:model_version]: claude=True codex=False
+- F.perturbations_tested (pooled) [19:other]: claude=True codex=False
+- F.perturbations_tested (pooled) [23:other]: claude=False codex=True
+- F.perturbations_tested (pooled) [24:model_version]: claude=False codex=True
+- F.perturbations_tested (pooled) [25:option_order]: claude=True codex=False
+- F.perturbations_tested (pooled) [25:seeds]: claude=False codex=True
+- E.outcome_kind [23:JDM/GPT]: claude=accuracy codex=effect
+- E.outcome_kind [23:JDM/Gemini]: claude=accuracy codex=agreement
+- E.model_effect_present [23:JDM/GPT]: claude=na codex=yes
+- E.model_effect_present [24:HB/Llama]: claude=no codex=yes
+- E.human_effect_present [23:JDM/GPT]: claude=na codex=yes
+- E.direction [23:JDM/GPT]: claude=not_applicable codex=same
+- E.direction [24:HB/Claude]: claude=opposite codex=same
+- E.direction [24:HB/Llama]: claude=not_applicable codex=same
+- E.model_vs_human [23:JDM/GPT]: claude=above codex=not_compared
+- E.model_vs_human [23:JDM/Gemini]: claude=above codex=not_compared
+- E.authors_comparison [23:JDM/Gemini]: claude=not_tested codex=different
+- E.label [23:JDM/GPT]: claude=above-human codex=same-direction-unquantified
+- E.label [23:JDM/Gemini]: claude=above-human codex=agreement-only
+- E.label [24:HB/Claude]: claude=different codex=same-direction-unquantified
+- E.label [24:HB/Llama]: claude=super-normative codex=same-direction-unquantified

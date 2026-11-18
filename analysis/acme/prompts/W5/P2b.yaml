@@ -1,0 +1,11 @@
+paradigm: P2b
+wording: W5
+response_type: number
+intro: The beliefs that people hold about the world around them are of interest to us. For the question below, your most accurate estimate is requested. Should the correct answer be unknown to you, you are asked simply to offer your best conjecture.
+conditions:
+  x1: The population of Chicago is known to be below 5,000,000. What is your estimate of the number of residents of Chicago?
+  x0: The population of Chicago is known to be above 200,000. What is your estimate of the number of residents of Chicago?
+condition_names:
+  x1: high anchor
+  x0: low anchor
+baseline: What is your estimate of the number of residents of Chicago?

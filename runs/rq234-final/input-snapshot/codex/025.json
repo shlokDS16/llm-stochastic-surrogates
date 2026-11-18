@@ -1,0 +1,420 @@
+{
+ "order": 25,
+ "study_id": "https://openalex.org/W4399354223",
+ "full_text": {
+  "obtained": true,
+  "source": "research/sources/md/fulltext/025_W4399354223.md"
+ },
+ "eligibility": {
+  "decision": "YES",
+  "failed_criterion": null,
+  "borderline": false,
+  "evidence": "Abstract and Methods: tests language models on human random-sequence-generation paradigms and compares their outputs with published human behavioral data."
+ },
+ "A": {
+  "doi": null,
+  "arxiv_id": "2406.00092",
+  "title": "Heads, Tails, and AI Fails: LLMs, Randomness, and Human Judgments",
+  "first_author": "Katherine Van Koevering",
+  "year": 2024,
+  "venue": "arXiv preprint",
+  "peer_reviewed": "preprint",
+  "first_author_field": "not_reported",
+  "country": "USA"
+ },
+ "B": {
+  "models": [
+   {
+    "name": "GPT-3.5 Turbo",
+    "version": "gpt-35-turbo-0613",
+    "access": "API",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "GPT",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "GPT-4",
+    "version": "gpt-4-0613",
+    "access": "API",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "GPT",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Llama 3",
+    "version": "meta-llama/Llama-3-70b-chat-hf",
+    "access": "open_weights",
+    "params_b": 70,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "Llama",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Llama 3.1",
+    "version": "meta-llama/Meta-Llama-3-70B-Instruct-Lite",
+    "access": "open_weights",
+    "params_b": 70,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "Llama",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Gemma 2",
+    "version": "gemma-2-27b-it",
+    "access": "open_weights",
+    "params_b": 27,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Qwen 2.5",
+    "version": "Qwen/Qwen2.5-7B-Instruct",
+    "access": "open_weights",
+    "params_b": 7,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "Qwen",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "GPT-4o-mini",
+    "version": "not_reported",
+    "access": "not_reported",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "GPT",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Llama 3",
+    "version": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "access": "open_weights",
+    "params_b": 8,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "Llama",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Llama 3.1",
+    "version": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "access": "open_weights",
+    "params_b": 8,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "Llama",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Llama 3.2",
+    "version": "meta-llama/Llama-3.2-3B-Instruct",
+    "access": "open_weights",
+    "params_b": 3,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "Llama",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Gemma 2",
+    "version": "google/gemma-2-9b-it",
+    "access": "open_weights",
+    "params_b": 9,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "other",
+    "query_date": "not_reported"
+   }
+  ],
+  "n_models": 11,
+  "n_model_families": 4
+ },
+ "C": {
+  "paradigms": [
+   {
+    "pid": "P1",
+    "name": "Production of binary random sequences (coin-flip and semantically framed variants)",
+    "family": "OTH",
+    "source_paper": "Nickerson (2002); Nickerson and Butler (2009); original paradigm references also include Bar-Hillel et al. (2014) and Kleinberg et al. (2017)",
+    "items_origin": "adapted",
+    "n_items": null,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "partly",
+    "location": "Sections 3.1–3.2, 4.4, Appendix A.3, Table 5"
+   }
+  ]
+ },
+ "D": {
+  "types": [
+   "published_norms"
+  ],
+  "primary_type": "published_norms",
+  "human_n": null,
+  "population": "Participants in previously published human studies of binary random-sequence generation; details and sample sizes not reported here",
+  "metric": "Sequence statistics, including first-flip proportions, alternation rates, run distributions, and predictability"
+ },
+ "E": {
+  "outcome_types": [
+   "bias_magnitude",
+   "choice_distribution",
+   "effect_size",
+   "other"
+  ],
+  "rows_aggregated": false,
+  "effects": [
+   {
+    "pid": "P1",
+    "model": "GPT-3.5 Turbo (gpt-35-turbo-0613)",
+    "model_family": "GPT",
+    "outcome_kind": "effect",
+    "basis": "descriptive",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Sections 3.1–3.2.5: temperature-dependent heads-first, tails, and sequence-statistic findings"
+   },
+   {
+    "pid": "P1",
+    "model": "GPT-4 (gpt-4-0613)",
+    "model_family": "GPT",
+    "outcome_kind": "effect",
+    "basis": "descriptive",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Sections 3.1–3.2.5: sequence statistics and comparisons with published human judgments"
+   },
+   {
+    "pid": "P1",
+    "model": "Llama 3 (meta-llama/Llama-3-70b-chat-hf)",
+    "model_family": "Llama",
+    "outcome_kind": "effect",
+    "basis": "descriptive",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Sections 3.1–3.2.5; Table 1: sequence statistics compared with published human data"
+   },
+   {
+    "pid": "P1",
+    "model": "Llama 3.1 (meta-llama/Meta-Llama-3-70B-Instruct-Lite)",
+    "model_family": "Llama",
+    "outcome_kind": "effect",
+    "basis": "descriptive",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Sections 3.1–3.2.5; Tables 1–2: sequence statistics compared with published human data"
+   },
+   {
+    "pid": "P1",
+    "model": "Gemma 2 (gemma-2-27b-it)",
+    "model_family": "other",
+    "outcome_kind": "effect",
+    "basis": "descriptive",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Sections 3.1–3.2.5: sequence statistics and comparisons with published human judgments"
+   },
+   {
+    "pid": "P1",
+    "model": "Qwen 2.5 (Qwen/Qwen2.5-7B-Instruct)",
+    "model_family": "Qwen",
+    "outcome_kind": "effect",
+    "basis": "descriptive",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Sections 3.1–3.2.5: sequence statistics and comparisons with published human judgments"
+   },
+   {
+    "pid": "P1",
+    "model": "GPT-4o-mini (version not reported)",
+    "model_family": "GPT",
+    "outcome_kind": "effect",
+    "basis": "descriptive",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Appendix C.5, Table 25: framing perturbation results"
+   },
+   {
+    "pid": "P1",
+    "model": "Llama 3 (meta-llama/Meta-Llama-3-8B-Instruct)",
+    "model_family": "Llama",
+    "outcome_kind": "effect",
+    "basis": "descriptive",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Sections 4.1–4.5; Appendix C, Tables 13–25"
+   },
+   {
+    "pid": "P1",
+    "model": "Llama 3.1 (meta-llama/Meta-Llama-3.1-8B-Instruct)",
+    "model_family": "Llama",
+    "outcome_kind": "effect",
+    "basis": "descriptive",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Sections 4.1–4.5; Appendix C, Tables 13–25"
+   },
+   {
+    "pid": "P1",
+    "model": "Llama 3.2 (meta-llama/Llama-3.2-3B-Instruct)",
+    "model_family": "Llama",
+    "outcome_kind": "effect",
+    "basis": "descriptive",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Appendix C, Tables 13 and 20: tokenization and layer-probing experiments"
+   },
+   {
+    "pid": "P1",
+    "model": "Gemma 2 (google/gemma-2-9b-it)",
+    "model_family": "other",
+    "outcome_kind": "effect",
+    "basis": "descriptive",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Sections 4.1–4.5; Appendix C, Tables 13–20"
+   }
+  ],
+  "headline": "Across tested models, generated binary sequences showed systematic structure and several human-like randomness biases, often in amplified or model-specific forms."
+ },
+ "F": {
+  "f1": "no",
+  "f2": "yes",
+  "f3": "yes",
+  "f4": "yes",
+  "f5": "yes",
+  "f6": "na",
+  "f7": "yes",
+  "f8": "yes",
+  "f9": "yes",
+  "f10": "yes",
+  "f11": "no",
+  "f12": "yes",
+  "perturbations_tested": [
+   "wording",
+   "response_format",
+   "decoding",
+   "seeds",
+   "model_version",
+   "contamination",
+   "other"
+  ],
+  "robustness_outcome": "weakened"
+ },
+ "G": {
+  "notes": "Human comparisons rely on heterogeneous earlier studies, with no participant counts reported. Model access, decoding defaults, and some checkpoint details vary across phases; the authors note API behavior and invalid responses may affect estimates.",
+  "extractor": "codex (default)",
+  "date": "2026-10-16",
+  "minutes": 0.8,
+  "sections_read": [
+   "Abstract",
+   "Introduction",
+   "Related Work",
+   "Methods",
+   "Results",
+   "Limitations",
+   "Appendix A",
+   "Appendix B",
+   "Appendix C",
+   "Data and code availability"
+  ]
+ }
+}

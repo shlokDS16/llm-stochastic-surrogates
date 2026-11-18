@@ -1,0 +1,14 @@
+{
+ "all_criteria_pass": {
+  "percentile": false,
+  "basic": false
+ },
+ "reps": 500,
+ "B": 2000,
+ "n": 50,
+ "families": [
+  "binary",
+  "normal",
+  "skew"
+ ]
+}

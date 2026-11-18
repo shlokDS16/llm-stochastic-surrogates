@@ -1,0 +1,28 @@
+{
+ "order": 133,
+ "study_id": "https://openalex.org/W4411113330",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/133_W4411113330.md",
+ "sources_varied": [
+  "M"
+ ],
+ "X1": {
+  "value": "no",
+  "sources_crossed": [],
+  "evidence": "Extended abstract (p.1-2): three LLMs on the contrast-prediction items in written and spoken-normalized forms; modality and sentence structure are the manipulated conditions."
+ },
+ "X2": {
+  "value": "no",
+  "x2_types": [],
+  "x2_sources": [],
+  "evidence": "Linear mixed model tests sentence structure; no model-level source decomposed."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "Very short text; items judged from what is reported."
+ },
+ "notes": ""
+}

@@ -1,0 +1,395 @@
+{
+  "order": 77,
+  "study_id": "https://openalex.org/W4405785524",
+  "full_text": {
+    "obtained": true,
+    "source": "research/sources/md/fulltext/077_W4405785524.md"
+  },
+  "eligibility": {
+    "decision": "YES",
+    "failed_criterion": null,
+    "borderline": false,
+    "evidence": "Sections IV–V: evaluates generative language models on recreated human–robot interaction studies and compares their responses with original human participant data."
+  },
+  "A": {
+    "doi": null,
+    "arxiv_id": "2402.05701",
+    "title": "Are Large Language Models Aligned with People’s Social Intuitions for Human–Robot Interactions?",
+    "first_author": "Lennart Wachowiak",
+    "year": 2024,
+    "venue": "IROS 2024",
+    "peer_reviewed": "yes",
+    "first_author_field": "not_reported",
+    "country": "United Kingdom"
+  },
+  "B": {
+    "models": [
+      {
+        "name": "LLaMA-2 Chat",
+        "version": "13b-chat",
+        "access": "open_weights",
+        "params_b": 13,
+        "release_date": "not_reported",
+        "tuning": "instruction",
+        "family": "Llama",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "LLaMA-2 Chat",
+        "version": "70b-chat",
+        "access": "open_weights",
+        "params_b": 70,
+        "release_date": "not_reported",
+        "tuning": "instruction",
+        "family": "Llama",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "GPT-3",
+        "version": "davinci-002",
+        "access": "API",
+        "params_b": null,
+        "release_date": "not_reported",
+        "tuning": "base",
+        "family": "GPT",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "GPT-3.5",
+        "version": "gpt-3.5-turbo-0613",
+        "access": "API",
+        "params_b": null,
+        "release_date": "not_reported",
+        "tuning": "instruction",
+        "family": "GPT",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "GPT-4",
+        "version": "gpt-4-0613",
+        "access": "API",
+        "params_b": null,
+        "release_date": "not_reported",
+        "tuning": "instruction",
+        "family": "GPT",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "GPT-4",
+        "version": "gpt-4-vision-preview",
+        "access": "API",
+        "params_b": null,
+        "release_date": "February 2024",
+        "tuning": "instruction",
+        "family": "GPT",
+        "query_date": "not_reported"
+      }
+    ],
+    "n_models": 6,
+    "n_model_families": 2
+  },
+  "C": {
+    "paradigms": [
+      {
+        "pid": "P1",
+        "name": "Communication preferences in human–robot interaction scenarios",
+        "family": "OTH",
+        "source_paper": "Wachowiak et al., “When Do People Want an Explanation from a Robot?” (2024)",
+        "items_origin": "mixed",
+        "n_items": 16,
+        "languages": [
+          "English"
+        ],
+        "modality": "text",
+        "contamination_risk": "partly",
+        "location": "Section IV-A; Section V-A; Appendix A"
+      },
+      {
+        "pid": "P2",
+        "name": "Behavior judgment: desirability, intentionality, and surprisingness",
+        "family": "TOM",
+        "source_paper": "de Graaf and Malle (2020; 2018)",
+        "items_origin": "mixed",
+        "n_items": null,
+        "languages": [
+          "English"
+        ],
+        "modality": "text",
+        "contamination_risk": "partly",
+        "location": "Section IV-B; Section V-B; Appendix B"
+      }
+    ]
+  },
+  "D": {
+    "types": [
+      "published_norms"
+    ],
+    "primary_type": "published_norms",
+    "human_n": null,
+    "population": "Participants in the original human–robot interaction studies; participant counts stated as 186, 126, and 239 across the three studies, but not assigned to individual experiments in the text.",
+    "metric": "Spearman rank correlation between model and human ratings"
+  },
+  "E": {
+    "outcome_types": [
+      "human_correlation",
+      "bias_magnitude"
+    ],
+    "rows_aggregated": false,
+    "effects": [
+      {
+        "pid": "P1",
+        "model": "LLaMA-2 Chat 13b",
+        "model_family": "Llama",
+        "outcome_kind": "agreement",
+        "basis": "test",
+        "model_effect_present": "na",
+        "human_effect_present": "na",
+        "direction": "not_applicable",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": "Spearman correlation",
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": 0.09,
+        "label": "AGREEMENT-ONLY",
+        "location": "Section V-A, Table I"
+      },
+      {
+        "pid": "P1",
+        "model": "LLaMA-2 Chat 70b",
+        "model_family": "Llama",
+        "outcome_kind": "agreement",
+        "basis": "test",
+        "model_effect_present": "na",
+        "human_effect_present": "na",
+        "direction": "not_applicable",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": "Spearman correlation",
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": 0.42,
+        "label": "AGREEMENT-ONLY",
+        "location": "Section V-A, Table I"
+      },
+      {
+        "pid": "P1",
+        "model": "GPT-3 (davinci-002)",
+        "model_family": "GPT",
+        "outcome_kind": "agreement",
+        "basis": "test",
+        "model_effect_present": "na",
+        "human_effect_present": "na",
+        "direction": "not_applicable",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": "Spearman correlation",
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "AGREEMENT-ONLY",
+        "location": "Section V-A, Table I; GPT-3 always returns the same score, so no correlation could be computed."
+      },
+      {
+        "pid": "P1",
+        "model": "GPT-3.5 (gpt-3.5-turbo-0613)",
+        "model_family": "GPT",
+        "outcome_kind": "agreement",
+        "basis": "test",
+        "model_effect_present": "na",
+        "human_effect_present": "na",
+        "direction": "not_applicable",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": "Spearman correlation",
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": 0.54,
+        "label": "AGREEMENT-ONLY",
+        "location": "Section V-A, Table I; average correlation reported in Section V-A."
+      },
+      {
+        "pid": "P1",
+        "model": "GPT-4 (gpt-4-0613)",
+        "model_family": "GPT",
+        "outcome_kind": "agreement",
+        "basis": "test",
+        "model_effect_present": "na",
+        "human_effect_present": "na",
+        "direction": "not_applicable",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": "Spearman correlation",
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": 0.82,
+        "label": "AGREEMENT-ONLY",
+        "location": "Abstract; Section V-A; Table I."
+      },
+      {
+        "pid": "P1",
+        "model": "GPT-4 vision (gpt-4-vision-preview)",
+        "model_family": "GPT",
+        "outcome_kind": "agreement",
+        "basis": "descriptive",
+        "model_effect_present": "na",
+        "human_effect_present": "na",
+        "direction": "not_applicable",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": "Spearman correlation",
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": 0.57,
+        "label": "AGREEMENT-ONLY",
+        "location": "Section V-D; Section VI. Video input used frames and dialogue transcripts."
+      },
+      {
+        "pid": "P2",
+        "model": "LLaMA-2 Chat 13b",
+        "model_family": "Llama",
+        "outcome_kind": "agreement",
+        "basis": "test",
+        "model_effect_present": "na",
+        "human_effect_present": "na",
+        "direction": "not_applicable",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": "Spearman correlation",
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": 0.42,
+        "label": "AGREEMENT-ONLY",
+        "location": "Section V-B, Table II; average correlation for the first part of Experiment 2."
+      },
+      {
+        "pid": "P2",
+        "model": "LLaMA-2 Chat 70b",
+        "model_family": "Llama",
+        "outcome_kind": "agreement",
+        "basis": "test",
+        "model_effect_present": "na",
+        "human_effect_present": "na",
+        "direction": "not_applicable",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": "Spearman correlation",
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": 0.65,
+        "label": "AGREEMENT-ONLY",
+        "location": "Section V-B; average correlation for the first part of Experiment 2."
+      },
+      {
+        "pid": "P2",
+        "model": "GPT-3 (davinci-002)",
+        "model_family": "GPT",
+        "outcome_kind": "agreement",
+        "basis": "test",
+        "model_effect_present": "na",
+        "human_effect_present": "na",
+        "direction": "not_applicable",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": "Spearman correlation",
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": -0.08,
+        "label": "AGREEMENT-ONLY",
+        "location": "Section V-B; average correlation for the first part of Experiment 2."
+      },
+      {
+        "pid": "P2",
+        "model": "GPT-3.5 (gpt-3.5-turbo-0613)",
+        "model_family": "GPT",
+        "outcome_kind": "agreement",
+        "basis": "test",
+        "model_effect_present": "na",
+        "human_effect_present": "na",
+        "direction": "not_applicable",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": "Spearman correlation",
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": 0.66,
+        "label": "AGREEMENT-ONLY",
+        "location": "Abstract; Section V-B, Table II; average correlation for the first part of Experiment 2."
+      },
+      {
+        "pid": "P2",
+        "model": "GPT-4 (gpt-4-0613)",
+        "model_family": "GPT",
+        "outcome_kind": "agreement",
+        "basis": "test",
+        "model_effect_present": "na",
+        "human_effect_present": "na",
+        "direction": "not_applicable",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": "Spearman correlation",
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": 0.83,
+        "label": "AGREEMENT-ONLY",
+        "location": "Abstract; Section V-B; Table II."
+      },
+      {
+        "pid": "P2",
+        "model": "GPT-4 vision (gpt-4-vision-preview)",
+        "model_family": "GPT",
+        "outcome_kind": "agreement",
+        "basis": "not_reported",
+        "model_effect_present": "na",
+        "human_effect_present": "na",
+        "direction": "not_applicable",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": "Spearman correlation",
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "AGREEMENT-ONLY",
+        "location": "No result reported for this model on Experiment 2."
+      }
+    ],
+    "headline": "GPT-4 correlated strongly with human ratings for communication preferences and behavior judgments, but poorly captured human differences between robot and human actors; models also tended to give higher ratings."
+  },
+  "F": {
+    "f1": "no",
+    "f2": "yes",
+    "f3": "no",
+    "f4": "no",
+    "f5": "yes",
+    "f6": "yes",
+    "f7": "no",
+    "f8": "no",
+    "f9": "yes",
+    "f10": "yes",
+    "f11": "no",
+    "f12": "yes",
+    "perturbations_tested": [
+      "wording",
+      "decoding",
+      "model_version",
+      "contamination"
+    ],
+    "robustness_outcome": "weakened"
+  },
+  "G": {
+    "notes": "The model-human correlations do not capture the diversity of participant responses. The behavior-judgment prompts were devised by the authors because original question wording was unavailable; the video model correctly interpreted only about half the videos.",
+    "extractor": "codex (default)",
+    "date": "2026-10-16",
+    "minutes": null,
+    "sections_read": [
+      "Abstract",
+      "Introduction",
+      "Methods",
+      "Results",
+      "Discussion",
+      "Limitations",
+      "Appendix",
+      "Data and code availability"
+    ]
+  }
+}

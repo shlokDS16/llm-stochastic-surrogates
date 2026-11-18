@@ -1,0 +1,6 @@
+# Words the ACME AI-vocabulary rules must not flag in THIS manuscript because they are technical terms here
+# (measurement robustness; cognitive-experimental paradigms). One per line, case-insensitive.
+robust
+robustness
+paradigm
+paradigms

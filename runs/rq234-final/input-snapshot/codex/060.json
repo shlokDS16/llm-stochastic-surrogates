@@ -1,0 +1,257 @@
+{
+ "order": 60,
+ "study_id": "https://openalex.org/W4404136902",
+ "full_text": {
+  "obtained": true,
+  "source": "Full text supplied in prompt"
+ },
+ "eligibility": {
+  "decision": "YES",
+  "failed_criterion": null,
+  "borderline": false,
+  "evidence": "Methods and Results, pp. 791–793: compares ChatGPT 4.0 and 3.5 on bias-inducing diagnostic vignettes with residents’ responses."
+ },
+ "A": {
+  "doi": "10.1007/s11606-024-09177-9",
+  "arxiv_id": null,
+  "title": "Bias Sensitivity in Diagnostic Decision-Making: Comparing ChatGPT with Residents",
+  "first_author": "Henk G. Schmidt",
+  "year": 2024,
+  "venue": "Journal of General Internal Medicine",
+  "peer_reviewed": "yes",
+  "first_author_field": "not_reported",
+  "country": "The Netherlands"
+ },
+ "B": {
+  "models": [
+   {
+    "name": "ChatGPT",
+    "version": "GPT-4.0",
+    "access": "API",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "GPT",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "ChatGPT",
+    "version": "GPT-3.5",
+    "access": "API",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "GPT",
+    "query_date": "not_reported"
+   }
+  ],
+  "n_models": 2,
+  "n_model_families": 1
+ },
+ "C": {
+  "paradigms": [
+   {
+    "pid": "P1",
+    "name": "Salient distracting features in clinical diagnostic vignettes",
+    "family": "HB",
+    "source_paper": "Mamede et al. (2014), cited as reference 29",
+    "items_origin": "adapted",
+    "n_items": null,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "partly",
+    "location": "Methods, pp. 791–792; Results, Table 1, p. 792"
+   },
+   {
+    "pid": "P2",
+    "name": "Disruptive patient behavior in clinical diagnostic vignettes",
+    "family": "HB",
+    "source_paper": "Mamede et al. (2017), reference 27; Schmidt et al. (2017), reference 31",
+    "items_origin": "adapted",
+    "n_items": null,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "partly",
+    "location": "Methods, pp. 791–792; Results, Table 1, p. 792"
+   },
+   {
+    "pid": "P3",
+    "name": "Availability bias following prior exposure to a look-alike case or disease information",
+    "family": "HB",
+    "source_paper": "Mamede et al. (2010), reference 28; Schmidt et al. (2014), reference 30",
+    "items_origin": "adapted",
+    "n_items": null,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "partly",
+    "location": "Methods, pp. 791–792; Results, Table 2, p. 793"
+   }
+  ]
+ },
+ "D": {
+  "types": [
+   "published_norms"
+  ],
+  "primary_type": "published_norms",
+  "human_n": 265,
+  "population": "Junior internal medicine and family medicine residents in the Netherlands, generally in years 1 or 2 of training",
+  "metric": "Mean proportion of correct diagnoses; chi-square goodness-of-fit comparisons"
+ },
+ "E": {
+  "outcome_types": [
+   "accuracy",
+   "bias_magnitude"
+  ],
+  "rows_aggregated": false,
+  "effects": [
+   {
+    "pid": "P1",
+    "model": "ChatGPT GPT-4.0",
+    "model_family": "GPT",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": 0.21,
+    "human_es": 0.12,
+    "es_metric": "proportion-point decrease in diagnostic accuracy (weighted mean across intrinsic-bias experiments)",
+    "authors_comparison": "not_different",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "EXAGGERATED",
+    "location": "Results, p. 792; Table 1, p. 792"
+   },
+   {
+    "pid": "P1",
+    "model": "ChatGPT GPT-3.5",
+    "model_family": "GPT",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": 0.09,
+    "human_es": 0.12,
+    "es_metric": "proportion-point decrease in diagnostic accuracy (weighted mean across intrinsic-bias experiments)",
+    "authors_comparison": "not_different",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "HUMAN-LIKE",
+    "location": "Results, p. 792; Table 1, p. 792"
+   },
+   {
+    "pid": "P2",
+    "model": "ChatGPT GPT-4.0",
+    "model_family": "GPT",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": 0.21,
+    "human_es": 0.12,
+    "es_metric": "proportion-point decrease in diagnostic accuracy (weighted mean across intrinsic-bias experiments)",
+    "authors_comparison": "not_different",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "EXAGGERATED",
+    "location": "Results, p. 792; Table 1, p. 792"
+   },
+   {
+    "pid": "P2",
+    "model": "ChatGPT GPT-3.5",
+    "model_family": "GPT",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": 0.09,
+    "human_es": 0.12,
+    "es_metric": "proportion-point decrease in diagnostic accuracy (weighted mean across intrinsic-bias experiments)",
+    "authors_comparison": "not_different",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "HUMAN-LIKE",
+    "location": "Results, p. 792; Table 1, p. 792"
+   },
+   {
+    "pid": "P3",
+    "model": "ChatGPT GPT-4.0",
+    "model_family": "GPT",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "no",
+    "human_effect_present": "yes",
+    "direction": "not_applicable",
+    "model_es": 0,
+    "human_es": 0.15,
+    "es_metric": "proportion-point decrease in diagnostic accuracy (weighted mean across extrinsic-bias experiments)",
+    "authors_comparison": "different",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SUPER-NORMATIVE",
+    "location": "Results, pp. 792–793; Table 2, p. 793"
+   },
+   {
+    "pid": "P3",
+    "model": "ChatGPT GPT-3.5",
+    "model_family": "GPT",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "no",
+    "human_effect_present": "yes",
+    "direction": "not_applicable",
+    "model_es": 0,
+    "human_es": 0.15,
+    "es_metric": "proportion-point decrease in diagnostic accuracy (weighted mean across extrinsic-bias experiments)",
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SUPER-NORMATIVE",
+    "location": "Results, pp. 792–793; Table 2, p. 793; GPT-3.5 unavailable for Schmidt et al. experiment using website material"
+   }
+  ],
+  "headline": "ChatGPT showed bias-related accuracy declines for biasing cues within vignettes, while residents’ accuracy declined but ChatGPT’s did not when cues were situational."
+ },
+ "F": {
+  "f1": "no",
+  "f2": "no",
+  "f3": "yes",
+  "f4": "no",
+  "f5": "no",
+  "f6": "na",
+  "f7": "no",
+  "f8": "no",
+  "f9": "no",
+  "f10": "yes",
+  "f11": "no",
+  "f12": "no",
+  "perturbations_tested": [
+   "persona"
+  ],
+  "robustness_outcome": "na"
+ },
+ "G": {
+  "notes": "The supplement contains details of the five source experiments, but the article does not report exact model snapshots, query dates, or decoding settings. The paper describes nudging prompts for availability bias, but does not clearly report comparative results for these prompt changes.",
+  "extractor": "codex (default)",
+  "date": "2026-10-16",
+  "minutes": 0.6,
+  "sections_read": [
+   "Abstract",
+   "Introduction",
+   "Methods",
+   "Results",
+   "Discussion",
+   "Declarations",
+   "References"
+  ]
+ }
+}

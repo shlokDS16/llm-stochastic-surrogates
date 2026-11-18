@@ -1,0 +1,35 @@
+{
+ "order": 30,
+ "study_id": "W4392811684",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/030_W4392811684.md",
+ "sources_varied": [
+  "W",
+  "M",
+  "R"
+ ],
+ "X1": {
+  "value": "partial",
+  "sources_crossed": [],
+  "evidence": "Sec 2.1 and 3: ChatGPT-3.5 (Dec 15 version, repeats on Jan 9 and 30 versions) on hinting variants (original, INJONCTION, COMMUNICATIVE); GPT-4-0314 re-run with revised tests and three repetitions in Experiment 2."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "W",
+   "M"
+  ],
+  "evidence": "Sec 2.1-2.2, Tables 1-6 (not captured in the text): scores reported per prompt version; authors state results depend on the question asked and compare GPT-4 with GPT-3.5."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "No interaction reported."
+ },
+ "notes": "Tables not captured in the converted text; X2 rests on narrative statements."
+}

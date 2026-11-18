@@ -1,0 +1,28 @@
+{
+ "order": 26,
+ "study_id": "https://openalex.org/W7139936057",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/026_W7139936057.md",
+ "sources_varied": [
+  "M"
+ ],
+ "X1": {
+  "value": "no",
+  "sources_crossed": [],
+  "evidence": "Sec 3: seven LLMs generate ideas under two prompt conditions (cross-domain mapping vs user need); condition is the treatment; no wording, order or sampling variation."
+ },
+ "X2": {
+  "value": "no",
+  "x2_types": [],
+  "x2_sources": [],
+  "evidence": "Mixed models (Sec 3.2) test condition by idea source (human vs LLM); no model-level decomposition."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "Condition-by-source interaction is treatment by human-versus-LLM, not source-by-source."
+ },
+ "notes": ""
+}

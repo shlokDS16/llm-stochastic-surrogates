@@ -1,0 +1,35 @@
+extends: existence
+message: "AI-pattern vocabulary '%s' (ai-patterns-academic B). Prefer a plain, specific word, or delete."
+level: warning
+ignorecase: true
+tokens:
+  - delv(e|es|ed|ing)
+  - leverag(e|es|ed|ing)
+  - utili[sz](e|es|ed|ing|ation)
+  - harness(es|ed|ing)?
+  - foster(s|ed|ing)?
+  - facilitat(e|es|ed|ing)
+  - bolster(s|ed|ing)?
+  - underscor(e|es|ed|ing)
+  - showcas(e|es|ed|ing)
+  - elucidat(e|es|ed|ing)
+  - pivotal
+  - intricate
+  - intricacies
+  - multifaceted
+  - nuanced
+  - holistic(ally)?
+  - seamless(ly)?
+  - noteworthy
+  - tapestry
+  - interplay
+  - myriad
+  - plethora
+  - cutting-edge
+  - groundbreaking
+  - meticulous(ly)?
+  - commendabl[ey]
+  - paramount
+  - underpinning(s)?
+  - burgeoning
+  - realm

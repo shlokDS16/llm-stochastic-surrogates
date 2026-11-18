@@ -1,0 +1,16 @@
+{
+  "order": 109,
+  "study_id": "https://openalex.org/W7169871180",
+  "full_text": {"obtained": true, "source": "research/sources/md/fulltext/109_W7169871180.md"},
+  "eligibility": {"decision": "NO", "failed_criterion": "other", "borderline": true,
+                  "evidence": "E2 fails the operational test. Three purpose-built simulations (drone navigation, clinical triage, portfolio allocation; Materials and Methods, Appendices A-C) are not taken from a cited human paradigm and name no dictionary paradigm. Risk attitude literature is cited only as background (Introduction). A reviewer could count it as judgement and decision making, since 100 humans did the same tasks."},
+  "A": {"doi": "10.48550/arxiv.2607.16197", "arxiv_id": "2607.16197", "title": "Some Large Language Models Exhibit Consistent Risk Attitudes", "first_author": "Bowen Sun", "year": 2026, "venue": "arXiv", "peer_reviewed": "preprint", "first_author_field": "other", "country": "USA"},
+  "B": {"models": [], "n_models": 0, "n_model_families": 0},
+  "C": {"paradigms": []},
+  "D": {"types": [], "primary_type": "none", "human_n": null, "population": "not_reported", "metric": "not_reported"},
+  "E": {"outcome_types": [], "rows_aggregated": false, "effects": [], "headline": ""},
+  "F": {"f1": "no", "f2": "no", "f3": "no", "f4": "no", "f5": "no", "f6": "no", "f7": "no", "f8": "no",
+        "f9": "no", "f10": "no", "f11": "no", "f12": "no", "perturbations_tested": [],
+        "robustness_outcome": "na"},
+  "G": {"notes": "Eligibility turns on whether custom risk-decision simulations (first author in civil engineering) count as modelled on a JDM paradigm; none is cited as source. Six commercial LLMs, 100 humans; GitHub data link given.", "extractor": "paper-reader (claude-sonnet)", "date": "2026-10-16", "minutes": 4, "sections_read": ["abstract", "introduction", "results", "discussion", "limitations", "materials and methods", "data availability", "appendix A"]}
+}

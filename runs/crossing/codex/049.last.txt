@@ -1,0 +1,26 @@
+{
+  "order": 49,
+  "study_id": "https://openalex.org/W4376140095",
+  "pass": "codex",
+  "brief_version": "1.0",
+  "date": "2026-11-07",
+  "full_text": "research/sources/md/fulltext/049_W4376140095.md",
+  "sources_varied": ["M", "W"],
+  "X1": {
+    "value": "yes",
+    "sources_crossed": ["M", "W"],
+    "evidence": "Experiment 1, Design and Procedure: GPT-3 and BLOOM received all item pairs; the prompt order was counterbalanced for both models."
+  },
+  "X2": {
+    "value": "yes",
+    "x2_types": ["anova_or_mixed_term", "effect_change"],
+    "x2_sources": ["M"],
+    "evidence": "Experiments 1–3, Results and Discussion, Tables 2–4: Bayesian logistic regression results and posterior differences are reported separately for GPT-3 and BLOOM."
+  },
+  "X3": {
+    "value": "yes",
+    "x3_pairs": ["M x W"],
+    "evidence": "Experiments 1–3, Results and Tables 2–4: model-specific effects for the varied prompt factors are reported for GPT-3 and BLOOM."
+  },
+  "notes": "W is prompt information order, counterbalanced as a design factor. The prompt wording itself is otherwise fixed."
+}

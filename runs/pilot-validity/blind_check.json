@@ -1,0 +1,25 @@
+{
+ "n": 121,
+ "complete": 113,
+ "incomplete": 2,
+ "ambiguous": 6,
+ "complete_share": 0.9338842975206612,
+ "complete_wilson": [
+  0.874946469117122,
+  0.9661202801895965
+ ],
+ "parser_matches_complete": 112,
+ "match_share": 0.9911504424778761,
+ "match_wilson": [
+  0.9515691315723988,
+  0.998436123948841
+ ],
+ "mismatches": [
+  {
+   "sid": "U043",
+   "reviewer": 2705094,
+   "parser": 2010.0,
+   "raw": "2010, the official census reported that the population of Chicago was 2705094."
+  }
+ ]
+}

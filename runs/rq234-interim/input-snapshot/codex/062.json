@@ -1,0 +1,243 @@
+{
+ "order": 62,
+ "study_id": "https://openalex.org/W4414940251",
+ "full_text": {
+  "obtained": true,
+  "source": "research/sources/md/fulltext/062_W4414940251.md"
+ },
+ "eligibility": {
+  "decision": "YES",
+  "failed_criterion": null,
+  "borderline": false,
+  "evidence": "Sections 2–4 and Appendix B: tests generative language models on the human Blicket Test causal reasoning paradigm, with new model-task data and human comparisons."
+ },
+ "A": {
+  "doi": null,
+  "arxiv_id": "2505.04163",
+  "title": "Language Agents Mirror Human Causal Reasoning Biases: How Can We Help Them Think Like Scientists?",
+  "first_author": "Anthony G. X. Chen",
+  "year": 2025,
+  "venue": "Conference on Language Modeling (COLM 2025)",
+  "peer_reviewed": "yes",
+  "first_author_field": "not_reported",
+  "country": "USA"
+ },
+ "B": {
+  "models": [
+   {
+    "name": "GPT-4o",
+    "version": "gpt-4o-2024-08-06",
+    "access": "API",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "GPT",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "GPT-4o mini",
+    "version": "gpt-4o-mini-2024-07-18",
+    "access": "API",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "GPT",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "DeepSeek Chat",
+    "version": "DeepSeek-V3",
+    "access": "API",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "other",
+    "query_date": "March 23–28, 2025"
+   },
+   {
+    "name": "DeepSeek Reasoner",
+    "version": "DeepSeek-R1",
+    "access": "API",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "other",
+    "query_date": "March 23–28, 2025"
+   },
+   {
+    "name": "QwQ",
+    "version": "QwQ",
+    "access": "open_weights",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "Qwen",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Gemma 3 12B",
+    "version": "gemma3:12b",
+    "access": "open_weights",
+    "params_b": 12,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Gemma 3 27B",
+    "version": "gemma3:27b",
+    "access": "open_weights",
+    "params_b": 27,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Llama 3.3",
+    "version": "llama3.3",
+    "access": "open_weights",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "Llama",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Llama 3.2 3B Instruct",
+    "version": "llama3.2-3B-inst",
+    "access": "open_weights",
+    "params_b": 3,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "Llama",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Phi-4",
+    "version": "phi4",
+    "access": "open_weights",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "GPT-o3-mini",
+    "version": "o3-mini-2025-01-31",
+    "access": "API",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "GPT",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "GPT-o4-mini",
+    "version": "o4-mini-2025-04-16",
+    "access": "API",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "GPT",
+    "query_date": "not_reported"
+   }
+  ],
+  "n_models": 12,
+  "n_model_families": 5
+ },
+ "C": {
+  "paradigms": [
+   {
+    "pid": "P1",
+    "name": "Blicket Test: active causal exploration and inference",
+    "family": "RE",
+    "source_paper": "Gopnik & Sobel (2000); Lucas et al. (2014); Gopnik et al. (2017); Kosoy et al. (2022)",
+    "items_origin": "adapted",
+    "n_items": null,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "partly",
+    "location": "Sections 2–5; Appendices B.4–B.8 and C.5"
+   }
+  ]
+ },
+ "D": {
+  "types": [
+   "published_norms"
+  ],
+  "primary_type": "published_norms",
+  "human_n": null,
+  "population": "Published human data from developmental psychology studies: children (including 4-year-olds) and adults; participant counts not reported in this paper.",
+  "metric": "Blicket identification/inference and exploration measures (accuracy, preference for conjunctive inference, unique combinations, exploration steps)"
+ },
+ "E": {
+  "outcome_types": [
+   "accuracy",
+   "bias_magnitude",
+   "choice_distribution"
+  ],
+  "rows_aggregated": false,
+  "effects": [
+   {
+    "pid": "P1",
+    "model": "GPT-4o",
+    "model_family": "GPT",
+    "outcome_kind": "accuracy",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "INSUFFICIENT",
+    "location": "Sections 3.1, 3.4; Figures 2, 5–7",
+    "headline": "Models show a disjunctive bias resembling adults’ inference, while children are more open to conjunctive explanations."
+   }
+  ],
+  "headline": "Language model agents exhibit a disjunctive bias in causal reasoning; hypothesis sampling reduces it."
+ },
+ "F": {
+  "f1": "no",
+  "f2": "no",
+  "f3": "yes",
+  "f4": "yes",
+  "f5": "no",
+  "f6": "yes",
+  "f7": "no",
+  "f8": "yes",
+  "f9": "no",
+  "f10": "yes",
+  "f11": "no",
+  "f12": "yes",
+  "perturbations_tested": [
+   "wording",
+   "decoding",
+   "model_version"
+  ],
+  "robustness_outcome": "survived"
+ },
+ "G": {
+  "notes": "Human sample sizes are not provided, limiting precision of comparisons. Results pool varied models, prompts, and task settings; some figures do not expose exact effect estimates in the text. The paper describes model and human tendencies as similar but does not report direct statistical model-human tests.",
+  "extractor": "codex (default)",
+  "date": "2026-10-16",
+  "minutes": 0.5,
+  "sections_read": [
+   "Abstract",
+   "Sections 1–6",
+   "References",
+   "Appendix A",
+   "Appendices B.1–B.8",
+   "Appendices C.1–C.5.4",
+   "Figures 1–16 and Tables 1–2"
+  ]
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "order": 2,
+ "study_id": "W4415187106",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/002_W4415187106.md",
+ "sources_varied": [
+  "P",
+  "T",
+  "R",
+  "M"
+ ],
+ "X1": {
+  "value": "yes",
+  "sources_crossed": [
+   "P",
+   "T",
+   "R"
+  ],
+  "evidence": "Sec 4.1 p.9: 2 (role) x 2 (temperature 0/1) x 2 (run date, before/after model update) x 8 e-mails, fully between-treatment; Study 2 adds GPT-4 vs GPT-4-1106 crossed with role (Sec 4.2)."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "anova_or_mixed_term",
+   "effect_change"
+  ],
+  "x2_sources": [
+   "T",
+   "R",
+   "M"
+  ],
+  "evidence": "Sec 4.1 pp.10-11, Table 1: regressions include indicators for temperature and run date; temperature effect reported as negligible, Nov update no effect; Study 2 Table 2 includes model."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "Sec 4.1-4.2: role-by-frame and role-by-perspective interactions involve the experimental treatment, not a second source; no temperature-by-role or model-by-role term reported."
+ },
+ "notes": ""
+}

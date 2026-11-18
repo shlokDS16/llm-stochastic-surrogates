@@ -1,0 +1,9 @@
+paradigm: NR
+wording: D1
+response_type: yesno2
+q_us: Do you think the United States should let newspaper reporters from South Korea come in here and send back to their papers the news as they see it?
+q_other: Do you think South Korea should let American newspaper reporters come in and send back to America the news as they see it?
+options:
+- 'Yes'
+- 'No'
+decoy_change: South Korea instead of North Korea in both questions

@@ -1,0 +1,19 @@
+{"id":"E020","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Both versions retain the same quoted content, attributed speaker by condition, agreement task, scale anchors, and response format."}
+{"id":"E021","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Both versions ask the same reciprocal reporter-entry questions in the same order, with matching countries, destinations, purposes, and yes/no options."}
+{"id":"E022","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Both versions present the same casino scenario, dice outcomes in each condition, and estimate of prior rolls."}
+{"id":"E023","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Ticket cost or gift, game circumstances, stay-or-go task, scale endpoints, and reversed-scale condition all match."}
+{"id":"E024","label":"EQUIVALENT","element":"none","confidence":5,"reason":"The estimate task, mileage unit, matching upper and lower anchors, and no-anchor version are preserved."}
+{"id":"E025","label":"NOT-EQUIVALENT","element":"manipulation","confidence":5,"reason":"The baby-count anchors reverse direction in both anchored conditions: A uses less than 50,000 and more than 100; B uses more than 50,000 and less than 100."}
+{"id":"E026","label":"NOT-EQUIVALENT","element":"manipulation","confidence":5,"reason":"The attributed speakers differ by condition: A names Robert Hale and Mark Dunn, while B names George Washington and Osama Bin Laden."}
+{"id":"E027","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Both versions use the same casino, man, three dice, matching outcomes, and estimate of rolls before the participant passes."}
+{"id":"E028","label":"NOT-EQUIVALENT","element":"scenario_fact","confidence":5,"reason":"The country whose government would forbid or allow anti-democracy speeches changes from North Korea to the United States."}
+{"id":"E029","label":"EQUIVALENT","element":"none","confidence":5,"reason":"The mileage estimate, units, upper and lower anchors, and no-anchor condition match; wording conveys the same facts."}
+{"id":"E030","label":"EQUIVALENT","element":"none","confidence":5,"reason":"All versions ask for the same mileage estimate with matching anchor directions and values, or without an anchor."}
+{"id":"E031","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Both conditions ask for the same opinion about forbidding or allowing anti-democracy speeches in the United States."}
+{"id":"E032","label":"EQUIVALENT","element":"none","confidence":5,"reason":"The ticket circumstances, cold-weather game scenario, choice task, and normal and reversed scale endpoints match."}
+{"id":"E033","label":"EQUIVALENT","element":"none","confidence":5,"reason":"The height estimate, feet unit, matching upper and lower anchors, and no-anchor version are preserved."}
+{"id":"E034","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Both conditions ask whether the United States should forbid or allow speeches opposing democracy; wording changes do not alter the task."}
+{"id":"E035","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Speaker attribution, quoted content, agreement task, scale anchors, and reversed-scale condition all match."}
+{"id":"E036","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Both versions preserve the disease scenario, each program's outcomes and probabilities, choice task, and program-letter response."}
+{"id":"E037","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Both versions preserve ticket circumstances, freezing weather, game choice, and normal and reversed scale endpoints."}
+{"id":"E038","label":"NOT-EQUIVALENT","element":"task","confidence":5,"reason":"A asks how many future rolls occur after passing; B asks how many prior rolls occurred before passing."}

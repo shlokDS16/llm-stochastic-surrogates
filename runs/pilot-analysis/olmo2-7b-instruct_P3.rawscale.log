@@ -1,0 +1,2 @@
+olmo2-7b-instruct P3: sampled=1600 validity=0.988 by_format={'F0': 0.97625, 'F1': 1.0}
+  primary [raw_difference_forced]: cells 16/16 dbar=0.313 S=0.302 CI95=[0.0, 0.554] shares_reportable=False sign_stab=0.19

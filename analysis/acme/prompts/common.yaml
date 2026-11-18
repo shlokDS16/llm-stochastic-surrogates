@@ -1,0 +1,16 @@
+system: You are taking part in a short study. Answer the question as yourself.
+formats:
+  F0:
+    choice: Answer with only the program letter.
+    number: Answer with only a single number.
+    rating: Answer with only a single number from 1 to 9.
+    yesno: Answer with only Yes or No.
+    yesno_no_first: Answer with only No or Yes.
+  F1:
+    choice: 'First give a brief reason in one or two sentences. Then finish with a final line of the form "Answer: <program letter>".'
+    number: 'First give a brief reason in one or two sentences. Then finish with a final line of the form "Answer: <number>".'
+    rating: 'First give a brief reason in one or two sentences. Then finish with a final line of the form "Answer: <number from 1 to 9>".'
+    yesno: 'First give a brief reason in one or two sentences. Then finish with a final line of the form "Answer: <Yes or No>".'
+    yesno_no_first: 'First give a brief reason in one or two sentences. Then finish with a final line of the form "Answer: <No or Yes>".'
+notes: Format instruction is appended after a blank line to the user message. Not a wording factor.
+notes_acme: 'The first block (system, choice, number, rating, notes) is the pilot common.yaml verbatim. Added for AF, NR (response type yesno) and AF/NR order facet: yesno lists Yes first, yesno_no_first lists No first. The rating lines are reused for reversed scales (QA, P3): the 9-point scale text in the wording defines the direction, the format line does not.'

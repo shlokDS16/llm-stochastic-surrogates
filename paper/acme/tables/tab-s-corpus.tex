@@ -1,0 +1,42 @@
+% tab-s-corpus.tex  (Supplement Table, key `s-corpus`; \TabSCorpus in floats.tex; red-team M6)
+% HAND-BUILT body rows of a longtable (caption, label and header in floats.tex). The design column restates Section 3 (03-review-method.tex) and the query
+% blocks in research/protocol/search-log.md; every count is a \NUM key. "Covered": a named query block reaches the reading and the criteria admit it;
+% "partly covered": reached only through an adjacent block, a later query amendment or a criterion that admits some of its studies; "not covered": outside
+% the query design. Rows without a count have none in the run files.
+\multicolumn{4}{@{}l}{\emph{Cognitive-experiment paradigms administered to a language model (the target of the review)}}\\
+\addlinespace[2pt]
+% src: search-log.md B1, B2, B6, B7; 03-review-method.tex; sp.fam.jdm.n
+Heuristics, biases, judgement and decision tasks; classic experiments and replications; economic games and risk preferences & Model-term block with sub-queries B1, B2, B6 and B7 (biases, decision making, classic experiments, economic games); criterion E2 admits a task taken from or modelled on a paradigm. & Covered & Judgement and decision making is the first named family of \NUM{sp.fam.jdm.n} of the \NUM{rm.nLiberal} abstracts of the frame. \\
+% src: search-log.md B3, B8; sp.fam.lang.n
+Language and psycholinguistic tasks (garden path, priming, pragmatics, implicature, metaphor) & Sub-queries B3 and B8. & Covered & Language is the first named family of \NUM{sp.fam.lang.n} abstracts. \\
+% src: search-log.md B1, B3, B4, B5, B6, B8
+Reasoning, theory of mind and moral judgement & Sub-queries B1 and B3 to B6 and B8 (reasoning, false belief, moral dilemma, Sally-Anne). & Covered & Counts by family in Fig.~\ref{fig:corpus}a. \\
+% src: search-log.md B3, B8, B9; sp.fam.num.n
+Memory, attention, learning, categorisation and numerical cognition & Sub-queries B3, B8 and B9 (working memory, categorisation, number sense, Stroop). & Covered & Numerical cognition is the first named family of \NUM{sp.fam.num.n} abstracts, a thin yield. \\
+% src: search-log.md B4, B8; sp.fam.dev.n
+Developmental tasks & Two phrases only (developmental psychology, child development), in B4 and B8. & Partly covered & Developmental tasks are the first named family of \NUM{sp.fam.dev.n} abstracts. \\
+% src: protocol.md v0.7; 03-review-method.tex (recall paragraph)
+Social-psychology paradigms (conformity, social influence, dissonance) & Not named in B1 to B8; block B9 was added in query amendment v0.7 after the independent third set missed them. & Partly covered & Recall after the amendment is in-sample (Section~\ref{sec:method-search}). \\
+% src: 03-review-method.tex (B10; retained known items)
+Studies that use human-likeness wording without paradigm vocabulary & Block B10 (human-likeness phrases), kept so that its yield can be reported; screened against the same criteria. & Partly covered & \NUM{rm.retKept} of the \NUM{rm.retPresent} known items present in the corpus were retained; the title-stage losses include Park et al.~\cite{park2024diversity}. \\
+\midrule
+\multicolumn{4}{@{}l}{\emph{Persona-conditioned models and survey simulation}}\\
+\addlinespace[2pt]
+% src: 03-review-method.tex section 3.3 (scope); rm.nFlagNo
+Silicon sampling and survey simulation: personas condition a model to answer survey items and estimate opinion distributions \cite{argyle2023out,bisbee2024synthetic} & No query block names persona-conditioned polling, silicon sampling or survey simulation. The eligibility criteria exclude studies that simulate survey opinions without a cognitive task. A study entered the corpus only if its title or abstract matched a cognition block, and then met the same criteria. & Not covered & Not counted: the abstract coding has no field for it. The abstract flag marks \NUM{rm.nFlagNo} records as not meeting the criteria and removes none. \\
+% src: 03-review-method.tex section 3.3 (criteria)
+Self-report instruments given to a model: personality, value, attitude and symptom questionnaires & Excluded by the eligibility criteria; no query block targets them. & Not covered & Not counted. \\
+% src: 04-state-of-art-specification.tex (administration choices not coded); agreement.csv F.perturbations_tested[persona]
+Persona or role prompt inside a cognitive paradigm & Eligible when the task is a paradigm. The coding scheme records persona only as one perturbation type of the reporting items. & Partly covered & Persona is not coded as a field of administration (Section~\ref{sec:specification}). \\
+\midrule
+\multicolumn{4}{@{}l}{\emph{Agent-based and interactive social simulation}}\\
+\addlinespace[2pt]
+% src: 03-review-method.tex section 3.3
+Agents interacting in a simulated society, generative-agent communities, opinion dynamics & No query block; the criteria require the model to be the subject of a task taken from a cognitive paradigm. & Not covered & Not counted. \\
+% src: search-log.md blocks (no block names it); criteria
+Role-played patients, interviewees or users that stand in for the users of a system & No query block names it; the criteria exclude tasks without a cognitive paradigm. & Not covered & Not counted. \\
+\midrule
+\multicolumn{4}{@{}l}{\emph{Sources of the search}}\\
+\addlinespace[2pt]
+% src: 03-review-method.tex section 3.2; rm.nSources, rm.nIdent, rm.nUnique
+Work reachable only through psychology preprint servers, NLP venue archives, grey literature or citation chasing & \NUM{rm.nSources} sources were searched, OpenAlex and arXiv. PsyArXiv, the ACL Anthology, sweeps for grey literature and one round of citation chasing were planned and not run. & Partly covered & \NUM{rm.nIdent} records identified, \NUM{rm.nUnique} after de-duplication. \\

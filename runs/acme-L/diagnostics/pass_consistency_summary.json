@@ -1,0 +1,103 @@
+{
+ "n_records": 1344,
+ "n_gaps": 48384,
+ "n_gaps_p_gt_001": 24813,
+ "logit_gap_T1": {
+  "median_abs": 0.021685123443603516,
+  "p95_abs": 0.15848541259765625,
+  "max_abs": 2.220823287963867
+ },
+ "by_T": {
+  "0.3": {
+   "valid_path_gt_1001": 130,
+   "valid_path_max": 1.5145634196998543,
+   "valid_single_max": 1.0000177998851076,
+   "dy_median_abs": 0.006698332482303115,
+   "dy_p95_abs": 0.2587524430217051,
+   "dy_max_abs": 5.3780967826277974
+  },
+  "0.7": {
+   "valid_path_gt_1001": 116,
+   "valid_path_max": 1.293446632570623,
+   "valid_single_max": 1.0000038195305576,
+   "dy_median_abs": 0.01616284697130821,
+   "dy_p95_abs": 0.18746954584546824,
+   "dy_max_abs": 3.5915080798738237
+  },
+  "1.0": {
+   "valid_path_gt_1001": 104,
+   "valid_path_max": 1.2099282705633032,
+   "valid_single_max": 1.0000018719454886,
+   "dy_median_abs": 0.01853572421479499,
+   "dy_p95_abs": 0.16138308713299504,
+   "dy_max_abs": 2.8825670767536833
+  },
+  "1.5": {
+   "valid_path_gt_1001": 32,
+   "valid_path_max": 1.1204717234759816,
+   "valid_single_max": 1.0000016527880005,
+   "dy_median_abs": 0.01898424792742981,
+   "dy_p95_abs": 0.1326738404755421,
+   "dy_max_abs": 2.17733606274371
+  }
+ },
+ "by_model_T1": {
+  "granite-3.3-2b-instruct": {
+   "dy_median_abs": 0.03425099912330409,
+   "valid_path_max": 1.1452740732047453
+  },
+  "granite-3.3-8b-instruct": {
+   "dy_median_abs": 0.02607395331519613,
+   "valid_path_max": 1.2099282705633032
+  },
+  "mistral-7b-instruct-v0.3": {
+   "dy_median_abs": 0.012114724637820817,
+   "valid_path_max": 3.0061671216497397e-06
+  },
+  "olmo2-13b-instruct": {
+   "dy_median_abs": 0.006847401100662065,
+   "valid_path_max": 0.9965325391163674
+  },
+  "olmo2-1b-dpo": {
+   "dy_median_abs": 0.009892492741559233,
+   "valid_path_max": 0.9614470629127768
+  },
+  "olmo2-1b-instruct": {
+   "dy_median_abs": 0.013324389290635175,
+   "valid_path_max": 0.9959696749994937
+  },
+  "olmo2-1b-sft": {
+   "dy_median_abs": 0.0184218809259602,
+   "valid_path_max": 0.9884889027334114
+  },
+  "olmo2-7b-instruct": {
+   "dy_median_abs": 0.014132833753710994,
+   "valid_path_max": 0.9997894611219613
+  },
+  "phi4-mini-instruct": {
+   "dy_median_abs": 0.046459386573773465,
+   "valid_path_max": 0.9874797869208898
+  },
+  "qwen2.5-0.5b-instruct": {
+   "dy_median_abs": 0.03925177685403103,
+   "valid_path_max": 1.0530425933195315
+  },
+  "qwen2.5-1.5b-instruct": {
+   "dy_median_abs": 0.037316178283495094,
+   "valid_path_max": 1.0358447412372513
+  },
+  "qwen2.5-14b-instruct": {
+   "dy_median_abs": 0.004080393120838188,
+   "valid_path_max": 1.0000031213838838
+  },
+  "qwen2.5-7b-instruct": {
+   "dy_median_abs": 0.013021912644515687,
+   "valid_path_max": 1.053216216471864
+  },
+  "smollm2-1.7b-instruct": {
+   "dy_median_abs": 0.03154430149103504,
+   "valid_path_max": 0.9763400493548502
+  }
+ },
+ "note": "P1, AF and NR paths are multi-token or have no single-pass candidate table, so they are not covered here."
+}

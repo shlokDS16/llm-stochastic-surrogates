@@ -1,0 +1,33 @@
+{
+ "order": 77,
+ "study_id": "https://openalex.org/W4405785524",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/077_W4405785524.md",
+ "sources_varied": [
+  "M",
+  "P"
+ ],
+ "X1": {
+  "value": "partial",
+  "sources_crossed": [],
+  "evidence": "Sec V-VI (p.5-6): six models at temperature 0 on the same HRI scenarios; a system message asking for reasons first was added in one check; authors defer prompt rephrasing to future work."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "P"
+  ],
+  "evidence": "Sec VI: performance with the added system prompt compared with the plain prompt and judged worse; no variance share."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": ""
+ },
+ "notes": "System-message variant tested only on part of the models."
+}

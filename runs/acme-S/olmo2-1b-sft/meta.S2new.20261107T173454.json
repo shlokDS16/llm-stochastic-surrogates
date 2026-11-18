@@ -1,0 +1,19 @@
+{
+ "model": "olmo2-1b-sft",
+ "repo": "allenai/OLMo-2-0425-1B-SFT",
+ "revision": "0d85a3d037876ce6ac7d4311d994400fc66ac27f",
+ "stage": "S2new",
+ "batch_size": 40,
+ "eos_ids": [
+  100257,
+  100265
+ ],
+ "torch": "2.11.0+cu128",
+ "transformers": "5.20.0",
+ "git_sha": "54b2c1aa814f1c438ac24874f84df19dc510b8a4",
+ "F": "F1",
+ "temps": [
+  1.0
+ ],
+ "n": 25
+}

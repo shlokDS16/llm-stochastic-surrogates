@@ -1,0 +1,28 @@
+{
+ "order": 150,
+ "study_id": "https://openalex.org/W7140872457",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/150_W7140872457.md",
+ "sources_varied": [
+  "M"
+ ],
+ "X1": {
+  "value": "no",
+  "sources_crossed": [],
+  "evidence": "Methods (p.8-10): six AI models, 20 repeated prompts per condition; gender of the actor and target is the manipulated condition."
+ },
+ "X2": {
+  "value": "no",
+  "x2_types": [],
+  "x2_sources": [],
+  "evidence": "Effects reported per model; the authors say the number of observations per model precluded formal tests of interactions."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": ""
+ },
+ "notes": ""
+}

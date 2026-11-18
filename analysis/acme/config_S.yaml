@@ -1,0 +1,111 @@
+# Arm S config for analysis/acme/run_pilot_acme.py (= analysis/pilot/run_pilot.py, loader and thermal pause substituted):
+# S1 and the pilot-item part of S2. Generated 2026-11-06 from analysis/acme/models.yaml; design and generation blocks copied
+# from analysis/pilot/config.yaml unchanged. batch_size = bs_f0; F1 runs pass --batch-size <bs_f1>.
+design:
+  wordings:
+  - W0
+  - W1
+  - W2
+  - W3
+  formats:
+  - F0
+  - F1
+  temps:
+  - 0.7
+  - 1.0
+  orders_P1:
+  - sure_first
+  - risky_first
+  n: 50
+  greedy: true
+generation:
+  max_new_tokens:
+    F0: 24
+    F1: 256
+models:
+  qwen2.5-0.5b-instruct:
+    repo: Qwen/Qwen2.5-0.5B-Instruct
+    revision: 7ae557604adf67be50417f59c2c2f167def9a775
+    path: models/raw/qwen2.5-0.5b-instruct
+    quant: bf16
+    batch_size: 100
+  qwen2.5-1.5b-instruct:
+    repo: Qwen/Qwen2.5-1.5B-Instruct
+    revision: 989aa7980e4cf806f80c7fef2b1adb7bc71aa306
+    path: models/raw/qwen2.5-1.5b-instruct
+    quant: bf16
+    batch_size: 100
+  qwen2.5-7b-instruct:
+    repo: Qwen/Qwen2.5-7B-Instruct
+    revision: a09a35458c702b33eeacc393d103063234e8bc28
+    path: models/q4/qwen2.5-7b-instruct
+    quant: nf4_saved
+    batch_size: 64
+  qwen2.5-14b-instruct:
+    repo: Qwen/Qwen2.5-14B-Instruct
+    revision: cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8
+    path: models/q4/qwen2.5-14b-instruct
+    quant: nf4_saved
+    batch_size: 16
+    embed_cpu: true
+  olmo2-1b-instruct:
+    repo: allenai/OLMo-2-0425-1B-Instruct
+    revision: 48d788eca847d4d7548f375ad03d3c9312f6139e
+    path: models/raw/olmo2-1b-instruct
+    quant: bf16
+    batch_size: 40
+  olmo2-1b-sft:
+    repo: allenai/OLMo-2-0425-1B-SFT
+    revision: 0d85a3d037876ce6ac7d4311d994400fc66ac27f
+    path: models/raw/olmo2-1b-sft
+    quant: bf16
+    batch_size: 40
+  olmo2-1b-dpo:
+    repo: allenai/OLMo-2-0425-1B-DPO
+    revision: c4b0485961ab24c2433b090f3b922f0913a9290f
+    path: models/raw/olmo2-1b-dpo
+    quant: bf16
+    batch_size: 40
+  olmo2-7b-instruct:
+    repo: allenai/OLMo-2-1124-7B-Instruct
+    revision: 470b1fba1ae01581f270116362ee4aa1b97f4c84
+    path: models/q4/olmo2-7b-instruct
+    quant: nf4_saved
+    batch_size: 6
+  olmo2-13b-instruct:
+    repo: allenai/OLMo-2-1124-13B-Instruct
+    revision: 3a5c85baefbb1896a54d56fe2e76c0395627ddf4
+    path: models/q4/olmo2-13b-instruct
+    quant: nf4_saved
+    batch_size: 6
+    embed_cpu: true
+  granite-3.3-2b-instruct:
+    repo: ibm-granite/granite-3.3-2b-instruct
+    revision: 707f574c62054322f6b5b04b6d075f0a8f05e0f0
+    path: models/raw/granite-3.3-2b-instruct
+    quant: bf16
+    batch_size: 80
+  granite-3.3-8b-instruct:
+    repo: ibm-granite/granite-3.3-8b-instruct
+    revision: 51dd4bc2ade4059a6bd87649d68aa11e4fb2529b
+    path: models/q4/granite-3.3-8b-instruct
+    quant: nf4_saved
+    batch_size: 24
+  smollm2-1.7b-instruct:
+    repo: HuggingFaceTB/SmolLM2-1.7B-Instruct
+    revision: 31b70e2e869a7173562077fd711b654946d38674
+    path: models/raw/smollm2-1.7b-instruct
+    quant: bf16
+    batch_size: 64
+  phi4-mini-instruct:
+    repo: microsoft/Phi-4-mini-instruct
+    revision: cfbefacb99257ffa30c83adab238a50856ac3083
+    path: models/q4/phi4-mini-instruct
+    quant: nf4_saved
+    batch_size: 48
+  mistral-7b-instruct-v0.3:
+    repo: mistralai/Mistral-7B-Instruct-v0.3
+    revision: c170c708c41dac9275d15a8fff4eca08d52bab71
+    path: models/q4/mistral-7b-instruct-v0.3
+    quant: nf4_saved
+    batch_size: 48

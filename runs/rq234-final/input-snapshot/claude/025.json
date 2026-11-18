@@ -1,0 +1,95 @@
+{
+  "order": 25,
+  "study_id": "W4399354223",
+  "full_text": {"obtained": true, "source": "research/sources/md/fulltext/025_W4399354223.md (arXiv 2406.00092, text is v2 dated 1 Oct 2026; page numbers are not marked in the converted text, so locations are section/table/figure)"},
+  "eligibility": {
+    "decision": "YES",
+    "failed_criterion": null,
+    "borderline": false,
+    "evidence": "Abstract and Sec 1-3: six LLMs generate random binary coin-flip sequences, the 'classic behavioral-science paradigm' of human random-sequence production; cites Nickerson & Butler 2009, Bar-Hillel et al. 2014, Rapoport & Budescu 1992 (E2 test a). New model outputs and a behavioural outcome (alternation, runs, heads rate) are analysed against human data from prior work (E1, E3, E4). Preprint, English, 2024+."
+  },
+  "A": {
+    "doi": "10.48550/arxiv.2406.00092",
+    "arxiv_id": "2406.00092",
+    "title": "Heads, Tails, and AI Fails: LLMs, Randomness, and Human Judgments",
+    "first_author": "Katherine Van Koevering",
+    "year": 2024,
+    "venue": "arXiv preprint (cs.AI)",
+    "peer_reviewed": "preprint",
+    "first_author_field": "not_reported",
+    "country": "USA"
+  },
+  "B": {
+    "models": [
+      {"name": "GPT-3.5 Turbo", "version": "gpt-35-turbo-0613", "access": "API", "params_b": null, "release_date": "not_reported", "tuning": "instruction", "family": "GPT", "query_date": "not_reported"},
+      {"name": "GPT-4", "version": "gpt-4-0613", "access": "API", "params_b": null, "release_date": "not_reported", "tuning": "instruction", "family": "GPT", "query_date": "not_reported"},
+      {"name": "GPT-4o-mini", "version": "not_reported", "access": "API", "params_b": null, "release_date": "not_reported", "tuning": "instruction", "family": "GPT", "query_date": "not_reported"},
+      {"name": "Llama 3 70B", "version": "meta-llama/Llama-3-70b-chat-hf", "access": "open_weights", "params_b": 70, "release_date": "not_reported", "tuning": "instruction", "family": "Llama", "query_date": "not_reported"},
+      {"name": "Llama 3 8B", "version": "meta-llama/Meta-Llama-3-8B-Instruct", "access": "open_weights", "params_b": 8, "release_date": "not_reported", "tuning": "instruction", "family": "Llama", "query_date": "not_reported"},
+      {"name": "Llama 3.1 70B", "version": "meta-llama/Meta-Llama-3.1-70B-Instruct (Table 11; Table 4 lists Meta-Llama-3-70B-Instruct-Lite)", "access": "open_weights", "params_b": 70, "release_date": "not_reported", "tuning": "instruction", "family": "Llama", "query_date": "not_reported"},
+      {"name": "Llama 3.1 8B", "version": "meta-llama/Meta-Llama-3.1-8B-Instruct", "access": "open_weights", "params_b": 8, "release_date": "not_reported", "tuning": "instruction", "family": "Llama", "query_date": "not_reported"},
+      {"name": "Llama 3.2 3B", "version": "meta-llama/Llama-3.2-3B-Instruct", "access": "open_weights", "params_b": 3, "release_date": "not_reported", "tuning": "instruction", "family": "Llama", "query_date": "not_reported"},
+      {"name": "Gemma 2 27B", "version": "gemma-2-27b-it (private endpoint)", "access": "open_weights", "params_b": 27, "release_date": "not_reported", "tuning": "instruction", "family": "other", "query_date": "not_reported"},
+      {"name": "Gemma 2 9B", "version": "google/gemma-2-9b-it", "access": "open_weights", "params_b": 9, "release_date": "not_reported", "tuning": "instruction", "family": "other", "query_date": "not_reported"},
+      {"name": "Qwen 2.5 7B", "version": "Qwen/Qwen2.5-7B-Instruct", "access": "open_weights", "params_b": 7, "release_date": "not_reported", "tuning": "instruction", "family": "Qwen", "query_date": "not_reported"}
+    ],
+    "n_models": 11,
+    "n_model_families": 4
+  },
+  "C": {
+    "paradigms": [
+      {"pid": "P1", "name": "Single coin-flip production ('Flip a coin' / 'Flip a fair coin'; heads bias)", "family": "HB",
+       "source_paper": "Bar-Hillel, Peer & Acquisti 2014 (heads-first reachability bias); Nickerson & Butler 2009",
+       "items_origin": "adapted", "n_items": 2, "languages": ["English"], "modality": "text",
+       "contamination_risk": "no", "location": "Sec 3.1, Table 1, Fig 1, footnote 2, App A.3 Table 5"},
+      {"pid": "P2", "name": "Random binary sequence generation (20 coin flips; alternation, runs, balance, first flip, predictability)", "family": "HB",
+       "source_paper": "Nickerson & Butler 2009; Rapoport & Budescu 1992; Kleinberg, Liang & Mullainathan 2017; Bar-Hillel et al. 2014",
+       "items_origin": "adapted", "n_items": 2, "languages": ["English"], "modality": "text",
+       "contamination_risk": "no", "location": "Sec 3.2 (3.2.1-3.2.5), Figs 1-5, Tables 2-3, App A.3 Table 5, Sec 4, App C"}
+    ]
+  },
+  "D": {
+    "types": ["published_norms"],
+    "primary_type": "published_norms",
+    "human_n": null,
+    "population": "not_reported",
+    "metric": "proportion of heads; first-flip heads rate; alternation rate (about 60%); 8-flip sequence statistics (runs, n-grams); best achievable MSE for predicting human flips (just above 0.24); all taken from earlier published studies, not collected here (Sec 5.3 limitation 4)"
+  },
+  "E": {
+    "outcome_types": ["bias_magnitude", "choice_distribution", "other"],
+    "rows_aggregated": false,
+    "effects": [
+      {"pid": "P1", "model": "Gemma 2 27B", "model_family": "other", "outcome_kind": "effect", "basis": "descriptive", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": 0.50, "human_es": 0.30, "es_metric": "proportion heads minus 0.5 (fair-coin baseline), T=1.0", "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "HUMAN-LIKE", "location": "Table 1, T=1.0 row (paper's stated default temperature; temperatures reported separately). Gemma needed 'simulate' wording (fn 2). Human 0.80 in same table."},
+      {"pid": "P1", "model": "GPT-3.5 Turbo", "model_family": "GPT", "outcome_kind": "effect", "basis": "descriptive", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": 0.40, "human_es": 0.30, "es_metric": "proportion heads minus 0.5 (fair-coin baseline), T=1.0", "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "HUMAN-LIKE", "location": "Table 1, T=1.0 row (0.90 heads); text in 3.1 says ChatGPT models more variable, more refusals"},
+      {"pid": "P1", "model": "GPT-4", "model_family": "GPT", "outcome_kind": "effect", "basis": "descriptive", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": 0.39, "human_es": 0.30, "es_metric": "proportion heads minus 0.5 (fair-coin baseline), T=1.0", "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "HUMAN-LIKE", "location": "Table 1, T=1.0 row (0.89 heads)"},
+      {"pid": "P1", "model": "Llama 3 70B", "model_family": "Llama", "outcome_kind": "effect", "basis": "descriptive", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": 0.50, "human_es": 0.30, "es_metric": "proportion heads minus 0.5 (fair-coin baseline), T=1.0", "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "HUMAN-LIKE", "location": "Table 1, T=1.0 row (1.00 heads); Sec 3.1 text: 100% heads over 660 flips at T 0.0 to 1.0"},
+      {"pid": "P1", "model": "Llama 3.1 70B", "model_family": "Llama", "outcome_kind": "effect", "basis": "descriptive", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": 0.50, "human_es": 0.30, "es_metric": "proportion heads minus 0.5 (fair-coin baseline), T=1.0", "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "HUMAN-LIKE", "location": "Table 1, T=1.0 row (1.00 heads)"},
+      {"pid": "P1", "model": "Qwen 2.5 7B", "model_family": "Qwen", "outcome_kind": "effect", "basis": "descriptive", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": 0.31, "human_es": 0.30, "es_metric": "proportion heads minus 0.5 (fair-coin baseline), T=1.0", "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "HUMAN-LIKE", "location": "Table 1, T=1.0 row (0.81 heads); Sec 3.1 text: slightly lower, near human baseline"},
+
+      {"pid": "P2", "model": "Gemma 2 27B", "model_family": "other", "outcome_kind": "effect", "basis": "descriptive", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "SAME-DIRECTION-UNQUANTIFIED", "location": "Sec 3.2.3, Fig 2 (alternation histograms; no per-model number); Sec 3.2.4 Fig 4 strong anti-correlation with flip 7 (Fig 5). Usable data only from T=0.4 (App A.5, B.2)"},
+      {"pid": "P2", "model": "GPT-3.5 Turbo", "model_family": "GPT", "outcome_kind": "effect", "basis": "descriptive", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": 0.045, "human_es": 0.10, "es_metric": "alternation rate minus 0.5 (Bernoulli), framing-baseline prompt; human 'about 60%'", "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "ATTENUATED", "location": "Table 25 baseline 0.545 (temperature not stated, T=1.0 assumed); Sec 3.2.3 text says all models over-alternate but GPT-3.5 closest to human noisiness; human 60% from Sec 3.2.3 text"},
+      {"pid": "P2", "model": "GPT-4", "model_family": "GPT", "outcome_kind": "effect", "basis": "descriptive", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": 0.12, "human_es": 0.10, "es_metric": "alternation rate minus 0.5 (Bernoulli), framing-baseline prompt; human 'about 60%'", "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "HUMAN-LIKE", "location": "Table 25 baseline 0.620 (T not stated); Table 14 space format 0.682 gives ratio 1.82; at T=0 often maximally alternating (Sec 3.2.3, Table 16)"},
+      {"pid": "P2", "model": "GPT-4o-mini", "model_family": "GPT", "outcome_kind": "effect", "basis": "descriptive", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": 0.142, "human_es": 0.10, "es_metric": "alternation rate minus 0.5 (Bernoulli), framing-baseline prompt; human 'about 60%'", "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "HUMAN-LIKE", "location": "Table 25 baseline 0.642 (only place this model appears; T not stated)"},
+      {"pid": "P2", "model": "Llama 3 70B", "model_family": "Llama", "outcome_kind": "effect", "basis": "descriptive", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "SAME-DIRECTION-UNQUANTIFIED", "location": "Sec 3.2.3, Fig 2 (slightly less regular pattern than GPT-4 but exceeds expected alternation; no per-model number); 97.4% of sequences begin HTHH (Table 17)"},
+      {"pid": "P2", "model": "Llama 3 8B", "model_family": "Llama", "outcome_kind": "effect", "basis": "descriptive", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": 0.073, "human_es": 0.10, "es_metric": "alternation rate minus 0.5 (Bernoulli), framing-baseline prompt; human 'about 60%'", "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "HUMAN-LIKE", "location": "Table 25 baseline 0.573 (T not stated); Table 14 space format 0.649; concat format 0.382 reverses sign"},
+      {"pid": "P2", "model": "Llama 3.1 70B", "model_family": "Llama", "outcome_kind": "effect", "basis": "descriptive", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "SAME-DIRECTION-UNQUANTIFIED", "location": "Sec 3.2.3, Fig 2 (all models over-alternate; no per-model number)"},
+      {"pid": "P2", "model": "Llama 3.1 8B", "model_family": "Llama", "outcome_kind": "effect", "basis": "descriptive", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": 0.084, "human_es": 0.10, "es_metric": "alternation rate minus 0.5 (Bernoulli), framing-baseline prompt; human 'about 60%'", "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "HUMAN-LIKE", "location": "Table 25 baseline 0.584 (T not stated); Table 14 space format 0.647; concat format 0.384 reverses sign"},
+      {"pid": "P2", "model": "Gemma 2 9B", "model_family": "other", "outcome_kind": "effect", "basis": "descriptive", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": 0.204, "human_es": 0.10, "es_metric": "alternation rate minus 0.5 (Bernoulli), framing-baseline prompt; human 'about 60%'", "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "EXAGGERATED", "location": "Table 25 baseline 0.704 (T not stated); ratio 2.04 is sensitive to the approximate human value of 60%"},
+      {"pid": "P2", "model": "Qwen 2.5 7B", "model_family": "Qwen", "outcome_kind": "effect", "basis": "descriptive", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "SAME-DIRECTION-UNQUANTIFIED", "location": "Sec 3.2.3, Fig 2 (no per-model number); 40-66% invalid responses, Table 6. Sec 3.2.1 Qwen reacts strongly to outcome order (Table 3)"}
+    ],
+    "headline": "LLMs reproduce canonical human randomness biases (over-alternation, long-run aversion, first-flip heads bias) but often amplify them or add model-specific distortions; temperature does not remove them."
+  },
+  "F": {
+    "f1": "no", "f2": "yes", "f3": "yes", "f4": "yes", "f5": "yes", "f6": "yes", "f7": "yes", "f8": "yes",
+    "f9": "yes", "f10": "no", "f11": "no", "f12": "no",
+    "perturbations_tested": ["wording", "option_order", "response_format", "decoding", "model_version", "contamination", "other"],
+    "robustness_outcome": "reversed"
+  },
+  "G": {
+    "notes": "Group comparisons rest on previously published human numbers (no human sample, no tests on main effects). Alternation values for 4 models rest on Table 25 with temperature unstated. Table 14 and Table 25 disagree for the same model. Qwen is '2' in Table 3 and '2.5' in Table 4. Code/data only 'in supplementary materials', no link.",
+    "extractor": "paper-reader (claude-sonnet)",
+    "date": "2026-10-16",
+    "minutes": 6,
+    "sections_read": ["abstract", "1 Introduction", "2 Related work", "3.1-3.2.5 results and Tables 1-3", "4 mechanistic analyses", "5 conclusion and limitations", "App A (models, LASSO, prompts Table 5, parsing, invalid rates)", "App B", "App C (Tables 9-25)"]
+  }
+}

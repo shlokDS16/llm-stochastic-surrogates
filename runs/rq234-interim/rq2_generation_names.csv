@@ -1,0 +1,615 @@
+coder,model,generation,source,name_only_generation,date_only_generation,date_disagrees_with_name,rows,studies
+claude,All 75 LSTM LMs pooled (accuracy shown against hidden-unit count),unknown,none,unknown,unknown,False,1,1
+claude,"All 75 LSTM LMs pooled, as the authors pool them in Fig. 2 (more than 30 paradigm x model pairs; a single model family)",unknown,none,unknown,unknown,False,1,1
+claude,ChatGPT,unknown,none,unknown,unknown,False,1,1
+claude,"ChatGPT (Study 1; version not stated, pooled across 3 Oct and 10 Nov 2023 runs)",unknown,none,unknown,unknown,False,1,1
+claude,ChatGPT (free version),unknown,none,unknown,unknown,False,1,1
+claude,"ChatGPT (version 3, web interface)",unknown,none,unknown,unknown,False,6,1
+claude,"ChatGPT (version 4, web interface)",unknown,none,unknown,unknown,False,6,1
+claude,Claude (free version),unknown,none,unknown,unknown,False,1,1
+claude,GPT,unknown,none,unknown,unknown,False,2,1
+claude,GPT-Neo 2.7B,unknown,none,unknown,unknown,False,2,1
+claude,Grok (free version),unknown,none,unknown,unknown,False,1,1
+claude,LLaMA 7B,unknown,none,unknown,unknown,False,2,1
+claude,LoRA Buddhism,unknown,none,unknown,unknown,False,5,1
+claude,LoRA Christianity,unknown,none,unknown,unknown,False,5,1
+claude,LoRA Hinduism,unknown,none,unknown,unknown,False,5,1
+claude,LoRA Islam,unknown,none,unknown,unknown,False,5,1
+claude,LoRA Judaism,unknown,none,unknown,unknown,False,5,1
+claude,Mistral,unknown,none,unknown,unknown,False,2,1
+claude,OPT 6.7B,unknown,none,unknown,unknown,False,2,1
+claude,Open Assistant,unknown,none,unknown,unknown,False,2,1
+claude,Perplexity (free version),unknown,none,unknown,unknown,False,1,1
+claude,Solar,unknown,none,unknown,unknown,False,2,1
+claude,BLOOM,G1,name,G1,unknown,False,5,2
+claude,ChatGPT v1,G1,release_date,unknown,G1,False,1,1
+claude,Delphi,G1,name,G1,unknown,False,1,1
+claude,Delphi++,G1,name,G1,unknown,False,1,1
+claude,Dutch-English bilingual GPT-2 (124M),G1,name,G1,unknown,False,1,1
+claude,Flan-T5-base,G1,name,G1,unknown,False,1,1
+claude,Flan-T5-large,G1,name,G1,unknown,False,1,1
+claude,Flan-T5-small,G1,name,G1,unknown,False,1,1
+claude,Flan-T5-xl,G1,name,G1,unknown,False,1,1
+claude,Flan-T5-xxl,G1,name,G1,unknown,False,1,1
+claude,GPT (OpenAI GPT-1) base,G1,name,G1,unknown,False,1,1
+claude,GPT-1,G1,name,G1,unknown,False,2,1
+claude,GPT-2 (IF-min first-pass),G1,name,G1,unknown,False,1,1
+claude,GPT-2 (IF-min first-pass; surprisal also reported),G1,name,G1,unknown,False,1,1
+claude,GPT-2 L,G1,name,G1,unknown,False,2,1
+claude,GPT-2 M,G1,name,G1,unknown,False,2,1
+claude,GPT-2 S,G1,name,G1,unknown,False,2,1
+claude,GPT-2 XL,G1,name,G1,unknown,False,4,2
+claude,GPT-2 base,G1,name,G1,unknown,False,1,1
+claude,GPT-2 extra-large,G1,name,G1,unknown,False,1,1
+claude,GPT-2 large,G1,name,G1,unknown,False,1,1
+claude,GPT-2 medium,G1,name,G1,unknown,False,1,1
+claude,GPT-2-large,G1,name,G1,unknown,False,1,1
+claude,GPT-2-medium,G1,name,G1,unknown,False,1,1
+claude,GPT-2-small,G1,name,G1,unknown,False,1,1
+claude,GPT-2-xl,G1,name,G1,unknown,False,1,1
+claude,GPT-3,G1,name,G1,unknown,False,1,1
+claude,GPT-3 (davinci),G1,name,G1,unknown,False,1,1
+claude,GPT-3 base (davinci-002),G1,name,G1,unknown,False,3,1
+claude,GPT-3 text-curie-001,G1,name,G1,unknown,False,4,2
+claude,GPT-3 text-davinci-001,G1,name,G1,unknown,False,2,1
+claude,GPT-3 text-davinci-002,G1,name,G1,unknown,False,3,2
+claude,GPT-3 text-davinci-003,G1,name,G1,unknown,False,7,2
+claude,GPT-3-davinci,G1,name,G1,unknown,False,2,1
+claude,GPT-3.5 (text-davinci-003),G1,name,G1,unknown,False,3,1
+claude,GPT-3.5-text-davinci-002,G1,name,G1,unknown,False,2,1
+claude,GPT-3.5-text-davinci-003,G1,name,G1,unknown,False,2,1
+claude,GPT-J,G1,name,G1,unknown,False,1,1
+claude,GPT2,G1,name,G1,unknown,False,3,2
+claude,GPT2-l,G1,name,G1,unknown,False,2,1
+claude,GPT2-m,G1,name,G1,unknown,False,2,1
+claude,GPT2-xl,G1,name,G1,unknown,False,2,1
+claude,GPT3,G1,name,G1,unknown,False,1,1
+claude,German GPT-2 (stefan-it),G1,name,G1,unknown,False,2,1
+claude,InstructGPT (text-davinci-002),G1,name,G1,unknown,False,1,1
+claude,LaMDA 137B,G1,name,G1,unknown,False,12,1
+claude,Pythia-1.4B,G1,name,G1,unknown,False,2,1
+claude,Pythia-12B,G1,name,G1,unknown,False,6,2
+claude,Pythia-14M,G1,name,G1,unknown,False,2,1
+claude,Pythia-160M,G1,name,G1,unknown,False,2,1
+claude,Pythia-1B,G1,name,G1,unknown,False,2,1
+claude,Pythia-2.8B,G1,name,G1,unknown,False,2,1
+claude,Pythia-31M,G1,name,G1,unknown,False,2,1
+claude,Pythia-410M,G1,name,G1,unknown,False,2,1
+claude,Pythia-6.9B,G1,name,G1,unknown,False,2,1
+claude,Pythia-70M,G1,name,G1,unknown,False,2,1
+claude,T5-11b,G1,name,G1,unknown,False,1,1
+claude,T5-3b,G1,name,G1,unknown,False,1,1
+claude,T5-base,G1,name,G1,unknown,False,1,1
+claude,T5-large,G1,name,G1,unknown,False,1,1
+claude,T5-small,G1,name,G1,unknown,False,1,1
+claude,Transformer-XL base,G1,name,G1,unknown,False,1,1
+claude,XGLM 7.5B,G1,name,G1,unknown,False,2,1
+claude,ada,G1,name,G1,unknown,False,1,1
+claude,babbage,G1,name,G1,unknown,False,1,1
+claude,curie,G1,name,G1,unknown,False,1,1
+claude,davinci,G1,name,G1,unknown,False,1,1
+claude,distilGPT2,G1,name,G1,unknown,False,2,1
+claude,text-ada-001,G1,name,G1,unknown,False,1,1
+claude,text-babbage-001,G1,name,G1,unknown,False,1,1
+claude,text-curie-001,G1,name,G1,unknown,False,1,1
+claude,text-davinci-001,G1,name,G1,unknown,False,1,1
+claude,text-davinci-002,G1,name,G1,unknown,False,5,3
+claude,text-davinci-003,G1,name,G1,unknown,False,7,3
+claude,Baichuan2-13B-Chat,G2,name,G2,unknown,False,8,1
+claude,Bard,G2,name,G2,unknown,False,2,1
+claude,ChatGPT (GPT-3.5 turbo),G2,name,G2,unknown,False,2,1
+claude,"ChatGPT (GPT-3.5, 'ChatGPT3')",G2,name,G2,unknown,False,1,1
+claude,ChatGPT (gpt-3.5-turbo),G2,name,G2,unknown,False,2,1
+claude,ChatGPT 3.5,G2,name,G2,unknown,False,3,1
+claude,ChatGPT 4.0,G2,name,G2,unknown,False,3,1
+claude,ChatGPT v2,G2,release_date,unknown,G2,False,1,1
+claude,ChatGPT-3.5,G2,name,G2,unknown,False,2,1
+claude,ChatGPT-4,G2,name,G2,unknown,False,2,1
+claude,Claude 2,G2,name,G2,unknown,False,3,1
+claude,GPT-3.5,G2,name,G2,unknown,False,7,5
+claude,GPT-3.5 (ChatGPT),G2,name,G2,unknown,False,1,1
+claude,GPT-3.5 (gpt-3.5-turbo-0613),G2,name,G2,unknown,False,3,1
+claude,GPT-3.5 Turbo,G2,name,G2,unknown,False,2,1
+claude,GPT-3.5 chat (gpt-3.5-turbo),G2,name,G2,unknown,False,2,1
+claude,GPT-3.5-Turbo,G2,name,G2,unknown,False,7,2
+claude,GPT-3.5-turbo,G2,name,G2,unknown,False,1,1
+claude,GPT-3.5-turbo,G2,name,G2,G2,False,2,1
+claude,GPT-4,G2,name,G2,unknown,False,30,15
+claude,GPT-4,G2,name,G2,G2,False,2,1
+claude,GPT-4 (ChatGPT),G2,name,G2,unknown,False,1,1
+claude,GPT-4 (gpt-4-0613),G2,name,G2,unknown,False,3,1
+claude,GPT-4 (text-only),G2,name,G2,unknown,False,1,1
+claude,"GPT-4 and GPT-4-1106 preview (pooled, model as covariate)",G2,name,G2,unknown,False,1,1
+claude,GPT-4 vision (gpt-4-vision-preview),G2,name,G2,unknown,False,1,1
+claude,GPT-4-1106,G2,name,G2,unknown,False,8,1
+claude,GPT-4-Vision,G2,name,G2,unknown,False,1,1
+claude,GPT-4V,G2,name,G2,unknown,False,1,1
+claude,LLaMA-2-13b-chat,G2,name,G2,unknown,False,3,1
+claude,LLaMA-2-70b-chat,G2,name,G2,unknown,False,3,1
+claude,LLaMA2-13B-Chat,G2,name,G2,unknown,False,8,1
+claude,Llama 2 13B chat,G2,name,G2,unknown,False,2,1
+claude,Llama 2 70B chat,G2,name,G2,unknown,False,3,1
+claude,Llama 2 7B chat,G2,name,G2,unknown,False,2,1
+claude,Llama-2,G2,name,G2,unknown,False,1,1
+claude,Llama-2-13B,G2,name,G2,unknown,False,4,1
+claude,Llama-2-13b-chat-hf,G2,name,G2,unknown,False,1,1
+claude,Llama-2-70b-chat-hf,G2,name,G2,unknown,False,1,1
+claude,Llama-2-7b,G2,name,G2,unknown,False,1,1
+claude,Llama-2-7b-chat-hf,G2,name,G2,unknown,False,1,1
+claude,Llama-2-uncensored-7b,G2,name,G2,unknown,False,1,1
+claude,Llama2 13B,G2,name,G2,unknown,False,1,1
+claude,Llama2 70B,G2,name,G2,unknown,False,1,1
+claude,Llama2 7B,G2,name,G2,unknown,False,1,1
+claude,Llama2-13B-chat,G2,name,G2,unknown,False,3,1
+claude,Llama2-13b,G2,name,G2,unknown,False,2,1
+claude,Llama2-13b-chat,G2,name,G2,unknown,False,2,1
+claude,Llama2-70b,G2,name,G2,unknown,False,2,1
+claude,Llama2-70b-chat,G2,name,G2,unknown,False,2,1
+claude,Llama2-7B-chat,G2,name,G2,unknown,False,3,1
+claude,Llama2-7b,G2,name,G2,unknown,False,2,1
+claude,Llama2-7b-chat,G2,name,G2,unknown,False,2,1
+claude,Llama2-Chat 70B,G2,name,G2,unknown,False,1,1
+claude,Mistral 7B,G2,name,G2,unknown,False,1,1
+claude,Mistral-7B-Instruct,G2,name,G2,unknown,False,5,2
+claude,Mistral-7B-Instruct-v0.2,G2,name,G2,unknown,False,1,1
+claude,Mistral-7b,G2,name,G2,unknown,False,1,1
+claude,Mixtral 8x7B,G2,name,G2,unknown,False,4,1
+claude,Mixtral-8x7B-Instruct,G2,name,G2,unknown,False,1,1
+claude,Mixtral-8x7B-Instruct-v0.1,G2,name,G2,unknown,False,8,1
+claude,PaLM-2,G2,name,G2,unknown,False,1,1
+claude,Qwen-14B,G2,name,G2,unknown,False,4,1
+claude,Qwen-14B-Chat,G2,name,G2,unknown,False,8,1
+claude,Solar-10.7b,G2,name,G2,unknown,False,1,1
+claude,gpt-3.5-turbo,G2,name,G2,unknown,False,3,2
+claude,gpt-3.5-turbo-0125,G2,name,G2,unknown,False,2,2
+claude,open-mistral-7b,G2,name,G2,unknown,False,1,1
+claude,open-mixtral-8x7b,G2,name,G2,unknown,False,1,1
+claude,zephyr-7b-beta,G2,name,G2,unknown,False,1,1
+claude,Centaur (Llama3.1-70B fine-tuned on human choices),G3,name,G3,unknown,False,1,1
+claude,ChatGPT-4o,G3,name,G3,unknown,False,3,1
+claude,Claude 3.5 Sonnet,G3,name,G3,unknown,False,2,1
+claude,Claude 4 Sonnet,G3,name,G3,unknown,False,3,1
+claude,Claude Haiku 4.5,G3,name,G3,unknown,False,1,1
+claude,Claude Opus 4,G3,name,G3,unknown,False,1,1
+claude,Claude Opus 4.5,G3,name,G3,unknown,False,1,1
+claude,Claude Sonnet 4,G3,name,G3,unknown,False,1,1
+claude,Claude Sonnet 4.5,G3,name,G3,unknown,False,6,4
+claude,Claude Sonnet 4.5 (Base agent),G3,name,G3,unknown,False,1,1
+claude,Claude Sonnet 4.6,G3,name,G3,unknown,False,2,1
+claude,Claude-4.5-opus,G3,name,G3,unknown,False,1,1
+claude,Claude-Sonnet-4,G3,name,G3,unknown,False,1,1
+claude,DeepSeek (free version),G3,name,G3,unknown,False,1,1
+claude,DeepSeek R1,G3,name,G3,unknown,False,1,1
+claude,DeepSeek V3,G3,name,G3,unknown,False,1,1
+claude,DeepSeek-R1,G3,name,G3,unknown,False,3,2
+claude,DeepSeek-R1-Distill-Qwen,G3,name,G3,unknown,False,2,1
+claude,DeepSeek-V3.2,G3,name,G3,unknown,False,4,2
+claude,DeepSeek-V4-Flash,G3,name,G3,unknown,False,1,1
+claude,GLM-4.6V-Flash,G3,name,G3,unknown,False,2,1
+claude,GPT-4o,G3,name,G3,unknown,False,13,7
+claude,GPT-4o (gpt-4o-2024-08-06),G3,name,G3,unknown,False,1,1
+claude,GPT-4o mini,G3,name,G3,unknown,False,1,1
+claude,GPT-4o-mini,G3,name,G3,unknown,False,3,2
+claude,GPT-5,G3,name,G3,unknown,False,2,2
+claude,GPT-5-mini,G3,name,G3,unknown,False,2,1
+claude,GPT-5-nano,G3,name,G3,unknown,False,1,1
+claude,GPT-5.1,G3,name,G3,unknown,False,1,1
+claude,GPT-5.2,G3,name,G3,unknown,False,5,3
+claude,GPT-5.4,G3,name,G3,unknown,False,10,3
+claude,GPT-5.4-mini,G3,name,G3,unknown,False,3,1
+claude,GPT-OSS-120B,G3,name,G3,unknown,False,2,2
+claude,GPT-OSS-20B,G3,name,G3,unknown,False,1,1
+claude,Gemini (free version),G3,name,G3,unknown,False,1,1
+claude,Gemini 2.0 Flash,G3,name,G3,unknown,False,2,1
+claude,Gemini 2.5 Flash,G3,name,G3,unknown,False,4,2
+claude,Gemini 2.5 Pro,G3,name,G3,unknown,False,3,3
+claude,Gemini 3 Flash,G3,name,G3,unknown,False,5,2
+claude,Gemini-1-Pro,G3,name,G3,unknown,False,1,1
+claude,Gemini-2.5-Flash-Lite,G3,name,G3,unknown,False,2,1
+claude,Gemini-2.5-pro,G3,name,G3,unknown,False,1,1
+claude,Gemini-Pro,G3,name,G3,unknown,False,2,1
+claude,Gemma,G3,name,G3,unknown,False,1,1
+claude,Gemma 2 27B,G3,name,G3,unknown,False,2,1
+claude,Gemma 2 9B,G3,name,G3,unknown,False,1,1
+claude,Gemma 3 12B (IT),G3,name,G3,unknown,False,1,1
+claude,Gemma 3 12B (PT),G3,name,G3,unknown,False,1,1
+claude,Gemma 3 1B (IT),G3,name,G3,unknown,False,1,1
+claude,Gemma 3 1B (PT),G3,name,G3,unknown,False,1,1
+claude,Gemma 3 27B (IT),G3,name,G3,unknown,False,1,1
+claude,Gemma 3 27B (PT),G3,name,G3,unknown,False,1,1
+claude,Gemma 3 4B (IT),G3,name,G3,unknown,False,1,1
+claude,Gemma 3 4B (PT),G3,name,G3,unknown,False,1,1
+claude,Gemma 4 31B,G3,name,G3,unknown,False,2,1
+claude,Gemma-2-27B-it,G3,name,G3,unknown,False,1,1
+claude,Gemma-2-2B-IT,G3,name,G3,unknown,False,6,1
+claude,Gemma-2-9B-IT,G3,name,G3,unknown,False,15,3
+claude,Gemma-2-9B-it,G3,name,G3,unknown,False,1,1
+claude,Gemma-2-9b,G3,name,G3,unknown,False,1,1
+claude,Gemma-3-12B-IT,G3,name,G3,unknown,False,1,1
+claude,Gemma-3-12b,G3,name,G3,unknown,False,1,1
+claude,Gemma-3-1B-IT,G3,name,G3,unknown,False,1,1
+claude,Gemma-3-27B-IT,G3,name,G3,unknown,False,1,1
+claude,Gemma-3-4B-IT,G3,name,G3,unknown,False,1,1
+claude,Gemma-4-26B-A4B,G3,name,G3,unknown,False,3,1
+claude,Gemma-4-31B,G3,name,G3,unknown,False,4,1
+claude,Gemma-7b,G3,name,G3,unknown,False,1,1
+claude,Gemma3-12B-Instruct,G3,name,G3,unknown,False,3,1
+claude,Grok-3,G3,name,G3,unknown,False,1,1
+claude,Grok-3 Mini,G3,name,G3,unknown,False,1,1
+claude,InternVL3.5-GPT-OSS-20B-A4B-Preview,G3,name,G3,unknown,False,2,1
+claude,Kimi-VL-A3B-Thinking-2506,G3,name,G3,unknown,False,2,1
+claude,LLaMA-3,G3,name,G3,unknown,False,1,1
+claude,Llama 3 70B,G3,name,G3,unknown,False,2,1
+claude,Llama 3 70B,G3,name,G3,G3,False,4,1
+claude,Llama 3 8B,G3,name,G3,unknown,False,1,1
+claude,Llama 3.1 70B,G3,name,G3,unknown,False,2,1
+claude,Llama 3.1 70B (IT),G3,name,G3,unknown,False,1,1
+claude,Llama 3.1 70B (PT),G3,name,G3,unknown,False,1,1
+claude,Llama 3.1 8B,G3,name,G3,unknown,False,1,1
+claude,Llama 3.1 8B (IT),G3,name,G3,unknown,False,1,1
+claude,Llama 3.1 8B (PT),G3,name,G3,unknown,False,1,1
+claude,Llama 3.1 8B instruct,G3,name,G3,unknown,False,2,1
+claude,Llama 3.2 1B (IT),G3,name,G3,unknown,False,1,1
+claude,Llama 3.2 1B (PT),G3,name,G3,unknown,False,1,1
+claude,Llama 3.2 3B (IT),G3,name,G3,unknown,False,1,1
+claude,Llama 3.2 3B (PT),G3,name,G3,unknown,False,1,1
+claude,Llama 4 Scout 17B-16E Instruct,G3,name,G3,unknown,False,2,1
+claude,Llama-3-70B-Instruct,G3,name,G3,G3,False,1,1
+claude,Llama-3-70B-Instruct,G3,name,G3,unknown,False,1,1
+claude,Llama-3-8B-IT,G3,name,G3,unknown,False,6,1
+claude,Llama-3-8B-Instruct,G3,name,G3,unknown,False,2,2
+claude,Llama-3-8b,G3,name,G3,unknown,False,1,1
+claude,Llama-3.1-405b,G3,name,G3,unknown,False,1,1
+claude,Llama-3.1-70B-Instruct,G3,name,G3,G3,False,1,1
+claude,Llama-3.1-70B-Instruct,G3,name,G3,unknown,False,1,1
+claude,Llama-3.1-8B-Instruct,G3,name,G3,unknown,False,12,3
+claude,Llama-3.1-8B-Instruct (control),G3,name,G3,unknown,False,5,1
+claude,Llama-3.1-8b,G3,name,G3,unknown,False,1,1
+claude,Llama-3.2-3B-Instruct,G3,name,G3,unknown,False,1,1
+claude,Llama-3.3-70B,G3,name,G3,unknown,False,4,1
+claude,Llama-3.3-70B-Instruct,G3,name,G3,unknown,False,1,1
+claude,Llama-3.3-70b,G3,name,G3,unknown,False,1,1
+claude,Llama-4,G3,name,G3,unknown,False,2,1
+claude,Llama-4-Maverick,G3,name,G3,unknown,False,2,1
+claude,Llama-4-Scout,G3,name,G3,unknown,False,2,1
+claude,Llama3 70B,G3,name,G3,unknown,False,1,1
+claude,Llama3 8B,G3,name,G3,unknown,False,1,1
+claude,Llama3.1-8B-Instruct,G3,name,G3,unknown,False,3,1
+claude,Llama3.3-70B A-SFT,G3,name,G3,unknown,False,1,1
+claude,Llama3.3-70B P-SFT,G3,name,G3,unknown,False,1,1
+claude,Ministral-3-14B-Instruct,G3,name,G3,unknown,False,1,1
+claude,Mistral-NeMo 12B instruct,G3,name,G3,unknown,False,2,1
+claude,OLMo 2 13B,G3,name,G3,unknown,False,1,1
+claude,OLMo 2 1B,G3,name,G3,unknown,False,1,1
+claude,OLMo 2 32B,G3,name,G3,unknown,False,1,1
+claude,OLMo 2 7B,G3,name,G3,unknown,False,1,1
+claude,Phi-3-medium-14b,G3,name,G3,unknown,False,1,1
+claude,Phi-4,G3,name,G3,unknown,False,3,1
+claude,Phi-4-14b,G3,name,G3,unknown,False,1,1
+claude,QwQ,G3,name,G3,unknown,False,1,1
+claude,Qwen 2.5 7B,G3,name,G3,unknown,False,2,1
+claude,Qwen-2.5,G3,name,G3,unknown,False,4,2
+claude,Qwen-3-VL-235b,G3,name,G3,unknown,False,1,1
+claude,Qwen-3.7-Max,G3,name,G3,unknown,False,3,1
+claude,Qwen2-72B-Instruct,G3,name,G3,unknown,False,1,1
+claude,Qwen2-7B-Instruct,G3,name,G3,unknown,False,1,1
+claude,Qwen2.5-1.5B A-SFT,G3,name,G3,unknown,False,1,1
+claude,Qwen2.5-1.5B P-SFT,G3,name,G3,unknown,False,1,1
+claude,Qwen2.5-1.5B-Instruct,G3,name,G3,unknown,False,1,1
+claude,Qwen2.5-14B A-SFT,G3,name,G3,unknown,False,1,1
+claude,Qwen2.5-14B P-SFT,G3,name,G3,unknown,False,1,1
+claude,Qwen2.5-32B A-SFT,G3,name,G3,unknown,False,1,1
+claude,Qwen2.5-32B P-SFT,G3,name,G3,unknown,False,1,1
+claude,Qwen2.5-72B,G3,name,G3,unknown,False,1,1
+claude,Qwen2.5-7B A-SFT,G3,name,G3,unknown,False,1,1
+claude,Qwen2.5-7B P-SFT,G3,name,G3,unknown,False,1,1
+claude,Qwen2.5-7B-Instruct,G3,name,G3,unknown,False,9,2
+claude,Qwen3,G3,name,G3,unknown,False,1,1
+claude,Qwen3-235B-A22B-Instruct-2507,G3,name,G3,unknown,False,1,1
+claude,Qwen3-30B-A3B (base),G3,name,G3,unknown,False,1,1
+claude,Qwen3-30B-A3B-Instruct-2507,G3,name,G3,unknown,False,1,1
+claude,Qwen3-8B,G3,name,G3,unknown,False,3,1
+claude,Qwen3.5-122B-A10B,G3,name,G3,unknown,False,1,1
+claude,Qwen3.5-27B,G3,name,G3,unknown,False,4,2
+claude,Qwen3.5-2B,G3,name,G3,unknown,False,1,1
+claude,Qwen3.5-35B-A3B,G3,name,G3,unknown,False,3,2
+claude,Qwen3.5-397B-A17B,G3,name,G3,unknown,False,1,1
+claude,Qwen3.5-4B,G3,name,G3,unknown,False,1,1
+claude,Qwen3.5-9B,G3,name,G3,unknown,False,1,1
+claude,claude-3-haiku,G3,name,G3,unknown,False,1,1
+claude,claude-3-haiku-20240307,G3,name,G3,unknown,False,1,1
+claude,claude-3-opus-20240229,G3,name,G3,unknown,False,3,1
+claude,claude-3-sonnet,G3,name,G3,unknown,False,1,1
+claude,claude-3-sonnet-20240229,G3,name,G3,unknown,False,1,1
+claude,claude-3.5-sonnet,G3,name,G3,unknown,False,1,1
+claude,deepseek-chat,G3,name,G3,unknown,False,3,1
+claude,deepseek-reasoner,G3,name,G3,unknown,False,3,1
+claude,deepseek-v3,G3,name,G3,unknown,False,1,1
+claude,gemini-1.0-pro-latest,G3,name,G3,unknown,False,1,1
+claude,gemini-1.5-flash-latest,G3,name,G3,unknown,False,1,1
+claude,gemini-1.5-pro-latest,G3,name,G3,unknown,False,3,1
+claude,gemini-2.5-pro,G3,name,G3,unknown,False,1,1
+claude,gemma2-9B,G3,name,G3,unknown,False,1,1
+claude,gemma3:12b,G3,name,G3,unknown,False,1,1
+claude,gemma3:27b,G3,name,G3,unknown,False,2,1
+claude,gpt-4-turbo,G3,name,G3,unknown,False,3,1
+claude,gpt-4-turbo-2024-04-09,G3,name,G3,unknown,False,1,1
+claude,gpt-4o,G3,name,G3,unknown,False,8,4
+claude,gpt-4o-2024-05-13,G3,name,G3,unknown,False,1,1
+claude,gpt-4o-mini,G3,name,G3,unknown,False,4,2
+claude,llama-3-70b-instruct,G3,name,G3,unknown,False,1,1
+claude,llama3.1-8B,G3,name,G3,unknown,False,1,1
+claude,llama3.2-3B-inst,G3,name,G3,unknown,False,1,1
+claude,llama3.3,G3,name,G3,unknown,False,1,1
+claude,mistral-large-latest,G3,name,G3,unknown,False,3,1
+claude,mistral-medium-latest,G3,name,G3,unknown,False,1,1
+claude,mistral-small-latest,G3,name,G3,unknown,False,1,1
+claude,o3,G3,name,G3,unknown,False,2,2
+claude,o3-mini,G3,name,G3,unknown,False,6,3
+claude,o4-mini,G3,name,G3,unknown,False,2,2
+claude,olmo2-7B,G3,name,G3,unknown,False,1,1
+claude,open-mixtral-8x22b,G3,name,G3,unknown,False,1,1
+claude,phi4,G3,name,G3,unknown,False,1,1
+claude,qwen2.5-7B-Instruct,G3,name,G3,unknown,False,6,1
+claude,qwen3-8B,G3,name,G3,unknown,False,1,1
+codex,17 open-weight model variants across six families; model-specific results are not tabulated in the supplied text,unknown,none,unknown,unknown,False,1,1
+codex,ChatGPT,unknown,none,unknown,unknown,False,8,4
+codex,ChatGPT (ChatGPT3),unknown,none,unknown,unknown,False,1,1
+codex,ChatGPT-3,unknown,none,unknown,unknown,False,6,1
+codex,ChatGPTv1,unknown,none,unknown,unknown,False,1,1
+codex,ChatGPTv2,unknown,none,unknown,unknown,False,1,1
+codex,Custom Pythia-architecture Transformer (2.2M),unknown,none,unknown,unknown,False,1,1
+codex,GPT,unknown,none,unknown,unknown,False,2,1
+codex,GPT-Neo,unknown,none,unknown,unknown,False,2,1
+codex,Grok,unknown,none,unknown,unknown,False,3,1
+codex,LLaMA,unknown,none,unknown,unknown,False,2,1
+codex,OPT,unknown,none,unknown,unknown,False,2,1
+codex,Open Assistant,unknown,none,unknown,unknown,False,2,1
+codex,Perplexity,unknown,none,unknown,unknown,False,3,1
+codex,Qwen-0.5B,unknown,none,unknown,unknown,False,1,1
+codex,"vanilla causal Transformer, one decoder layer and one attention head",unknown,none,unknown,unknown,False,1,1
+codex,BERT base uncased,G1,name,G1,unknown,False,2,1
+codex,BLOOM,G1,name,G1,unknown,False,2,1
+codex,BLOOM (176B),G1,name,G1,unknown,False,1,1
+codex,Flan-T5-large,G1,name,G1,unknown,False,1,1
+codex,Flan-T5-xl,G1,name,G1,unknown,False,2,1
+codex,Flan-T5-xxl,G1,name,G1,unknown,False,2,1
+codex,GPT-1,G1,name,G1,unknown,False,2,1
+codex,GPT-2,G1,name,G1,unknown,False,3,2
+codex,GPT-2 XL,G1,name,G1,unknown,False,2,1
+codex,GPT-2 large,G1,name,G1,unknown,False,2,1
+codex,GPT-2 medium,G1,name,G1,unknown,False,2,1
+codex,GPT-2 small,G1,name,G1,unknown,False,2,1
+codex,GPT-2XL,G1,name,G1,unknown,False,2,1
+codex,GPT-3,G1,name,G1,unknown,False,8,2
+codex,GPT-3 (davinci-002),G1,name,G1,unknown,False,2,1
+codex,GPT-3 (text-curie-001),G1,name,G1,unknown,False,1,1
+codex,GPT-3 (text-davinci-002),G1,name,G1,unknown,False,1,1
+codex,GPT-3 (text-davinci-003),G1,name,G1,unknown,False,2,1
+codex,GPT-3 ada,G1,name,G1,unknown,False,1,1
+codex,GPT-3 babbage,G1,name,G1,unknown,False,1,1
+codex,GPT-3 curie,G1,name,G1,unknown,False,1,1
+codex,GPT-3 davinci,G1,name,G1,unknown,False,3,2
+codex,GPT-3 text-ada-001,G1,name,G1,unknown,False,1,1
+codex,GPT-3 text-babbage-001,G1,name,G1,unknown,False,1,1
+codex,GPT-3 text-curie-001,G1,name,G1,unknown,False,1,1
+codex,GPT-3 text-davinci-001,G1,name,G1,unknown,False,1,1
+codex,GPT-3 text-davinci-002,G1,name,G1,unknown,False,2,1
+codex,GPT-3.5 (text-davinci-003),G1,name,G1,unknown,False,2,1
+codex,GPT-3.5 text-davinci-002,G1,name,G1,unknown,False,2,1
+codex,GPT-3.5 text-davinci-003,G1,name,G1,unknown,False,2,1
+codex,GPT-J,G1,name,G1,unknown,False,1,1
+codex,GPT2,G1,name,G1,unknown,False,2,1
+codex,German BLOOM CLP 6.4B,G1,name,G1,unknown,False,2,1
+codex,German GPT-2,G1,name,G1,G1,False,2,1
+codex,LaMDA 137B,G1,name,G1,unknown,False,12,1
+codex,OFA Huge (930M),G1,name,G1,unknown,False,4,1
+codex,Pythia (14M–12B),G1,name,G1,unknown,False,2,1
+codex,Pythia-12B,G1,name,G1,unknown,False,4,1
+codex,T5-11b,G1,name,G1,unknown,False,1,1
+codex,XGLM 7.5B,G1,name,G1,unknown,False,2,1
+codex,davinci / text-davinci-002 with MORALCOT,G1,name,G1,unknown,False,3,1
+codex,distilGPT2,G1,name,G1,unknown,False,2,1
+codex,text-davinci-002,G1,name,G1,unknown,False,3,1
+codex,text-davinci-003,G1,name,G1,unknown,False,13,4
+codex,BARD,G2,name,G2,unknown,False,1,1
+codex,ChatGPT (GPT-3.5 Turbo),G2,name,G2,unknown,False,1,1
+codex,ChatGPT (GPT-3.5-turbo-0613),G2,name,G2,unknown,False,1,1
+codex,ChatGPT 3.5 (22 January 2024 version),G2,name,G2,unknown,False,2,1
+codex,ChatGPT GPT-3.5,G2,name,G2,unknown,False,3,1
+codex,ChatGPT GPT-4.0,G2,name,G2,unknown,False,3,1
+codex,ChatGPT-4,G2,name,G2,unknown,False,6,1
+codex,ChatGPT-4 (26–27 February 2024 version),G2,name,G2,unknown,False,2,1
+codex,Claude 2,G2,name,G2,unknown,False,3,1
+codex,DeepSeek-R1-Distill-Qwen-14B,G2,name,G2,unknown,False,1,1
+codex,Falcon-40B-Instruct,G2,name,G2,unknown,False,1,1
+codex,Falcon-7B-Instruct,G2,name,G2,unknown,False,1,1
+codex,GPT-3.5,G2,name,G2,unknown,False,12,6
+codex,GPT-3.5,G2,name,G2,G3,True,4,1
+codex,GPT-3.5 (gpt-3.5-turbo-0613),G2,name,G2,unknown,False,3,2
+codex,GPT-3.5 Turbo,G2,name,G2,unknown,False,1,1
+codex,GPT-3.5 Turbo (gpt-35-turbo-0613),G2,name,G2,unknown,False,1,1
+codex,GPT-3.5 turbo,G2,name,G2,unknown,False,2,1
+codex,GPT-3.5-Turbo,G2,name,G2,unknown,False,4,1
+codex,GPT-3.5-turbo (gpt-3.5-turbo-0301),G2,name,G2,unknown,False,2,1
+codex,GPT-4,G2,name,G2,unknown,False,37,13
+codex,GPT-4,G2,name,G2,G3,True,4,1
+codex,GPT-4 (gpt-4-0314),G2,name,G2,unknown,False,4,2
+codex,GPT-4 (gpt-4-0613),G2,name,G2,unknown,False,4,3
+codex,GPT-4 vision (gpt-4-vision-preview),G2,name,G2,unknown,False,2,1
+codex,GPT-4-1106,G2,name,G2,unknown,False,8,1
+codex,GPT-4-1106 preview,G2,name,G2,unknown,False,2,1
+codex,LLaMA 2 13B,G2,name,G2,unknown,False,4,1
+codex,LLaMA 2 70B,G2,name,G2,unknown,False,4,1
+codex,LLaMA-2 Chat 13b,G2,name,G2,unknown,False,2,1
+codex,LLaMA-2 Chat 70b,G2,name,G2,unknown,False,2,1
+codex,Llama 2 13B,G2,name,G2,unknown,False,3,2
+codex,Llama 2 70B,G2,name,G2,unknown,False,3,2
+codex,Llama 2 70B chat,G2,name,G2,unknown,False,3,1
+codex,Llama 2 7B,G2,name,G2,unknown,False,3,2
+codex,Llama 2 Chat 13B,G2,name,G2,unknown,False,3,2
+codex,Llama 2 Chat 70B,G2,name,G2,unknown,False,2,1
+codex,Llama 2 Chat 7B,G2,name,G2,unknown,False,3,2
+codex,Llama-2 7B,G2,name,G2,unknown,False,2,1
+codex,Llama-2-13B,G2,name,G2,unknown,False,2,1
+codex,Llama-2-chat-hf 13B,G2,name,G2,unknown,False,1,1
+codex,Llama-2-chat-hf 70B,G2,name,G2,unknown,False,1,1
+codex,Llama-2-chat-hf 7B,G2,name,G2,unknown,False,1,1
+codex,Llama2-13B-chat,G2,name,G2,unknown,False,1,1
+codex,Llama2-7B-chat,G2,name,G2,unknown,False,1,1
+codex,Llama2-Chat,G2,name,G2,unknown,False,1,1
+codex,Mistral 7B,G2,name,G2,unknown,False,8,3
+codex,Mistral-7B,G2,name,G2,unknown,False,1,1
+codex,Mistral-7B-Instruct,G2,name,G2,unknown,False,3,1
+codex,Mistral-7B-Instruct-v0.2,G2,name,G2,unknown,False,2,2
+codex,Mixtral 8x7B,G2,name,G2,unknown,False,4,1
+codex,Mixtral-8x7B-Instruct-v0.1,G2,name,G2,unknown,False,1,1
+codex,PaLM-2,G2,name,G2,unknown,False,1,1
+codex,Phi-2,G2,name,G2,unknown,False,1,1
+codex,Qwen-14B,G2,name,G2,unknown,False,3,1
+codex,Solar 10.7B,G2,name,G2,unknown,False,3,1
+codex,Yi-34B-Chat,G2,name,G2,unknown,False,1,1
+codex,Yi-6B-Chat,G2,name,G2,unknown,False,1,1
+codex,gpt-3.5-turbo,G2,name,G2,unknown,False,2,2
+codex,gpt-3.5-turbo-0125,G2,name,G2,unknown,False,1,1
+codex,zephyr-7b-beta,G2,name,G2,unknown,False,1,1
+codex,ChatGPT-4o,G3,name,G3,unknown,False,4,2
+codex,Claude 3 Haiku,G3,name,G3,unknown,False,1,1
+codex,Claude 3 Opus,G3,name,G3,unknown,False,1,1
+codex,Claude 3.5 Sonnet,G3,name,G3,unknown,False,2,1
+codex,Claude 4 Sonnet,G3,name,G3,unknown,False,3,1
+codex,Claude Haiku 3.5,G3,name,G3,unknown,False,1,1
+codex,Claude Opus 3,G3,name,G3,unknown,False,1,1
+codex,Claude Sonnet 3.5,G3,name,G3,unknown,False,1,1
+codex,Claude Sonnet 4.5,G3,name,G3,unknown,False,6,2
+codex,Claude Sonnet 4.5,G3,name,G3,G3,False,3,1
+codex,Claude Sonnet 4.5 base agent,G3,name,G3,unknown,False,1,1
+codex,Claude Sonnet 4.5 with context graph and dynamic behaviors (CG+DB),G3,name,G3,unknown,False,1,1
+codex,Claude Sonnet 4.5 with context graph only (CG),G3,name,G3,unknown,False,1,1
+codex,Claude Sonnet 4.6,G3,name,G3,unknown,False,2,1
+codex,Claude-3-Opus,G3,name,G3,unknown,False,3,1
+codex,Claude-Opus-4.5,G3,name,G3,unknown,False,1,1
+codex,Claude-Sonnet-4,G3,name,G3,unknown,False,2,1
+codex,Claude-Sonnet-4.5,G3,name,G3,unknown,False,1,1
+codex,DBRX-Instruct,G3,name,G3,unknown,False,1,1
+codex,DeepSeek,G3,name,G3,unknown,False,3,1
+codex,DeepSeek V3.2,G3,name,G3,unknown,False,3,1
+codex,DeepSeek V4 Flash,G3,name,G3,unknown,False,2,1
+codex,DeepSeek-R1,G3,name,G3,G3,False,3,1
+codex,DeepSeek-V3.2,G3,name,G3,unknown,False,3,1
+codex,DeepSeek-V3.2-685B,G3,name,G3,unknown,False,1,1
+codex,GLM-4.6V-Flash,G3,name,G3,unknown,False,2,1
+codex,GPT 5.1,G3,name,G3,unknown,False,1,1
+codex,GPT OSS 120B,G3,name,G3,unknown,False,1,1
+codex,GPT-4.1-mini,G3,name,G3,unknown,False,4,1
+codex,GPT-4o,G3,name,G3,unknown,False,13,7
+codex,GPT-4o (gpt-4o-2024-08-06),G3,name,G3,unknown,False,1,1
+codex,GPT-4o-mini,G3,name,G3,unknown,False,6,2
+codex,GPT-4o-mini (version not reported),G3,name,G3,unknown,False,1,1
+codex,GPT-5,G3,name,G3,unknown,False,1,1
+codex,GPT-5-mini,G3,name,G3,unknown,False,3,1
+codex,GPT-5.2,G3,name,G3,unknown,False,3,2
+codex,GPT-5.2,G3,name,G3,G3,False,3,1
+codex,GPT-5.4,G3,name,G3,unknown,False,3,1
+codex,GPT-5.4,G3,name,G3,G3,False,2,1
+codex,GPT-5.4-mini,G3,name,G3,unknown,False,3,1
+codex,GPT-OSS-120B,G3,name,G3,unknown,False,1,1
+codex,GPT-OSS-20B,G3,name,G3,unknown,False,1,1
+codex,GPT-o1,G3,name,G3,unknown,False,1,1
+codex,GPT-o3-mini,G3,name,G3,unknown,False,1,1
+codex,Gemini,G3,name,G3,unknown,False,5,2
+codex,Gemini 1.5 Pro,G3,name,G3,unknown,False,1,1
+codex,Gemini 2.0 Flash,G3,name,G3,unknown,False,2,1
+codex,Gemini 2.5 Flash,G3,name,G3,unknown,False,4,2
+codex,Gemini 2.5 Pro,G3,name,G3,unknown,False,1,1
+codex,Gemini 3 Flash,G3,name,G3,unknown,False,2,1
+codex,Gemini 3 Pro,G3,name,G3,G3,False,3,1
+codex,Gemini Pro 1.0,G3,name,G3,unknown,False,1,1
+codex,Gemini-1.5-Pro,G3,name,G3,unknown,False,3,1
+codex,Gemini-2.5-Flash-Lite,G3,name,G3,unknown,False,2,1
+codex,Gemini-Pro,G3,name,G3,unknown,False,2,1
+codex,Gemma,G3,name,G3,unknown,False,2,1
+codex,Gemma 2 (gemma-2-27b-it),G3,name,G3,unknown,False,1,1
+codex,Gemma 2 (google/gemma-2-9b-it),G3,name,G3,unknown,False,1,1
+codex,Gemma 4,G3,name,G3,unknown,False,2,1
+codex,Gemma-2-27B-it,G3,name,G3,unknown,False,1,1
+codex,Gemma-2-2B-IT,G3,name,G3,unknown,False,8,1
+codex,Gemma-2-9B-IT,G3,name,G3,unknown,False,8,1
+codex,Gemma-2-9B-it,G3,name,G3,unknown,False,1,1
+codex,Gemma-3-12B-IT,G3,name,G3,unknown,False,1,1
+codex,Gemma-3-12b,G3,name,G3,unknown,False,1,1
+codex,Gemma-3-1B-IT,G3,name,G3,unknown,False,1,1
+codex,Gemma-3-27B-IT,G3,name,G3,unknown,False,1,1
+codex,Gemma-3-4B-IT,G3,name,G3,unknown,False,1,1
+codex,Gemma3-27B instruction-tuned,G3,name,G3,unknown,False,1,1
+codex,Grok 4,G3,name,G3,G3,False,3,1
+codex,InternVL3.5-GPT-OSS,G3,name,G3,unknown,False,2,1
+codex,Kimi-VL-A3B-Thinking,G3,name,G3,unknown,False,2,1
+codex,LLaMA 3 70B,G3,name,G3,unknown,False,4,1
+codex,LLaMA 3 8B,G3,name,G3,unknown,False,4,1
+codex,LLaMA-3,G3,name,G3,unknown,False,2,1
+codex,LLaMA-3.2-3B-Instruct,G3,name,G3,unknown,False,1,1
+codex,Llama 3 (meta-llama/Llama-3-70b-chat-hf),G3,name,G3,unknown,False,1,1
+codex,Llama 3 (meta-llama/Meta-Llama-3-8B-Instruct),G3,name,G3,unknown,False,1,1
+codex,Llama 3 70B,G3,name,G3,unknown,False,2,2
+codex,Llama 3 8B,G3,name,G3,unknown,False,1,1
+codex,Llama 3.1 (meta-llama/Meta-Llama-3-70B-Instruct-Lite),G3,name,G3,unknown,False,1,1
+codex,Llama 3.1 (meta-llama/Meta-Llama-3.1-8B-Instruct),G3,name,G3,unknown,False,1,1
+codex,Llama 3.1 8B instruction-tuned,G3,name,G3,unknown,False,2,1
+codex,Llama 3.2 (meta-llama/Llama-3.2-3B-Instruct),G3,name,G3,unknown,False,1,1
+codex,Llama 4 Maverick,G3,name,G3,G3,False,1,1
+codex,Llama 4 Scout,G3,name,G3,unknown,False,2,1
+codex,Llama 4 Scout,G3,name,G3,G3,False,1,1
+codex,Llama-3-70B-Instruct,G3,name,G3,G3,False,1,1
+codex,Llama-3-70B-Instruct,G3,name,G3,unknown,False,1,1
+codex,Llama-3-70b-instruct,G3,name,G3,unknown,False,1,1
+codex,Llama-3-8B-IT,G3,name,G3,unknown,False,7,1
+codex,Llama-3-8B-Instruct,G3,name,G3,unknown,False,4,3
+codex,Llama-3.1-70B-Instruct,G3,name,G3,G3,False,1,1
+codex,Llama-3.1-8B-Instruct,G3,name,G3,unknown,False,15,3
+codex,Llama-3.3-70b,G3,name,G3,unknown,False,2,1
+codex,Llama-3.3-Instruct-70B,G3,name,G3,unknown,False,1,1
+codex,Llama-4 Maverick,G3,name,G3,unknown,False,2,1
+codex,Llama3-70B instruction-tuned,G3,name,G3,unknown,False,1,1
+codex,Meta-Llama-3.1-8B-Instruct base control,G3,name,G3,unknown,False,9,1
+codex,Ministral-3-14B-Instruct,G3,name,G3,unknown,False,1,1
+codex,Mistral Large,G3,name,G3,unknown,False,1,1
+codex,Mistral-Large,G3,name,G3,unknown,False,3,1
+codex,Mistral-NeMo 12B instruction-tuned,G3,name,G3,unknown,False,2,1
+codex,Phi-4,G3,name,G3,unknown,False,3,1
+codex,Qwen 1.5 72B,G3,name,G3,unknown,False,1,1
+codex,Qwen 2.5 (Qwen/Qwen2.5-7B-Instruct),G3,name,G3,unknown,False,1,1
+codex,Qwen 3.5 VL Thinking,G3,name,G3,unknown,False,2,1
+codex,Qwen-2.5,G3,name,G3,unknown,False,5,2
+codex,Qwen-3.7-Max,G3,name,G3,unknown,False,3,1
+codex,Qwen2-72B-Instruct,G3,name,G3,unknown,False,1,1
+codex,Qwen2-7B-Instruct,G3,name,G3,unknown,False,1,1
+codex,Qwen2.5 7B,G3,name,G3,unknown,False,6,1
+codex,Qwen2.5-72B,G3,name,G3,unknown,False,2,1
+codex,Qwen2.5-7B-Instruct,G3,name,G3,unknown,False,1,1
+codex,Qwen3-235B-A22B,G3,name,G3,unknown,False,1,1
+codex,Qwen3-30B,G3,name,G3,unknown,False,4,1
+codex,Qwen3-30B-A3B,G3,name,G3,unknown,False,1,1
+codex,Qwen3-30B-A3B-Instruct-2507,G3,name,G3,unknown,False,1,1
+codex,Qwen3-8B,G3,name,G3,unknown,False,4,1
+codex,Qwen3-Max,G3,name,G3,G3,False,3,1
+codex,Qwen3.5 122B A10B,G3,name,G3,G3,False,2,1
+codex,Qwen3.5 35B A3B,G3,name,G3,G3,False,2,1
+codex,Qwen3.5 397B A17B,G3,name,G3,G3,False,2,1
+codex,Qwen3.5-27B,G3,name,G3,unknown,False,1,1
+codex,Qwen3.5-2B,G3,name,G3,unknown,False,1,1
+codex,Qwen3.5-4B,G3,name,G3,unknown,False,1,1
+codex,Qwen3.5-9B,G3,name,G3,unknown,False,1,1
+codex,claude-3-haiku,G3,name,G3,unknown,False,1,1
+codex,claude-3-sonnet,G3,name,G3,unknown,False,1,1
+codex,claude-3.5-sonnet,G3,name,G3,unknown,False,1,1
+codex,deepseek-v3,G3,name,G3,unknown,False,2,1
+codex,gemini-2.5-pro,G3,name,G3,unknown,False,2,1
+codex,gemma-1.1-7b-it,G3,name,G3,unknown,False,1,1
+codex,gpt-4-turbo-2024-04-09,G3,name,G3,unknown,False,1,1
+codex,gpt-4o,G3,name,G3,unknown,False,3,2
+codex,gpt-4o-2024-05-13,G3,name,G3,unknown,False,1,1
+codex,gpt-4o-mini,G3,name,G3,unknown,False,1,1
+codex,o3,G3,name,G3,unknown,False,2,1
+codex,o3-mini,G3,name,G3,unknown,False,3,1
+codex,o4-mini,G3,name,G3,G3,False,1,1

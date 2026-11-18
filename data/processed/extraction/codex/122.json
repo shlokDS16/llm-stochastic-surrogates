@@ -1,0 +1,73 @@
+{
+ "order": 122,
+ "study_id": "https://openalex.org/W7160647047",
+ "full_text": {
+  "obtained": true,
+  "source": "research/sources/md/fulltext/122_W7160647047.md"
+ },
+ "eligibility": {
+  "decision": "NO",
+  "failed_criterion": "tool-use",
+  "borderline": true,
+  "evidence": "Sections 2.1–2.2: agents interact with browser-based task interfaces through screenshots and structured actions translated into DOM events."
+ },
+ "A": {
+  "doi": null,
+  "arxiv_id": "2605.06524",
+  "title": "Process Matters More Than Output for Distinguishing Humans from Machines",
+  "first_author": "Milena Rmus",
+  "year": 2026,
+  "venue": "arXiv preprint",
+  "peer_reviewed": "preprint",
+  "first_author_field": "not_reported",
+  "country": "not_reported"
+ },
+ "B": {
+  "models": [],
+  "n_models": 0,
+  "n_model_families": 0
+ },
+ "C": {
+  "paradigms": []
+ },
+ "D": {
+  "types": [],
+  "primary_type": "none",
+  "human_n": null,
+  "population": "not_reported",
+  "metric": "not_reported"
+ },
+ "E": {
+  "outcome_types": [],
+  "rows_aggregated": false,
+  "effects": [],
+  "headline": ""
+ },
+ "F": {
+  "f1": "no",
+  "f2": "no",
+  "f3": "no",
+  "f4": "no",
+  "f5": "no",
+  "f6": "no",
+  "f7": "no",
+  "f8": "no",
+  "f9": "no",
+  "f10": "no",
+  "f11": "no",
+  "f12": "no",
+  "perturbations_tested": [],
+  "robustness_outcome": "na"
+ },
+ "G": {
+  "notes": "The browser-mediated agent interaction is central to the reported task battery; whether this falls under the protocol's tool-use exclusion may merit reviewer attention.",
+  "extractor": "codex (default)",
+  "date": "2026-10-16",
+  "minutes": 0.5,
+  "sections_read": [
+   "Abstract",
+   "Sections 1–4",
+   "Appendix A.1–A.4"
+  ]
+ }
+}

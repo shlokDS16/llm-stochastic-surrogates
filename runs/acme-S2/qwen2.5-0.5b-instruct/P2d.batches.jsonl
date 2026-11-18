@@ -1,0 +1,2 @@
+{"paradigm": "P2d", "F": "F1", "batch": 0, "rows": 100, "seconds": 11.477, "new_tokens": 6424, "padded_prompt_len": 128, "peak_vram_gib": 1.517}
+{"paradigm": "P2d", "F": "F1", "batch": 1, "rows": 100, "seconds": 12.635, "new_tokens": 7236, "padded_prompt_len": 131, "peak_vram_gib": 1.529}

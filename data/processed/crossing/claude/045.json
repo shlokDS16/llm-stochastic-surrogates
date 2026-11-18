@@ -1,0 +1,39 @@
+{
+ "order": 45,
+ "study_id": "https://openalex.org/W4386272709",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/045_W4386272709.md",
+ "sources_varied": [
+  "M",
+  "T",
+  "W"
+ ],
+ "X1": {
+  "value": "yes",
+  "sources_crossed": [
+   "M",
+   "T",
+   "W"
+  ],
+  "evidence": "Methods and Fig 1 (p.7): GPT-3.5 and GPT-4 run at temperatures 0, 0.5, 1 and 1.5 and with three further prompt sets, each against the same survey scales."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "T",
+   "W"
+  ],
+  "evidence": "Fig 1 (a) and (b): effect sizes per model plotted across temperatures and prompts; authors judge findings robust."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "No interaction term; model and setting results shown side by side only."
+ },
+ "notes": "Temperature and prompt are varied one at a time around a baseline (temperature 0, original prompt); model is crossed with each."
+}

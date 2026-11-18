@@ -1,0 +1,34 @@
+{
+ "order": 117,
+ "study_id": "https://openalex.org/W4403007278",
+ "pass": "codex",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/117_W4403007278.md",
+ "sources_varied": [
+  "M",
+  "W",
+  "T"
+ ],
+ "X1": {
+  "value": "yes",
+  "sources_crossed": [
+   "M",
+   "W",
+   "T"
+  ],
+  "evidence": "Secs. 4.1–4.3, 5: the study runs eight models across four temperature settings and three prompt styles for the same country pairs."
+ },
+ "X2": {
+  "value": "no",
+  "x2_types": [],
+  "x2_sources": [],
+  "evidence": "Sec. 5, Table 1: tests order effects within model-temperature-prompt settings; no quantified outcome differences or source effects are attributed to model, wording, or temperature."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "Sec. 5, Table 1: results are listed by model, temperature, and prompt style, but no source-by-source interaction is estimated or described."
+ },
+ "notes": ""
+}

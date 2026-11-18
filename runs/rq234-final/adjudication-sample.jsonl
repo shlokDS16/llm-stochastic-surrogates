@@ -1,0 +1,20 @@
+{"id": "ADJ01", "order": 30, "field": "F.f10", "item": "", "value_A": "no", "value_B": "yes", "source_md": "research\\sources\\md\\fulltext\\030_W4392811684.md"}
+{"id": "ADJ02", "order": 141, "field": "F.perturbations_tested[decoding]", "item": "decoding", "value_A": "listed", "value_B": "not listed", "source_md": "research\\sources\\md\\fulltext\\141_W4415797152.md"}
+{"id": "ADJ03", "order": 110, "field": "F.perturbations_tested[contamination]", "item": "contamination", "value_A": "listed", "value_B": "not listed", "source_md": "research\\sources\\md\\fulltext\\110_W4412944072.md"}
+{"id": "ADJ04", "order": 150, "field": "F.f4", "item": "", "value_A": "no", "value_B": "yes", "source_md": "research\\sources\\md\\fulltext\\150_W7140872457.md"}
+{"id": "ADJ05", "order": 85, "field": "F.perturbations_tested[response_format]", "item": "response_format", "value_A": "not listed", "value_B": "listed", "source_md": "research\\sources\\md\\fulltext\\085_W4385571259.md"}
+{"id": "ADJ06", "order": 116, "field": "F.f5", "item": "", "value_A": "yes", "value_B": "no", "source_md": "research\\sources\\md\\fulltext\\116_W4410251374.md"}
+{"id": "ADJ07", "order": 34, "field": "F.robustness_outcome", "item": "", "value_A": "not_reported", "value_B": "weakened", "source_md": "research\\sources\\md\\fulltext\\034_W4392181976.md"}
+{"id": "ADJ08", "order": 24, "field": "F.f4", "item": "", "value_A": "yes", "value_B": "no", "source_md": "research\\sources\\md\\fulltext\\024_W4404986392.md"}
+{"id": "ADJ09", "order": 144, "field": "F.perturbations_tested[seeds]", "item": "seeds", "value_A": "listed", "value_B": "not listed", "source_md": "research\\sources\\md\\fulltext\\144_W7133348821.md"}
+{"id": "ADJ10", "order": 62, "field": "F.f5", "item": "", "value_A": "yes", "value_B": "no", "source_md": "research\\sources\\md\\fulltext\\062_W4414940251.md"}
+{"id": "ADJ11", "order": 145, "field": "F.f8", "item": "", "value_A": "no", "value_B": "yes", "source_md": "research\\sources\\md\\fulltext\\145_W3163651756.md"}
+{"id": "ADJ12", "order": 77, "field": "F.perturbations_tested[contamination]", "item": "contamination", "value_A": "listed", "value_B": "not listed", "source_md": "research\\sources\\md\\fulltext\\077_W4405785524.md"}
+{"id": "ADJ13", "order": 15, "field": "F.perturbations_tested[option_order]", "item": "option_order", "value_A": "listed", "value_B": "not listed", "source_md": "research\\sources\\md\\fulltext\\015_W7133223423.md"}
+{"id": "ADJ14", "order": 34, "field": "F.perturbations_tested[language]", "item": "language", "value_A": "listed", "value_B": "not listed", "source_md": "research\\sources\\md\\fulltext\\034_W4392181976.md"}
+{"id": "ADJ15", "order": 16, "field": "F.perturbations_tested[model_version]", "item": "model_version", "value_A": "not listed", "value_B": "listed", "source_md": "research\\sources\\md\\fulltext\\016_W7168344152.md"}
+{"id": "ADJ16", "order": 2, "field": "F.f6", "item": "", "value_A": "no", "value_B": "na", "source_md": "research\\sources\\md\\fulltext\\002_W4415187106.md"}
+{"id": "ADJ17", "order": 121, "field": "F.robustness_outcome", "item": "", "value_A": "weakened", "value_B": "not_reported", "source_md": "research\\sources\\md\\fulltext\\121_W4387075046.md"}
+{"id": "ADJ18", "order": 98, "field": "F.perturbations_tested[other]", "item": "other", "value_A": "not listed", "value_B": "listed", "source_md": "research\\sources\\md\\fulltext\\098_W4324108791.md"}
+{"id": "ADJ19", "order": 110, "field": "F.f6", "item": "", "value_A": "yes", "value_B": "no", "source_md": "research\\sources\\md\\fulltext\\110_W4412944072.md"}
+{"id": "ADJ20", "order": 99, "field": "D.primary_type", "item": "", "value_A": "published_norms", "value_B": "none", "source_md": "research\\sources\\md\\fulltext\\099_W4380714623.md"}

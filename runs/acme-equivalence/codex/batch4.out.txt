@@ -1,0 +1,19 @@
+{"id":"E058","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Attribution, quote, agreement task, and all scale anchors including the reversed version match."}
+{"id":"E059","label":"EQUIVALENT","element":"none","confidence":5,"reason":"The estimate task, U.S. daily birth quantity, upper and lower anchor values, and no-anchor version match."}
+{"id":"E060","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Both versions give the same three-dice outcomes and ask for prior rolls in the same casino scenario."}
+{"id":"E061","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Attributions, quote, agreement task, and standard and reversed scale endpoints match."}
+{"id":"E062","label":"EQUIVALENT","element":"none","confidence":5,"reason":"The Chicago population estimate and both numeric anchors match, as does the no-anchor version."}
+{"id":"E063","label":"EQUIVALENT","element":"none","confidence":5,"reason":"The distance estimate, city pair, mile units, and both anchor values match across conditions."}
+{"id":"E064","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Both versions use the same casino scenario, three-dice outcomes, and ask for prior rolls."}
+{"id":"E065","label":"EQUIVALENT","element":"none","confidence":5,"reason":"The U.S. daily birth estimate, anchor values, and no-anchor version match."}
+{"id":"E066","label":"EQUIVALENT","element":"none","confidence":5,"reason":"The Chicago population task, anchor values, and no-anchor version match."}
+{"id":"E067","label":"EQUIVALENT","element":"none","confidence":5,"reason":"The Everest height estimate, feet units, upper and lower anchors, and no-anchor version match."}
+{"id":"E068","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Both versions ask whether each country should admit the same journalists to report news back home, in the same order."}
+{"id":"E069","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Both conditions ask whether the U.S. should forbid or allow public speeches opposing democracy."}
+{"id":"E070","label":"NOT-EQUIVALENT","element":"manipulation","confidence":5,"reason":"The upper anchor changes from 3,500 miles in A to 6,000 miles in B; the lower anchor matches."}
+{"id":"E071","label":"NOT-EQUIVALENT","element":"scenario_fact","confidence":5,"reason":"A describes two dice and B describes three dice in both matching conditions."}
+{"id":"E072","label":"EQUIVALENT","element":"none","confidence":5,"reason":"The ticket cost or gift, cold-weather scenario, action task, and normal and reversed scale anchors match."}
+{"id":"E073","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Both versions describe the same three-dice outcomes and ask how many prior rolls occurred."}
+{"id":"E074","label":"NOT-EQUIVALENT","element":"manipulation","confidence":5,"reason":"The upper and lower anchors change from 50,000 and 100 to 12,000 and 8,000, respectively."}
+{"id":"E075","label":"EQUIVALENT","element":"none","confidence":5,"reason":"The estimate task, U.S. daily birth quantity, anchors, and no-anchor version match."}
+{"id":"E076","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Both conditions ask whether the U.S. should forbid or allow public speeches against democracy."}

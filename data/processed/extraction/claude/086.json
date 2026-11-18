@@ -1,0 +1,21 @@
+{
+  "order": 86,
+  "study_id": "https://openalex.org/W7148970960",
+  "full_text": {"obtained": true, "source": "research/sources/md/fulltext/086_W7148970960.md (arXiv PDF)"},
+  "eligibility": {"decision": "NO", "failed_criterion": "benchmark-only", "borderline": true,
+    "evidence": "Abstract, Sec 3: SenseMath is a new programmatically generated benchmark of 4,800 items (8 shortcut categories, 4 digit scales). Number sense is cited from mathematics education (McIntosh et al., 2005), but no human cognitive-experimental task or human data is administered or modelled; no human comparison. A reviewer could count it as numerical cognition."},
+  "A": {"doi": "10.48550/arxiv.2604.01988", "arxiv_id": "2604.01988",
+        "title": "SenseMath: Do LLMs Have Number Sense? Evaluating Shortcut Use, Judgment, and Generation",
+        "first_author": "Haomin Zhuang", "year": 2026, "venue": "arXiv (preprint, under review)", "peer_reviewed": "preprint",
+        "first_author_field": "not_reported", "country": "United States"},
+  "B": {"models": [], "n_models": 0, "n_model_families": 0},
+  "C": {"paradigms": []},
+  "D": {"types": [], "primary_type": "none", "human_n": null, "population": "not_reported", "metric": "not_reported"},
+  "E": {"outcome_types": [], "rows_aggregated": false, "effects": [], "headline": ""},
+  "F": {"f1": "no", "f2": "no", "f3": "no", "f4": "no", "f5": "no", "f6": "no", "f7": "no", "f8": "no",
+        "f9": "no", "f10": "no", "f11": "no", "f12": "no", "perturbations_tested": [],
+        "robustness_outcome": "na"},
+  "G": {"notes": "Excluded as benchmark-only; borderline because the framing is behavioural number sense (shortcut use, applicability judgment, generation) on five models (GPT-4o-mini, GPT-4.1-mini, Qwen3-30B, Qwen3-8B, Llama-3.1-8B), greedy decoding, no human data. Code and data link given in the abstract.",
+        "extractor": "paper-reader (claude-sonnet)", "date": "2026-10-16", "minutes": 7,
+        "sections_read": ["abstract", "1 Introduction", "2 Related Work", "3 Benchmark", "4 Experiments (4.1-4.6)", "5 Conclusion"]}
+}

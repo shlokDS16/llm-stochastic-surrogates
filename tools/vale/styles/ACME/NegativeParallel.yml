@@ -1,0 +1,9 @@
+extends: existence
+message: "Negative parallelism '%s' (ai-patterns-academic C7). The plain positive claim is usually stronger."
+level: suggestion
+ignorecase: true
+nonword: true
+tokens:
+  - '\bnot only\b[^.?!]{0,200}\bbut (also|as well)\b'
+  - '\bnot (merely|just|simply)\b[^.?!]{0,120}\bbut\b'
+  - '\brather than simply\b'

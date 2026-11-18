@@ -1,0 +1,20 @@
+{
+ "script": "analysis/acme/make_tab_search.py",
+ "gstudy_dir": "research/protocol/prisma-counts.json",
+ "gstudy_dir_resolved": "C:\\Users\\Shlok\\Downloads\\Thenboli ma'am review paper\\research\\protocol\\prisma-counts.json",
+ "git_head": "541f69d0b4a23d93276ffdd4035a46a2a5d47b18",
+ "timestamp_utc": "2026-11-07T19:45:57+00:00",
+ "inputs": {
+  "analysis/search/arxiv_search.py": "499565352ba595869ff54ae7a458e03cb548c5ffcb396d083d0b0503bcefb671",
+  "analysis/search/openalex_search.py": "b08b1f59055fabe0a98de1cdb1ed4537af659e85f39b895149ffb7e3c201057c",
+  "paper/acme/autonumbers.tex": "f3f9f0a81d0479029680ebe01c7723bc27884d7ad2ca40a6af70b184c65cb946",
+  "research/protocol/prisma-counts.json": "9902797b60b35b2e2eade22f7ea5fa3d546bf5dd6ce63d89a1e0f1b6bc4a92a2",
+  "research/protocol/search-log.md": "279b9ce7be319177e007f04cb271ac47b674c8c5693e830445be3a4d5a0b7f64"
+ },
+ "version": "v0.7",
+ "oa_date": "2026-10-16",
+ "ax_date": "2026-10-16",
+ "n_rows": 11,
+ "announced_minus_returned": 33,
+ "issues": []
+}

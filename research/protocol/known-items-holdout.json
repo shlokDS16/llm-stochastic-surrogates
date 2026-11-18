@@ -1,0 +1,209 @@
+[
+ {
+  "doi": "10.1016/j.jbef.2024.100971",
+  "arxiv": "",
+  "year": 2024,
+  "first_author": "Nguyen?",
+  "title": "Human bias in AI models? Anchoring effects and mitigation strategies in large language models",
+  "family": "HB",
+  "source": "Exa agent_run_82735f1a (E1), held out: not used to choose search terms"
+ },
+ {
+  "doi": "",
+  "arxiv": "2508.00902",
+  "year": 2025,
+  "first_author": "Li?",
+  "title": "An analysis of AI Decision under Risk: Prospect theory emerges in Large Language Models",
+  "family": "JDM",
+  "source": "Exa agent_run_82735f1a (E1), held out: not used to choose search terms"
+ },
+ {
+  "doi": "",
+  "arxiv": "2405.19313",
+  "year": 2024,
+  "first_author": "Liu?",
+  "title": "Language Models Trained to do Arithmetic Predict Human Risky and Intertemporal Choice",
+  "family": "JDM",
+  "source": "Exa agent_run_82735f1a (E1), held out: not used to choose search terms"
+ },
+ {
+  "doi": "10.1016/j.chbah.2025.100227",
+  "arxiv": "",
+  "year": 2025,
+  "first_author": "Hintze",
+  "title": "Nonlinear transformation of probabilities by large language models",
+  "family": "JDM",
+  "source": "Exa agent_run_82735f1a (E1), held out: not used to choose search terms"
+ },
+ {
+  "doi": "",
+  "arxiv": "2503.06646",
+  "year": 2025,
+  "first_author": "Liu",
+  "title": "Evaluating and Aligning Human Economic Risk Preferences in LLMs",
+  "family": "JDM",
+  "source": "Exa agent_run_82735f1a (E1), held out: not used to choose search terms"
+ },
+ {
+  "doi": "",
+  "arxiv": "2602.15173",
+  "year": 2026,
+  "first_author": "?",
+  "title": "Mind the (DH) Gap! A Contrast in Risky Choices Between Reasoning and Conversational LLMs",
+  "family": "JDM",
+  "source": "Exa agent_run_82735f1a (E1), held out: not used to choose search terms"
+ },
+ {
+  "doi": "10.1287/mksc.2023.0306",
+  "arxiv": "",
+  "year": 2024,
+  "first_author": "Goli",
+  "title": "Can Large Language Models Capture Human Preferences?",
+  "family": "JDM",
+  "source": "Exa agent_run_82735f1a (E1), held out: not used to choose search terms"
+ },
+ {
+  "doi": "",
+  "arxiv": "2405.18870",
+  "year": 2024,
+  "first_author": "?",
+  "title": "LLMs achieve adult human performance on higher-order theory of mind tasks",
+  "family": "TOM",
+  "source": "Exa agent_run_82735f1a (E1), held out: not used to choose search terms"
+ },
+ {
+  "doi": "",
+  "arxiv": "2402.15052",
+  "year": 2024,
+  "first_author": "Chen",
+  "title": "ToMBench: Benchmarking Theory of Mind in Large Language Models",
+  "family": "TOM",
+  "source": "Exa agent_run_82735f1a (E1), held out: not used to choose search terms"
+ },
+ {
+  "doi": "10.1162/tacl_a_00674",
+  "arxiv": "",
+  "year": 2024,
+  "first_author": "?",
+  "title": "Comparing Humans and Large Language Models on an Experimental Protocol Inventory for Theory of Mind Evaluation (EPITOME)",
+  "family": "TOM",
+  "source": "Exa agent_run_82735f1a (E1), held out: not used to choose search terms"
+ },
+ {
+  "doi": "",
+  "arxiv": "2503.24215",
+  "year": 2025,
+  "first_author": "Alon",
+  "title": "All You Need is Sally-Anne: ToM in AI Strongly Supported After Surpassing Tests for 3-Year-Olds",
+  "family": "TOM",
+  "source": "Exa agent_run_82735f1a (E1), held out: not used to choose search terms"
+ },
+ {
+  "doi": "",
+  "arxiv": "2507.16196",
+  "year": 2025,
+  "first_author": "?",
+  "title": "Do Large Language Models Have a Planning Theory of Mind? Evidence from MindGames: a Multi-Step Persuasion Task",
+  "family": "TOM",
+  "source": "Exa agent_run_82735f1a (E1), held out: not used to choose search terms"
+ },
+ {
+  "doi": "",
+  "arxiv": "2311.03839",
+  "year": 2023,
+  "first_author": "Janik",
+  "title": "Aspects of human memory and Large Language Models",
+  "family": "MEM",
+  "source": "Exa agent_run_82735f1a (E1), held out: not used to choose search terms"
+ },
+ {
+  "doi": "",
+  "arxiv": "2406.15981",
+  "year": 2024,
+  "first_author": "Guo",
+  "title": "Serial Position Effects of Large Language Models",
+  "family": "MEM",
+  "source": "Exa agent_run_82735f1a (E1), held out: not used to choose search terms"
+ },
+ {
+  "doi": "",
+  "arxiv": "2509.17138",
+  "year": 2025,
+  "first_author": "Cao",
+  "title": "Analyzing Memory Effects in Large Language Models through the Lens of Cognitive Psychology",
+  "family": "MEM",
+  "source": "Exa agent_run_82735f1a (E1), held out: not used to choose search terms"
+ },
+ {
+  "doi": "",
+  "arxiv": "2407.01067",
+  "year": 2024,
+  "first_author": "Du",
+  "title": "Human-like object concept representations emerge naturally in multimodal large language models",
+  "family": "LEARN (borderline: representational)",
+  "source": "Exa agent_run_82735f1a (E1), held out: not used to choose search terms"
+ },
+ {
+  "doi": "",
+  "arxiv": "2505.21301",
+  "year": 2025,
+  "first_author": "Pedrotti",
+  "title": "How Humans and LLMs Organize Conceptual Knowledge: Exploring Subordinate Categories in Italian",
+  "family": "LEARN",
+  "source": "Exa agent_run_82735f1a (E1), held out: not used to choose search terms"
+ },
+ {
+  "doi": "",
+  "arxiv": "2404.11875",
+  "year": 2024,
+  "first_author": "Barua",
+  "title": "Concept Induction using LLMs: A user experiment for assessment",
+  "family": "borderline: LLM as tool",
+  "source": "Exa agent_run_82735f1a (E1), held out: not used to choose search terms"
+ },
+ {
+  "doi": "",
+  "arxiv": "2502.11008",
+  "year": 2025,
+  "first_author": "Chen",
+  "title": "CounterBench: Evaluating and Improving Counterfactual Reasoning in Large Language Models",
+  "family": "borderline: benchmark",
+  "source": "Exa agent_run_82735f1a (E1), held out: not used to choose search terms"
+ },
+ {
+  "doi": "",
+  "arxiv": "2404.10975",
+  "year": 2024,
+  "first_author": "Franken",
+  "title": "Procedural Dilemma Generation for Evaluating Moral Reasoning in Humans and Language Models",
+  "family": "MOR",
+  "source": "Exa agent_run_82735f1a (E1), held out: not used to choose search terms"
+ },
+ {
+  "doi": "",
+  "arxiv": "2410.07304",
+  "year": 2024,
+  "first_author": "?",
+  "title": "The Moral Turing Test: Evaluating Human-LLM Alignment in Moral Decision-Making",
+  "family": "MOR",
+  "source": "Exa agent_run_82735f1a (E1), held out: not used to choose search terms"
+ },
+ {
+  "doi": "10.1145/3715928.3737473",
+  "arxiv": "",
+  "year": 2025,
+  "first_author": "Murashige",
+  "title": "Simulating Human Decision-Making in Ultimatum Games using Large Language Models",
+  "family": "JDM games",
+  "source": "Exa agent_run_82735f1a (E1), held out: not used to choose search terms"
+ },
+ {
+  "doi": "10.1038/s41562-025-02172-y",
+  "arxiv": "",
+  "year": 2025,
+  "first_author": "Akata",
+  "title": "Playing repeated games with Large Language Models",
+  "family": "JDM games",
+  "source": "Exa agent_run_82735f1a (E1), held out: not used to choose search terms"
+ }
+]

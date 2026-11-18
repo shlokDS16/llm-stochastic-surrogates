@@ -1,0 +1,86 @@
+{
+ "seed": 20261016,
+ "pool_size": 283,
+ "mapping": {
+  "ADJ01": {
+   "A": "claude",
+   "B": "codex"
+  },
+  "ADJ02": {
+   "A": "codex",
+   "B": "claude"
+  },
+  "ADJ03": {
+   "A": "codex",
+   "B": "claude"
+  },
+  "ADJ04": {
+   "A": "codex",
+   "B": "claude"
+  },
+  "ADJ05": {
+   "A": "codex",
+   "B": "claude"
+  },
+  "ADJ06": {
+   "A": "claude",
+   "B": "codex"
+  },
+  "ADJ07": {
+   "A": "claude",
+   "B": "codex"
+  },
+  "ADJ08": {
+   "A": "codex",
+   "B": "claude"
+  },
+  "ADJ09": {
+   "A": "codex",
+   "B": "claude"
+  },
+  "ADJ10": {
+   "A": "claude",
+   "B": "codex"
+  },
+  "ADJ11": {
+   "A": "claude",
+   "B": "codex"
+  },
+  "ADJ12": {
+   "A": "codex",
+   "B": "claude"
+  },
+  "ADJ13": {
+   "A": "codex",
+   "B": "claude"
+  },
+  "ADJ14": {
+   "A": "claude",
+   "B": "codex"
+  },
+  "ADJ15": {
+   "A": "claude",
+   "B": "codex"
+  },
+  "ADJ16": {
+   "A": "codex",
+   "B": "claude"
+  },
+  "ADJ17": {
+   "A": "codex",
+   "B": "claude"
+  },
+  "ADJ18": {
+   "A": "claude",
+   "B": "codex"
+  },
+  "ADJ19": {
+   "A": "claude",
+   "B": "codex"
+  },
+  "ADJ20": {
+   "A": "codex",
+   "B": "claude"
+  }
+ }
+}

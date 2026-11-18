@@ -1,0 +1,39 @@
+{
+ "order": 57,
+ "study_id": "https://openalex.org/W4416241868",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/057_W4416241868.md",
+ "sources_varied": [
+  "M",
+  "W"
+ ],
+ "X1": {
+  "value": "yes",
+  "sources_crossed": [
+   "M",
+   "W"
+  ],
+  "evidence": "Sec 3.3: fully crossed matrix of 14 models x 27 trolley scenarios x 10 ethical frames (3,780 prompt-model cells)."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "W",
+   "M"
+  ],
+  "evidence": "Sec 4.1 (RQ1): yes-rate under each ethical frame contrasted with the default frame, per model; no variance share."
+ },
+ "X3": {
+  "value": "yes",
+  "x3_pairs": [
+   "M x W"
+  ],
+  "evidence": "Sec 4.2 (RQ2): model-specific and frame-specific moral signatures reported as model-by-frame results (descriptive)."
+ },
+ "notes": "Interaction is shown, not tested."
+}

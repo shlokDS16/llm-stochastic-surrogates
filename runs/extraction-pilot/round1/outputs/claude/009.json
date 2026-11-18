@@ -1,0 +1,96 @@
+{
+  "order": 9,
+  "study_id": "https://openalex.org/W7165674475",
+  "full_text": {"obtained": true, "source": "research/sources/md/fulltext/009_W7165674475.md"},
+  "eligibility": {
+    "decision": "YES",
+    "failed_criterion": null,
+    "borderline": true,
+    "evidence": "Results 'Word similarity judgments' p.3-4 and STAR Methods p.e2: LLMs rate semantic relatedness of 67 word pairs taken from the human task of Carlson et al. 2014 (ref 27) and are compared with 8 human participants; new LLM ratings analysed as alignment (Spearman rs). Borderline because the paper is a method paper (RSA alignment), human n = 8, and the image reference is a model of human odd-one-out data (SPoSE), not raw human ratings."
+  },
+  "A": {
+    "doi": "10.1016/j.isci.2026.116400",
+    "arxiv_id": null,
+    "title": "A flexible behavioral method for measuring human and artificial intelligence alignment using representational similarity analysis",
+    "first_author": "Mattson Ogg",
+    "year": 2026,
+    "venue": "iScience",
+    "peer_reviewed": "yes",
+    "first_author_field": "other",
+    "country": "USA"
+  },
+  "B": {
+    "models": [
+      {"name": "GPT-3.5 Turbo 16k", "version": "gpt-35-turbo-16k 0613", "access": "API", "params_b": null, "release_date": "not_reported", "tuning": "not_reported", "family": "GPT", "query_date": "not_reported"},
+      {"name": "GPT-4", "version": "gpt-4 1106-preview", "access": "API", "params_b": null, "release_date": "not_reported", "tuning": "not_reported", "family": "GPT", "query_date": "not_reported"},
+      {"name": "GPT-4-Vision", "version": "gpt-4 vision-preview", "access": "API", "params_b": null, "release_date": "not_reported", "tuning": "not_reported", "family": "GPT", "query_date": "not_reported"},
+      {"name": "GPT-4o", "version": "gpt-4o 2024-08-06", "access": "API", "params_b": null, "release_date": "not_reported", "tuning": "not_reported", "family": "GPT", "query_date": "not_reported"},
+      {"name": "GPT-4o-mini", "version": "gpt-4o-mini 2024-07-18", "access": "API", "params_b": null, "release_date": "not_reported", "tuning": "not_reported", "family": "GPT", "query_date": "not_reported"},
+      {"name": "GPT-5.2", "version": "not_reported", "access": "API", "params_b": null, "release_date": "not_reported", "tuning": "not_reported", "family": "GPT", "query_date": "not_reported"},
+      {"name": "GPT-5-mini", "version": "not_reported", "access": "API", "params_b": null, "release_date": "not_reported", "tuning": "not_reported", "family": "GPT", "query_date": "not_reported"},
+      {"name": "GPT-5-nano", "version": "not_reported", "access": "API", "params_b": null, "release_date": "not_reported", "tuning": "not_reported", "family": "GPT", "query_date": "not_reported"},
+      {"name": "Claude Haiku 4.5", "version": "us.anthropic.claude-haiku-4-5-20251001-v1:0", "access": "API", "params_b": null, "release_date": "not_reported", "tuning": "not_reported", "family": "Claude", "query_date": "not_reported"},
+      {"name": "Claude Sonnet 4.5", "version": "us.anthropic.claude-sonnet-4-5-20250929-v1:0", "access": "API", "params_b": null, "release_date": "not_reported", "tuning": "not_reported", "family": "Claude", "query_date": "not_reported"},
+      {"name": "Gemini-2.5-Flash-Lite", "version": "not_reported", "access": "API", "params_b": null, "release_date": "not_reported", "tuning": "not_reported", "family": "Gemini", "query_date": "not_reported"},
+      {"name": "Llama-4 Maverick 17b", "version": "us.meta.llama4-maverick-17b-instruct-v1:0", "access": "open_weights", "params_b": 17, "release_date": "not_reported", "tuning": "instruction", "family": "Llama", "query_date": "not_reported"},
+      {"name": "Gemma-7b", "version": "Ollama digest 430ed3535049", "access": "open_weights", "params_b": 7, "release_date": "not_reported", "tuning": "not_reported", "family": "other", "query_date": "not_reported"},
+      {"name": "Gemma-2-9b", "version": "Ollama digest ff02c3702f32", "access": "open_weights", "params_b": 9, "release_date": "not_reported", "tuning": "not_reported", "family": "other", "query_date": "not_reported"},
+      {"name": "Gemma-3-12b", "version": "Ollama digest f4031aab637d", "access": "open_weights", "params_b": 12, "release_date": "not_reported", "tuning": "not_reported", "family": "other", "query_date": "not_reported"},
+      {"name": "Phi-3-medium-14b", "version": "Ollama digest 1e67dff39209", "access": "open_weights", "params_b": 14, "release_date": "not_reported", "tuning": "not_reported", "family": "other", "query_date": "not_reported"},
+      {"name": "Phi-4-14b", "version": "Ollama digest ac896e5b8b34", "access": "open_weights", "params_b": 14, "release_date": "not_reported", "tuning": "not_reported", "family": "other", "query_date": "not_reported"},
+      {"name": "Mistral-7b", "version": "Ollama digest 61e88e884507", "access": "open_weights", "params_b": 7, "release_date": "not_reported", "tuning": "not_reported", "family": "Mistral", "query_date": "not_reported"},
+      {"name": "Solar-10.7b", "version": "Ollama digest 059fdabbe6e6", "access": "open_weights", "params_b": 10.7, "release_date": "not_reported", "tuning": "not_reported", "family": "other", "query_date": "not_reported"},
+      {"name": "Llama-2-7b", "version": "Ollama digest 78e26419b446", "access": "open_weights", "params_b": 7, "release_date": "not_reported", "tuning": "not_reported", "family": "Llama", "query_date": "not_reported"},
+      {"name": "Llama-2-uncensored-7b", "version": "Ollama digest 44040b922233", "access": "open_weights", "params_b": 7, "release_date": "not_reported", "tuning": "not_reported", "family": "Llama", "query_date": "not_reported"},
+      {"name": "Llama-3-8b", "version": "Ollama digest 71a106a91016", "access": "open_weights", "params_b": 8, "release_date": "not_reported", "tuning": "not_reported", "family": "Llama", "query_date": "not_reported"},
+      {"name": "Llama-3.1-8b", "version": "Ollama digest 46e0c10c039e", "access": "open_weights", "params_b": 8, "release_date": "not_reported", "tuning": "not_reported", "family": "Llama", "query_date": "not_reported"}
+    ],
+    "n_models": 23,
+    "n_model_families": 6
+  },
+  "C": {
+    "paradigms": [
+      {"pid": "P1", "name": "Pairwise semantic relatedness rating of object words (0-100), analysed by representational similarity analysis", "family": "LANG", "source_paper": "Carlson et al. 2014, J Cogn Neurosci (human task and data); RSA after Kriegeskorte and Kievit 2013", "items_origin": "verbatim", "n_items": 67, "languages": ["English"], "modality": "text", "contamination_risk": "yes", "location": "Results 'Word similarity judgments' p.3; STAR Methods 'Word similarity rating task' p.e2"},
+      {"pid": "P2", "name": "Pairwise similarity rating of object images (Carlson-Image and THINGS exemplars), plus image-to-description variant", "family": "OTH", "source_paper": "Carlson-Image stimuli from Cichy et al. 2016 / Kriegeskorte et al. 2008; THINGS images (Hebart et al. 2019); human reference SPoSE embedding (Hebart et al. 2020)", "items_origin": "verbatim", "n_items": 67, "languages": [], "modality": "image plus text", "contamination_risk": "yes", "location": "Results 'Image similarity judgments' p.4-5; STAR Methods 'Image similarity rating task' p.e2-e3 (67 Carlson images; 55 THINGS images)"}
+    ]
+  },
+  "D": {
+    "types": ["published_norms"],
+    "primary_type": "published_norms",
+    "human_n": 8,
+    "population": "participants from Carlson et al. 2014 (University of Maryland); demographics not reported",
+    "metric": "Spearman rank correlation between group-level dissimilarity matrices (RSA); inter-subject ICC for variability"
+  },
+  "E": {
+    "outcome_types": ["human_correlation", "other"],
+    "rows_aggregated": true,
+    "effects": [
+      {"pid": "P1", "model": "GPT-5.2", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": 0.706, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "label": "SAME-DIRECTION-UNQUANTIFIED", "location": "Results p.4 (rs = 0.706, Bonferroni p < 0.05); Table S2 (supplement, not in text)"},
+      {"pid": "P1", "model": "Claude Sonnet 4.5", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": 0.765, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "label": "SAME-DIRECTION-UNQUANTIFIED", "location": "Results p.4; Table S2"},
+      {"pid": "P1", "model": "Gemini-2.5-Flash-Lite", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": 0.662, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "label": "SAME-DIRECTION-UNQUANTIFIED", "location": "Results p.6 (rs = 0.662 default prompt); Table S2"},
+      {"pid": "P1", "model": "Llama-4 Maverick 17b", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": 0.712, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "label": "SAME-DIRECTION-UNQUANTIFIED", "location": "Results p.4; Table S2"},
+      {"pid": "P1", "model": "Mistral-7b", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": 0.532, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "label": "SAME-DIRECTION-UNQUANTIFIED", "location": "Results p.4; Table S2"},
+      {"pid": "P1", "model": "Gemma-3-12b", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": 0.619, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "label": "SAME-DIRECTION-UNQUANTIFIED", "location": "Results p.4; Table S2"},
+      {"pid": "P1", "model": "Phi-4-14b", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": 0.638, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "label": "SAME-DIRECTION-UNQUANTIFIED", "location": "Results p.4; Table S2"},
+      {"pid": "P1", "model": "Solar-10.7b", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": 0.648, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "label": "SAME-DIRECTION-UNQUANTIFIED", "location": "Results p.4; Table S2"},
+      {"pid": "P2", "model": "GPT-5.2", "model_effect_present": "not_reported", "human_effect_present": "not_reported", "direction": "not_reported", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "label": "INSUFFICIENT", "location": "Results p.4-5: only GPT-5-mini (rs 0.619 Carlson-image, 0.690 THINGS) given in text; GPT-5.2 image values only in Table S3 (supplement)"},
+      {"pid": "P2", "model": "Claude Sonnet 4.5", "model_effect_present": "not_reported", "human_effect_present": "not_reported", "direction": "not_reported", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "label": "INSUFFICIENT", "location": "Results p.4-5; values only in Table S3 (supplement)"},
+      {"pid": "P2", "model": "Gemini-2.5-Flash-Lite", "model_effect_present": "not_reported", "human_effect_present": "not_reported", "direction": "not_reported", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "label": "INSUFFICIENT", "location": "Results p.4-5; values only in Table S3 (supplement)"},
+      {"pid": "P2", "model": "Llama-4 Maverick 17b", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": 0.564, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "label": "SAME-DIRECTION-UNQUANTIFIED", "location": "Results p.5 (rs = 0.564 Carlson-image, 0.567 THINGS vs SPoSE, Bonferroni p < 0.05); Table S3"}
+    ],
+    "headline": "Alignment of group-level LLM similarity ratings with human ratings was high for the best models (GPT-5-mini, Claude Sonnet 4.5, Llama-4), lower for images; no model captured human inter-individual variability."
+  },
+  "F": {
+    "f1": "no", "f2": "yes", "f3": "yes", "f4": "yes", "f5": "no", "f6": "na", "f7": "yes", "f8": "yes",
+    "f9": "no", "f10": "yes", "f11": "no", "f12": "yes",
+    "perturbations_tested": ["decoding", "persona", "model_version", "other"],
+    "robustness_outcome": "survived"
+  },
+  "G": {
+    "notes": "Method paper; the dependent measure is a model-human correlation, not a bias effect, so the E labels are the nearest fit. Human reference n = 8; image reference is a SPoSE model. Query dates and GPT-5/Gemini versions not given; no contamination check. Table S2/S3 values are in the supplement, not read.",
+    "extractor": "paper-reader (claude-sonnet)",
+    "date": "2026-10-16",
+    "minutes": 3,
+    "sections_read": ["Summary", "Introduction", "Results (word, image, prompting/hyperparameters, individual variability)", "Discussion", "Limitations of the study", "Resource availability", "Declaration of AI use", "STAR Methods (key resources, experimental model, method details, statistical analysis)", "reference list (partial)"]
+  }
+}

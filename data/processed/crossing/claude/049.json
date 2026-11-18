@@ -1,0 +1,32 @@
+{
+ "order": 49,
+ "study_id": "https://openalex.org/W4376140095",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/049_W4376140095.md",
+ "sources_varied": [
+  "M",
+  "O"
+ ],
+ "X1": {
+  "value": "yes",
+  "sources_crossed": [
+   "M",
+   "O"
+  ],
+  "evidence": "Experiment design (p.4): GPT-3 and BLOOM answered every item pair with telos and appearance information in both orders (counterbalanced), five responses per pair and condition; temperature fixed at 0.7."
+ },
+ "X2": {
+  "value": "no",
+  "x2_types": [],
+  "x2_sources": [],
+  "evidence": "Regressions model telos, appearance and domain; the order counterbalance is not analysed as a factor."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "Order is counterbalanced but not reported, so X1 rests on the design only."
+ },
+ "notes": ""
+}

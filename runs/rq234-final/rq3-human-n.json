@@ -1,0 +1,42 @@
+{
+ "claude": {
+  "all_reported": {
+   "n": 32,
+   "min": 8.0,
+   "q1": 75.75,
+   "median": 182.0,
+   "q3": 425.5,
+   "max": 1156.0,
+   "weighted_median_point_only": 169.0
+  },
+  "primary_type_own_sample": {
+   "n": 22,
+   "min": 12.0,
+   "q1": 82.75,
+   "median": 161.5,
+   "q3": 426.75,
+   "max": 1156.0,
+   "weighted_median_point_only": 169.0
+  }
+ },
+ "codex": {
+  "all_reported": {
+   "n": 34,
+   "min": 1.0,
+   "q1": 68.25,
+   "median": 182.0,
+   "q3": 454.5,
+   "max": 51776.0,
+   "weighted_median_point_only": 148.0
+  },
+  "primary_type_own_sample": {
+   "n": 23,
+   "min": 1.0,
+   "q1": 59.0,
+   "median": 140.0,
+   "q3": 484.5,
+   "max": 1000.0,
+   "weighted_median_point_only": 140.0
+  }
+ }
+}

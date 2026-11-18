@@ -1,0 +1,34 @@
+{
+ "order": 48,
+ "study_id": "https://openalex.org/W7166838030",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/048_W7166838030.md",
+ "sources_varied": [
+  "M",
+  "X"
+ ],
+ "X1": {
+  "value": "partial",
+  "sources_crossed": [],
+  "evidence": "Sec 3-5 (Figs 3, 6, 8): 14 transformer LMs (pre-trained and trained on controlled corpora, with architecture ablations) tested on a cued-recall prompt and a baseline prompt format."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "X",
+   "M"
+  ],
+  "evidence": "Sec 5.2-5.3 (ablations, Fig 8): serial-position effects compared across positional-encoding and masking variants and across evaluation prompts; no variance share."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": ""
+ },
+ "notes": ""
+}

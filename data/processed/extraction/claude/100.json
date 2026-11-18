@@ -1,0 +1,74 @@
+{
+ "order": 100,
+ "study_id": "https://openalex.org/W7104387287",
+ "full_text": {
+  "obtained": true,
+  "source": "research/sources/md/fulltext/100_W7104387287.md (arXiv 2407.07612 v3)"
+ },
+ "eligibility": {
+  "decision": "NO",
+  "failed_criterion": "benchmark-only",
+  "borderline": false,
+  "evidence": "Abstract/Sec.1: transformers trained from scratch on synthetic transitivity and d-separation tuples, then Llama-3-8B finetuned and scored on CLEAR and Corr2Cause; no cognitive-psychology paradigm or human comparison."
+ },
+ "A": {
+  "doi": "10.48550/arxiv.2407.07612",
+  "arxiv_id": "2407.07612",
+  "title": "Teaching Transformers Causal Reasoning through Axiomatic Training",
+  "first_author": "Aniket Vashishtha",
+  "year": 2024,
+  "venue": "arXiv (ICML 2025 proceedings per footer)",
+  "peer_reviewed": "preprint",
+  "first_author_field": "not_reported",
+  "country": "not_reported"
+ },
+ "B": {
+  "models": [],
+  "n_models": 0,
+  "n_model_families": 0
+ },
+ "C": {
+  "paradigms": []
+ },
+ "D": {
+  "types": [],
+  "primary_type": "none",
+  "human_n": null,
+  "population": "not_reported",
+  "metric": "not_reported"
+ },
+ "E": {
+  "outcome_types": [],
+  "rows_aggregated": false,
+  "effects": [],
+  "headline": ""
+ },
+ "F": {
+  "f1": "no",
+  "f2": "no",
+  "f3": "no",
+  "f4": "no",
+  "f5": "no",
+  "f6": "no",
+  "f7": "no",
+  "f8": "no",
+  "f9": "no",
+  "f10": "no",
+  "f11": "no",
+  "f12": "no",
+  "perturbations_tested": [],
+  "robustness_outcome": "na"
+ },
+ "G": {
+  "notes": "Machine-learning method paper; GPT-4 and Gemini only as baselines on CLEAR/Corr2Cause. Footer says ICML 2025 (PMLR 267) while OpenAlex lists arXiv; venue and peer-review status to be checked.",
+  "extractor": "paper-reader (claude-sonnet)",
+  "date": "2026-10-16",
+  "minutes": 0.6,
+  "sections_read": [
+   "abstract",
+   "introduction",
+   "related work",
+   "start of preliminaries"
+  ]
+ }
+}

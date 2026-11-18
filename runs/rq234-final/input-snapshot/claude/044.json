@@ -1,0 +1,21 @@
+{
+  "order": 44,
+  "study_id": "https://openalex.org/W4389518675",
+  "full_text": {"obtained": true, "source": "research/sources/md/fulltext/044_W4389518675.md"},
+  "eligibility": {"decision": "NO", "failed_criterion": "other", "borderline": true,
+    "evidence": "E1/E2 fail (Sec 3-4): four vision-language models (OFA, Unified-IO, LLaVA, InstructBLIP) answer questions about images of classic visual illusions (Muller-Lyer, Ebbinghaus); perception is not an E2 domain and the task is image-administered, not language-administered. Human answers are authors' annotations, not data (Limitations). Borderline: LLaVA/InstructBLIP use Vicuna; illusions are named classic paradigms."},
+  "A": {"doi": "10.18653/v1/2023.emnlp-main.348", "arxiv_id": "2311.00047",
+        "title": "Grounding Visual Illusions in Language: Do Vision-Language Models Perceive Illusions Like Humans?",
+        "first_author": "Yichi Zhang", "year": 2023, "venue": "EMNLP 2023",
+        "peer_reviewed": "yes", "first_author_field": "not_reported", "country": "USA"},
+  "B": {"models": [], "n_models": 0, "n_model_families": 0},
+  "C": {"paradigms": []},
+  "D": {"types": [], "primary_type": "none", "human_n": null, "population": "not_reported", "metric": "not_reported"},
+  "E": {"outcome_types": [], "rows_aggregated": false, "effects": [], "headline": ""},
+  "F": {"f1": "no", "f2": "no", "f3": "no", "f4": "no", "f5": "no", "f6": "no", "f7": "no", "f8": "no",
+        "f9": "no", "f10": "no", "f11": "no", "f12": "no", "perturbations_tested": [],
+        "robustness_outcome": "na"},
+  "G": {"notes": "Eligibility turns on whether image-administered perceptual illusions with Vicuna-based VLMs count under E1 and E2; I coded NO. Referee would note that 'human' answers are the authors' own expectations, never measured (Limitations), and 12 VLM checkpoints on 1,600 instances.",
+        "extractor": "paper-reader (claude-sonnet)", "date": "2026-10-16", "minutes": 4,
+        "sections_read": ["abstract", "1 Introduction", "2 Related Work", "3 GVIL benchmark", "4 Experimental setup", "5 Results", "6 Discussion", "Limitations", "Ethics statement"]}
+}

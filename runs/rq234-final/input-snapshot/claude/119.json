@@ -1,0 +1,24 @@
+{
+  "order": 119,
+  "study_id": "https://openalex.org/W4387725480",
+  "full_text": {"obtained": true, "source": "research/sources/md/fulltext/119_W4387725480.md"},
+  "eligibility": {"decision": "YES", "failed_criterion": null, "borderline": true, "evidence": "Methods p.23-25, Table 1/3: GPT-4 estimates the probability and ambiguity of 23 verbal probability phrases (taken from O'Brien 1989) in two contexts, alongside 50 humans. E2 met via the verbal-probability interpretation literature the paper cites; borderline because it is a coordination-game framing rather than a named classic paradigm."},
+  "A": {"doi": "10.48550/arxiv.2310.10544", "arxiv_id": "2310.10544", "title": "Use of probabilistic phrases in a coordination game: human versus GPT-4", "first_author": "Laurence T. Maloney", "year": 2023, "venue": "arXiv (Cornell University)", "peer_reviewed": "preprint", "first_author_field": "psychology", "country": "USA"},
+  "B": {"models": [{"name": "GPT-4", "version": "not_reported", "access": "not_reported", "params_b": null, "release_date": "not_reported", "tuning": "not_reported", "family": "GPT", "query_date": "not_reported"}],
+        "n_models": 1, "n_model_families": 1},
+  "C": {"paradigms": [
+    {"pid": "P1", "name": "Probability estimation for verbal probability phrases (decoding stage of a coordination game), investment and medical contexts", "family": "LANG", "source_paper": "O'Brien 1989", "items_origin": "adapted", "n_items": 23, "languages": ["English"], "modality": "text", "contamination_risk": "partly", "location": "Methods p.23-25; Table 1; Table 3A/B"},
+    {"pid": "P2", "name": "Ambiguity (imprecision) rating of verbal probability phrases, investment and medical contexts", "family": "LANG", "source_paper": "O'Brien 1989", "items_origin": "adapted", "n_items": 23, "languages": ["English"], "modality": "text", "contamination_risk": "partly", "location": "Methods p.23-25; Table 3C/D"}
+  ]},
+  "D": {"types": ["own_sample"], "primary_type": "own_sample", "human_n": 50, "population": "NYU SONA subject-pool students, 25 per context (between-participants), mostly aged 18-35", "metric": "median human rating per phrase; linear fit (slope, intercept) of human median on GPT-4; discordance"},
+  "E": {"outcome_types": ["human_correlation", "other"], "rows_aggregated": false,
+        "effects": [
+          {"pid": "P1", "model": "GPT-4", "model_family": "GPT", "outcome_kind": "agreement", "basis": "test", "model_effect_present": "na", "human_effect_present": "na", "direction": "not_applicable", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "different", "model_vs_human": "not_compared", "agreement_value": null, "label": "AGREEMENT-ONLY", "location": "Results 1A, Fig. 2, Fig. 3, p.10-13: discordance of GPT-4 below human median in both contexts; slope of human on GPT-4 0.833 (Investment) and 0.825 (Medical), both significantly below 1; no correlation coefficient reported. Pooled over the two contexts as the authors report them separately (both given)."},
+          {"pid": "P2", "model": "GPT-4", "model_family": "GPT", "outcome_kind": "agreement", "basis": "test", "model_effect_present": "na", "human_effect_present": "na", "direction": "not_applicable", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "different", "model_vs_human": "not_compared", "agreement_value": null, "label": "AGREEMENT-ONLY", "location": "Results 1B, Fig. 4, p.13-14: slope of human on GPT-4 0.530 (Investment) and 0.710 (Medical), both significantly below 1; discordance not analysed for ambiguity; no correlation coefficient reported."}
+        ],
+        "headline": "GPT-4 agreed with humans on probability at least as well as humans agreed with each other, but human estimates were compressed relative to GPT-4; ambiguity differed more."},
+  "F": {"f1": "no", "f2": "no", "f3": "yes", "f4": "yes", "f5": "no", "f6": "na", "f7": "no", "f8": "no",
+        "f9": "no", "f10": "yes", "f11": "no", "f12": "no", "perturbations_tested": ["seeds"],
+        "robustness_outcome": "survived"},
+  "G": {"notes": "Main analyses use one GPT-4 run; only the Medical probability task was rerun four times (Fig. 7, p.17-18), so stability is shown for one cell. Two outliers removed from main-text tests. Model version, date and temperature unreported (chat interface). Context effect (null for probability, present for ambiguity) is not coded as a separate row.", "extractor": "paper-reader (claude-sonnet)", "date": "2026-10-16", "minutes": 6, "sections_read": ["Abstract", "Introduction", "Results 1A-3", "Discussion", "Methods", "Tables 1-3"]}
+}

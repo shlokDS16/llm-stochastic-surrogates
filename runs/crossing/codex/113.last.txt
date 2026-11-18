@@ -1,0 +1,26 @@
+{
+  "order": 113,
+  "study_id": "arxiv:2608.01598",
+  "pass": "codex",
+  "brief_version": "1.0",
+  "date": "2026-11-07",
+  "full_text": "research/sources/md/fulltext/113_arxiv_2608.01598.md",
+  "sources_varied": ["M", "W"],
+  "X1": {
+    "value": "partial",
+    "sources_crossed": [],
+    "evidence": "Sec. 5.2, Table 1: four models use the same prompting methods; Appendix B.7, Table 10 varies instruction wording for PICTURE with GPT-3.5-Turbo on ToMi."
+  },
+  "X2": {
+    "value": "yes",
+    "x2_types": ["effect_change"],
+    "x2_sources": ["W"],
+    "evidence": "Appendix B.7, Table 10: false-belief accuracy ranges from 82.3 to 83.5 across six instructive prompt phrasings, with relatively small variation attributed to phrasing."
+  },
+  "X3": {
+    "value": "no",
+    "x3_pairs": [],
+    "evidence": "Appendix B.7, Table 10 varies prompt wording using one model; no interaction between varied sources is estimated or shown."
+  },
+  "notes": ""
+}

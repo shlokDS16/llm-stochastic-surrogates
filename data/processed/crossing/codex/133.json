@@ -1,0 +1,33 @@
+{
+ "order": 133,
+ "study_id": "https://openalex.org/W4411113330",
+ "pass": "codex",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/133_W4411113330.md",
+ "sources_varied": [
+  "M"
+ ],
+ "X1": {
+  "value": "no",
+  "sources_crossed": [],
+  "evidence": "Sec. 2.3.1, p. 246: Three models ran the same stimuli with the same prompts; only model varied."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "anova_or_mixed_term",
+   "effect_change"
+  ],
+  "x2_sources": [
+   "M"
+  ],
+  "evidence": "Sec. 3.3.3, pp. 248–249: Mixed-model estimates show larger structure effects for each model than for human groups, quantifying differences across model levels."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "Secs. 3.2–3.3.3, pp. 247–249: Analyses report model comparisons and model-by-human-group contrasts, with no interaction between varied simulation sources."
+ },
+ "notes": ""
+}

@@ -1,0 +1,39 @@
+{
+ "order": 139,
+ "study_id": "https://openalex.org/W4378508547",
+ "pass": "codex",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/139_W4378508547.md",
+ "sources_varied": [
+  "M",
+  "W"
+ ],
+ "X1": {
+  "value": "yes",
+  "sources_crossed": [
+   "M",
+   "W"
+  ],
+  "evidence": "Sec. 4 and Appendix B, Tables 2–7: both ChatGPT versions were tested with each of five prompts per problem."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "M",
+   "W"
+  ],
+  "evidence": "Sec. 4 and Appendix B, Tables 2–7: correct-answer percentages are reported by model and prompt; the text compares model performance and describes prompt-level differences."
+ },
+ "X3": {
+  "value": "yes",
+  "x3_pairs": [
+   "M x W"
+  ],
+  "evidence": "Sec. 4, Figure 1: results are shown jointly by model and prompt; the text says ChatGPT-4’s averages differ across prompts while ChatGPT-3’s remain similar."
+ },
+ "notes": ""
+}

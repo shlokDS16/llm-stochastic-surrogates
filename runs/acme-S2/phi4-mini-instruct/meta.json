@@ -1,0 +1,41 @@
+{
+  "model": "phi4-mini-instruct",
+  "repo": "microsoft/Phi-4-mini-instruct",
+  "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "quant": "nf4_saved",
+  "batch_size": 24,
+  "torch": "2.11.0+cu128",
+  "transformers": "5.20.0",
+  "cuda": "12.8",
+  "gpu": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+  "git_sha": "3cdc447d63d7ad87ae37f9aec3bd4958e9819a99",
+  "config_sha256_16": "183ebc20bb760e97",
+  "n": 25,
+  "wordings": [
+    "W0",
+    "W1",
+    "W2",
+    "W3"
+  ],
+  "formats": [
+    "F1"
+  ],
+  "temps": [
+    1.0
+  ],
+  "orders": [
+    "sure_first",
+    "risky_first"
+  ],
+  "greedy": false,
+  "max_new_tokens": {
+    "F0": 24,
+    "F1": 256
+  },
+  "eos_ids": [
+    199999,
+    200020
+  ],
+  "prompt_manifest": "verified",
+  "started": "2026-11-07T22:14:26+0545"
+}

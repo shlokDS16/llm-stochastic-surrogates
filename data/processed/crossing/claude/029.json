@@ -1,0 +1,32 @@
+{
+ "order": 29,
+ "study_id": "W7154453073",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/029_W7154453073.md",
+ "sources_varied": [
+  "O"
+ ],
+ "X1": {
+  "value": "no",
+  "sources_crossed": [],
+  "evidence": "Sec III.D and F (p.4-5): one model (gpt-4o-mini), temperature 0.7, 50 calls per condition with alternative order randomized across replicates; order is not a crossed factor."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "anova_or_mixed_term"
+  ],
+  "x2_sources": [
+   "O"
+  ],
+  "evidence": "Sec F: analysis of variance on presentation order reported no significant difference in outcomes."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": ""
+ },
+ "notes": ""
+}

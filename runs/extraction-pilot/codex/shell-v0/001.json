@@ -1,0 +1,218 @@
+{
+ "order": 1,
+ "study_id": "https://openalex.org/W4416033771",
+ "full_text": {
+  "obtained": true,
+  "source": "research/sources/md/fulltext/001_W4416033771.md"
+ },
+ "eligibility": {
+  "decision": "YES",
+  "failed_criterion": null,
+  "borderline": false,
+  "evidence": "Sections 1 and 3, pp. 46–47: evaluates five LLMs on real-world moral judgment scenarios and compares their verdicts with crowd-sourced human consensus; the paper cites Social-Chem-101 as a moral reasoning study."
+ },
+ "A": {
+  "doi": null,
+  "arxiv_id": null,
+  "title": "Human-AI Moral Judgment Congruence on Real-World Scenarios: A Cross-Lingual Analysis",
+  "first_author": "Nan Li",
+  "year": 2025,
+  "venue": "Proceedings of the 9th Widening NLP Workshop",
+  "peer_reviewed": "yes",
+  "first_author_field": "CS",
+  "country": "Belgium"
+ },
+ "B": {
+  "models": [
+   {
+    "name": "DeepSeek R1",
+    "version": "DeepSeek R1",
+    "access": "not_reported",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Qwen3",
+    "version": "Qwen3",
+    "access": "not_reported",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "Qwen",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Claude 4.0 Sonnet",
+    "version": "Claude 4.0 Sonnet",
+    "access": "API",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "Claude",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "OpenAI o4-mini",
+    "version": "o4-mini",
+    "access": "API",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "GPT",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Gemini 2.5 Flash",
+    "version": "Gemini 2.5 Flash",
+    "access": "API",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "Gemini",
+    "query_date": "not_reported"
+   }
+  ],
+  "n_models": 5,
+  "n_model_families": 5
+ },
+ "C": {
+  "paradigms": [
+   {
+    "pid": "P1",
+    "name": "Moral judgments of real-world r/AmItheAsshole scenarios, in English and Chinese",
+    "family": "MOR",
+    "source_paper": "Forbes et al. (2020), Social Chemistry 101 (cited as motivation; not identified as the source of these AITA items)",
+    "items_origin": "novel",
+    "n_items": 847,
+    "languages": [
+     "English",
+     "Chinese"
+    ],
+    "modality": "text",
+    "contamination_risk": "no",
+    "location": "Section 3, p. 47; Figure 1, p. 46"
+   }
+  ]
+ },
+ "D": {
+  "types": [
+   "crowd_norms"
+  ],
+  "primary_type": "crowd_norms",
+  "human_n": 813,
+  "population": "Reddit r/AmItheAsshole community consensus, represented by moderator-assigned flair; 847 posts collected, with 813 included in the reported confusion matrix",
+  "metric": "Agreement with binary YTA/NTA human verdict; YTA/NTA agreement rates and majority-vote discordant-pair McNemar test"
+ },
+ "E": {
+  "outcome_types": [
+   "accuracy",
+   "choice_distribution"
+  ],
+  "rows_aggregated": false,
+  "effects": [
+   {
+    "pid": "P1",
+    "model": "DeepSeek R1",
+    "model_effect_present": "yes",
+    "human_effect_present": "not_reported",
+    "direction": "not_reported",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "label": "INSUFFICIENT",
+    "location": "Table 1, p. 47; Figure 1, p. 46"
+   },
+   {
+    "pid": "P1",
+    "model": "Qwen3",
+    "model_effect_present": "yes",
+    "human_effect_present": "not_reported",
+    "direction": "not_reported",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "label": "INSUFFICIENT",
+    "location": "Table 1, p. 47; Figure 1, p. 46"
+   },
+   {
+    "pid": "P1",
+    "model": "Claude 4.0 Sonnet",
+    "model_effect_present": "yes",
+    "human_effect_present": "not_reported",
+    "direction": "not_reported",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "label": "INSUFFICIENT",
+    "location": "Table 1, p. 47; Figure 1, p. 46"
+   },
+   {
+    "pid": "P1",
+    "model": "OpenAI o4-mini",
+    "model_effect_present": "yes",
+    "human_effect_present": "not_reported",
+    "direction": "not_reported",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "label": "INSUFFICIENT",
+    "location": "Table 1, p. 47; Figure 1, p. 46"
+   },
+   {
+    "pid": "P1",
+    "model": "Gemini 2.5 Flash",
+    "model_effect_present": "yes",
+    "human_effect_present": "not_reported",
+    "direction": "not_reported",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "label": "INSUFFICIENT",
+    "location": "Table 1, p. 47; Figure 1, p. 46"
+   }
+  ],
+  "headline": "The authors report systematic leniency relative to human consensus and language-related changes in model verdicts; only Claude is described as stable across languages."
+ },
+ "F": {
+  "f1": "no",
+  "f2": "no",
+  "f3": "no",
+  "f4": "yes",
+  "f5": "no",
+  "f6": "no",
+  "f7": "no",
+  "f8": "no",
+  "f9": "no",
+  "f10": "yes",
+  "f11": "no",
+  "f12": "no",
+  "perturbations_tested": [
+   "language"
+  ],
+  "robustness_outcome": "mixed"
+ },
+ "G": {
+  "notes": "The paper is marked ongoing work and calls its methods tentative. Clarify how the filtered 847-post dataset relates to the 813 cases in the confusion matrix, and how individual model significance and translation comparisons were determined; detailed tests are not reported here.",
+  "extractor": "codex (default)",
+  "date": "2026-10-16",
+  "minutes": 1.3,
+  "sections_read": [
+   "Abstract",
+   "Introduction",
+   "Related Work and Motivation",
+   "Tentative Methodology",
+   "Early Results",
+   "Ongoing Work",
+   "Limitations",
+   "References"
+  ]
+ }
+}

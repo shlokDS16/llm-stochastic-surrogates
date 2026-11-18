@@ -1,0 +1,31 @@
+{
+ "orders": [
+  18,
+  19,
+  23,
+  24
+ ],
+ "pairs": [
+  18,
+  19,
+  23,
+  24
+ ],
+ "yes_both": [
+  19,
+  23,
+  24
+ ],
+ "matched_effect_keys": 5,
+ "unmatched_effect_keys": 2,
+ "inputs": {
+  "data\\processed\\extraction\\claude\\018.json": "801818de41a17ac647f97b9a6c55ff550467c42e7a6b4bc4493f7bd7562f0166",
+  "data\\processed\\extraction\\codex\\018.json": "9f6c6796631d74879ca53d3f7c37a951e32d6d642adeebed6534cc1fd21ef389",
+  "data\\processed\\extraction\\claude\\019.json": "626ac84a5a3dd1421c7126a611b9213c81b6271011baead42f9ea98a975116af",
+  "data\\processed\\extraction\\codex\\019.json": "d9d759c711f1df509378e6b1fea43fbaf0a9516675c2f9051431c550e731af1d",
+  "data\\processed\\extraction\\claude\\023.json": "33a28d253bf9647de8c4dfe7ba19b982b08d33d060db394e3d5442b4f98643fe",
+  "data\\processed\\extraction\\codex\\023.json": "90b56b95637e45fe131629c29e16da94616fdc114c76059f1df38abbef2851e2",
+  "data\\processed\\extraction\\claude\\024.json": "37ccb15fb80dd6f0d1ebaa62cf4cd2b3244a45dd1bcf9e4f36478dee17da6e96",
+  "data\\processed\\extraction\\codex\\024.json": "5124f9032c2862ec0d056527dc339e3090ac55504c9fbf070a373a039aa5d31b"
+ }
+}

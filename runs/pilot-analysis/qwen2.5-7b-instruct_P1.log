@@ -1,0 +1,2 @@
+qwen2.5-7b-instruct P1: sampled=3200 validity=1.000 by_format={'F0': 1.0, 'F1': 1.0}
+  primary [standardised]: cells 32/32 dbar=6.769 S=2.123 CI95=[1.471, 2.701] shares_reportable=True sign_stab=0.94

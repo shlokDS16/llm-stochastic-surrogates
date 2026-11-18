@@ -1,0 +1,24 @@
+{
+ "script": "analysis/acme/make_tab_s_routes.py",
+ "gstudy_dir": "runs/acme-gstudy/route-table",
+ "gstudy_dir_resolved": "C:\\Users\\Shlok\\Downloads\\Thenboli ma'am review paper\\runs\\acme-gstudy\\route-table",
+ "git_head": "998723cbed0898076c76fd888bc57a6d0237ebb7",
+ "timestamp_utc": "2026-11-07T19:40:56+00:00",
+ "inputs": {
+  "runs/acme-gstudy/route-table/hypotheses_estimates.csv": "d00a0d0767161925d42c9471e125a4b5e8be6344267a0d139a31dd9c3840a7dd",
+  "runs/acme-gstudy/route-table/route_table.csv": "68c7f9818ef1993e40318289fd06836dc5838e0eb271974240047ac3dfda2e97",
+  "runs/acme-gstudy/route-table/sens_table.csv": "a326f9dc0b5b473abaed4b79106b2df230e2c43870c0a5f62cbf850de2559a58"
+ },
+ "items": [
+  "P1",
+  "P3",
+  "AF",
+  "QA",
+  "NR",
+  "P2a",
+  "P2b",
+  "P2c",
+  "P2d",
+  "P4"
+ ]
+}

@@ -1,0 +1,138 @@
+{
+ "model": "mistral-7b-instruct-v0.3",
+ "repo": "mistralai/Mistral-7B-Instruct-v0.3",
+ "revision": "c170c708c41dac9275d15a8fff4eca08d52bab71",
+ "quant": "nf4_saved",
+ "bs_f0": 48,
+ "bs_f1": 16,
+ "started": "2026-11-06T15:09:27",
+ "ram_before": {
+  "avail_phys_gb": 7.6,
+  "avail_commit_gb": 19.54
+ },
+ "gpu_before": {
+  "mem_used_mib": 12.0,
+  "temp_c": 75.0,
+  "power_w": 6.29,
+  "t": "2026-11-06T15:09:27"
+ },
+ "torch": "2.11.0+cu128",
+ "transformers": "5.20.0",
+ "load_seconds": 16.7,
+ "ram_after_load": {
+  "avail_phys_gb": 6.79,
+  "avail_commit_gb": 12.85
+ },
+ "vram_after_load_gib": 4.158,
+ "end_of_turn_id": 2,
+ "end_of_turn_piece": "</s>",
+ "answer_token_ids": {
+  "A": 29509,
+  " A": 1098,
+  "B": 29528,
+  " B": 1133,
+  "C": 29511,
+  " C": 1102,
+  "D": 29525,
+  " D": 1152,
+  "Yes": 6381,
+  " Yes": 6360,
+  "No": 3269,
+  " No": 2538,
+  "yes": 10548,
+  " yes": 5849,
+  "no": 2278,
+  " no": 1476,
+  "1": 29508,
+  "2": 29518,
+  "3": 29538,
+  "4": 29549,
+  "5": 29550,
+  "6": 29552,
+  "7": 29555,
+  "8": 29551,
+  "9": 29542
+ },
+ "forward_seconds_per_prompt": 0.167,
+ "n_f0_prompts": 64,
+ "n_bf16_ties": 6,
+ "fwd_eq_gen_rate_all": 1.0,
+ "fwd_eq_gen_rate_nontie": 1.0,
+ "fwd_gen_mismatches": [],
+ "mass_letters_P1": {
+  "min": 0.0495,
+  "mean": 0.5849,
+  "share_below_0p9": 0.6875
+ },
+ "mass_letters_first_token_P1": {
+  "min": 0.0,
+  "mean": 0.0008,
+  "share_below_0p9": 1.0
+ },
+ "mass_digits_P3": {
+  "min": 0.0,
+  "mean": 0.0,
+  "share_below_0p9": 1.0
+ },
+ "argmax_pieces_numeric": [
+  "▁",
+  "▁Appro",
+  "▁I",
+  "▁It"
+ ],
+ "grid_test": {
+  "grid": [
+   "1500",
+   "2000",
+   "2500",
+   "2900",
+   "3000",
+   "4000",
+   "6000"
+  ],
+  "n_tokens": [
+   5,
+   5,
+   5,
+   5,
+   5,
+   5,
+   5
+  ],
+  "logp": [
+   -33.485,
+   -36.694,
+   -29.95,
+   -26.779,
+   -20.654,
+   -25.458,
+   -39.44
+  ],
+  "Z": 1.0833875499072552e-09,
+  "finite": true
+ },
+ "vram_f1": {
+  "batch": 16,
+  "new_tokens": 256,
+  "seconds": 25.14,
+  "tok_per_s": 163,
+  "peak_gib": 5.089
+ },
+ "vram_f0": {
+  "batch": 48,
+  "new_tokens": 24,
+  "seconds": 6.41,
+  "tok_per_s": 180,
+  "peak_gib": 5.757
+ },
+ "nonfinite": 0,
+ "gpu_after": {
+  "mem_used_mib": 6607.0,
+  "temp_c": 87.0,
+  "power_w": 60.55,
+  "t": "2026-11-06T15:10:45"
+ },
+ "fails": [],
+ "status": "pass",
+ "finished": "2026-11-06T15:10:45"
+}

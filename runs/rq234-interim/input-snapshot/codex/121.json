@@ -1,0 +1,296 @@
+{
+ "order": 121,
+ "study_id": "https://openalex.org/W4387075046",
+ "full_text": {
+  "obtained": true,
+  "source": "research/sources/md/fulltext/121_W4387075046.md"
+ },
+ "eligibility": {
+  "decision": "YES",
+  "failed_criterion": null,
+  "borderline": false,
+  "evidence": "Sections 2.2 and 3: the study administers the established Defining Issues Test, a moral-psychology paradigm, to generative language models and reports newly collected model responses."
+ },
+ "A": {
+  "doi": null,
+  "arxiv_id": "2309.03256",
+  "title": "Probing the Moral Development of Large Language Models through Defining Issues Test",
+  "first_author": "Kumar Tanmay",
+  "year": 2023,
+  "venue": "Preprint, under review",
+  "peer_reviewed": "preprint",
+  "first_author_field": "not_reported",
+  "country": "not_reported"
+ },
+ "B": {
+  "models": [
+   {
+    "name": "GPT-3",
+    "version": "not_reported",
+    "access": "API",
+    "params_b": 175,
+    "release_date": "not_reported",
+    "tuning": "base",
+    "family": "GPT",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "GPT-3.5",
+    "version": "text-davinci-003",
+    "access": "API",
+    "params_b": 175,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "GPT",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "GPT-4",
+    "version": "not_reported",
+    "access": "API",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "GPT",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "ChatGPTv1",
+    "version": "December 2022",
+    "access": "API",
+    "params_b": 175,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "GPT",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "ChatGPTv2",
+    "version": "July 2023",
+    "access": "API",
+    "params_b": 175,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "GPT",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "PaLM-2",
+    "version": "not_reported",
+    "access": "API",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Llama2-Chat",
+    "version": "70B",
+    "access": "open_weights",
+    "params_b": 70,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "Llama",
+    "query_date": "not_reported"
+   }
+  ],
+  "n_models": 7,
+  "n_model_families": 3
+ },
+ "C": {
+  "paradigms": [
+   {
+    "pid": "P1",
+    "name": "Defining Issues Test (DIT) moral dilemma judgment and ranking",
+    "family": "MOR",
+    "source_paper": "Rest, Development in Judging Moral Issues (1979); DIT-1",
+    "items_origin": "mixed",
+    "n_items": 9,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "partly",
+    "location": "Sections 3.1–3.2; Appendix A"
+   }
+  ]
+ },
+ "D": {
+  "types": [
+   "published_norms"
+  ],
+  "primary_type": "published_norms",
+  "human_n": null,
+  "population": "Human DIT survey groups cited as comparison ranges: junior and senior high school students, college students, average adults, and graduate students; sample sizes not reported.",
+  "metric": "P-score ranges from prior DIT surveys"
+ },
+ "E": {
+  "outcome_types": [
+   "choice_distribution",
+   "bias_magnitude"
+  ],
+  "rows_aggregated": false,
+  "effects": [
+   {
+    "pid": "P1",
+    "model": "GPT-3",
+    "model_family": "GPT",
+    "outcome_kind": "accuracy",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": 29.84,
+    "human_es": null,
+    "es_metric": "P-score",
+    "authors_comparison": "not_tested",
+    "model_vs_human": "below",
+    "agreement_value": null,
+    "label": "BELOW-HUMAN",
+    "location": "Section 4; average P-score across dilemmas"
+   },
+   {
+    "pid": "P1",
+    "model": "GPT-3.5",
+    "model_family": "GPT",
+    "outcome_kind": "accuracy",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": "P-score; exact average not reported in text",
+    "authors_comparison": "not_tested",
+    "model_vs_human": "similar",
+    "agreement_value": null,
+    "label": "HUMAN-LEVEL",
+    "location": "Section 4; authors describe score as equivalent to average adult or college-student range"
+   },
+   {
+    "pid": "P1",
+    "model": "GPT-4",
+    "model_family": "GPT",
+    "outcome_kind": "accuracy",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": 55.68,
+    "human_es": null,
+    "es_metric": "P-score",
+    "authors_comparison": "not_tested",
+    "model_vs_human": "above",
+    "agreement_value": null,
+    "label": "ABOVE-HUMAN",
+    "location": "Section 4; average P-score across dilemmas and comparison with graduate-student range"
+   },
+   {
+    "pid": "P1",
+    "model": "ChatGPTv1",
+    "model_family": "GPT",
+    "outcome_kind": "accuracy",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": "P-score; exact average not reported in text",
+    "authors_comparison": "not_tested",
+    "model_vs_human": "similar",
+    "agreement_value": null,
+    "label": "HUMAN-LEVEL",
+    "location": "Section 4; authors describe score as equivalent to average adult or college-student range"
+   },
+   {
+    "pid": "P1",
+    "model": "ChatGPTv2",
+    "model_family": "GPT",
+    "outcome_kind": "accuracy",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": "P-score; exact average not reported in text",
+    "authors_comparison": "not_tested",
+    "model_vs_human": "similar",
+    "agreement_value": null,
+    "label": "HUMAN-LEVEL",
+    "location": "Section 4; authors describe score as equivalent to average adult or college-student range"
+   },
+   {
+    "pid": "P1",
+    "model": "PaLM-2",
+    "model_family": "other",
+    "outcome_kind": "accuracy",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": 52.24,
+    "human_es": null,
+    "es_metric": "P-score; averaged over 8 dilemmas",
+    "authors_comparison": "not_tested",
+    "model_vs_human": "similar",
+    "agreement_value": null,
+    "label": "HUMAN-LEVEL",
+    "location": "Section 4; average over 8 dilemmas and comparison with adult or college-student range"
+   },
+   {
+    "pid": "P1",
+    "model": "Llama2-Chat",
+    "model_family": "Llama",
+    "outcome_kind": "accuracy",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": "P-score; exact average not reported in text",
+    "authors_comparison": "not_tested",
+    "model_vs_human": "similar",
+    "agreement_value": null,
+    "label": "HUMAN-LEVEL",
+    "location": "Section 4; authors describe score as equivalent to average adult or college-student range"
+   }
+  ],
+  "headline": "GPT-4’s P-score fell in the graduate-student range; most other tested models were in the average adult or college-student range, while GPT-3 was near random."
+ },
+ "F": {
+  "f1": "no",
+  "f2": "yes",
+  "f3": "no",
+  "f4": "no",
+  "f5": "no",
+  "f6": "yes",
+  "f7": "no",
+  "f8": "yes",
+  "f9": "yes",
+  "f10": "yes",
+  "f11": "no",
+  "f12": "no",
+  "perturbations_tested": [
+   "option_order",
+   "model_version",
+   "contamination"
+  ],
+  "robustness_outcome": "weakened"
+ },
+ "G": {
+  "notes": "The human P-score ranges come from cited surveys, but sample sizes and direct statistical comparisons are absent. Only five original DIT dilemmas and four author-designed dilemmas were used; cultural validity and the DIT’s known limitations warrant scrutiny.",
+  "extractor": "codex (default)",
+  "date": "2026-10-16",
+  "minutes": 0.7,
+  "sections_read": [
+   "Abstract",
+   "Sections 1–5",
+   "Appendix A",
+   "References"
+  ]
+ }
+}

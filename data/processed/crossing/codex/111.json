@@ -1,0 +1,32 @@
+{
+ "order": 111,
+ "study_id": "https://openalex.org/W7155407217",
+ "pass": "codex",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/111_W7155407217.md",
+ "sources_varied": [
+  "R"
+ ],
+ "X1": {
+  "value": "no",
+  "sources_crossed": [],
+  "evidence": "Sec. 4.4 and Table 5b: independent runs used different environment seeds and report results by batch; no second uncertainty source was crossed."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "R"
+  ],
+  "evidence": "Sec. 5.1, Table 5b: accuracy is quantified by batch, and the authors attribute Base's batch variation to fluctuations in exactly-N episodes."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "Secs. 4.4 and 5.1, Table 5b: batch-level results are reported, but no interaction between varied simulation-uncertainty sources is estimated or shown."
+ },
+ "notes": ""
+}

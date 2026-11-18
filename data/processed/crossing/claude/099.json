@@ -1,0 +1,35 @@
+{
+ "order": 99,
+ "study_id": "https://openalex.org/W4380714623",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/099_W4380714623.md",
+ "sources_varied": [
+  "M",
+  "W",
+  "X"
+ ],
+ "X1": {
+  "value": "partial",
+  "sources_crossed": [],
+  "evidence": "Sec Methods/Results and Fig (p.4-6): 13 models at temperature 0; GPT-3 additionally tested in multiple-choice, chain-of-thought and few-shot suffix conditions and with semantic-illusion variants; later chat models are not run in every condition."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "W",
+   "X"
+  ],
+  "evidence": "Results (GPT-3 conditions, around p.6-7): share of intuitive answers reported with and without multiple-choice format and suffixes; authors call the behaviour robust to these changes."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": ""
+ },
+ "notes": "Counterbalanced task versions are item variants, not a source."
+}

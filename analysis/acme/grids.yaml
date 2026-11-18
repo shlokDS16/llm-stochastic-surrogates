@@ -1,0 +1,175 @@
+generated_by: analysis/human_ml1/acme_items.py grids
+source: 'data/processed/ml1/<item>.csv (raw y; P4: y_raw), all respondents, both arms,
+  36 sites'
+rule: K = 15 log-spaced values from the 1st to the 99th percentile (numpy linear-interpolation
+  percentile; lower end floored at 1), rounded to 2 significant digits, positive integers,
+  unique, sorted; both anchors replace the nearest grid value (log distance) and are
+  kept exactly
+items:
+  P2a:
+    grid_alt_exactly_K: null
+    p_lo: 1.0
+    p_hi: 99.0
+    lo_raw: 1550.0
+    hi_raw: 5900.0
+    lo_used: 1550.0
+    hi_used: 5900.0
+    K_requested: 15
+    K_actual: 15
+    grid:
+    - 1500
+    - 1700
+    - 1900
+    - 2100
+    - 2300
+    - 2500
+    - 2700
+    - 3000
+    - 3300
+    - 3700
+    - 4000
+    - 4400
+    - 4900
+    - 5400
+    - 6000
+    anchors:
+    - 6000
+    - 1500
+    n_responses: 5362
+    column: y
+  P2b:
+    grid_alt_exactly_K: null
+    p_lo: 1.0
+    p_hi: 99.0
+    lo_raw: 201000.0
+    hi_raw: 4900000.0
+    lo_used: 201000.0
+    hi_used: 4900000.0
+    K_requested: 15
+    K_actual: 15
+    grid:
+    - 200000
+    - 250000
+    - 320000
+    - 400000
+    - 500000
+    - 630000
+    - 790000
+    - 990000
+    - 1200000
+    - 1600000
+    - 2000000
+    - 2500000
+    - 3100000
+    - 3900000
+    - 5000000
+    anchors:
+    - 5000000
+    - 200000
+    n_responses: 5284
+    column: y
+  P2c:
+    grid_alt_exactly_K: null
+    p_lo: 1.0
+    p_hi: 99.0
+    lo_raw: 2100.0
+    hi_raw: 45400.0
+    lo_used: 2100.0
+    hi_used: 45400.0
+    K_requested: 15
+    K_actual: 15
+    grid:
+    - 2000
+    - 2600
+    - 3300
+    - 4100
+    - 5100
+    - 6300
+    - 7800
+    - 9800
+    - 12000
+    - 15000
+    - 19000
+    - 23000
+    - 29000
+    - 36000
+    - 45500
+    anchors:
+    - 45500
+    - 2000
+    n_responses: 5627
+    column: y
+  P2d:
+    grid_alt_exactly_K: null
+    p_lo: 1.0
+    p_hi: 99.0
+    lo_raw: 106.0
+    hi_raw: 49000.0
+    lo_used: 106.0
+    hi_used: 49000.0
+    K_requested: 15
+    K_actual: 15
+    grid:
+    - 100
+    - 160
+    - 250
+    - 390
+    - 610
+    - 950
+    - 1500
+    - 2300
+    - 3500
+    - 5500
+    - 8500
+    - 13000
+    - 20000
+    - 32000
+    - 50000
+    anchors:
+    - 50000
+    - 100
+    n_responses: 5609
+    column: y
+  P4:
+    grid_alt_exactly_K:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 6
+    - 9
+    - 12
+    - 18
+    - 25
+    - 36
+    - 52
+    - 74
+    - 110
+    - 150
+    - 220
+    p_lo: 1.0
+    p_hi: 99.0
+    lo_raw: 0.0
+    hi_raw: 216.0
+    lo_used: 1.0
+    hi_used: 216.0
+    K_requested: 15
+    K_actual: 14
+    grid:
+    - 1
+    - 2
+    - 3
+    - 5
+    - 7
+    - 10
+    - 15
+    - 22
+    - 32
+    - 47
+    - 68
+    - 100
+    - 150
+    - 220
+    anchors: []
+    n_responses: 5942
+    column: y_raw

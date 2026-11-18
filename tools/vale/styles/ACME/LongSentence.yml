@@ -1,0 +1,6 @@
+extends: existence
+message: "Sentence of more than 40 words (grammarly-issue-catalog 3). Split at the logical joint, keep each qualification with its claim."
+level: suggestion
+scope: sentence
+raw:
+  - '^(?:\S+\s+){40,}\S+$'

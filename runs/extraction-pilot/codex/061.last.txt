@@ -1,0 +1,210 @@
+{
+  "order": 61,
+  "study_id": "https://openalex.org/W4377130927",
+  "full_text": {
+    "obtained": true,
+    "source": "research/sources/md/fulltext/061_W4377130927.md"
+  },
+  "eligibility": {
+    "decision": "YES",
+    "failed_criterion": null,
+    "borderline": false,
+    "evidence": "Sections 1.1 and 3–5: evaluates generative language models on classic human numerical comparison effects and compares model measures with human response-time findings."
+  },
+  "A": {
+    "doi": null,
+    "arxiv_id": "2305.01827",
+    "title": "Numeric Magnitude Comparison Effects in Large Language Models",
+    "first_author": "Raj Sanjay Shah",
+    "year": 2023,
+    "venue": "arXiv preprint",
+    "peer_reviewed": "preprint",
+    "first_author_field": "not_reported",
+    "country": "United States"
+  },
+  "B": {
+    "models": [
+      {
+        "name": "BERT",
+        "version": "base uncased",
+        "access": "open_weights",
+        "params_b": 0.11,
+        "release_date": "not_reported",
+        "tuning": "base",
+        "family": "other",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "RoBERTa",
+        "version": "base",
+        "access": "open_weights",
+        "params_b": 0.125,
+        "release_date": "not_reported",
+        "tuning": "base",
+        "family": "other",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "XLNet",
+        "version": "base",
+        "access": "open_weights",
+        "params_b": 0.11,
+        "release_date": "not_reported",
+        "tuning": "base",
+        "family": "other",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "GPT-2",
+        "version": "base",
+        "access": "open_weights",
+        "params_b": 0.117,
+        "release_date": "not_reported",
+        "tuning": "base",
+        "family": "GPT",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "T5",
+        "version": "base encoder",
+        "access": "open_weights",
+        "params_b": 0.11,
+        "release_date": "not_reported",
+        "tuning": "base",
+        "family": "other",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "BART",
+        "version": "base",
+        "access": "open_weights",
+        "params_b": 0.14,
+        "release_date": "not_reported",
+        "tuning": "base",
+        "family": "other",
+        "query_date": "not_reported"
+      }
+    ],
+    "n_models": 6,
+    "n_model_families": 2
+  },
+  "C": {
+    "paradigms": [
+      {
+        "pid": "P1",
+        "name": "Numerical magnitude comparison: distance, size, and ratio effects",
+        "family": "NUM",
+        "source_paper": "Moyer and Landauer (1967); Parkman (1971); Halberda et al. (2008); Merkley and Ansari (2010)",
+        "items_origin": "adapted",
+        "n_items": 36,
+        "languages": [
+          "English"
+        ],
+        "modality": "text",
+        "contamination_risk": "partly",
+        "location": "Sections 1.1 and 3.2–3.3; inputs compare number symbols 1–9 in lowercase words, mixed-case words, and digits."
+      },
+      {
+        "pid": "P2",
+        "name": "Multidimensional scaling of number representations against a logarithmically compressed mental number line",
+        "family": "NUM",
+        "source_paper": "Ding (2018); Moyer and Landauer (1967)",
+        "items_origin": "adapted",
+        "n_items": 9,
+        "languages": [
+          "English"
+        ],
+        "modality": "text",
+        "contamination_risk": "partly",
+        "location": "Section 4.4; Tables 8–10 and Appendix Tables 20–21."
+      }
+    ]
+  },
+  "D": {
+    "types": [
+      "published_norms"
+    ],
+    "primary_type": "published_norms",
+    "human_n": null,
+    "population": "Human studies of adults and children cited for numerical comparison response-time effects; participant counts not reported in this paper.",
+    "metric": "Reaction time in human studies; model cosine-similarity fit R² and MDS correlation."
+  },
+  "E": {
+    "outcome_types": [
+      "bias_magnitude",
+      "effect_size",
+      "other"
+    ],
+    "rows_aggregated": false,
+    "effects": [
+      {
+        "pid": "P1",
+        "model": "BERT base uncased",
+        "model_family": "other",
+        "outcome_kind": "effect",
+        "basis": "descriptive",
+        "model_effect_present": "yes",
+        "human_effect_present": "yes",
+        "direction": "same",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "SAME-DIRECTION-UNQUANTIFIED",
+        "location": "Sections 4.1–4.3; Tables 2–8. Authors report magnitude-effect fits as R² and describe distance and ratio as human-like, but do not provide a common human/model effect-size metric or direct comparison test."
+      },
+      {
+        "pid": "P2",
+        "model": "BERT base uncased",
+        "model_family": "other",
+        "outcome_kind": "agreement",
+        "basis": "descriptive",
+        "model_effect_present": "na",
+        "human_effect_present": "na",
+        "direction": "not_applicable",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": 0.386,
+        "label": "AGREEMENT-ONLY",
+        "location": "Section 4.4, Table 8: BERT uncased average MDS correlation with the logarithmic number line is 0.386."
+      }
+    ],
+    "headline": "Across tested configurations, models show distance and ratio patterns resembling human performance; size patterns appear for digits but not number words, and MDS correspondence varies."
+  },
+  "F": {
+    "f1": "no",
+    "f2": "no",
+    "f3": "no",
+    "f4": "no",
+    "f5": "no",
+    "f6": "na",
+    "f7": "no",
+    "f8": "no",
+    "f9": "no",
+    "f10": "yes",
+    "f11": "no",
+    "f12": "no",
+    "perturbations_tested": [
+      "model_version"
+    ],
+    "robustness_outcome": "weakened"
+  },
+  "G": {
+    "notes": "The model-to-human link equates embedding cosine similarity with reaction time without direct human data or a shared effect metric. The reported R² fits are descriptive; clarify item construction and provide uncertainty estimates or direct validation of the linking hypothesis.",
+    "extractor": "codex (default)",
+    "date": "2026-10-16",
+    "minutes": 12,
+    "sections_read": [
+      "Abstract",
+      "Sections 1–6",
+      "Tables 1–23",
+      "Appendix A.1–A.3",
+      "References"
+    ]
+  }
+}

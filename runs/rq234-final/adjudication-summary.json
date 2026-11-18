@@ -1,0 +1,44 @@
+{
+ "n": 20,
+ "by_category": {
+  "unresolved definition": 7,
+  "inconsistent application": 12,
+  "genuine source ambiguity": 1
+ },
+ "by_favoured_coder": {
+  "claude": 16,
+  "neither": 1,
+  "codex": 3
+ },
+ "by_group": {
+  "D.primary_type": {
+   "claude": 1
+  },
+  "perturbations": {
+   "claude": 8,
+   "codex": 1
+  },
+  "reporting items f1-f12": {
+   "claude": 6,
+   "codex": 2
+  },
+  "robustness outcome": {
+   "neither": 1,
+   "claude": 1
+  }
+ },
+ "category_by_coder": {
+  "genuine source ambiguity": {
+   "claude": 1
+  },
+  "inconsistent application": {
+   "claude": 10,
+   "codex": 2
+  },
+  "unresolved definition": {
+   "claude": 5,
+   "neither": 1,
+   "codex": 1
+  }
+ }
+}

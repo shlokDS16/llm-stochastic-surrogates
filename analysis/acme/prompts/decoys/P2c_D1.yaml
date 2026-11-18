@@ -1,0 +1,12 @@
+paradigm: P2c
+wording: D1
+response_type: number
+intro: We are interested in people's beliefs about the world around them. For the following question we would like you to give your best estimate. If you do not know the correct answer, just give your best guess.
+conditions:
+  x1: Mount Everest is shorter than 31,000 feet. How tall do you think Mount Everest is?
+  x0: Mount Everest is taller than 27,000 feet. How tall do you think Mount Everest is?
+condition_names:
+  x1: high anchor
+  x0: low anchor
+baseline: How tall do you think Mount Everest is, in feet?
+decoy_change: anchors moved next to the true value, so the high and low anchors are close to each other (shorter than 31,000 feet and taller than 27,000 feet instead of shorter than 45,500 feet and taller than 2,000 feet)

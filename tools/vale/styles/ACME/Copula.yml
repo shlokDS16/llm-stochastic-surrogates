@@ -1,0 +1,8 @@
+extends: existence
+message: "Copula avoidance '%s' (ai-patterns-academic C9). Use 'is' where 'is' is true; keep it when it names a role."
+level: suggestion
+ignorecase: true
+tokens:
+  - serves as
+  - stands as
+  - acts as

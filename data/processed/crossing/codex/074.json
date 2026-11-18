@@ -1,0 +1,34 @@
+{
+ "order": 74,
+ "study_id": "https://openalex.org/W4405469570",
+ "pass": "codex",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/074_W4405469570.md",
+ "sources_varied": [
+  "M",
+  "W",
+  "O"
+ ],
+ "X1": {
+  "value": "partial",
+  "sources_crossed": [],
+  "evidence": "Methods, pp. 8–9; Supplementary Information §§2.4, 2.3: models used the same tests, but prompt modifications were applied only to GPT-4o in side experiments; choice order was shuffled. No full factorial crossing is reported."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "W"
+  ],
+  "evidence": "Extended Data Table A.4, p. 15: GPT-4o’s posterior probabilities and posterior-odds ratios are reported across prompt modifications, quantifying changes attributed to wording."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "Methods, pp. 8–9; Extended Data Tables A.4–A.5: wording modifications are examined for GPT-4o only; results do not estimate or show an interaction between varied sources."
+ },
+ "notes": "Repeated questioning rounds estimate expected responses and are averaged; they are not treated as a source of run-to-run variation."
+}

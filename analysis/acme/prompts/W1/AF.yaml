@@ -1,0 +1,12 @@
+paradigm: AF
+wording: W1
+response_type: yesno
+conditions:
+  x1: Do you believe the United States should forbid public addresses that oppose democracy?
+  x0: Do you believe the United States should allow public addresses that oppose democracy?
+condition_names:
+  x1: forbid question
+  x0: allow question
+options:
+- 'Yes'
+- 'No'

@@ -1,0 +1,175 @@
+{
+ "model": "olmo2-1b-dpo",
+ "repo": "allenai/OLMo-2-0425-1B-DPO",
+ "revision": "c4b0485961ab24c2433b090f3b922f0913a9290f",
+ "quant": "bf16",
+ "bs_f0": 40,
+ "bs_f1": 40,
+ "started": "2026-11-06T14:55:04",
+ "ram_before": {
+  "avail_phys_gb": 8.58,
+  "avail_commit_gb": 15.6
+ },
+ "gpu_before": {
+  "mem_used_mib": 12.0,
+  "temp_c": 78.0,
+  "power_w": 14.22,
+  "t": "2026-11-06T14:55:04"
+ },
+ "torch": "2.11.0+cu128",
+ "transformers": "5.20.0",
+ "load_seconds": 9.7,
+ "ram_after_load": {
+  "avail_phys_gb": 7.64,
+  "avail_commit_gb": 9.72
+ },
+ "vram_after_load_gib": 2.766,
+ "end_of_turn_id": 100257,
+ "end_of_turn_piece": "<|endoftext|>",
+ "answer_token_ids": {
+  "A": 32,
+  " A": 362,
+  "B": 33,
+  " B": 426,
+  "C": 34,
+  " C": 356,
+  "D": 35,
+  " D": 423,
+  "Yes": 9642,
+  " Yes": 7566,
+  "No": 2822,
+  " No": 2360,
+  "yes": 9891,
+  " yes": 10035,
+  "no": 2201,
+  " no": 912,
+  "1": 16,
+  "2": 17,
+  "3": 18,
+  "4": 19,
+  "5": 20,
+  "6": 21,
+  "7": 22,
+  "8": 23,
+  "9": 24
+ },
+ "forward_seconds_per_prompt": 0.0407,
+ "n_f0_prompts": 64,
+ "n_bf16_ties": 5,
+ "fwd_eq_gen_rate_all": 0.984375,
+ "fwd_eq_gen_rate_nontie": 1.0,
+ "fwd_gen_mismatches": [
+  {
+   "key": "P2a|W1|F0|0.0|None|0|0",
+   "tie": true,
+   "gap12_bf16": 0.0,
+   "top5": [
+    [
+     "1",
+     14.753
+    ],
+    [
+     "500",
+     14.724
+    ],
+    [
+     "The",
+     14.6
+    ],
+    [
+     "150",
+     13.928
+    ],
+    [
+     "200",
+     13.849
+    ]
+   ],
+   "gen": "1"
+  }
+ ],
+ "mass_letters_P1": {
+  "min": 0.8741,
+  "mean": 0.9184,
+  "share_below_0p9": 0.25
+ },
+ "mass_letters_first_token_P1": {
+  "min": 0.0087,
+  "mean": 0.0481,
+  "share_below_0p9": 1.0
+ },
+ "mass_digits_P3": {
+  "min": 0.5912,
+  "mean": 0.6775,
+  "share_below_0p9": 1.0
+ },
+ "argmax_pieces_numeric": [
+  "1",
+  "100",
+  "150",
+  "200",
+  "45",
+  "5",
+  "50",
+  "6",
+  "884",
+  "Based",
+  "The",
+  "Three"
+ ],
+ "grid_test": {
+  "grid": [
+   "1500",
+   "2000",
+   "2500",
+   "2900",
+   "3000",
+   "4000",
+   "6000"
+  ],
+  "n_tokens": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "logp": [
+   -7.218,
+   -5.866,
+   -6.157,
+   -8.894,
+   -5.841,
+   -7.472,
+   -5.651
+  ],
+  "Z": 0.012813453526274396,
+  "finite": true
+ },
+ "vram_f1": {
+  "batch": 40,
+  "new_tokens": 256,
+  "seconds": 10.68,
+  "tok_per_s": 958,
+  "peak_gib": 4.924
+ },
+ "vram_f0": {
+  "batch": 40,
+  "new_tokens": 24,
+  "seconds": 1.27,
+  "tok_per_s": 757,
+  "peak_gib": 3.792
+ },
+ "nonfinite": 0,
+ "gpu_after": {
+  "mem_used_mib": 7273.0,
+  "temp_c": 82.0,
+  "power_w": 46.15,
+  "t": "2026-11-06T14:55:36"
+ },
+ "fails": [],
+ "status": "pass",
+ "finished": "2026-11-06T14:55:36"
+}

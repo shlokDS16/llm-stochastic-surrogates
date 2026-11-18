@@ -1,0 +1,11 @@
+paradigm: P3
+wording: W9
+response_type: rating
+conditions:
+  x1: It's freezing cold on the day of the big game your favorite football team is playing. You've got a ticket for it that you paid a ton for. What do you do?
+  x0: It's freezing cold on the day of the big game your favorite football team is playing. You've got a ticket for it that a friend gave you for free. What do you do?
+condition_names:
+  x1: paid ticket
+  x0: free ticket
+scale: Use a 9-point scale, where 1 = definitely stay home and 9 = definitely go to the game.
+scale_reversed: Use a 9-point scale, where 1 = definitely go to the game and 9 = definitely stay home.

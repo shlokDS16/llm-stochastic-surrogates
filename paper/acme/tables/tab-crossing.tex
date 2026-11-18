@@ -1,0 +1,25 @@
+% HAND-BUILT body of Table crossing (CRP-S09 writer, 2026-11-07): moved out of 06-uncertainty-audit.tex. Counts are unweighted studies with exact 95 percent intervals; every number is a \NUM{cx.*} key built by
+% analysis/acme/make_autonumbers.py from runs/crossing/counts.csv and runs/crossing/agreement.csv. Caption and label are in floats.tex (\TabCrossing).
+{\footnotesize\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.40\textwidth}>{\raggedright\arraybackslash}p{0.27\textwidth}>{\raggedright\arraybackslash}p{0.27\textwidth}@{}}
+\toprule
+Studies that & First pass, $n=\NUM{cx.n.p1}$ & Second pass, $n=\NUM{cx.n.p2}$ \\
+\midrule
+Fully cross two or more sources (X1) & \NUM{cx.x1yes.p1k} (\NUM{cx.x1yes.p1}; \NUM{cx.x1yes.p1lo} to \NUM{cx.x1yes.p1hi}) & \NUM{cx.x1yes.p2k} (\NUM{cx.x1yes.p2}; \NUM{cx.x1yes.p2lo} to \NUM{cx.x1yes.p2hi}) \\
+Cross two or more sources in part & \NUM{cx.x1part.p1k} (\NUM{cx.x1part.p1}; \NUM{cx.x1part.p1lo} to \NUM{cx.x1part.p1hi}) & \NUM{cx.x1part.p2k} (\NUM{cx.x1part.p2}; \NUM{cx.x1part.p2lo} to \NUM{cx.x1part.p2hi}) \\
+Vary two or more sources & \NUM{cx.multi.p1k} (\NUM{cx.multi.p1}; \NUM{cx.multi.p1lo} to \NUM{cx.multi.p1hi}) & \NUM{cx.multi.p2k} (\NUM{cx.multi.p2}; \NUM{cx.multi.p2lo} to \NUM{cx.multi.p2hi}) \\
+Quantify at least one source (X2) & \NUM{cx.x2yes.p1k} (\NUM{cx.x2yes.p1}; \NUM{cx.x2yes.p1lo} to \NUM{cx.x2yes.p1hi}) & \NUM{cx.x2yes.p2k} (\NUM{cx.x2yes.p2}; \NUM{cx.x2yes.p2lo} to \NUM{cx.x2yes.p2hi}) \\
+\quad by a change of the outcome & \NUM{cx.effch.p1k} (\NUM{cx.effch.p1}; \NUM{cx.effch.p1lo} to \NUM{cx.effch.p1hi}) & \NUM{cx.effch.p2k} (\NUM{cx.effch.p2}; \NUM{cx.effch.p2lo} to \NUM{cx.effch.p2hi}) \\
+\quad by an analysis-of-variance or mixed-model term & \NUM{cx.anova.p1k} (\NUM{cx.anova.p1}; \NUM{cx.anova.p1lo} to \NUM{cx.anova.p1hi}) & \NUM{cx.anova.p2k} (\NUM{cx.anova.p2}; \NUM{cx.anova.p2lo} to \NUM{cx.anova.p2hi}) \\
+\quad by a variance share & \NUM{cx.vshare.p1k} (\NUM{cx.vshare.p1}; \NUM{cx.vshare.p1lo} to \NUM{cx.vshare.p1hi}) & \NUM{cx.vshare.p2k} (\NUM{cx.vshare.p2}; \NUM{cx.vshare.p2lo} to \NUM{cx.vshare.p2hi}) \\
+Estimate or show an interaction between sources (X3) & \NUM{cx.x3yes.p1k} (\NUM{cx.x3yes.p1}; \NUM{cx.x3yes.p1lo} to \NUM{cx.x3yes.p1hi}) & \NUM{cx.x3yes.p2k} (\NUM{cx.x3yes.p2}; \NUM{cx.x3yes.p2lo} to \NUM{cx.x3yes.p2hi}) \\
+\midrule
+Agreement between the passes & Percent & Kappa \\
+\midrule
+X1, four levels & \NUM{cx.agr.x1.pct} & \NUM{cx.agr.x1.kappa} \\
+X1, fully crossed against other & \NUM{cx.agr.x1y.pct} & \NUM{cx.agr.x1y.kappa} \\
+X2 & \NUM{cx.agr.x2.pct} & \NUM{cx.agr.x2.kappa} \\
+X3 & \NUM{cx.agr.x3.pct} & \NUM{cx.agr.x3.kappa} \\
+Studies coded by both passes & \NUM{cx.agr.n} & \\
+\bottomrule
+\end{tabular}}

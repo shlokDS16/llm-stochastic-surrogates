@@ -1,0 +1,34 @@
+{
+ "order": 30,
+ "study_id": "W4392811684",
+ "pass": "codex",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/030_W4392811684.md",
+ "sources_varied": [
+  "M",
+  "W",
+  "R"
+ ],
+ "X1": {
+  "value": "partial",
+  "sources_crossed": [],
+  "evidence": "Secs. 2.1 and 3.1: Experiment 1 compares ChatGPT versions and task phrasings; Experiment 2 tests GPT-4 conditions and repeats each input three times, with no full factorial crossing."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "W"
+  ],
+  "evidence": "Secs. 2.2 and 3.2: Hinting scores change across phrasing conditions (for example, 6–8/10 for INJONCTION versus 2–4/10 for COMMUNICATIVE); repeated-run variability is not quantified."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "Secs. 2.2 and 3.2 report condition results and repeated-rating summaries, but no source-by-source interaction is estimated or shown."
+ },
+ "notes": "M is varied across experiments, but the versions are not reported as run on the same items and prompt conditions; R is a repeat-check in Experiment 2, not analyzed as run-to-run variation."
+}

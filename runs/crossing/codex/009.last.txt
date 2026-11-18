@@ -1,0 +1,26 @@
+{
+  "order": 9,
+  "study_id": "W7165674475",
+  "pass": "codex",
+  "brief_version": "1.0",
+  "date": "2026-11-07",
+  "full_text": "research/sources/md/fulltext/009_W7165674475.md",
+  "sources_varied": ["M", "P", "T"],
+  "X1": {
+    "value": "partial",
+    "sources_crossed": [],
+    "evidence": "STAR Methods, Word similarity rating task and Experimental Model: many models used the same task, and GPT-3.5/GPT-4 were tested at multiple temperatures; participant identities were crossed within runs, but no full crossing of model and temperature."
+  },
+  "X2": {
+    "value": "yes",
+    "x2_types": ["effect_change", "anova_or_mixed_term"],
+    "x2_sources": ["M", "P", "T"],
+    "evidence": "Results, pp. 3–7, Figure 2 and Tables S2–S3: alignment correlations are compared across models, temperatures, and identity versus no-identity prompts; temperature effects on consistency are also analyzed via ICC."
+  },
+  "X3": {
+    "value": "no",
+    "x3_pairs": [],
+    "evidence": "Results and STAR Methods: no model-by-temperature or other source-by-source interaction is estimated or discussed; experiments report separate comparisons."
+  },
+  "notes": "R is not counted: repeated participant runs primarily provide samples, while the prompt manipulation is coded as persona (P)."
+}

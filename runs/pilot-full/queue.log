@@ -1,0 +1,27 @@
+﻿=== olmo2-1b-instruct 2026-10-16T03:59:24
+exit 1 2026-10-16T04:17:02
+=== qwen2.5-1.5b-instruct 2026-10-16T04:17:02
+exit 0 2026-10-16T04:38:13
+=== granite-3.3-2b-instruct 2026-10-16T04:38:13
+- 2026-10-16 06:10 IST: queue restarted after the laptop restart; OLMo-2 1B batch_size 100 -> 40 (CUDA out of memory with F1 at 256 tokens at 04:17).
+=== granite-3.3-2b-instruct 2026-10-16T06:05:37
+exit 0 2026-10-16T06:33:04
+=== qwen2.5-7b-instruct 2026-10-16T06:33:04
+exit 0 2026-10-16T07:07:56
+=== granite-3.3-8b-instruct 2026-10-16T07:07:56
+exit 1 2026-10-16T08:20:02
+=== olmo2-7b-instruct 2026-10-16T08:20:02
+exit 1 2026-10-16T08:23:29
+=== olmo2-1b-instruct 2026-10-16T08:23:29
+exit 0 2026-10-16T08:48:39
+- 2026-10-16 09:00 IST: Granite 8B (batch 50) and OLMo-2 7B (batch 24) ran out of memory on F1 at 256 tokens; rerun with batch 24 and 12 (resumable).
+=== granite-3.3-8b-instruct 2026-10-16T08:49:17
+exit 0 2026-10-16T09:31:13
+=== olmo2-7b-instruct 2026-10-16T09:31:13
+exit 1 2026-10-16T10:07:42
+=== olmo2-7b-instruct 2026-10-16T10:08:58 (CRP-S02, batch 6)
+exit 0 2026-10-16T11:09:57
+=== olmo2-1b-instruct topup512 2026-10-16T14:31:19 (CRP-S02, A1.9)
+exit 1 2026-10-16T14:33:23
+=== olmo2-1b-instruct topup512 2026-10-16T15:16:26 (CRP-S02, A1.9, batch 10)
+exit 0 2026-10-16T15:19:59

@@ -1,0 +1,22 @@
+{
+ "acme_manifest_mismatch": [],
+ "pilot_manifest_mismatch": [],
+ "arm_s_models": [
+  "granite-3.3-2b-instruct",
+  "granite-3.3-8b-instruct",
+  "mistral-7b-instruct-v0.3",
+  "olmo2-13b-instruct",
+  "olmo2-1b-dpo",
+  "olmo2-1b-instruct",
+  "olmo2-1b-sft",
+  "olmo2-7b-instruct",
+  "phi4-mini-instruct",
+  "qwen2.5-0.5b-instruct",
+  "qwen2.5-1.5b-instruct",
+  "qwen2.5-14b-instruct",
+  "qwen2.5-7b-instruct",
+  "smollm2-1.7b-instruct"
+ ],
+ "note": "sha256 = SHA-256 of json.dumps([system, [[role, text], ...]], ensure_ascii=False, sort_keys=True) in UTF-8; the per-(item, W) hash covers the sorted list of [order, x, prompt hash] over the compared prompts (Arm S has no P3 order: its P3 is compared with Arm L 'forward')",
+ "git_head": "867742f0575d1c02a5451996afffe88522ec5861"
+}

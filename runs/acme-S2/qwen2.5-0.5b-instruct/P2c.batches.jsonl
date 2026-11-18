@@ -1,0 +1,2 @@
+{"paradigm": "P2c", "F": "F1", "batch": 0, "rows": 100, "seconds": 13.926, "new_tokens": 6636, "padded_prompt_len": 114, "peak_vram_gib": 1.536}
+{"paradigm": "P2c", "F": "F1", "batch": 1, "rows": 100, "seconds": 13.609, "new_tokens": 5902, "padded_prompt_len": 119, "peak_vram_gib": 1.542}

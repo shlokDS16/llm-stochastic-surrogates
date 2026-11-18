@@ -1,0 +1,67 @@
+{
+ "model": "phi4-mini-instruct",
+ "dir": "runs/acme-L/phi4-mini-instruct",
+ "recorded": "2026-11-07T02:02:07+05:45",
+ "files": [
+  {
+   "file": "AF.jsonl",
+   "rows": 48,
+   "bytes": 83470,
+   "sha256": "e58681d52f9bb5a3cf62d0f150871e35c64684d9b9189aec2ff130eda0e7c615"
+  },
+  {
+   "file": "NR.jsonl",
+   "rows": 48,
+   "bytes": 151407,
+   "sha256": "124a54bf96bc0da7324a34edc320651e78fab83aff0f3f6e5a9365daf1f60464"
+  },
+  {
+   "file": "P1.jsonl",
+   "rows": 48,
+   "bytes": 154110,
+   "sha256": "2ce59c59cc8072da7602a7237504355be5485442df77fe93c8cf7440e3172e38"
+  },
+  {
+   "file": "P2a.jsonl",
+   "rows": 34,
+   "bytes": 45546017,
+   "sha256": "007b72145b9665574d41e6bfee19d7fc2704ea57c922a78c78c921ee22d50df9"
+  },
+  {
+   "file": "P2b.jsonl",
+   "rows": 34,
+   "bytes": 229903161,
+   "sha256": "2a30322cfadc6dfd797b35e123eadedf369e8d31606fcd2e8c8f6b2b6a5c029a"
+  },
+  {
+   "file": "P2c.jsonl",
+   "rows": 34,
+   "bytes": 22989154,
+   "sha256": "31dbaee7e456e82bb2ee1b15726120d6d1fc525d442911df33a49fc4f0a1b4a4"
+  },
+  {
+   "file": "P2d.jsonl",
+   "rows": 34,
+   "bytes": 97749406,
+   "sha256": "3a1c1c53c23df17aefcaa849c4b2702fc120e4c198f63989c03e7fc519ecb542"
+  },
+  {
+   "file": "P3.jsonl",
+   "rows": 48,
+   "bytes": 158454,
+   "sha256": "92632c13c2ab7fd7099a610e7da8961120dd9a013e84782a78ef56d08c68de52"
+  },
+  {
+   "file": "P4.jsonl",
+   "rows": 24,
+   "bytes": 38787958,
+   "sha256": "dc915bd152723ff2904b57bba80b916ffdd0c40b0de9c02c46cf6d2e22131333"
+  },
+  {
+   "file": "QA.jsonl",
+   "rows": 48,
+   "bytes": 157941,
+   "sha256": "9072f02e797b0ac4d60f26e0d51fda8da87bf2df90b9719a5d8686bb69108050"
+  }
+ ]
+}

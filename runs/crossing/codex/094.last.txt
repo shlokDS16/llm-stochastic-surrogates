@@ -1,0 +1,26 @@
+{
+  "order": 94,
+  "study_id": "https://openalex.org/W4404554448",
+  "pass": "codex",
+  "brief_version": "1.0",
+  "date": "2026-11-07",
+  "full_text": "research/sources/md/fulltext/094_W4404554448.md",
+  "sources_varied": ["M", "W"],
+  "X1": {
+    "value": "partial",
+    "sources_crossed": [],
+    "evidence": "Secs. 3.3, 4.2–4.4: GPT-4o is used in the main analysis; GPT-3.5 Turbo is added for 14 cases, and prompts vary in think-aloud, framing, and robustness checks, with no full crossing reported."
+  },
+  "X2": {
+    "value": "yes",
+    "x2_types": ["effect_change"],
+    "x2_sources": ["M", "W"],
+    "evidence": "Secs. 4.2–4.4: outcomes are quantified for a mixed GPT-4o/GPT-3.5 sample versus GPT-4o alone, and behavior is compared across prompt variants; mixed-model prompt terms are not reported."
+  },
+  "X3": {
+    "value": "no",
+    "x3_pairs": [],
+    "evidence": "Secs. 4.2–4.4: no source-by-source interaction or joint cell results are reported."
+  },
+  "notes": "Temperature is held at OpenAI default settings. Repeated agent runs estimate the sample but are not analyzed as a varied source."
+}

@@ -1,0 +1,69 @@
+{
+  "order": 19,
+  "study_id": "https://openalex.org/W7166839453",
+  "full_text": {"obtained": true, "source": "research/sources/md/fulltext/019_W7166839453.md (ACL Anthology PDF)"},
+  "eligibility": {
+    "decision": "YES",
+    "failed_criterion": null,
+    "borderline": false,
+    "evidence": "Sec. 3.1-3.3, App. B. Open-weight generative LLMs are scored by completion probabilities on 192 False Belief Test variants from Trott et al. (2023), a Wimmer and Perner (1983) / Sally-Anne style paradigm; new behavioural data (Sec. 4-6), analysed as accuracy with Bayesian regression."
+  },
+  "A": {"doi": "10.18653/v1/2026.conll-main.45", "arxiv_id": null,
+        "title": "Traces of Social Competence in Large Language Models",
+        "first_author": "Tom Kouwenhoven", "year": 2026,
+        "venue": "Conference on Computational Natural Language Learning (CoNLL 2026)",
+        "peer_reviewed": "yes", "first_author_field": "CS", "country": "Netherlands"},
+  "B": {
+    "models": [
+      {"name": "OLMo 2 1B", "version": "OLMo 2; Base, SFT, DPO, RLVR variants plus pre-training checkpoints (exact Hugging Face IDs not given)", "access": "open_weights", "params_b": 1, "release_date": "not_reported", "tuning": "not_reported", "family": "OLMo", "query_date": "not_reported"},
+      {"name": "OLMo 2 7B", "version": "OLMo 2; Base, SFT, DPO, RLVR variants; exhaustive checkpoint sweep", "access": "open_weights", "params_b": 7, "release_date": "not_reported", "tuning": "not_reported", "family": "OLMo", "query_date": "not_reported"},
+      {"name": "OLMo 2 13B", "version": "OLMo 2; Base, SFT, DPO, RLVR variants", "access": "open_weights", "params_b": 13, "release_date": "not_reported", "tuning": "not_reported", "family": "OLMo", "query_date": "not_reported"},
+      {"name": "OLMo 2 32B", "version": "OLMo 2; Base, SFT, DPO, RLVR variants", "access": "open_weights", "params_b": 32, "release_date": "not_reported", "tuning": "not_reported", "family": "OLMo", "query_date": "not_reported"},
+      {"name": "OLMo 3 7B", "version": "OLMo 3; Base, SFT, DPO, RLVR, Thinking variants", "access": "open_weights", "params_b": 7, "release_date": "not_reported", "tuning": "not_reported", "family": "OLMo", "query_date": "not_reported"},
+      {"name": "OLMo 3 32B", "version": "OLMo 3; Base, SFT, DPO, RLVR, Thinking variants", "access": "open_weights", "params_b": 32, "release_date": "not_reported", "tuning": "not_reported", "family": "OLMo", "query_date": "not_reported"},
+      {"name": "Gemma 3 270M", "version": "Gemma 3; Base and IT variants", "access": "open_weights", "params_b": 0.27, "release_date": "not_reported", "tuning": "not_reported", "family": "other", "query_date": "not_reported"},
+      {"name": "Gemma 3 1B", "version": "Gemma 3; Base and IT variants", "access": "open_weights", "params_b": 1, "release_date": "not_reported", "tuning": "not_reported", "family": "other", "query_date": "not_reported"},
+      {"name": "Gemma 3 4B", "version": "Gemma 3; Base and IT variants", "access": "open_weights", "params_b": 4, "release_date": "not_reported", "tuning": "not_reported", "family": "other", "query_date": "not_reported"},
+      {"name": "Gemma 3 12B", "version": "Gemma 3; Base and IT variants", "access": "open_weights", "params_b": 12, "release_date": "not_reported", "tuning": "not_reported", "family": "other", "query_date": "not_reported"},
+      {"name": "Gemma 3 27B", "version": "Gemma 3; Base and IT variants", "access": "open_weights", "params_b": 27, "release_date": "not_reported", "tuning": "not_reported", "family": "other", "query_date": "not_reported"},
+      {"name": "Qwen3 4B", "version": "Qwen3; Base, IT, Thinking variants", "access": "open_weights", "params_b": 4, "release_date": "not_reported", "tuning": "not_reported", "family": "Qwen", "query_date": "not_reported"},
+      {"name": "Qwen3 30B", "version": "Qwen3; Base, IT, Thinking variants", "access": "open_weights", "params_b": 30, "release_date": "not_reported", "tuning": "not_reported", "family": "Qwen", "query_date": "not_reported"},
+      {"name": "K2-V2 70B", "version": "K2-V2; Base and IT variants", "access": "open_weights", "params_b": 70, "release_date": "not_reported", "tuning": "not_reported", "family": "other", "query_date": "not_reported"},
+      {"name": "Llama 3.x 1B", "version": "Llama 3.1/3.2 (version per size not stated); Base and IT variants", "access": "open_weights", "params_b": 1, "release_date": "not_reported", "tuning": "not_reported", "family": "Llama", "query_date": "not_reported"},
+      {"name": "Llama 3.x 3B", "version": "Llama 3.1/3.2 (version per size not stated); Base and IT variants", "access": "open_weights", "params_b": 3, "release_date": "not_reported", "tuning": "not_reported", "family": "Llama", "query_date": "not_reported"},
+      {"name": "Llama 3.x 8B", "version": "Llama 3.1/3.2 (version per size not stated); Base and IT variants", "access": "open_weights", "params_b": 8, "release_date": "not_reported", "tuning": "not_reported", "family": "Llama", "query_date": "not_reported"},
+      {"name": "Llama 3.x 70B", "version": "Llama 3.1/3.2 (version per size not stated); Base and IT variants", "access": "open_weights", "params_b": 70, "release_date": "not_reported", "tuning": "not_reported", "family": "Llama", "query_date": "not_reported"}
+    ],
+    "n_models": 18, "n_model_families": 4},
+  "C": {"paradigms": [
+    {"pid": "P1", "name": "False Belief Test (Sally-Anne type) location-completion battery, 12 scenarios x 16 versions (knowledge state, knowledge cue, two location-mention orders)",
+     "family": "TOM", "source_paper": "Trott et al. (2023), EPITOME (Jones et al., 2024); Wimmer and Perner (1983); Baron-Cohen et al. (1985)",
+     "items_origin": "verbatim", "n_items": 192, "languages": ["English"], "modality": "text",
+     "contamination_risk": "partly",
+     "location": "Sec. 3.1, Fig. 1, Table 3 (App. B); App. D leakage check (exact-match search of post-training data and CommonCrawl index for OLMo 2/3 and K2-V2; no check possible for Gemma, Qwen, Llama)"}
+  ]},
+  "D": {"types": ["published_norms"], "primary_type": "published_norms", "human_n": null,
+        "population": "adult participants of Trott et al. (2023); sample not described in this paper",
+        "metric": "proportion correct (about 83% on False Belief questions), drawn as dashed lines or triangles in Figs. 2, 3, 5"},
+  "E": {
+    "outcome_types": ["accuracy"],
+    "rows_aggregated": false,
+    "effects": [
+      {"pid": "P1", "model": "OLMo 2 1B", "model_family": "OLMo", "outcome_kind": "accuracy", "basis": null, "model_effect_present": "na", "human_effect_present": "na", "direction": "not_applicable", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "INSUFFICIENT",
+       "location": "Table 1 (final pre-training checkpoint, strict accuracy: False Belief implicit .250, explicit .292; True Belief implicit .771, explicit .750); Fig. 4-5 with human dashed lines; no explicit model-human comparison."},
+      {"pid": "P1", "model": "OLMo 2 7B", "model_family": "OLMo", "outcome_kind": "accuracy", "basis": null, "model_effect_present": "na", "human_effect_present": "na", "direction": "not_applicable", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "INSUFFICIENT",
+       "location": "Table 1 (False Belief implicit .042, explicit .562; True Belief implicit 1.00, explicit .688); Figs. 4-5."},
+      {"pid": "P1", "model": "OLMo 2 13B", "model_family": "OLMo", "outcome_kind": "accuracy", "basis": null, "model_effect_present": "na", "human_effect_present": "na", "direction": "not_applicable", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "INSUFFICIENT",
+       "location": "Table 1 (False Belief implicit .542, explicit .938; True Belief implicit .896, explicit .188); Figs. 4-5."},
+      {"pid": "P1", "model": "OLMo 2 32B", "model_family": "OLMo", "outcome_kind": "accuracy", "basis": null, "model_effect_present": "na", "human_effect_present": "na", "direction": "not_applicable", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "INSUFFICIENT",
+       "location": "Table 1 (False Belief implicit .833, explicit .979; True Belief implicit .750, explicit .354); Figs. 4-5."}
+    ],
+    "headline": "Scaling and post-training help False Belief performance but not strictly; the explicit-versus-implicit cue crossover shows performance is not robust, and it emerges during pre-training."},
+  "F": {"f1": "yes", "f2": "na", "f3": "no", "f4": "yes", "f5": "yes", "f6": "na", "f7": "no", "f8": "yes",
+        "f9": "yes", "f10": "yes", "f11": "no", "f12": "yes",
+        "perturbations_tested": ["wording", "model_version", "contamination", "other"],
+        "robustness_outcome": "mixed"},
+  "G": {"notes": "Main analyses pool 17-18 models (Table 2 lists 18 family-size cells, text says 17) with a family random intercept, so per-model results exist only for OLMo 2 (Table 1, Figs. 4-5); E has OLMo 2 rows only. Human reference is a single published figure. No own code release; the OSF link is to the source stimuli. BLiMP comparison and steering vectors are outside the paradigm count.",
+        "extractor": "paper-reader (claude-sonnet)", "date": "2026-10-16", "minutes": 4,
+        "sections_read": ["Abstract", "Sec. 1-7 (intro, related work, methods, results, OLMo 2 case study, steering, conclusion, limitations)", "App. A (probability computation)", "App. B (tasks, Table 2 models, Table 3)", "App. C (training traces)", "App. D (data leakage)"]}
+}

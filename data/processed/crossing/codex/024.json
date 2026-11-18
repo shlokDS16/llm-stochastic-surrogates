@@ -1,0 +1,36 @@
+{
+ "order": 24,
+ "study_id": "https://openalex.org/W4404986392",
+ "pass": "codex",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/024_W4404986392.md",
+ "sources_varied": [
+  "M",
+  "W"
+ ],
+ "X1": {
+  "value": "partial",
+  "sources_crossed": [],
+  "evidence": "Sec. 4.2, pp. 9–10: nine models were evaluated with both single-query and multiple-query prompt formats, but results by prompt format are not reported across all models in a full factorial design."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "M",
+   "W"
+  ],
+  "evidence": "Sec. 5.1.2, Tables 1 and 3, pp. 14–18: target-rating differences and decoy-effect tests are reported across models and between single-query and multiple-query prompts."
+ },
+ "X3": {
+  "value": "yes",
+  "x3_pairs": [
+   "M x W"
+  ],
+  "evidence": "Sec. 5.2, pp. 17–18: decoy effects vary by model across single-query versus multiple-query formats; the text identifies models with the largest prompt-format differences."
+ },
+ "notes": ""
+}

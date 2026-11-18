@@ -1,0 +1,37 @@
+column,arm,hypothesis,basis,item_set,k_items,estimate,lowo_min,lowo_max,lo,hi,note
+(a),S,H1_analogue,E2,all,10,0.5107950279497384,0.40187235562175305,0.5200503380515109,,,"Arm S: LOWO range = fragility over the four wordings, not uncertainty; T has 2 levels; differences under 0.06 not interpreted (E7a)"
+(a),S,H3,E2,all,10,0.5406348802762079,0.4257840121817913,0.5509786000971658,,,"Arm S: LOWO range = fragility over the four wordings, not uncertainty; T has 2 levels; differences under 0.06 not interpreted (E7a)"
+(a),S,H1_analogue,E2,choice_rating,5,0.22045728997052044,0.11988505938753762,0.2509207686582511,,,"Arm S: LOWO range = fragility over the four wordings, not uncertainty; T has 2 levels; differences under 0.06 not interpreted (E7a)"
+(a),S,H3,E2,choice_rating,5,0.22222491405099126,0.14250763230842955,0.2526853105755525,,,"Arm S: LOWO range = fragility over the four wordings, not uncertainty; T has 2 levels; differences under 0.06 not interpreted (E7a)"
+(a),S,H1_analogue,E1,all,10,0.5407990442143766,0.4301364764301935,0.5515649331825289,,,"Arm S: LOWO range = fragility over the four wordings, not uncertainty; T has 2 levels; differences under 0.06 not interpreted (E7a)"
+(a),S,H3,E1,all,10,0.5643533161105928,0.4478367949017076,0.5868500672246261,,,"Arm S: LOWO range = fragility over the four wordings, not uncertainty; T has 2 levels; differences under 0.06 not interpreted (E7a)"
+(a),S,H1_analogue,E1,choice_rating,5,0.2406313213700478,0.13165833514147934,0.2691351559050336,,,"Arm S: LOWO range = fragility over the four wordings, not uncertainty; T has 2 levels; differences under 0.06 not interpreted (E7a)"
+(a),S,H3,E1,choice_rating,5,0.24051000978728704,0.15429932051713005,0.2695419762361246,,,"Arm S: LOWO range = fragility over the four wordings, not uncertainty; T has 2 levels; differences under 0.06 not interpreted (E7a)"
+(e)-ArmS,S,H1_analogue,E2,all,6,0.28969597655707835,0.22175959671018786,0.3698238786006703,,,"Arm S: LOWO range = fragility over the four wordings, not uncertainty; T has 2 levels; differences under 0.06 not interpreted (E7a)"
+(e)-ArmS,S,H3,E2,all,6,0.1278037124935841,0.07869757049432474,0.207374277910192,,,"Arm S: LOWO range = fragility over the four wordings, not uncertainty; T has 2 levels; differences under 0.06 not interpreted (E7a)"
+(e)-ArmS,S,H1_analogue,E2,choice_rating,5,0.12856257039226596,0.04106172029258466,0.20644417792143605,,,"Arm S: LOWO range = fragility over the four wordings, not uncertainty; T has 2 levels; differences under 0.06 not interpreted (E7a)"
+(e)-ArmS,S,H3,E2,choice_rating,5,0.09887508534774436,0.03884848902297758,0.18626846764230792,,,"Arm S: LOWO range = fragility over the four wordings, not uncertainty; T has 2 levels; differences under 0.06 not interpreted (E7a)"
+(e)-ArmS,S,H1_analogue,E1,all,6,0.31055026881008535,0.23346713605073666,0.4081175885880752,,,"Arm S: LOWO range = fragility over the four wordings, not uncertainty; T has 2 levels; differences under 0.06 not interpreted (E7a)"
+(e)-ArmS,S,H3,E1,all,6,0.1399068301369627,0.08404670034934142,0.22114052096444,,,"Arm S: LOWO range = fragility over the four wordings, not uncertainty; T has 2 levels; differences under 0.06 not interpreted (E7a)"
+(e)-ArmS,S,H1_analogue,E1,choice_rating,5,0.14381134760341896,0.04613107333384606,0.2385482235262375,,,"Arm S: LOWO range = fragility over the four wordings, not uncertainty; T has 2 levels; differences under 0.06 not interpreted (E7a)"
+(e)-ArmS,S,H3,E1,choice_rating,5,0.11160849944278958,0.043049408677355114,0.20694975811153804,,,"Arm S: LOWO range = fragility over the four wordings, not uncertainty; T has 2 levels; differences under 0.06 not interpreted (E7a)"
+(a),S,H2,setup_sd_raw,all,10,10.0,,,,,"count of items whose median set-up SD exceeds c_p; no interval (E7a); 4 wordings x 2 orders, T = 1.0"
+(a),S,H2,setup_sd_raw,choice_rating,5,5.0,,,,,"count of items whose median set-up SD exceeds c_p; no interval (E7a); 4 wordings x 2 orders, T = 1.0"
+(a),S,H2,setup_sd_drawcorr,all,10,9.0,,,,,"count of items whose median set-up SD exceeds c_p; no interval (E7a); 4 wordings x 2 orders, T = 1.0"
+(a),S,H2,setup_sd_drawcorr,choice_rating,5,4.0,,,,,"count of items whose median set-up SD exceeds c_p; no interval (E7a); 4 wordings x 2 orders, T = 1.0"
+(b),L,H1,A1,all,6,0.2604335583604671,,,0.20044374099984993,0.316635233562932,frozen A1 estimate and interval; p-values not reported (E7 item 5); underpowered
+(b),L,H3,A1,all,6,0.24384459829898775,,,0.12288252621427768,0.39768104036699775,frozen A1 estimate and interval; p-values not reported (E7 item 5); underpowered
+(b),L,H2,A1,all,6,6.0,,,,,count of items whose median set-up SD exceeds c_p (point estimates)
+(b),L,H2,A1_lb95_onesided,all,6,5.0,,,,,"count of items whose frozen one-sided 95% lower bound of the median set-up SD exceeds c_p (descriptive, no test)"
+(c),L,H1,A1,all,2,0.201474707715631,,,-0.058821108843631426,0.7611392509593059,frozen A1 estimate and interval; p-values not reported (E7 item 5); underpowered
+(c),L,H3,A1,all,2,0.32106142128236936,,,0.13809037720154607,0.710573564192337,frozen A1 estimate and interval; p-values not reported (E7 item 5); underpowered
+(c),L,H2,A1,all,2,1.0,,,,,count of items whose median set-up SD exceeds c_p (point estimates)
+(c),L,H2,A1_lb95_onesided,all,2,1.0,,,,,"count of items whose frozen one-sided 95% lower bound of the median set-up SD exceeds c_p (descriptive, no test)"
+(e)-ArmL,L,H1,A1,all,6,0.3170575723824338,,,0.10602481523426674,0.8217356184835167,frozen A1 estimate and interval; p-values not reported (E7 item 5); underpowered; 4-wording interval not interpreted
+(e)-ArmL,L,H3,A1,all,6,0.21762623267055267,,,0.049655807533320134,0.5766009186662576,frozen A1 estimate and interval; p-values not reported (E7 item 5); underpowered; 4-wording interval not interpreted
+(e)-ArmL,L,H2,A1,all,6,4.0,,,,,count of items whose median set-up SD exceeds c_p (point estimates)
+(e)-ArmL,L,H2,A1_lb95_onesided,all,6,2.0,,,,,"count of items whose frozen one-sided 95% lower bound of the median set-up SD exceeds c_p (descriptive, no test)"
+(b),L,H1,A1,choice_rating,5,0.1582679560831018,,,0.09658778758130812,0.22499372003589285,frozen A1 on the choice and rating items only; p-values not reported (E7 item 5); underpowered
+(b),L,H3,A1,choice_rating,5,0.2315567797911274,,,0.16175083475010119,0.30533529915696744,frozen A1 on the choice and rating items only; p-values not reported (E7 item 5); underpowered
+(e)-ArmL,L,H1,A1,choice_rating,5,0.15991243606802943,,,-0.051398289456637575,0.7488872486515654,frozen A1 on the choice and rating items only; p-values not reported (E7 item 5); underpowered; 4-wording interval not interpreted
+(e)-ArmL,L,H3,A1,choice_rating,5,0.17245858120271113,,,-0.040240904407570305,0.7666796143693162,frozen A1 on the choice and rating items only; p-values not reported (E7 item 5); underpowered; 4-wording interval not interpreted

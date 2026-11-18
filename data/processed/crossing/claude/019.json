@@ -1,0 +1,32 @@
+{
+ "order": 19,
+ "study_id": "https://openalex.org/W7166839453",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/019_W7166839453.md",
+ "sources_varied": [
+  "M"
+ ],
+ "X1": {
+  "value": "no",
+  "sources_crossed": [],
+  "evidence": "Sec 3-4: 17 open-weight models (sizes, base/instruct/reasoning variants) on 12 false-belief scenarios scored by completion probability; knowledge state and cue type are task conditions; no wording, order or sampling source varied."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "anova_or_mixed_term"
+  ],
+  "x2_sources": [
+   "M"
+  ],
+  "evidence": "Sec 4, Fig 2: Bayesian mixed models with model size and post-training variant as predictors of accuracy; size effect plotted by knowledge state."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "Size-by-knowledge-state interactions are source-by-condition, not source-by-source."
+ },
+ "notes": ""
+}

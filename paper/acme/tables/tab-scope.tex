@@ -1,0 +1,31 @@
+% HAND-BUILT scope table (no runs/ file). Basis = where the support for the claim comes from: Literature (the coded corpus or cited work),
+% Own computation (the verification case study), Both, or None (not claimed). Numbers only through \NUM keys.
+{\footnotesize\setlength{\tabcolsep}{4pt}\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.42\textwidth}>{\raggedright\arraybackslash}p{0.13\textwidth}>{\raggedright\arraybackslash}p{0.41\textwidth}@{}}
+\toprule
+Claim & Basis & What would extend it \\
+\midrule
+\multicolumn{3}{@{}l}{\textit{Claims from the coded literature, for studies of cognitive-experiment paradigms found in the searched sources}} \\
+How studies specify, validate and audit a simulated participant (Sections~\ref{sec:specification} to~\ref{sec:audit}) & Literature & More sources, a registered protocol and fields that meet the agreement rule (Section~\ref{sec:method-quality}) \\
+Persona, system prompt, few-shot examples, chain-of-thought and turn structure in current practice & Literature & Fields for them in the coding scheme (Section~\ref{sec:spec-prompt}) \\
+Survey simulation and persona-conditioned polling \cite{argyle2023out,bisbee2024synthetic} & Literature, not searched & A query block and eligibility rules for that field (Section~\ref{sec:method-scope}) \\
+\addlinespace[3pt]
+\multicolumn{3}{@{}l}{\textit{Claims from the computation, conditional on the roster, the \NUM{n.items} items and the designed wording set}} \\
+Variance shares of the simulated effect over model, wording, order and temperature (Section~\ref{sec:bench-shares}) & Own computation & More effects, more model families, a wording universe rated by people \\
+Set-up spread against the single-site standard error and the between-site spread, in Many Labs~1 SD units (Section~\ref{sec:bench-yardsticks}) & Own computation & Site-level data from further multi-site projects \cite{klein2018manylabs2,moshontz2018psa} \\
+Agreement of exact probabilities with sampled answers for the wordings W0 to W3 (Section~\ref{sec:bench-design}) & Own computation & A sampled arm over all wordings and more models \\
+The estimator recovers known components on synthetic arrays, and no test exceeds its rejection limit at the boundary null under independent normal noise; H2 is conservative and H3 meets the limit at its point rate (Section~\ref{sec:bench-estimator}) & Own computation & Synthetic arrays with saturation, non-normal noise and unequal rosters \\
+\addlinespace[3pt]
+\multicolumn{3}{@{}l}{\textit{Factors not crossed}} \\
+Models: hosted and frontier models, sizes above the largest run, other families & Literature & A sampled-readout design or access to logits (Section~\ref{sec:bench-models}) \\
+Tasks: effects beyond the \NUM{n.effects} measured, other paradigm families & Both & Effects from further replication projects (Section~\ref{sec:bench-effects}) \\
+Languages other than English (language not stated in \NUM{sp.langNone.pct} percent of abstracts) & Literature & Translated wordings with a human reference in that language \\
+Personas and population simulation & Literature & A persona facet in the same design (Section~\ref{sec:challenges-estimate}) \\
+Administration beyond the answer-only format & Literature & Crossing format, system prompt and chain-of-thought with the existing facets \\
+Model version and contamination, beyond the descriptive ladders of related checkpoints & Both & Dated snapshots of one release line compared; new paradigms with open training data (Section~\ref{sec:audit-gaps}) \\
+\addlinespace[3pt]
+\multicolumn{3}{@{}l}{\textit{Claims that combine both bases, and claims not made}} \\
+Reporting items ranked by the variance share attached to them (Section~\ref{sec:discussion}) & Both; own ranking only for crossed factors & Computation on the factors now rated from the literature alone \\
+Language models are valid substitutes for human participants & None & Not claimed; it needs a validation design that this paper does not supply \\
+\bottomrule
+\end{tabular}}

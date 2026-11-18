@@ -1,0 +1,69 @@
+{
+ "order": 4,
+ "study_id": "https://openalex.org/W4415795297",
+ "full_text": {
+  "obtained": false,
+  "source": null
+ },
+ "eligibility": {
+  "decision": "UNCLEAR",
+  "failed_criterion": null,
+  "borderline": false,
+  "evidence": "Unable to read the specified full text: the shell tool failed to start. Eligibility and extraction cannot be assessed without the paper."
+ },
+ "A": {
+  "doi": null,
+  "arxiv_id": null,
+  "title": "",
+  "first_author": "",
+  "year": null,
+  "venue": "",
+  "peer_reviewed": "preprint",
+  "first_author_field": "not_reported",
+  "country": "not_reported"
+ },
+ "B": {
+  "models": [],
+  "n_models": 0,
+  "n_model_families": 0
+ },
+ "C": {
+  "paradigms": []
+ },
+ "D": {
+  "types": [],
+  "primary_type": "none",
+  "human_n": null,
+  "population": "not_reported",
+  "metric": "not_reported"
+ },
+ "E": {
+  "outcome_types": [],
+  "rows_aggregated": false,
+  "effects": [],
+  "headline": ""
+ },
+ "F": {
+  "f1": "no",
+  "f2": "no",
+  "f3": "no",
+  "f4": "no",
+  "f5": "no",
+  "f6": "no",
+  "f7": "no",
+  "f8": "no",
+  "f9": "no",
+  "f10": "no",
+  "f11": "no",
+  "f12": "no",
+  "perturbations_tested": [],
+  "robustness_outcome": "na"
+ },
+ "G": {
+  "notes": "The shell tool failed to start, preventing access to the paper, template, and extraction form.",
+  "extractor": "codex (default)",
+  "date": "2026-10-16",
+  "minutes": 0.7,
+  "sections_read": []
+ }
+}

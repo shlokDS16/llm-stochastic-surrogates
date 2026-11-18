@@ -1,0 +1,210 @@
+{
+ "order": 23,
+ "study_id": "https://openalex.org/W7128741662",
+ "full_text": {
+  "obtained": true,
+  "source": "research/sources/md/fulltext/023_W7128741662.md"
+ },
+ "eligibility": {
+  "decision": "YES",
+  "failed_criterion": null,
+  "borderline": false,
+  "evidence": "Sections 2–4 and Appendix D: compares tested generative LLMs on an iterated rock-paper-scissors paradigm with a published human experimental dataset and reports new model behavior data."
+ },
+ "A": {
+  "doi": null,
+  "arxiv_id": "2601.03242",
+  "title": "Discovering Differences in Strategic Behavior between Humans and LLMs",
+  "first_author": "Caroline Wang",
+  "year": 2026,
+  "venue": "Proceedings of the 43rd International Conference on Machine Learning",
+  "peer_reviewed": "yes",
+  "first_author_field": "CS",
+  "country": "United States"
+ },
+ "B": {
+  "models": [
+   {
+    "name": "Gemini 2.5 Pro",
+    "version": "Gemini 2.5 Pro",
+    "access": "API",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "Gemini",
+    "query_date": "November–December 2025"
+   },
+   {
+    "name": "Gemini 2.5 Flash",
+    "version": "Gemini 2.5 Flash",
+    "access": "API",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "Gemini",
+    "query_date": "November–December 2025"
+   },
+   {
+    "name": "GPT 5.1",
+    "version": "GPT 5.1",
+    "access": "API",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "GPT",
+    "query_date": "November–December 2025"
+   },
+   {
+    "name": "GPT OSS 120B",
+    "version": "GPT OSS 120B",
+    "access": "open_weights",
+    "params_b": 120,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "GPT",
+    "query_date": "November–December 2025"
+   }
+  ],
+  "n_models": 4,
+  "n_model_families": 2
+ },
+ "C": {
+  "paradigms": [
+   {
+    "pid": "P1",
+    "name": "Iterated rock-paper-scissors (IRPS) against scripted bots",
+    "family": "JDM",
+    "source_paper": "Brockbank & Vul (2024), Repeated rock, paper, scissors play reveals limits in adaptive sequential behavior",
+    "items_origin": "adapted",
+    "n_items": 15,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "partly",
+    "location": "Sections 2–3; Appendix C and D.2"
+   }
+  ]
+ },
+ "D": {
+  "types": [
+   "published_norms"
+  ],
+  "primary_type": "published_norms",
+  "human_n": 411,
+  "population": "Participants in the Brockbank & Vul (2024) human-bot IRPS dataset; further demographic details not reported here",
+  "metric": "Win rate against 15 bots and fitted choice behavior"
+ },
+ "E": {
+  "outcome_types": [
+   "choice_distribution",
+   "bias_magnitude",
+   "other"
+  ],
+  "rows_aggregated": false,
+  "effects": [
+   {
+    "pid": "P1",
+    "model": "Gemini 2.5 Pro",
+    "model_family": "Gemini",
+    "outcome_kind": "agreement",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "different",
+    "model_vs_human": "not_compared",
+    "agreement_value": "Cross-generalization evaluation likelihood 0.403 (human SBB program on Gemini data); 0.476 (Gemini Pro SBB program on human data)",
+    "label": "AGREEMENT-ONLY",
+    "location": "Section 4.3.2, Figure 5"
+   },
+   {
+    "pid": "P1",
+    "model": "Gemini 2.5 Flash",
+    "model_family": "Gemini",
+    "outcome_kind": "effect",
+    "basis": "descriptive",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Section 4.1; Section 5; Appendix B.1"
+   },
+   {
+    "pid": "P1",
+    "model": "GPT 5.1",
+    "model_family": "GPT",
+    "outcome_kind": "effect",
+    "basis": "descriptive",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Section 4.1; Section 5; Appendix B.1"
+   },
+   {
+    "pid": "P1",
+    "model": "GPT OSS 120B",
+    "model_family": "GPT",
+    "outcome_kind": "effect",
+    "basis": "descriptive",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Section 4.1; Section 5; Appendix B.1"
+   }
+  ],
+  "headline": "Frontier LLMs win more often than humans in IRPS and learn strategic patterns sooner; their fitted models suggest more complex opponent modeling."
+ },
+ "F": {
+  "f1": "yes",
+  "f2": "yes",
+  "f3": "yes",
+  "f4": "yes",
+  "f5": "no",
+  "f6": "na",
+  "f7": "no",
+  "f8": "yes",
+  "f9": "no",
+  "f10": "yes",
+  "f11": "no",
+  "f12": "yes",
+  "perturbations_tested": [
+   "other"
+  ],
+  "robustness_outcome": "na"
+ },
+ "G": {
+  "notes": "The human dataset was collected in an earlier study, and the authors fit aggregate rather than participant-level models; the paper notes this misses individual differences. The reported structural model comparisons do not establish causal mechanisms.",
+  "extractor": "codex (default)",
+  "date": "2026-10-16",
+  "minutes": 0.5,
+  "sections_read": [
+   "Abstract",
+   "Sections 1–5",
+   "Appendices A–F"
+  ]
+ }
+}

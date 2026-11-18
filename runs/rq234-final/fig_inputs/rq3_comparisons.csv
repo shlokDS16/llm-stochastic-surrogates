@@ -1,0 +1,21 @@
+comparison_basis,comparison_type,coder,weighted_pct,ci_lo_pct,ci_hi_pct,ci_method,k,denominator,passes_agreement,agreement_field,kappa,percent_agreement,rule_basis
+types_any,none,claude,21.701,11.694,31.708,"design-based t, linearised, merged groups",17,80,True,D.types[none],0.662,90.3,kappa>=0.6
+types_any,none,codex,20.784,9.109,32.459,"design-based t, linearised, merged groups",13,81,True,D.types[none],0.662,90.3,kappa>=0.6
+types_any,own_sample,claude,34.99,22.014,47.965,"design-based t, linearised, merged groups",24,80,True,D.types[own_sample],0.898,95.8,kappa>=0.6
+types_any,own_sample,codex,35.696,21.819,49.572,"design-based t, linearised, merged groups",25,81,True,D.types[own_sample],0.898,95.8,kappa>=0.6
+types_any,published_norms,claude,46.019,32.958,59.079,"design-based t, linearised, merged groups",42,80,True,D.types[published_norms],0.68,84.7,kappa>=0.6
+types_any,published_norms,codex,52.736,39.547,65.926,"design-based t, linearised, merged groups",51,81,True,D.types[published_norms],0.68,84.7,kappa>=0.6
+types_any,replication_dataset,claude,0.0,0.0,4.506,exact unweighted Clopper-Pearson (zero-variance estimate),0,80,True,D.types[replication_dataset],,100.0,percent>=0.80
+types_any,replication_dataset,codex,0.0,0.0,4.452,exact unweighted Clopper-Pearson (zero-variance estimate),0,81,True,D.types[replication_dataset],,100.0,percent>=0.80
+types_any,crowd_norms,claude,3.272,0.0,7.558,"design-based t, linearised, merged groups",3,80,True,D.types[crowd_norms],0.652,97.2,percent>=0.80
+types_any,crowd_norms,codex,4.543,0.0,9.748,"design-based t, linearised, merged groups",4,81,True,D.types[crowd_norms],0.652,97.2,percent>=0.80
+primary_type,none,claude,21.701,11.694,31.708,"design-based t, linearised, merged groups",17,80,True,D.primary_type,0.751,84.7,percent>=0.80
+primary_type,none,codex,20.015,8.425,31.604,"design-based t, linearised, merged groups",12,81,True,D.primary_type,0.751,84.7,percent>=0.80
+primary_type,own_sample,claude,32.681,20.018,45.344,"design-based t, linearised, merged groups",23,80,True,D.primary_type,0.751,84.7,percent>=0.80
+primary_type,own_sample,codex,31.227,17.977,44.476,"design-based t, linearised, merged groups",23,81,True,D.primary_type,0.751,84.7,percent>=0.80
+primary_type,published_norms,claude,42.346,28.991,55.7,"design-based t, linearised, merged groups",37,80,True,D.primary_type,0.751,84.7,percent>=0.80
+primary_type,published_norms,codex,46.346,33.183,59.51,"design-based t, linearised, merged groups",44,81,True,D.primary_type,0.751,84.7,percent>=0.80
+primary_type,replication_dataset,claude,0.0,0.0,4.506,exact unweighted Clopper-Pearson (zero-variance estimate),0,80,True,D.primary_type,0.751,84.7,percent>=0.80
+primary_type,replication_dataset,codex,0.0,0.0,4.452,exact unweighted Clopper-Pearson (zero-variance estimate),0,81,True,D.primary_type,0.751,84.7,percent>=0.80
+primary_type,crowd_norms,claude,3.272,0.0,7.558,"design-based t, linearised, merged groups",3,80,True,D.primary_type,0.751,84.7,percent>=0.80
+primary_type,crowd_norms,codex,2.412,0.0,6.562,"design-based t, linearised, merged groups",2,81,True,D.primary_type,0.751,84.7,percent>=0.80

@@ -1,0 +1,26 @@
+{
+  "order": 46,
+  "study_id": "arxiv:2607.21558",
+  "pass": "codex",
+  "brief_version": "1.0",
+  "date": "2026-11-07",
+  "full_text": "research/sources/md/fulltext/046_arxiv_2607.21558.md",
+  "sources_varied": ["M", "W", "X"],
+  "X1": {
+    "value": "partial",
+    "sources_crossed": [],
+    "evidence": "Methods, Studies 1–3: eight models are run; Study 2 varies framing, attribution, and wording, and Study 3 varies coalition ratio and peer distance. These factors are tested in separate studies or experiments, not fully crossed with model."
+  },
+  "X2": {
+    "value": "yes",
+    "x2_types": ["anova_or_mixed_term", "effect_change"],
+    "x2_sources": ["M", "W", "X"],
+    "evidence": "Results, Tables 12–14 and 17: framing and attribution effects are quantified by condition with regression tests; Table 17 reports coalition-ratio and peer-distance effects. Table 1 also quantifies distance effects."
+  },
+  "X3": {
+    "value": "yes",
+    "x3_pairs": ["X x X"],
+    "evidence": "Results, Table 17, Panel B: the regression estimates a supporters-by-peer-distance interaction in Study 3."
+  },
+  "notes": "W includes Study 2 framing, attribution, and wording variants; X includes coalition ratio, peer distance, and cue distance. Temperature 1.0 appears in robustness checks, not as a varied factor on the same items."
+}

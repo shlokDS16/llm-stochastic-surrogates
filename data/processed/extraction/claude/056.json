@@ -1,0 +1,15 @@
+{
+  "order": 56,
+  "study_id": "https://openalex.org/W7140081780",
+  "full_text": {"obtained": true, "source": "research/sources/md/fulltext/056_W7140081780.md (ACL Anthology PDF)"},
+  "eligibility": {"decision": "NO", "failed_criterion": "benchmark-only", "borderline": true, "evidence": "Abstract, Sec 1-3: new Moral Dilemma Dataset built from Reddit r/AITA posts (1,618 dilemmas) with crowd verdict distributions; ten LLMs scored on distributional alignment. No experimental manipulation, no cited cognitive paradigm or lab study (Sec 2.1-3.1). Borderline because it is a moral-judgment task with a human comparison."},
+  "A": {"doi": "10.18653/v1/2026.eacl-long.305", "arxiv_id": null, "title": "The Pluralistic Moral Gap: Understanding Moral Judgment and Value Differences between Humans and Large Language Models", "first_author": "Giuseppe Russo", "year": 2026, "venue": "Proceedings of the 19th Conference of the European Chapter of the ACL (EACL 2026), Long Papers", "peer_reviewed": "yes", "first_author_field": "not_reported", "country": "Switzerland"},
+  "B": {"models": [], "n_models": 0, "n_model_families": 0},
+  "C": {"paradigms": []},
+  "D": {"types": [], "primary_type": "none", "human_n": null, "population": "not_reported", "metric": "not_reported"},
+  "E": {"outcome_types": [], "rows_aggregated": false, "effects": [], "headline": ""},
+  "F": {"f1": "no", "f2": "no", "f3": "no", "f4": "no", "f5": "no", "f6": "no", "f7": "no", "f8": "no",
+        "f9": "no", "f10": "no", "f11": "no", "f12": "no", "perturbations_tested": [],
+        "robustness_outcome": "na"},
+  "G": {"notes": "Benchmark plus steering method on Reddit advice posts; human side is crowd_norms, not a cognitive experiment. A referee could argue moral judgment with human distributions qualifies; coded NO under the E2 provenance test (no paradigm cited). Sections 4.2-6 and appendices only skimmed by headings.", "extractor": "paper-reader (claude-sonnet)", "date": "2026-10-16", "minutes": 5, "sections_read": ["abstract", "1 Introduction", "2 Moral Dilemma Dataset", "3 RQ1 (task, elicitation, results)", "4.2 results", "keyword grep for paradigm provenance"]}
+}

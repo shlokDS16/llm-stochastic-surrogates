@@ -1,0 +1,125 @@
+W1016 14:31:46.320000 9264 Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+olmo2-1b-instruct P1: 0 planned, 0 done, 0 to do
+olmo2-1b-instruct P2a: 40 planned, 0 done, 40 to do
+olmo2-1b-instruct P2b: 7 planned, 0 done, 7 to do
+olmo2-1b-instruct P2c: 42 planned, 0 done, 42 to do
+olmo2-1b-instruct P2d: 24 planned, 0 done, 24 to do
+olmo2-1b-instruct P3: 9 planned, 0 done, 9 to do
+olmo2-1b-instruct P4: 65 planned, 0 done, 65 to do
+Loading weights:   0%|          | 0/179 [00:00<?, ?it/s]Loading weights:   1%|          | 1/179 [00:00<01:17,  2.31it/s]Loading weights:   6%|5         | 10/179 [00:00<00:07, 21.18it/s]Loading weights:   8%|7         | 14/179 [00:00<00:07, 21.40it/s]Loading weights:  11%|#1        | 20/179 [00:01<00:07, 21.46it/s]Loading weights:  13%|#2        | 23/179 [00:01<00:06, 22.92it/s]Loading weights:  15%|#5        | 27/179 [00:01<00:05, 26.26it/s]Loading weights:  17%|#7        | 31/179 [00:01<00:05, 29.39it/s]Loading weights:  20%|#9        | 35/179 [00:01<00:05, 25.26it/s]Loading weights:  23%|##3       | 42/179 [00:01<00:05, 26.12it/s]Loading weights:  25%|##5       | 45/179 [00:01<00:05, 26.46it/s]Loading weights:  30%|###       | 54/179 [00:02<00:04, 26.29it/s]Loading weights:  35%|###4      | 62/179 [00:02<00:03, 34.59it/s]Loading weights:  37%|###7      | 67/179 [00:02<00:03, 29.80it/s]Loading weights:  42%|####1     | 75/179 [00:02<00:02, 34.91it/s]Loading weights:  44%|####4     | 79/179 [00:02<00:03, 32.37it/s]Loading weights:  46%|####6     | 83/179 [00:03<00:02, 33.66it/s]Loading weights:  49%|####8     | 87/179 [00:03<00:03, 30.43it/s]Loading weights:  51%|#####     | 91/179 [00:03<00:02, 32.16it/s]Loading weights:  54%|#####4    | 97/179 [00:03<00:02, 30.24it/s]Loading weights:  57%|#####6    | 102/179 [00:03<00:02, 34.17it/s]Loading weights:  60%|######    | 108/179 [00:03<00:01, 37.22it/s]Loading weights:  63%|######2   | 112/179 [00:03<00:02, 30.85it/s]Loading weights:  66%|######6   | 119/179 [00:04<00:01, 34.85it/s]Loading weights:  69%|######8   | 123/179 [00:04<00:01, 29.87it/s]Loading weights:  72%|#######2  | 129/179 [00:04<00:01, 29.68it/s]Loading weights:  74%|#######4  | 133/179 [00:04<00:01, 25.51it/s]Loading weights:  78%|#######7  | 139/179 [00:04<00:01, 30.82it/s]Loading weights:  80%|#######9  | 143/179 [00:05<00:01, 28.99it/s]Loading weights:  82%|########2 | 147/179 [00:05<00:01, 30.27it/s]Loading weights:  85%|########5 | 153/179 [00:05<00:00, 28.11it/s]Loading weights:  88%|########7 | 157/179 [00:05<00:00, 29.25it/s]Loading weights:  91%|#########1| 163/179 [00:05<00:00, 35.47it/s]Loading weights:  93%|#########3| 167/179 [00:05<00:00, 31.34it/s]Loading weights: 100%|##########| 179/179 [00:05<00:00, 30.55it/s]
+Traceback (most recent call last):
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\analysis\pilot\run_pilot.py", line 198, in generate_safe
+    return generate_batch(model, tok, rendered, seeds, temps, mnt, eos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\analysis\pilot\run_pilot.py", line 175, in generate_batch
+    out = model.generate(**enc, generation_config=gc, logits_processor=proc)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\torch\utils\_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\transformers\generation\utils.py", line 2989, in generate
+    result = decoding_method(
+             ^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\transformers\generation\utils.py", line 3217, in _sample
+    outputs = model_forward(**model_inputs, return_dict=True)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\transformers\utils\generic.py", line 943, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\transformers\models\olmo2\modeling_olmo2.py", line 458, in forward
+    outputs: BaseModelOutputWithPast = self.model(
+                                       ^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\transformers\utils\generic.py", line 1081, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\transformers\utils\output_capturing.py", line 287, in wrapper
+    outputs = func(self, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\transformers\models\olmo2\modeling_olmo2.py", line 394, in forward
+    hidden_states = decoder_layer(
+                    ^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\transformers\modeling_layers.py", line 111, in __call__
+    return super().__call__(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\transformers\models\olmo2\modeling_olmo2.py", line 298, in forward
+    hidden_states, _ = self.self_attn(
+                       ^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\transformers\models\olmo2\modeling_olmo2.py", line 239, in forward
+    key_states, value_states = past_key_values.update(key_states, value_states, self.layer_idx)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\transformers\cache_utils.py", line 1423, in update
+    keys, values = self.layers[layer_idx].update(key_states, value_states, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\transformers\cache_utils.py", line 135, in update
+    self.keys = torch.cat([self.keys, key_states], dim=-2)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.AcceleratorError: CUDA error: out of memory
+Search for `cudaErrorMemoryAllocation' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\analysis\pilot\run_pilot.py", line 350, in <module>
+    main()
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\analysis\pilot\run_pilot.py", line 323, in main
+    texts, ntoks, fin, dt, plen = generate_safe(model, tok, [pr["rendered"] for pr in prs], [it["seed"] for it in batch],
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\analysis\pilot\run_pilot.py", line 202, in generate_safe
+    torch.cuda.empty_cache()
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\torch\cuda\memory.py", line 224, in empty_cache
+    torch._C._cuda_emptyCache()
+torch.AcceleratorError: CUDA error: out of memory
+Search for `cudaErrorMemoryAllocation' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+W1016 15:16:36.080000 40800 Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+olmo2-1b-instruct P1: 0 planned, 0 done, 0 to do
+olmo2-1b-instruct P2a: 40 planned, 0 done, 40 to do
+olmo2-1b-instruct P2b: 7 planned, 0 done, 7 to do
+olmo2-1b-instruct P2c: 42 planned, 0 done, 42 to do
+olmo2-1b-instruct P2d: 24 planned, 0 done, 24 to do
+olmo2-1b-instruct P3: 9 planned, 0 done, 9 to do
+olmo2-1b-instruct P4: 65 planned, 0 done, 65 to do
+Loading weights:   0%|          | 0/179 [00:00<?, ?it/s]Loading weights:   5%|5         | 9/179 [00:00<00:02, 74.51it/s]Loading weights:  12%|#2        | 22/179 [00:00<00:01, 102.39it/s]Loading weights:  18%|#8        | 33/179 [00:00<00:01, 77.95it/s] Loading weights:  25%|##4       | 44/179 [00:00<00:01, 77.95it/s]Loading weights:  31%|###       | 55/179 [00:00<00:01, 85.90it/s]Loading weights:  36%|###6      | 65/179 [00:00<00:01, 69.98it/s]Loading weights:  42%|####1     | 75/179 [00:00<00:01, 71.25it/s]Loading weights:  49%|####8     | 87/179 [00:01<00:01, 74.65it/s]Loading weights:  54%|#####4    | 97/179 [00:01<00:01, 79.64it/s]Loading weights:  61%|######    | 109/179 [00:01<00:00, 88.77it/s]Loading weights:  66%|######6   | 119/179 [00:01<00:00, 70.57it/s]Loading weights:  73%|#######2  | 130/179 [00:01<00:00, 77.15it/s]Loading weights:  78%|#######7  | 139/179 [00:01<00:00, 54.18it/s]Loading weights:  82%|########1 | 146/179 [00:02<00:00, 51.78it/s]Loading weights:  86%|########6 | 154/179 [00:02<00:00, 52.97it/s]Loading weights:  92%|#########1| 164/179 [00:02<00:00, 60.59it/s]Loading weights: 100%|##########| 179/179 [00:02<00:00, 72.41it/s]
+P2a batch 1/4 F=F1 rows=10 10.7s 250 tok/s peak 3.55 GiB elapsed 11s
+P2a batch 4/4 F=F1 rows=10 10.5s 224 tok/s peak 3.58 GiB elapsed 38s
+P2b batch 1/1 F=F1 rows=7 7.2s 173 tok/s peak 3.16 GiB elapsed 7s
+P2c batch 1/5 F=F1 rows=10 11.0s 224 tok/s peak 3.57 GiB elapsed 11s
+P2c batch 5/5 F=F1 rows=2 3.1s 82 tok/s peak 2.84 GiB elapsed 41s
+P2d batch 1/3 F=F1 rows=10 7.0s 274 tok/s peak 3.38 GiB elapsed 7s
+P2d batch 3/3 F=F1 rows=4 9.4s 115 tok/s peak 3.08 GiB elapsed 27s
+P3 batch 1/1 F=F1 rows=9 6.9s 211 tok/s peak 3.24 GiB elapsed 7s
+P4 batch 1/7 F=F1 rows=10 11.6s 221 tok/s peak 3.56 GiB elapsed 12s
+P4 batch 6/7 F=F1 rows=10 11.7s 203 tok/s peak 3.57 GiB elapsed 63s
+P4 batch 7/7 F=F1 rows=5 12.0s 122 tok/s peak 3.17 GiB elapsed 75s
+done

@@ -1,0 +1,12 @@
+paradigm: AF
+wording: W9
+response_type: yesno
+conditions:
+  x1: So, should the U.S. forbid public talks against democracy, do you reckon?
+  x0: So, should the U.S. allow public talks against democracy, do you reckon?
+condition_names:
+  x1: forbid question
+  x0: allow question
+options:
+- 'Yes'
+- 'No'

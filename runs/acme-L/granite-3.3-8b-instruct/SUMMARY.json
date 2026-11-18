@@ -1,0 +1,67 @@
+{
+ "model": "granite-3.3-8b-instruct",
+ "dir": "runs/acme-L/granite-3.3-8b-instruct",
+ "recorded": "2026-11-07T09:17:14+05:45",
+ "files": [
+  {
+   "file": "AF.jsonl",
+   "rows": 48,
+   "bytes": 143508,
+   "sha256": "842fd772375b7427507772bea1e90bf88f1aa6e0f874c132c329c073e83e43bc"
+  },
+  {
+   "file": "NR.jsonl",
+   "rows": 48,
+   "bytes": 271412,
+   "sha256": "0ac1478b53f95c4b9c168a2908632057b0452306fbffee972ae6a4ca7f301b92"
+  },
+  {
+   "file": "P1.jsonl",
+   "rows": 48,
+   "bytes": 204926,
+   "sha256": "c8ba394d42ed8966c631bc76db44c1ec0fb342a627f2b477dca055b199fe73bf"
+  },
+  {
+   "file": "P2a.jsonl",
+   "rows": 34,
+   "bytes": 11861731,
+   "sha256": "12bc14a3fab7827b7668410b4080acf4ee4d5fe044040d8804b9940313e4d8ee"
+  },
+  {
+   "file": "P2b.jsonl",
+   "rows": 34,
+   "bytes": 18950639,
+   "sha256": "3bfd5b7bb3678b8ea6653ed5e9dfacaa7f1a1f901b7b1c2e3c5dfa080a759e81"
+  },
+  {
+   "file": "P2c.jsonl",
+   "rows": 34,
+   "bytes": 11276362,
+   "sha256": "8fc7067e3c0bd203d52b9f7dd182a4a231338d61493215ac008251e8f55d1c69"
+  },
+  {
+   "file": "P2d.jsonl",
+   "rows": 34,
+   "bytes": 13712284,
+   "sha256": "c65cb6472bed4e5d225569b5f6c27d237f38601aef11f85da3df11df61e67a3a"
+  },
+  {
+   "file": "P3.jsonl",
+   "rows": 48,
+   "bytes": 287074,
+   "sha256": "43580b3649ff610a5d3761795a65c79e30707e67a98e6c428b9449560ea12c3b"
+  },
+  {
+   "file": "P4.jsonl",
+   "rows": 24,
+   "bytes": 561006,
+   "sha256": "23da4383faed668410e269c7d6790b0d2402c04abfd4c8e1552bf2f49d1a166d"
+  },
+  {
+   "file": "QA.jsonl",
+   "rows": 48,
+   "bytes": 286854,
+   "sha256": "bb960c1b3e3f2e3cf16dc9b535db35f3f2514619e2fb59f28bbd43d98db6ff6a"
+  }
+ ]
+}

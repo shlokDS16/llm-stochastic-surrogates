@@ -1,0 +1,32 @@
+{
+ "order": 32,
+ "study_id": "https://openalex.org/W7170951503",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/032_W7170951503.md",
+ "sources_varied": [
+  "M"
+ ],
+ "X1": {
+  "value": "no",
+  "sources_crossed": [],
+  "evidence": "Sec 3-4: six open-weight models (three architectures, each base and instruct) with fixed benchmark prompts; the base-versus-RLHF contrast is a model-stage factor; no wording, order or sampling variation."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "M"
+  ],
+  "evidence": "Sec 4 (E2 RLHF attribution): bias scores of base and instruct versions compared and the change attributed to RLHF; no variance share."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": ""
+ },
+ "notes": ""
+}

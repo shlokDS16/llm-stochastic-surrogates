@@ -1,0 +1,5 @@
+pass_a,pass_b,field,n_common,percent_agreement,kappa
+claude,codex,X1,79,63.3,0.455
+claude,codex,X1_crossed_yes_vs_other,79,82.3,0.445
+claude,codex,X2,79,73.4,0.416
+claude,codex,X3,79,89.9,0.545

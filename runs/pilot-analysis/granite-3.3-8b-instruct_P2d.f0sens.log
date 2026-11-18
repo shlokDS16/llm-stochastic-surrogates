@@ -1,0 +1,3 @@
+granite-3.3-8b-instruct P2d: sampled=1600 validity=0.940 by_format={'F0': 0.97375, 'F1': 0.90625}
+  primary [standardised]: cells 16/16 dbar=0.364 S=0.526 CI95=[0.095, 0.7] shares_reportable=True sign_stab=0.38
+  sens_raw [standardised]: cells 16/16 dbar=0.128 S=0.000 CI95=[0.0, 0.338] shares_reportable=False sign_stab=0.19

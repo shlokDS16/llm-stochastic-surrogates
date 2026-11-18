@@ -1,0 +1,28 @@
+{
+ "order": 95,
+ "study_id": "https://openalex.org/W4414907014",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/095_W4414907014.md",
+ "sources_varied": [
+  "M"
+ ],
+ "X1": {
+  "value": "no",
+  "sources_crossed": [],
+  "evidence": "Data Sources (p.6): GPT-3.5-turbo, GPT-4-turbo and GPT-4o each give 100 responses per sentence pair at temperature 1; context (fitting vs unfitting) is the manipulated condition."
+ },
+ "X2": {
+  "value": "no",
+  "x2_types": [],
+  "x2_sources": [],
+  "evidence": "GLMM slopes (JOL on memory) are reported per model against the human slope; no attribution of differences to model version."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": ""
+ },
+ "notes": ""
+}

@@ -1,0 +1,545 @@
+{
+ "denominators": {
+  "A": 2022,
+  "B": 992,
+  "S": 1470
+ },
+ "flag_counts_in_frame": {
+  "unclear": 759,
+  "yes": 992,
+  "no": 271
+ },
+ "T-RQ1a": {
+  "LANG Language and psycholinguistics": {
+   "A": 361,
+   "B": 211,
+   "S": 257
+  },
+  "JDM Judgement and decision making": {
+   "A": 343,
+   "B": 219,
+   "S": 285
+  },
+  "TOM Theory of mind and social cognition": {
+   "A": 214,
+   "B": 118,
+   "S": 177
+  },
+  "OTH Other": {
+   "A": 209,
+   "B": 106,
+   "S": 158
+  },
+  "RE Reasoning": {
+   "A": 191,
+   "B": 94,
+   "S": 156
+  },
+  "HB Heuristics and biases": {
+   "A": 182,
+   "B": 110,
+   "S": 154
+  },
+  "MOR Moral judgement": {
+   "A": 180,
+   "B": 96,
+   "S": 138
+  },
+  "LEARN Learning and categorisation": {
+   "A": 72,
+   "B": 49,
+   "S": 60
+  },
+  "MEM Memory and attention": {
+   "A": 70,
+   "B": 53,
+   "S": 62
+  },
+  "DEV Developmental tasks": {
+   "A": 22,
+   "B": 10,
+   "S": 15
+  },
+  "NUM Numerical cognition": {
+   "A": 10,
+   "B": 8,
+   "S": 9
+  },
+  "None named": {
+   "A": 273,
+   "B": 1,
+   "S": 97
+  }
+ },
+ "T-RQ1b_n_models_stated": {
+  "n stated": {
+   "A": 756,
+   "B": 496,
+   "S": 667
+  },
+  "% of N stated": {
+   "A": 37.4,
+   "B": 50.0,
+   "S": 45.4
+  },
+  "median": {
+   "A": 4.0,
+   "B": 4.0,
+   "S": 4
+  },
+  "Q1": {
+   "A": 2.0,
+   "B": 2.0,
+   "S": 2.0
+  },
+  "Q3": {
+   "A": 8.0,
+   "B": 7.0,
+   "S": 8.0
+  },
+  "max": {
+   "A": 111,
+   "B": 111,
+   "S": 111
+  }
+ },
+ "T-RQ1b": {
+  "GPT": {
+   "A": 677,
+   "B": 453,
+   "S": 575
+  },
+  "Claude": {
+   "A": 142,
+   "B": 100,
+   "S": 133
+  },
+  "Gemini": {
+   "A": 141,
+   "B": 93,
+   "S": 128
+  },
+  "Llama": {
+   "A": 137,
+   "B": 88,
+   "S": 123
+  },
+  "Mistral": {
+   "A": 35,
+   "B": 25,
+   "S": 31
+  },
+  "Qwen": {
+   "A": 80,
+   "B": 43,
+   "S": 71
+  },
+  "OLMo": {
+   "A": 4,
+   "B": 3,
+   "S": 4
+  },
+  "other": {
+   "A": 245,
+   "B": 161,
+   "S": 220
+  },
+  "None named": {
+   "A": 1189,
+   "B": 460,
+   "S": 760
+  }
+ },
+ "T-RQ1c": {
+  "Language: English (incl. varieties)": {
+   "A": 93,
+   "B": 62,
+   "S": 78
+  },
+  "Language: Chinese (incl. Mandarin, Cantonese)": {
+   "A": 36,
+   "B": 22,
+   "S": 29
+  },
+  "Language: other named": {
+   "A": 103,
+   "B": 68,
+   "S": 82
+  },
+  "Language: not stated": {
+   "A": 1856,
+   "B": 887,
+   "S": 1336
+  },
+  "Modality: text": {
+   "A": 1284,
+   "B": 737,
+   "S": 1062
+  },
+  "Modality: image+text": {
+   "A": 124,
+   "B": 84,
+   "S": 106
+  },
+  "Modality: not stated": {
+   "A": 614,
+   "B": 171,
+   "S": 302
+  },
+  "Human comparison: yes": {
+   "A": 816,
+   "B": 571,
+   "S": 668
+  },
+  "Human comparison: no": {
+   "A": 5,
+   "B": 2,
+   "S": 4
+  },
+  "Human comparison: not stated": {
+   "A": 1201,
+   "B": 419,
+   "S": 798
+  },
+  "RQ1 codable (paradigm family and model named)": {
+   "A": 775,
+   "B": 531,
+   "S": 676
+  }
+ },
+ "languages_named_view_A_top": [
+  [
+   "English",
+   92
+  ],
+  [
+   "Chinese",
+   32
+  ],
+  [
+   "Spanish",
+   20
+  ],
+  [
+   "Korean",
+   18
+  ],
+  [
+   "German",
+   13
+  ],
+  [
+   "Japanese",
+   12
+  ],
+  [
+   "Russian",
+   9
+  ],
+  [
+   "Italian",
+   8
+  ],
+  [
+   "Dutch",
+   6
+  ],
+  [
+   "Hindi",
+   6
+  ],
+  [
+   "French",
+   6
+  ],
+  [
+   "Arabic",
+   6
+  ],
+  [
+   "Portuguese",
+   4
+  ],
+  [
+   "Turkish",
+   4
+  ],
+  [
+   "Swahili",
+   3
+  ]
+ ],
+ "T-RQ1d_totals_by_period": {
+  "A": {
+   "2018-2023": 190,
+   "2024": 302,
+   "2025-2026": 1530
+  },
+  "B": {
+   "2018-2023": 102,
+   "2024": 167,
+   "2025-2026": 723
+  },
+  "S": {
+   "2018-2023": 139,
+   "2024": 213,
+   "2025-2026": 1118
+  }
+ },
+ "T-RQ1d_totals_by_year": {
+  "A": {
+   "2018": 1,
+   "2019": 2,
+   "2020": 5,
+   "2021": 9,
+   "2022": 26,
+   "2023": 147,
+   "2024": 302,
+   "2025": 613,
+   "2026": 917
+  },
+  "B": {
+   "2020": 1,
+   "2021": 2,
+   "2022": 16,
+   "2023": 83,
+   "2024": 167,
+   "2025": 318,
+   "2026": 405
+  },
+  "S": {
+   "2020": 2,
+   "2021": 5,
+   "2022": 21,
+   "2023": 111,
+   "2024": 213,
+   "2025": 437,
+   "2026": 681
+  }
+ },
+ "T-RQ1e": {
+  "distinct_names_A": 1761,
+  "names_once_A": 1645,
+  "top25": [
+   {
+    "name": "ultimatum game",
+    "family": "JDM",
+    "A": 20,
+    "B": 16,
+    "S": 18
+   },
+   {
+    "name": "anchoring",
+    "family": "HB",
+    "A": 17,
+    "B": 12,
+    "S": 16
+   },
+   {
+    "name": "theory of mind",
+    "family": "TOM",
+    "A": 16,
+    "B": 3,
+    "S": 6
+   },
+   {
+    "name": "dictator game",
+    "family": "JDM",
+    "A": 13,
+    "B": 11,
+    "S": 12
+   },
+   {
+    "name": "prisoners dilemma",
+    "family": "JDM",
+    "A": 12,
+    "B": 7,
+    "S": 9
+   },
+   {
+    "name": "syllogistic reasoning",
+    "family": "RE",
+    "A": 10,
+    "B": 6,
+    "S": 10
+   },
+   {
+    "name": "public goods game",
+    "family": "JDM",
+    "A": 9,
+    "B": 8,
+    "S": 9
+   },
+   {
+    "name": "framing effect",
+    "family": "HB",
+    "A": 8,
+    "B": 6,
+    "S": 8
+   },
+   {
+    "name": "iterated prisoners dilemma",
+    "family": "JDM",
+    "A": 8,
+    "B": 6,
+    "S": 8
+   },
+   {
+    "name": "framing",
+    "family": "HB",
+    "A": 7,
+    "B": 7,
+    "S": 7
+   },
+   {
+    "name": "structural priming",
+    "family": "LANG",
+    "A": 7,
+    "B": 3,
+    "S": 3
+   },
+   {
+    "name": "analogical reasoning",
+    "family": "RE",
+    "A": 6,
+    "B": 0,
+    "S": 3
+   },
+   {
+    "name": "confirmation bias",
+    "family": "HB",
+    "A": 6,
+    "B": 4,
+    "S": 5
+   },
+   {
+    "name": "repeated prisoners dilemma",
+    "family": "JDM",
+    "A": 6,
+    "B": 5,
+    "S": 6
+   },
+   {
+    "name": "trust game",
+    "family": "JDM",
+    "A": 6,
+    "B": 5,
+    "S": 6
+   },
+   {
+    "name": "anchoring effect",
+    "family": "HB",
+    "A": 5,
+    "B": 4,
+    "S": 5
+   },
+   {
+    "name": "cognitive reflection test",
+    "family": "HB 3; RE 2",
+    "A": 5,
+    "B": 3,
+    "S": 5
+   },
+   {
+    "name": "conversational implicature",
+    "family": "LANG",
+    "A": 5,
+    "B": 0,
+    "S": 1
+   },
+   {
+    "name": "false belief task",
+    "family": "TOM",
+    "A": 5,
+    "B": 5,
+    "S": 5
+   },
+   {
+    "name": "garden path sentences",
+    "family": "LANG",
+    "A": 5,
+    "B": 3,
+    "S": 3
+   },
+   {
+    "name": "trolley problem",
+    "family": "MOR",
+    "A": 5,
+    "B": 5,
+    "S": 4
+   },
+   {
+    "name": "anchoring bias",
+    "family": "HB",
+    "A": 4,
+    "B": 3,
+    "S": 3
+   },
+   {
+    "name": "cognitive biases",
+    "family": "HB",
+    "A": 4,
+    "B": 2,
+    "S": 2
+   },
+   {
+    "name": "halo effect",
+    "family": "HB",
+    "A": 4,
+    "B": 2,
+    "S": 4
+   },
+   {
+    "name": "moral judgment",
+    "family": "MOR",
+    "A": 4,
+    "B": 1,
+    "S": 2
+   }
+  ]
+ },
+ "first_family_counts": {
+  "A": {
+   "LANG": 348,
+   "none": 273,
+   "RE": 178,
+   "JDM": 322,
+   "LEARN": 64,
+   "TOM": 207,
+   "MOR": 172,
+   "HB": 177,
+   "OTH": 190,
+   "MEM": 62,
+   "DEV": 21,
+   "NUM": 8
+  },
+  "B": {
+   "RE": 84,
+   "JDM": 203,
+   "LANG": 202,
+   "LEARN": 43,
+   "OTH": 90,
+   "TOM": 112,
+   "MOR": 91,
+   "MEM": 46,
+   "HB": 105,
+   "NUM": 6,
+   "DEV": 9,
+   "none": 1
+  },
+  "S": {
+   "LANG": 245,
+   "none": 97,
+   "RE": 144,
+   "JDM": 264,
+   "LEARN": 52,
+   "TOM": 170,
+   "MOR": 133,
+   "HB": 149,
+   "OTH": 141,
+   "MEM": 54,
+   "DEV": 14,
+   "NUM": 7
+  }
+ }
+}

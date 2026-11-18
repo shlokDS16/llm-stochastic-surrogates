@@ -1,0 +1,20 @@
+{
+ "model": "olmo2-7b-instruct",
+ "repo": "allenai/OLMo-2-1124-7B-Instruct",
+ "revision": "470b1fba1ae01581f270116362ee4aa1b97f4c84",
+ "stage": "S3",
+ "batch_size": 6,
+ "eos_ids": [
+  100257,
+  100265
+ ],
+ "torch": "2.11.0+cu128",
+ "transformers": "5.20.0",
+ "git_sha": "c46b5d3de9c80b0f265e66e1f19f6d3336b20ce2",
+ "F": "F0",
+ "temps": [
+  0.7,
+  1.0
+ ],
+ "n": 50
+}

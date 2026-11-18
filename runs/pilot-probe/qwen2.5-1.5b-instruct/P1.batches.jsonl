@@ -1,0 +1,4 @@
+{"paradigm": "P1", "F": "F0", "batch": 0, "rows": 100, "seconds": 1.738, "new_tokens": 108, "padded_prompt_len": 141, "peak_vram_gib": 4.136}
+{"paradigm": "P1", "F": "F0", "batch": 1, "rows": 100, "seconds": 1.338, "new_tokens": 109, "padded_prompt_len": 144, "peak_vram_gib": 4.162}
+{"paradigm": "P1", "F": "F1", "batch": 2, "rows": 100, "seconds": 11.884, "new_tokens": 5092, "padded_prompt_len": 161, "peak_vram_gib": 4.316}
+{"paradigm": "P1", "F": "F1", "batch": 3, "rows": 100, "seconds": 12.092, "new_tokens": 5308, "padded_prompt_len": 164, "peak_vram_gib": 4.339}

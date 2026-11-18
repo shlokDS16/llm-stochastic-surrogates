@@ -1,0 +1,24 @@
+{
+ "model": "mistral-7b-instruct-v0.3",
+ "repo": "mistralai/Mistral-7B-Instruct-v0.3",
+ "revision": "c170c708c41dac9275d15a8fff4eca08d52bab71",
+ "quant": "nf4_saved",
+ "torch": "2.11.0+cu128",
+ "transformers": "5.20.0",
+ "gpu": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+ "load_seconds": 13.2,
+ "git_sha": "5357bad2a5866627027af534b3c1a737bc91d53f",
+ "manifest_sha256": "07f72271a531dc3cd26fc84194c9326cbbde30a2a532f98cbd99cd6a96014187",
+ "temps": [
+  0.3,
+  0.7,
+  1.0,
+  1.5
+ ],
+ "end_of_turn_id": 2,
+ "started": "2026-11-07T08:13:49",
+ "ram_after_load": {
+  "avail_phys_gb": 4.26,
+  "avail_commit_gb": 9.98
+ }
+}

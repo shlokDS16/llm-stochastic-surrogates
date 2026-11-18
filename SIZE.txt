@@ -1,0 +1,134 @@
+files 3710, total 3773.2 MB
+skipped by rule 2536
+abstract field removed in 31 files
+refused (secret pattern) 0: []
+  runs/acme-L: 3000.5 MB
+  runs/acme-tree-calib: 267.8 MB
+  runs/acme-L-precision: 128.6 MB
+  runs/acme-S-gstudy: 88.5 MB
+  runs/pilot: 82.4 MB
+  data/processed: 71.4 MB
+  runs/acme-S1: 45.2 MB
+  runs/acme-S: 36.6 MB
+  runs/acme-S2: 16.1 MB
+  paper/acme: 5.7 MB
+  runs/pilot-probe: 3.4 MB
+  runs/rq1-semantic-map: 3.4 MB
+  runs/pilot-rule-calibration: 3.1 MB
+  runs/acme-gstudy: 3.0 MB
+  runs/pilot-stage-test: 2.3 MB
+  runs/rq234-final: 2.2 MB
+  runs/rq234-interim: 2.1 MB
+  runs/acme-L-plumbing: 1.6 MB
+  runs/extraction-pilot: 1.1 MB
+  runs/pilot-side-by-side: 1.0 MB
+  analysis/acme: 1.0 MB
+  runs/acme-G1: 0.9 MB
+  runs/pilot-sim2: 0.7 MB
+  runs/acme-smoke: 0.6 MB
+  runs/pilot-analysis: 0.5 MB
+  runs/acme-G1b: 0.3 MB
+  runs/acme-equivalence: 0.3 MB
+  analysis/pilot: 0.3 MB
+  runs/pilot-smoke: 0.3 MB
+  analysis/fulltext: 0.2 MB
+  research/protocol: 0.1 MB
+  runs/rq1-cocitation: 0.1 MB
+  runs/human-ml1: 0.1 MB
+  tools/vale: 0.1 MB
+  runs/pilot-full: 0.1 MB
+  runs/human-ml1-acme: 0.1 MB
+  runs/crossing: 0.1 MB
+  analysis/rq1: 0.1 MB
+  runs/pilot-validity: 0.1 MB
+  runs/screen-local: 0.1 MB
+  runs/pilot-sim: 0.1 MB
+  analysis/paper_numbers.py: 0.1 MB
+  analysis/human_ml1: 0.1 MB
+  runs/rq1-fig1-prisma: 0.1 MB
+  runs/rq1-semantic-map-smoke: 0.1 MB
+  analysis/fig14_framework.py: 0.1 MB
+  runs/acme-wordings: 0.0 MB
+  research/relaunch: 0.0 MB
+  tools/prose_check.py: 0.0 MB
+  runs/pilot-topup: 0.0 MB
+  analysis/search: 0.0 MB
+  analysis/screening: 0.0 MB
+  runs/rq1-tables: 0.0 MB
+  runs/pilot-rule-calibration-smoke: 0.0 MB
+  runs/rq1-fig2-years: 0.0 MB
+  runs/rq1-fig5-heatmap: 0.0 MB
+  runs/fig14: 0.0 MB
+  runs/pilot-placement-sensitivity: 0.0 MB
+  analysis/ml1_verify: 0.0 MB
+  runs/referrals-final: 0.0 MB
+  runs/extraction-log: 0.0 MB
+  runs/fulltext-fetch: 0.0 MB
+  runs/rq234-design-diagnostics: 0.0 MB
+  runs/egateway-shortlist: 0.0 MB
+  research/ledgers: 0.0 MB
+  tools/package_acme.py: 0.0 MB
+  tools/ai_use_locations.py: 0.0 MB
+  tools/debate.py: 0.0 MB
+  runs/pilot-nd-split: 0.0 MB
+  runs/search-S2.log: 0.0 MB
+  runs/ml1-verify: 0.0 MB
+  runs/fig6-10: 0.0 MB
+  runs/included-studies: 0.0 MB
+  tools/fetch_model.py: 0.0 MB
+  runs/pilot-placement-sensitivity-smoke: 0.0 MB
+  tools/run_crossing_codex.py: 0.0 MB
+  runs/fulltext-pilot: 0.0 MB
+  tools/codex_extract.py: 0.0 MB
+  tools/build_release.py: 0.0 MB
+  tools/build_release_acme.py: 0.0 MB
+  tools/ledger.py: 0.0 MB
+  tools/quantize_model.py: 0.0 MB
+  tools/package_acme_hygiene.ps1: 0.0 MB
+  tools/render_checks.py: 0.0 MB
+  tools/manifest.py: 0.0 MB
+  runs/env: 0.0 MB
+  runs/search-S1.log: 0.0 MB
+  runs/known-item-recall-v07: 0.0 MB
+  tools/model_queue.sh: 0.0 MB
+  tools/model_queue2.sh: 0.0 MB
+  runs/pilot-figs-11-13: 0.0 MB
+  tools/model_queue3.sh: 0.0 MB
+  tools/prose_terms.txt: 0.0 MB
+  tools/model_queue4.sh: 0.0 MB
+  tools/prose_ai_exempt.txt: 0.0 MB
+  runs/codex-topic-r02.log: 0.0 MB
+  runs/search-S1-arxiv.log: 0.0 MB
+  runs/search-S2-arxiv.log: 0.0 MB
+stripped:
+research\ledgers\claims.jsonl
+data\processed\records.jsonl
+data\processed\fulltext-pilot\judgements-5.jsonl
+data\processed\rq1\rq1-batch-01.jsonl
+data\processed\rq1\rq1-batch-02.jsonl
+data\processed\rq1\rq1-batch-03.jsonl
+data\processed\rq1\rq1-batch-04.jsonl
+data\processed\rq1\rq1-batch-05.jsonl
+data\processed\rq1\rq1-batch-06.jsonl
+data\processed\rq1\rq1-batch-07.jsonl
+data\processed\rq1\rq1-batch-08.jsonl
+data\processed\rq1\rq1-batch-09.jsonl
+data\processed\rq1\rq1-batch-10.jsonl
+data\processed\rq1\rq1-batch-11.jsonl
+data\processed\rq1\rq1-batch-12.jsonl
+data\processed\rq1\rq1-batch-13.jsonl
+data\processed\rq1\rq1-batch-14.jsonl
+data\processed\rq1\rq1-batch-15.jsonl
+data\processed\rq1\rq1-batch-16.jsonl
+data\processed\rq1\rq1-batch-17.jsonl
+data\processed\rq1\rq1-batch-18.jsonl
+data\processed\rq1\rq1-batch-19.jsonl
+data\processed\rq1\rq1-batch-20.jsonl
+data\processed\rq1\rq1-batch-21.jsonl
+data\processed\screen\abstract-batch-32.claude.jsonl
+data\processed\screen\abstract-decisions-v08.jsonl
+data\processed\screen\abstract-decisions.jsonl
+data\processed\screen\fulltext-input.jsonl
+data\processed\screen\stage2-input.jsonl
+runs\acme-S\olmo2-7b-instruct\QA.S2new.jsonl
+runs\acme-S\qwen2.5-14b-instruct\QA.S2new.jsonl

@@ -1,0 +1,52 @@
+field,level,n,percent_agreement,kappa,claude_counts,codex_counts,rule_basis,passes_v012_rule,matched_keys_note
+eligibility.decision,all pairs (raw coder decisions),102,82.4,0.568,no=28; unclear=2; yes=72,no=27; yes=75,percent>=0.80,True,
+A.peer_reviewed,all pairs (not used for analysis in v1.1),102,75.5,0.524,preprint=50; yes=52,not_reported=3; preprint=53; yes=46,percent>=0.80,False,
+D.primary_type,yes-both,65,83.1,0.715,crowd_norms=3; none=11; own_sample=17; published_norms=34,crowd_norms=1; none=7; own_sample=18; published_norms=39,percent>=0.80,True,
+D.types[none],yes-both (binary per study),65,89.2,0.57,False=54; True=11,False=57; True=8,kappa>=0.6,False,
+D.types[own_sample],yes-both (binary per study),65,95.4,0.887,False=47; True=18,False=46; True=19,kappa>=0.6,True,
+D.types[published_norms],yes-both (binary per study),65,83.1,0.631,False=26; True=39,False=19; True=46,kappa>=0.6,True,
+D.types[replication_dataset],yes-both (binary per study),65,100.0,,False=65,False=65,percent>=0.80,True,
+D.types[crowd_norms],yes-both (binary per study),65,96.9,0.651,False=62; True=3,False=62; True=3,percent>=0.80,True,
+D.human_n_reported,yes-both (binary per study),65,100.0,1.0,False=40; True=25,False=40; True=25,kappa>=0.6,True,
+E.outcome_types[accuracy],yes-both (binary per study),65,96.9,0.938,False=35; True=30,False=37; True=28,kappa>=0.6,True,"matched 144, unmatched 112"
+E.outcome_types[bias_magnitude],yes-both (binary per study),65,53.8,0.22,False=48; True=17,False=20; True=45,kappa>=0.6,False,"matched 144, unmatched 112"
+E.outcome_types[effect_size],yes-both (binary per study),65,66.2,0.245,False=42; True=23,False=44; True=21,kappa>=0.6,False,"matched 144, unmatched 112"
+E.outcome_types[choice_distribution],yes-both (binary per study),65,75.4,0.476,False=44; True=21,False=38; True=27,kappa>=0.6,False,"matched 144, unmatched 112"
+E.outcome_types[human_correlation],yes-both (binary per study),65,93.8,0.808,False=51; True=14,False=53; True=12,kappa>=0.6,True,"matched 144, unmatched 112"
+E.outcome_types[other],yes-both (binary per study),65,67.7,0.147,False=49; True=16,False=48; True=17,kappa>=0.6,False,"matched 144, unmatched 112"
+F.f1,yes-both,65,80.0,0.064,no=53; yes=12,no=62; yes=3,percent>=0.80,True,
+F.f2,yes-both,65,89.2,0.794,na=2; no=34; yes=29,na=1; no=31; yes=33,percent>=0.80,True,
+F.f3,yes-both,65,81.5,0.636,na=1; no=33; yes=31,no=33; yes=32,percent>=0.80,True,
+F.f4,yes-both,65,81.5,0.503,no=17; yes=48,no=15; yes=50,kappa>=0.6,False,
+F.f5,yes-both,65,80.0,0.532,no=40; yes=25,no=53; yes=12,kappa>=0.6,False,
+F.f6,yes-both,65,55.4,0.282,na=32; no=21; yes=12,na=31; no=22; yes=12,kappa>=0.6,False,
+F.f7,yes-both,65,96.9,0.892,na=1; no=54; yes=10,no=54; yes=11,percent>=0.80,True,
+F.f8,yes-both,65,73.8,0.453,no=41; yes=24,no=38; yes=27,kappa>=0.6,False,
+F.f9,yes-both,65,81.5,0.616,no=44; yes=21,no=36; yes=29,kappa>=0.6,True,
+F.f10,yes-both,65,87.7,0.574,no=15; yes=50,no=7; yes=58,kappa>=0.6,False,
+F.f11,yes-both,65,96.9,0.735,no=62; yes=3,no=60; yes=5,percent>=0.80,True,
+F.f12,yes-both,65,86.2,0.726,no=32; yes=33,no=23; not_reported=1; yes=41,percent>=0.80,True,
+F.robustness_outcome,yes-both,65,46.2,0.3,mixed=16; na=23; not_reported=5; reversed=2; survived=13; weakened=6,mixed=3; na=29; not_reported=1; reversed=2; survived=10; weakened=20,percent>=0.80,False,
+F.robustness_tested (robustness_outcome != na),yes-both (binary per study),65,81.5,0.619,False=23; True=42,False=29; True=36,kappa>=0.6,True,
+C.family_presence (pooled),yes-both x family,715,96.4,0.832,False=626; True=89,False=628; True=87,kappa>=0.6,True,
+F.perturbations_tested (pooled),yes-both x type,650,84.0,0.504,False=530; True=120,False=508; True=142,kappa>=0.6,False,
+F.perturbations_tested[wording],yes-both (binary per study),65,86.2,0.71,listed=25; not listed=40,listed=26; not listed=39,kappa>=0.6,True,
+F.perturbations_tested[option_order],yes-both (binary per study),65,84.6,0.49,listed=11; not listed=54,listed=13; not listed=52,kappa>=0.6,False,
+F.perturbations_tested[response_format],yes-both (binary per study),65,83.1,0.259,listed=7; not listed=58,listed=10; not listed=55,kappa>=0.6,False,
+F.perturbations_tested[decoding],yes-both (binary per study),65,86.2,0.611,listed=10; not listed=55,listed=19; not listed=46,kappa>=0.6,True,
+F.perturbations_tested[seeds],yes-both (binary per study),65,86.2,0.34,listed=4; not listed=61,listed=11; not listed=54,percent>=0.80,True,
+F.perturbations_tested[model_version],yes-both (binary per study),65,70.8,0.257,listed=18; not listed=47,listed=17; not listed=48,kappa>=0.6,False,
+F.perturbations_tested[contamination],yes-both (binary per study),65,83.1,0.479,listed=7; not listed=58,listed=18; not listed=47,kappa>=0.6,False,
+F.perturbations_tested[persona],yes-both (binary per study),65,93.8,0.683,listed=5; not listed=60,listed=9; not listed=56,kappa>=0.6,True,
+F.perturbations_tested[language],yes-both (binary per study),65,95.4,0.377,listed=2; not listed=63,listed=3; not listed=62,percent>=0.80,True,
+F.perturbations_tested[other],yes-both (binary per study),65,70.8,0.401,listed=31; not listed=34,listed=16; not listed=49,kappa>=0.6,False,
+F.perturbations_tested[none_listed],yes-both (binary per study),65,86.2,0.352,False=53; True=12,False=62; True=3,percent>=0.80,True,
+E.outcome_kind,matched (paradigm family x model family; modal value),144,82.6,0.719,accuracy=48; agreement=29; effect=67,accuracy=46; agreement=22; effect=76,kappa>=0.6,True,"matched 144, unmatched 112"
+E.basis,matched (paradigm family x model family; modal value),144,66.7,0.395,descriptive=84; null=21; test=39,descriptive=83; not_reported=1; test=60,percent>=0.80,False,"matched 144, unmatched 112"
+E.model_effect_present,matched (paradigm family x model family; modal value),144,78.5,0.629,na=77; no=9; not_reported=7; yes=51,na=69; no=7; not_reported=3; yes=65,percent>=0.80,False,"matched 144, unmatched 112"
+E.human_effect_present,matched (paradigm family x model family; modal value),144,80.6,0.661,na=77; no_human_reference=11; not_reported=1; yes=55,na=74; no=1; no_human_reference=6; not_reported=7; yes=56,percent>=0.80,True,"matched 144, unmatched 112"
+E.direction,matched (paradigm family x model family; modal value),144,74.3,0.532,not_applicable=87; not_reported=15; opposite=2; same=40,not_applicable=85; not_reported=13; opposite=2; same=44,percent>=0.80,False,"matched 144, unmatched 112"
+E.model_vs_human,matched (paradigm family x model family; modal value),144,91.0,0.647,above=5; below=10; not_compared=125; similar=4,above=4; below=14; not_compared=122; similar=4,percent>=0.80,True,"matched 144, unmatched 112"
+E.authors_comparison,matched (paradigm family x model family; modal value),144,95.8,0.779,different=13; not_different=1; not_tested=130,different=14; not_different=2; not_tested=128,percent>=0.80,True,"matched 144, unmatched 112"
+E.label (coder-assigned),matched (paradigm family x model family; modal value),144,53.5,0.461,above-human=5; agreement-only=29; attenuated=1; below-human=10; different=2; exaggerated=7; human-level=4; human-like=5; insufficient=11; no-human-reference=35; same-direction-unquantified=27; super-normative=8,above-human=7; agreement-only=24; attenuated=2; below-human=14; different=1; exaggerated=5; human-level=4; human-like=1; insufficient=26; no-human-reference=17; same-direction-unquantified=36; super-normative=7,percent>=0.80,False,"matched 144, unmatched 112"
+E.derived_label (script),matched keys with v1.1 rows (modal derived label),144,60.4,0.534,ABOVE-HUMAN=5; AGREEMENT-ONLY=29; BELOW-HUMAN=10; DIFFERENT=2; EXAGGERATED=7; HUMAN-LEVEL=4; HUMAN-LIKE=5; INSUFFICIENT=28; NO-HUMAN-REFERENCE=18; SAME-DIRECTION-UNQUANTIFIED=28; SUPER-NORMATIVE=8,ABOVE-HUMAN=7; AGREEMENT-ONLY=24; BELOW-HUMAN=14; DIFFERENT=2; EXAGGERATED=5; HUMAN-LEVEL=4; HUMAN-LIKE=2; INSUFFICIENT=32; NO-HUMAN-REFERENCE=9; SAME-DIRECTION-UNQUANTIFIED=38; SUPER-NORMATIVE=7,percent>=0.80,False,"matched 144, unmatched 112"

@@ -1,0 +1,26 @@
+{
+  "order": 16,
+  "study_id": "https://openalex.org/W7168344152",
+  "pass": "codex",
+  "brief_version": "1.0",
+  "date": "2026-11-07",
+  "full_text": "research/sources/md/fulltext/016_W7168344152.md",
+  "sources_varied": ["M", "O"],
+  "X1": {
+    "value": "no",
+    "sources_crossed": [],
+    "evidence": "Secs. 3.4, 4.1.2, 4.2.2, 5.1, 5.2: multiple models were evaluated, and gender order was counterbalanced; model size and tuning variants were model comparisons, while gender order is the only other varied source."
+  },
+  "X2": {
+    "value": "yes",
+    "x2_types": ["anova_or_mixed_term", "effect_change"],
+    "x2_sources": ["M", "O"],
+    "evidence": "Secs. 4.1.4–4.1.5, Tables 2–3, and 5.1.2–5.1.3, Table 4: mixed-effects analyses tested gender order and compared model-size and instruction-tuning variants, with reported differences in bias outcomes."
+  },
+  "X3": {
+    "value": "no",
+    "x3_pairs": [],
+    "evidence": "Secs. 4.1.4 and 5.1.2, Tables 2 and 4: reported interactions were verb class by bias type/connective, factors defining the experimental phenomenon, not simulation-uncertainty sources."
+  },
+  "notes": "Gender order is a counterbalancing factor in the same prompts; models are run on the same design. The reported source-related analyses do not fully cross model with gender order."
+}

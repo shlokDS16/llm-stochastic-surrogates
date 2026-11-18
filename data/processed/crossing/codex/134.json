@@ -1,0 +1,33 @@
+{
+ "order": 134,
+ "study_id": "https://openalex.org/W4387185333",
+ "pass": "codex",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/134_W4387185333.md",
+ "sources_varied": [
+  "W"
+ ],
+ "X1": {
+  "value": "no",
+  "sources_crossed": [],
+  "evidence": "Secs. 3.1–3.5: GPT-3 text-davinci-003 was used throughout; prompt formats and separators were varied within experiments, with no second uncertainty source varied."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "anova_or_mixed_term",
+   "effect_change"
+  ],
+  "x2_sources": [
+   "W"
+  ],
+  "evidence": "Secs. 3.1–3.2, Tables 1–2 and Fig. 2: priming results are compared across question, sentence, and simple prompt formats; distance results report ANOVA tests across prompt-format variations."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "Secs. 3.1–3.5: no two listed uncertainty sources vary, so no source-by-source interaction is estimated or shown."
+ },
+ "notes": "Repeated queries and format combinations provide data within cells; the paper does not analyze run-to-run variation as a source."
+}

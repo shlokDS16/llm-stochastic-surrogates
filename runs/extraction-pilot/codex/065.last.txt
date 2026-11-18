@@ -1,0 +1,162 @@
+{
+  "order": 65,
+  "study_id": "https://openalex.org/W4402667152",
+  "full_text": {
+    "obtained": true,
+    "source": "research/sources/md/fulltext/065_W4402667152.md"
+  },
+  "eligibility": {
+    "decision": "YES",
+    "failed_criterion": null,
+    "borderline": true,
+    "evidence": "Sections 4–5, pp. 170–173: applies GPT-2 predictions to two published garden-path sentence datasets and compares resulting measures with human reading times."
+  },
+  "A": {
+    "doi": null,
+    "arxiv_id": null,
+    "title": "How can large language models become more human?",
+    "first_author": "Daphne Wang",
+    "year": 2024,
+    "venue": "Proceedings of the Workshop on Cognitive Modeling and Computational Linguistics",
+    "peer_reviewed": "yes",
+    "first_author_field": "not_reported",
+    "country": "United Kingdom"
+  },
+  "B": {
+    "models": [
+      {
+        "name": "GPT-2",
+        "version": "GPT-2",
+        "access": "open_weights",
+        "params_b": null,
+        "release_date": "not_reported",
+        "tuning": "not_reported",
+        "family": "GPT",
+        "query_date": "not_reported"
+      }
+    ],
+    "n_models": 1,
+    "n_model_families": 1
+  },
+  "C": {
+    "paradigms": [
+      {
+        "pid": "P1",
+        "name": "Pickering and Traxler (1998) garden-path sentence reading-time datasets: complement-clause (NP/S) ambiguity",
+        "family": "LANG",
+        "source_paper": "Pickering and Traxler (1998)",
+        "items_origin": "verbatim",
+        "n_items": 96,
+        "languages": [
+          "English"
+        ],
+        "modality": "text",
+        "contamination_risk": "yes",
+        "location": "Section 4, pp. 170–171"
+      },
+      {
+        "pid": "P2",
+        "name": "Pickering and Traxler (1998) garden-path sentence reading-time datasets: subordinate-clause (NP/Z) ambiguity",
+        "family": "LANG",
+        "source_paper": "Pickering and Traxler (1998)",
+        "items_origin": "verbatim",
+        "n_items": 96,
+        "languages": [
+          "English"
+        ],
+        "modality": "text",
+        "contamination_risk": "yes",
+        "location": "Section 4, pp. 170–171"
+      }
+    ]
+  },
+  "D": {
+    "types": [
+      "published_norms"
+    ],
+    "primary_type": "published_norms",
+    "human_n": null,
+    "population": "Human reading-time data reported in Pickering and Traxler (1998); participant count not reported here.",
+    "metric": "First-pass and total reading times in milliseconds; garden-path effect and reading-time regression comparisons."
+  },
+  "E": {
+    "outcome_types": [
+      "bias_magnitude",
+      "human_correlation"
+    ],
+    "rows_aggregated": false,
+    "effects": [
+      {
+        "pid": "P1",
+        "model": "GPT-2",
+        "model_family": "GPT",
+        "outcome_kind": "effect",
+        "basis": "descriptive",
+        "model_effect_present": "yes",
+        "human_effect_present": "yes",
+        "direction": "same",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "SAME-DIRECTION-UNQUANTIFIED",
+        "location": "Sections 5–6, pp. 172–173; Table 2",
+        "headline": "In the easy NP/S dataset, incompatibility measures predicted a garden-path effect and human reading times better than surprisal."
+      },
+      {
+        "pid": "P2",
+        "model": "GPT-2",
+        "model_family": "GPT",
+        "outcome_kind": "effect",
+        "basis": "descriptive",
+        "model_effect_present": "yes",
+        "human_effect_present": "yes",
+        "direction": "same",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "SAME-DIRECTION-UNQUANTIFIED",
+        "location": "Sections 5–6, pp. 172–173; Table 2",
+        "headline": "In the hard NP/Z dataset, incompatibility measures predicted a garden-path effect and human reading times better than surprisal."
+      }
+    ],
+    "headline": "Incompatibility measures derived from GPT-2 predictions correlated with human reading times and predicted garden-path effects better than surprisal."
+  },
+  "F": {
+    "f1": "no",
+    "f2": "no",
+    "f3": "no",
+    "f4": "no",
+    "f5": "no",
+    "f6": "na",
+    "f7": "no",
+    "f8": "no",
+    "f9": "no",
+    "f10": "yes",
+    "f11": "no",
+    "f12": "no",
+    "perturbations_tested": [],
+    "robustness_outcome": "na"
+  },
+  "G": {
+    "notes": "The paradigm uses classic published items, with no contamination check. GPT-2 completions were sampled 1,000 times, but the checkpoint and decoding settings are unspecified. Clarify the human dataset's participant count and whether regression-derived predictions support direct model–human effect comparison.",
+    "extractor": "codex (default)",
+    "date": "2026-10-16",
+    "minutes": 12,
+    "sections_read": [
+      "Abstract",
+      "Introduction",
+      "Related Work",
+      "Methodology",
+      "Experiments",
+      "Results and Analysis",
+      "Conclusions and Future Work",
+      "References"
+    ]
+  }
+}

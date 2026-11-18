@@ -1,0 +1,19 @@
+{
+ "model": "mistral-7b-instruct-v0.3",
+ "repo": "mistralai/Mistral-7B-Instruct-v0.3",
+ "revision": "c170c708c41dac9275d15a8fff4eca08d52bab71",
+ "stage": "S3",
+ "batch_size": 48,
+ "eos_ids": [
+  2
+ ],
+ "torch": "2.11.0+cu128",
+ "transformers": "5.20.0",
+ "git_sha": "c46b5d3de9c80b0f265e66e1f19f6d3336b20ce2",
+ "F": "F0",
+ "temps": [
+  0.7,
+  1.0
+ ],
+ "n": 50
+}

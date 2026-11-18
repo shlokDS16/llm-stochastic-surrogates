@@ -1,0 +1,15 @@
+{
+ "script": "analysis/pilot/placement_sensitivity.py",
+ "script_sha256": "2a64b929085827a032acb03573a84179e97f5c6d33fb623bb86b9a1ed4e9784c",
+ "estimators_sha256": "04a452022b625a270b21230c45deef0a7203aec2e329475e65a9cff8c148414c",
+ "analyze_pilot_sha256": "cec0ca3a59d94ece5be63ab3db66b29df8b09dfc4ed30900ef8a894fd0061e50",
+ "seed": 1,
+ "B": 2000,
+ "K": 200,
+ "smoke": true,
+ "models": [
+  "granite-3.3-2b-instruct"
+ ],
+ "input_table_a1_sha256": "6098510c6bf521961c77c8affe50b5d34023c70b90369396b73902cd8e18fdfe",
+ "note": "seed 1 per estimate2 call, identical to analyze_pilot.py; F0 = first sorted format level"
+}

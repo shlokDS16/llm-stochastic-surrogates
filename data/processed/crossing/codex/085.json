@@ -1,0 +1,30 @@
+{
+ "order": 85,
+ "study_id": "https://openalex.org/W4385571259",
+ "pass": "codex",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/085_W4385571259.md",
+ "sources_varied": [
+  "M",
+  "W",
+  "T"
+ ],
+ "X1": {
+  "value": "partial",
+  "sources_crossed": [],
+  "evidence": "Appendix A.1.1–A.1.4: 14 models were tested; question versions varied among original, elaborate and restricted forms; generation temperature varied for GPT-3. These factors were not fully crossed across the study."
+ },
+ "X2": {
+  "value": "no",
+  "x2_types": [],
+  "x2_sources": [],
+  "evidence": "Sections 3.2 and 4, Tables 1–3: results are listed by model and task; no source-specific test or quantified difference across wording or temperature levels is reported."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "Appendix A.1 and Sections 3.2 and 4: no source-by-source interaction is estimated or shown."
+ },
+ "notes": "Repeatedly selecting one sample for analysis is not treated as a varied repeated-draw source; Appendix A.1.3 says the first sample was selected."
+}

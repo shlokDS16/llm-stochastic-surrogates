@@ -1,0 +1,115 @@
+"""Generate paper/acme/tables/tab-s-studies.tex (Supplement Table, key `s-studies`): the coded studies of the review with their design fields.
+
+Body rows of a longtable set up by \\TabSStudies (\\acmelongtable) in paper/acme/floats.tex; caption, label and header live there.  The body starts with a
+\\multicolumn note row, as the macro requires.  Nothing is typed in:
+
+  data/processed/extraction/claude/*.json   studies with eligibility.decision == "YES": B.n_models, C.paradigms[].family, F.f3 (repeated draws),
+                                            F.f5 (wordings), F.f6 (option order), F.f7 (temperature), A.year (fallback year)
+  data/processed/crossing/claude/*.json     X1 (crossed) and X2 (decomposed), joined on `order`
+  data/processed/references/coded-studies-keys.csv   order -> BibTeX key
+  paper/acme/references-acme.bib            year of the cited record (the published version where one exists)
+
+Each field comes from one coding pass (the Claude pass); the agreement between passes is in Supplement Table tab:agreement.
+Rows are ordered by year of the cited record, then by the order number of the coding record.
+
+Usage:  .venv/Scripts/python.exe -I analysis/acme/make_tab_s_studies.py [--out paper/acme/tables/tab-s-studies.tex]
+"""
+from __future__ import annotations
+
+import argparse
+import csv
+import glob
+import hashlib
+import json
+import re
+import subprocess
+from collections import Counter
+from datetime import datetime, timezone
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[2]
+EXT = "data/processed/extraction/claude/*.json"
+CRS = "data/processed/crossing/claude/*.json"
+KEYS = "data/processed/references/coded-studies-keys.csv"
+BIB = "paper/acme/references-acme.bib"
+YN = {"yes": "yes", "no": "no", "na": "n/a", "partial": "partial", "not_reported": "n/r"}
+
+NOTE = (
+    r"Models is the number of models the study reports. Paradigm families are the codes of the extraction form, most frequent first: "
+    r"HB heuristics and biases; JDM judgement and decision making; RE reasoning; TOM theory of mind and social cognition; MEM memory and attention; "
+    r"LANG psycholinguistics; LEARN learning and categorisation; NUM numerical cognition; MOR moral judgement; DEV developmental tasks; OTH other. "
+    r"The design fields are yes, no or n/a: Draws (f3), the identical prompt sampled more than once with the number stated; Wordings (f5), "
+    r"the same item in two or more wordings with the results compared; Order (f6), the order of the listed answer options varied "
+    r"(n/a when the response has no listed options); Temp. (f7), two or more temperature or sampling settings run and compared. "
+    r"X1 records whether at least two sources of variation (model, wording, order, temperature, persona, run) are fully crossed "
+    r"(yes), varied without full crossing (partial) or at most one source varies (no); X2 records whether the study quantifies the contribution of a source "
+    r"by a variance share, a model term or a stated change in the outcome. Each field comes from one coding pass; the agreement between passes "
+    r"is in Supplement Table~\ref{tab:agreement}."
+)
+
+
+def sha(p: Path) -> str:
+    return hashlib.sha256(p.read_bytes()).hexdigest()
+
+
+def bib_years(text: str) -> dict[str, str]:
+    out = {}
+    for m in re.finditer(r"@\w+\{([^,\s]+),(.*?)\n\}", text, re.S):
+        y = re.search(r"\byear\s*=\s*[{\"]?(\d{4})", m.group(2))
+        if y:
+            out[m.group(1)] = y.group(1)
+    return out
+
+
+def main() -> None:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--out", default="paper/acme/tables/tab-s-studies.tex")
+    out = ROOT / ap.parse_args().out
+
+    ext = {}
+    for f in sorted(glob.glob(str(ROOT / EXT))):
+        d = json.load(open(f, encoding="utf8"))
+        if d["eligibility"]["decision"] == "YES":
+            ext[d["order"]] = d
+    crs = {}
+    for f in sorted(glob.glob(str(ROOT / CRS))):
+        d = json.load(open(f, encoding="utf8"))
+        crs[d["order"]] = d
+    keys = {int(r["order"]): r["bibkey"] for r in csv.DictReader(open(ROOT / KEYS, encoding="utf8"))}
+    years = bib_years((ROOT / BIB).read_text(encoding="utf8"))
+    missing = [o for o in ext if o not in crs or o not in keys or keys[o] not in years]
+    assert not missing, f"studies without crossing record, key or bib year: {missing}"
+
+    rows = []
+    for o, d in ext.items():
+        fam = Counter(p["family"] for p in d["C"]["paradigms"] if p.get("family"))
+        fams = ", ".join(k for k, _ in sorted(fam.items(), key=lambda kv: (-kv[1], kv[0]))) or "n/r"
+        F = d["F"]
+        c = crs[o]
+        cells = [rf"\cite{{{keys[o]}}}", years[keys[o]], str(d["B"]["n_models"]), fams,
+                 YN[F["f3"]], YN[F["f5"]], YN[F["f6"]], YN[F["f7"]], YN[c["X1"]["value"]], YN[c["X2"]["value"]]]
+        rows.append((int(years[keys[o]]), o, " & ".join(cells) + r" \\"))
+    rows.sort()
+
+    lines = [
+        "% GENERATED by analysis/acme/make_tab_s_studies.py from the extraction and crossing records and coded-studies-keys.csv. Do not edit by hand; rerun the script.",
+        r"% Body rows of a longtable (caption, label and header: \TabSStudies in floats.tex). One row per eligible study, ordered by year of the cited record.",
+        r"\multicolumn{10}{@{}>{\raggedright\arraybackslash}p{15.3cm}}{\emph{" + NOTE + r"}}\\",
+        r"\midrule",
+    ]
+    lines += [r for _, _, r in rows]
+    out.write_text("\n".join(lines) + "\n", encoding="utf8")
+
+    inputs = sorted(glob.glob(str(ROOT / EXT))) + sorted(glob.glob(str(ROOT / CRS))) + [str(ROOT / KEYS), str(ROOT / BIB)]
+    try:
+        head = subprocess.run(["git", "rev-parse", "HEAD"], cwd=ROOT, capture_output=True, text=True).stdout.strip()
+    except OSError:
+        head = ""
+    meta = {"script": "analysis/acme/make_tab_s_studies.py", "git_head": head, "timestamp_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+            "n_rows": len(rows), "inputs": {Path(p).relative_to(ROOT).as_posix(): sha(Path(p)) for p in inputs}}
+    Path(str(out) + ".source.json").write_text(json.dumps(meta, indent=1), encoding="utf8")
+    print("wrote", out, "rows", len(rows))
+
+
+if __name__ == "__main__":
+    main()

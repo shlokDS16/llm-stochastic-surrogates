@@ -1,0 +1,27 @@
+{
+ "run": "included-studies",
+ "script": "analysis/fulltext/included_studies.py",
+ "git_sha": "f2356e3d8b4e8dc2d0cf51ac0507065d129e283d",
+ "seed": null,
+ "note": "deterministic, no randomness",
+ "python": "3.12.14",
+ "inclusion_rule": "YES in Claude or Codex raw decision",
+ "abstract_only_orders": [
+  17,
+  54
+ ],
+ "n_analysed": 150,
+ "n_included": 82,
+ "n_bib_keys_missing": 0,
+ "bib_keys_missing": [],
+ "inputs": {
+  "data/processed/fulltext-sample/sample.jsonl": "ffd9a303e90a1de2",
+  "data/processed/fulltext/reading-list.jsonl": "dd8945dd9376cb00",
+  "data/processed/prisma-fulltext.json": "c8539314a9e16ef5"
+ },
+ "outputs": [
+  "paper/tables/T-included.tex",
+  "paper/esm/ESM_1-analysed-records.csv",
+  "paper/esm/ESM_1-README.md"
+ ]
+}

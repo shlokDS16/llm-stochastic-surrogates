@@ -1,0 +1,47 @@
+{
+ "n_boot": 3,
+ "ARI_noise_as_label": {
+  "median": 0.3195,
+  "q1": 0.2132,
+  "q3": 0.3527,
+  "min": 0.1069,
+  "max": 0.386,
+  "n": 3
+ },
+ "ARI_clustered_in_both": {
+  "median": 0.3065,
+  "q1": 0.2067,
+  "q3": 0.35,
+  "min": 0.1069,
+  "max": 0.3936,
+  "n": 3
+ },
+ "n_clusters_in_bootstrap": {
+  "median": 3.0,
+  "q1": 2.5,
+  "q3": 3.0,
+  "min": 2.0,
+  "max": 3.0,
+  "n": 3
+ },
+ "unique_records_per_resample": {
+  "median": 14.0,
+  "q1": 13.5,
+  "q3": 14.5,
+  "min": 13.0,
+  "max": 15.0,
+  "n": 3
+ },
+ "n_clusters_full": 4,
+ "n_unclustered_full": 0,
+ "ARI_values": [
+  0.1069,
+  0.3195,
+  0.386
+ ],
+ "ARI_clustered_in_both_values": [
+  0.1069,
+  0.3065,
+  0.3936
+ ]
+}

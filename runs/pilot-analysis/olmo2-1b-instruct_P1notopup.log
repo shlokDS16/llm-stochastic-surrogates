@@ -1,0 +1,2 @@
+olmo2-1b-instruct P1: sampled=3200 validity=0.975 by_format={'F0': 0.9675, 'F1': 0.983125}
+  primary [standardised]: cells 32/32 dbar=0.229 S=1.548 CI95=[1.231, 1.871] shares_reportable=True sign_stab=0.34

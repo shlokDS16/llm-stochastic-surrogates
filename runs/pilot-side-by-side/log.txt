@@ -1,0 +1,10 @@
+json grids found: primary 42, rawscale 42, f0sens 42, notopup 7
+check A1 primary: 42 rows of summary.md reproduced from the json (dbar, CI, S, TI, S2>0, sign stability, validity)
+check A2 rawscale: 42 rows of summary.rawscale.md reproduced from the json (dbar, CI, S, TI, S2>0, sign stability, validity)
+check f0sens: 42 rows of summary.f0sens.md reproduced from the json (dbar, CI, S, TI, S2>0, sign stability, validity)
+check notopup (analysed grids only): 7 rows of summary.notopup.md reproduced from the json (dbar, CI, S, TI, S2>0, sign stability, validity)
+human A1 side: P1 mu 1.197 tau 0.002 S^H 0.121; P2a mu 1.186 tau 0.119 S^H 0.128; P2b mu 2.025 tau 0.434 S^H 0.376; P2c mu 2.227 tau 0.745 S^H 0.684; P2d mu 2.602 tau 0.388 S^H 0.288; P3 mu 0.293 tau 0.050 S^H 0.000; P4 mu 0.394 tau 0.044 S^H 0.154
+human P1 raw dbar recomputed 0.2908 equals rawscale.csv human_raw_dbar 0.2908; 95% CI 0.261, 0.321 (S^H from this call [0.0, 0.08169500840381014] versus stored [0.0000, 0.0835]; stored values are used)
+near-deterministic re-run vs earlier summary.csv: 35 primary grids, flag counts, SD counts, share_ss_flagged, dbar identical; S differs in 1 grid(s): [(('qwen2.5-7b-instruct', 'P2d'), 1.8436, 1.843)] (inference, not checked: the earlier file predates a later re-analysis of that grid; the json and summary.md carry the current value)
+tables: A1 42 rows, A2 42 rows; fig12 684 term rows; fig13 cells 1536; fig13 levels 696
+summary.md written

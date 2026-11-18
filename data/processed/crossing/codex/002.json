@@ -1,0 +1,42 @@
+{
+ "order": 2,
+ "study_id": "W4415187106",
+ "pass": "codex",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/002_W4415187106.md",
+ "sources_varied": [
+  "M",
+  "W",
+  "T",
+  "R",
+  "X"
+ ],
+ "X1": {
+  "value": "partial",
+  "sources_crossed": [],
+  "evidence": "Sec. 4.1, pp. 8–10: role, temperature, and date were crossed, but date marks a model release; role is the experimental factor. Sec. 4.2, pp. 11–12: two models crossed with role and perspective. Sec. 4.3, pp. 13–14: role-description detail varied alongside role, messenger role, and control; the paper reports regression interactions among sources, but does not state that every combination of source levels was run for the same items."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "anova_or_mixed_term",
+   "effect_change"
+  ],
+  "x2_sources": [
+   "M",
+   "W",
+   "T",
+   "X"
+  ],
+  "evidence": "Sec. 4.1, Table 1, pp. 9–10: regression reports temperature and GPT version controls and role-by-frame/context effects; temperature is described as negligible. Sec. 4.2, Table 2, p. 12: GPT model is a regression control. Sec. 4.3, Table 3, pp. 13–14 and Appendix 1, pp. 26–27: role-description detail appears in regression/interaction analysis, with reported decision differences by detail level."
+ },
+ "X3": {
+  "value": "yes",
+  "x3_pairs": [
+   "W x X"
+  ],
+  "evidence": "Sec. 4.3, Table 3, pp. 13–14 and Appendix 1, pp. 26–27: role and role-description detail are analyzed together, with detail-level decision variation reported for the human role; role-by-messenger and role-by-control terms are also reported."
+ },
+ "notes": "Role and the behavioral vignette factors are experimental conditions, not sources. Repeated observations per treatment estimate response patterns and are not coded as R. Model versions and temperature are varied in Studies 1 and 2, and role-description detail is varied in Study 3; the best source crossing is partial because the paper does not establish a full factorial crossing of two qualifying sources."
+}

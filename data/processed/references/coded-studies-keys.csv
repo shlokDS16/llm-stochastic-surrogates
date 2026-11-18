@@ -1,0 +1,81 @@
+order,study_id,doi,arxiv,bibkey,verified_source,note
+2,W4415187106,10.3127/ajis.v29.5573,,guler2025role,Crossref,
+6,W4409762247,10.1109/acii63134.2024.00043,2408.13718,tak2024gpt,Crossref,also posted as arXiv 2408.13718
+9,W7165674475,10.1016/j.isci.2026.116400,,ogg2026flexible,Crossref,
+12,W7140226071,10.1111/tgis.70242,,liu2026golden,Crossref,
+13,W4404782648,10.18653/v1/2024.emnlp-main.539,2407.01047,shah2024development,Crossref,also posted as arXiv 2407.01047
+15,W7133223423,10.52202/068431-2063,2210.01478,jin2022make,Crossref,also posted as arXiv 2210.01478
+16,W7168344152,10.5210/dad.2026.201,,kankowski2026implicit,Crossref,"Crossref title truncated (""capabilitie""); journal page title used"
+18,W3213674227,10.18653/v1/2021.blackboxnlp-1.8,,masis2021prosper,Crossref,
+19,W7166839453,10.18653/v1/2026.conll-main.45,,kouwenhoven2026traces,Crossref,
+21,W4389520324,10.18653/v1/2023.emnlp-main.752,2310.13673,jeoung2023stereomap,Crossref,also posted as arXiv 2310.13673
+22,W7165006854,10.3389/frai.2026.1808549,,grander2026cross,Crossref,"a correction notice exists, doi 10.3389/frai.2026.1925443"
+23,W7128741662,,2602.10324,wang2026discovering,arXiv API,arXiv comment: Accepted to ICML 2026; no proceedings DOI found
+24,W4404986392,10.1145/3820166,2411.15396,liu2026decoy,Crossref 10.1145/3820166 (published version of arXiv 2411.15396); arXiv API,first posted as arXiv 2411.15396
+25,W4399354223,,2406.00092,koevering2024heads,arXiv API,
+26,W7139936057,,2603.19087,liu2026assessing,arXiv API,
+28,W4394647506,10.1162/tacl_a_00670,2404.04332,kamath2024scope,Crossref,also posted as arXiv 2404.04332
+29,W7154453073,10.1109/I-COSTE68047.2025.11467175,,hassan2025leveraging,Crossref,
+30,W4392811684,10.1007/978-3-031-55245-8_7,,brunetgouet2024conversational,Crossref,
+31,W7170054352,10.1111/lcrp.70053,,pelegkoriat2026human,Crossref,
+32,W7170951503,10.5281/zenodo.21531354,,miasnikov2026alignment,DataCite,
+33,W4414079627,10.1109/ISEC64801.2025.11147285,,zebahsinghalfred2025framing,Crossref,
+34,W4392181976,10.18653/v1/2024.acl-long.847,2402.15052,chen2024tombench,Crossref 10.18653/v1/2024.acl-long.847 (published version of arXiv 2402.15052); arXiv API,first posted as arXiv 2402.15052
+35,W4390754474,10.1038/s41598-023-50229-7,,breithaupt2024humans,Crossref,
+41,W4408102289,10.1016/j.chbah.2025.100138,,campbell2025artificial,Crossref,
+45,W4386272709,,2308.14242,jin2023cultural,arXiv API,
+46,arxiv:2607.21558,,2607.21558,wang2026beyond,arXiv API,
+48,W7166838030,10.18653/v1/2026.conll-main.1,,clark2026evaluating,Crossref,
+49,W4376140095,10.31234/osf.io/ypw5r,,zhang2023essentialist,Crossref (PsyArXiv preprint),"coded record had no DOI or arXiv id; resolved by title via Crossref (PsyArXiv); PsyArXiv preprint; proceedings version: Proceedings of the Annual Meeting of the Cognitive Science Society 45 (2023), no DOI found"
+55,W7155065994,,2604.18404,coleman2026six,arXiv API,
+57,W4416241868,,2508.07284,ding2025pull,arXiv API,
+59,arxiv:2606.11724,10.18653/2026.findings-emnlp.276,2606.11724,lei2026mind,Crossref 10.18653/2026.findings-emnlp.276 (published version of arXiv 2606.11724); arXiv API,first posted as arXiv 2606.11724; the Crossref-registered DOI has no v1 segment
+60,W4404136902,10.1007/s11606-024-09177-9,,schmidt2025bias,Crossref,print year 2025; online 2024
+62,W4414940251,,2505.09614,gxchen2025agents,arXiv API,"arXiv comment: Conference on Language Modelling (COLM) 2025, Camera Ready; no proceedings DOI found"
+65,W4402667152,10.18653/v1/2024.cmcl-1.14,,wang2024become,Crossref,
+73,W4388787315,,2311.09247,mitchell2023comparing,arXiv API,"arXiv journal-ref: Proceedings of the LLM-CP Workshop, AAAI 2024; no DOI found"
+74,W4405469570,,2412.11009,li2024dual,arXiv API,
+75,W4387634965,,2310.07929,arnett2023crosslingual,arXiv API,arXiv comment: Extended abstract accepted to the 3rd Multilingual Representation Learning workshop at EMNLP 2023; no proceedings DOI found
+76,W7140140566,10.18653/v1/2026.eacl-long.34,,blevins2026accommodate,Crossref,
+77,W4405785524,10.1109/iros58592.2024.10801325,2403.05701,wachowiak2024aligned,Crossref,also posted as arXiv 2403.05701
+78,W7154389923,,2604.09670,xiong2026context,arXiv API,
+85,W4385571259,10.18653/v1/2023.findings-acl.663,,shapira2023well,Crossref,
+87,W4390306118,,2312.15198,leng2023agents,arXiv API,
+88,W4321277158,,2302.08399,inc088,existing entry in references-acme.bib (matched by arXiv id),already present; not duplicated; arXiv-only
+89,W4403881111,10.3389/fpsyg.2024.1488172,,attanasio2024chatgpt,Crossref,
+91,arxiv:2610.01222,,2610.01222,melo2026reputation,arXiv API,
+92,W4402669698,10.18653/v1/2024.hucllm-1.7,,french2024aligning,Crossref,
+94,W4404554448,10.2139/ssrn.4981434,2410.06932,albert2024reproducing,Crossref,also posted as arXiv 2410.06932
+95,W4414907014,10.1038/s41598-025-22290-x,2410.13392,huff2025judgments,Crossref,also posted as arXiv 2410.13392
+96,W4383058631,10.1111/cogs.13309,2209.01515,trott2023know,Crossref,also posted as arXiv 2209.01515
+98,W4324108791,,2303.06074,griffin2023susceptibility,arXiv API,
+99,W4380714623,10.1038/s43588-023-00527-x,2306.07622,hagendorff2023intuitive,existing entry in references-acme.bib (matched by published DOI of arXiv v2),already present; not duplicated; published version Nature Computational Science 2023 doi 10.1038/s43588-023-00527-x
+101,W7133241468,10.52202/075280-0246,2306.11167,naeini2023fixated,Crossref,also posted as arXiv 2306.11167
+104,W4409346804,10.1609/aaai.v39i2.32143,2501.08838,shinoda2025tomato,Crossref,also posted as arXiv 2501.08838
+105,W4405133564,10.1016/j.ject.2024.11.008,,cahalane2025chatgpt,Crossref,
+106,W4416843768,,2506.19089,getachew2025might,arXiv API,
+107,W4390740352,10.1002/jocb.636,,orwig2024creativity,Crossref,
+108,W7204838051,10.5281/zenodo.22111945,,quadri2026same,DataCite,
+110,W4412944072,10.18653/v1/2025.realm-1.8,2404.08710,roberts2025learn,Crossref,also posted as arXiv 2404.08710
+111,W7155407217,,2604.20039,alderete2026separable,arXiv API,
+113,arxiv:2608.01598,10.18653/v1/2026.acl-long.1674,2608.01598,jeon2026picture,Crossref 10.18653/v1/2026.acl-long.1674 (published version of arXiv 2608.01598); arXiv API,first posted as arXiv 2608.01598
+114,W4405076079,,2412.02823,wang2024minimization,arXiv API,
+115,W4402671882,10.18653/v1/2024.acl-long.508,2402.14856,mondorf2024comparing,Crossref,also posted as arXiv 2402.14856
+116,W4410251374,10.1038/s41562-025-02172-y,2305.16867,akata2025playing,Crossref,also posted as arXiv 2305.16867
+117,W4403007278,,2408.10711,uprety2024investigating,arXiv API,"arXiv comment: Accepted at The First Workshop on AI Behavioral Science (AIBS 2024), held in conjunction with KDD 20; no proceedings DOI found"
+119,W4387725480,,2310.10544,maloney2023use,arXiv API,
+121,W4387075046,,2309.13356,tanmay2023probing,arXiv API,
+122,W7160647047,,2605.06524,rmus2026process,arXiv API,
+126,W7152081016,10.18653/v1/2026.acl-long.1495,2604.05593,sun2026label,Crossref 10.18653/v1/2026.acl-long.1495 (published version of arXiv 2604.05593); arXiv API,first posted as arXiv 2604.05593
+127,W7147187740,,2603.28925,kim2026theory,arXiv API,
+132,W7159841819,10.5281/zenodo.19987602,,kakura2026behavioral,DataCite,
+133,W4411113330,10.18653/v1/2025.cmcl-1.28,,wang2025predict,Crossref,
+134,W4387185333,10.3233/faia230505,2308.14337,shaki2023cognitive,Crossref,ECAI 2023 pages from arXiv journal-ref; also posted as arXiv 2308.14337
+139,W4378508547,,2305.14020,holterman2023chatgpt,arXiv API,
+141,W4415797152,10.52202/079017-2081,2402.11821,wang2024microstructures,Crossref,also posted as arXiv 2402.11821
+142,W4390920734,10.2139/ssrn.4696693,2305.11243,kosoy2024comparing,Crossref,also posted as arXiv 2305.11243
+144,W7133348821,,2603.00270,chattaraj2026remember,arXiv API,
+145,W3163651756,,2105.02987,inc145,existing entry in references-acme.bib (matched by arXiv id),already present; not duplicated; arXiv-only
+147,W7160676434,10.18653/v1/k19-1007,1909.10579,prasad2019using,Crossref 10.18653/v1/k19-1007 (published version of arXiv 1909.10579); arXiv API,first posted as arXiv 1909.10579
+148,W4386910589,10.1016/j.cogsys.2023.101155,2306.06548,han2024inductive,Crossref 10.1016/j.cogsys.2023.101155 (published version of arXiv 2306.06548); arXiv API,"first posted as arXiv 2306.06548; coded DOI 10.1037/rev0000446 resolves to a different paper (Bhatia, Inductive reasoning in minds and machines); entry resolved from arXiv 2306.06548 plus Crossref title match"
+150,W7140872457,10.1007/s10506-026-09504-x,,lam2026virtual,Crossref,

@@ -1,0 +1,5 @@
+{"paradigm": "P2c", "F": "F1", "batch": 0, "rows": 40, "seconds": 10.081, "new_tokens": 2798, "padded_prompt_len": 115, "peak_vram_gib": 4.653}
+{"paradigm": "P2c", "F": "F1", "batch": 1, "rows": 40, "seconds": 8.029, "new_tokens": 1944, "padded_prompt_len": 116, "peak_vram_gib": 4.371}
+{"paradigm": "P2c", "F": "F1", "batch": 2, "rows": 40, "seconds": 5.152, "new_tokens": 2480, "padded_prompt_len": 116, "peak_vram_gib": 4.059}
+{"paradigm": "P2c", "F": "F1", "batch": 3, "rows": 40, "seconds": 8.115, "new_tokens": 2055, "padded_prompt_len": 120, "peak_vram_gib": 4.391}
+{"paradigm": "P2c", "F": "F1", "batch": 4, "rows": 40, "seconds": 10.226, "new_tokens": 2024, "padded_prompt_len": 120, "peak_vram_gib": 4.678}

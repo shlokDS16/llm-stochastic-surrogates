@@ -1,0 +1,174 @@
+{
+ "meta": {
+  "roster": "runs/acme-S-gstudy/roster_strict.csv",
+  "roster_note": "outcome-blind validity rule of EXPERT-statistician.md section 1",
+  "cells": "C:\\Users\\Shlok\\Downloads\\Thenboli ma'am review paper\\runs\\acme-S-gstudy\\cells.csv",
+  "validity_cells": false,
+  "temps": [
+   0.7,
+   1.0
+  ],
+  "logit": true,
+  "drop_W0": false,
+  "wordings": [
+   "W0",
+   "W1",
+   "W2",
+   "W3"
+  ],
+  "min_models": 3,
+  "no_bootstrap": true,
+  "git": {
+   "head": "01e3ade297c0d5f92db0279921149f352d95f389",
+   "analysis_dirty": false
+  },
+  "argv": [
+   "run",
+   "--approved-by-lead",
+   "--no-bootstrap",
+   "--out",
+   "runs/acme-S-gstudy/sens-S-d",
+   "--label",
+   "Sensitivity S-d: logit scale, binary items",
+   "--roster",
+   "runs/acme-S-gstudy/roster_strict.csv",
+   "--logit"
+  ]
+ },
+ "items": {
+  "P1": {
+   "models": [
+    "granite-3.3-2b-instruct",
+    "granite-3.3-8b-instruct",
+    "olmo2-13b-instruct",
+    "olmo2-7b-instruct",
+    "qwen2.5-0.5b-instruct",
+    "qwen2.5-1.5b-instruct",
+    "qwen2.5-14b-instruct",
+    "qwen2.5-7b-instruct",
+    "smollm2-1.7b-instruct"
+   ],
+   "n_models": 9,
+   "shape": [
+    9,
+    4,
+    2,
+    2
+   ],
+   "facets": [
+    "M",
+    "W",
+    "O",
+    "T"
+   ],
+   "wordings": [
+    "W0",
+    "W1",
+    "W2",
+    "W3"
+   ],
+   "temps": [
+    0.7,
+    1.0
+   ],
+   "a1_max_abs_diff": 2.0816681711721685e-17,
+   "draw_share_e2": 0.01785416805165812,
+   "n_conditions": 288,
+   "n_clipped": 92,
+   "clip_rate": 0.3194444444444444,
+   "note": "logit scale, clip rate 0.3194 (92 of 288 conditions)"
+  },
+  "AF": {
+   "models": [
+    "granite-3.3-2b-instruct",
+    "granite-3.3-8b-instruct",
+    "mistral-7b-instruct-v0.3",
+    "olmo2-13b-instruct",
+    "olmo2-1b-dpo",
+    "olmo2-1b-instruct",
+    "olmo2-7b-instruct",
+    "phi4-mini-instruct",
+    "qwen2.5-0.5b-instruct",
+    "qwen2.5-1.5b-instruct",
+    "qwen2.5-14b-instruct",
+    "qwen2.5-7b-instruct"
+   ],
+   "n_models": 12,
+   "shape": [
+    12,
+    4,
+    2,
+    2
+   ],
+   "facets": [
+    "M",
+    "W",
+    "O",
+    "T"
+   ],
+   "wordings": [
+    "W0",
+    "W1",
+    "W2",
+    "W3"
+   ],
+   "temps": [
+    0.7,
+    1.0
+   ],
+   "a1_max_abs_diff": 2.0816681711721685e-17,
+   "draw_share_e2": 0.028319558282327753,
+   "n_conditions": 384,
+   "n_clipped": 232,
+   "clip_rate": 0.6041666666666666,
+   "note": "logit scale, clip rate 0.6042 (232 of 384 conditions)"
+  },
+  "NR": {
+   "models": [
+    "granite-3.3-2b-instruct",
+    "granite-3.3-8b-instruct",
+    "mistral-7b-instruct-v0.3",
+    "olmo2-13b-instruct",
+    "olmo2-1b-dpo",
+    "olmo2-1b-instruct",
+    "olmo2-1b-sft",
+    "olmo2-7b-instruct",
+    "phi4-mini-instruct",
+    "qwen2.5-0.5b-instruct",
+    "qwen2.5-1.5b-instruct",
+    "qwen2.5-14b-instruct",
+    "qwen2.5-7b-instruct"
+   ],
+   "n_models": 13,
+   "shape": [
+    13,
+    4,
+    2,
+    2
+   ],
+   "facets": [
+    "M",
+    "W",
+    "O",
+    "T"
+   ],
+   "wordings": [
+    "W0",
+    "W1",
+    "W2",
+    "W3"
+   ],
+   "temps": [
+    0.7,
+    1.0
+   ],
+   "a1_max_abs_diff": 1.1102230246251565e-16,
+   "draw_share_e2": 0.038300207511430706,
+   "n_conditions": 416,
+   "n_clipped": 109,
+   "clip_rate": 0.2620192307692308,
+   "note": "logit scale, clip rate 0.2620 (109 of 416 conditions)"
+  }
+ },
+ "not_decomposed": {}
+}

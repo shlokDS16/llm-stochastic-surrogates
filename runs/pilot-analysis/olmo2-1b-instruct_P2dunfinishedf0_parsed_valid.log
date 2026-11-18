@@ -1,0 +1,3 @@
+olmo2-1b-instruct P2d: sampled=1600 validity=0.916 by_format={'F0': 0.90125, 'F1': 0.93125}
+  primary [standardised]: cells 16/16 dbar=0.759 S=0.765 CI95=[0.503, 0.955] shares_reportable=True sign_stab=0.75
+  sens_raw [standardised]: cells 16/16 dbar=0.560 S=0.488 CI95=[0.24, 0.649] shares_reportable=True sign_stab=0.62

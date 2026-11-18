@@ -1,0 +1,21 @@
+{
+ "script": "analysis/acme/make_tab_results_num.py",
+ "gstudy_dir": "runs/acme-gstudy/route-table",
+ "gstudy_dir_resolved": "C:\\Users\\Shlok\\Downloads\\Thenboli ma'am review paper\\runs\\acme-gstudy\\route-table",
+ "git_head": "998723cbed0898076c76fd888bc57a6d0237ebb7",
+ "timestamp_utc": "2026-11-07T19:40:54+00:00",
+ "inputs": {
+  "runs/acme-gstudy/route-table/hypotheses_estimates.csv": "d00a0d0767161925d42c9471e125a4b5e8be6344267a0d139a31dd9c3840a7dd",
+  "runs/acme-gstudy/route-table/route_table.csv": "68c7f9818ef1993e40318289fd06836dc5838e0eb271974240047ac3dfda2e97",
+  "runs/acme-gstudy/route-table/sens_table.csv": "a326f9dc0b5b473abaed4b79106b2df230e2c43870c0a5f62cbf850de2559a58",
+  "runs/acme-L/rosters.csv": "0db9df470b17d12833e85b3896cd929ad0f070b61f21fbee4dde438be8cf7fd1",
+  "runs/human-ml1-acme/arml_scales.csv": "6be5e76ffa533f7180fa10638265e7f04ca8019b2a2f3c7e26385fbd49ad8a2a"
+ },
+ "items": [
+  "P2a",
+  "P2b",
+  "P2c",
+  "P2d",
+  "P4"
+ ]
+}

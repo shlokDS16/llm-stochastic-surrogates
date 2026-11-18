@@ -1,0 +1,26 @@
+{
+ "order": 65,
+ "study_id": "https://openalex.org/W4402667152",
+ "pass": "codex",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/065_W4402667152.md",
+ "sources_varied": [],
+ "X1": {
+  "value": "no",
+  "sources_crossed": [],
+  "evidence": "Secs. 3.2–4: uses GPT-2 with fixed spaCy parsing and samples 1,000 completions; no simulation source is varied."
+ },
+ "X2": {
+  "value": "no",
+  "x2_types": [],
+  "x2_sources": [],
+  "evidence": "Sec. 5, Tables 1–4: reports outcomes by sentence condition and IF measure, with no quantified effects attributed to a varied simulation source."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "Secs. 4–5, Tables 1–4: no simulation sources are varied or their interaction estimated or shown."
+ },
+ "notes": ""
+}

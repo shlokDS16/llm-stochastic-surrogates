@@ -1,0 +1,10 @@
+paradigm: P2a
+wording: W1
+response_type: number
+intro: We would like to know what people believe about the world around them. Please give your best estimate for the following question. If you do not know the answer, just make your best guess.
+conditions:
+  x1: San Francisco is less than 6,000 miles from New York City. How far apart do you think the two cities are?
+  x0: San Francisco is more than 1,500 miles from New York City. How far apart do you think the two cities are?
+condition_names:
+  x1: high anchor
+  x0: low anchor

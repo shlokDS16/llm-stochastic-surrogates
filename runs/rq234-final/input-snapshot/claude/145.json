@@ -1,0 +1,52 @@
+{
+  "order": 145,
+  "study_id": "https://openalex.org/W3163651756",
+  "full_text": {"obtained": true, "source": "research/sources/md/fulltext/145_W3163651756.md (arXiv 2105.02987 v1 PDF, CogSci 2021 preprint)"},
+  "eligibility": {"decision": "YES", "failed_criterion": null, "borderline": false,
+    "evidence": "Methods and Experiments 1-2 (pp.2-4): sentence-verification and category-based induction tests modelled on Rips et al. 1973, Rosch 1973, Osherson et al. 1990, using Rosch 1975 typicality ratings; GPT/GPT-2 (generative) plus masked LMs queried via log-probabilities."},
+  "A": {"doi": "10.48550/arxiv.2105.02987", "arxiv_id": "2105.02987",
+        "title": "Do language models learn typicality judgments from text?",
+        "first_author": "Misra", "year": 2021, "venue": "Proceedings of the Annual Conference of the Cognitive Science Society (CogSci 2021; arXiv preprint of accepted manuscript)",
+        "peer_reviewed": "yes", "first_author_field": "CS", "country": "USA"},
+  "B": {"models": [
+    {"name": "GPT", "version": "not_reported", "access": "open_weights", "params_b": null, "release_date": "not_reported", "tuning": "base", "family": "GPT", "query_date": "not_reported"},
+    {"name": "GPT2", "version": "not_reported", "access": "open_weights", "params_b": null, "release_date": "not_reported", "tuning": "base", "family": "GPT", "query_date": "not_reported"},
+    {"name": "GPT2-m", "version": "not_reported", "access": "open_weights", "params_b": null, "release_date": "not_reported", "tuning": "base", "family": "GPT", "query_date": "not_reported"},
+    {"name": "GPT2-l", "version": "not_reported", "access": "open_weights", "params_b": null, "release_date": "not_reported", "tuning": "base", "family": "GPT", "query_date": "not_reported"},
+    {"name": "GPT2-xl", "version": "not_reported", "access": "open_weights", "params_b": null, "release_date": "not_reported", "tuning": "base", "family": "GPT", "query_date": "not_reported"},
+    {"name": "distilGPT2", "version": "not_reported", "access": "open_weights", "params_b": null, "release_date": "not_reported", "tuning": "base", "family": "GPT", "query_date": "not_reported"}
+  ], "n_models": 6, "n_model_families": 1},
+  "C": {"paradigms": [
+    {"pid": "P1", "name": "Taxonomic sentence verification (typicality effect: 'A X is a Y', log-probability of category word)", "family": "LEARN",
+     "source_paper": "Rips, Shoben & Smith 1973; Rosch 1973; Rosch 1975 ratings", "items_origin": "adapted", "n_items": 565, "languages": ["English"], "modality": "text",
+     "contamination_risk": "partly", "location": "Experiment 1 and Stimuli Setup, pp.2-3; Table 1 p.1 (565 items, 10 categories)"},
+    {"pid": "P2", "name": "Category-based induction (typicality of premise item; nonce-property premise-conclusion pairs)", "family": "RE",
+     "source_paper": "Rips 1975; Osherson, Smith, Wilkie, Lopez & Shafir 1990", "items_origin": "adapted", "n_items": 12180, "languages": ["English"], "modality": "text",
+     "contamination_risk": "no", "location": "Experiment 2, pp.3-4 (12,180 premise-conclusion pairs, nonce properties such as dax)"}
+  ]},
+  "D": {"types": ["published_norms"], "primary_type": "published_norms", "human_n": 209,
+        "population": "native English speakers in Rosch 1975 norming study (goodness-of-example ratings, 10 categories)",
+        "metric": "Rosch 1975 typicality ratings (1-7); Spearman rho with LM log-probabilities; typical vs atypical median split"},
+  "E": {"outcome_types": ["human_correlation", "effect_size"], "rows_aggregated": false,
+        "effects": [
+    {"pid": "P1", "model": "GPT", "model_family": "GPT", "outcome_kind": "effect", "basis": "test", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "different", "model_vs_human": "not_compared", "agreement_value": null, "label": "ATTENUATED", "location": "Exp. 1 Results p.3 and Fig. 1A-B (per-model rho only in figure; text: rho 0.24-0.41, p<.001 across LMs; less extreme than humans, p<.001 across all models)"},
+    {"pid": "P1", "model": "GPT2", "model_family": "GPT", "outcome_kind": "effect", "basis": "test", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "different", "model_vs_human": "not_compared", "agreement_value": null, "label": "ATTENUATED", "location": "Exp. 1 Results p.3 and Fig. 1A-B (per-model rho only in figure; text pooled over LMs)"},
+    {"pid": "P1", "model": "GPT2-m", "model_family": "GPT", "outcome_kind": "effect", "basis": "test", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "different", "model_vs_human": "not_compared", "agreement_value": null, "label": "ATTENUATED", "location": "Exp. 1 Results p.3 and Fig. 1A-B (per-model rho only in figure; text pooled over LMs)"},
+    {"pid": "P1", "model": "GPT2-l", "model_family": "GPT", "outcome_kind": "effect", "basis": "test", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "different", "model_vs_human": "not_compared", "agreement_value": null, "label": "ATTENUATED", "location": "Exp. 1 Results p.3 and Fig. 1A-B (per-model rho only in figure; text pooled over LMs)"},
+    {"pid": "P1", "model": "GPT2-xl", "model_family": "GPT", "outcome_kind": "effect", "basis": "test", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "different", "model_vs_human": "not_compared", "agreement_value": null, "label": "ATTENUATED", "location": "Exp. 1 Results p.3 and Fig. 1A-B (per-model rho only in figure; text pooled over LMs)"},
+    {"pid": "P1", "model": "distilGPT2", "model_family": "GPT", "outcome_kind": "effect", "basis": "test", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "different", "model_vs_human": "not_compared", "agreement_value": null, "label": "ATTENUATED", "location": "Exp. 1 Results p.3 and Fig. 1A-B (per-model rho only in figure; text pooled over LMs)"},
+    {"pid": "P2", "model": "GPT", "model_family": "GPT", "outcome_kind": "effect", "basis": "test", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "SAME-DIRECTION-UNQUANTIFIED", "location": "Exp. 2 Results p.4-5 and Fig. 2A-B (per-model rho only in figure; text: rho 0.27-0.45, p<.001 across LMs; 'less extreme than humans' stated descriptively in Introduction, no test)"},
+    {"pid": "P2", "model": "GPT2", "model_family": "GPT", "outcome_kind": "effect", "basis": "test", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "SAME-DIRECTION-UNQUANTIFIED", "location": "Exp. 2 Results p.4-5 and Fig. 2A-B (per-model rho only in figure; text pooled over LMs)"},
+    {"pid": "P2", "model": "GPT2-m", "model_family": "GPT", "outcome_kind": "effect", "basis": "test", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "SAME-DIRECTION-UNQUANTIFIED", "location": "Exp. 2 Results p.4-5 and Fig. 2A-B (per-model rho only in figure; text pooled over LMs)"},
+    {"pid": "P2", "model": "GPT2-l", "model_family": "GPT", "outcome_kind": "effect", "basis": "test", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "SAME-DIRECTION-UNQUANTIFIED", "location": "Exp. 2 Results p.4-5 and Fig. 2A-B (per-model rho only in figure; text pooled over LMs)"},
+    {"pid": "P2", "model": "GPT2-xl", "model_family": "GPT", "outcome_kind": "effect", "basis": "test", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "SAME-DIRECTION-UNQUANTIFIED", "location": "Exp. 2 Results p.4-5 and Fig. 2A-B (per-model rho only in figure; text pooled over LMs)"},
+    {"pid": "P2", "model": "distilGPT2", "model_family": "GPT", "outcome_kind": "effect", "basis": "test", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "SAME-DIRECTION-UNQUANTIFIED", "location": "Exp. 2 Results p.4-5 and Fig. 2A-B (per-model rho only in figure; text pooled over LMs)"}
+  ],
+  "headline": "LMs show modest but non-zero sensitivity to typicality in both tests, less extreme than humans; text exposure alone seems insufficient to acquire typicality knowledge."},
+  "F": {"f1": "no", "f2": "na", "f3": "na", "f4": "yes", "f5": "no", "f6": "na", "f7": "na", "f8": "no",
+        "f9": "yes", "f10": "yes", "f11": "no", "f12": "yes", "perturbations_tested": ["other"],
+        "robustness_outcome": "na"},
+  "G": {"notes": "Models are scored by log-probability, no sampling. Per-model correlations appear only in figures, so no model_es. Masked LMs and a 5-gram baseline are excluded from B; their results are pooled in the text ranges. Exact checkpoint identifiers not given. Premise shuffling and property-repeat controls enter as regression covariates.",
+        "extractor": "paper-reader (claude-sonnet)", "date": "2026-10-16", "minutes": 7,
+        "sections_read": ["abstract", "Introduction", "Materials and Methods", "Experiments 1 and 2 with results", "General Discussion and Conclusion", "Reproducibility statement"]}
+}

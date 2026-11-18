@@ -1,0 +1,29 @@
+{
+ "order": 98,
+ "study_id": "https://openalex.org/W4324108791",
+ "pass": "codex",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/098_W4324108791.md",
+ "sources_varied": [
+  "P",
+  "R"
+ ],
+ "X1": {
+  "value": "partial",
+  "sources_crossed": [],
+  "evidence": "Sec. 4.2: simulated participants received sampled demographic and relative-deprivation profiles (P); five completions per participant used temperature 1.0, while Study 1 ran ten blocks of 100 participants (repeats averaged across blocks, not analyzed as run variation)."
+ },
+ "X2": {
+  "value": "no",
+  "x2_types": [],
+  "x2_sources": [],
+  "evidence": "Secs. 3.3 and 4.3, Tables 4–7: outcome effects are quantified for experimental exposure or framing conditions, but no quantified outcome movement is attributed to varied simulation-uncertainty sources."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "Sec. 4.3, Table 7: reported interactions involve framing variables and participant relative deprivation; no interaction between simulation-uncertainty sources is estimated or shown."
+ },
+ "notes": "Study 2 varies simulated participant profiles (persona, P) and randomly assigns article framing, but article framing is the experimental condition and excluded as a source. Study 1 uses Latin-square balancing and repeated blocks to estimate ratings, not run-to-run variation."
+}

@@ -1,0 +1,28 @@
+{
+ "order": 107,
+ "study_id": "W4390740352",
+ "pass": "codex",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/107_W4390740352.md",
+ "sources_varied": [
+  "M"
+ ],
+ "X1": {
+  "value": "no",
+  "sources_crossed": [],
+  "evidence": "Methods: GPT-3 davinci-003 and GPT-4 generated stories on the same prompts; the temperature was sampled from .65–.80, with no levels or analysis of run-to-run variation reported."
+ },
+ "X2": {
+  "value": "no",
+  "x2_types": [],
+  "x2_sources": [],
+  "evidence": "Statistical Analyses and Results: model comparisons report condition effects, but no quantified decomposition of variation attributable to model as a source."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "Results: no interaction between model and another varied simulation source is estimated or shown."
+ },
+ "notes": "Human-generated stories are a comparison condition, not a simulation-uncertainty source. The temperature range is described, but the text does not report distinct temperature levels as a design factor."
+}

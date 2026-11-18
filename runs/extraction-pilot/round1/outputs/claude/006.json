@@ -1,0 +1,48 @@
+{
+  "order": 6,
+  "study_id": "https://openalex.org/W4409762247",
+  "full_text": {"obtained": true, "source": "research/sources/md/fulltext/006_W4409762247.md"},
+  "eligibility": {
+    "decision": "YES",
+    "failed_criterion": null,
+    "borderline": true,
+    "evidence": "Sections II-III. GPT-4 (OpenAI API) rates 200 emotion-evoking stimuli on the human appraisal and emotion scales of Skerry and Saxe 2015 (E2 test a: cites the human study), then crowd-enVENT vignettes; behavioural outcomes are correlations, accuracy and Krippendorff alpha. Borderline because Study 2 is an NLP emotion corpus and the paradigm is emotion attribution rather than a classic named task."
+  },
+  "A": {"doi": null, "arxiv_id": "2408.13718", "title": "GPT-4 Emulates Average-Human Emotional Cognition from a Third-Person Perspective", "first_author": "Ala N. Tak", "year": 2024, "venue": "arXiv preprint (cs.AI), v1 dated 11 Aug 2024 (no venue stated in the text)",
+        "peer_reviewed": "preprint", "first_author_field": "CS", "country": "USA"},
+  "B": {"models": [{"name": "GPT-4", "version": "not_reported", "access": "API", "params_b": null,
+                    "release_date": "not_reported", "tuning": "not_reported", "family": "GPT",
+                    "query_date": "not_reported"}],
+        "n_models": 1, "n_model_families": 1},
+  "C": {"paradigms": [
+    {"pid": "P1", "name": "Appraisal and basic-emotion rating of crafted emotion-evoking stimuli, with classification of the intended emotion (Study 1)", "family": "TOM",
+     "source_paper": "Skerry and Saxe 2015, Current Biology 25(15):1945-54", "items_origin": "verbatim", "n_items": 200,
+     "languages": [], "modality": "text", "contamination_risk": "yes",
+     "location": "Section II (Study 1), subsections A-D; Fig. 1, Fig. 2, Tables I-II"},
+    {"pid": "P2", "name": "Appraisal rating and emotion recognition on self-reported vignettes with author and reader annotations (Study 2, crowd-enVENT)", "family": "TOM",
+     "source_paper": "Troiano, Oberlaender and Klinger 2023, Computational Linguistics", "items_origin": "verbatim", "n_items": 1200,
+     "languages": [], "modality": "text", "contamination_risk": "not_reported",
+     "location": "Section III (Study 2), subsections A-B; Fig. 8, Fig. 9"}
+  ]},
+  "D": {"types": ["published_norms"], "primary_type": "published_norms", "human_n": null,
+        "population": "Study 1: MTurk participants of Skerry and Saxe 2015 (1521 total responses, participant count not stated). Study 2: crowd-enVENT authors (self-assessment) and five external readers per vignette.",
+        "metric": "Pearson r of stimulus-mean ratings; classification accuracy and F1; Krippendorff alpha; Jensen-Shannon divergence of rating distributions"},
+  "E": {"outcome_types": ["accuracy", "human_correlation", "other"], "rows_aggregated": false,
+        "effects": [
+          {"pid": "P1", "model": "GPT-4", "model_effect_present": "no",
+           "human_effect_present": "yes", "direction": "not_applicable", "model_es": 99.7,
+           "human_es": 56.6, "es_metric": "ensemble-classifier accuracy (%) of the 20 intended emotions from the full appraisal space, GPT-4 ratings vs human ratings", "authors_comparison": "not_tested", "label": "SUPER-NORMATIVE",
+           "location": "Section II-A and II-B text; Fig. 2c (GPT-4 above MTurk 65% label accuracy); Tables I-II (r = 0.53 to 0.97, all p<.001)"},
+          {"pid": "P2", "model": "GPT-4", "model_effect_present": "not_reported",
+           "human_effect_present": "not_reported", "direction": "not_applicable", "model_es": null,
+           "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "label": "INSUFFICIENT",
+           "location": "Section III-A and III-B; Fig. 8 and Fig. 9 report Krippendorff alpha only in figures, no values in the text"}
+        ],
+        "headline": "GPT-4 appraisals and emotion labels agree more with average third-person readers than with authors' self-reports, so it acts like an average human observer."},
+  "F": {"f1": "no", "f2": "yes", "f3": "yes", "f4": "no", "f5": "no", "f6": "no", "f7": "no", "f8": "no",
+        "f9": "no", "f10": "yes", "f11": "no", "f12": "no", "perturbations_tested": [],
+        "robustness_outcome": "na"},
+  "G": {"notes": "No model version or date for a model the authors say is updated constantly. Temperature 0 yet eight repeats per prompt (Study 1 only). 99.7 vs 56.6 percent compares ensemble classifiers on ratings; no inferential test. Study 2 alphas appear only in figures. Single model, no prompt robustness, no code link.",
+        "extractor": "paper-reader (claude-sonnet)", "date": "2026-10-16", "minutes": 6,
+        "sections_read": ["Abstract", "I Introduction", "II Study 1 (A-E)", "III Study 2 (A-B)", "IV General Discussion", "Ethical Impact Statement", "References", "Tables I-II (Figures 2-9 not readable as text)"]}
+}

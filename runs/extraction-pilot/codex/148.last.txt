@@ -1,0 +1,238 @@
+{
+  "order": 148,
+  "study_id": "https://openalex.org/W4386910589",
+  "full_text": {
+    "obtained": true,
+    "source": "provided full text"
+  },
+  "eligibility": {
+    "decision": "YES",
+    "failed_criterion": null,
+    "borderline": false,
+    "evidence": "Experiments 1–2, pp. 8–23: compares GPT-3.5 and GPT-4 on property-induction tasks with human judgments from newly recruited participants."
+  },
+  "A": {
+    "doi": null,
+    "arxiv_id": "2306.08456",
+    "title": "Inductive reasoning in humans and large language models",
+    "first_author": "Simon J. Han",
+    "year": 2023,
+    "venue": "arXiv preprint",
+    "peer_reviewed": "preprint",
+    "first_author_field": "psychology",
+    "country": "Australia"
+  },
+  "B": {
+    "models": [
+      {
+        "name": "GPT-4",
+        "version": "gpt-4-0314",
+        "access": "API",
+        "params_b": null,
+        "release_date": "not_reported",
+        "tuning": "instruction",
+        "family": "GPT",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "GPT-3.5",
+        "version": "text-davinci-003",
+        "access": "API",
+        "params_b": null,
+        "release_date": "not_reported",
+        "tuning": "instruction",
+        "family": "GPT",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "GPT-3.5",
+        "version": "gpt-3.5-turbo-0613",
+        "access": "API",
+        "params_b": null,
+        "release_date": "not_reported",
+        "tuning": "instruction",
+        "family": "GPT",
+        "query_date": "not_reported"
+      }
+    ],
+    "n_models": 3,
+    "n_model_families": 1
+  },
+  "C": {
+    "paradigms": [
+      {
+        "pid": "P1",
+        "name": "Property induction: choosing the stronger argument in pairs across 11 phenomena and three domains",
+        "family": "RE",
+        "source_paper": "Osherson et al. (1990)",
+        "items_origin": "adapted",
+        "n_items": 792,
+        "languages": [
+          "English"
+        ],
+        "modality": "text",
+        "contamination_risk": "partly",
+        "location": "Experiment 1, pp. 8–13; Table 1"
+      },
+      {
+        "pid": "P2",
+        "name": "Property induction: rating individual argument strength across domains and premise counts",
+        "family": "RE",
+        "source_paper": "Osherson et al. (1990); Glick (2011)",
+        "items_origin": "mixed",
+        "n_items": 1168,
+        "languages": [
+          "English"
+        ],
+        "modality": "text",
+        "contamination_risk": "partly",
+        "location": "Experiment 2, pp. 16–20"
+      }
+    ]
+  },
+  "D": {
+    "types": [
+      "own_sample",
+      "published_norms"
+    ],
+    "primary_type": "own_sample",
+    "human_n": 770,
+    "population": "English-proficient Amazon Mechanical Turk participants; Experiment 1 retained 110 of 120, Experiment 2 recruited 610, plus 40 for the Osherson replication",
+    "metric": "Experiment 1: one-sample sign tests of preference for theoretically stronger arguments; Experiment 2: Spearman correlation between model and human argument-strength ratings, with bootstrap comparisons"
+  },
+  "E": {
+    "outcome_types": [
+      "bias_magnitude",
+      "human_correlation"
+    ],
+    "rows_aggregated": false,
+    "effects": [
+      {
+        "pid": "P1",
+        "model": "GPT-4 (gpt-4-0314)",
+        "model_family": "GPT",
+        "outcome_kind": "effect",
+        "basis": "test",
+        "model_effect_present": "yes",
+        "human_effect_present": "yes",
+        "direction": "same",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "SAME-DIRECTION-UNQUANTIFIED",
+        "location": "Table 4, pp. 14–15; sign tests by phenomenon and domain"
+      },
+      {
+        "pid": "P1",
+        "model": "GPT-3.5 (text-davinci-003)",
+        "model_family": "GPT",
+        "outcome_kind": "effect",
+        "basis": "test",
+        "model_effect_present": "no",
+        "human_effect_present": "yes",
+        "direction": "not_applicable",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "SUPER-NORMATIVE",
+        "location": "Table 4, pp. 14–15; sign tests by phenomenon and domain"
+      },
+      {
+        "pid": "P1",
+        "model": "GPT-3.5 (gpt-3.5-turbo-0613)",
+        "model_family": "GPT",
+        "outcome_kind": "effect",
+        "basis": "test",
+        "model_effect_present": "yes",
+        "human_effect_present": "yes",
+        "direction": "same",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "SAME-DIRECTION-UNQUANTIFIED",
+        "location": "Appendix D, Table D1, pp. 48–49; sign tests by phenomenon and domain"
+      },
+      {
+        "pid": "P2",
+        "model": "GPT-4 (gpt-4-0314)",
+        "model_family": "GPT",
+        "outcome_kind": "agreement",
+        "basis": "test",
+        "model_effect_present": "na",
+        "human_effect_present": "na",
+        "direction": "not_applicable",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": "Spearman's rho",
+        "authors_comparison": "different",
+        "model_vs_human": "not_compared",
+        "agreement_value": "Correlations varied by domain, conclusion type, and premise count; specific-argument results nearly matched Human SCM, while general-argument results were weaker overall.",
+        "label": "AGREEMENT-ONLY",
+        "location": "Figure 5, Table 6, pp. 21–23"
+      },
+      {
+        "pid": "P2",
+        "model": "GPT-3.5 (text-davinci-003)",
+        "model_family": "GPT",
+        "outcome_kind": "agreement",
+        "basis": "test",
+        "model_effect_present": "na",
+        "human_effect_present": "na",
+        "direction": "not_applicable",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": "Spearman's rho",
+        "authors_comparison": "different",
+        "model_vs_human": "not_compared",
+        "agreement_value": "Correlations varied by domain, conclusion type, and premise count; GPT-3.5 performed relatively well on general arguments.",
+        "label": "AGREEMENT-ONLY",
+        "location": "Figure 5, Table 6, pp. 21–23"
+      }
+    ],
+    "headline": "GPT-4 captured many property-induction phenomena and matched human argument ratings in several conditions, but both GPT models struggled with non-monotonicity."
+  },
+  "F": {
+    "f1": "no",
+    "f2": "yes",
+    "f3": "no",
+    "f4": "yes",
+    "f5": "yes",
+    "f6": "yes",
+    "f7": "no",
+    "f8": "yes",
+    "f9": "yes",
+    "f10": "yes",
+    "f11": "no",
+    "f12": "yes",
+    "perturbations_tested": [
+      "wording",
+      "option_order",
+      "model_version",
+      "contamination"
+    ],
+    "robustness_outcome": "survived"
+  },
+  "G": {
+    "notes": "The paper reports qualitative prompts and selects the best performing variants; clarify how prompt selection affects headline comparisons. Several Experiment 1 human effects are not statistically robust, and Experiment 2 multi-premise general ratings have low split-half reliability.",
+    "extractor": "codex (default)",
+    "date": "2026-10-16",
+    "minutes": null,
+    "sections_read": [
+      "Abstract",
+      "Experiments 1–2: methods and results",
+      "Tables 1–6 and Figures 3–6",
+      "Discussion and limitations",
+      "Appendices A–F",
+      "Code and data availability"
+    ]
+  }
+}

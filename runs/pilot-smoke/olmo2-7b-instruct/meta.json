@@ -1,0 +1,38 @@
+{
+  "model": "olmo2-7b-instruct",
+  "repo": "allenai/OLMo-2-1124-7B-Instruct",
+  "revision": "470b1fba1ae01581f270116362ee4aa1b97f4c84",
+  "quant": "nf4_saved",
+  "batch_size": 32,
+  "torch": "2.11.0+cu128",
+  "transformers": "5.20.0",
+  "cuda": "12.8",
+  "gpu": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+  "git_sha": "70a8d8609e2c9dc1daea16813da61d3f8f2e1d18",
+  "config_sha256_16": "22b3c6886b9d6033",
+  "n": 10,
+  "wordings": [
+    "W0"
+  ],
+  "formats": [
+    "F0",
+    "F1"
+  ],
+  "temps": [
+    1.0
+  ],
+  "orders": [
+    "sure_first"
+  ],
+  "greedy": false,
+  "max_new_tokens": {
+    "F0": 24,
+    "F1": 128
+  },
+  "eos_ids": [
+    100257,
+    100265
+  ],
+  "prompt_manifest": "verified",
+  "started": "2026-10-16T02:58:46+0530"
+}

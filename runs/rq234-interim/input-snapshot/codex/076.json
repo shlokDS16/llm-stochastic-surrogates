@@ -1,0 +1,302 @@
+{
+ "order": 76,
+ "study_id": "https://openalex.org/W7140140566",
+ "full_text": {
+  "obtained": true,
+  "source": "research/sources/md/fulltext/076_W7140140566.md"
+ },
+ "eligibility": {
+  "decision": "YES",
+  "failed_criterion": null,
+  "borderline": false,
+  "evidence": "Sections 3–5, pp. 792–798: applies a cited human linguistic-accommodation paradigm to model-generated dialogue and compares convergence with human utterances."
+ },
+ "A": {
+  "doi": null,
+  "arxiv_id": null,
+  "title": "Do language models accommodate their users? A study of linguistic convergence",
+  "first_author": "Terra Blevins",
+  "year": 2026,
+  "venue": "Proceedings of the 19th Conference of the European Chapter of the Association for Computational Linguistics, Volume 1: Long Papers",
+  "peer_reviewed": "yes",
+  "first_author_field": "CS",
+  "country": "United States"
+ },
+ "B": {
+  "models": [
+   {
+    "name": "Gemma 3 1B pretrained",
+    "version": "Gemma3-1B pretrained",
+    "access": "open_weights",
+    "params_b": 1,
+    "release_date": "not_reported",
+    "tuning": "base",
+    "family": "Gemini",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Gemma 3 1B instruction-tuned",
+    "version": "Gemma3-1B instruction-tuned",
+    "access": "open_weights",
+    "params_b": 1,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "Gemini",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Gemma 3 4B pretrained",
+    "version": "Gemma3-4B pretrained",
+    "access": "open_weights",
+    "params_b": 4,
+    "release_date": "not_reported",
+    "tuning": "base",
+    "family": "Gemini",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Gemma 3 4B instruction-tuned",
+    "version": "Gemma3-4B instruction-tuned",
+    "access": "open_weights",
+    "params_b": 4,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "Gemini",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Gemma 3 12B pretrained",
+    "version": "Gemma3-12B pretrained",
+    "access": "open_weights",
+    "params_b": 12,
+    "release_date": "not_reported",
+    "tuning": "base",
+    "family": "Gemini",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Gemma 3 12B instruction-tuned",
+    "version": "Gemma3-12B instruction-tuned",
+    "access": "open_weights",
+    "params_b": 12,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "Gemini",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Gemma 3 27B pretrained",
+    "version": "Gemma3-27B pretrained",
+    "access": "open_weights",
+    "params_b": 27,
+    "release_date": "not_reported",
+    "tuning": "base",
+    "family": "Gemini",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Gemma 3 27B instruction-tuned",
+    "version": "Gemma3-27B instruction-tuned",
+    "access": "open_weights",
+    "params_b": 27,
+    "tuning": "instruction",
+    "family": "Gemini",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Llama 3 1B pretrained",
+    "version": "Llama3.2-1B pretrained",
+    "access": "open_weights",
+    "params_b": 1,
+    "release_date": "not_reported",
+    "tuning": "base",
+    "family": "Llama",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Llama 3 1B instruction-tuned",
+    "version": "Llama3.2-1B instruction-tuned",
+    "access": "open_weights",
+    "params_b": 1,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "Llama",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Llama 3 3B pretrained",
+    "version": "Llama3.2-3B pretrained",
+    "access": "open_weights",
+    "params_b": 3,
+    "release_date": "not_reported",
+    "tuning": "base",
+    "family": "Llama",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Llama 3 3B instruction-tuned",
+    "version": "Llama3.2-3B instruction-tuned",
+    "access": "open_weights",
+    "params_b": 3,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "Llama",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Llama 3 8B pretrained",
+    "version": "Llama3.1-8B pretrained",
+    "access": "open_weights",
+    "params_b": 8,
+    "release_date": "not_reported",
+    "tuning": "base",
+    "family": "Llama",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Llama 3 8B instruction-tuned",
+    "version": "Llama3.1-8B instruction-tuned",
+    "access": "open_weights",
+    "params_b": 8,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "Llama",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Llama 3 70B pretrained",
+    "version": "Llama3.1-70B pretrained",
+    "access": "open_weights",
+    "params_b": 70,
+    "release_date": "not_reported",
+    "tuning": "base",
+    "family": "Llama",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Llama 3 70B instruction-tuned",
+    "version": "Llama3.1-70B instruction-tuned",
+    "access": "open_weights",
+    "params_b": 70,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "Llama",
+    "query_date": "not_reported"
+   }
+  ],
+  "n_models": 16,
+  "n_model_families": 2
+ },
+ "C": {
+  "paradigms": [
+   {
+    "pid": "P1",
+    "name": "Linguistic convergence in dialogue completion, assessed by utterance length, LIWC agreement, proper-noun overlap, and token novelty",
+    "family": "LANG",
+    "source_paper": "Ireland et al. (2011); linguistic accommodation paradigm",
+    "items_origin": "adapted",
+    "n_items": null,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "partly",
+    "location": "Sections 3–5, pp. 792–798; Tables 1, 5–10, pp. 793, 803–807"
+   }
+  ]
+ },
+ "D": {
+  "types": [
+   "own_sample",
+   "published_norms"
+  ],
+  "primary_type": "published_norms",
+  "human_n": null,
+  "population": "Existing human-authored English conversations from DailyDialog, NPR interview transcripts, and the Cornell Movie Corpus; no participant count reported.",
+  "metric": "Convergence scores on utterance length, LIWC agreement, proper-noun overlap, and token novelty; paired t-tests compare model scores with human baselines."
+ },
+ "E": {
+  "outcome_types": [
+   "bias_magnitude",
+   "effect_size"
+  ],
+  "rows_aggregated": true,
+  "effects": [
+   {
+    "pid": "P1",
+    "model": "Gemma3-27B instruction-tuned",
+    "model_family": "Gemini",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "different",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Sections 5.2–5.4, pp. 795–798; Tables 5–10, pp. 803–807. Pooled across models, datasets and metrics; paired t-tests report model-human differences."
+   },
+   {
+    "pid": "P1",
+    "model": "Llama3-70B instruction-tuned",
+    "model_family": "Llama",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "different",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Sections 5.2–5.4, pp. 795–798; Tables 5–10, pp. 803–807. Pooled across models, datasets and metrics; paired t-tests report model-human differences."
+   }
+  ],
+  "headline": "Models generally converge toward conversational style, often more strongly than human baselines; convergence varies by feature, dataset, size, and tuning."
+ },
+ "F": {
+  "f1": "no",
+  "f2": "yes",
+  "f3": "no",
+  "f4": "yes",
+  "f5": "no",
+  "f6": "na",
+  "f7": "no",
+  "f8": "yes",
+  "f9": "no",
+  "f10": "yes",
+  "f11": "no",
+  "f12": "yes",
+  "perturbations_tested": [
+   "decoding",
+   "model_version"
+  ],
+  "robustness_outcome": "mixed"
+ },
+ "G": {
+  "notes": "The authors describe 16 models but model-specific results are not fully legible in the extracted tables; several conclusions are pooled across datasets and features. The human baseline comes from existing dialogue corpora, with no participant count stated.",
+  "extractor": "codex (default)",
+  "date": "2026-10-16",
+  "minutes": 0.6,
+  "sections_read": [
+   "Abstract",
+   "Introduction",
+   "Related Work",
+   "Methods and experimental setup",
+   "Results",
+   "Discussion",
+   "Limitations",
+   "Appendix A: Further Experimental Details",
+   "Appendix B: Additional Analysis Results",
+   "Tables 1–10",
+   "Artifact licensing and use"
+  ]
+ }
+}

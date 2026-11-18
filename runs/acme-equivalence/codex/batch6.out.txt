@@ -1,0 +1,15 @@
+{"id":"E096","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Both versions preserve the same cities, mile units, anchors, estimates, and no-anchor question."}
+{"id":"E097","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Both conditions retain the same disease scenario, program outcomes, probabilities, and choice task."}
+{"id":"E098","label":"NOT-EQUIVALENT","element":"manipulation","confidence":5,"reason":"A asks whether reporters should be barred; B asks whether they should be allowed, reversing the response frame."}
+{"id":"E099","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Both versions preserve the scenario, program outcomes, probabilities, and program-choice task."}
+{"id":"E100","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Both versions ask whether the U.S. should forbid or allow public speech against democracy in matching conditions."}
+{"id":"E101","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Both versions ask for Everest's height in feet with matching anchors and no-anchor condition."}
+{"id":"E102","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Both versions preserve the daily U.S. birth estimate task, anchors, and no-anchor question."}
+{"id":"E103","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Both versions preserve the Everest height estimate, feet, matching anchors, and no-anchor condition."}
+{"id":"E104","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Both versions ask whether the U.S. should forbid or allow public talks or speeches against democracy."}
+{"id":"E105","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Both versions retain identical disease outcomes, probabilities, program labels, and choice task."}
+{"id":"E106","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Both versions preserve Chicago population estimation with matching numeric anchors and no-anchor condition."}
+{"id":"E107","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Both versions preserve the city pair, mile units, anchors, and estimate task in each condition."}
+{"id":"E108","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Both versions preserve the city pair, distance estimate, mile units, anchors, and no-anchor condition."}
+{"id":"E109","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Both versions preserve the disease scenario, program outcomes, probabilities, and choice task."}
+{"id":"E110","label":"EQUIVALENT","element":"none","confidence":5,"reason":"Both versions ask whether the U.S. should forbid or allow public addresses or speeches against democracy."}

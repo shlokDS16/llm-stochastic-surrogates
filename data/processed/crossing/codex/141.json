@@ -1,0 +1,42 @@
+{
+ "order": 141,
+ "study_id": "https://openalex.org/W4415797152",
+ "pass": "codex",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/141_W4415797152.md",
+ "sources_varied": [
+  "M",
+  "W",
+  "X",
+  "P"
+ ],
+ "X1": {
+  "value": "yes",
+  "sources_crossed": [
+   "M",
+   "W"
+  ],
+  "evidence": "Sec. 4.1, Fig. 3 and Appendix E, Table 7: each graph domain was described in five narrative styles and evaluated with the LLMs."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "W",
+   "X",
+   "P"
+  ],
+  "evidence": "Sec. 4.1, Fig. 3 and Appendix E, Table 7: accuracy is reported by narrative style, and authors report better performance when style matches graph domain. Sec. 4.2, Fig. 3: performance is shown across memory-clearance levels. Appendix D, Fig. 9: performance is compared between male and female roles."
+ },
+ "X3": {
+  "value": "yes",
+  "x3_pairs": [
+   "M x W"
+  ],
+  "evidence": "Sec. 4.1, Fig. 3: narrative-style heatmaps are shown separately by model; authors state the matching-style effect is more prominent for better-performing models."
+ },
+ "notes": ""
+}

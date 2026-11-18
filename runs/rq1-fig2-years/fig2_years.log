@@ -1,0 +1,215 @@
+2026-10-17 09:40:32,682 view A N=2022 by year {2018: 1, 2019: 2, 2020: 5, 2021: 9, 2022: 26, 2023: 147, 2024: 302, 2025: 613, 2026: 917}
+2026-10-17 09:40:32,682 view B N=992 by year {2018: 0, 2019: 0, 2020: 1, 2021: 2, 2022: 16, 2023: 83, 2024: 167, 2025: 318, 2026: 405}
+2026-10-17 09:40:33,784 maxp pruned
+2026-10-17 09:40:33,784 LTSH dropped
+2026-10-17 09:40:33,784 cmap pruned
+2026-10-17 09:40:33,784 kern dropped
+2026-10-17 09:40:33,784 post pruned
+2026-10-17 09:40:33,784 PCLT dropped
+2026-10-17 09:40:33,784 JSTF dropped
+2026-10-17 09:40:33,784 meta dropped
+2026-10-17 09:40:33,795 GPOS pruned
+2026-10-17 09:40:33,799 GSUB pruned
+2026-10-17 09:40:33,823 glyf pruned
+2026-10-17 09:40:33,825 Added gid0 to subset
+2026-10-17 09:40:33,825 Added first four glyphs to subset
+2026-10-17 09:40:33,825 Closing glyph list over 'GSUB': 54 glyphs before
+2026-10-17 09:40:33,825 Glyph names: ['.notdef', 'A', 'B', 'D', 'E', 'G', 'H', 'J', 'L', 'M', 'N', 'O', 'P', 'R', 'T', 'U', 'V', 'a', 'b', 'c', 'colon', 'd', 'e', 'eight', 'f', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'hyphen', 'i', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'parenleft', 'parenright', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'v', 'w', 'y', 'zero']
+2026-10-17 09:40:33,825 Glyph IDs:   [0, 1, 2, 3, 11, 12, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 36, 37, 39, 40, 42, 43, 45, 47, 48, 49, 50, 51, 53, 55, 56, 57, 68, 69, 70, 71, 72, 73, 74, 76, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 92]
+2026-10-17 09:40:33,830 Closed glyph list over 'GSUB': 75 glyphs after
+2026-10-17 09:40:33,830 Glyph names: ['.notdef', 'A', 'B', 'D', 'E', 'G', 'H', 'J', 'L', 'M', 'N', 'O', 'P', 'R', 'T', 'U', 'V', 'a', 'b', 'c', 'colon', 'd', 'e', 'eight', 'f', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'glyph03464', 'glyph03674', 'glyph03675', 'glyph03676', 'glyph03677', 'glyph03678', 'glyph03679', 'glyph03680', 'glyph03681', 'glyph03682', 'glyph03683', 'hyphen', 'i', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'parenleft', 'parenright', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'uni00B2', 'uni00B3', 'uni00B9', 'uni2070', 'uni2074', 'uni2075', 'uni2076', 'uni2077', 'uni2078', 'uni2079', 'v', 'w', 'y', 'zero']
+2026-10-17 09:40:33,830 Glyph IDs:   [0, 1, 2, 3, 11, 12, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 36, 37, 39, 40, 42, 43, 45, 47, 48, 49, 50, 51, 53, 55, 56, 57, 68, 69, 70, 71, 72, 73, 74, 76, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 92, 239, 240, 241, 3464, 3674, 3675, 3676, 3677, 3678, 3679, 3680, 3681, 3682, 3683, 3684, 3685, 3686, 3774, 3775, 3776, 3777]
+2026-10-17 09:40:33,830 Closing glyph list over 'glyf': 75 glyphs before
+2026-10-17 09:40:33,830 Glyph names: ['.notdef', 'A', 'B', 'D', 'E', 'G', 'H', 'J', 'L', 'M', 'N', 'O', 'P', 'R', 'T', 'U', 'V', 'a', 'b', 'c', 'colon', 'd', 'e', 'eight', 'f', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'glyph03464', 'glyph03674', 'glyph03675', 'glyph03676', 'glyph03677', 'glyph03678', 'glyph03679', 'glyph03680', 'glyph03681', 'glyph03682', 'glyph03683', 'hyphen', 'i', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'parenleft', 'parenright', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'uni00B2', 'uni00B3', 'uni00B9', 'uni2070', 'uni2074', 'uni2075', 'uni2076', 'uni2077', 'uni2078', 'uni2079', 'v', 'w', 'y', 'zero']
+2026-10-17 09:40:33,830 Glyph IDs:   [0, 1, 2, 3, 11, 12, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 36, 37, 39, 40, 42, 43, 45, 47, 48, 49, 50, 51, 53, 55, 56, 57, 68, 69, 70, 71, 72, 73, 74, 76, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 92, 239, 240, 241, 3464, 3674, 3675, 3676, 3677, 3678, 3679, 3680, 3681, 3682, 3683, 3684, 3685, 3686, 3774, 3775, 3776, 3777]
+2026-10-17 09:40:33,830 Closed glyph list over 'glyf': 82 glyphs after
+2026-10-17 09:40:33,830 Glyph names: ['.notdef', 'A', 'B', 'D', 'E', 'G', 'H', 'J', 'L', 'M', 'N', 'O', 'P', 'R', 'T', 'U', 'V', 'a', 'b', 'c', 'colon', 'd', 'e', 'eight', 'f', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'glyph03384', 'glyph03388', 'glyph03389', 'glyph03390', 'glyph03391', 'glyph03392', 'glyph03393', 'glyph03464', 'glyph03674', 'glyph03675', 'glyph03676', 'glyph03677', 'glyph03678', 'glyph03679', 'glyph03680', 'glyph03681', 'glyph03682', 'glyph03683', 'hyphen', 'i', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'parenleft', 'parenright', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'uni00B2', 'uni00B3', 'uni00B9', 'uni2070', 'uni2074', 'uni2075', 'uni2076', 'uni2077', 'uni2078', 'uni2079', 'v', 'w', 'y', 'zero']
+2026-10-17 09:40:33,830 Glyph IDs:   [0, 1, 2, 3, 11, 12, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 36, 37, 39, 40, 42, 43, 45, 47, 48, 49, 50, 51, 53, 55, 56, 57, 68, 69, 70, 71, 72, 73, 74, 76, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 92, 239, 240, 241, 3384, 3388, 3389, 3390, 3391, 3392, 3393, 3464, 3674, 3675, 3676, 3677, 3678, 3679, 3680, 3681, 3682, 3683, 3684, 3685, 3686, 3774, 3775, 3776, 3777]
+2026-10-17 09:40:33,831 Retaining 82 glyphs
+2026-10-17 09:40:33,831 head subsetting not needed
+2026-10-17 09:40:33,831 hhea subsetting not needed
+2026-10-17 09:40:33,831 maxp subsetting not needed
+2026-10-17 09:40:33,831 OS/2 subsetting not needed
+2026-10-17 09:40:33,831 hmtx subsetted
+2026-10-17 09:40:33,831 VDMX subsetting not needed
+2026-10-17 09:40:33,833 hdmx subsetted
+2026-10-17 09:40:33,833 cmap subsetted
+2026-10-17 09:40:33,833 fpgm subsetting not needed
+2026-10-17 09:40:33,833 prep subsetting not needed
+2026-10-17 09:40:33,833 cvt  subsetting not needed
+2026-10-17 09:40:33,833 loca subsetting not needed
+2026-10-17 09:40:33,833 post subsetted
+2026-10-17 09:40:33,833 gasp subsetting not needed
+2026-10-17 09:40:33,834 GDEF subsetted
+2026-10-17 09:40:33,846 GPOS subsetted
+2026-10-17 09:40:33,855 GSUB subsetted
+2026-10-17 09:40:33,855 name subsetting not needed
+2026-10-17 09:40:33,855 glyf subsetted
+2026-10-17 09:40:33,855 head pruned
+2026-10-17 09:40:33,855 OS/2 Unicode ranges pruned: [0, 1]
+2026-10-17 09:40:33,855 OS/2 CodePage ranges pruned: [0]
+2026-10-17 09:40:33,855 glyf pruned
+2026-10-17 09:40:33,855 GDEF pruned
+2026-10-17 09:40:33,855 GPOS pruned
+2026-10-17 09:40:33,855 GSUB pruned
+2026-10-17 09:40:33,855 name pruned
+2026-10-17 09:40:33,862 maxp pruned
+2026-10-17 09:40:33,862 LTSH dropped
+2026-10-17 09:40:33,862 cmap pruned
+2026-10-17 09:40:33,862 kern dropped
+2026-10-17 09:40:33,862 post pruned
+2026-10-17 09:40:33,862 PCLT dropped
+2026-10-17 09:40:33,862 JSTF dropped
+2026-10-17 09:40:33,862 meta dropped
+2026-10-17 09:40:33,873 GPOS pruned
+2026-10-17 09:40:33,878 GSUB pruned
+2026-10-17 09:40:33,884 glyf pruned
+2026-10-17 09:40:33,887 Added gid0 to subset
+2026-10-17 09:40:33,887 Added first four glyphs to subset
+2026-10-17 09:40:33,887 Closing glyph list over 'GSUB': 6 glyphs before
+2026-10-17 09:40:33,887 Glyph names: ['.notdef', 'a', 'b', 'glyph00001', 'glyph00002', 'space']
+2026-10-17 09:40:33,887 Glyph IDs:   [0, 1, 2, 3, 68, 69]
+2026-10-17 09:40:33,891 Closed glyph list over 'GSUB': 6 glyphs after
+2026-10-17 09:40:33,891 Glyph names: ['.notdef', 'a', 'b', 'glyph00001', 'glyph00002', 'space']
+2026-10-17 09:40:33,891 Glyph IDs:   [0, 1, 2, 3, 68, 69]
+2026-10-17 09:40:33,891 Closing glyph list over 'glyf': 6 glyphs before
+2026-10-17 09:40:33,891 Glyph names: ['.notdef', 'a', 'b', 'glyph00001', 'glyph00002', 'space']
+2026-10-17 09:40:33,891 Glyph IDs:   [0, 1, 2, 3, 68, 69]
+2026-10-17 09:40:33,891 Closed glyph list over 'glyf': 6 glyphs after
+2026-10-17 09:40:33,891 Glyph names: ['.notdef', 'a', 'b', 'glyph00001', 'glyph00002', 'space']
+2026-10-17 09:40:33,891 Glyph IDs:   [0, 1, 2, 3, 68, 69]
+2026-10-17 09:40:33,891 Retaining 6 glyphs
+2026-10-17 09:40:33,891 head subsetting not needed
+2026-10-17 09:40:33,891 hhea subsetting not needed
+2026-10-17 09:40:33,891 maxp subsetting not needed
+2026-10-17 09:40:33,891 OS/2 subsetting not needed
+2026-10-17 09:40:33,893 hmtx subsetted
+2026-10-17 09:40:33,893 VDMX subsetting not needed
+2026-10-17 09:40:33,893 hdmx subsetted
+2026-10-17 09:40:33,895 cmap subsetted
+2026-10-17 09:40:33,895 fpgm subsetting not needed
+2026-10-17 09:40:33,895 prep subsetting not needed
+2026-10-17 09:40:33,895 cvt  subsetting not needed
+2026-10-17 09:40:33,895 loca subsetting not needed
+2026-10-17 09:40:33,895 post subsetted
+2026-10-17 09:40:33,895 gasp subsetting not needed
+2026-10-17 09:40:33,895 GDEF subsetted
+2026-10-17 09:40:33,914 GPOS subsetted
+2026-10-17 09:40:33,916 GSUB subsetted
+2026-10-17 09:40:33,916 name subsetting not needed
+2026-10-17 09:40:33,917 glyf subsetted
+2026-10-17 09:40:33,917 head pruned
+2026-10-17 09:40:33,917 OS/2 Unicode ranges pruned: [0]
+2026-10-17 09:40:33,917 OS/2 CodePage ranges pruned: [0]
+2026-10-17 09:40:33,917 glyf pruned
+2026-10-17 09:40:33,917 GDEF pruned
+2026-10-17 09:40:33,917 GPOS pruned
+2026-10-17 09:40:33,918 GSUB pruned
+2026-10-17 09:40:33,919 name pruned
+2026-10-17 09:40:34,005 maxp pruned
+2026-10-17 09:40:34,005 LTSH dropped
+2026-10-17 09:40:34,005 cmap pruned
+2026-10-17 09:40:34,005 kern dropped
+2026-10-17 09:40:34,005 post pruned
+2026-10-17 09:40:34,005 PCLT dropped
+2026-10-17 09:40:34,005 JSTF dropped
+2026-10-17 09:40:34,005 meta dropped
+2026-10-17 09:40:34,014 GPOS pruned
+2026-10-17 09:40:34,033 GSUB pruned
+2026-10-17 09:40:34,039 glyf pruned
+2026-10-17 09:40:34,042 Added gid0 to subset
+2026-10-17 09:40:34,042 Added first four glyphs to subset
+2026-10-17 09:40:34,042 Closing glyph list over 'GSUB': 54 glyphs before
+2026-10-17 09:40:34,042 Glyph names: ['.notdef', 'A', 'B', 'D', 'E', 'G', 'H', 'J', 'L', 'M', 'N', 'O', 'P', 'R', 'T', 'U', 'V', 'a', 'b', 'c', 'colon', 'd', 'e', 'eight', 'f', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'hyphen', 'i', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'parenleft', 'parenright', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'v', 'w', 'y', 'zero']
+2026-10-17 09:40:34,042 Glyph IDs:   [0, 1, 2, 3, 11, 12, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 36, 37, 39, 40, 42, 43, 45, 47, 48, 49, 50, 51, 53, 55, 56, 57, 68, 69, 70, 71, 72, 73, 74, 76, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 92]
+2026-10-17 09:40:34,046 Closed glyph list over 'GSUB': 75 glyphs after
+2026-10-17 09:40:34,046 Glyph names: ['.notdef', 'A', 'B', 'D', 'E', 'G', 'H', 'J', 'L', 'M', 'N', 'O', 'P', 'R', 'T', 'U', 'V', 'a', 'b', 'c', 'colon', 'd', 'e', 'eight', 'f', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'glyph03464', 'glyph03674', 'glyph03675', 'glyph03676', 'glyph03677', 'glyph03678', 'glyph03679', 'glyph03680', 'glyph03681', 'glyph03682', 'glyph03683', 'hyphen', 'i', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'parenleft', 'parenright', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'uni00B2', 'uni00B3', 'uni00B9', 'uni2070', 'uni2074', 'uni2075', 'uni2076', 'uni2077', 'uni2078', 'uni2079', 'v', 'w', 'y', 'zero']
+2026-10-17 09:40:34,046 Glyph IDs:   [0, 1, 2, 3, 11, 12, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 36, 37, 39, 40, 42, 43, 45, 47, 48, 49, 50, 51, 53, 55, 56, 57, 68, 69, 70, 71, 72, 73, 74, 76, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 92, 239, 240, 241, 3464, 3674, 3675, 3676, 3677, 3678, 3679, 3680, 3681, 3682, 3683, 3684, 3685, 3686, 3774, 3775, 3776, 3777]
+2026-10-17 09:40:34,046 Closing glyph list over 'glyf': 75 glyphs before
+2026-10-17 09:40:34,046 Glyph names: ['.notdef', 'A', 'B', 'D', 'E', 'G', 'H', 'J', 'L', 'M', 'N', 'O', 'P', 'R', 'T', 'U', 'V', 'a', 'b', 'c', 'colon', 'd', 'e', 'eight', 'f', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'glyph03464', 'glyph03674', 'glyph03675', 'glyph03676', 'glyph03677', 'glyph03678', 'glyph03679', 'glyph03680', 'glyph03681', 'glyph03682', 'glyph03683', 'hyphen', 'i', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'parenleft', 'parenright', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'uni00B2', 'uni00B3', 'uni00B9', 'uni2070', 'uni2074', 'uni2075', 'uni2076', 'uni2077', 'uni2078', 'uni2079', 'v', 'w', 'y', 'zero']
+2026-10-17 09:40:34,046 Glyph IDs:   [0, 1, 2, 3, 11, 12, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 36, 37, 39, 40, 42, 43, 45, 47, 48, 49, 50, 51, 53, 55, 56, 57, 68, 69, 70, 71, 72, 73, 74, 76, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 92, 239, 240, 241, 3464, 3674, 3675, 3676, 3677, 3678, 3679, 3680, 3681, 3682, 3683, 3684, 3685, 3686, 3774, 3775, 3776, 3777]
+2026-10-17 09:40:34,046 Closed glyph list over 'glyf': 82 glyphs after
+2026-10-17 09:40:34,046 Glyph names: ['.notdef', 'A', 'B', 'D', 'E', 'G', 'H', 'J', 'L', 'M', 'N', 'O', 'P', 'R', 'T', 'U', 'V', 'a', 'b', 'c', 'colon', 'd', 'e', 'eight', 'f', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'glyph03384', 'glyph03388', 'glyph03389', 'glyph03390', 'glyph03391', 'glyph03392', 'glyph03393', 'glyph03464', 'glyph03674', 'glyph03675', 'glyph03676', 'glyph03677', 'glyph03678', 'glyph03679', 'glyph03680', 'glyph03681', 'glyph03682', 'glyph03683', 'hyphen', 'i', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'parenleft', 'parenright', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'uni00B2', 'uni00B3', 'uni00B9', 'uni2070', 'uni2074', 'uni2075', 'uni2076', 'uni2077', 'uni2078', 'uni2079', 'v', 'w', 'y', 'zero']
+2026-10-17 09:40:34,046 Glyph IDs:   [0, 1, 2, 3, 11, 12, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 36, 37, 39, 40, 42, 43, 45, 47, 48, 49, 50, 51, 53, 55, 56, 57, 68, 69, 70, 71, 72, 73, 74, 76, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 92, 239, 240, 241, 3384, 3388, 3389, 3390, 3391, 3392, 3393, 3464, 3674, 3675, 3676, 3677, 3678, 3679, 3680, 3681, 3682, 3683, 3684, 3685, 3686, 3774, 3775, 3776, 3777]
+2026-10-17 09:40:34,046 Retaining 82 glyphs
+2026-10-17 09:40:34,047 head subsetting not needed
+2026-10-17 09:40:34,047 hhea subsetting not needed
+2026-10-17 09:40:34,047 maxp subsetting not needed
+2026-10-17 09:40:34,047 OS/2 subsetting not needed
+2026-10-17 09:40:34,047 hmtx subsetted
+2026-10-17 09:40:34,047 VDMX subsetting not needed
+2026-10-17 09:40:34,049 hdmx subsetted
+2026-10-17 09:40:34,049 cmap subsetted
+2026-10-17 09:40:34,049 fpgm subsetting not needed
+2026-10-17 09:40:34,049 prep subsetting not needed
+2026-10-17 09:40:34,049 cvt  subsetting not needed
+2026-10-17 09:40:34,049 loca subsetting not needed
+2026-10-17 09:40:34,049 post subsetted
+2026-10-17 09:40:34,049 gasp subsetting not needed
+2026-10-17 09:40:34,049 GDEF subsetted
+2026-10-17 09:40:34,069 GPOS subsetted
+2026-10-17 09:40:34,071 GSUB subsetted
+2026-10-17 09:40:34,071 name subsetting not needed
+2026-10-17 09:40:34,071 glyf subsetted
+2026-10-17 09:40:34,071 head pruned
+2026-10-17 09:40:34,071 OS/2 Unicode ranges pruned: [0, 1]
+2026-10-17 09:40:34,071 OS/2 CodePage ranges pruned: [0]
+2026-10-17 09:40:34,073 glyf pruned
+2026-10-17 09:40:34,073 GDEF pruned
+2026-10-17 09:40:34,073 GPOS pruned
+2026-10-17 09:40:34,073 GSUB pruned
+2026-10-17 09:40:34,075 name pruned
+2026-10-17 09:40:34,317 maxp pruned
+2026-10-17 09:40:34,317 LTSH dropped
+2026-10-17 09:40:34,317 cmap pruned
+2026-10-17 09:40:34,317 kern dropped
+2026-10-17 09:40:34,317 post pruned
+2026-10-17 09:40:34,317 PCLT dropped
+2026-10-17 09:40:34,317 JSTF dropped
+2026-10-17 09:40:34,317 meta dropped
+2026-10-17 09:40:34,322 GPOS pruned
+2026-10-17 09:40:34,322 GSUB pruned
+2026-10-17 09:40:34,348 glyf pruned
+2026-10-17 09:40:34,350 Added gid0 to subset
+2026-10-17 09:40:34,350 Added first four glyphs to subset
+2026-10-17 09:40:34,350 Closing glyph list over 'GSUB': 6 glyphs before
+2026-10-17 09:40:34,350 Glyph names: ['.notdef', 'a', 'b', 'glyph00001', 'glyph00002', 'space']
+2026-10-17 09:40:34,350 Glyph IDs:   [0, 1, 2, 3, 68, 69]
+2026-10-17 09:40:34,354 Closed glyph list over 'GSUB': 6 glyphs after
+2026-10-17 09:40:34,354 Glyph names: ['.notdef', 'a', 'b', 'glyph00001', 'glyph00002', 'space']
+2026-10-17 09:40:34,354 Glyph IDs:   [0, 1, 2, 3, 68, 69]
+2026-10-17 09:40:34,354 Closing glyph list over 'glyf': 6 glyphs before
+2026-10-17 09:40:34,354 Glyph names: ['.notdef', 'a', 'b', 'glyph00001', 'glyph00002', 'space']
+2026-10-17 09:40:34,354 Glyph IDs:   [0, 1, 2, 3, 68, 69]
+2026-10-17 09:40:34,354 Closed glyph list over 'glyf': 6 glyphs after
+2026-10-17 09:40:34,354 Glyph names: ['.notdef', 'a', 'b', 'glyph00001', 'glyph00002', 'space']
+2026-10-17 09:40:34,355 Glyph IDs:   [0, 1, 2, 3, 68, 69]
+2026-10-17 09:40:34,355 Retaining 6 glyphs
+2026-10-17 09:40:34,355 head subsetting not needed
+2026-10-17 09:40:34,355 hhea subsetting not needed
+2026-10-17 09:40:34,355 maxp subsetting not needed
+2026-10-17 09:40:34,355 OS/2 subsetting not needed
+2026-10-17 09:40:34,356 hmtx subsetted
+2026-10-17 09:40:34,356 VDMX subsetting not needed
+2026-10-17 09:40:34,357 hdmx subsetted
+2026-10-17 09:40:34,358 cmap subsetted
+2026-10-17 09:40:34,358 fpgm subsetting not needed
+2026-10-17 09:40:34,358 prep subsetting not needed
+2026-10-17 09:40:34,358 cvt  subsetting not needed
+2026-10-17 09:40:34,358 loca subsetting not needed
+2026-10-17 09:40:34,358 post subsetted
+2026-10-17 09:40:34,358 gasp subsetting not needed
+2026-10-17 09:40:34,359 GDEF subsetted
+2026-10-17 09:40:34,377 GPOS subsetted
+2026-10-17 09:40:34,378 GSUB subsetted
+2026-10-17 09:40:34,378 name subsetting not needed
+2026-10-17 09:40:34,378 glyf subsetted
+2026-10-17 09:40:34,378 head pruned
+2026-10-17 09:40:34,378 OS/2 Unicode ranges pruned: [0]
+2026-10-17 09:40:34,378 OS/2 CodePage ranges pruned: [0]
+2026-10-17 09:40:34,378 glyf pruned
+2026-10-17 09:40:34,378 GDEF pruned
+2026-10-17 09:40:34,378 GPOS pruned
+2026-10-17 09:40:34,378 GSUB pruned
+2026-10-17 09:40:34,378 name pruned
+2026-10-17 09:40:35,116 saved paper/figures/Fig2.{pdf,eps,png}

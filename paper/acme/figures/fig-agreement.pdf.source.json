@@ -1,0 +1,31 @@
+{
+ "script": "analysis/acme/figures/fig_agreement.py",
+ "gstudy_dir": "runs/acme-gstudy/route-table",
+ "gstudy_dir_resolved": "C:\\Users\\Shlok\\Downloads\\Thenboli ma'am review paper\\runs\\acme-gstudy\\route-table",
+ "git_head": "998723cbed0898076c76fd888bc57a6d0237ebb7",
+ "timestamp_utc": "2026-11-07T19:26:05+00:00",
+ "inputs": {
+  "runs/acme-gstudy/A1-route-e-armL/lowo.csv": "3cb772ca65ea93ca5f2ce5ebf139a10bd35b36b5ce6b71d53209f7dcddc61e9c",
+  "runs/acme-gstudy/route-table/hypotheses_estimates.csv": "d00a0d0767161925d42c9471e125a4b5e8be6344267a0d139a31dd9c3840a7dd",
+  "runs/acme-gstudy/route-table/route_table.csv": "68c7f9818ef1993e40318289fd06836dc5838e0eb271974240047ac3dfda2e97",
+  "runs/acme-gstudy/route-table/sens_table.csv": "a326f9dc0b5b473abaed4b79106b2df230e2c43870c0a5f62cbf850de2559a58",
+  "runs/acme-S-gstudy/route-e-armS/components_AF.csv": "d5ad5323db964860157811edd1c334c9727156aa67d20ddb5eb52f60e10d139d",
+  "runs/acme-S-gstudy/route-e-armS/components_NR.csv": "d5f401985803418bcf2f5f6f6e3898e7fd192c163bee3f7ef8c98a284e59099e",
+  "runs/acme-S-gstudy/route-e-armS/components_P1.csv": "8e17654dbfb3b5e6a32fc96f06a0f00d4c28652eca1f004b9d1b20e95d5ffaea",
+  "runs/acme-S-gstudy/route-e-armS/components_P2c.csv": "a6c9b8456079f60522ca2ebdba3486e82e41c8a50f6c19848955625cdc0b153a",
+  "runs/acme-S-gstudy/route-e-armS/components_P3.csv": "d47c396357658196c2b38ef062169a403b0c62efbe5c6c4ea741539850d7ff14",
+  "runs/acme-S-gstudy/route-e-armS/components_QA.csv": "c28db5ce49cfa2d4f2653de1c590aaa4c7666561fc09399334d886c6c7f92683",
+  "runs/human-ml1-acme/arml_scales.csv": "6be5e76ffa533f7180fa10638265e7f04ca8019b2a2f3c7e26385fbd49ad8a2a"
+ },
+ "basis": "E2",
+ "items": [
+  "P1",
+  "P3",
+  "AF",
+  "QA",
+  "NR",
+  "P2c"
+ ],
+ "band": 0.06,
+ "n_points": 74
+}

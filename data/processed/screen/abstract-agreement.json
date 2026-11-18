@@ -1,0 +1,21 @@
+{
+ "stage": "abstract",
+ "n": 6209,
+ "decisions": {
+  "full_text_disagreement": 2671,
+  "excluded_abstract": 3418,
+  "full_text": 120
+ },
+ "claude": {
+  "MAYBE": 1446,
+  "EXCLUDE": 3705,
+  "INCLUDE": 1058
+ },
+ "local": {
+  "EXCLUDE": 5529,
+  "MAYBE": 315,
+  "INCLUDE": 365
+ },
+ "kappa_3class": 0.075,
+ "kappa_exclude_vs_not": 0.09
+}

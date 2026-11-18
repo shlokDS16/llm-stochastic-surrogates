@@ -1,0 +1,37 @@
+{
+ "order": 116,
+ "study_id": "https://openalex.org/W4410251374",
+ "pass": "codex",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/116_W4410251374.md",
+ "sources_varied": [
+  "M",
+  "W",
+  "P"
+ ],
+ "X1": {
+  "value": "partial",
+  "sources_crossed": [],
+  "evidence": "Methods, LLM-LLM Interactions and Results, Robustness checks: five models were compared, and GPT-4 alone received prompt and option-order variations; GPT-4 also received SCoT and opponent-information prompts in separate analyses."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "anova_or_mixed_term",
+   "effect_change"
+  ],
+  "x2_sources": [
+   "M",
+   "W",
+   "P"
+  ],
+  "evidence": "Results, Analysing behaviour across families of games and Human experiments: model score differences were tested across models; prompt interventions and SCoT were associated with quantified changes in outcomes."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "Results and Methods: no source-by-source interaction is estimated or shown; reported condition-by-model comparisons do not involve a second varied source."
+ },
+ "notes": "W includes changes to prompt wording, option order, cover stories, and prompt interventions. P codes the opponent-information/persona prompt applied in a separate GPT-4 analysis."
+}

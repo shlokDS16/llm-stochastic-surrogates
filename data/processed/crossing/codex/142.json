@@ -1,0 +1,29 @@
+{
+ "order": 142,
+ "study_id": "https://openalex.org/W4390920734",
+ "pass": "codex",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/142_W4390920734.md",
+ "sources_varied": [
+  "W",
+  "R"
+ ],
+ "X1": {
+  "value": "partial",
+  "sources_crossed": [],
+  "evidence": "Sec. 3.3 and Appendix Tables 2–6: systematic name, object and color permutations vary wording; prompts were run 10 times, but repeats estimate average response scores rather than run-to-run variation."
+ },
+ "X2": {
+  "value": "no",
+  "x2_types": [],
+  "x2_sources": [],
+  "evidence": "Sec. 4 and Appendix Tables 3–7: scores are reported by task condition and domain; no quantified effect or test is attributed to wording permutations."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "Sec. 4 and Appendix Tables 3–6: no source-by-source interaction is estimated or shown."
+ },
+ "notes": "R not counted: the ten executions are averaged to obtain scores, with no run-to-run variation analyzed."
+}

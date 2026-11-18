@@ -1,0 +1,11 @@
+paradigm: P2a
+wording: W4
+response_type: number
+intro: People's beliefs about the world around them are of interest to us. For the following question, a best estimate is requested from you. If the correct answer is not known to you, just give your best guess.
+conditions:
+  x1: San Francisco is separated from New York City by a distance shorter than 6,000 miles. By how many miles do you think they are separated?
+  x0: San Francisco is separated from New York City by a distance longer than 1,500 miles. By how many miles do you think they are separated?
+condition_names:
+  x1: high anchor
+  x0: low anchor
+baseline: By how many miles do you think San Francisco is separated from New York City?

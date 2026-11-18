@@ -1,0 +1,21 @@
+id,order,field,item,group,category,fits_rule_value,favoured_coder
+ADJ01,30,F.f10,,reporting items f1-f12,unresolved definition,A,claude
+ADJ02,141,F.perturbations_tested[decoding],decoding,perturbations,inconsistent application,B,claude
+ADJ03,110,F.perturbations_tested[contamination],contamination,perturbations,inconsistent application,B,claude
+ADJ04,150,F.f4,,reporting items f1-f12,genuine source ambiguity,B,claude
+ADJ05,85,F.perturbations_tested[response_format],response_format,perturbations,unresolved definition,B,claude
+ADJ06,116,F.f5,,reporting items f1-f12,inconsistent application,A,claude
+ADJ07,34,F.robustness_outcome,,robustness outcome,unresolved definition,neither/undecidable,neither
+ADJ08,24,F.f4,,reporting items f1-f12,inconsistent application,B,claude
+ADJ09,144,F.perturbations_tested[seeds],seeds,perturbations,unresolved definition,B,claude
+ADJ10,62,F.f5,,reporting items f1-f12,inconsistent application,B,codex
+ADJ11,145,F.f8,,reporting items f1-f12,unresolved definition,B,codex
+ADJ12,77,F.perturbations_tested[contamination],contamination,perturbations,inconsistent application,A,codex
+ADJ13,15,F.perturbations_tested[option_order],option_order,perturbations,inconsistent application,B,claude
+ADJ14,34,F.perturbations_tested[language],language,perturbations,inconsistent application,A,claude
+ADJ15,16,F.perturbations_tested[model_version],model_version,perturbations,unresolved definition,A,claude
+ADJ16,2,F.f6,,reporting items f1-f12,inconsistent application,B,claude
+ADJ17,121,F.robustness_outcome,,robustness outcome,unresolved definition,B,claude
+ADJ18,98,F.perturbations_tested[other],other,perturbations,inconsistent application,A,claude
+ADJ19,110,F.f6,,reporting items f1-f12,inconsistent application,A,claude
+ADJ20,99,D.primary_type,,D.primary_type,inconsistent application,B,claude

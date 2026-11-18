@@ -1,0 +1,37 @@
+{
+ "order": 34,
+ "study_id": "https://openalex.org/W4392181976",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/034_W4392181976.md",
+ "sources_varied": [
+  "M",
+  "W",
+  "O"
+ ],
+ "X1": {
+  "value": "yes",
+  "sources_crossed": [
+   "M",
+   "W"
+  ],
+  "evidence": "Sec 3-4 and App F, H: ten LLMs on ToMBench in Chinese and English versions with the same items; option order shuffled five times with majority vote for non-GPT models."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "W"
+  ],
+  "evidence": "Sec 4.2 and Table (EN vs ZH): performance gap between Chinese and English contexts reported per model; Fig 4 variance under a coherent test."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "No model-by-language interaction term; gap shown per model in tables without comment on dependence."
+ },
+ "notes": "Option shuffling is aggregated into one answer, not analysed."
+}

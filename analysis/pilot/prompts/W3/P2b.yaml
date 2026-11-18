@@ -1,0 +1,10 @@
+paradigm: P2b
+wording: W3
+response_type: number
+intro: We are interested in what people believe about the world around them. Please estimate the answer to the question below, and if you do not know it, just give your best guess.
+conditions:
+  x1: Consider the population of Chicago, which is less than 5,000,000. What do you think it is?
+  x0: Consider the population of Chicago, which is more than 200,000. What do you think it is?
+condition_names:
+  x1: high anchor
+  x0: low anchor

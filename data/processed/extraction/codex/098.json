@@ -1,0 +1,197 @@
+{
+ "order": 98,
+ "study_id": "https://openalex.org/W4324108791",
+ "full_text": {
+  "obtained": true,
+  "source": "provided full text"
+ },
+ "eligibility": {
+  "decision": "YES",
+  "failed_criterion": null,
+  "borderline": false,
+  "evidence": "Sections 3–4 report two new experiments using GPT-3 to model influence effects, with a new human sample for the Illusory Truth Effect and comparison to published human data for Populist Framing of News."
+ },
+ "A": {
+  "doi": null,
+  "arxiv_id": null,
+  "title": "Susceptibility to Influence of Large Language Models",
+  "first_author": "Lewis D Griffin",
+  "year": 2023,
+  "venue": "not_reported",
+  "peer_reviewed": "preprint",
+  "first_author_field": "CS",
+  "country": "UK"
+ },
+ "B": {
+  "models": [
+   {
+    "name": "GPT-3",
+    "version": "text-davinci-003",
+    "access": "API",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "base",
+    "family": "GPT",
+    "query_date": "early February 2023 (Study 2); not_reported (Study 1)"
+   }
+  ],
+  "n_models": 1,
+  "n_model_families": 1
+ },
+ "C": {
+  "paradigms": [
+   {
+    "pid": "P1",
+    "name": "Illusory Truth Effect (ITE), including same and mixed exposure across truth, interest, sentiment, and importance ratings",
+    "family": "HB",
+    "source_paper": "Hasher, Goldstein, and Toppino (1977), as cited; standard ITE paradigm",
+    "items_origin": "novel",
+    "n_items": 100,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "no",
+    "location": "Section 3.1, Tables 1–2; Sections 3.2–3.3, Tables 4–5"
+   },
+   {
+    "pid": "P2",
+    "name": "Populist Framing of News (PFN): effects of anti-elitist and anti-immigrant news framing on persuasion and mobilization",
+    "family": "HB",
+    "source_paper": "Bos et al. (2020), cited as reference 35",
+    "items_origin": "adapted",
+    "n_items": 5,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "partly",
+    "location": "Sections 4.1–4.3, Tables 6–7"
+   }
+  ]
+ },
+ "D": {
+  "types": [
+   "own_sample",
+   "published_norms"
+  ],
+  "primary_type": "own_sample",
+  "human_n": 1000,
+  "population": "Study 1: UK residents aged 21–65, English first language, recruited through Prolific. Study 2 comparison: 7,286 participants recruited across 15 countries in the published Bos et al. study.",
+  "metric": "Ratings and exposure-related regression coefficients for ITE; persuasion and mobilization ratings and regression coefficients for PFN."
+ },
+ "E": {
+  "outcome_types": [
+   "effect",
+   "agreement"
+  ],
+  "rows_aggregated": false,
+  "effects": [
+   {
+    "pid": "P1",
+    "model": "text-davinci-003",
+    "model_family": "GPT",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": 0.54,
+    "human_es": 0.26,
+    "es_metric": "mixed-exposure truth-rating offset",
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "EXAGGERATED",
+    "location": "Section 3.3, Table 4; mixed-exposure truth offset and bootstrap confidence intervals"
+   },
+   {
+    "pid": "P2",
+    "model": "text-davinci-003",
+    "model_family": "GPT",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Section 4.3, Table 7; anti-immigrant framing coefficients for persuasion and mobilization are negative and significant in both datasets."
+   },
+   {
+    "pid": "P2",
+    "model": "text-davinci-003",
+    "model_family": "GPT",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Section 4.3, Table 7; anti-elitist framing increases persuasion in both datasets."
+   },
+   {
+    "pid": "P2",
+    "model": "text-davinci-003",
+    "model_family": "GPT",
+    "outcome_kind": "agreement",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": "Good agreement in how ratings depend on framing and relative deprivation, with some human effects absent in GPT-3 and some GPT-3 effects absent in humans.",
+    "label": "AGREEMENT-ONLY",
+    "location": "Sections 4.3 and 5; comparison of human and GPT-3 PFN findings"
+   }
+  ],
+  "headline": "GPT-3 reproduces the human illusory truth effect and some populist-framing effects, but misses deprivation-related moderation and shows other mismatches."
+ },
+ "F": {
+  "f1": "no",
+  "f2": "yes",
+  "f3": "no",
+  "f4": "yes",
+  "f5": "no",
+  "f6": "no",
+  "f7": "no",
+  "f8": "no",
+  "f9": "yes",
+  "f10": "yes",
+  "f11": "no",
+  "f12": "no",
+  "perturbations_tested": [
+   "other"
+  ],
+  "robustness_outcome": "na"
+ },
+ "G": {
+  "notes": "The authors do not report a direct statistical comparison of model and human ITE effect magnitudes. PFN models simulated demographic and deprivation traits as independent and used English materials across countries, unlike the human study. The paper says it experimented with Wikipedia statements but does not report those results.",
+  "extractor": "codex (default)",
+  "date": "2026-10-16",
+  "minutes": 0.6,
+  "sections_read": [
+   "Abstract",
+   "Sections 1–2",
+   "Sections 3.1–3.3, Tables 1–5",
+   "Sections 4.1–4.3, Tables 6–7",
+   "Sections 5–7",
+   "Data and code availability"
+  ]
+ }
+}

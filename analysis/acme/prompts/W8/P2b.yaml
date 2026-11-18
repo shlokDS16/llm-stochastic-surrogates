@@ -1,0 +1,11 @@
+paradigm: P2b
+wording: W8
+response_type: number
+intro: Should you not know the correct answer, simply give your best guess. People's beliefs about the world around them are of interest to us, and for the following question we ask that you give your best estimate.
+conditions:
+  x1: Less than 5,000,000 is the population of Chicago. What do you think the population of Chicago is?
+  x0: More than 200,000 is the population of Chicago. What do you think the population of Chicago is?
+condition_names:
+  x1: high anchor
+  x0: low anchor
+baseline: What, do you think, is the population of Chicago?

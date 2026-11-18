@@ -1,0 +1,39 @@
+{
+ "order": 87,
+ "study_id": "https://openalex.org/W4390306118",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/087_W4390306118.md",
+ "sources_varied": [
+  "M",
+  "T",
+  "P",
+  "X"
+ ],
+ "X1": {
+  "value": "partial",
+  "sources_crossed": [],
+  "evidence": "Sec 4.3 and App C: eight models in the main experiments; sensitivity checks on GPT-4, LLaMA-3-70B and Mixtral vary incentive structure, persona, temperature and CoT one at a time."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "anova_or_mixed_term",
+   "effect_change"
+  ],
+  "x2_sources": [
+   "X",
+   "P",
+   "T",
+   "M"
+  ],
+  "evidence": "Sec 4.2-4.3, Fig 3 and Fig 6: regression coefficients on distributional preferences by model; incentive, persona and temperature effects reported as small shifts."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "Interaction terms (Eq 4) are group identity by distributional preference, i.e. treatment by treatment."
+ },
+ "notes": "Crossing is limited to a three-model subset, hence partial."
+}

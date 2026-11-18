@@ -1,0 +1,23 @@
+A1.9 top-up trigger, CRP-S02 2026-10-16 (finished flag only; no parse, validity or outcome read).
+Rule: F1 cells (max_new_tokens 256) with more than 2 percent unfinished; sampled responses only (greedy excluded).
+olmo2-1b-instruct P2a: 5/8 F1 cells triggered; 40 responses; max share 0.120
+olmo2-1b-instruct P2b: 2/8 F1 cells triggered; 7 responses; max share 0.040
+olmo2-1b-instruct P2c: 6/8 F1 cells triggered; 42 responses; max share 0.160
+olmo2-1b-instruct P2d: 5/8 F1 cells triggered; 24 responses; max share 0.070
+olmo2-1b-instruct P3: 2/8 F1 cells triggered; 9 responses; max share 0.050
+olmo2-1b-instruct P4: 7/8 F1 cells triggered; 65 responses; max share 0.170
+TOTAL triggered F1 cells 27; responses to regenerate at 512: 187
+Unfinished by format (all cells): F0 1204/38400 (cap 24 tokens; not covered by A1.9), F1 218/38400
+
+Validity of unfinished responses by format (CRP-S02):
+  F=F0 finished=False valid=False: 613
+  F=F0 finished=False valid=True: 591
+  F=F0 finished=True valid=False: 885
+  F=F0 finished=True valid=True: 36311
+  F=F1 finished=False valid=False: 73
+  F=F1 finished=False valid=True: 145
+  F=F1 finished=True valid=False: 2992
+  F=F1 finished=True valid=True: 35190
+
+A1.9 top-up audit: 187 responses regenerated at 512; finished now 172; first 256 tokens identical to the original in 17 (9.1 percent), differ in 170.
+Raw-text check: all 187 keep their seed; common prefix with the original median 270 characters (quartiles 130, 653); 146 share the first 100 characters. Divergence after a shared prefix is consistent with batch-size-dependent bf16 numerics (top-up batch 10, original batch 40).

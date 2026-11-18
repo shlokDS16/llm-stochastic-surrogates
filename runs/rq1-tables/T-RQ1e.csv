@@ -1,0 +1,26 @@
+rank,paradigm_name_normalised,family_codes_in_A,A_n_records,A_pct,B_n_records,S_n_records
+1,ultimatum game,JDM,20,1.0,16,18
+2,anchoring,HB,17,0.8,12,16
+3,theory of mind,TOM,16,0.8,3,6
+4,dictator game,JDM,13,0.6,11,12
+5,prisoners dilemma,JDM,12,0.6,7,9
+6,syllogistic reasoning,RE,10,0.5,6,10
+7,public goods game,JDM,9,0.4,8,9
+8,framing effect,HB,8,0.4,6,8
+9,iterated prisoners dilemma,JDM,8,0.4,6,8
+10,framing,HB,7,0.3,7,7
+11,structural priming,LANG,7,0.3,3,3
+12,analogical reasoning,RE,6,0.3,0,3
+13,confirmation bias,HB,6,0.3,4,5
+14,repeated prisoners dilemma,JDM,6,0.3,5,6
+15,trust game,JDM,6,0.3,5,6
+16,anchoring effect,HB,5,0.2,4,5
+17,cognitive reflection test,HB 3; RE 2,5,0.2,3,5
+18,conversational implicature,LANG,5,0.2,0,1
+19,false belief task,TOM,5,0.2,5,5
+20,garden path sentences,LANG,5,0.2,3,3
+21,trolley problem,MOR,5,0.2,5,4
+22,anchoring bias,HB,4,0.2,3,3
+23,cognitive biases,HB,4,0.2,2,2
+24,halo effect,HB,4,0.2,2,4
+25,moral judgment,MOR,4,0.2,1,2

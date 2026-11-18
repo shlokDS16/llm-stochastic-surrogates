@@ -1,0 +1,516 @@
+{
+ "order": 22,
+ "study_id": "https://openalex.org/W7165006854",
+ "full_text": {
+  "obtained": true,
+  "source": "jats:PMC13318900"
+ },
+ "eligibility": {
+  "decision": "YES",
+  "failed_criterion": null,
+  "borderline": false,
+  "evidence": "Sect. 3.1-3.2: classic Tversky-Kahneman word-frequency and Wason selection tasks given to three API LLMs and 169 human participants; new data, English."
+ },
+ "A": {
+  "doi": "10.3389/frai.2026.1808549",
+  "arxiv_id": null,
+  "title": "Cross-linguistic patterns of cognitive biases in large language models: a comparative study in English, Hebrew, and Russian",
+  "first_author": "Katya Grander",
+  "year": 2026,
+  "venue": "Frontiers in Artificial Intelligence",
+  "peer_reviewed": "yes",
+  "first_author_field": "other",
+  "country": "Israel"
+ },
+ "B": {
+  "models": [
+   {
+    "name": "ChatGPT-4o",
+    "version": "gpt-4o-2024-11-20",
+    "access": "API",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "GPT",
+    "query_date": "August 2025"
+   },
+   {
+    "name": "Claude 4 Sonnet",
+    "version": "claude-sonnet-4-20250514",
+    "access": "API",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "Claude",
+    "query_date": "August 2025"
+   },
+   {
+    "name": "Gemini 2.5 Flash",
+    "version": "gemini-2.5-flash",
+    "access": "API",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "Gemini",
+    "query_date": "August 2025"
+   }
+  ],
+  "n_models": 3,
+  "n_model_families": 3
+ },
+ "C": {
+  "paradigms": [
+   {
+    "pid": "P1",
+    "name": "Modified word frequency test (yes vs no; availability heuristic)",
+    "family": "HB",
+    "source_paper": "Castello et al. 2024 (after Tversky & Kahneman 1974)",
+    "items_origin": "adapted",
+    "n_items": 1,
+    "languages": [
+     "English",
+     "Hebrew",
+     "Russian"
+    ],
+    "modality": "text",
+    "contamination_risk": "partly",
+    "location": "Sect. 3.1.1, 3.2"
+   },
+   {
+    "pid": "P2",
+    "name": "Original word frequency test (letter R, first vs third position; availability heuristic)",
+    "family": "HB",
+    "source_paper": "Tversky & Kahneman 1974",
+    "items_origin": "verbatim",
+    "n_items": 1,
+    "languages": [
+     "English",
+     "Hebrew",
+     "Russian"
+    ],
+    "modality": "text",
+    "contamination_risk": "yes",
+    "location": "Sect. 3.1.1, 3.2"
+   },
+   {
+    "pid": "P3",
+    "name": "Modified Wason selection task (airline passport rule; confirmation bias)",
+    "family": "RE",
+    "source_paper": "Wason 1968; Wason & Shapiro 1971",
+    "items_origin": "adapted",
+    "n_items": 1,
+    "languages": [
+     "English",
+     "Hebrew",
+     "Russian"
+    ],
+    "modality": "text",
+    "contamination_risk": "partly",
+    "location": "Sect. 3.1.2, 3.2"
+   }
+  ]
+ },
+ "D": {
+  "types": [
+   "own_sample"
+  ],
+  "primary_type": "own_sample",
+  "human_n": 169,
+  "population": "convenience sample (58 English, 58 Hebrew, 53 Russian speakers), highly educated, many in technology fields",
+  "metric": "proportion correct per source; chi-square with Cramer's V, Bonferroni post hoc, Firth logistic odds ratios (Sect. 3.9, 4)"
+ },
+ "E": {
+  "outcome_types": [
+   "accuracy",
+   "effect_size"
+  ],
+  "rows_aggregated": false,
+  "effects": [
+   {
+    "pid": "P1",
+    "model": "ChatGPT-4o [English]",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": 0.09,
+    "human_es": 0.38,
+    "es_metric": null,
+    "authors_comparison": "different",
+    "label": "EXAGGERATED",
+    "location": "Table 2; Sect. 4.1.1, 4.2.1, 4.3.1"
+   },
+   {
+    "pid": "P1",
+    "model": "Claude 4 Sonnet [English]",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": null,
+    "human_es": 0.38,
+    "es_metric": null,
+    "authors_comparison": "not_different",
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Table 2; Sect. 4.1.1, 4.2.1, 4.3.1"
+   },
+   {
+    "pid": "P1",
+    "model": "Gemini 2.5 Flash [English]",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": null,
+    "human_es": 0.38,
+    "es_metric": null,
+    "authors_comparison": "not_different",
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Table 2; Sect. 4.1.1, 4.2.1, 4.3.1"
+   },
+   {
+    "pid": "P1",
+    "model": "ChatGPT-4o [Hebrew]",
+    "model_effect_present": "no",
+    "human_effect_present": "no",
+    "direction": "not_applicable",
+    "model_es": 2.57,
+    "human_es": 2.05,
+    "es_metric": null,
+    "authors_comparison": "different",
+    "label": "SUPER-NORMATIVE",
+    "location": "Table 2; Sect. 4.1.1, 4.2.1, 4.3.1"
+   },
+   {
+    "pid": "P1",
+    "model": "Claude 4 Sonnet [Hebrew]",
+    "model_effect_present": "no",
+    "human_effect_present": "no",
+    "direction": "not_applicable",
+    "model_es": 57.76,
+    "human_es": 2.05,
+    "es_metric": null,
+    "authors_comparison": "different",
+    "label": "SUPER-NORMATIVE",
+    "location": "Table 2; Sect. 4.1.1, 4.2.1, 4.3.1"
+   },
+   {
+    "pid": "P1",
+    "model": "Gemini 2.5 Flash [Hebrew]",
+    "model_effect_present": "no",
+    "human_effect_present": "no",
+    "direction": "not_applicable",
+    "model_es": 18.92,
+    "human_es": 2.05,
+    "es_metric": null,
+    "authors_comparison": "different",
+    "label": "SUPER-NORMATIVE",
+    "location": "Table 2; Sect. 4.1.1, 4.2.1, 4.3.1"
+   },
+   {
+    "pid": "P1",
+    "model": "ChatGPT-4o [Russian]",
+    "model_effect_present": "no",
+    "human_effect_present": "yes",
+    "direction": "not_applicable",
+    "model_es": 45.57,
+    "human_es": 0.24,
+    "es_metric": null,
+    "authors_comparison": "different",
+    "label": "SUPER-NORMATIVE",
+    "location": "Table 2; Sect. 4.1.1, 4.2.1, 4.3.1"
+   },
+   {
+    "pid": "P1",
+    "model": "Claude 4 Sonnet [Russian]",
+    "model_effect_present": "no",
+    "human_effect_present": "yes",
+    "direction": "not_applicable",
+    "model_es": 443.29,
+    "human_es": 0.24,
+    "es_metric": null,
+    "authors_comparison": "different",
+    "label": "SUPER-NORMATIVE",
+    "location": "Table 2; Sect. 4.1.1, 4.2.1, 4.3.1"
+   },
+   {
+    "pid": "P1",
+    "model": "Gemini 2.5 Flash [Russian]",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": 1.82,
+    "human_es": 0.24,
+    "es_metric": null,
+    "authors_comparison": "not_different",
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Table 2; Sect. 4.1.1, 4.2.1, 4.3.1"
+   },
+   {
+    "pid": "P2",
+    "model": "ChatGPT-4o [English]",
+    "model_effect_present": "no",
+    "human_effect_present": "yes",
+    "direction": "not_applicable",
+    "model_es": 4.45,
+    "human_es": 0.32,
+    "es_metric": null,
+    "authors_comparison": "different",
+    "label": "SUPER-NORMATIVE",
+    "location": "Table 2; Sect. 4.1.2, 4.2.2, 4.3.2"
+   },
+   {
+    "pid": "P2",
+    "model": "Claude 4 Sonnet [English]",
+    "model_effect_present": "no",
+    "human_effect_present": "yes",
+    "direction": "not_applicable",
+    "model_es": 8.25,
+    "human_es": 0.32,
+    "es_metric": null,
+    "authors_comparison": "different",
+    "label": "SUPER-NORMATIVE",
+    "location": "Table 2; Sect. 4.1.2, 4.2.2, 4.3.2"
+   },
+   {
+    "pid": "P2",
+    "model": "Gemini 2.5 Flash [English]",
+    "model_effect_present": "no",
+    "human_effect_present": "yes",
+    "direction": "not_applicable",
+    "model_es": 57.62,
+    "human_es": 0.32,
+    "es_metric": null,
+    "authors_comparison": "different",
+    "label": "SUPER-NORMATIVE",
+    "location": "Table 2; Sect. 4.1.2, 4.2.2, 4.3.2"
+   },
+   {
+    "pid": "P2",
+    "model": "ChatGPT-4o [Hebrew]",
+    "model_effect_present": "no",
+    "human_effect_present": "yes",
+    "direction": "not_applicable",
+    "model_es": 7.28,
+    "human_es": 0.32,
+    "es_metric": null,
+    "authors_comparison": "different",
+    "label": "SUPER-NORMATIVE",
+    "location": "Table 2; Sect. 4.1.2, 4.2.2, 4.3.2"
+   },
+   {
+    "pid": "P2",
+    "model": "Claude 4 Sonnet [Hebrew]",
+    "model_effect_present": "no",
+    "human_effect_present": "yes",
+    "direction": "not_applicable",
+    "model_es": 7.9,
+    "human_es": 0.32,
+    "es_metric": null,
+    "authors_comparison": "different",
+    "label": "SUPER-NORMATIVE",
+    "location": "Table 2; Sect. 4.1.2, 4.2.2, 4.3.2"
+   },
+   {
+    "pid": "P2",
+    "model": "Gemini 2.5 Flash [Hebrew]",
+    "model_effect_present": "no",
+    "human_effect_present": "yes",
+    "direction": "not_applicable",
+    "model_es": 352.93,
+    "human_es": 0.32,
+    "es_metric": null,
+    "authors_comparison": "different",
+    "label": "SUPER-NORMATIVE",
+    "location": "Table 2; Sect. 4.1.2, 4.2.2, 4.3.2"
+   },
+   {
+    "pid": "P2",
+    "model": "ChatGPT-4o [Russian]",
+    "model_effect_present": "no",
+    "human_effect_present": "yes",
+    "direction": "not_applicable",
+    "model_es": 29.82,
+    "human_es": 0.56,
+    "es_metric": null,
+    "authors_comparison": "different",
+    "label": "SUPER-NORMATIVE",
+    "location": "Table 2; Sect. 4.1.2, 4.2.2, 4.3.2"
+   },
+   {
+    "pid": "P2",
+    "model": "Claude 4 Sonnet [Russian]",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": null,
+    "human_es": 0.56,
+    "es_metric": null,
+    "authors_comparison": "not_different",
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Table 2; Sect. 4.1.2, 4.2.2, 4.3.2"
+   },
+   {
+    "pid": "P2",
+    "model": "Gemini 2.5 Flash [Russian]",
+    "model_effect_present": "no",
+    "human_effect_present": "yes",
+    "direction": "not_applicable",
+    "model_es": 4.14,
+    "human_es": 0.56,
+    "es_metric": null,
+    "authors_comparison": "different",
+    "label": "SUPER-NORMATIVE",
+    "location": "Table 2; Sect. 4.1.2, 4.2.2, 4.3.2"
+   },
+   {
+    "pid": "P3",
+    "model": "ChatGPT-4o [English]",
+    "model_effect_present": "no",
+    "human_effect_present": "yes",
+    "direction": "not_applicable",
+    "model_es": 21.52,
+    "human_es": 0.23,
+    "es_metric": null,
+    "authors_comparison": "different",
+    "label": "SUPER-NORMATIVE",
+    "location": "Table 2; Sect. 4.1.3, 4.2.3, 4.3.3"
+   },
+   {
+    "pid": "P3",
+    "model": "Claude 4 Sonnet [English]",
+    "model_effect_present": "no",
+    "human_effect_present": "yes",
+    "direction": "not_applicable",
+    "model_es": 50.02,
+    "human_es": 0.23,
+    "es_metric": null,
+    "authors_comparison": "different",
+    "label": "SUPER-NORMATIVE",
+    "location": "Table 2; Sect. 4.1.3, 4.2.3, 4.3.3"
+   },
+   {
+    "pid": "P3",
+    "model": "Gemini 2.5 Flash [English]",
+    "model_effect_present": "no",
+    "human_effect_present": "yes",
+    "direction": "not_applicable",
+    "model_es": 483.26,
+    "human_es": 0.23,
+    "es_metric": null,
+    "authors_comparison": "different",
+    "label": "SUPER-NORMATIVE",
+    "location": "Table 2; Sect. 4.1.3, 4.2.3, 4.3.3"
+   },
+   {
+    "pid": "P3",
+    "model": "ChatGPT-4o [Hebrew]",
+    "model_effect_present": "no",
+    "human_effect_present": "yes",
+    "direction": "not_applicable",
+    "model_es": 16.28,
+    "human_es": 0.41,
+    "es_metric": null,
+    "authors_comparison": "different",
+    "label": "SUPER-NORMATIVE",
+    "location": "Table 2; Sect. 4.1.3, 4.2.3, 4.3.3"
+   },
+   {
+    "pid": "P3",
+    "model": "Claude 4 Sonnet [Hebrew]",
+    "model_effect_present": "no",
+    "human_effect_present": "yes",
+    "direction": "not_applicable",
+    "model_es": 37.6,
+    "human_es": 0.41,
+    "es_metric": null,
+    "authors_comparison": "different",
+    "label": "SUPER-NORMATIVE",
+    "location": "Table 2; Sect. 4.1.3, 4.2.3, 4.3.3"
+   },
+   {
+    "pid": "P3",
+    "model": "Gemini 2.5 Flash [Hebrew]",
+    "model_effect_present": "no",
+    "human_effect_present": "yes",
+    "direction": "not_applicable",
+    "model_es": 277.46,
+    "human_es": 0.41,
+    "es_metric": null,
+    "authors_comparison": "different",
+    "label": "SUPER-NORMATIVE",
+    "location": "Table 2; Sect. 4.1.3, 4.2.3, 4.3.3"
+   },
+   {
+    "pid": "P3",
+    "model": "ChatGPT-4o [Russian]",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": 0.86,
+    "human_es": 0.96,
+    "es_metric": null,
+    "authors_comparison": "not_different",
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Table 2; Sect. 4.1.3, 4.2.3, 4.3.3"
+   },
+   {
+    "pid": "P3",
+    "model": "Claude 4 Sonnet [Russian]",
+    "model_effect_present": "no",
+    "human_effect_present": "yes",
+    "direction": "not_applicable",
+    "model_es": 111.04,
+    "human_es": 0.96,
+    "es_metric": null,
+    "authors_comparison": "different",
+    "label": "SUPER-NORMATIVE",
+    "location": "Table 2; Sect. 4.1.3, 4.2.3, 4.3.3"
+   },
+   {
+    "pid": "P3",
+    "model": "Gemini 2.5 Flash [Russian]",
+    "model_effect_present": "no",
+    "human_effect_present": "yes",
+    "direction": "not_applicable",
+    "model_es": 111.04,
+    "human_es": 0.96,
+    "es_metric": null,
+    "authors_comparison": "different",
+    "label": "SUPER-NORMATIVE",
+    "location": "Table 2; Sect. 4.1.3, 4.2.3, 4.3.3"
+   }
+  ],
+  "headline": "LLMs outperformed humans on the rule-based Wason task but showed bias-like errors on heuristic word-frequency tasks; performance varied by language and model."
+ },
+ "F": {
+  "f1": "yes",
+  "f2": "yes",
+  "f3": "yes",
+  "f4": "yes",
+  "f5": "no",
+  "f6": "no",
+  "f7": "no",
+  "f8": "no",
+  "f9": "yes",
+  "f10": "yes",
+  "f11": "no",
+  "f12": "yes",
+  "perturbations_tested": [
+   "language"
+  ],
+  "robustness_outcome": "mixed"
+ },
+ "G": {
+  "notes": "Rows are paradigm x model x language (27, language in model label) because results differ by language. model/human effect present derived by coder from Table 2 (correct <50%); authors give no own-bias test. ES are odds ratios vs human, not common metric. One item per language, no wording variants. Table 2 vs text mismatches (Gemini Russian MWFT 27.2 vs 30.2%).",
+  "extractor": "paper-reader (claude-sonnet)",
+  "date": "2026-10-16",
+  "minutes": 3,
+  "sections_read": [
+   "Abstract",
+   "Theoretical contribution table (related studies)",
+   "3 Materials and methods",
+   "4 Results (Tables 2-3)",
+   "5.5 Limitations",
+   "6 Conclusion",
+   "Data availability statement"
+  ]
+ }
+}

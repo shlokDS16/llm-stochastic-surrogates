@@ -1,0 +1,471 @@
+{
+ "order": 85,
+ "study_id": "https://openalex.org/W4385571259",
+ "full_text": {
+  "obtained": true,
+  "source": "provided full text"
+ },
+ "eligibility": {
+  "decision": "YES",
+  "failed_criterion": null,
+  "borderline": false,
+  "evidence": "Sections 3–4: tests generative language models on the established Baron-Cohen faux pas paradigm, with newly generated faux pas stories also evaluated."
+ },
+ "A": {
+  "doi": null,
+  "arxiv_id": null,
+  "title": "How Well Do Large Language Models Perform on Faux Pas Tests?",
+  "first_author": "Natalie Shapira",
+  "year": 2023,
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "peer_reviewed": "yes",
+  "first_author_field": "CS",
+  "country": "Israel"
+ },
+ "B": {
+  "models": [
+   {
+    "name": "ChatGPT",
+    "version": "not_reported",
+    "access": "API",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "GPT",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "GPT-3",
+    "version": "text-davinci-003",
+    "access": "API",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "GPT",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "GPT-2",
+    "version": "not_reported",
+    "access": "open_weights",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "base",
+    "family": "GPT",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "GPT-J",
+    "version": "not_reported",
+    "access": "open_weights",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "base",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Flan-T5-small",
+    "version": "google/flan-t5-small",
+    "access": "open_weights",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Flan-T5-base",
+    "version": "google/flan-t5-base",
+    "access": "open_weights",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Flan-T5-large",
+    "version": "google/flan-t5-large",
+    "access": "open_weights",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Flan-T5-xl",
+    "version": "google/flan-t5-xl",
+    "access": "open_weights",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Flan-T5-xxl",
+    "version": "google/flan-t5-xxl",
+    "access": "open_weights",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "T5-base",
+    "version": "t5-base",
+    "access": "open_weights",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "base",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "T5-small",
+    "version": "t5-small",
+    "access": "open_weights",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "base",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "T5-large",
+    "version": "t5-large",
+    "access": "open_weights",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "base",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "T5-3b",
+    "version": "t5-3b",
+    "access": "open_weights",
+    "params_b": 3,
+    "release_date": "not_reported",
+    "tuning": "base",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "T5-11b",
+    "version": "t5-11b",
+    "access": "open_weights",
+    "params_b": 11,
+    "release_date": "not_reported",
+    "tuning": "base",
+    "family": "other",
+    "query_date": "not_reported"
+   }
+  ],
+  "n_models": 14,
+  "n_model_families": 2
+ },
+ "C": {
+  "paradigms": [
+   {
+    "pid": "P1",
+    "name": "Faux Pas Test (recognition of faux pas; 20 original stories: 10 faux pas and 10 control)",
+    "family": "TOM",
+    "source_paper": "Baron-Cohen et al. (1999), Recognition of faux pas by normally developing children and children with Asperger syndrome or high-functioning autism",
+    "items_origin": "verbatim",
+    "n_items": 20,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "yes",
+    "location": "Section 2, Section 3, Table 1; pp. 10439–10441"
+   },
+   {
+    "pid": "P2",
+    "name": "Generation and expert evaluation of original faux pas and control stories",
+    "family": "TOM",
+    "source_paper": "Baron-Cohen et al. (1999) faux pas definition and story paradigm",
+    "items_origin": "novel",
+    "n_items": 20,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "no",
+    "location": "Section 4, Table 3; pp. 10442, 10448–10449"
+   }
+  ]
+ },
+ "D": {
+  "types": [
+   "published_norms"
+  ],
+  "primary_type": "published_norms",
+  "human_n": null,
+  "population": "Normally developing children aged 9–11; reported clinical-trial average on the original test.",
+  "metric": "Faux pas test recognition score; reported mean 8.2/10 (0.82), SD 1.56"
+ },
+ "E": {
+  "outcome_types": [
+   "accuracy",
+   "other"
+  ],
+  "rows_aggregated": false,
+  "effects": [
+   {
+    "pid": "P1",
+    "model": "ChatGPT",
+    "model_family": "GPT",
+    "outcome_kind": "accuracy",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "below",
+    "agreement_value": null,
+    "label": "BELOW-HUMAN",
+    "location": "Table 1 and Section 3.2, p. 10441; authors state all models fail relative to children's 0.82 average."
+   },
+   {
+    "pid": "P1",
+    "model": "GPT-3 (text-davinci-003)",
+    "model_family": "GPT",
+    "outcome_kind": "accuracy",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "below",
+    "agreement_value": null,
+    "label": "BELOW-HUMAN",
+    "location": "Table 1 and Section 3.2, p. 10441; authors state all models fail relative to children's 0.82 average."
+   },
+   {
+    "pid": "P1",
+    "model": "GPT-2",
+    "model_family": "GPT",
+    "outcome_kind": "accuracy",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "below",
+    "agreement_value": null,
+    "label": "BELOW-HUMAN",
+    "location": "Table 1 and Section 3.2, p. 10441; models with final score zero omitted from table; authors state all models fail relative to children's 0.82 average."
+   },
+   {
+    "pid": "P1",
+    "model": "GPT-J",
+    "model_family": "other",
+    "outcome_kind": "accuracy",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "below",
+    "agreement_value": null,
+    "label": "BELOW-HUMAN",
+    "location": "Table 1 and Section 3.2, p. 10441; models with final score zero omitted from table; authors state all models fail relative to children's 0.82 average."
+   },
+   {
+    "pid": "P1",
+    "model": "Flan-T5-xxl",
+    "model_family": "other",
+    "outcome_kind": "accuracy",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "below",
+    "agreement_value": null,
+    "label": "BELOW-HUMAN",
+    "location": "Table 1 and Section 3.2, p. 10441; authors describe highest model score (0.4) as significantly below the children's 0.82 average."
+   },
+   {
+    "pid": "P1",
+    "model": "Flan-T5-xl",
+    "model_family": "other",
+    "outcome_kind": "accuracy",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "below",
+    "agreement_value": null,
+    "label": "BELOW-HUMAN",
+    "location": "Table 1 and Section 3.2, p. 10441; authors describe highest model score (0.4) as significantly below the children's 0.82 average."
+   },
+   {
+    "pid": "P1",
+    "model": "Flan-T5-large",
+    "model_family": "other",
+    "outcome_kind": "accuracy",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "below",
+    "agreement_value": null,
+    "label": "BELOW-HUMAN",
+    "location": "Table 1 and Section 3.2, p. 10441; model results are lower than the published child comparison; some model scores are zero."
+   },
+   {
+    "pid": "P1",
+    "model": "T5-11b",
+    "model_family": "other",
+    "outcome_kind": "accuracy",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "below",
+    "agreement_value": null,
+    "label": "BELOW-HUMAN",
+    "location": "Table 1 and Section 3.2, p. 10441; authors state all models fail relative to children's 0.82 average."
+   },
+   {
+    "pid": "P2",
+    "model": "ChatGPT",
+    "model_family": "GPT",
+    "outcome_kind": "accuracy",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "NO-HUMAN-REFERENCE",
+    "location": "Section 4 and Table 3, p. 10442; ChatGPT generated eight faux pas stories but they were all explicit, and control stories were simplistic."
+   },
+   {
+    "pid": "P2",
+    "model": "GPT-3 (text-davinci-003)",
+    "model_family": "GPT",
+    "outcome_kind": "accuracy",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "NO-HUMAN-REFERENCE",
+    "location": "Section 4 and Table 3, p. 10442; none of GPT-3's ten generated stories were faux pas."
+   },
+   {
+    "pid": "P2",
+    "model": "Flan-T5-xxl",
+    "model_family": "other",
+    "outcome_kind": "accuracy",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "NO-HUMAN-REFERENCE",
+    "location": "Section 4 and Table 3, p. 10442; Flan-T5-xxl barely succeeded in creating stories, and generated controls were simplistic."
+   },
+   {
+    "pid": "P2",
+    "model": "Flan-T5-xl",
+    "model_family": "other",
+    "outcome_kind": "accuracy",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": "na",
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "NO-HUMAN-REFERENCE",
+    "location": "Section 4 and Table 3, p. 10442; Flan-T5-xl failed to create stories."
+   }
+  ],
+  "headline": "Models performed inadequately on the established faux pas test; generated stories from the strongest models were explicit and weak on implicit social reasoning."
+ },
+ "F": {
+  "f1": "no",
+  "f2": "no",
+  "f3": "no",
+  "f4": "yes",
+  "f5": "no",
+  "f6": "na",
+  "f7": "yes",
+  "f8": "no",
+  "f9": "yes",
+  "f10": "yes",
+  "f11": "no",
+  "f12": "yes",
+  "perturbations_tested": [
+   "wording",
+   "decoding"
+  ],
+  "robustness_outcome": "weakened"
+ },
+ "G": {
+  "notes": "The original test contains only 20 stories, and the authors note it cannot support statistically significant system rankings. The reported child benchmark is historical; explain how its test administration and scoring compare with this study.",
+  "extractor": "codex (default)",
+  "date": "2026-10-16",
+  "minutes": 0.8,
+  "sections_read": [
+   "Abstract",
+   "Sections 1–5",
+   "Limitations",
+   "Appendix A.1–A.4",
+   "Tables 1–7",
+   "ACL 2023 Responsible NLP Checklist"
+  ]
+ }
+}

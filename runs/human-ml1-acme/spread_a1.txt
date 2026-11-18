@@ -1,0 +1,8 @@
+metric                               sites    S2hat    S^H         TI 95% S  lower>0 | formula-v S^H
+AF/primary                              36  -0.0740  0.000 [ 0.000,  0.465]    False | 0.000
+AF/sens_raw                             36   0.0027  0.052 [ 0.000,  0.081]    False | 0.053
+AF/check_ml1_published_yes_coding       36   0.7117  0.844 [ 0.589,  1.078]     True | 0.852
+QA/primary                              36   0.0329  0.181 [ 0.085,  0.262]     True | 0.180
+QA/sens_raw                             36   0.1509  0.388 [ 0.217,  0.554]     True | 0.390
+NR/primary                              36  -0.0284  0.000 [ 0.000,  0.337]    False | 0.000
+NR/sens_raw                             36   0.0015  0.039 [ 0.000,  0.083]    False | 0.041

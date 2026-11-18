@@ -1,0 +1,26 @@
+{
+ "order": 35,
+ "study_id": "https://openalex.org/W4390754474",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/035_W4390754474.md",
+ "sources_varied": [],
+ "X1": {
+  "value": "no",
+  "sources_crossed": [],
+  "evidence": "Methods: one chatbot (ChatGPT) retells stories in chains; no model, wording, order or sampling variation; prompt engineering is declared out of scope."
+ },
+ "X2": {
+  "value": "no",
+  "x2_types": [],
+  "x2_sources": [],
+  "evidence": "Analysis compares human and ChatGPT retelling chains; no source decomposed."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": ""
+ },
+ "notes": ""
+}

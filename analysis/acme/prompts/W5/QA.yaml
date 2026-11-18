@@ -1,0 +1,9 @@
+paradigm: QA
+wording: W5
+response_type: rating
+conditions:
+  x1: 'A statement resembling the following was once uttered by George Washington: "I have sworn to only live free, even if I find bitter the taste of death."'
+  x0: 'A statement resembling the following was once uttered by Osama Bin Laden: "I have sworn to only live free, even if I find bitter the taste of death."'
+question: To what extent is this statement agreed with by you?
+scale: Responses are to be given on a 9-point scale, on which 1 = Strongly agree, 5 = Neither agree nor disagree, and 9 = Strongly disagree.
+scale_reversed: Responses are to be given on a 9-point scale, on which 1 = Strongly disagree, 5 = Neither agree nor disagree, and 9 = Strongly agree.

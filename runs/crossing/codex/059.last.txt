@@ -1,0 +1,26 @@
+{
+  "order": 59,
+  "study_id": "arxiv:2606.11724",
+  "pass": "codex",
+  "brief_version": "1.0",
+  "date": "2026-11-07",
+  "full_text": "research/sources/md/fulltext/059_arxiv_2606.11724.md",
+  "sources_varied": ["M"],
+  "X1": {
+    "value": "no",
+    "sources_crossed": [],
+    "evidence": "Section 5 and Appendix D: evaluates multiple LLM backbones on the same benchmarks; Appendix D gives fixed decoding settings for open-source models."
+  },
+  "X2": {
+    "value": "no",
+    "x2_types": [],
+    "x2_sources": [],
+    "evidence": "Sections 5.1–5.4 and Appendix B: results are reported by backbone and method, but no quantified outcome change or statistical test is attributed to backbone as a source."
+  },
+  "X3": {
+    "value": "no",
+    "x3_pairs": [],
+    "evidence": "Sections 5.1–5.4 and Appendix B: no interaction between varied simulation sources is estimated or shown."
+  },
+  "notes": ""
+}

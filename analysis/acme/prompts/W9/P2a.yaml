@@ -1,0 +1,11 @@
+paradigm: P2a
+wording: W9
+response_type: number
+intro: Don't know the right answer? Just take a best guess. We're curious what people think about the world around them, so for this question, give us your best estimate.
+conditions:
+  x1: From San Francisco to New York City it's less than 6,000 miles. So how far would you guess it is?
+  x0: From San Francisco to New York City it's more than 1,500 miles. So how far would you guess it is?
+condition_names:
+  x1: high anchor
+  x0: low anchor
+baseline: From San Francisco to New York City, how many miles would you guess it is?

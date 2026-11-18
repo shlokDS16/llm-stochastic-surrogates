@@ -1,0 +1,438 @@
+{
+  "order": 126,
+  "study_id": "https://openalex.org/W7152081016",
+  "full_text": {
+    "obtained": true,
+    "source": "provided full text"
+  },
+  "eligibility": {
+    "decision": "YES",
+    "failed_criterion": null,
+    "borderline": false,
+    "evidence": "Sections 3–4: the study experimentally swaps source labels while holding health-answer content constant, measures trust judgments in humans and LLMs, and cites prior trust and source-credibility research."
+  },
+  "A": {
+    "doi": null,
+    "arxiv_id": "2604.05593",
+    "title": "Label Effects: Shared Heuristic Reliance in Trust Assessment by Humans and LLM-as-a-Judge",
+    "first_author": "Xin Sun",
+    "year": 2026,
+    "venue": "Preprint",
+    "peer_reviewed": "preprint",
+    "first_author_field": "not_reported",
+    "country": "Japan"
+  },
+  "B": {
+    "models": [
+      {
+        "name": "GPT-5.2",
+        "version": "GPT-5.2",
+        "access": "API",
+        "params_b": null,
+        "release_date": "not_reported",
+        "tuning": "instruction",
+        "family": "GPT",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "GPT-4o",
+        "version": "GPT-4o",
+        "access": "API",
+        "params_b": null,
+        "release_date": "not_reported",
+        "tuning": "instruction",
+        "family": "GPT",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "Claude Sonnet 4.5",
+        "version": "Claude-Sonnet-4.5",
+        "access": "API",
+        "params_b": null,
+        "release_date": "not_reported",
+        "tuning": "instruction",
+        "family": "Claude",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "Claude Opus 4.5",
+        "version": "Claude-Opus-4.5",
+        "access": "API",
+        "params_b": null,
+        "release_date": "not_reported",
+        "tuning": "instruction",
+        "family": "Claude",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "GPT-OSS-120B",
+        "version": "GPT-OSS-120B",
+        "access": "open_weights",
+        "params_b": 120,
+        "release_date": "not_reported",
+        "tuning": "not_reported",
+        "family": "GPT",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "Llama 3.3 Instruct",
+        "version": "Llama-3.3-Instruct-70B",
+        "access": "open_weights",
+        "params_b": 70,
+        "release_date": "not_reported",
+        "tuning": "instruction",
+        "family": "Llama",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "Qwen3",
+        "version": "Qwen3-235B-A22B",
+        "access": "open_weights",
+        "params_b": 235,
+        "release_date": "not_reported",
+        "tuning": "instruction",
+        "family": "Qwen",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "DeepSeek V3.2",
+        "version": "DeepSeek-V3.2-685B",
+        "access": "open_weights",
+        "params_b": 685,
+        "release_date": "not_reported",
+        "tuning": "not_reported",
+        "family": "other",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "GPT-OSS-20B",
+        "version": "GPT-OSS-20B",
+        "access": "open_weights",
+        "params_b": 20,
+        "release_date": "not_reported",
+        "tuning": "not_reported",
+        "family": "GPT",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "Qwen3-30B base",
+        "version": "Qwen3-30B-A3B",
+        "access": "open_weights",
+        "params_b": 30,
+        "release_date": "not_reported",
+        "tuning": "base",
+        "family": "Qwen",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "Qwen3-30B Instruct",
+        "version": "Qwen3-30B-A3B-Instruct-2507",
+        "access": "open_weights",
+        "params_b": 30,
+        "release_date": "not_reported",
+        "tuning": "instruction",
+        "family": "Qwen",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "Llama 3.2 3B Instruct",
+        "version": "LLaMA-3.2-3B-Instruct",
+        "access": "open_weights",
+        "params_b": 3,
+        "release_date": "not_reported",
+        "tuning": "instruction",
+        "family": "Llama",
+        "query_date": "not_reported"
+      }
+    ],
+    "n_models": 12,
+    "n_model_families": 5
+  },
+  "C": {
+    "paradigms": [
+      {
+        "pid": "P1",
+        "name": "Source-label effects on trust judgments of health information",
+        "family": "HB",
+        "source_paper": "Johnson et al. (2015); Rowley et al. (2015), Trust of Online Health Information questionnaire",
+        "items_origin": "adapted",
+        "n_items": 150,
+        "languages": [
+          "English"
+        ],
+        "modality": "text",
+        "contamination_risk": "no",
+        "location": "Sections 3–4; Appendix F"
+      }
+    ]
+  },
+  "D": {
+    "types": [
+      "own_sample"
+    ],
+    "primary_type": "own_sample",
+    "human_n": 40,
+    "population": "English-fluent adults with non-medical backgrounds recruited for an in-person laboratory study",
+    "metric": "Trust rating on a 5-point Likert scale, aggregated across trust-related items"
+  },
+  "E": {
+    "outcome_types": [
+      "bias_magnitude",
+      "choice_distribution"
+    ],
+    "rows_aggregated": false,
+    "effects": [
+      {
+        "pid": "P1",
+        "model": "GPT-5.2",
+        "model_family": "GPT",
+        "outcome_kind": "effect",
+        "basis": "descriptive",
+        "model_effect_present": "yes",
+        "human_effect_present": "yes",
+        "direction": "same",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "SAME-DIRECTION-UNQUANTIFIED",
+        "location": "Sections 4.1.2–4.1.3; Figure 3"
+      },
+      {
+        "pid": "P1",
+        "model": "GPT-4o",
+        "model_family": "GPT",
+        "outcome_kind": "effect",
+        "basis": "descriptive",
+        "model_effect_present": "yes",
+        "human_effect_present": "yes",
+        "direction": "same",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "SAME-DIRECTION-UNQUANTIFIED",
+        "location": "Sections 4.1.2–4.1.3; Figure 3"
+      },
+      {
+        "pid": "P1",
+        "model": "Claude-Sonnet-4.5",
+        "model_family": "Claude",
+        "outcome_kind": "effect",
+        "basis": "descriptive",
+        "model_effect_present": "yes",
+        "human_effect_present": "yes",
+        "direction": "same",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "SAME-DIRECTION-UNQUANTIFIED",
+        "location": "Sections 4.1.2–4.1.3; Figure 3"
+      },
+      {
+        "pid": "P1",
+        "model": "Claude-Opus-4.5",
+        "model_family": "Claude",
+        "outcome_kind": "effect",
+        "basis": "descriptive",
+        "model_effect_present": "yes",
+        "human_effect_present": "yes",
+        "direction": "same",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "SAME-DIRECTION-UNQUANTIFIED",
+        "location": "Sections 4.1.2–4.1.3; Figure 3"
+      },
+      {
+        "pid": "P1",
+        "model": "GPT-OSS-120B",
+        "model_family": "GPT",
+        "outcome_kind": "effect",
+        "basis": "descriptive",
+        "model_effect_present": "yes",
+        "human_effect_present": "yes",
+        "direction": "same",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "SAME-DIRECTION-UNQUANTIFIED",
+        "location": "Sections 4.1.2–4.1.3; Figure 3"
+      },
+      {
+        "pid": "P1",
+        "model": "Llama-3.3-Instruct-70B",
+        "model_family": "Llama",
+        "outcome_kind": "effect",
+        "basis": "descriptive",
+        "model_effect_present": "yes",
+        "human_effect_present": "yes",
+        "direction": "same",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "SAME-DIRECTION-UNQUANTIFIED",
+        "location": "Sections 4.1.2–4.1.3; Figure 3"
+      },
+      {
+        "pid": "P1",
+        "model": "Qwen3-235B-A22B",
+        "model_family": "Qwen",
+        "outcome_kind": "effect",
+        "basis": "descriptive",
+        "model_effect_present": "yes",
+        "human_effect_present": "yes",
+        "direction": "same",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "SAME-DIRECTION-UNQUANTIFIED",
+        "location": "Sections 4.1.2–4.1.3; Figure 3"
+      },
+      {
+        "pid": "P1",
+        "model": "DeepSeek-V3.2-685B",
+        "model_family": "other",
+        "outcome_kind": "effect",
+        "basis": "descriptive",
+        "model_effect_present": "yes",
+        "human_effect_present": "yes",
+        "direction": "same",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "SAME-DIRECTION-UNQUANTIFIED",
+        "location": "Sections 4.1.2–4.1.3; Figure 3"
+      },
+      {
+        "pid": "P1",
+        "model": "GPT-OSS-20B",
+        "model_family": "GPT",
+        "outcome_kind": "effect",
+        "basis": "descriptive",
+        "model_effect_present": "yes",
+        "human_effect_present": "yes",
+        "direction": "same",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "SAME-DIRECTION-UNQUANTIFIED",
+        "location": "Sections 3.3 and 4.2.2–4.2.4; Figures 4, 10"
+      },
+      {
+        "pid": "P1",
+        "model": "Qwen3-30B-A3B",
+        "model_family": "Qwen",
+        "outcome_kind": "effect",
+        "basis": "descriptive",
+        "model_effect_present": "yes",
+        "human_effect_present": "yes",
+        "direction": "same",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "SAME-DIRECTION-UNQUANTIFIED",
+        "location": "Sections 3.3 and 4.2.2–4.2.4; Figures 4, 10"
+      },
+      {
+        "pid": "P1",
+        "model": "Qwen3-30B-A3B-Instruct-2507",
+        "model_family": "Qwen",
+        "outcome_kind": "effect",
+        "basis": "descriptive",
+        "model_effect_present": "yes",
+        "human_effect_present": "yes",
+        "direction": "same",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "SAME-DIRECTION-UNQUANTIFIED",
+        "location": "Sections 3.3 and 4.2.2–4.2.4; Figures 4, 10"
+      },
+      {
+        "pid": "P1",
+        "model": "LLaMA-3.2-3B-Instruct",
+        "model_family": "Llama",
+        "outcome_kind": "effect",
+        "basis": "descriptive",
+        "model_effect_present": "yes",
+        "human_effect_present": "yes",
+        "direction": "same",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "SAME-DIRECTION-UNQUANTIFIED",
+        "location": "Sections 3.3 and 4.2.2–4.2.4; Figures 4, 10"
+      }
+    ],
+    "headline": "Humans and LLM judges gave identical health answers higher trust ratings under human-authored than AI-generated labels; internal analyses also showed label-sensitive attention and uncertainty."
+  },
+  "F": {
+    "f1": "no",
+    "f2": "yes",
+    "f3": "no",
+    "f4": "yes",
+    "f5": "no",
+    "f6": "na",
+    "f7": "no",
+    "f8": "no",
+    "f9": "no",
+    "f10": "yes",
+    "f11": "no",
+    "f12": "yes",
+    "perturbations_tested": [
+      "other"
+    ],
+    "robustness_outcome": "na"
+  },
+  "G": {
+    "notes": "The paper reports significance for label effects but does not provide a common effect-size metric for model and human label effects or a direct statistical comparison between them. It describes 150 QA pairs but does not clearly state how many were used in each study.",
+    "extractor": "codex (default)",
+    "date": "2026-10-16",
+    "minutes": null,
+    "sections_read": [
+      "Abstract",
+      "Introduction",
+      "Methodology",
+      "Results",
+      "Discussion",
+      "Conclusion",
+      "Limitations",
+      "Appendices A–H"
+    ]
+  }
+}

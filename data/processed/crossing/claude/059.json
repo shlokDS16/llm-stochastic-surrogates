@@ -1,0 +1,36 @@
+{
+ "order": 59,
+ "study_id": "arxiv:2606.11724",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/059_arxiv_2606.11724.md",
+ "sources_varied": [
+  "M",
+  "X"
+ ],
+ "X1": {
+  "value": "yes",
+  "sources_crossed": [
+   "M",
+   "X"
+  ],
+  "evidence": "Sec 5 (p.6): four backbones (GPT-5.4, Gemini-3-Flash, Qwen3.5-27B, Gemma-4-26B-A4B) each run with CoT, SimToM, TimeToM and the proposed RecToM on the same benchmark items."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "X"
+  ],
+  "evidence": "Sec 5.1-5.3, results tables: accuracy gains of RecToM over the other prompting methods reported per backbone and order level; no variance share."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "No model-by-method interaction estimated."
+ },
+ "notes": "Prompting method is the intervention under test; coded as X, borderline as a simulation-uncertainty source."
+}

@@ -1,0 +1,26 @@
+{
+  "order": 101,
+  "study_id": "https://openalex.org/W7133241468",
+  "pass": "codex",
+  "brief_version": "1.0",
+  "date": "2026-11-07",
+  "full_text": "research/sources/md/fulltext/101_W7133241468.md",
+  "sources_varied": ["M", "R"],
+  "X1": {
+    "value": "partial",
+    "sources_crossed": [],
+    "evidence": "Sec. 3.1 and Table 3: multiple embedding models were evaluated, with results averaged over 16 unique seeds and randomized clue orders; the runs are summarized rather than fully crossed."
+  },
+  "X2": {
+    "value": "yes",
+    "x2_types": ["effect_change"],
+    "x2_sources": ["M"],
+    "evidence": "Sec. 4.1, Tables 3–4: grouping performance is quantified across models, including differences in solved walls and correct groups."
+  },
+  "X3": {
+    "value": "no",
+    "x3_pairs": [],
+    "evidence": "Sec. 3.1–4.3 and Appendices A–C: no interaction between varied sources is estimated or reported."
+  },
+  "notes": "Randomized clue order is described for embedding experiments, but run-to-run variability is attributed to initialization and no run-level analysis is reported; repeated draws (R) may therefore not qualify as a varied source. The LLM prompt example counts are varied, but are demonstrations rather than a listed source of simulation uncertainty."
+}

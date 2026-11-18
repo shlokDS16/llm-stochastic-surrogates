@@ -1,0 +1,88 @@
+﻿.venv\Scripts\python.exe : W1016 04:17:37.633000 51856 
+Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not 
+supported in Windows or MacOs.
+At line:1 char:727
++ ... \queue.log; .venv\Scripts\python.exe -I analysis\pilot\run_pilot.py - ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (W1016 04:17:37....ndows or MacOs.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+qwen2.5-1.5b-instruct P1: 3232 planned, 0 done, 3232 to do
+qwen2.5-1.5b-instruct P2a: 1616 planned, 0 done, 1616 to do
+qwen2.5-1.5b-instruct P2b: 1616 planned, 0 done, 1616 to do
+qwen2.5-1.5b-instruct P2c: 1616 planned, 0 done, 1616 to do
+qwen2.5-1.5b-instruct P2d: 1616 planned, 0 done, 1616 to do
+qwen2.5-1.5b-instruct P3: 1616 planned, 0 done, 1616 to do
+qwen2.5-1.5b-instruct P4: 1616 planned, 0 done, 1616 to do
+
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/338 [00:00<00:50,  6.68it/s]
+Loading weights:   3%|3         | 11/338 [00:00<00:06, 52.16it/s]
+Loading weights:   7%|6         | 23/338 [00:00<00:04, 76.42it/s]
+Loading weights:  11%|#         | 36/338 [00:00<00:03, 89.95it/s]
+Loading weights:  14%|#4        | 49/338 [00:00<00:02, 98.79it/s]
+Loading weights:  19%|#8        | 63/338 [00:00<00:02, 110.36it/s]
+Loading weights:  22%|##2       | 75/338 [00:00<00:02, 108.86it/s]
+Loading weights:  26%|##5       | 87/338 [00:00<00:02, 105.52it/s]
+Loading weights:  29%|##8       | 98/338 [00:01<00:02, 104.45it/s]
+Loading weights:  32%|###2      | 109/338 [00:01<00:02, 101.83it/s]
+Loading weights:  36%|###5      | 120/338 [00:01<00:02, 99.21it/s] 
+Loading weights:  39%|###9      | 133/338 [00:01<00:02, 101.86it/s]
+Loading weights:  43%|####2     | 145/338 [00:01<00:01, 101.35it/s]
+Loading weights:  46%|####6     | 157/338 [00:01<00:01, 102.05it/s]
+Loading weights:  51%|#####     | 171/338 [00:01<00:01, 110.66it/s]
+Loading weights:  54%|#####4    | 183/338 [00:01<00:01, 110.54it/s]
+Loading weights:  58%|#####7    | 195/338 [00:01<00:01, 111.24it/s]
+Loading weights:  62%|######1   | 209/338 [00:02<00:01, 117.92it/s]
+Loading weights:  65%|######5   | 221/338 [00:02<00:01, 116.82it/s]
+Loading weights:  69%|######9   | 234/338 [00:02<00:00, 119.42it/s]
+Loading weights:  73%|#######2  | 246/338 [00:02<00:00, 115.58it/s]
+Loading weights:  76%|#######6  | 258/338 [00:02<00:00, 113.45it/s]
+Loading weights:  80%|#######9  | 270/338 [00:02<00:00, 111.41it/s]
+Loading weights:  83%|########3 | 282/338 [00:02<00:00, 110.83it/s]
+Loading weights:  87%|########6 | 294/338 [00:02<00:00, 103.97it/s]
+Loading weights:  90%|######### | 305/338 [00:02<00:00, 101.49it/s]
+Loading weights:  93%|#########3| 316/338 [00:03<00:00, 101.98it/s]
+Loading weights:  97%|#########6| 327/338 [00:03<00:00, 102.77it/s]
+Loading weights: 100%|##########| 338/338 [00:03<00:00, 106.43it/s]
+[transformers] The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set 
+`TRANSFORMERS_VERBOSITY=info` for more details.
+P1 batch 1/34 F=F0 rows=100 2.6s 41 tok/s peak 4.07 GiB elapsed 3s
+P1 batch 6/34 F=F0 rows=100 1.6s 78 tok/s peak 4.09 GiB elapsed 11s
+P1 batch 11/34 F=F0 rows=100 1.3s 75 tok/s peak 4.14 GiB elapsed 18s
+P1 batch 16/34 F=F0 rows=100 1.7s 64 tok/s peak 4.17 GiB elapsed 26s
+P1 batch 21/34 F=F1 rows=100 19.5s 297 tok/s peak 4.45 GiB elapsed 90s
+P1 batch 26/34 F=F1 rows=100 26.5s 202 tok/s peak 4.31 GiB elapsed 178s
+P1 batch 31/34 F=F1 rows=100 32.4s 154 tok/s peak 4.33 GiB elapsed 347s
+P1 batch 34/34 F=F1 rows=16 7.6s 136 tok/s peak 3.12 GiB elapsed 415s
+P2a batch 1/18 F=F0 rows=100 1.5s 432 tok/s peak 3.74 GiB elapsed 1s
+P2a batch 6/18 F=F0 rows=100 1.6s 419 tok/s peak 3.79 GiB elapsed 11s
+P2a batch 11/18 F=F1 rows=100 18.8s 354 tok/s peak 4.35 GiB elapsed 46s
+P2a batch 16/18 F=F1 rows=100 9.9s 613 tok/s peak 3.99 GiB elapsed 116s
+P2a batch 18/18 F=F1 rows=8 7.5s 70 tok/s peak 2.97 GiB elapsed 139s
+P2b batch 1/18 F=F0 rows=100 2.1s 338 tok/s peak 3.72 GiB elapsed 2s
+P2b batch 6/18 F=F0 rows=100 2.2s 368 tok/s peak 3.78 GiB elapsed 13s
+P2b batch 11/18 F=F1 rows=100 7.5s 721 tok/s peak 3.92 GiB elapsed 39s
+P2b batch 16/18 F=F1 rows=100 8.7s 598 tok/s peak 3.97 GiB elapsed 94s
+P2b batch 18/18 F=F1 rows=8 5.7s 72 tok/s peak 2.97 GiB elapsed 107s
+P2c batch 1/18 F=F0 rows=100 2.5s 219 tok/s peak 3.72 GiB elapsed 3s
+P2c batch 6/18 F=F0 rows=100 2.4s 233 tok/s peak 3.74 GiB elapsed 14s
+P2c batch 11/18 F=F1 rows=100 10.3s 587 tok/s peak 3.90 GiB elapsed 43s
+P2c batch 16/18 F=F1 rows=100 9.3s 620 tok/s peak 3.93 GiB elapsed 132s
+P2c batch 18/18 F=F1 rows=8 5.0s 87 tok/s peak 2.97 GiB elapsed 148s
+P2d batch 1/18 F=F0 rows=100 2.4s 148 tok/s peak 3.77 GiB elapsed 2s
+P2d batch 6/18 F=F0 rows=100 2.2s 270 tok/s peak 3.87 GiB elapsed 13s
+P2d batch 11/18 F=F1 rows=100 14.5s 562 tok/s peak 3.96 GiB elapsed 48s
+P2d batch 16/18 F=F1 rows=100 21.3s 333 tok/s peak 4.20 GiB elapsed 127s
+P2d batch 18/18 F=F1 rows=8 7.2s 73 tok/s peak 2.98 GiB elapsed 154s
+P3 batch 1/18 F=F0 rows=100 1.3s 81 tok/s peak 3.86 GiB elapsed 1s
+P3 batch 6/18 F=F0 rows=100 1.1s 93 tok/s peak 3.91 GiB elapsed 7s
+P3 batch 11/18 F=F1 rows=100 9.0s 502 tok/s peak 4.04 GiB elapsed 28s
+P3 batch 16/18 F=F1 rows=100 8.8s 550 tok/s peak 4.10 GiB elapsed 79s
+P3 batch 18/18 F=F1 rows=8 7.7s 63 tok/s peak 2.98 GiB elapsed 94s
+P4 batch 1/18 F=F0 rows=100 2.3s 377 tok/s peak 3.66 GiB elapsed 2s
+P4 batch 6/18 F=F0 rows=100 2.3s 389 tok/s peak 3.72 GiB elapsed 14s
+P4 batch 11/18 F=F1 rows=100 14.3s 526 tok/s peak 3.93 GiB elapsed 52s
+P4 batch 16/18 F=F1 rows=100 21.9s 340 tok/s peak 4.44 GiB elapsed 145s
+P4 batch 18/18 F=F1 rows=8 7.2s 69 tok/s peak 2.97 GiB elapsed 170s
+done

@@ -1,0 +1,129 @@
+{
+ "order": 118,
+ "study_id": "https://openalex.org/W4403705247",
+ "full_text": {
+  "obtained": true,
+  "source": "research/sources/md/fulltext/118_W4403705247.md"
+ },
+ "eligibility": {
+  "decision": "YES",
+  "failed_criterion": null,
+  "borderline": false,
+  "evidence": "Methods, Dataset and Model: authors train decoder-only Transformers on the human-derived N-back working-memory task; the paper cites human N-back paradigms and Gong et al. (2024)."
+ },
+ "A": {
+  "doi": null,
+  "arxiv_id": "2409.01705",
+  "title": "Self-Attention Limits the Working Memory Capacity of Transformer-Based Models",
+  "first_author": "Dongyu Gong",
+  "year": 2024,
+  "venue": "NeurIPS 2024 Workshop on Behavioral Machine Learning",
+  "peer_reviewed": "yes",
+  "first_author_field": "not_reported",
+  "country": "United States"
+ },
+ "B": {
+  "models": [
+   {
+    "name": "vanilla causal Transformer",
+    "version": "one decoder layer, one attention head (main model); variants with L∈{1,2}, H∈{1,2,4}",
+    "access": "not_reported",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "other",
+    "query_date": "not_reported"
+   }
+  ],
+  "n_models": 1,
+  "n_model_families": 1
+ },
+ "C": {
+  "paradigms": [
+   {
+    "pid": "P1",
+    "name": "N-back working-memory task (1- to 6-back; analyses focus mostly on 1- to 3-back)",
+    "family": "MEM",
+    "source_paper": "Kirchner (1958); Gong et al. (2024)",
+    "items_origin": "adapted",
+    "n_items": 24,
+    "languages": [
+     "not_reported"
+    ],
+    "modality": "text",
+    "contamination_risk": "no",
+    "location": "Methods, Dataset; Figure 1"
+   }
+  ]
+ },
+ "D": {
+  "types": [
+   "none"
+  ],
+  "primary_type": "none",
+  "human_n": null,
+  "population": "not_reported",
+  "metric": "not_reported"
+ },
+ "E": {
+  "outcome_types": [
+   "accuracy",
+   "other"
+  ],
+  "rows_aggregated": false,
+  "effects": [
+   {
+    "pid": "P1",
+    "model": "vanilla causal Transformer, one decoder layer and one attention head",
+    "model_family": "other",
+    "outcome_kind": "accuracy",
+    "basis": "test",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "NO-HUMAN-REFERENCE",
+    "location": "Results, Figure 2; Appendix Table 1"
+   }
+  ],
+  "headline": "Accuracy declined significantly as N increased; attention increasingly concentrated on the target position, while higher attention entropy tracked lower performance."
+ },
+ "F": {
+  "f1": "no",
+  "f2": "na",
+  "f3": "yes",
+  "f4": "yes",
+  "f5": "no",
+  "f6": "no",
+  "f7": "no",
+  "f8": "no",
+  "f9": "yes",
+  "f10": "yes",
+  "f11": "no",
+  "f12": "no",
+  "perturbations_tested": [
+   "other"
+  ],
+  "robustness_outcome": "na"
+ },
+ "G": {
+  "notes": "The study trains simplified Transformers on synthetic N-back sequences, so its findings do not directly establish limits in pretrained LLMs; the authors identify this generalizability limitation.",
+  "extractor": "codex (default)",
+  "date": "2026-10-16",
+  "minutes": 0.5,
+  "sections_read": [
+   "Abstract",
+   "Introduction",
+   "Methods",
+   "Results",
+   "Discussion",
+   "References",
+   "Appendix"
+  ]
+ }
+}

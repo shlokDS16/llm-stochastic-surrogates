@@ -1,0 +1,203 @@
+{
+ "order": 101,
+ "study_id": "https://openalex.org/W7133241468",
+ "full_text": {
+  "obtained": true,
+  "source": "research/sources/md/fulltext/101_W7133241468.md (arXiv 2306.11167 v4)"
+ },
+ "eligibility": {
+  "decision": "YES",
+  "failed_criterion": null,
+  "borderline": true,
+  "evidence": "Abstract/Sec.1: Only Connect walls framed as proxy for Mednick RAT and the fixation/Einstellung effect; GPT-3.5-turbo and GPT-4 tested few-shot vs quiz-show human performance. Dataset paper, so benchmark-only reading is possible."
+ },
+ "A": {
+  "doi": "10.52202/075280-0246",
+  "arxiv_id": "2306.11167",
+  "title": "Large Language Models are Fixated by Red Herrings: Exploring Creative Problem Solving and Einstellung Effect using the Only Connect Wall Dataset",
+  "first_author": "Saeid Alavi Naeini",
+  "year": 2023,
+  "venue": "NeurIPS 2023 Datasets and Benchmarks",
+  "peer_reviewed": "yes",
+  "first_author_field": "other",
+  "country": "Canada"
+ },
+ "B": {
+  "models": [
+   {
+    "name": "GPT-3.5-turbo",
+    "version": "gpt-3.5-turbo-0301",
+    "access": "API",
+    "params_b": null,
+    "release_date": "2023-03-01 (snapshot)",
+    "tuning": "instruction",
+    "family": "GPT",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "GPT-4",
+    "version": "gpt-4-0314",
+    "access": "API",
+    "params_b": null,
+    "release_date": "2023-03-14 (snapshot)",
+    "tuning": "instruction",
+    "family": "GPT",
+    "query_date": "not_reported"
+   }
+  ],
+  "n_models": 2,
+  "n_model_families": 1
+ },
+ "C": {
+  "paradigms": [
+   {
+    "pid": "P1",
+    "name": "Only Connect Wall Task 1: grouping 16 clues into 4 connected groups with built-in red herrings (RAT-like; fixation/Einstellung)",
+    "family": "OTH",
+    "source_paper": "Mednick Remote Associates Test (ref [45]); fixation/Einstellung (refs [34,42])",
+    "items_origin": "adapted",
+    "n_items": 494,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "yes",
+    "location": "Sec. 2-3, Tables 3-5; 494 test walls (618 total); quiz-show puzzles scraped from fan site; derived OCW-Randomized and OCW-WordNet sets, App. C.1"
+   },
+   {
+    "pid": "P2",
+    "name": "Only Connect Wall Task 2: naming the connection of each solved group",
+    "family": "OTH",
+    "source_paper": "Mednick Remote Associates Test (ref [45])",
+    "items_origin": "adapted",
+    "n_items": 494,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "yes",
+    "location": "Sec. 2.2, 3.2, 4.2, Fig. 4 and 6"
+   }
+  ]
+ },
+ "D": {
+  "types": [
+   "crowd_norms"
+  ],
+  "primary_type": "crowd_norms",
+  "human_n": null,
+  "population": "Only Connect quiz-show contestants; results curated by watching episodes",
+  "metric": "solved walls and correct groups (Task 1); fraction of correct connections (Task 2)"
+ },
+ "E": {
+  "outcome_types": [
+   "accuracy"
+  ],
+  "rows_aggregated": false,
+  "effects": [
+   {
+    "pid": "P1",
+    "model": "GPT-3.5-turbo",
+    "model_family": "GPT",
+    "outcome_kind": "accuracy",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "below",
+    "agreement_value": null,
+    "label": "BELOW-HUMAN",
+    "location": "Table 4 (0-10 shot) vs human row 285/494 walls, 1405/1976 groups (Table 3); Sec. 4.1"
+   },
+   {
+    "pid": "P1",
+    "model": "GPT-4",
+    "model_family": "GPT",
+    "outcome_kind": "accuracy",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "below",
+    "agreement_value": null,
+    "label": "BELOW-HUMAN",
+    "location": "Table 4 vs human 285/494 walls, 1405/1976 groups; Sec. 4.1 'far below human performance'"
+   },
+   {
+    "pid": "P2",
+    "model": "GPT-3.5-turbo",
+    "model_family": "GPT",
+    "outcome_kind": "accuracy",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "below",
+    "agreement_value": null,
+    "label": "BELOW-HUMAN",
+    "location": "Fig. 6 (ROUGE-1/BERTScore F1) vs human ~80% correct connections, Sec. 4.2"
+   },
+   {
+    "pid": "P2",
+    "model": "GPT-4",
+    "model_family": "GPT",
+    "outcome_kind": "accuracy",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "below",
+    "agreement_value": null,
+    "label": "BELOW-HUMAN",
+    "location": "Fig. 6; Sec. 4.2: best GPT-4 10-shot 41-45% F1 vs human ~80%"
+   }
+  ],
+  "headline": "GPT-3.5 and GPT-4 fall far below human quiz-show performance on grouping and connections; fewer red herrings raise LLM performance, consistent with fixation."
+ },
+ "F": {
+  "f1": "no",
+  "f2": "yes",
+  "f3": "no",
+  "f4": "yes",
+  "f5": "no",
+  "f6": "na",
+  "f7": "no",
+  "f8": "yes",
+  "f9": "no",
+  "f10": "no",
+  "f11": "no",
+  "f12": "yes",
+  "perturbations_tested": [
+   "other"
+  ],
+  "robustness_outcome": "na"
+ },
+ "G": {
+  "notes": "Red-herring effect is shown only as accuracy gain on OCW-Randomized and OCW-WordNet (Table 5, no test, no human data), so coded as accuracy rows. Human data are TV contestants, not an experiment. LLM sensitivity to clue order not tested (Sec. 6). Query date missing for snapshots. Embedding baselines not listed as models.",
+  "extractor": "paper-reader (claude-sonnet)",
+  "date": "2026-10-16",
+  "minutes": 1.1,
+  "sections_read": [
+   "abstract",
+   "sec 1-2",
+   "sec 3-4 incl. Tables 3-5",
+   "sec 5-6 limitations"
+  ]
+ }
+}

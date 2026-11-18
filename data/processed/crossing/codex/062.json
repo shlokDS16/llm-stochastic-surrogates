@@ -1,0 +1,36 @@
+{
+ "order": 62,
+ "study_id": "https://openalex.org/W4414940251",
+ "pass": "codex",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/062_W4414940251.md",
+ "sources_varied": [
+  "M",
+  "W",
+  "P"
+ ],
+ "X1": {
+  "value": "partial",
+  "sources_crossed": [],
+  "evidence": "Secs. 2.3, 3.1, Appendix B.2–B.5: multiple models and prompting/system-message variants were tested, but the paper does not report a full factorial crossing of model, wording, and prompt technique."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "M",
+   "W",
+   "P"
+  ],
+  "evidence": "Sec. 3.1, Fig. 2a: accuracy is compared across model classes and prompt variants, with the best-performing prompt variant reported for each model; this quantifies outcome changes across these source levels."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "Secs. 3.1 and 3.4, Figs. 2 and 5: results compare models and prompt approaches, but no model-by-prompt or other source-by-source interaction is estimated or stated."
+ },
+ "notes": ""
+}

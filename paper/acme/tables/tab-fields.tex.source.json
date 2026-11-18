@@ -1,0 +1,17 @@
+{
+ "script": "analysis/acme/make_tab_fields.py",
+ "gstudy_dir": "research/protocol",
+ "gstudy_dir_resolved": "C:\\Users\\Shlok\\Downloads\\Thenboli ma'am review paper\\research\\protocol",
+ "git_head": "541f69d0b4a23d93276ffdd4035a46a2a5d47b18",
+ "timestamp_utc": "2026-11-07T19:45:57+00:00",
+ "inputs": {
+  "paper/acme/autonumbers.tex": "f3f9f0a81d0479029680ebe01c7723bc27884d7ad2ca40a6af70b184c65cb946",
+  "research/protocol/crossing-coding-brief.md": "84701df1beb3bc645f5307e8bbd5f3a435ac97d658d76bfa04551e7fcefcb7e7",
+  "research/protocol/extraction-form.md": "918826b1d6e23f4b361be16e132d1f9c7e88870f513be131f64a4ec68a73e8df",
+  "research/protocol/extraction-template.json": "dfb90b30813967628084ebd62d41dfc4a7114c3287f75c13c3108d0a9c89cde4",
+  "research/protocol/fulltext-extraction-brief.md": "dc6228f499e70fae4679a38599d4c900969e81c5c228e3756544b3389ce4fe39",
+  "research/protocol/rq1-abstract-coding-brief.md": "6e9e4861acabccb34c819345c1567161b989a3a0e2dca42c16502ac797a8bb33"
+ },
+ "n_fields": 32,
+ "left_to_supplement": "Left to the supplement (coded, not analysed in the main text): bibliographic fields (identifiers, title, venue, year, first-author field, country, peer-review status); model details (exact version, access, tuning stage, parameter count, release and query dates, counts of models and families); paradigm details (name, source paper, item origin, item count, languages and modality at full text, contamination risk); human population and effect metric; the basis, authors' comparison, effect-size and agreement-value fields and headline of each effect row; coder notes; abstract-level number of models stated, human-comparison statement, codability and failed criterion; crossing details (sources crossed, decomposition types and sources, interaction pairs, evidence strings)."
+}

@@ -1,0 +1,5 @@
+family,S,structure,bias_S,coverage_percentile,coverage_basic,share_bias_max,share_mae_when_reported_max,share_reported_fraction,pass_bias,pass_cov_percentile,pass_cov_basic,pass_shares
+empirical,0.1,W,-0.0089,0.638,0.980,0.064,nan,0.00,True,False,True,True
+empirical,0.1,split,-0.0076,0.658,0.990,0.026,nan,0.00,True,False,False,True
+empirical,0.3,W,0.0116,0.738,0.968,0.011,0.093,0.39,True,False,True,True
+empirical,0.3,split,0.0070,0.766,0.958,0.005,0.149,0.38,True,False,True,True

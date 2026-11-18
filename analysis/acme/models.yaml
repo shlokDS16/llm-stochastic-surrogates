@@ -1,0 +1,21 @@
+# ACME relaunch roster (compute-plan.md section 3.1; row 14 Mistral added by D0025). Revisions from runs/models/MODELS.jsonl.
+# quant: bf16 | nf4_saved (NF4, no double quant, saved by tools/quantize_model.py from the pinned bf16 revision).
+# bs_f0 / bs_f1: generation batch sizes, to be confirmed by the smoke test (peak VRAM <= 10.5 GiB at F1 max length).
+# Pilot models keep the pilot's batch size (config.yaml) for both formats.
+models:
+  qwen2.5-0.5b-instruct:   {repo: Qwen/Qwen2.5-0.5B-Instruct, revision: 7ae557604adf67be50417f59c2c2f167def9a775, path: models/raw/qwen2.5-0.5b-instruct, quant: bf16, family: Qwen2.5, params_b: 0.49, pilot: false, bs_f0: 100, bs_f1: 100}
+  qwen2.5-1.5b-instruct:   {repo: Qwen/Qwen2.5-1.5B-Instruct, revision: 989aa7980e4cf806f80c7fef2b1adb7bc71aa306, path: models/raw/qwen2.5-1.5b-instruct, quant: bf16, family: Qwen2.5, params_b: 1.54, pilot: true, bs_f0: 100, bs_f1: 100}
+  # precision control (compute-plan 3.4): NF4 copy of the bf16 1.5B, Arm L only, output runs/acme-L-precision; not in the analysed roster
+  qwen2.5-1.5b-instruct-nf4ctl: {repo: Qwen/Qwen2.5-1.5B-Instruct, revision: 989aa7980e4cf806f80c7fef2b1adb7bc71aa306, path: models/scratch-q4/qwen2.5-1.5b-instruct, quant: nf4_saved, family: Qwen2.5, params_b: 1.54, pilot: false, control: true, bs_f0: 100, bs_f1: 100}
+  qwen2.5-7b-instruct:     {repo: Qwen/Qwen2.5-7B-Instruct, revision: a09a35458c702b33eeacc393d103063234e8bc28, path: models/q4/qwen2.5-7b-instruct, quant: nf4_saved, family: Qwen2.5, params_b: 7.62, pilot: true, bs_f0: 64, bs_f1: 64}
+  qwen2.5-14b-instruct:    {repo: Qwen/Qwen2.5-14B-Instruct, revision: cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8, path: models/q4/qwen2.5-14b-instruct, quant: nf4_saved, family: Qwen2.5, params_b: 14.8, pilot: false, bs_f0: 16, bs_f1: 4, embed_cpu: true}  # smoke: 32/8 out of memory
+  olmo2-1b-instruct:       {repo: allenai/OLMo-2-0425-1B-Instruct, revision: 48d788eca847d4d7548f375ad03d3c9312f6139e, path: models/raw/olmo2-1b-instruct, quant: bf16, family: OLMo 2, params_b: 1.48, pilot: true, bs_f0: 40, bs_f1: 40}
+  olmo2-1b-sft:            {repo: allenai/OLMo-2-0425-1B-SFT, revision: 0d85a3d037876ce6ac7d4311d994400fc66ac27f, path: models/raw/olmo2-1b-sft, quant: bf16, family: OLMo 2, params_b: 1.48, pilot: false, bs_f0: 40, bs_f1: 40}
+  olmo2-1b-dpo:            {repo: allenai/OLMo-2-0425-1B-DPO, revision: c4b0485961ab24c2433b090f3b922f0913a9290f, path: models/raw/olmo2-1b-dpo, quant: bf16, family: OLMo 2, params_b: 1.48, pilot: false, bs_f0: 40, bs_f1: 40}
+  olmo2-7b-instruct:       {repo: allenai/OLMo-2-1124-7B-Instruct, revision: 470b1fba1ae01581f270116362ee4aa1b97f4c84, path: models/q4/olmo2-7b-instruct, quant: nf4_saved, family: OLMo 2, params_b: 7.30, pilot: true, bs_f0: 6, bs_f1: 6, tree_bs: 6}
+  olmo2-13b-instruct:      {repo: allenai/OLMo-2-1124-13B-Instruct, revision: 3a5c85baefbb1896a54d56fe2e76c0395627ddf4, path: models/q4/olmo2-13b-instruct, quant: nf4_saved, family: OLMo 2, params_b: 13.7, pilot: false, bs_f0: 6, bs_f1: 2, embed_cpu: true, tree_bs: 6}  # smoke: 12/4 out of memory
+  granite-3.3-2b-instruct: {repo: ibm-granite/granite-3.3-2b-instruct, revision: 707f574c62054322f6b5b04b6d075f0a8f05e0f0, path: models/raw/granite-3.3-2b-instruct, quant: bf16, family: Granite 3.3, params_b: 2.53, pilot: true, bs_f0: 80, bs_f1: 80}
+  granite-3.3-8b-instruct: {repo: ibm-granite/granite-3.3-8b-instruct, revision: 51dd4bc2ade4059a6bd87649d68aa11e4fb2529b, path: models/q4/granite-3.3-8b-instruct, quant: nf4_saved, family: Granite 3.3, params_b: 8.17, pilot: true, bs_f0: 24, bs_f1: 24}
+  smollm2-1.7b-instruct:   {repo: HuggingFaceTB/SmolLM2-1.7B-Instruct, revision: 31b70e2e869a7173562077fd711b654946d38674, path: models/raw/smollm2-1.7b-instruct, quant: bf16, family: SmolLM2, params_b: 1.71, pilot: false, bs_f0: 64, bs_f1: 32}
+  phi4-mini-instruct:      {repo: microsoft/Phi-4-mini-instruct, revision: cfbefacb99257ffa30c83adab238a50856ac3083, path: models/q4/phi4-mini-instruct, quant: nf4_saved, family: Phi-4, params_b: 3.84, pilot: false, bs_f0: 48, bs_f1: 24}
+  mistral-7b-instruct-v0.3: {repo: mistralai/Mistral-7B-Instruct-v0.3, revision: c170c708c41dac9275d15a8fff4eca08d52bab71, path: models/q4/mistral-7b-instruct-v0.3, quant: nf4_saved, family: Mistral, params_b: 7.25, pilot: false, bs_f0: 48, bs_f1: 16}

@@ -1,0 +1,2 @@
+{"paradigm": "P2a", "F": "F0", "batch": 0, "rows": 40, "seconds": 1.647, "new_tokens": 159, "padded_prompt_len": 106, "peak_vram_gib": 3.542}
+{"paradigm": "P2a", "F": "F1", "batch": 1, "rows": 40, "seconds": 3.478, "new_tokens": 3819, "padded_prompt_len": 126, "peak_vram_gib": 4.075}

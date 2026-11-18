@@ -1,0 +1,123 @@
+{
+ "order": 67,
+ "study_id": "https://openalex.org/W7134113913",
+ "full_text": {
+  "obtained": true,
+  "source": "research/sources/md/fulltext/067_W7134113913.md"
+ },
+ "eligibility": {
+  "decision": "NO",
+  "failed_criterion": "not-english",
+  "borderline": false,
+  "evidence": "The abstract is in English, but the full article, including methods, results, and discussion, is in Spanish (pp. 71–80)."
+ },
+ "A": {
+  "doi": "10.18845/tm.v39i5.8524",
+  "arxiv_id": null,
+  "title": "Altruistic behavior in generative artificial intelligence: a comparative study using Dictator Game experiments",
+  "first_author": "Federico Torres-Carballo",
+  "year": 2026,
+  "venue": "Tecnología en Marcha",
+  "peer_reviewed": "yes",
+  "first_author_field": "other",
+  "country": "Costa Rica"
+ },
+ "B": {
+  "models": [
+   {
+    "name": "",
+    "version": "not_reported",
+    "access": "not_reported",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "",
+    "query_date": "not_reported"
+   }
+  ],
+  "n_models": 0,
+  "n_model_families": 0
+ },
+ "C": {
+  "paradigms": [
+   {
+    "pid": "P1",
+    "name": "",
+    "family": "",
+    "source_paper": "not_reported",
+    "items_origin": "not_reported",
+    "n_items": null,
+    "languages": [],
+    "modality": "text",
+    "contamination_risk": "not_reported",
+    "location": ""
+   }
+  ]
+ },
+ "D": {
+  "types": [],
+  "primary_type": "none",
+  "human_n": null,
+  "population": "not_reported",
+  "metric": "not_reported"
+ },
+ "E": {
+  "outcome_types": [],
+  "rows_aggregated": false,
+  "effects": [
+   {
+    "pid": "P1",
+    "model": "",
+    "model_family": "",
+    "outcome_kind": "effect|accuracy|agreement",
+    "basis": "test|descriptive",
+    "model_effect_present": "not_reported",
+    "human_effect_present": "not_reported",
+    "direction": "not_reported",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "",
+    "location": ""
+   }
+  ],
+  "headline": ""
+ },
+ "F": {
+  "f1": "no",
+  "f2": "no",
+  "f3": "no",
+  "f4": "no",
+  "f5": "no",
+  "f6": "no",
+  "f7": "no",
+  "f8": "no",
+  "f9": "no",
+  "f10": "no",
+  "f11": "no",
+  "f12": "no",
+  "perturbations_tested": [],
+  "robustness_outcome": "na"
+ },
+ "G": {
+  "notes": "",
+  "extractor": "codex (default)",
+  "date": "2026-10-16",
+  "minutes": 0.5,
+  "sections_read": [
+   "Abstract",
+   "Introduction",
+   "State of the art",
+   "Materials and methods",
+   "Model configuration and experiment development",
+   "Results",
+   "Discussion",
+   "Conclusions",
+   "References",
+   "AI use declaration"
+  ]
+ }
+}

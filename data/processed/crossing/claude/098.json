@@ -1,0 +1,26 @@
+{
+ "order": 98,
+ "study_id": "https://openalex.org/W4324108791",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/098_W4324108791.md",
+ "sources_varied": [],
+ "X1": {
+  "value": "no",
+  "sources_crossed": [],
+  "evidence": "Method (p.9-12): GPT-3 at temperature 1.0 on one prompt format for the statement-exposure task; no model, wording or order variation."
+ },
+ "X2": {
+  "value": "no",
+  "x2_types": [],
+  "x2_sources": [],
+  "evidence": "Regressions model the exposure and framing conditions; no source of simulation uncertainty."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": ""
+ },
+ "notes": ""
+}

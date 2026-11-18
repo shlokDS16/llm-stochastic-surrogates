@@ -1,0 +1,20 @@
+feature,claude_n_domain,claude_k,claude_est_pct,claude_lo_pct,claude_hi_pct,claude_lo_logit_pct,claude_hi_logit_pct,claude_N_hat_domain,claude_note,claude_cp_unweighted_pct,codex_n_domain,codex_k,codex_est_pct,codex_lo_pct,codex_hi_pct,codex_lo_logit_pct,codex_hi_logit_pct,codex_N_hat_domain,codex_note,codex_cp_unweighted_pct,agreement_field,kappa,percent_agreement,n_agreement,passes_v012_rule,rule_basis
+rq3|types_any|none,72,14,19.42,8.23,30.6,10.54,33.0,1341.4,,,74,10,20.22,3.39,37.06,8.2,41.85,1358.8,,,D.types[none],0.57,89.2,65,False,kappa>=0.6
+rq3|types_any|own_sample,72,21,35.73,17.27,54.19,19.92,55.4,1341.4,,,74,23,38.61,19.92,57.31,22.23,58.06,1358.8,,,D.types[own_sample],0.887,95.4,65,True,kappa>=0.6
+rq3|types_any|published_norms,72,40,47.59,30.48,64.71,31.38,64.33,1341.4,,,74,49,50.2,38.55,61.85,38.75,61.63,1358.8,,,D.types[published_norms],0.631,83.1,65,True,kappa>=0.6
+rq3|types_any|replication_dataset,72,0,0.0,0.0,0.0,,,1341.4,zero-variance estimate; unweighted exact interval in cp_lo/cp_hi,0.0-5.0,74,0,0.0,0.0,0.0,,,1358.8,zero-variance estimate; unweighted exact interval in cp_lo/cp_hi,0.0-4.9,D.types[replication_dataset],,100.0,65,True,percent>=0.80
+rq3|types_any|crowd_norms,72,3,3.47,0.0,7.9,0.95,11.91,1341.4,,,74,4,4.59,0.0,9.76,1.46,13.53,1358.8,,,D.types[crowd_norms],0.651,96.9,65,True,percent>=0.80
+rq3|primary_type|none,72,14,19.42,8.23,30.6,10.54,33.0,1341.4,,,74,9,19.47,2.7,36.25,7.66,41.34,1358.8,,,D.primary_type,0.715,83.1,65,True,percent>=0.80
+rq3|primary_type|own_sample,72,20,33.4,15.16,51.63,18.09,53.23,1341.4,,,74,21,34.25,16.03,52.47,18.83,53.92,1358.8,,,D.primary_type,0.715,83.1,65,True,percent>=0.80
+rq3|primary_type|published_norms,72,35,43.72,26.39,61.05,27.75,61.1,1341.4,,,74,42,43.92,32.17,55.67,32.71,55.79,1358.8,,,D.primary_type,0.715,83.1,65,True,percent>=0.80
+rq3|primary_type|replication_dataset,72,0,0.0,0.0,0.0,,,1341.4,zero-variance estimate; unweighted exact interval in cp_lo/cp_hi,0.0-5.0,74,0,0.0,0.0,0.0,,,1358.8,zero-variance estimate; unweighted exact interval in cp_lo/cp_hi,0.0-4.9,D.primary_type,0.715,83.1,65,True,percent>=0.80
+rq3|primary_type|crowd_norms,72,3,3.47,0.0,7.9,0.95,11.91,1341.4,,,74,2,2.36,0.0,6.41,0.41,12.33,1358.8,,,D.primary_type,0.715,83.1,65,True,percent>=0.80
+rq3|human_n|reported,72,28,40.42,21.54,59.3,23.65,59.77,1341.4,,,74,31,44.22,25.01,63.42,26.68,63.33,1358.8,,,D.human_n_reported,1.0,100.0,65,True,kappa>=0.6
+rq3|outcome_types|accuracy,72,35,38.59,25.99,51.19,26.97,51.68,1341.4,,,74,30,27.67,16.26,39.08,17.79,40.35,1358.8,,,E.outcome_types[accuracy],0.938,96.9,65,True,kappa>=0.6
+rq3|outcome_types|bias_magnitude,72,17,32.19,14.13,50.24,17.19,52.05,1341.4,,,74,49,74.88,64.27,85.48,62.9,83.97,1358.8,,,E.outcome_types[bias_magnitude],0.22,53.8,65,False,kappa>=0.6
+rq3|outcome_types|effect_size,72,25,46.6,34.51,58.69,34.93,58.66,1341.4,,,74,24,38.08,26.9,49.26,27.68,49.7,1358.8,,,E.outcome_types[effect_size],0.245,66.2,65,False,kappa>=0.6
+rq3|outcome_types|choice_distribution,72,21,30.37,19.42,41.33,20.63,42.28,1341.4,,,74,30,49.93,32.06,67.79,32.8,67.08,1358.8,,,E.outcome_types[choice_distribution],0.476,75.4,65,False,kappa>=0.6
+rq3|outcome_types|human_correlation,72,15,14.94,6.81,23.07,8.48,24.98,1341.4,,,74,15,14.6,6.43,22.77,8.16,24.76,1358.8,,,E.outcome_types[human_correlation],0.808,93.8,65,True,kappa>=0.6
+rq3|outcome_types|other,72,18,25.26,8.61,41.91,12.28,44.95,1341.4,,,74,23,33.02,15.62,50.41,18.33,51.98,1358.8,,,E.outcome_types[other],0.147,67.7,65,False,kappa>=0.6
+rq3|outcome_types|agreement,72,0,0.0,0.0,0.0,,,1341.4,zero-variance estimate; unweighted exact interval in cp_lo/cp_hi,0.0-5.0,74,1,0.15,0.0,0.36,0.04,0.6,1358.8,,,E.outcome_types[agreement],,,,,
+rq3|outcome_types|effect,72,0,0.0,0.0,0.0,,,1341.4,zero-variance estimate; unweighted exact interval in cp_lo/cp_hi,0.0-5.0,74,1,0.15,0.0,0.36,0.04,0.6,1358.8,,,E.outcome_types[effect],,,,,

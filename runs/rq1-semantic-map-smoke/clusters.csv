@@ -1,0 +1,6 @@
+cluster,n,pct_of_frame,top_terms,dominant_first_families,flag_yes_share_pct,median_year
+1,7,35.0,models; language; large; linguistic; human; accuracy,LANG 6; LEARN 1,57.1,2026.0
+2,5,25.0,reasoning; model; test; behavioral; using; models,TOM 2; none 1; OTH 1,60.0,2026.0
+3,5,25.0,llms; human; language; study; reasoning; languages,none 3; MOR 2,20.0,2025.0
+4,3,15.0,context; models; language; linguistic; model; reveal,none 1; LEARN 1; JDM 1,66.7,2025.0
+0,0,0.0,(unclustered),,,

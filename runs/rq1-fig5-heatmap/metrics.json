@@ -1,0 +1,45 @@
+{
+ "search_date": "2026-10-16",
+ "marginals": {
+  "A": {
+   "N": 2022,
+   "paradigm_and_model_named": 775,
+   "paradigm_only": 974,
+   "model_only": 58,
+   "neither": 215
+  },
+  "B": {
+   "N": 992,
+   "paradigm_and_model_named": 531,
+   "paradigm_only": 460,
+   "model_only": 1,
+   "neither": 0
+  }
+ },
+ "max_cell": 140,
+ "min_text_contrast": 5.95,
+ "row_order": [
+  "LANG",
+  "JDM",
+  "TOM",
+  "OTH",
+  "RE",
+  "HB",
+  "MOR",
+  "LEARN",
+  "MEM",
+  "DEV",
+  "NUM"
+ ],
+ "col_order": [
+  "GPT",
+  "Claude",
+  "Gemini",
+  "Llama",
+  "Qwen",
+  "Mistral",
+  "OLMo",
+  "other"
+ ],
+ "colour_scale": "PowerNorm gamma 0.5, shared by both panels"
+}

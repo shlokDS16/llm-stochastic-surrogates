@@ -1,0 +1,33 @@
+{
+ "order": 13,
+ "study_id": "https://openalex.org/W4404782648",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/013_W4404782648.md",
+ "sources_varied": [
+  "M",
+  "X"
+ ],
+ "X1": {
+  "value": "partial",
+  "sources_crossed": [],
+  "evidence": "Sec 3-4, Tables 2-3: 25 models (families, sizes, Pythia checkpoints) scored by latent representation, zero-shot surprisal and prompting (API models only); few-shot variant in App B.3; methods not crossed with every model."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "M"
+  ],
+  "evidence": "Sec 4 and Fig. on size and training checkpoints: score trajectories quantified against size and training step (R2 per model, Table 3); no variance share."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "No interaction term between model and method reported."
+ },
+ "notes": "Elicitation method coded as X; borderline whether it counts as a simulation-uncertainty source."
+}

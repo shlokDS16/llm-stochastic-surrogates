@@ -1,0 +1,33 @@
+{
+ "order": 119,
+ "study_id": "https://openalex.org/W4387725480",
+ "pass": "codex",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/119_W4387725480.md",
+ "sources_varied": [
+  "O",
+  "R"
+ ],
+ "X1": {
+  "value": "partial",
+  "sources_crossed": [],
+  "evidence": "Methods, pp. 22–24: phrase order was randomized; four reruns tested GPT-4 stability in the Medical Context, separately from the first run."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "R"
+  ],
+  "evidence": "Results, pp. 16–18, Fig. 7: the initial outlier for “not certain” did not recur across four reruns; rerun estimates agreed with one another."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "Results, pp. 16–18, Fig. 7: reruns were examined for stability in one context, without a reported interaction with another varied source."
+ },
+ "notes": ""
+}

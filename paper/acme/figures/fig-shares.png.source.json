@@ -1,0 +1,39 @@
+{
+ "script": "analysis/acme/figures/fig_shares_route.py",
+ "gstudy_dir": "runs/acme-gstudy/route-table",
+ "gstudy_dir_resolved": "C:\\Users\\Shlok\\Downloads\\Thenboli ma'am review paper\\runs\\acme-gstudy\\route-table",
+ "git_head": "998723cbed0898076c76fd888bc57a6d0237ebb7",
+ "timestamp_utc": "2026-11-07T19:25:44+00:00",
+ "inputs": {
+  "runs/acme-gstudy/route-table/hypotheses_estimates.csv": "d00a0d0767161925d42c9471e125a4b5e8be6344267a0d139a31dd9c3840a7dd",
+  "runs/acme-gstudy/route-table/route_table.csv": "68c7f9818ef1993e40318289fd06836dc5838e0eb271974240047ac3dfda2e97",
+  "runs/acme-gstudy/route-table/sens_table.csv": "a326f9dc0b5b473abaed4b79106b2df230e2c43870c0a5f62cbf850de2559a58",
+  "runs/acme-S-gstudy/route-a/components_AF.csv": "83b8db2bb88141e86bbd18fb4f851ba3e3307797ee884bf73ecd2444bfd71e43",
+  "runs/acme-S-gstudy/route-a/components_NR.csv": "154660cd6e587b3a01ae7a20be62925360b1ecf3ac63d1cb9ad10dd358830a6d",
+  "runs/acme-S-gstudy/route-a/components_P1.csv": "23470c37986737fabadf856a5c841bfa4b57dc95ffa0f0f0eeff38b1503121c9",
+  "runs/acme-S-gstudy/route-a/components_P3.csv": "069893a17eacf1d14904343f6130d97ae8ecb248de35ec83e4d584c1d4b2dcdd",
+  "runs/acme-S-gstudy/route-a/components_QA.csv": "3fe3061a811e8fa94c2f5f1a359780f892b009ff510126c374b370d24425cf4a",
+  "runs/human-ml1-acme/arml_scales.csv": "6be5e76ffa533f7180fa10638265e7f04ca8019b2a2f3c7e26385fbd49ad8a2a"
+ },
+ "items": [
+  "P1",
+  "P3",
+  "AF",
+  "QA",
+  "NR"
+ ],
+ "groups": {
+  "M": "M",
+  "O": "O, M\u00d7O",
+  "W": "W",
+  "MW": "M\u00d7W",
+  "WO": "W\u00d7O, M\u00d7W\u00d7O",
+  "T": "T terms",
+  "res": "Residual",
+  "draw": "Draw"
+ },
+ "columns": [
+  "(a) E2",
+  "(b) 4facet"
+ ]
+}

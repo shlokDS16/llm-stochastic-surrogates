@@ -1,0 +1,15 @@
+granite-3.3-2b-instruct P1: orig larger S=1.137 | F0 no statement (intervals overlap) S=0.000 | F1 larger S=1.414
+granite-3.3-2b-instruct P2a: orig larger S=0.727 | F0 larger S=0.524 | F1 larger S=0.512
+granite-3.3-2b-instruct P2b: orig no statement (intervals overlap) S=0.359 | F0 no statement (intervals overlap) S=0.000 | F1 no statement (intervals overlap) S=0.353
+granite-3.3-2b-instruct P2c: orig no statement (intervals overlap) S=0.803 | F0 no statement (intervals overlap) S=0.699 | F1 no statement (intervals overlap) S=0.869
+granite-3.3-2b-instruct P2d: orig larger S=8.955 | F0 larger S=10.607 | F1 no statement (intervals overlap) S=2.297
+granite-3.3-2b-instruct P3: orig no statement (intervals overlap) S=0.123 | F0 no statement (intervals overlap) S=0.000 | F1 no statement (intervals overlap) S=0.173
+granite-3.3-2b-instruct P4: orig larger S=0.521 | F0 larger S=0.559 | F1 no statement (intervals overlap) S=0.317
+original (all grids, F kept): n=7 larger 4 / overlap 3 / smaller 0
+(a) grids without near-deterministic cells, F kept: n=1 larger 1 / overlap 0 / smaller 0
+(a') grids with near-deterministic cells, F kept: n=6 larger 3 / overlap 3 / smaller 0
+(b) F0 cells only (F removed), all grids: n=7 larger 3 / overlap 4 / smaller 0
+(b) F0 cells only, grids without near-deterministic cells: n=1 larger 1 / overlap 0 / smaller 0
+(b') F1 cells only (F removed), all grids: n=7 larger 2 / overlap 5 / smaller 0
+(b') F1 cells only, grids without near-deterministic cells: n=1 larger 0 / overlap 1 / smaller 0
+done in 10 s

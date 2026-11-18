@@ -1,0 +1,13 @@
+family,S,structure,bias_S,coverage_percentile,coverage_basic,share_bias_max,share_mae_when_reported_max,share_reported_fraction,pass_bias,pass_cov_percentile,pass_cov_basic,pass_shares
+binary,0.1,W,-0.0068,0.114,0.996,0.749,nan,0.00,True,False,False,False
+binary,0.1,split,-0.0144,0.132,0.994,1.999,nan,0.00,True,False,False,False
+binary,0.3,W,-0.0329,0.384,0.978,0.089,nan,0.00,False,False,True,True
+binary,0.3,split,-0.0378,0.388,0.976,0.065,nan,0.00,False,False,True,True
+normal,0.1,W,-0.0168,0.716,0.990,0.029,nan,0.00,True,False,False,True
+normal,0.1,split,-0.0132,0.708,0.992,0.039,nan,0.00,True,False,False,True
+normal,0.3,W,-0.0093,0.884,0.966,0.006,0.089,0.40,True,False,True,True
+normal,0.3,split,-0.0056,0.866,0.942,0.007,0.145,0.41,True,False,True,True
+skew,0.1,W,0.0267,0.498,0.996,0.266,nan,0.01,False,False,False,False
+skew,0.1,split,0.0230,0.542,0.990,0.168,nan,0.01,False,False,False,False
+skew,0.3,W,0.0439,0.516,0.974,0.055,0.158,0.26,False,False,True,True
+skew,0.3,split,0.0469,0.510,0.962,0.057,0.152,0.26,False,False,True,True

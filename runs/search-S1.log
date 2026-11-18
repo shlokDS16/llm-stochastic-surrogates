@@ -1,0 +1,23 @@
+﻿python : Traceback (most recent call last):
+At line:1 char:415
++ ... NG="utf-8"; python -I analysis\search\openalex_search.py --run-id S1  ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\analysis\search\openalex_search.py", line 118, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\analysis\search\openalex_search.py", line 93, in main
+    page = get(url_for(q, cursor, k))
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\analysis\search\openalex_search.py", line 63, in get
+    return json.load(r)
+           ~~~~~~~~~^^^
+  File "C:\Python314\Lib\json\__init__.py", line 298, in load
+    return loads(fp.read(),
+                 ~~~~~~~^^
+  File "C:\Python314\Lib\http\client.py", line 500, in read
+    s = self._safe_read(self.length)
+  File "C:\Python314\Lib\http\client.py", line 652, in _safe_read
+    raise IncompleteRead(data, amt - len(data))
+http.client.IncompleteRead: IncompleteRead(13032 bytes read, 367489 more expected)

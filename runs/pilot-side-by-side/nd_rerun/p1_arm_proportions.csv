@@ -1,0 +1,7 @@
+model,arms,p_eq_0,p_eq_1,p_in_0_to_005,p_in_095_to_1,p_middle,cells_complete_separation,cells_both_arms_constant_equal,cells_with_correction,cells
+granite-3.3-2b-instruct,64,0,8,0,9,47,0,2,6,32
+granite-3.3-8b-instruct,64,4,10,9,7,34,1,0,13,32
+olmo2-1b-instruct,64,2,0,4,2,56,0,0,2,32
+olmo2-7b-instruct,64,2,6,0,10,46,0,0,8,32
+qwen2.5-1.5b-instruct,64,7,0,6,0,51,0,0,7,32
+qwen2.5-7b-instruct,64,14,24,0,5,21,14,0,24,32

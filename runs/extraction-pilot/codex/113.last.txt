@@ -1,0 +1,342 @@
+{
+  "order": 113,
+  "study_id": "arxiv:2608.01598",
+  "full_text": {
+    "obtained": true,
+    "source": "research/sources/md/fulltext/113_arxiv_2608.01598.md"
+  },
+  "eligibility": {
+    "decision": "YES",
+    "failed_criterion": null,
+    "borderline": false,
+    "evidence": "Sections 3–6: evaluates generative LLMs on false-belief and other theory-of-mind tasks grounded in cited human ToM research, comparing prompting methods on benchmark responses."
+  },
+  "A": {
+    "doi": null,
+    "arxiv_id": "2608.01598",
+    "title": "PICTURE: Enhancing Theory-of-Mind in Large Language Models by Revealing, Not Hiding, Characters’ Lack of Knowledge",
+    "first_author": "Eojin Jeon",
+    "year": 2026,
+    "venue": "arXiv preprint",
+    "peer_reviewed": "preprint",
+    "first_author_field": "other",
+    "country": "Republic of Korea"
+  },
+  "B": {
+    "models": [
+      {
+        "name": "Llama2-7B-chat",
+        "version": "Llama 2 7B chat",
+        "access": "open_weights",
+        "params_b": 7,
+        "release_date": "not_reported",
+        "tuning": "instruction",
+        "family": "Llama",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "Llama2-13B-chat",
+        "version": "Llama 2 13B chat",
+        "access": "open_weights",
+        "params_b": 13,
+        "release_date": "not_reported",
+        "tuning": "instruction",
+        "family": "Llama",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "GPT-3.5-Turbo",
+        "version": "GPT-3.5-Turbo",
+        "access": "API",
+        "params_b": null,
+        "release_date": "not_reported",
+        "tuning": "instruction",
+        "family": "GPT",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "GPT-4o",
+        "version": "GPT-4o",
+        "access": "API",
+        "params_b": null,
+        "release_date": "not_reported",
+        "tuning": "instruction",
+        "family": "GPT",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "Llama3.1-8B-Instruct",
+        "version": "Llama 3.1 8B Instruct",
+        "access": "open_weights",
+        "params_b": 8,
+        "release_date": "not_reported",
+        "tuning": "instruction",
+        "family": "Llama",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "Qwen3-8B",
+        "version": "Qwen3 8B",
+        "access": "open_weights",
+        "params_b": 8,
+        "release_date": "not_reported",
+        "tuning": "not_reported",
+        "family": "Qwen",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "Gemma3-12B-Instruct",
+        "version": "Gemma 3 12B Instruct",
+        "access": "open_weights",
+        "params_b": 12,
+        "release_date": "not_reported",
+        "tuning": "instruction",
+        "family": "other",
+        "query_date": "not_reported"
+      }
+    ],
+    "n_models": 7,
+    "n_model_families": 4
+  },
+  "C": {
+    "paradigms": [
+      {
+        "pid": "P1",
+        "name": "False-belief and related theory-of-mind question answering across BigToM, ToMi, and FANToM",
+        "family": "TOM",
+        "source_paper": "Le et al. (2019) for ToMi; Gandhi et al. (2023) for BigToM; Kim et al. (2023) for FANToM",
+        "items_origin": "verbatim",
+        "n_items": 3340,
+        "languages": [
+          "English"
+        ],
+        "modality": "text",
+        "contamination_risk": "yes",
+        "location": "Sections 5.1–6.1; Table 1"
+      },
+      {
+        "pid": "P2",
+        "name": "Theory-of-mind questions about object locations, multi-hop reasoning, and attitudes (OpenToM)",
+        "family": "TOM",
+        "source_paper": "Xu et al. (2024)",
+        "items_origin": "verbatim",
+        "n_items": null,
+        "languages": [
+          "English"
+        ],
+        "modality": "text",
+        "contamination_risk": "yes",
+        "location": "Section 6.3; Table 3"
+      },
+      {
+        "pid": "P3",
+        "name": "Theory-of-mind questions about intention, desire, and non-literal communication (ToMBench)",
+        "family": "TOM",
+        "source_paper": "Chen et al. (2024)",
+        "items_origin": "verbatim",
+        "n_items": null,
+        "languages": [
+          "English"
+        ],
+        "modality": "text",
+        "contamination_risk": "yes",
+        "location": "Appendix B.2; Table 6"
+      },
+      {
+        "pid": "P4",
+        "name": "Higher-order theory-of-mind questions (Hi-ToM)",
+        "family": "TOM",
+        "source_paper": "Wu et al. (2023)",
+        "items_origin": "verbatim",
+        "n_items": null,
+        "languages": [
+          "English"
+        ],
+        "modality": "text",
+        "contamination_risk": "yes",
+        "location": "Appendix B.2; Table 7"
+      }
+    ]
+  },
+  "D": {
+    "types": [
+      "none"
+    ],
+    "primary_type": "none",
+    "human_n": null,
+    "population": "not_reported",
+    "metric": "not_reported"
+  },
+  "E": {
+    "outcome_types": [
+      "accuracy",
+      "other"
+    ],
+    "rows_aggregated": false,
+    "effects": [
+      {
+        "pid": "P1",
+        "model": "Llama2-7B-chat",
+        "model_family": "Llama",
+        "outcome_kind": "accuracy",
+        "basis": "test",
+        "model_effect_present": "na",
+        "human_effect_present": "na",
+        "direction": "not_applicable",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "NO-HUMAN-REFERENCE",
+        "location": "Table 1; Sections 5.1, 6.1"
+      },
+      {
+        "pid": "P1",
+        "model": "Llama2-13B-chat",
+        "model_family": "Llama",
+        "outcome_kind": "accuracy",
+        "basis": "test",
+        "model_effect_present": "na",
+        "human_effect_present": "na",
+        "direction": "not_applicable",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "NO-HUMAN-REFERENCE",
+        "location": "Table 1; Sections 5.1, 6.1"
+      },
+      {
+        "pid": "P1",
+        "model": "GPT-3.5-Turbo",
+        "model_family": "GPT",
+        "outcome_kind": "accuracy",
+        "basis": "test",
+        "model_effect_present": "na",
+        "human_effect_present": "na",
+        "direction": "not_applicable",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "NO-HUMAN-REFERENCE",
+        "location": "Table 1; Sections 5.1, 6.1"
+      },
+      {
+        "pid": "P1",
+        "model": "GPT-4o",
+        "model_family": "GPT",
+        "outcome_kind": "accuracy",
+        "basis": "test",
+        "model_effect_present": "na",
+        "human_effect_present": "na",
+        "direction": "not_applicable",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "NO-HUMAN-REFERENCE",
+        "location": "Table 1; Sections 5.1, 6.1"
+      },
+      {
+        "pid": "P2",
+        "model": "GPT-3.5-Turbo",
+        "model_family": "GPT",
+        "outcome_kind": "accuracy",
+        "basis": "test",
+        "model_effect_present": "na",
+        "human_effect_present": "na",
+        "direction": "not_applicable",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "NO-HUMAN-REFERENCE",
+        "location": "Table 3; Section 6.3"
+      },
+      {
+        "pid": "P3",
+        "model": "GPT-3.5-Turbo",
+        "model_family": "GPT",
+        "outcome_kind": "accuracy",
+        "basis": "test",
+        "model_effect_present": "na",
+        "human_effect_present": "na",
+        "direction": "not_applicable",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "NO-HUMAN-REFERENCE",
+        "location": "Appendix B.2; Table 6"
+      },
+      {
+        "pid": "P4",
+        "model": "GPT-3.5-Turbo",
+        "model_family": "GPT",
+        "outcome_kind": "accuracy",
+        "basis": "test",
+        "model_effect_present": "na",
+        "human_effect_present": "na",
+        "direction": "not_applicable",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "NO-HUMAN-REFERENCE",
+        "location": "Appendix B.2; Table 7"
+      }
+    ],
+    "headline": "PICTURE improves benchmark theory-of-mind accuracy over prompting baselines, with a reported average 7.3% gain on false-belief tasks."
+  },
+  "F": {
+    "f1": "no",
+    "f2": "yes",
+    "f3": "yes",
+    "f4": "yes",
+    "f5": "yes",
+    "f6": "no",
+    "f7": "no",
+    "f8": "yes",
+    "f9": "no",
+    "f10": "yes",
+    "f11": "no",
+    "f12": "yes",
+    "perturbations_tested": [
+      "wording",
+      "seeds"
+    ],
+    "robustness_outcome": "survived"
+  },
+  "G": {
+    "notes": "No human comparison is reported, so benchmark accuracy cannot establish human-level ToM. Exact API snapshots and query dates are missing; the four-seed averaging and prompt variants merit clearer separation.",
+    "extractor": "codex (default)",
+    "date": "2026-10-16",
+    "minutes": 12,
+    "sections_read": [
+      "Abstract",
+      "Sections 1–7",
+      "Tables 1–10",
+      "Appendix A",
+      "Appendix B",
+      "Appendix C",
+      "Appendix D",
+      "Limitations",
+      "Data/code availability"
+    ]
+  }
+}

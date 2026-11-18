@@ -1,0 +1,127 @@
+{
+ "order": 132,
+ "study_id": "https://openalex.org/W7159841819",
+ "full_text": {
+  "obtained": true,
+  "source": "provided full text"
+ },
+ "eligibility": {
+  "decision": "YES",
+  "failed_criterion": null,
+  "borderline": false,
+  "evidence": "Sections 2.1–2.3 administer a framing-choice paradigm from Bianco and Shiller (2026), varying valence framing and measuring choices across sampling trials."
+ },
+ "A": {
+  "doi": null,
+  "arxiv_id": "2602.19159",
+  "title": "Behavioral Evidence of Valence-Driven Choice Modulation in Qwen2.5-7B: A Bianco-Shiller (2026) Replication Study",
+  "first_author": "Otone Kakura",
+  "year": 2026,
+  "venue": "arXiv",
+  "peer_reviewed": "preprint",
+  "first_author_field": "not_reported",
+  "country": "not_reported"
+ },
+ "B": {
+  "models": [
+   {
+    "name": "Qwen2.5-7B-Instruct",
+    "version": "Qwen2.5-7B-Instruct",
+    "access": "open_weights",
+    "params_b": 7,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "Qwen",
+    "query_date": "not_reported"
+   }
+  ],
+  "n_models": 1,
+  "n_model_families": 1
+ },
+ "C": {
+  "paradigms": [
+   {
+    "pid": "P1",
+    "name": "Valence framing in binary choice between tokens “2” and “3”",
+    "family": "HB",
+    "source_paper": "Bianco and Shiller (2026), Beyond Behavioural Trade-Offs: Mechanistic Tracing of Pain-Pleasure Decisions in an LLM",
+    "items_origin": "adapted",
+    "n_items": null,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "partly",
+    "location": "Sections 2.1–2.2, Table 1"
+   }
+  ]
+ },
+ "D": {
+  "types": [
+   "published_norms"
+  ],
+  "primary_type": "published_norms",
+  "human_n": null,
+  "population": "Human studies cited for framing effects; specific study and sample not reported",
+  "metric": "Framing-induced percentage shift; paper states human shifts of 10–30% are considered large"
+ },
+ "E": {
+  "outcome_types": [
+   "bias_magnitude",
+   "choice_distribution"
+  ],
+  "rows_aggregated": false,
+  "effects": [
+   {
+    "pid": "P1",
+    "model": "Qwen2.5-7B-Instruct",
+    "model_family": "Qwen",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": 0.63,
+    "human_es": null,
+    "es_metric": "difference in proportion choosing token “2” (percentage points)",
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Sections 2.3, 3.2; Table 2",
+    "headline": "High-threat framing reverses Qwen2.5-7B’s default preference, with a 63-point shift the authors describe as unusually large relative to human framing effects."
+   }
+  ],
+  "headline": "The authors report that high-threat framing reverses the model’s default choice preference, extending the behavioral finding to Qwen2.5-7B."
+ },
+ "F": {
+  "f1": "no",
+  "f2": "yes",
+  "f3": "yes",
+  "f4": "no",
+  "f5": "no",
+  "f6": "yes",
+  "f7": "yes",
+  "f8": "no",
+  "f9": "no",
+  "f10": "yes",
+  "f11": "no",
+  "f12": "no",
+  "perturbations_tested": [
+   "decoding"
+  ],
+  "robustness_outcome": "na"
+ },
+ "G": {
+  "notes": "The reported stochastic sample count varies between 30 and 40, and the paper gives no human sample or direct model-human test. The cited source is itself listed as arXiv:2602.19159, the same identifier shown for this record.",
+  "extractor": "codex (default)",
+  "date": "2026-10-16",
+  "minutes": 0.5,
+  "sections_read": [
+   "Abstract",
+   "Sections 1–6",
+   "Tables 1–2",
+   "References"
+  ]
+ }
+}

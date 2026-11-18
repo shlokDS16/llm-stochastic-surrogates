@@ -1,0 +1,191 @@
+{
+ "order": 95,
+ "study_id": "https://openalex.org/W4414907014",
+ "full_text": {
+  "obtained": true,
+  "source": "research/sources/md/fulltext/095_W4414907014.md"
+ },
+ "eligibility": {
+  "decision": "YES",
+  "failed_criterion": null,
+  "borderline": false,
+  "evidence": "Method, pp. 7–8: tests three generative GPT models on a human judgment-of-learning memory task; the paper cites the original human study and its paradigm."
+ },
+ "A": {
+  "doi": null,
+  "arxiv_id": null,
+  "title": "Judgment of Learning: A Human Ability Beyond Generative Artificial Intelligence",
+  "first_author": "Markus Huff",
+  "year": null,
+  "venue": "not_reported",
+  "peer_reviewed": "preprint",
+  "first_author_field": "not_reported",
+  "country": "Germany"
+ },
+ "B": {
+  "models": [
+   {
+    "name": "GPT-3.5-turbo",
+    "version": "gpt-3.5-turbo-0125",
+    "access": "open_weights",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "GPT",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "GPT-4-turbo",
+    "version": "gpt-4-turbo-2024-04-09",
+    "access": "open_weights",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "GPT",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "GPT-4o",
+    "version": "gpt-4o-2024-05-13",
+    "access": "open_weights",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "GPT",
+    "query_date": "not_reported"
+   }
+  ],
+  "n_models": 3,
+  "n_model_families": 1
+ },
+ "C": {
+  "paradigms": [
+   {
+    "pid": "P1",
+    "name": "Judgments of learning for garden-path sentence memorability in fitting and unfitting contexts",
+    "family": "MEM",
+    "source_paper": "Huff & Ulakçı (2024), Towards a Psychology of Machines: Large Language Models Predict Human Memory",
+    "items_origin": "verbatim",
+    "n_items": 45,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "yes",
+    "location": "Method, pp. 8–10"
+   }
+  ]
+ },
+ "D": {
+  "types": [
+   "own_sample",
+   "published_norms"
+  ],
+  "primary_type": "own_sample",
+  "human_n": 78,
+  "population": "English-only Prolific participants; mean age 46.04 years",
+  "metric": "GLMM and bootstrapped slope of recognition accuracy on JOL; 95% confidence intervals"
+ },
+ "E": {
+  "outcome_types": [
+   "bias_magnitude",
+   "effect_size"
+  ],
+  "rows_aggregated": false,
+  "effects": [
+   {
+    "pid": "P1",
+    "model": "gpt-3.5-turbo-0125",
+    "model_family": "GPT",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "no",
+    "human_effect_present": "yes",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SUPER-NORMATIVE",
+    "location": "Results, pp. 13–14; fitting and unfitting contexts pooled as reported"
+   },
+   {
+    "pid": "P1",
+    "model": "gpt-4-turbo-2024-04-09",
+    "model_family": "GPT",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "no",
+    "human_effect_present": "yes",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SUPER-NORMATIVE",
+    "location": "Results, pp. 13–14; fitting and unfitting contexts pooled as reported"
+   },
+   {
+    "pid": "P1",
+    "model": "gpt-4o-2024-05-13",
+    "model_family": "GPT",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "no",
+    "human_effect_present": "yes",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SUPER-NORMATIVE",
+    "location": "Results, pp. 13–14; fitting and unfitting contexts pooled as reported"
+   }
+  ],
+  "headline": "Human JOLs predicted recognition performance in both contexts, while none of the three GPT models showed a significant predictive relationship."
+ },
+ "F": {
+  "f1": "no",
+  "f2": "yes",
+  "f3": "yes",
+  "f4": "yes",
+  "f5": "no",
+  "f6": "na",
+  "f7": "no",
+  "f8": "yes",
+  "f9": "no",
+  "f10": "yes",
+  "f11": "no",
+  "f12": "yes",
+  "perturbations_tested": [
+   "model_version"
+  ],
+  "robustness_outcome": "na"
+ },
+ "G": {
+  "notes": "Clarify whether the reported nonsignificant GPT slopes warrant the label SUPER-NORMATIVE: the paper tests model and human slopes separately and reports no direct model–human comparison.",
+  "extractor": "codex (default)",
+  "date": "2026-10-16",
+  "minutes": 0.5,
+  "sections_read": [
+   "Abstract",
+   "Introduction",
+   "Experimental Overview and Hypotheses",
+   "Method",
+   "Data Sources",
+   "Material",
+   "Prompts",
+   "Experimental Procedure and Design",
+   "Results",
+   "Discussion",
+   "Limitations",
+   "Data Availability Statement"
+  ]
+ }
+}

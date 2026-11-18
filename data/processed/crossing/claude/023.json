@@ -1,0 +1,28 @@
+{
+ "order": 23,
+ "study_id": "https://openalex.org/W7128741662",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/023_W7128741662.md",
+ "sources_varied": [
+  "M"
+ ],
+ "X1": {
+  "value": "no",
+  "sources_crossed": [],
+  "evidence": "Methods and App B.2: four LLMs play repeated games (20 games each) with a fixed temperature of 0.5 and one prompt design; the payoff-matrix check varies the game, not a source."
+ },
+ "X2": {
+  "value": "no",
+  "x2_types": [],
+  "x2_sources": [],
+  "evidence": "Analysis compares humans and LLMs through interpretable programs; no source of simulation uncertainty decomposed."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": ""
+ },
+ "notes": ""
+}

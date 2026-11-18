@@ -1,0 +1,94 @@
+# Disagreements (pilot orders [2, 6, 9, 13, 15, 16, 21, 22]; both YES: [2, 6, 9, 13, 15, 16, 21, 22]; effect keys matched 40, unmatched 9)
+
+- A.peer_reviewed [13]: claude=yes codex=preprint
+- A.peer_reviewed [21]: claude=yes codex=preprint
+- D.primary_type [6]: claude=crowd_norms codex=published_norms
+- D.primary_type [15]: claude=own_sample codex=published_norms
+- D.primary_type [16]: claude=published_norms codex=own_sample
+- F.f1 [16]: claude=yes codex=no
+- F.f2 [15]: claude=no codex=yes
+- F.f3 [6]: claude=no codex=yes
+- F.f3 [9]: claude=yes codex=no
+- F.f4 [6]: claude=no codex=yes
+- F.f4 [22]: claude=no codex=yes
+- F.f5 [2]: claude=yes codex=no
+- F.f5 [21]: claude=yes codex=no
+- F.f6 [2]: claude=na codex=no
+- F.f6 [6]: claude=no codex=yes
+- F.f6 [13]: claude=yes codex=no
+- F.f8 [13]: claude=no codex=yes
+- F.f8 [16]: claude=no codex=yes
+- F.f8 [21]: claude=no codex=yes
+- F.f9 [13]: claude=yes codex=no
+- F.f10 [15]: claude=no codex=yes
+- F.f12 [13]: claude=no codex=yes
+- F.robustness_outcome [9]: claude=mixed codex=weakened
+- F.robustness_outcome [13]: claude=not_reported codex=na
+- F.robustness_outcome [21]: claude=survived codex=weakened
+- C.family_presence (pooled) [22:RE]: claude=True codex=False
+- F.perturbations_tested (pooled) [2:wording]: claude=True codex=False
+- F.perturbations_tested (pooled) [6:seeds]: claude=False codex=True
+- F.perturbations_tested (pooled) [9:response_format]: claude=False codex=True
+- F.perturbations_tested (pooled) [9:model_version]: claude=True codex=False
+- F.perturbations_tested (pooled) [9:other]: claude=True codex=False
+- F.perturbations_tested (pooled) [13:option_order]: claude=True codex=False
+- F.perturbations_tested (pooled) [13:seeds]: claude=False codex=True
+- F.perturbations_tested (pooled) [13:other]: claude=True codex=False
+- F.perturbations_tested (pooled) [15:option_order]: claude=False codex=True
+- F.perturbations_tested (pooled) [16:model_version]: claude=False codex=True
+- F.perturbations_tested (pooled) [22:contamination]: claude=False codex=True
+- E.outcome_kind [15:MOR/GPT]: claude=agreement codex=accuracy
+- E.outcome_kind [21:TOM/Gemini]: claude=agreement codex=effect
+- E.outcome_kind [21:TOM/GPT]: claude=agreement codex=effect
+- E.basis [2:HB/GPT]: claude=descriptive codex=test
+- E.basis [9:LANG/Claude]: claude=descriptive codex=test
+- E.basis [9:LANG/GPT]: claude=descriptive codex=test
+- E.basis [9:LANG/other]: claude=descriptive codex=test
+- E.basis [9:LEARN/Gemini]: claude=descriptive codex=test
+- E.basis [9:LEARN/Llama]: claude=descriptive codex=test
+- E.basis [9:LEARN/Claude]: claude=descriptive codex=test
+- E.basis [9:LEARN/GPT]: claude=descriptive codex=test
+- E.basis [13:RE/GPT]: claude=null codex=descriptive
+- E.basis [13:LANG/GPT]: claude=null codex=descriptive
+- E.basis [13:RE/Llama]: claude=null codex=descriptive
+- E.basis [13:RE/Qwen]: claude=null codex=descriptive
+- E.basis [13:LANG/Llama]: claude=null codex=descriptive
+- E.basis [13:RE/other]: claude=null codex=descriptive
+- E.basis [13:LANG/Qwen]: claude=null codex=descriptive
+- E.basis [13:LANG/other]: claude=null codex=descriptive
+- E.basis [13:LEARN/Mistral]: claude=null codex=descriptive
+- E.basis [13:RE/Mistral]: claude=null codex=descriptive
+- E.basis [13:LANG/Mistral]: claude=null codex=descriptive
+- E.basis [13:LEARN/GPT]: claude=null codex=descriptive
+- E.basis [13:LEARN/Gemini]: claude=null codex=descriptive
+- E.basis [13:LEARN/Llama]: claude=null codex=descriptive
+- E.basis [13:LEARN/Qwen]: claude=null codex=descriptive
+- E.basis [13:LEARN/other]: claude=null codex=descriptive
+- E.basis [15:MOR/GPT]: claude=null codex=descriptive
+- E.basis [21:TOM/Gemini]: claude=descriptive codex=test
+- E.basis [21:TOM/GPT]: claude=descriptive codex=test
+- E.model_effect_present [16:LANG/other]: claude=no codex=yes
+- E.model_effect_present [21:TOM/Gemini]: claude=na codex=yes
+- E.model_effect_present [21:TOM/GPT]: claude=na codex=yes
+- E.human_effect_present [21:TOM/Gemini]: claude=na codex=not_reported
+- E.human_effect_present [21:TOM/GPT]: claude=na codex=not_reported
+- E.direction [16:LANG/other]: claude=not_applicable codex=same
+- E.direction [21:TOM/Gemini]: claude=not_applicable codex=not_reported
+- E.direction [21:TOM/GPT]: claude=not_applicable codex=not_reported
+- E.authors_comparison [16:LANG/GPT]: claude=not_tested codex=different
+- E.label [13:RE/GPT]: claude=no-human-reference codex=insufficient
+- E.label [13:LANG/GPT]: claude=no-human-reference codex=insufficient
+- E.label [13:RE/Llama]: claude=no-human-reference codex=insufficient
+- E.label [13:RE/Qwen]: claude=no-human-reference codex=insufficient
+- E.label [13:LANG/Llama]: claude=no-human-reference codex=insufficient
+- E.label [13:RE/other]: claude=no-human-reference codex=insufficient
+- E.label [13:LANG/Qwen]: claude=no-human-reference codex=insufficient
+- E.label [13:LANG/other]: claude=no-human-reference codex=insufficient
+- E.label [13:RE/Mistral]: claude=no-human-reference codex=insufficient
+- E.label [13:LANG/Mistral]: claude=no-human-reference codex=insufficient
+- E.label [15:MOR/GPT]: claude=agreement-only codex=insufficient
+- E.label [16:LANG/other]: claude=super-normative codex=same-direction-unquantified
+- E.label [16:LANG/Llama]: claude=human-like codex=same-direction-unquantified
+- E.label [16:LANG/Mistral]: claude=human-like codex=same-direction-unquantified
+- E.label [21:TOM/Gemini]: claude=agreement-only codex=insufficient
+- E.label [21:TOM/GPT]: claude=agreement-only codex=insufficient

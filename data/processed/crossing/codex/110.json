@@ -1,0 +1,33 @@
+{
+ "order": 110,
+ "study_id": "https://openalex.org/W4412944072",
+ "pass": "codex",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/110_W4412944072.md",
+ "sources_varied": [
+  "M",
+  "W"
+ ],
+ "X1": {
+  "value": "partial",
+  "sources_crossed": [],
+  "evidence": "RQ1 Methodology and Results: multiple model species were evaluated, and label/value assignments were permuted across prompts; wording varied within each model, but no full crossing of models and wording is reported."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "M"
+  ],
+  "evidence": "Effects of Model Size, Figure 2: model size is related to preference for higher-value strategies, with a reported correlation."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "Results report model size and prompt-label permutation analyses separately; no source-by-source interaction is estimated or shown."
+ },
+ "notes": ""
+}

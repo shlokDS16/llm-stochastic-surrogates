@@ -1,0 +1,29 @@
+{
+ "order": 134,
+ "study_id": "https://openalex.org/W4387185333",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/134_W4387185333.md",
+ "sources_varied": [
+  "W",
+  "O"
+ ],
+ "X1": {
+  "value": "partial",
+  "sources_crossed": [],
+  "evidence": "Sec 2-3 and appendix (p.3-12): one GPT-3 model (text-davinci-003) read out via token probabilities; digit versus number-word forms, separators and stimulus position varied as stimulus versions, each as a separate experiment."
+ },
+ "X2": {
+  "value": "no",
+  "x2_types": [],
+  "x2_sources": [],
+  "evidence": "ANOVAs (for example for digits, F(7,4312) = 15.06) test the cognitive effect of the stimulus, not a source of simulation uncertainty."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "Stimulus-format variants are tied to the effect under test, so coding them as sources is borderline."
+ },
+ "notes": ""
+}

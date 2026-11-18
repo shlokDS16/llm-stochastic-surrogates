@@ -1,0 +1,3 @@
+pass,n,X1_yes,X1_partial,X1_no,X1_not_reported,X2_yes,X2_no,X2_not_reported,X3_yes,X3_no,X3_not_reported,X1_yes_ge2_sources_excl_R,X2_variance_share,X2_anova_or_mixed,X2_effect_change,multi_source_varied_ge2
+claude,80,22,19,39,0,47,33,0,9,71,0,21,1,9,42,41
+codex,79,9,44,26,0,61,18,0,12,67,0,9,0,22,58,56

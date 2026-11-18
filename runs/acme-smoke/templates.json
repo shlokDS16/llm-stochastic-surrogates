@@ -1,0 +1,6528 @@
+{
+ "models": [
+  {
+   "model": "qwen2.5-0.5b-instruct",
+   "template_sha256_16": "cd8e9439f0570856",
+   "bos": null,
+   "eos": "<|im_end|>",
+   "pad": "<|endoftext|>",
+   "vocab": 151665,
+   "system_role": "ok",
+   "system_text_present": true,
+   "system_before_user": true,
+   "rendered": "<|im_start|>system\nYou are taking part in a short study. Answer the question as yourself.<|im_end|>\n<|im_start|>user\nWhich program would you choose?\n\nAnswer with only the program letter.<|im_end|>\n<|im_start|>assistant\n",
+   "rendered_sha256_16": "642bb8cf581d6e8d",
+   "starts_with_bos": false,
+   "double_bos_if_add_special": false,
+   "n_prompt_tokens": 41,
+   "tail": "th only the program letter.<|im_end|>\n<|im_start|>assistant\n",
+   "answer_tokens": {
+    "'A'": {
+     "ids": [
+      32
+     ],
+     "pieces": [
+      "A"
+     ]
+    },
+    "' A'": {
+     "ids": [
+      362
+     ],
+     "pieces": [
+      "ĠA"
+     ]
+    },
+    "'B'": {
+     "ids": [
+      33
+     ],
+     "pieces": [
+      "B"
+     ]
+    },
+    "' B'": {
+     "ids": [
+      425
+     ],
+     "pieces": [
+      "ĠB"
+     ]
+    },
+    "'C'": {
+     "ids": [
+      34
+     ],
+     "pieces": [
+      "C"
+     ]
+    },
+    "' C'": {
+     "ids": [
+      356
+     ],
+     "pieces": [
+      "ĠC"
+     ]
+    },
+    "'D'": {
+     "ids": [
+      35
+     ],
+     "pieces": [
+      "D"
+     ]
+    },
+    "' D'": {
+     "ids": [
+      422
+     ],
+     "pieces": [
+      "ĠD"
+     ]
+    },
+    "'Yes'": {
+     "ids": [
+      9454
+     ],
+     "pieces": [
+      "Yes"
+     ]
+    },
+    "' Yes'": {
+     "ids": [
+      7414
+     ],
+     "pieces": [
+      "ĠYes"
+     ]
+    },
+    "'No'": {
+     "ids": [
+      2753
+     ],
+     "pieces": [
+      "No"
+     ]
+    },
+    "' No'": {
+     "ids": [
+      2308
+     ],
+     "pieces": [
+      "ĠNo"
+     ]
+    },
+    "'yes'": {
+     "ids": [
+      9693
+     ],
+     "pieces": [
+      "yes"
+     ]
+    },
+    "' yes'": {
+     "ids": [
+      9834
+     ],
+     "pieces": [
+      "Ġyes"
+     ]
+    },
+    "'no'": {
+     "ids": [
+      2152
+     ],
+     "pieces": [
+      "no"
+     ]
+    },
+    "' no'": {
+     "ids": [
+      902
+     ],
+     "pieces": [
+      "Ġno"
+     ]
+    },
+    "'1'": {
+     "ids": [
+      16
+     ],
+     "pieces": [
+      "1"
+     ]
+    },
+    "' 1'": {
+     "ids": [
+      220,
+      16
+     ],
+     "pieces": [
+      "Ġ",
+      "1"
+     ]
+    },
+    "'2'": {
+     "ids": [
+      17
+     ],
+     "pieces": [
+      "2"
+     ]
+    },
+    "' 2'": {
+     "ids": [
+      220,
+      17
+     ],
+     "pieces": [
+      "Ġ",
+      "2"
+     ]
+    },
+    "'3'": {
+     "ids": [
+      18
+     ],
+     "pieces": [
+      "3"
+     ]
+    },
+    "' 3'": {
+     "ids": [
+      220,
+      18
+     ],
+     "pieces": [
+      "Ġ",
+      "3"
+     ]
+    },
+    "'4'": {
+     "ids": [
+      19
+     ],
+     "pieces": [
+      "4"
+     ]
+    },
+    "' 4'": {
+     "ids": [
+      220,
+      19
+     ],
+     "pieces": [
+      "Ġ",
+      "4"
+     ]
+    },
+    "'5'": {
+     "ids": [
+      20
+     ],
+     "pieces": [
+      "5"
+     ]
+    },
+    "' 5'": {
+     "ids": [
+      220,
+      20
+     ],
+     "pieces": [
+      "Ġ",
+      "5"
+     ]
+    },
+    "'6'": {
+     "ids": [
+      21
+     ],
+     "pieces": [
+      "6"
+     ]
+    },
+    "' 6'": {
+     "ids": [
+      220,
+      21
+     ],
+     "pieces": [
+      "Ġ",
+      "6"
+     ]
+    },
+    "'7'": {
+     "ids": [
+      22
+     ],
+     "pieces": [
+      "7"
+     ]
+    },
+    "' 7'": {
+     "ids": [
+      220,
+      22
+     ],
+     "pieces": [
+      "Ġ",
+      "7"
+     ]
+    },
+    "'8'": {
+     "ids": [
+      23
+     ],
+     "pieces": [
+      "8"
+     ]
+    },
+    "' 8'": {
+     "ids": [
+      220,
+      23
+     ],
+     "pieces": [
+      "Ġ",
+      "8"
+     ]
+    },
+    "'9'": {
+     "ids": [
+      24
+     ],
+     "pieces": [
+      "9"
+     ]
+    },
+    "' 9'": {
+     "ids": [
+      220,
+      24
+     ],
+     "pieces": [
+      "Ġ",
+      "9"
+     ]
+    },
+    "'10'": {
+     "ids": [
+      16,
+      15
+     ],
+     "pieces": [
+      "1",
+      "0"
+     ]
+    },
+    "' 10'": {
+     "ids": [
+      220,
+      16,
+      15
+     ],
+     "pieces": [
+      "Ġ",
+      "1",
+      "0"
+     ]
+    },
+    "'250'": {
+     "ids": [
+      17,
+      20,
+      15
+     ],
+     "pieces": [
+      "2",
+      "5",
+      "0"
+     ]
+    },
+    "' 250'": {
+     "ids": [
+      220,
+      17,
+      20,
+      15
+     ],
+     "pieces": [
+      "Ġ",
+      "2",
+      "5",
+      "0"
+     ]
+    },
+    "'1500'": {
+     "ids": [
+      16,
+      20,
+      15,
+      15
+     ],
+     "pieces": [
+      "1",
+      "5",
+      "0",
+      "0"
+     ]
+    },
+    "' 1500'": {
+     "ids": [
+      220,
+      16,
+      20,
+      15,
+      15
+     ],
+     "pieces": [
+      "Ġ",
+      "1",
+      "5",
+      "0",
+      "0"
+     ]
+    },
+    "'2500'": {
+     "ids": [
+      17,
+      20,
+      15,
+      15
+     ],
+     "pieces": [
+      "2",
+      "5",
+      "0",
+      "0"
+     ]
+    },
+    "' 2500'": {
+     "ids": [
+      220,
+      17,
+      20,
+      15,
+      15
+     ],
+     "pieces": [
+      "Ġ",
+      "2",
+      "5",
+      "0",
+      "0"
+     ]
+    },
+    "'6000'": {
+     "ids": [
+      21,
+      15,
+      15,
+      15
+     ],
+     "pieces": [
+      "6",
+      "0",
+      "0",
+      "0"
+     ]
+    },
+    "' 6000'": {
+     "ids": [
+      220,
+      21,
+      15,
+      15,
+      15
+     ],
+     "pieces": [
+      "Ġ",
+      "6",
+      "0",
+      "0",
+      "0"
+     ]
+    }
+   },
+   "single_token": {
+    "A": true,
+    "B": true,
+    "C": true,
+    "D": true,
+    "Yes": true,
+    "No": true,
+    "1": true,
+    "2": true,
+    "3": true,
+    "4": true,
+    "5": true,
+    "6": true,
+    "7": true,
+    "8": true,
+    "9": true
+   },
+   "single_token_space": {
+    "A": true,
+    "B": true,
+    "C": true,
+    "D": true,
+    "Yes": true,
+    "No": true,
+    "1": false,
+    "2": false,
+    "3": false,
+    "4": false,
+    "5": false,
+    "6": false,
+    "7": false,
+    "8": false,
+    "9": false
+   },
+   "digits_split_individually": true
+  },
+  {
+   "model": "qwen2.5-1.5b-instruct",
+   "template_sha256_16": "cd8e9439f0570856",
+   "bos": null,
+   "eos": "<|im_end|>",
+   "pad": "<|endoftext|>",
+   "vocab": 151665,
+   "system_role": "ok",
+   "system_text_present": true,
+   "system_before_user": true,
+   "rendered": "<|im_start|>system\nYou are taking part in a short study. Answer the question as yourself.<|im_end|>\n<|im_start|>user\nWhich program would you choose?\n\nAnswer with only the program letter.<|im_end|>\n<|im_start|>assistant\n",
+   "rendered_sha256_16": "642bb8cf581d6e8d",
+   "starts_with_bos": false,
+   "double_bos_if_add_special": false,
+   "n_prompt_tokens": 41,
+   "tail": "th only the program letter.<|im_end|>\n<|im_start|>assistant\n",
+   "answer_tokens": {
+    "'A'": {
+     "ids": [
+      32
+     ],
+     "pieces": [
+      "A"
+     ]
+    },
+    "' A'": {
+     "ids": [
+      362
+     ],
+     "pieces": [
+      "ĠA"
+     ]
+    },
+    "'B'": {
+     "ids": [
+      33
+     ],
+     "pieces": [
+      "B"
+     ]
+    },
+    "' B'": {
+     "ids": [
+      425
+     ],
+     "pieces": [
+      "ĠB"
+     ]
+    },
+    "'C'": {
+     "ids": [
+      34
+     ],
+     "pieces": [
+      "C"
+     ]
+    },
+    "' C'": {
+     "ids": [
+      356
+     ],
+     "pieces": [
+      "ĠC"
+     ]
+    },
+    "'D'": {
+     "ids": [
+      35
+     ],
+     "pieces": [
+      "D"
+     ]
+    },
+    "' D'": {
+     "ids": [
+      422
+     ],
+     "pieces": [
+      "ĠD"
+     ]
+    },
+    "'Yes'": {
+     "ids": [
+      9454
+     ],
+     "pieces": [
+      "Yes"
+     ]
+    },
+    "' Yes'": {
+     "ids": [
+      7414
+     ],
+     "pieces": [
+      "ĠYes"
+     ]
+    },
+    "'No'": {
+     "ids": [
+      2753
+     ],
+     "pieces": [
+      "No"
+     ]
+    },
+    "' No'": {
+     "ids": [
+      2308
+     ],
+     "pieces": [
+      "ĠNo"
+     ]
+    },
+    "'yes'": {
+     "ids": [
+      9693
+     ],
+     "pieces": [
+      "yes"
+     ]
+    },
+    "' yes'": {
+     "ids": [
+      9834
+     ],
+     "pieces": [
+      "Ġyes"
+     ]
+    },
+    "'no'": {
+     "ids": [
+      2152
+     ],
+     "pieces": [
+      "no"
+     ]
+    },
+    "' no'": {
+     "ids": [
+      902
+     ],
+     "pieces": [
+      "Ġno"
+     ]
+    },
+    "'1'": {
+     "ids": [
+      16
+     ],
+     "pieces": [
+      "1"
+     ]
+    },
+    "' 1'": {
+     "ids": [
+      220,
+      16
+     ],
+     "pieces": [
+      "Ġ",
+      "1"
+     ]
+    },
+    "'2'": {
+     "ids": [
+      17
+     ],
+     "pieces": [
+      "2"
+     ]
+    },
+    "' 2'": {
+     "ids": [
+      220,
+      17
+     ],
+     "pieces": [
+      "Ġ",
+      "2"
+     ]
+    },
+    "'3'": {
+     "ids": [
+      18
+     ],
+     "pieces": [
+      "3"
+     ]
+    },
+    "' 3'": {
+     "ids": [
+      220,
+      18
+     ],
+     "pieces": [
+      "Ġ",
+      "3"
+     ]
+    },
+    "'4'": {
+     "ids": [
+      19
+     ],
+     "pieces": [
+      "4"
+     ]
+    },
+    "' 4'": {
+     "ids": [
+      220,
+      19
+     ],
+     "pieces": [
+      "Ġ",
+      "4"
+     ]
+    },
+    "'5'": {
+     "ids": [
+      20
+     ],
+     "pieces": [
+      "5"
+     ]
+    },
+    "' 5'": {
+     "ids": [
+      220,
+      20
+     ],
+     "pieces": [
+      "Ġ",
+      "5"
+     ]
+    },
+    "'6'": {
+     "ids": [
+      21
+     ],
+     "pieces": [
+      "6"
+     ]
+    },
+    "' 6'": {
+     "ids": [
+      220,
+      21
+     ],
+     "pieces": [
+      "Ġ",
+      "6"
+     ]
+    },
+    "'7'": {
+     "ids": [
+      22
+     ],
+     "pieces": [
+      "7"
+     ]
+    },
+    "' 7'": {
+     "ids": [
+      220,
+      22
+     ],
+     "pieces": [
+      "Ġ",
+      "7"
+     ]
+    },
+    "'8'": {
+     "ids": [
+      23
+     ],
+     "pieces": [
+      "8"
+     ]
+    },
+    "' 8'": {
+     "ids": [
+      220,
+      23
+     ],
+     "pieces": [
+      "Ġ",
+      "8"
+     ]
+    },
+    "'9'": {
+     "ids": [
+      24
+     ],
+     "pieces": [
+      "9"
+     ]
+    },
+    "' 9'": {
+     "ids": [
+      220,
+      24
+     ],
+     "pieces": [
+      "Ġ",
+      "9"
+     ]
+    },
+    "'10'": {
+     "ids": [
+      16,
+      15
+     ],
+     "pieces": [
+      "1",
+      "0"
+     ]
+    },
+    "' 10'": {
+     "ids": [
+      220,
+      16,
+      15
+     ],
+     "pieces": [
+      "Ġ",
+      "1",
+      "0"
+     ]
+    },
+    "'250'": {
+     "ids": [
+      17,
+      20,
+      15
+     ],
+     "pieces": [
+      "2",
+      "5",
+      "0"
+     ]
+    },
+    "' 250'": {
+     "ids": [
+      220,
+      17,
+      20,
+      15
+     ],
+     "pieces": [
+      "Ġ",
+      "2",
+      "5",
+      "0"
+     ]
+    },
+    "'1500'": {
+     "ids": [
+      16,
+      20,
+      15,
+      15
+     ],
+     "pieces": [
+      "1",
+      "5",
+      "0",
+      "0"
+     ]
+    },
+    "' 1500'": {
+     "ids": [
+      220,
+      16,
+      20,
+      15,
+      15
+     ],
+     "pieces": [
+      "Ġ",
+      "1",
+      "5",
+      "0",
+      "0"
+     ]
+    },
+    "'2500'": {
+     "ids": [
+      17,
+      20,
+      15,
+      15
+     ],
+     "pieces": [
+      "2",
+      "5",
+      "0",
+      "0"
+     ]
+    },
+    "' 2500'": {
+     "ids": [
+      220,
+      17,
+      20,
+      15,
+      15
+     ],
+     "pieces": [
+      "Ġ",
+      "2",
+      "5",
+      "0",
+      "0"
+     ]
+    },
+    "'6000'": {
+     "ids": [
+      21,
+      15,
+      15,
+      15
+     ],
+     "pieces": [
+      "6",
+      "0",
+      "0",
+      "0"
+     ]
+    },
+    "' 6000'": {
+     "ids": [
+      220,
+      21,
+      15,
+      15,
+      15
+     ],
+     "pieces": [
+      "Ġ",
+      "6",
+      "0",
+      "0",
+      "0"
+     ]
+    }
+   },
+   "single_token": {
+    "A": true,
+    "B": true,
+    "C": true,
+    "D": true,
+    "Yes": true,
+    "No": true,
+    "1": true,
+    "2": true,
+    "3": true,
+    "4": true,
+    "5": true,
+    "6": true,
+    "7": true,
+    "8": true,
+    "9": true
+   },
+   "single_token_space": {
+    "A": true,
+    "B": true,
+    "C": true,
+    "D": true,
+    "Yes": true,
+    "No": true,
+    "1": false,
+    "2": false,
+    "3": false,
+    "4": false,
+    "5": false,
+    "6": false,
+    "7": false,
+    "8": false,
+    "9": false
+   },
+   "digits_split_individually": true
+  },
+  {
+   "model": "qwen2.5-7b-instruct",
+   "template_sha256_16": "cd8e9439f0570856",
+   "bos": null,
+   "eos": "<|im_end|>",
+   "pad": "<|endoftext|>",
+   "vocab": 151665,
+   "system_role": "ok",
+   "system_text_present": true,
+   "system_before_user": true,
+   "rendered": "<|im_start|>system\nYou are taking part in a short study. Answer the question as yourself.<|im_end|>\n<|im_start|>user\nWhich program would you choose?\n\nAnswer with only the program letter.<|im_end|>\n<|im_start|>assistant\n",
+   "rendered_sha256_16": "642bb8cf581d6e8d",
+   "starts_with_bos": false,
+   "double_bos_if_add_special": false,
+   "n_prompt_tokens": 41,
+   "tail": "th only the program letter.<|im_end|>\n<|im_start|>assistant\n",
+   "answer_tokens": {
+    "'A'": {
+     "ids": [
+      32
+     ],
+     "pieces": [
+      "A"
+     ]
+    },
+    "' A'": {
+     "ids": [
+      362
+     ],
+     "pieces": [
+      "ĠA"
+     ]
+    },
+    "'B'": {
+     "ids": [
+      33
+     ],
+     "pieces": [
+      "B"
+     ]
+    },
+    "' B'": {
+     "ids": [
+      425
+     ],
+     "pieces": [
+      "ĠB"
+     ]
+    },
+    "'C'": {
+     "ids": [
+      34
+     ],
+     "pieces": [
+      "C"
+     ]
+    },
+    "' C'": {
+     "ids": [
+      356
+     ],
+     "pieces": [
+      "ĠC"
+     ]
+    },
+    "'D'": {
+     "ids": [
+      35
+     ],
+     "pieces": [
+      "D"
+     ]
+    },
+    "' D'": {
+     "ids": [
+      422
+     ],
+     "pieces": [
+      "ĠD"
+     ]
+    },
+    "'Yes'": {
+     "ids": [
+      9454
+     ],
+     "pieces": [
+      "Yes"
+     ]
+    },
+    "' Yes'": {
+     "ids": [
+      7414
+     ],
+     "pieces": [
+      "ĠYes"
+     ]
+    },
+    "'No'": {
+     "ids": [
+      2753
+     ],
+     "pieces": [
+      "No"
+     ]
+    },
+    "' No'": {
+     "ids": [
+      2308
+     ],
+     "pieces": [
+      "ĠNo"
+     ]
+    },
+    "'yes'": {
+     "ids": [
+      9693
+     ],
+     "pieces": [
+      "yes"
+     ]
+    },
+    "' yes'": {
+     "ids": [
+      9834
+     ],
+     "pieces": [
+      "Ġyes"
+     ]
+    },
+    "'no'": {
+     "ids": [
+      2152
+     ],
+     "pieces": [
+      "no"
+     ]
+    },
+    "' no'": {
+     "ids": [
+      902
+     ],
+     "pieces": [
+      "Ġno"
+     ]
+    },
+    "'1'": {
+     "ids": [
+      16
+     ],
+     "pieces": [
+      "1"
+     ]
+    },
+    "' 1'": {
+     "ids": [
+      220,
+      16
+     ],
+     "pieces": [
+      "Ġ",
+      "1"
+     ]
+    },
+    "'2'": {
+     "ids": [
+      17
+     ],
+     "pieces": [
+      "2"
+     ]
+    },
+    "' 2'": {
+     "ids": [
+      220,
+      17
+     ],
+     "pieces": [
+      "Ġ",
+      "2"
+     ]
+    },
+    "'3'": {
+     "ids": [
+      18
+     ],
+     "pieces": [
+      "3"
+     ]
+    },
+    "' 3'": {
+     "ids": [
+      220,
+      18
+     ],
+     "pieces": [
+      "Ġ",
+      "3"
+     ]
+    },
+    "'4'": {
+     "ids": [
+      19
+     ],
+     "pieces": [
+      "4"
+     ]
+    },
+    "' 4'": {
+     "ids": [
+      220,
+      19
+     ],
+     "pieces": [
+      "Ġ",
+      "4"
+     ]
+    },
+    "'5'": {
+     "ids": [
+      20
+     ],
+     "pieces": [
+      "5"
+     ]
+    },
+    "' 5'": {
+     "ids": [
+      220,
+      20
+     ],
+     "pieces": [
+      "Ġ",
+      "5"
+     ]
+    },
+    "'6'": {
+     "ids": [
+      21
+     ],
+     "pieces": [
+      "6"
+     ]
+    },
+    "' 6'": {
+     "ids": [
+      220,
+      21
+     ],
+     "pieces": [
+      "Ġ",
+      "6"
+     ]
+    },
+    "'7'": {
+     "ids": [
+      22
+     ],
+     "pieces": [
+      "7"
+     ]
+    },
+    "' 7'": {
+     "ids": [
+      220,
+      22
+     ],
+     "pieces": [
+      "Ġ",
+      "7"
+     ]
+    },
+    "'8'": {
+     "ids": [
+      23
+     ],
+     "pieces": [
+      "8"
+     ]
+    },
+    "' 8'": {
+     "ids": [
+      220,
+      23
+     ],
+     "pieces": [
+      "Ġ",
+      "8"
+     ]
+    },
+    "'9'": {
+     "ids": [
+      24
+     ],
+     "pieces": [
+      "9"
+     ]
+    },
+    "' 9'": {
+     "ids": [
+      220,
+      24
+     ],
+     "pieces": [
+      "Ġ",
+      "9"
+     ]
+    },
+    "'10'": {
+     "ids": [
+      16,
+      15
+     ],
+     "pieces": [
+      "1",
+      "0"
+     ]
+    },
+    "' 10'": {
+     "ids": [
+      220,
+      16,
+      15
+     ],
+     "pieces": [
+      "Ġ",
+      "1",
+      "0"
+     ]
+    },
+    "'250'": {
+     "ids": [
+      17,
+      20,
+      15
+     ],
+     "pieces": [
+      "2",
+      "5",
+      "0"
+     ]
+    },
+    "' 250'": {
+     "ids": [
+      220,
+      17,
+      20,
+      15
+     ],
+     "pieces": [
+      "Ġ",
+      "2",
+      "5",
+      "0"
+     ]
+    },
+    "'1500'": {
+     "ids": [
+      16,
+      20,
+      15,
+      15
+     ],
+     "pieces": [
+      "1",
+      "5",
+      "0",
+      "0"
+     ]
+    },
+    "' 1500'": {
+     "ids": [
+      220,
+      16,
+      20,
+      15,
+      15
+     ],
+     "pieces": [
+      "Ġ",
+      "1",
+      "5",
+      "0",
+      "0"
+     ]
+    },
+    "'2500'": {
+     "ids": [
+      17,
+      20,
+      15,
+      15
+     ],
+     "pieces": [
+      "2",
+      "5",
+      "0",
+      "0"
+     ]
+    },
+    "' 2500'": {
+     "ids": [
+      220,
+      17,
+      20,
+      15,
+      15
+     ],
+     "pieces": [
+      "Ġ",
+      "2",
+      "5",
+      "0",
+      "0"
+     ]
+    },
+    "'6000'": {
+     "ids": [
+      21,
+      15,
+      15,
+      15
+     ],
+     "pieces": [
+      "6",
+      "0",
+      "0",
+      "0"
+     ]
+    },
+    "' 6000'": {
+     "ids": [
+      220,
+      21,
+      15,
+      15,
+      15
+     ],
+     "pieces": [
+      "Ġ",
+      "6",
+      "0",
+      "0",
+      "0"
+     ]
+    }
+   },
+   "single_token": {
+    "A": true,
+    "B": true,
+    "C": true,
+    "D": true,
+    "Yes": true,
+    "No": true,
+    "1": true,
+    "2": true,
+    "3": true,
+    "4": true,
+    "5": true,
+    "6": true,
+    "7": true,
+    "8": true,
+    "9": true
+   },
+   "single_token_space": {
+    "A": true,
+    "B": true,
+    "C": true,
+    "D": true,
+    "Yes": true,
+    "No": true,
+    "1": false,
+    "2": false,
+    "3": false,
+    "4": false,
+    "5": false,
+    "6": false,
+    "7": false,
+    "8": false,
+    "9": false
+   },
+   "digits_split_individually": true
+  },
+  {
+   "model": "qwen2.5-14b-instruct",
+   "template_sha256_16": "cd8e9439f0570856",
+   "bos": null,
+   "eos": "<|im_end|>",
+   "pad": "<|endoftext|>",
+   "vocab": 151665,
+   "system_role": "ok",
+   "system_text_present": true,
+   "system_before_user": true,
+   "rendered": "<|im_start|>system\nYou are taking part in a short study. Answer the question as yourself.<|im_end|>\n<|im_start|>user\nWhich program would you choose?\n\nAnswer with only the program letter.<|im_end|>\n<|im_start|>assistant\n",
+   "rendered_sha256_16": "642bb8cf581d6e8d",
+   "starts_with_bos": false,
+   "double_bos_if_add_special": false,
+   "n_prompt_tokens": 41,
+   "tail": "th only the program letter.<|im_end|>\n<|im_start|>assistant\n",
+   "answer_tokens": {
+    "'A'": {
+     "ids": [
+      32
+     ],
+     "pieces": [
+      "A"
+     ]
+    },
+    "' A'": {
+     "ids": [
+      362
+     ],
+     "pieces": [
+      "ĠA"
+     ]
+    },
+    "'B'": {
+     "ids": [
+      33
+     ],
+     "pieces": [
+      "B"
+     ]
+    },
+    "' B'": {
+     "ids": [
+      425
+     ],
+     "pieces": [
+      "ĠB"
+     ]
+    },
+    "'C'": {
+     "ids": [
+      34
+     ],
+     "pieces": [
+      "C"
+     ]
+    },
+    "' C'": {
+     "ids": [
+      356
+     ],
+     "pieces": [
+      "ĠC"
+     ]
+    },
+    "'D'": {
+     "ids": [
+      35
+     ],
+     "pieces": [
+      "D"
+     ]
+    },
+    "' D'": {
+     "ids": [
+      422
+     ],
+     "pieces": [
+      "ĠD"
+     ]
+    },
+    "'Yes'": {
+     "ids": [
+      9454
+     ],
+     "pieces": [
+      "Yes"
+     ]
+    },
+    "' Yes'": {
+     "ids": [
+      7414
+     ],
+     "pieces": [
+      "ĠYes"
+     ]
+    },
+    "'No'": {
+     "ids": [
+      2753
+     ],
+     "pieces": [
+      "No"
+     ]
+    },
+    "' No'": {
+     "ids": [
+      2308
+     ],
+     "pieces": [
+      "ĠNo"
+     ]
+    },
+    "'yes'": {
+     "ids": [
+      9693
+     ],
+     "pieces": [
+      "yes"
+     ]
+    },
+    "' yes'": {
+     "ids": [
+      9834
+     ],
+     "pieces": [
+      "Ġyes"
+     ]
+    },
+    "'no'": {
+     "ids": [
+      2152
+     ],
+     "pieces": [
+      "no"
+     ]
+    },
+    "' no'": {
+     "ids": [
+      902
+     ],
+     "pieces": [
+      "Ġno"
+     ]
+    },
+    "'1'": {
+     "ids": [
+      16
+     ],
+     "pieces": [
+      "1"
+     ]
+    },
+    "' 1'": {
+     "ids": [
+      220,
+      16
+     ],
+     "pieces": [
+      "Ġ",
+      "1"
+     ]
+    },
+    "'2'": {
+     "ids": [
+      17
+     ],
+     "pieces": [
+      "2"
+     ]
+    },
+    "' 2'": {
+     "ids": [
+      220,
+      17
+     ],
+     "pieces": [
+      "Ġ",
+      "2"
+     ]
+    },
+    "'3'": {
+     "ids": [
+      18
+     ],
+     "pieces": [
+      "3"
+     ]
+    },
+    "' 3'": {
+     "ids": [
+      220,
+      18
+     ],
+     "pieces": [
+      "Ġ",
+      "3"
+     ]
+    },
+    "'4'": {
+     "ids": [
+      19
+     ],
+     "pieces": [
+      "4"
+     ]
+    },
+    "' 4'": {
+     "ids": [
+      220,
+      19
+     ],
+     "pieces": [
+      "Ġ",
+      "4"
+     ]
+    },
+    "'5'": {
+     "ids": [
+      20
+     ],
+     "pieces": [
+      "5"
+     ]
+    },
+    "' 5'": {
+     "ids": [
+      220,
+      20
+     ],
+     "pieces": [
+      "Ġ",
+      "5"
+     ]
+    },
+    "'6'": {
+     "ids": [
+      21
+     ],
+     "pieces": [
+      "6"
+     ]
+    },
+    "' 6'": {
+     "ids": [
+      220,
+      21
+     ],
+     "pieces": [
+      "Ġ",
+      "6"
+     ]
+    },
+    "'7'": {
+     "ids": [
+      22
+     ],
+     "pieces": [
+      "7"
+     ]
+    },
+    "' 7'": {
+     "ids": [
+      220,
+      22
+     ],
+     "pieces": [
+      "Ġ",
+      "7"
+     ]
+    },
+    "'8'": {
+     "ids": [
+      23
+     ],
+     "pieces": [
+      "8"
+     ]
+    },
+    "' 8'": {
+     "ids": [
+      220,
+      23
+     ],
+     "pieces": [
+      "Ġ",
+      "8"
+     ]
+    },
+    "'9'": {
+     "ids": [
+      24
+     ],
+     "pieces": [
+      "9"
+     ]
+    },
+    "' 9'": {
+     "ids": [
+      220,
+      24
+     ],
+     "pieces": [
+      "Ġ",
+      "9"
+     ]
+    },
+    "'10'": {
+     "ids": [
+      16,
+      15
+     ],
+     "pieces": [
+      "1",
+      "0"
+     ]
+    },
+    "' 10'": {
+     "ids": [
+      220,
+      16,
+      15
+     ],
+     "pieces": [
+      "Ġ",
+      "1",
+      "0"
+     ]
+    },
+    "'250'": {
+     "ids": [
+      17,
+      20,
+      15
+     ],
+     "pieces": [
+      "2",
+      "5",
+      "0"
+     ]
+    },
+    "' 250'": {
+     "ids": [
+      220,
+      17,
+      20,
+      15
+     ],
+     "pieces": [
+      "Ġ",
+      "2",
+      "5",
+      "0"
+     ]
+    },
+    "'1500'": {
+     "ids": [
+      16,
+      20,
+      15,
+      15
+     ],
+     "pieces": [
+      "1",
+      "5",
+      "0",
+      "0"
+     ]
+    },
+    "' 1500'": {
+     "ids": [
+      220,
+      16,
+      20,
+      15,
+      15
+     ],
+     "pieces": [
+      "Ġ",
+      "1",
+      "5",
+      "0",
+      "0"
+     ]
+    },
+    "'2500'": {
+     "ids": [
+      17,
+      20,
+      15,
+      15
+     ],
+     "pieces": [
+      "2",
+      "5",
+      "0",
+      "0"
+     ]
+    },
+    "' 2500'": {
+     "ids": [
+      220,
+      17,
+      20,
+      15,
+      15
+     ],
+     "pieces": [
+      "Ġ",
+      "2",
+      "5",
+      "0",
+      "0"
+     ]
+    },
+    "'6000'": {
+     "ids": [
+      21,
+      15,
+      15,
+      15
+     ],
+     "pieces": [
+      "6",
+      "0",
+      "0",
+      "0"
+     ]
+    },
+    "' 6000'": {
+     "ids": [
+      220,
+      21,
+      15,
+      15,
+      15
+     ],
+     "pieces": [
+      "Ġ",
+      "6",
+      "0",
+      "0",
+      "0"
+     ]
+    }
+   },
+   "single_token": {
+    "A": true,
+    "B": true,
+    "C": true,
+    "D": true,
+    "Yes": true,
+    "No": true,
+    "1": true,
+    "2": true,
+    "3": true,
+    "4": true,
+    "5": true,
+    "6": true,
+    "7": true,
+    "8": true,
+    "9": true
+   },
+   "single_token_space": {
+    "A": true,
+    "B": true,
+    "C": true,
+    "D": true,
+    "Yes": true,
+    "No": true,
+    "1": false,
+    "2": false,
+    "3": false,
+    "4": false,
+    "5": false,
+    "6": false,
+    "7": false,
+    "8": false,
+    "9": false
+   },
+   "digits_split_individually": true
+  },
+  {
+   "model": "olmo2-1b-instruct",
+   "template_sha256_16": "fe689ffbd6a4e2d0",
+   "bos": "<|endoftext|>",
+   "eos": "<|endoftext|>",
+   "pad": "<|pad|>",
+   "vocab": 100278,
+   "system_role": "ok",
+   "system_text_present": true,
+   "system_before_user": true,
+   "rendered": "<|endoftext|><|system|>\nYou are taking part in a short study. Answer the question as yourself.\n<|user|>\nWhich program would you choose?\n\nAnswer with only the program letter.\n<|assistant|>\n",
+   "rendered_sha256_16": "1148d87a3162f1af",
+   "starts_with_bos": true,
+   "double_bos_if_add_special": false,
+   "n_prompt_tokens": 44,
+   "tail": "choose?\n\nAnswer with only the program letter.\n<|assistant|>\n",
+   "answer_tokens": {
+    "'A'": {
+     "ids": [
+      32
+     ],
+     "pieces": [
+      "A"
+     ]
+    },
+    "' A'": {
+     "ids": [
+      362
+     ],
+     "pieces": [
+      "ĠA"
+     ]
+    },
+    "'B'": {
+     "ids": [
+      33
+     ],
+     "pieces": [
+      "B"
+     ]
+    },
+    "' B'": {
+     "ids": [
+      426
+     ],
+     "pieces": [
+      "ĠB"
+     ]
+    },
+    "'C'": {
+     "ids": [
+      34
+     ],
+     "pieces": [
+      "C"
+     ]
+    },
+    "' C'": {
+     "ids": [
+      356
+     ],
+     "pieces": [
+      "ĠC"
+     ]
+    },
+    "'D'": {
+     "ids": [
+      35
+     ],
+     "pieces": [
+      "D"
+     ]
+    },
+    "' D'": {
+     "ids": [
+      423
+     ],
+     "pieces": [
+      "ĠD"
+     ]
+    },
+    "'Yes'": {
+     "ids": [
+      9642
+     ],
+     "pieces": [
+      "Yes"
+     ]
+    },
+    "' Yes'": {
+     "ids": [
+      7566
+     ],
+     "pieces": [
+      "ĠYes"
+     ]
+    },
+    "'No'": {
+     "ids": [
+      2822
+     ],
+     "pieces": [
+      "No"
+     ]
+    },
+    "' No'": {
+     "ids": [
+      2360
+     ],
+     "pieces": [
+      "ĠNo"
+     ]
+    },
+    "'yes'": {
+     "ids": [
+      9891
+     ],
+     "pieces": [
+      "yes"
+     ]
+    },
+    "' yes'": {
+     "ids": [
+      10035
+     ],
+     "pieces": [
+      "Ġyes"
+     ]
+    },
+    "'no'": {
+     "ids": [
+      2201
+     ],
+     "pieces": [
+      "no"
+     ]
+    },
+    "' no'": {
+     "ids": [
+      912
+     ],
+     "pieces": [
+      "Ġno"
+     ]
+    },
+    "'1'": {
+     "ids": [
+      16
+     ],
+     "pieces": [
+      "1"
+     ]
+    },
+    "' 1'": {
+     "ids": [
+      220,
+      16
+     ],
+     "pieces": [
+      "Ġ",
+      "1"
+     ]
+    },
+    "'2'": {
+     "ids": [
+      17
+     ],
+     "pieces": [
+      "2"
+     ]
+    },
+    "' 2'": {
+     "ids": [
+      220,
+      17
+     ],
+     "pieces": [
+      "Ġ",
+      "2"
+     ]
+    },
+    "'3'": {
+     "ids": [
+      18
+     ],
+     "pieces": [
+      "3"
+     ]
+    },
+    "' 3'": {
+     "ids": [
+      220,
+      18
+     ],
+     "pieces": [
+      "Ġ",
+      "3"
+     ]
+    },
+    "'4'": {
+     "ids": [
+      19
+     ],
+     "pieces": [
+      "4"
+     ]
+    },
+    "' 4'": {
+     "ids": [
+      220,
+      19
+     ],
+     "pieces": [
+      "Ġ",
+      "4"
+     ]
+    },
+    "'5'": {
+     "ids": [
+      20
+     ],
+     "pieces": [
+      "5"
+     ]
+    },
+    "' 5'": {
+     "ids": [
+      220,
+      20
+     ],
+     "pieces": [
+      "Ġ",
+      "5"
+     ]
+    },
+    "'6'": {
+     "ids": [
+      21
+     ],
+     "pieces": [
+      "6"
+     ]
+    },
+    "' 6'": {
+     "ids": [
+      220,
+      21
+     ],
+     "pieces": [
+      "Ġ",
+      "6"
+     ]
+    },
+    "'7'": {
+     "ids": [
+      22
+     ],
+     "pieces": [
+      "7"
+     ]
+    },
+    "' 7'": {
+     "ids": [
+      220,
+      22
+     ],
+     "pieces": [
+      "Ġ",
+      "7"
+     ]
+    },
+    "'8'": {
+     "ids": [
+      23
+     ],
+     "pieces": [
+      "8"
+     ]
+    },
+    "' 8'": {
+     "ids": [
+      220,
+      23
+     ],
+     "pieces": [
+      "Ġ",
+      "8"
+     ]
+    },
+    "'9'": {
+     "ids": [
+      24
+     ],
+     "pieces": [
+      "9"
+     ]
+    },
+    "' 9'": {
+     "ids": [
+      220,
+      24
+     ],
+     "pieces": [
+      "Ġ",
+      "9"
+     ]
+    },
+    "'10'": {
+     "ids": [
+      605
+     ],
+     "pieces": [
+      "10"
+     ]
+    },
+    "' 10'": {
+     "ids": [
+      220,
+      605
+     ],
+     "pieces": [
+      "Ġ",
+      "10"
+     ]
+    },
+    "'250'": {
+     "ids": [
+      5154
+     ],
+     "pieces": [
+      "250"
+     ]
+    },
+    "' 250'": {
+     "ids": [
+      220,
+      5154
+     ],
+     "pieces": [
+      "Ġ",
+      "250"
+     ]
+    },
+    "'1500'": {
+     "ids": [
+      3965,
+      15
+     ],
+     "pieces": [
+      "150",
+      "0"
+     ]
+    },
+    "' 1500'": {
+     "ids": [
+      220,
+      3965,
+      15
+     ],
+     "pieces": [
+      "Ġ",
+      "150",
+      "0"
+     ]
+    },
+    "'2500'": {
+     "ids": [
+      5154,
+      15
+     ],
+     "pieces": [
+      "250",
+      "0"
+     ]
+    },
+    "' 2500'": {
+     "ids": [
+      220,
+      5154,
+      15
+     ],
+     "pieces": [
+      "Ġ",
+      "250",
+      "0"
+     ]
+    },
+    "'6000'": {
+     "ids": [
+      5067,
+      15
+     ],
+     "pieces": [
+      "600",
+      "0"
+     ]
+    },
+    "' 6000'": {
+     "ids": [
+      220,
+      5067,
+      15
+     ],
+     "pieces": [
+      "Ġ",
+      "600",
+      "0"
+     ]
+    }
+   },
+   "single_token": {
+    "A": true,
+    "B": true,
+    "C": true,
+    "D": true,
+    "Yes": true,
+    "No": true,
+    "1": true,
+    "2": true,
+    "3": true,
+    "4": true,
+    "5": true,
+    "6": true,
+    "7": true,
+    "8": true,
+    "9": true
+   },
+   "single_token_space": {
+    "A": true,
+    "B": true,
+    "C": true,
+    "D": true,
+    "Yes": true,
+    "No": true,
+    "1": false,
+    "2": false,
+    "3": false,
+    "4": false,
+    "5": false,
+    "6": false,
+    "7": false,
+    "8": false,
+    "9": false
+   },
+   "digits_split_individually": false
+  },
+  {
+   "model": "olmo2-1b-sft",
+   "template_sha256_16": "fe689ffbd6a4e2d0",
+   "bos": "<|endoftext|>",
+   "eos": "<|endoftext|>",
+   "pad": "<|pad|>",
+   "vocab": 100278,
+   "system_role": "ok",
+   "system_text_present": true,
+   "system_before_user": true,
+   "rendered": "<|endoftext|><|system|>\nYou are taking part in a short study. Answer the question as yourself.\n<|user|>\nWhich program would you choose?\n\nAnswer with only the program letter.\n<|assistant|>\n",
+   "rendered_sha256_16": "1148d87a3162f1af",
+   "starts_with_bos": true,
+   "double_bos_if_add_special": false,
+   "n_prompt_tokens": 44,
+   "tail": "choose?\n\nAnswer with only the program letter.\n<|assistant|>\n",
+   "answer_tokens": {
+    "'A'": {
+     "ids": [
+      32
+     ],
+     "pieces": [
+      "A"
+     ]
+    },
+    "' A'": {
+     "ids": [
+      362
+     ],
+     "pieces": [
+      "ĠA"
+     ]
+    },
+    "'B'": {
+     "ids": [
+      33
+     ],
+     "pieces": [
+      "B"
+     ]
+    },
+    "' B'": {
+     "ids": [
+      426
+     ],
+     "pieces": [
+      "ĠB"
+     ]
+    },
+    "'C'": {
+     "ids": [
+      34
+     ],
+     "pieces": [
+      "C"
+     ]
+    },
+    "' C'": {
+     "ids": [
+      356
+     ],
+     "pieces": [
+      "ĠC"
+     ]
+    },
+    "'D'": {
+     "ids": [
+      35
+     ],
+     "pieces": [
+      "D"
+     ]
+    },
+    "' D'": {
+     "ids": [
+      423
+     ],
+     "pieces": [
+      "ĠD"
+     ]
+    },
+    "'Yes'": {
+     "ids": [
+      9642
+     ],
+     "pieces": [
+      "Yes"
+     ]
+    },
+    "' Yes'": {
+     "ids": [
+      7566
+     ],
+     "pieces": [
+      "ĠYes"
+     ]
+    },
+    "'No'": {
+     "ids": [
+      2822
+     ],
+     "pieces": [
+      "No"
+     ]
+    },
+    "' No'": {
+     "ids": [
+      2360
+     ],
+     "pieces": [
+      "ĠNo"
+     ]
+    },
+    "'yes'": {
+     "ids": [
+      9891
+     ],
+     "pieces": [
+      "yes"
+     ]
+    },
+    "' yes'": {
+     "ids": [
+      10035
+     ],
+     "pieces": [
+      "Ġyes"
+     ]
+    },
+    "'no'": {
+     "ids": [
+      2201
+     ],
+     "pieces": [
+      "no"
+     ]
+    },
+    "' no'": {
+     "ids": [
+      912
+     ],
+     "pieces": [
+      "Ġno"
+     ]
+    },
+    "'1'": {
+     "ids": [
+      16
+     ],
+     "pieces": [
+      "1"
+     ]
+    },
+    "' 1'": {
+     "ids": [
+      220,
+      16
+     ],
+     "pieces": [
+      "Ġ",
+      "1"
+     ]
+    },
+    "'2'": {
+     "ids": [
+      17
+     ],
+     "pieces": [
+      "2"
+     ]
+    },
+    "' 2'": {
+     "ids": [
+      220,
+      17
+     ],
+     "pieces": [
+      "Ġ",
+      "2"
+     ]
+    },
+    "'3'": {
+     "ids": [
+      18
+     ],
+     "pieces": [
+      "3"
+     ]
+    },
+    "' 3'": {
+     "ids": [
+      220,
+      18
+     ],
+     "pieces": [
+      "Ġ",
+      "3"
+     ]
+    },
+    "'4'": {
+     "ids": [
+      19
+     ],
+     "pieces": [
+      "4"
+     ]
+    },
+    "' 4'": {
+     "ids": [
+      220,
+      19
+     ],
+     "pieces": [
+      "Ġ",
+      "4"
+     ]
+    },
+    "'5'": {
+     "ids": [
+      20
+     ],
+     "pieces": [
+      "5"
+     ]
+    },
+    "' 5'": {
+     "ids": [
+      220,
+      20
+     ],
+     "pieces": [
+      "Ġ",
+      "5"
+     ]
+    },
+    "'6'": {
+     "ids": [
+      21
+     ],
+     "pieces": [
+      "6"
+     ]
+    },
+    "' 6'": {
+     "ids": [
+      220,
+      21
+     ],
+     "pieces": [
+      "Ġ",
+      "6"
+     ]
+    },
+    "'7'": {
+     "ids": [
+      22
+     ],
+     "pieces": [
+      "7"
+     ]
+    },
+    "' 7'": {
+     "ids": [
+      220,
+      22
+     ],
+     "pieces": [
+      "Ġ",
+      "7"
+     ]
+    },
+    "'8'": {
+     "ids": [
+      23
+     ],
+     "pieces": [
+      "8"
+     ]
+    },
+    "' 8'": {
+     "ids": [
+      220,
+      23
+     ],
+     "pieces": [
+      "Ġ",
+      "8"
+     ]
+    },
+    "'9'": {
+     "ids": [
+      24
+     ],
+     "pieces": [
+      "9"
+     ]
+    },
+    "' 9'": {
+     "ids": [
+      220,
+      24
+     ],
+     "pieces": [
+      "Ġ",
+      "9"
+     ]
+    },
+    "'10'": {
+     "ids": [
+      605
+     ],
+     "pieces": [
+      "10"
+     ]
+    },
+    "' 10'": {
+     "ids": [
+      220,
+      605
+     ],
+     "pieces": [
+      "Ġ",
+      "10"
+     ]
+    },
+    "'250'": {
+     "ids": [
+      5154
+     ],
+     "pieces": [
+      "250"
+     ]
+    },
+    "' 250'": {
+     "ids": [
+      220,
+      5154
+     ],
+     "pieces": [
+      "Ġ",
+      "250"
+     ]
+    },
+    "'1500'": {
+     "ids": [
+      3965,
+      15
+     ],
+     "pieces": [
+      "150",
+      "0"
+     ]
+    },
+    "' 1500'": {
+     "ids": [
+      220,
+      3965,
+      15
+     ],
+     "pieces": [
+      "Ġ",
+      "150",
+      "0"
+     ]
+    },
+    "'2500'": {
+     "ids": [
+      5154,
+      15
+     ],
+     "pieces": [
+      "250",
+      "0"
+     ]
+    },
+    "' 2500'": {
+     "ids": [
+      220,
+      5154,
+      15
+     ],
+     "pieces": [
+      "Ġ",
+      "250",
+      "0"
+     ]
+    },
+    "'6000'": {
+     "ids": [
+      5067,
+      15
+     ],
+     "pieces": [
+      "600",
+      "0"
+     ]
+    },
+    "' 6000'": {
+     "ids": [
+      220,
+      5067,
+      15
+     ],
+     "pieces": [
+      "Ġ",
+      "600",
+      "0"
+     ]
+    }
+   },
+   "single_token": {
+    "A": true,
+    "B": true,
+    "C": true,
+    "D": true,
+    "Yes": true,
+    "No": true,
+    "1": true,
+    "2": true,
+    "3": true,
+    "4": true,
+    "5": true,
+    "6": true,
+    "7": true,
+    "8": true,
+    "9": true
+   },
+   "single_token_space": {
+    "A": true,
+    "B": true,
+    "C": true,
+    "D": true,
+    "Yes": true,
+    "No": true,
+    "1": false,
+    "2": false,
+    "3": false,
+    "4": false,
+    "5": false,
+    "6": false,
+    "7": false,
+    "8": false,
+    "9": false
+   },
+   "digits_split_individually": false
+  },
+  {
+   "model": "olmo2-1b-dpo",
+   "template_sha256_16": "fe689ffbd6a4e2d0",
+   "bos": "<|endoftext|>",
+   "eos": "<|endoftext|>",
+   "pad": "<|pad|>",
+   "vocab": 100278,
+   "system_role": "ok",
+   "system_text_present": true,
+   "system_before_user": true,
+   "rendered": "<|endoftext|><|system|>\nYou are taking part in a short study. Answer the question as yourself.\n<|user|>\nWhich program would you choose?\n\nAnswer with only the program letter.\n<|assistant|>\n",
+   "rendered_sha256_16": "1148d87a3162f1af",
+   "starts_with_bos": true,
+   "double_bos_if_add_special": false,
+   "n_prompt_tokens": 44,
+   "tail": "choose?\n\nAnswer with only the program letter.\n<|assistant|>\n",
+   "answer_tokens": {
+    "'A'": {
+     "ids": [
+      32
+     ],
+     "pieces": [
+      "A"
+     ]
+    },
+    "' A'": {
+     "ids": [
+      362
+     ],
+     "pieces": [
+      "ĠA"
+     ]
+    },
+    "'B'": {
+     "ids": [
+      33
+     ],
+     "pieces": [
+      "B"
+     ]
+    },
+    "' B'": {
+     "ids": [
+      426
+     ],
+     "pieces": [
+      "ĠB"
+     ]
+    },
+    "'C'": {
+     "ids": [
+      34
+     ],
+     "pieces": [
+      "C"
+     ]
+    },
+    "' C'": {
+     "ids": [
+      356
+     ],
+     "pieces": [
+      "ĠC"
+     ]
+    },
+    "'D'": {
+     "ids": [
+      35
+     ],
+     "pieces": [
+      "D"
+     ]
+    },
+    "' D'": {
+     "ids": [
+      423
+     ],
+     "pieces": [
+      "ĠD"
+     ]
+    },
+    "'Yes'": {
+     "ids": [
+      9642
+     ],
+     "pieces": [
+      "Yes"
+     ]
+    },
+    "' Yes'": {
+     "ids": [
+      7566
+     ],
+     "pieces": [
+      "ĠYes"
+     ]
+    },
+    "'No'": {
+     "ids": [
+      2822
+     ],
+     "pieces": [
+      "No"
+     ]
+    },
+    "' No'": {
+     "ids": [
+      2360
+     ],
+     "pieces": [
+      "ĠNo"
+     ]
+    },
+    "'yes'": {
+     "ids": [
+      9891
+     ],
+     "pieces": [
+      "yes"
+     ]
+    },
+    "' yes'": {
+     "ids": [
+      10035
+     ],
+     "pieces": [
+      "Ġyes"
+     ]
+    },
+    "'no'": {
+     "ids": [
+      2201
+     ],
+     "pieces": [
+      "no"
+     ]
+    },
+    "' no'": {
+     "ids": [
+      912
+     ],
+     "pieces": [
+      "Ġno"
+     ]
+    },
+    "'1'": {
+     "ids": [
+      16
+     ],
+     "pieces": [
+      "1"
+     ]
+    },
+    "' 1'": {
+     "ids": [
+      220,
+      16
+     ],
+     "pieces": [
+      "Ġ",
+      "1"
+     ]
+    },
+    "'2'": {
+     "ids": [
+      17
+     ],
+     "pieces": [
+      "2"
+     ]
+    },
+    "' 2'": {
+     "ids": [
+      220,
+      17
+     ],
+     "pieces": [
+      "Ġ",
+      "2"
+     ]
+    },
+    "'3'": {
+     "ids": [
+      18
+     ],
+     "pieces": [
+      "3"
+     ]
+    },
+    "' 3'": {
+     "ids": [
+      220,
+      18
+     ],
+     "pieces": [
+      "Ġ",
+      "3"
+     ]
+    },
+    "'4'": {
+     "ids": [
+      19
+     ],
+     "pieces": [
+      "4"
+     ]
+    },
+    "' 4'": {
+     "ids": [
+      220,
+      19
+     ],
+     "pieces": [
+      "Ġ",
+      "4"
+     ]
+    },
+    "'5'": {
+     "ids": [
+      20
+     ],
+     "pieces": [
+      "5"
+     ]
+    },
+    "' 5'": {
+     "ids": [
+      220,
+      20
+     ],
+     "pieces": [
+      "Ġ",
+      "5"
+     ]
+    },
+    "'6'": {
+     "ids": [
+      21
+     ],
+     "pieces": [
+      "6"
+     ]
+    },
+    "' 6'": {
+     "ids": [
+      220,
+      21
+     ],
+     "pieces": [
+      "Ġ",
+      "6"
+     ]
+    },
+    "'7'": {
+     "ids": [
+      22
+     ],
+     "pieces": [
+      "7"
+     ]
+    },
+    "' 7'": {
+     "ids": [
+      220,
+      22
+     ],
+     "pieces": [
+      "Ġ",
+      "7"
+     ]
+    },
+    "'8'": {
+     "ids": [
+      23
+     ],
+     "pieces": [
+      "8"
+     ]
+    },
+    "' 8'": {
+     "ids": [
+      220,
+      23
+     ],
+     "pieces": [
+      "Ġ",
+      "8"
+     ]
+    },
+    "'9'": {
+     "ids": [
+      24
+     ],
+     "pieces": [
+      "9"
+     ]
+    },
+    "' 9'": {
+     "ids": [
+      220,
+      24
+     ],
+     "pieces": [
+      "Ġ",
+      "9"
+     ]
+    },
+    "'10'": {
+     "ids": [
+      605
+     ],
+     "pieces": [
+      "10"
+     ]
+    },
+    "' 10'": {
+     "ids": [
+      220,
+      605
+     ],
+     "pieces": [
+      "Ġ",
+      "10"
+     ]
+    },
+    "'250'": {
+     "ids": [
+      5154
+     ],
+     "pieces": [
+      "250"
+     ]
+    },
+    "' 250'": {
+     "ids": [
+      220,
+      5154
+     ],
+     "pieces": [
+      "Ġ",
+      "250"
+     ]
+    },
+    "'1500'": {
+     "ids": [
+      3965,
+      15
+     ],
+     "pieces": [
+      "150",
+      "0"
+     ]
+    },
+    "' 1500'": {
+     "ids": [
+      220,
+      3965,
+      15
+     ],
+     "pieces": [
+      "Ġ",
+      "150",
+      "0"
+     ]
+    },
+    "'2500'": {
+     "ids": [
+      5154,
+      15
+     ],
+     "pieces": [
+      "250",
+      "0"
+     ]
+    },
+    "' 2500'": {
+     "ids": [
+      220,
+      5154,
+      15
+     ],
+     "pieces": [
+      "Ġ",
+      "250",
+      "0"
+     ]
+    },
+    "'6000'": {
+     "ids": [
+      5067,
+      15
+     ],
+     "pieces": [
+      "600",
+      "0"
+     ]
+    },
+    "' 6000'": {
+     "ids": [
+      220,
+      5067,
+      15
+     ],
+     "pieces": [
+      "Ġ",
+      "600",
+      "0"
+     ]
+    }
+   },
+   "single_token": {
+    "A": true,
+    "B": true,
+    "C": true,
+    "D": true,
+    "Yes": true,
+    "No": true,
+    "1": true,
+    "2": true,
+    "3": true,
+    "4": true,
+    "5": true,
+    "6": true,
+    "7": true,
+    "8": true,
+    "9": true
+   },
+   "single_token_space": {
+    "A": true,
+    "B": true,
+    "C": true,
+    "D": true,
+    "Yes": true,
+    "No": true,
+    "1": false,
+    "2": false,
+    "3": false,
+    "4": false,
+    "5": false,
+    "6": false,
+    "7": false,
+    "8": false,
+    "9": false
+   },
+   "digits_split_individually": false
+  },
+  {
+   "model": "olmo2-7b-instruct",
+   "template_sha256_16": "fe689ffbd6a4e2d0",
+   "bos": "<|endoftext|>",
+   "eos": "<|endoftext|>",
+   "pad": "<|pad|>",
+   "vocab": 100278,
+   "system_role": "ok",
+   "system_text_present": true,
+   "system_before_user": true,
+   "rendered": "<|endoftext|><|system|>\nYou are taking part in a short study. Answer the question as yourself.\n<|user|>\nWhich program would you choose?\n\nAnswer with only the program letter.\n<|assistant|>\n",
+   "rendered_sha256_16": "1148d87a3162f1af",
+   "starts_with_bos": true,
+   "double_bos_if_add_special": false,
+   "n_prompt_tokens": 44,
+   "tail": "choose?\n\nAnswer with only the program letter.\n<|assistant|>\n",
+   "answer_tokens": {
+    "'A'": {
+     "ids": [
+      32
+     ],
+     "pieces": [
+      "A"
+     ]
+    },
+    "' A'": {
+     "ids": [
+      362
+     ],
+     "pieces": [
+      "ĠA"
+     ]
+    },
+    "'B'": {
+     "ids": [
+      33
+     ],
+     "pieces": [
+      "B"
+     ]
+    },
+    "' B'": {
+     "ids": [
+      426
+     ],
+     "pieces": [
+      "ĠB"
+     ]
+    },
+    "'C'": {
+     "ids": [
+      34
+     ],
+     "pieces": [
+      "C"
+     ]
+    },
+    "' C'": {
+     "ids": [
+      356
+     ],
+     "pieces": [
+      "ĠC"
+     ]
+    },
+    "'D'": {
+     "ids": [
+      35
+     ],
+     "pieces": [
+      "D"
+     ]
+    },
+    "' D'": {
+     "ids": [
+      423
+     ],
+     "pieces": [
+      "ĠD"
+     ]
+    },
+    "'Yes'": {
+     "ids": [
+      9642
+     ],
+     "pieces": [
+      "Yes"
+     ]
+    },
+    "' Yes'": {
+     "ids": [
+      7566
+     ],
+     "pieces": [
+      "ĠYes"
+     ]
+    },
+    "'No'": {
+     "ids": [
+      2822
+     ],
+     "pieces": [
+      "No"
+     ]
+    },
+    "' No'": {
+     "ids": [
+      2360
+     ],
+     "pieces": [
+      "ĠNo"
+     ]
+    },
+    "'yes'": {
+     "ids": [
+      9891
+     ],
+     "pieces": [
+      "yes"
+     ]
+    },
+    "' yes'": {
+     "ids": [
+      10035
+     ],
+     "pieces": [
+      "Ġyes"
+     ]
+    },
+    "'no'": {
+     "ids": [
+      2201
+     ],
+     "pieces": [
+      "no"
+     ]
+    },
+    "' no'": {
+     "ids": [
+      912
+     ],
+     "pieces": [
+      "Ġno"
+     ]
+    },
+    "'1'": {
+     "ids": [
+      16
+     ],
+     "pieces": [
+      "1"
+     ]
+    },
+    "' 1'": {
+     "ids": [
+      220,
+      16
+     ],
+     "pieces": [
+      "Ġ",
+      "1"
+     ]
+    },
+    "'2'": {
+     "ids": [
+      17
+     ],
+     "pieces": [
+      "2"
+     ]
+    },
+    "' 2'": {
+     "ids": [
+      220,
+      17
+     ],
+     "pieces": [
+      "Ġ",
+      "2"
+     ]
+    },
+    "'3'": {
+     "ids": [
+      18
+     ],
+     "pieces": [
+      "3"
+     ]
+    },
+    "' 3'": {
+     "ids": [
+      220,
+      18
+     ],
+     "pieces": [
+      "Ġ",
+      "3"
+     ]
+    },
+    "'4'": {
+     "ids": [
+      19
+     ],
+     "pieces": [
+      "4"
+     ]
+    },
+    "' 4'": {
+     "ids": [
+      220,
+      19
+     ],
+     "pieces": [
+      "Ġ",
+      "4"
+     ]
+    },
+    "'5'": {
+     "ids": [
+      20
+     ],
+     "pieces": [
+      "5"
+     ]
+    },
+    "' 5'": {
+     "ids": [
+      220,
+      20
+     ],
+     "pieces": [
+      "Ġ",
+      "5"
+     ]
+    },
+    "'6'": {
+     "ids": [
+      21
+     ],
+     "pieces": [
+      "6"
+     ]
+    },
+    "' 6'": {
+     "ids": [
+      220,
+      21
+     ],
+     "pieces": [
+      "Ġ",
+      "6"
+     ]
+    },
+    "'7'": {
+     "ids": [
+      22
+     ],
+     "pieces": [
+      "7"
+     ]
+    },
+    "' 7'": {
+     "ids": [
+      220,
+      22
+     ],
+     "pieces": [
+      "Ġ",
+      "7"
+     ]
+    },
+    "'8'": {
+     "ids": [
+      23
+     ],
+     "pieces": [
+      "8"
+     ]
+    },
+    "' 8'": {
+     "ids": [
+      220,
+      23
+     ],
+     "pieces": [
+      "Ġ",
+      "8"
+     ]
+    },
+    "'9'": {
+     "ids": [
+      24
+     ],
+     "pieces": [
+      "9"
+     ]
+    },
+    "' 9'": {
+     "ids": [
+      220,
+      24
+     ],
+     "pieces": [
+      "Ġ",
+      "9"
+     ]
+    },
+    "'10'": {
+     "ids": [
+      605
+     ],
+     "pieces": [
+      "10"
+     ]
+    },
+    "' 10'": {
+     "ids": [
+      220,
+      605
+     ],
+     "pieces": [
+      "Ġ",
+      "10"
+     ]
+    },
+    "'250'": {
+     "ids": [
+      5154
+     ],
+     "pieces": [
+      "250"
+     ]
+    },
+    "' 250'": {
+     "ids": [
+      220,
+      5154
+     ],
+     "pieces": [
+      "Ġ",
+      "250"
+     ]
+    },
+    "'1500'": {
+     "ids": [
+      3965,
+      15
+     ],
+     "pieces": [
+      "150",
+      "0"
+     ]
+    },
+    "' 1500'": {
+     "ids": [
+      220,
+      3965,
+      15
+     ],
+     "pieces": [
+      "Ġ",
+      "150",
+      "0"
+     ]
+    },
+    "'2500'": {
+     "ids": [
+      5154,
+      15
+     ],
+     "pieces": [
+      "250",
+      "0"
+     ]
+    },
+    "' 2500'": {
+     "ids": [
+      220,
+      5154,
+      15
+     ],
+     "pieces": [
+      "Ġ",
+      "250",
+      "0"
+     ]
+    },
+    "'6000'": {
+     "ids": [
+      5067,
+      15
+     ],
+     "pieces": [
+      "600",
+      "0"
+     ]
+    },
+    "' 6000'": {
+     "ids": [
+      220,
+      5067,
+      15
+     ],
+     "pieces": [
+      "Ġ",
+      "600",
+      "0"
+     ]
+    }
+   },
+   "single_token": {
+    "A": true,
+    "B": true,
+    "C": true,
+    "D": true,
+    "Yes": true,
+    "No": true,
+    "1": true,
+    "2": true,
+    "3": true,
+    "4": true,
+    "5": true,
+    "6": true,
+    "7": true,
+    "8": true,
+    "9": true
+   },
+   "single_token_space": {
+    "A": true,
+    "B": true,
+    "C": true,
+    "D": true,
+    "Yes": true,
+    "No": true,
+    "1": false,
+    "2": false,
+    "3": false,
+    "4": false,
+    "5": false,
+    "6": false,
+    "7": false,
+    "8": false,
+    "9": false
+   },
+   "digits_split_individually": false
+  },
+  {
+   "model": "olmo2-13b-instruct",
+   "template_sha256_16": "fe689ffbd6a4e2d0",
+   "bos": "<|endoftext|>",
+   "eos": "<|endoftext|>",
+   "pad": "<|pad|>",
+   "vocab": 100278,
+   "system_role": "ok",
+   "system_text_present": true,
+   "system_before_user": true,
+   "rendered": "<|endoftext|><|system|>\nYou are taking part in a short study. Answer the question as yourself.\n<|user|>\nWhich program would you choose?\n\nAnswer with only the program letter.\n<|assistant|>\n",
+   "rendered_sha256_16": "1148d87a3162f1af",
+   "starts_with_bos": true,
+   "double_bos_if_add_special": false,
+   "n_prompt_tokens": 44,
+   "tail": "choose?\n\nAnswer with only the program letter.\n<|assistant|>\n",
+   "answer_tokens": {
+    "'A'": {
+     "ids": [
+      32
+     ],
+     "pieces": [
+      "A"
+     ]
+    },
+    "' A'": {
+     "ids": [
+      362
+     ],
+     "pieces": [
+      "ĠA"
+     ]
+    },
+    "'B'": {
+     "ids": [
+      33
+     ],
+     "pieces": [
+      "B"
+     ]
+    },
+    "' B'": {
+     "ids": [
+      426
+     ],
+     "pieces": [
+      "ĠB"
+     ]
+    },
+    "'C'": {
+     "ids": [
+      34
+     ],
+     "pieces": [
+      "C"
+     ]
+    },
+    "' C'": {
+     "ids": [
+      356
+     ],
+     "pieces": [
+      "ĠC"
+     ]
+    },
+    "'D'": {
+     "ids": [
+      35
+     ],
+     "pieces": [
+      "D"
+     ]
+    },
+    "' D'": {
+     "ids": [
+      423
+     ],
+     "pieces": [
+      "ĠD"
+     ]
+    },
+    "'Yes'": {
+     "ids": [
+      9642
+     ],
+     "pieces": [
+      "Yes"
+     ]
+    },
+    "' Yes'": {
+     "ids": [
+      7566
+     ],
+     "pieces": [
+      "ĠYes"
+     ]
+    },
+    "'No'": {
+     "ids": [
+      2822
+     ],
+     "pieces": [
+      "No"
+     ]
+    },
+    "' No'": {
+     "ids": [
+      2360
+     ],
+     "pieces": [
+      "ĠNo"
+     ]
+    },
+    "'yes'": {
+     "ids": [
+      9891
+     ],
+     "pieces": [
+      "yes"
+     ]
+    },
+    "' yes'": {
+     "ids": [
+      10035
+     ],
+     "pieces": [
+      "Ġyes"
+     ]
+    },
+    "'no'": {
+     "ids": [
+      2201
+     ],
+     "pieces": [
+      "no"
+     ]
+    },
+    "' no'": {
+     "ids": [
+      912
+     ],
+     "pieces": [
+      "Ġno"
+     ]
+    },
+    "'1'": {
+     "ids": [
+      16
+     ],
+     "pieces": [
+      "1"
+     ]
+    },
+    "' 1'": {
+     "ids": [
+      220,
+      16
+     ],
+     "pieces": [
+      "Ġ",
+      "1"
+     ]
+    },
+    "'2'": {
+     "ids": [
+      17
+     ],
+     "pieces": [
+      "2"
+     ]
+    },
+    "' 2'": {
+     "ids": [
+      220,
+      17
+     ],
+     "pieces": [
+      "Ġ",
+      "2"
+     ]
+    },
+    "'3'": {
+     "ids": [
+      18
+     ],
+     "pieces": [
+      "3"
+     ]
+    },
+    "' 3'": {
+     "ids": [
+      220,
+      18
+     ],
+     "pieces": [
+      "Ġ",
+      "3"
+     ]
+    },
+    "'4'": {
+     "ids": [
+      19
+     ],
+     "pieces": [
+      "4"
+     ]
+    },
+    "' 4'": {
+     "ids": [
+      220,
+      19
+     ],
+     "pieces": [
+      "Ġ",
+      "4"
+     ]
+    },
+    "'5'": {
+     "ids": [
+      20
+     ],
+     "pieces": [
+      "5"
+     ]
+    },
+    "' 5'": {
+     "ids": [
+      220,
+      20
+     ],
+     "pieces": [
+      "Ġ",
+      "5"
+     ]
+    },
+    "'6'": {
+     "ids": [
+      21
+     ],
+     "pieces": [
+      "6"
+     ]
+    },
+    "' 6'": {
+     "ids": [
+      220,
+      21
+     ],
+     "pieces": [
+      "Ġ",
+      "6"
+     ]
+    },
+    "'7'": {
+     "ids": [
+      22
+     ],
+     "pieces": [
+      "7"
+     ]
+    },
+    "' 7'": {
+     "ids": [
+      220,
+      22
+     ],
+     "pieces": [
+      "Ġ",
+      "7"
+     ]
+    },
+    "'8'": {
+     "ids": [
+      23
+     ],
+     "pieces": [
+      "8"
+     ]
+    },
+    "' 8'": {
+     "ids": [
+      220,
+      23
+     ],
+     "pieces": [
+      "Ġ",
+      "8"
+     ]
+    },
+    "'9'": {
+     "ids": [
+      24
+     ],
+     "pieces": [
+      "9"
+     ]
+    },
+    "' 9'": {
+     "ids": [
+      220,
+      24
+     ],
+     "pieces": [
+      "Ġ",
+      "9"
+     ]
+    },
+    "'10'": {
+     "ids": [
+      605
+     ],
+     "pieces": [
+      "10"
+     ]
+    },
+    "' 10'": {
+     "ids": [
+      220,
+      605
+     ],
+     "pieces": [
+      "Ġ",
+      "10"
+     ]
+    },
+    "'250'": {
+     "ids": [
+      5154
+     ],
+     "pieces": [
+      "250"
+     ]
+    },
+    "' 250'": {
+     "ids": [
+      220,
+      5154
+     ],
+     "pieces": [
+      "Ġ",
+      "250"
+     ]
+    },
+    "'1500'": {
+     "ids": [
+      3965,
+      15
+     ],
+     "pieces": [
+      "150",
+      "0"
+     ]
+    },
+    "' 1500'": {
+     "ids": [
+      220,
+      3965,
+      15
+     ],
+     "pieces": [
+      "Ġ",
+      "150",
+      "0"
+     ]
+    },
+    "'2500'": {
+     "ids": [
+      5154,
+      15
+     ],
+     "pieces": [
+      "250",
+      "0"
+     ]
+    },
+    "' 2500'": {
+     "ids": [
+      220,
+      5154,
+      15
+     ],
+     "pieces": [
+      "Ġ",
+      "250",
+      "0"
+     ]
+    },
+    "'6000'": {
+     "ids": [
+      5067,
+      15
+     ],
+     "pieces": [
+      "600",
+      "0"
+     ]
+    },
+    "' 6000'": {
+     "ids": [
+      220,
+      5067,
+      15
+     ],
+     "pieces": [
+      "Ġ",
+      "600",
+      "0"
+     ]
+    }
+   },
+   "single_token": {
+    "A": true,
+    "B": true,
+    "C": true,
+    "D": true,
+    "Yes": true,
+    "No": true,
+    "1": true,
+    "2": true,
+    "3": true,
+    "4": true,
+    "5": true,
+    "6": true,
+    "7": true,
+    "8": true,
+    "9": true
+   },
+   "single_token_space": {
+    "A": true,
+    "B": true,
+    "C": true,
+    "D": true,
+    "Yes": true,
+    "No": true,
+    "1": false,
+    "2": false,
+    "3": false,
+    "4": false,
+    "5": false,
+    "6": false,
+    "7": false,
+    "8": false,
+    "9": false
+   },
+   "digits_split_individually": false
+  },
+  {
+   "model": "granite-3.3-2b-instruct",
+   "template_sha256_16": "0bea7711316005a1",
+   "bos": "<|end_of_text|>",
+   "eos": "<|end_of_text|>",
+   "pad": "<|end_of_text|>",
+   "vocab": 49159,
+   "system_role": "ok",
+   "system_text_present": true,
+   "system_before_user": true,
+   "rendered": "<|start_of_role|>system<|end_of_role|>You are taking part in a short study. Answer the question as yourself.<|end_of_text|>\n<|start_of_role|>user<|end_of_role|>Which program would you choose?\n\nAnswer with only the program letter.<|end_of_text|>\n<|start_of_role|>assistant<|end_of_role|>",
+   "rendered_sha256_16": "ea66f1c9326579fd",
+   "starts_with_bos": false,
+   "double_bos_if_add_special": false,
+   "n_prompt_tokens": 43,
+   "tail": "er.<|end_of_text|>\n<|start_of_role|>assistant<|end_of_role|>",
+   "answer_tokens": {
+    "'A'": {
+     "ids": [
+      51
+     ],
+     "pieces": [
+      "A"
+     ]
+    },
+    "' A'": {
+     "ids": [
+      399
+     ],
+     "pieces": [
+      "ĠA"
+     ]
+    },
+    "'B'": {
+     "ids": [
+      52
+     ],
+     "pieces": [
+      "B"
+     ]
+    },
+    "' B'": {
+     "ids": [
+      551
+     ],
+     "pieces": [
+      "ĠB"
+     ]
+    },
+    "'C'": {
+     "ids": [
+      53
+     ],
+     "pieces": [
+      "C"
+     ]
+    },
+    "' C'": {
+     "ids": [
+      390
+     ],
+     "pieces": [
+      "ĠC"
+     ]
+    },
+    "'D'": {
+     "ids": [
+      54
+     ],
+     "pieces": [
+      "D"
+     ]
+    },
+    "' D'": {
+     "ids": [
+      475
+     ],
+     "pieces": [
+      "ĠD"
+     ]
+    },
+    "'Yes'": {
+     "ids": [
+      10922
+     ],
+     "pieces": [
+      "Yes"
+     ]
+    },
+    "' Yes'": {
+     "ids": [
+      10100
+     ],
+     "pieces": [
+      "ĠYes"
+     ]
+    },
+    "'No'": {
+     "ids": [
+      2023
+     ],
+     "pieces": [
+      "No"
+     ]
+    },
+    "' No'": {
+     "ids": [
+      3139
+     ],
+     "pieces": [
+      "ĠNo"
+     ]
+    },
+    "'yes'": {
+     "ids": [
+      7134
+     ],
+     "pieces": [
+      "yes"
+     ]
+    },
+    "' yes'": {
+     "ids": [
+      9155
+     ],
+     "pieces": [
+      "Ġyes"
+     ]
+    },
+    "'no'": {
+     "ids": [
+      1347
+     ],
+     "pieces": [
+      "no"
+     ]
+    },
+    "' no'": {
+     "ids": [
+      1289
+     ],
+     "pieces": [
+      "Ġno"
+     ]
+    },
+    "'1'": {
+     "ids": [
+      35
+     ],
+     "pieces": [
+      "1"
+     ]
+    },
+    "' 1'": {
+     "ids": [
+      225,
+      35
+     ],
+     "pieces": [
+      "Ġ",
+      "1"
+     ]
+    },
+    "'2'": {
+     "ids": [
+      36
+     ],
+     "pieces": [
+      "2"
+     ]
+    },
+    "' 2'": {
+     "ids": [
+      225,
+      36
+     ],
+     "pieces": [
+      "Ġ",
+      "2"
+     ]
+    },
+    "'3'": {
+     "ids": [
+      37
+     ],
+     "pieces": [
+      "3"
+     ]
+    },
+    "' 3'": {
+     "ids": [
+      225,
+      37
+     ],
+     "pieces": [
+      "Ġ",
+      "3"
+     ]
+    },
+    "'4'": {
+     "ids": [
+      38
+     ],
+     "pieces": [
+      "4"
+     ]
+    },
+    "' 4'": {
+     "ids": [
+      225,
+      38
+     ],
+     "pieces": [
+      "Ġ",
+      "4"
+     ]
+    },
+    "'5'": {
+     "ids": [
+      39
+     ],
+     "pieces": [
+      "5"
+     ]
+    },
+    "' 5'": {
+     "ids": [
+      225,
+      39
+     ],
+     "pieces": [
+      "Ġ",
+      "5"
+     ]
+    },
+    "'6'": {
+     "ids": [
+      40
+     ],
+     "pieces": [
+      "6"
+     ]
+    },
+    "' 6'": {
+     "ids": [
+      225,
+      40
+     ],
+     "pieces": [
+      "Ġ",
+      "6"
+     ]
+    },
+    "'7'": {
+     "ids": [
+      41
+     ],
+     "pieces": [
+      "7"
+     ]
+    },
+    "' 7'": {
+     "ids": [
+      225,
+      41
+     ],
+     "pieces": [
+      "Ġ",
+      "7"
+     ]
+    },
+    "'8'": {
+     "ids": [
+      42
+     ],
+     "pieces": [
+      "8"
+     ]
+    },
+    "' 8'": {
+     "ids": [
+      225,
+      42
+     ],
+     "pieces": [
+      "Ġ",
+      "8"
+     ]
+    },
+    "'9'": {
+     "ids": [
+      43
+     ],
+     "pieces": [
+      "9"
+     ]
+    },
+    "' 9'": {
+     "ids": [
+      225,
+      43
+     ],
+     "pieces": [
+      "Ġ",
+      "9"
+     ]
+    },
+    "'10'": {
+     "ids": [
+      35,
+      34
+     ],
+     "pieces": [
+      "1",
+      "0"
+     ]
+    },
+    "' 10'": {
+     "ids": [
+      225,
+      35,
+      34
+     ],
+     "pieces": [
+      "Ġ",
+      "1",
+      "0"
+     ]
+    },
+    "'250'": {
+     "ids": [
+      36,
+      39,
+      34
+     ],
+     "pieces": [
+      "2",
+      "5",
+      "0"
+     ]
+    },
+    "' 250'": {
+     "ids": [
+      225,
+      36,
+      39,
+      34
+     ],
+     "pieces": [
+      "Ġ",
+      "2",
+      "5",
+      "0"
+     ]
+    },
+    "'1500'": {
+     "ids": [
+      35,
+      39,
+      34,
+      34
+     ],
+     "pieces": [
+      "1",
+      "5",
+      "0",
+      "0"
+     ]
+    },
+    "' 1500'": {
+     "ids": [
+      225,
+      35,
+      39,
+      34,
+      34
+     ],
+     "pieces": [
+      "Ġ",
+      "1",
+      "5",
+      "0",
+      "0"
+     ]
+    },
+    "'2500'": {
+     "ids": [
+      36,
+      39,
+      34,
+      34
+     ],
+     "pieces": [
+      "2",
+      "5",
+      "0",
+      "0"
+     ]
+    },
+    "' 2500'": {
+     "ids": [
+      225,
+      36,
+      39,
+      34,
+      34
+     ],
+     "pieces": [
+      "Ġ",
+      "2",
+      "5",
+      "0",
+      "0"
+     ]
+    },
+    "'6000'": {
+     "ids": [
+      40,
+      34,
+      34,
+      34
+     ],
+     "pieces": [
+      "6",
+      "0",
+      "0",
+      "0"
+     ]
+    },
+    "' 6000'": {
+     "ids": [
+      225,
+      40,
+      34,
+      34,
+      34
+     ],
+     "pieces": [
+      "Ġ",
+      "6",
+      "0",
+      "0",
+      "0"
+     ]
+    }
+   },
+   "single_token": {
+    "A": true,
+    "B": true,
+    "C": true,
+    "D": true,
+    "Yes": true,
+    "No": true,
+    "1": true,
+    "2": true,
+    "3": true,
+    "4": true,
+    "5": true,
+    "6": true,
+    "7": true,
+    "8": true,
+    "9": true
+   },
+   "single_token_space": {
+    "A": true,
+    "B": true,
+    "C": true,
+    "D": true,
+    "Yes": true,
+    "No": true,
+    "1": false,
+    "2": false,
+    "3": false,
+    "4": false,
+    "5": false,
+    "6": false,
+    "7": false,
+    "8": false,
+    "9": false
+   },
+   "digits_split_individually": true
+  },
+  {
+   "model": "granite-3.3-8b-instruct",
+   "template_sha256_16": "0bea7711316005a1",
+   "bos": "<|end_of_text|>",
+   "eos": "<|end_of_text|>",
+   "pad": "<|end_of_text|>",
+   "vocab": 49159,
+   "system_role": "ok",
+   "system_text_present": true,
+   "system_before_user": true,
+   "rendered": "<|start_of_role|>system<|end_of_role|>You are taking part in a short study. Answer the question as yourself.<|end_of_text|>\n<|start_of_role|>user<|end_of_role|>Which program would you choose?\n\nAnswer with only the program letter.<|end_of_text|>\n<|start_of_role|>assistant<|end_of_role|>",
+   "rendered_sha256_16": "ea66f1c9326579fd",
+   "starts_with_bos": false,
+   "double_bos_if_add_special": false,
+   "n_prompt_tokens": 43,
+   "tail": "er.<|end_of_text|>\n<|start_of_role|>assistant<|end_of_role|>",
+   "answer_tokens": {
+    "'A'": {
+     "ids": [
+      51
+     ],
+     "pieces": [
+      "A"
+     ]
+    },
+    "' A'": {
+     "ids": [
+      399
+     ],
+     "pieces": [
+      "ĠA"
+     ]
+    },
+    "'B'": {
+     "ids": [
+      52
+     ],
+     "pieces": [
+      "B"
+     ]
+    },
+    "' B'": {
+     "ids": [
+      551
+     ],
+     "pieces": [
+      "ĠB"
+     ]
+    },
+    "'C'": {
+     "ids": [
+      53
+     ],
+     "pieces": [
+      "C"
+     ]
+    },
+    "' C'": {
+     "ids": [
+      390
+     ],
+     "pieces": [
+      "ĠC"
+     ]
+    },
+    "'D'": {
+     "ids": [
+      54
+     ],
+     "pieces": [
+      "D"
+     ]
+    },
+    "' D'": {
+     "ids": [
+      475
+     ],
+     "pieces": [
+      "ĠD"
+     ]
+    },
+    "'Yes'": {
+     "ids": [
+      10922
+     ],
+     "pieces": [
+      "Yes"
+     ]
+    },
+    "' Yes'": {
+     "ids": [
+      10100
+     ],
+     "pieces": [
+      "ĠYes"
+     ]
+    },
+    "'No'": {
+     "ids": [
+      2023
+     ],
+     "pieces": [
+      "No"
+     ]
+    },
+    "' No'": {
+     "ids": [
+      3139
+     ],
+     "pieces": [
+      "ĠNo"
+     ]
+    },
+    "'yes'": {
+     "ids": [
+      7134
+     ],
+     "pieces": [
+      "yes"
+     ]
+    },
+    "' yes'": {
+     "ids": [
+      9155
+     ],
+     "pieces": [
+      "Ġyes"
+     ]
+    },
+    "'no'": {
+     "ids": [
+      1347
+     ],
+     "pieces": [
+      "no"
+     ]
+    },
+    "' no'": {
+     "ids": [
+      1289
+     ],
+     "pieces": [
+      "Ġno"
+     ]
+    },
+    "'1'": {
+     "ids": [
+      35
+     ],
+     "pieces": [
+      "1"
+     ]
+    },
+    "' 1'": {
+     "ids": [
+      225,
+      35
+     ],
+     "pieces": [
+      "Ġ",
+      "1"
+     ]
+    },
+    "'2'": {
+     "ids": [
+      36
+     ],
+     "pieces": [
+      "2"
+     ]
+    },
+    "' 2'": {
+     "ids": [
+      225,
+      36
+     ],
+     "pieces": [
+      "Ġ",
+      "2"
+     ]
+    },
+    "'3'": {
+     "ids": [
+      37
+     ],
+     "pieces": [
+      "3"
+     ]
+    },
+    "' 3'": {
+     "ids": [
+      225,
+      37
+     ],
+     "pieces": [
+      "Ġ",
+      "3"
+     ]
+    },
+    "'4'": {
+     "ids": [
+      38
+     ],
+     "pieces": [
+      "4"
+     ]
+    },
+    "' 4'": {
+     "ids": [
+      225,
+      38
+     ],
+     "pieces": [
+      "Ġ",
+      "4"
+     ]
+    },
+    "'5'": {
+     "ids": [
+      39
+     ],
+     "pieces": [
+      "5"
+     ]
+    },
+    "' 5'": {
+     "ids": [
+      225,
+      39
+     ],
+     "pieces": [
+      "Ġ",
+      "5"
+     ]
+    },
+    "'6'": {
+     "ids": [
+      40
+     ],
+     "pieces": [
+      "6"
+     ]
+    },
+    "' 6'": {
+     "ids": [
+      225,
+      40
+     ],
+     "pieces": [
+      "Ġ",
+      "6"
+     ]
+    },
+    "'7'": {
+     "ids": [
+      41
+     ],
+     "pieces": [
+      "7"
+     ]
+    },
+    "' 7'": {
+     "ids": [
+      225,
+      41
+     ],
+     "pieces": [
+      "Ġ",
+      "7"
+     ]
+    },
+    "'8'": {
+     "ids": [
+      42
+     ],
+     "pieces": [
+      "8"
+     ]
+    },
+    "' 8'": {
+     "ids": [
+      225,
+      42
+     ],
+     "pieces": [
+      "Ġ",
+      "8"
+     ]
+    },
+    "'9'": {
+     "ids": [
+      43
+     ],
+     "pieces": [
+      "9"
+     ]
+    },
+    "' 9'": {
+     "ids": [
+      225,
+      43
+     ],
+     "pieces": [
+      "Ġ",
+      "9"
+     ]
+    },
+    "'10'": {
+     "ids": [
+      35,
+      34
+     ],
+     "pieces": [
+      "1",
+      "0"
+     ]
+    },
+    "' 10'": {
+     "ids": [
+      225,
+      35,
+      34
+     ],
+     "pieces": [
+      "Ġ",
+      "1",
+      "0"
+     ]
+    },
+    "'250'": {
+     "ids": [
+      36,
+      39,
+      34
+     ],
+     "pieces": [
+      "2",
+      "5",
+      "0"
+     ]
+    },
+    "' 250'": {
+     "ids": [
+      225,
+      36,
+      39,
+      34
+     ],
+     "pieces": [
+      "Ġ",
+      "2",
+      "5",
+      "0"
+     ]
+    },
+    "'1500'": {
+     "ids": [
+      35,
+      39,
+      34,
+      34
+     ],
+     "pieces": [
+      "1",
+      "5",
+      "0",
+      "0"
+     ]
+    },
+    "' 1500'": {
+     "ids": [
+      225,
+      35,
+      39,
+      34,
+      34
+     ],
+     "pieces": [
+      "Ġ",
+      "1",
+      "5",
+      "0",
+      "0"
+     ]
+    },
+    "'2500'": {
+     "ids": [
+      36,
+      39,
+      34,
+      34
+     ],
+     "pieces": [
+      "2",
+      "5",
+      "0",
+      "0"
+     ]
+    },
+    "' 2500'": {
+     "ids": [
+      225,
+      36,
+      39,
+      34,
+      34
+     ],
+     "pieces": [
+      "Ġ",
+      "2",
+      "5",
+      "0",
+      "0"
+     ]
+    },
+    "'6000'": {
+     "ids": [
+      40,
+      34,
+      34,
+      34
+     ],
+     "pieces": [
+      "6",
+      "0",
+      "0",
+      "0"
+     ]
+    },
+    "' 6000'": {
+     "ids": [
+      225,
+      40,
+      34,
+      34,
+      34
+     ],
+     "pieces": [
+      "Ġ",
+      "6",
+      "0",
+      "0",
+      "0"
+     ]
+    }
+   },
+   "single_token": {
+    "A": true,
+    "B": true,
+    "C": true,
+    "D": true,
+    "Yes": true,
+    "No": true,
+    "1": true,
+    "2": true,
+    "3": true,
+    "4": true,
+    "5": true,
+    "6": true,
+    "7": true,
+    "8": true,
+    "9": true
+   },
+   "single_token_space": {
+    "A": true,
+    "B": true,
+    "C": true,
+    "D": true,
+    "Yes": true,
+    "No": true,
+    "1": false,
+    "2": false,
+    "3": false,
+    "4": false,
+    "5": false,
+    "6": false,
+    "7": false,
+    "8": false,
+    "9": false
+   },
+   "digits_split_individually": true
+  },
+  {
+   "model": "smollm2-1.7b-instruct",
+   "template_sha256_16": "872be49dbb638044",
+   "bos": "<|im_start|>",
+   "eos": "<|im_end|>",
+   "pad": "<|im_end|>",
+   "vocab": 49152,
+   "system_role": "ok",
+   "system_text_present": true,
+   "system_before_user": true,
+   "rendered": "<|im_start|>system\nYou are taking part in a short study. Answer the question as yourself.<|im_end|>\n<|im_start|>user\nWhich program would you choose?\n\nAnswer with only the program letter.<|im_end|>\n<|im_start|>assistant\n",
+   "rendered_sha256_16": "642bb8cf581d6e8d",
+   "starts_with_bos": true,
+   "double_bos_if_add_special": false,
+   "n_prompt_tokens": 44,
+   "tail": "th only the program letter.<|im_end|>\n<|im_start|>assistant\n",
+   "answer_tokens": {
+    "'A'": {
+     "ids": [
+      49
+     ],
+     "pieces": [
+      "A"
+     ]
+    },
+    "' A'": {
+     "ids": [
+      330
+     ],
+     "pieces": [
+      "ĠA"
+     ]
+    },
+    "'B'": {
+     "ids": [
+      50
+     ],
+     "pieces": [
+      "B"
+     ]
+    },
+    "' B'": {
+     "ids": [
+      389
+     ],
+     "pieces": [
+      "ĠB"
+     ]
+    },
+    "'C'": {
+     "ids": [
+      51
+     ],
+     "pieces": [
+      "C"
+     ]
+    },
+    "' C'": {
+     "ids": [
+      340
+     ],
+     "pieces": [
+      "ĠC"
+     ]
+    },
+    "'D'": {
+     "ids": [
+      52
+     ],
+     "pieces": [
+      "D"
+     ]
+    },
+    "' D'": {
+     "ids": [
+      422
+     ],
+     "pieces": [
+      "ĠD"
+     ]
+    },
+    "'Yes'": {
+     "ids": [
+      10539
+     ],
+     "pieces": [
+      "Yes"
+     ]
+    },
+    "' Yes'": {
+     "ids": [
+      9230
+     ],
+     "pieces": [
+      "ĠYes"
+     ]
+    },
+    "'No'": {
+     "ids": [
+      5230
+     ],
+     "pieces": [
+      "No"
+     ]
+    },
+    "' No'": {
+     "ids": [
+      2838
+     ],
+     "pieces": [
+      "ĠNo"
+     ]
+    },
+    "'yes'": {
+     "ids": [
+      10407
+     ],
+     "pieces": [
+      "yes"
+     ]
+    },
+    "' yes'": {
+     "ids": [
+      9805
+     ],
+     "pieces": [
+      "Ġyes"
+     ]
+    },
+    "'no'": {
+     "ids": [
+      4607
+     ],
+     "pieces": [
+      "no"
+     ]
+    },
+    "' no'": {
+     "ids": [
+      787
+     ],
+     "pieces": [
+      "Ġno"
+     ]
+    },
+    "'1'": {
+     "ids": [
+      33
+     ],
+     "pieces": [
+      "1"
+     ]
+    },
+    "' 1'": {
+     "ids": [
+      216,
+      33
+     ],
+     "pieces": [
+      "Ġ",
+      "1"
+     ]
+    },
+    "'2'": {
+     "ids": [
+      34
+     ],
+     "pieces": [
+      "2"
+     ]
+    },
+    "' 2'": {
+     "ids": [
+      216,
+      34
+     ],
+     "pieces": [
+      "Ġ",
+      "2"
+     ]
+    },
+    "'3'": {
+     "ids": [
+      35
+     ],
+     "pieces": [
+      "3"
+     ]
+    },
+    "' 3'": {
+     "ids": [
+      216,
+      35
+     ],
+     "pieces": [
+      "Ġ",
+      "3"
+     ]
+    },
+    "'4'": {
+     "ids": [
+      36
+     ],
+     "pieces": [
+      "4"
+     ]
+    },
+    "' 4'": {
+     "ids": [
+      216,
+      36
+     ],
+     "pieces": [
+      "Ġ",
+      "4"
+     ]
+    },
+    "'5'": {
+     "ids": [
+      37
+     ],
+     "pieces": [
+      "5"
+     ]
+    },
+    "' 5'": {
+     "ids": [
+      216,
+      37
+     ],
+     "pieces": [
+      "Ġ",
+      "5"
+     ]
+    },
+    "'6'": {
+     "ids": [
+      38
+     ],
+     "pieces": [
+      "6"
+     ]
+    },
+    "' 6'": {
+     "ids": [
+      216,
+      38
+     ],
+     "pieces": [
+      "Ġ",
+      "6"
+     ]
+    },
+    "'7'": {
+     "ids": [
+      39
+     ],
+     "pieces": [
+      "7"
+     ]
+    },
+    "' 7'": {
+     "ids": [
+      216,
+      39
+     ],
+     "pieces": [
+      "Ġ",
+      "7"
+     ]
+    },
+    "'8'": {
+     "ids": [
+      40
+     ],
+     "pieces": [
+      "8"
+     ]
+    },
+    "' 8'": {
+     "ids": [
+      216,
+      40
+     ],
+     "pieces": [
+      "Ġ",
+      "8"
+     ]
+    },
+    "'9'": {
+     "ids": [
+      41
+     ],
+     "pieces": [
+      "9"
+     ]
+    },
+    "' 9'": {
+     "ids": [
+      216,
+      41
+     ],
+     "pieces": [
+      "Ġ",
+      "9"
+     ]
+    },
+    "'10'": {
+     "ids": [
+      33,
+      32
+     ],
+     "pieces": [
+      "1",
+      "0"
+     ]
+    },
+    "' 10'": {
+     "ids": [
+      216,
+      33,
+      32
+     ],
+     "pieces": [
+      "Ġ",
+      "1",
+      "0"
+     ]
+    },
+    "'250'": {
+     "ids": [
+      34,
+      37,
+      32
+     ],
+     "pieces": [
+      "2",
+      "5",
+      "0"
+     ]
+    },
+    "' 250'": {
+     "ids": [
+      216,
+      34,
+      37,
+      32
+     ],
+     "pieces": [
+      "Ġ",
+      "2",
+      "5",
+      "0"
+     ]
+    },
+    "'1500'": {
+     "ids": [
+      33,
+      37,
+      32,
+      32
+     ],
+     "pieces": [
+      "1",
+      "5",
+      "0",
+      "0"
+     ]
+    },
+    "' 1500'": {
+     "ids": [
+      216,
+      33,
+      37,
+      32,
+      32
+     ],
+     "pieces": [
+      "Ġ",
+      "1",
+      "5",
+      "0",
+      "0"
+     ]
+    },
+    "'2500'": {
+     "ids": [
+      34,
+      37,
+      32,
+      32
+     ],
+     "pieces": [
+      "2",
+      "5",
+      "0",
+      "0"
+     ]
+    },
+    "' 2500'": {
+     "ids": [
+      216,
+      34,
+      37,
+      32,
+      32
+     ],
+     "pieces": [
+      "Ġ",
+      "2",
+      "5",
+      "0",
+      "0"
+     ]
+    },
+    "'6000'": {
+     "ids": [
+      38,
+      32,
+      32,
+      32
+     ],
+     "pieces": [
+      "6",
+      "0",
+      "0",
+      "0"
+     ]
+    },
+    "' 6000'": {
+     "ids": [
+      216,
+      38,
+      32,
+      32,
+      32
+     ],
+     "pieces": [
+      "Ġ",
+      "6",
+      "0",
+      "0",
+      "0"
+     ]
+    }
+   },
+   "single_token": {
+    "A": true,
+    "B": true,
+    "C": true,
+    "D": true,
+    "Yes": true,
+    "No": true,
+    "1": true,
+    "2": true,
+    "3": true,
+    "4": true,
+    "5": true,
+    "6": true,
+    "7": true,
+    "8": true,
+    "9": true
+   },
+   "single_token_space": {
+    "A": true,
+    "B": true,
+    "C": true,
+    "D": true,
+    "Yes": true,
+    "No": true,
+    "1": false,
+    "2": false,
+    "3": false,
+    "4": false,
+    "5": false,
+    "6": false,
+    "7": false,
+    "8": false,
+    "9": false
+   },
+   "digits_split_individually": true
+  },
+  {
+   "model": "phi4-mini-instruct",
+   "template_sha256_16": "febf589225c9728a",
+   "bos": "<|endoftext|>",
+   "eos": "<|endoftext|>",
+   "pad": "<|endoftext|>",
+   "vocab": 200029,
+   "system_role": "ok",
+   "system_text_present": true,
+   "system_before_user": true,
+   "rendered": "<|system|>You are taking part in a short study. Answer the question as yourself.<|end|><|user|>Which program would you choose?\n\nAnswer with only the program letter.<|end|><|assistant|>",
+   "rendered_sha256_16": "06275afa76b4ab7f",
+   "starts_with_bos": false,
+   "double_bos_if_add_special": false,
+   "n_prompt_tokens": 33,
+   "tail": "e?\n\nAnswer with only the program letter.<|end|><|assistant|>",
+   "answer_tokens": {
+    "'A'": {
+     "ids": [
+      32
+     ],
+     "pieces": [
+      "A"
+     ]
+    },
+    "' A'": {
+     "ids": [
+      32
+     ],
+     "pieces": [
+      "A"
+     ]
+    },
+    "'B'": {
+     "ids": [
+      33
+     ],
+     "pieces": [
+      "B"
+     ]
+    },
+    "' B'": {
+     "ids": [
+      33
+     ],
+     "pieces": [
+      "B"
+     ]
+    },
+    "'C'": {
+     "ids": [
+      34
+     ],
+     "pieces": [
+      "C"
+     ]
+    },
+    "' C'": {
+     "ids": [
+      34
+     ],
+     "pieces": [
+      "C"
+     ]
+    },
+    "'D'": {
+     "ids": [
+      35
+     ],
+     "pieces": [
+      "D"
+     ]
+    },
+    "' D'": {
+     "ids": [
+      35
+     ],
+     "pieces": [
+      "D"
+     ]
+    },
+    "'Yes'": {
+     "ids": [
+      13022
+     ],
+     "pieces": [
+      "Yes"
+     ]
+    },
+    "' Yes'": {
+     "ids": [
+      13022
+     ],
+     "pieces": [
+      "Yes"
+     ]
+    },
+    "'No'": {
+     "ids": [
+      3160
+     ],
+     "pieces": [
+      "No"
+     ]
+    },
+    "' No'": {
+     "ids": [
+      3160
+     ],
+     "pieces": [
+      "No"
+     ]
+    },
+    "'yes'": {
+     "ids": [
+      6763
+     ],
+     "pieces": [
+      "yes"
+     ]
+    },
+    "' yes'": {
+     "ids": [
+      6763
+     ],
+     "pieces": [
+      "yes"
+     ]
+    },
+    "'no'": {
+     "ids": [
+      1750
+     ],
+     "pieces": [
+      "no"
+     ]
+    },
+    "' no'": {
+     "ids": [
+      1750
+     ],
+     "pieces": [
+      "no"
+     ]
+    },
+    "'1'": {
+     "ids": [
+      16
+     ],
+     "pieces": [
+      "1"
+     ]
+    },
+    "' 1'": {
+     "ids": [
+      16
+     ],
+     "pieces": [
+      "1"
+     ]
+    },
+    "'2'": {
+     "ids": [
+      17
+     ],
+     "pieces": [
+      "2"
+     ]
+    },
+    "' 2'": {
+     "ids": [
+      17
+     ],
+     "pieces": [
+      "2"
+     ]
+    },
+    "'3'": {
+     "ids": [
+      18
+     ],
+     "pieces": [
+      "3"
+     ]
+    },
+    "' 3'": {
+     "ids": [
+      18
+     ],
+     "pieces": [
+      "3"
+     ]
+    },
+    "'4'": {
+     "ids": [
+      19
+     ],
+     "pieces": [
+      "4"
+     ]
+    },
+    "' 4'": {
+     "ids": [
+      19
+     ],
+     "pieces": [
+      "4"
+     ]
+    },
+    "'5'": {
+     "ids": [
+      20
+     ],
+     "pieces": [
+      "5"
+     ]
+    },
+    "' 5'": {
+     "ids": [
+      20
+     ],
+     "pieces": [
+      "5"
+     ]
+    },
+    "'6'": {
+     "ids": [
+      21
+     ],
+     "pieces": [
+      "6"
+     ]
+    },
+    "' 6'": {
+     "ids": [
+      21
+     ],
+     "pieces": [
+      "6"
+     ]
+    },
+    "'7'": {
+     "ids": [
+      22
+     ],
+     "pieces": [
+      "7"
+     ]
+    },
+    "' 7'": {
+     "ids": [
+      22
+     ],
+     "pieces": [
+      "7"
+     ]
+    },
+    "'8'": {
+     "ids": [
+      23
+     ],
+     "pieces": [
+      "8"
+     ]
+    },
+    "' 8'": {
+     "ids": [
+      23
+     ],
+     "pieces": [
+      "8"
+     ]
+    },
+    "'9'": {
+     "ids": [
+      24
+     ],
+     "pieces": [
+      "9"
+     ]
+    },
+    "' 9'": {
+     "ids": [
+      24
+     ],
+     "pieces": [
+      "9"
+     ]
+    },
+    "'10'": {
+     "ids": [
+      702
+     ],
+     "pieces": [
+      "10"
+     ]
+    },
+    "' 10'": {
+     "ids": [
+      702
+     ],
+     "pieces": [
+      "10"
+     ]
+    },
+    "'250'": {
+     "ids": [
+      6911
+     ],
+     "pieces": [
+      "250"
+     ]
+    },
+    "' 250'": {
+     "ids": [
+      6911
+     ],
+     "pieces": [
+      "250"
+     ]
+    },
+    "'1500'": {
+     "ids": [
+      5215,
+      15
+     ],
+     "pieces": [
+      "150",
+      "0"
+     ]
+    },
+    "' 1500'": {
+     "ids": [
+      5215,
+      15
+     ],
+     "pieces": [
+      "150",
+      "0"
+     ]
+    },
+    "'2500'": {
+     "ids": [
+      6911,
+      15
+     ],
+     "pieces": [
+      "250",
+      "0"
+     ]
+    },
+    "' 2500'": {
+     "ids": [
+      6911,
+      15
+     ],
+     "pieces": [
+      "250",
+      "0"
+     ]
+    },
+    "'6000'": {
+     "ids": [
+      6718,
+      15
+     ],
+     "pieces": [
+      "600",
+      "0"
+     ]
+    },
+    "' 6000'": {
+     "ids": [
+      6718,
+      15
+     ],
+     "pieces": [
+      "600",
+      "0"
+     ]
+    }
+   },
+   "single_token": {
+    "A": true,
+    "B": true,
+    "C": true,
+    "D": true,
+    "Yes": true,
+    "No": true,
+    "1": true,
+    "2": true,
+    "3": true,
+    "4": true,
+    "5": true,
+    "6": true,
+    "7": true,
+    "8": true,
+    "9": true
+   },
+   "single_token_space": {
+    "A": true,
+    "B": true,
+    "C": true,
+    "D": true,
+    "Yes": true,
+    "No": true,
+    "1": true,
+    "2": true,
+    "3": true,
+    "4": true,
+    "5": true,
+    "6": true,
+    "7": true,
+    "8": true,
+    "9": true
+   },
+   "digits_split_individually": false
+  },
+  {
+   "model": "mistral-7b-instruct-v0.3",
+   "template_sha256_16": "e16746b40344d6c5",
+   "bos": "<s>",
+   "eos": "</s>",
+   "pad": null,
+   "vocab": 32768,
+   "system_role": "ok",
+   "system_text_present": true,
+   "system_before_user": true,
+   "rendered": "<s>[INST] You are taking part in a short study. Answer the question as yourself.\n\nWhich program would you choose?\n\nAnswer with only the program letter.[/INST]",
+   "rendered_sha256_16": "2c2513baa9fe1ab1",
+   "starts_with_bos": true,
+   "double_bos_if_add_special": true,
+   "n_prompt_tokens": 36,
+   "tail": "uld you choose?\n\nAnswer with only the program letter.[/INST]",
+   "answer_tokens": {
+    "'A'": {
+     "ids": [
+      29509
+     ],
+     "pieces": [
+      "A"
+     ]
+    },
+    "' A'": {
+     "ids": [
+      1098
+     ],
+     "pieces": [
+      "▁A"
+     ]
+    },
+    "'B'": {
+     "ids": [
+      29528
+     ],
+     "pieces": [
+      "B"
+     ]
+    },
+    "' B'": {
+     "ids": [
+      1133
+     ],
+     "pieces": [
+      "▁B"
+     ]
+    },
+    "'C'": {
+     "ids": [
+      29511
+     ],
+     "pieces": [
+      "C"
+     ]
+    },
+    "' C'": {
+     "ids": [
+      1102
+     ],
+     "pieces": [
+      "▁C"
+     ]
+    },
+    "'D'": {
+     "ids": [
+      29525
+     ],
+     "pieces": [
+      "D"
+     ]
+    },
+    "' D'": {
+     "ids": [
+      1152
+     ],
+     "pieces": [
+      "▁D"
+     ]
+    },
+    "'Yes'": {
+     "ids": [
+      6381
+     ],
+     "pieces": [
+      "Yes"
+     ]
+    },
+    "' Yes'": {
+     "ids": [
+      6360
+     ],
+     "pieces": [
+      "▁Yes"
+     ]
+    },
+    "'No'": {
+     "ids": [
+      3269
+     ],
+     "pieces": [
+      "No"
+     ]
+    },
+    "' No'": {
+     "ids": [
+      2538
+     ],
+     "pieces": [
+      "▁No"
+     ]
+    },
+    "'yes'": {
+     "ids": [
+      10548
+     ],
+     "pieces": [
+      "yes"
+     ]
+    },
+    "' yes'": {
+     "ids": [
+      5849
+     ],
+     "pieces": [
+      "▁yes"
+     ]
+    },
+    "'no'": {
+     "ids": [
+      2278
+     ],
+     "pieces": [
+      "no"
+     ]
+    },
+    "' no'": {
+     "ids": [
+      1476
+     ],
+     "pieces": [
+      "▁no"
+     ]
+    },
+    "'1'": {
+     "ids": [
+      29508
+     ],
+     "pieces": [
+      "1"
+     ]
+    },
+    "' 1'": {
+     "ids": [
+      29473,
+      29508
+     ],
+     "pieces": [
+      "▁",
+      "1"
+     ]
+    },
+    "'2'": {
+     "ids": [
+      29518
+     ],
+     "pieces": [
+      "2"
+     ]
+    },
+    "' 2'": {
+     "ids": [
+      29473,
+      29518
+     ],
+     "pieces": [
+      "▁",
+      "2"
+     ]
+    },
+    "'3'": {
+     "ids": [
+      29538
+     ],
+     "pieces": [
+      "3"
+     ]
+    },
+    "' 3'": {
+     "ids": [
+      29473,
+      29538
+     ],
+     "pieces": [
+      "▁",
+      "3"
+     ]
+    },
+    "'4'": {
+     "ids": [
+      29549
+     ],
+     "pieces": [
+      "4"
+     ]
+    },
+    "' 4'": {
+     "ids": [
+      29473,
+      29549
+     ],
+     "pieces": [
+      "▁",
+      "4"
+     ]
+    },
+    "'5'": {
+     "ids": [
+      29550
+     ],
+     "pieces": [
+      "5"
+     ]
+    },
+    "' 5'": {
+     "ids": [
+      29473,
+      29550
+     ],
+     "pieces": [
+      "▁",
+      "5"
+     ]
+    },
+    "'6'": {
+     "ids": [
+      29552
+     ],
+     "pieces": [
+      "6"
+     ]
+    },
+    "' 6'": {
+     "ids": [
+      29473,
+      29552
+     ],
+     "pieces": [
+      "▁",
+      "6"
+     ]
+    },
+    "'7'": {
+     "ids": [
+      29555
+     ],
+     "pieces": [
+      "7"
+     ]
+    },
+    "' 7'": {
+     "ids": [
+      29473,
+      29555
+     ],
+     "pieces": [
+      "▁",
+      "7"
+     ]
+    },
+    "'8'": {
+     "ids": [
+      29551
+     ],
+     "pieces": [
+      "8"
+     ]
+    },
+    "' 8'": {
+     "ids": [
+      29473,
+      29551
+     ],
+     "pieces": [
+      "▁",
+      "8"
+     ]
+    },
+    "'9'": {
+     "ids": [
+      29542
+     ],
+     "pieces": [
+      "9"
+     ]
+    },
+    "' 9'": {
+     "ids": [
+      29473,
+      29542
+     ],
+     "pieces": [
+      "▁",
+      "9"
+     ]
+    },
+    "'10'": {
+     "ids": [
+      29508,
+      29502
+     ],
+     "pieces": [
+      "1",
+      "0"
+     ]
+    },
+    "' 10'": {
+     "ids": [
+      29473,
+      29508,
+      29502
+     ],
+     "pieces": [
+      "▁",
+      "1",
+      "0"
+     ]
+    },
+    "'250'": {
+     "ids": [
+      29518,
+      29550,
+      29502
+     ],
+     "pieces": [
+      "2",
+      "5",
+      "0"
+     ]
+    },
+    "' 250'": {
+     "ids": [
+      29473,
+      29518,
+      29550,
+      29502
+     ],
+     "pieces": [
+      "▁",
+      "2",
+      "5",
+      "0"
+     ]
+    },
+    "'1500'": {
+     "ids": [
+      29508,
+      29550,
+      29502,
+      29502
+     ],
+     "pieces": [
+      "1",
+      "5",
+      "0",
+      "0"
+     ]
+    },
+    "' 1500'": {
+     "ids": [
+      29473,
+      29508,
+      29550,
+      29502,
+      29502
+     ],
+     "pieces": [
+      "▁",
+      "1",
+      "5",
+      "0",
+      "0"
+     ]
+    },
+    "'2500'": {
+     "ids": [
+      29518,
+      29550,
+      29502,
+      29502
+     ],
+     "pieces": [
+      "2",
+      "5",
+      "0",
+      "0"
+     ]
+    },
+    "' 2500'": {
+     "ids": [
+      29473,
+      29518,
+      29550,
+      29502,
+      29502
+     ],
+     "pieces": [
+      "▁",
+      "2",
+      "5",
+      "0",
+      "0"
+     ]
+    },
+    "'6000'": {
+     "ids": [
+      29552,
+      29502,
+      29502,
+      29502
+     ],
+     "pieces": [
+      "6",
+      "0",
+      "0",
+      "0"
+     ]
+    },
+    "' 6000'": {
+     "ids": [
+      29473,
+      29552,
+      29502,
+      29502,
+      29502
+     ],
+     "pieces": [
+      "▁",
+      "6",
+      "0",
+      "0",
+      "0"
+     ]
+    }
+   },
+   "single_token": {
+    "A": true,
+    "B": true,
+    "C": true,
+    "D": true,
+    "Yes": true,
+    "No": true,
+    "1": true,
+    "2": true,
+    "3": true,
+    "4": true,
+    "5": true,
+    "6": true,
+    "7": true,
+    "8": true,
+    "9": true
+   },
+   "single_token_space": {
+    "A": true,
+    "B": true,
+    "C": true,
+    "D": true,
+    "Yes": true,
+    "No": true,
+    "1": false,
+    "2": false,
+    "3": false,
+    "4": false,
+    "5": false,
+    "6": false,
+    "7": false,
+    "8": false,
+    "9": false
+   },
+   "digits_split_individually": true
+  }
+ ],
+ "olmo_ladder_parity": {
+  "models": [
+   "olmo2-1b-sft",
+   "olmo2-1b-dpo",
+   "olmo2-1b-instruct"
+  ],
+  "template_hashes": {
+   "olmo2-1b-sft": "fe689ffbd6a4e2d0",
+   "olmo2-1b-dpo": "fe689ffbd6a4e2d0",
+   "olmo2-1b-instruct": "fe689ffbd6a4e2d0"
+  },
+  "rendered_hashes": {
+   "olmo2-1b-sft": "1148d87a3162f1af",
+   "olmo2-1b-dpo": "1148d87a3162f1af",
+   "olmo2-1b-instruct": "1148d87a3162f1af"
+  },
+  "rendered_identical": true,
+  "answer_tokens_identical": true,
+  "vocab_identical": true
+ }
+}

@@ -1,0 +1,16 @@
+data item 1 (NYC): N=5362 Q(Hedges, rank scale)=59.75 weighted d=1.172 unweighted d=1.267 | type III F(cond x country)=5.635 F(cond x location)=13.384 partial eta2=0.001 | type II F=7.335, 20.278
+data item 2 (Chicago): N=5284 Q(Hedges, rank scale)=152.34 weighted d=1.789 unweighted d=2.045 | type III F(cond x country)=1.112 F(cond x location)=13.216 partial eta2=0.000 | type II F=0.491, 36.664
+data item 3 (Everest): N=5627 Q(Hedges, rank scale)=312.75 weighted d=2.231 unweighted d=2.446 | type III F(cond x country)=135.125 F(cond x location)=169.786 partial eta2=0.023 | type II F=100.305, 128.674
+data item 4 (Babies): N=5609 Q(Hedges, rank scale)=88.12 weighted d=2.422 unweighted d=2.599 | type III F(cond x country)=0.264 F(cond x location)=6.336 partial eta2=0.000 | type II F=0.029, 18.100
+
+published Table 2 (unweighted d, weighted d, N) and Table 3 (Q, F country, F location, I2) by LABEL:
+  Babies   T2 (2.6, 2.42, 5609)  T3 (59.71, 0.157, 16.135, 0.402)
+  Everest  T2 (2.45, 2.23, 5627)  T3 (152.34, 94.325, 119.555, 0.754)
+  Chicago  T2 (2.05, 1.79, 5284)  T3 (312.75, 0.616, 32.954, 0.913)
+  NYC      T2 (1.27, 1.17, 5362)  T3 (88.16, 9.348, 15.738, 0.643)
+
+reading: Table 2 columns (d, N) belong to the item of the same content; Table 3 Q belongs to the item whose Q is nearest:
+  label Babies  : Table 2 (d, N) -> data item 4 [Babies]; Table 3 Q -> data item 1 [NYC]; Table 3 F(cond x country) -> data item 4 [Babies]
+  label Everest : Table 2 (d, N) -> data item 3 [Everest]; Table 3 Q -> data item 2 [Chicago]; Table 3 F(cond x country) -> data item 3 [Everest]
+  label Chicago : Table 2 (d, N) -> data item 2 [Chicago]; Table 3 Q -> data item 3 [Everest]; Table 3 F(cond x country) -> data item 2 [Chicago]
+  label NYC     : Table 2 (d, N) -> data item 1 [NYC]; Table 3 Q -> data item 4 [Babies]; Table 3 F(cond x country) -> data item 1 [NYC]

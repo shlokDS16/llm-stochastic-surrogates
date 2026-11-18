@@ -1,0 +1,26 @@
+{
+ "order": 119,
+ "study_id": "https://openalex.org/W4387725480",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/119_W4387725480.md",
+ "sources_varied": [],
+ "X1": {
+  "value": "no",
+  "sources_crossed": [],
+  "evidence": "Methods and Appendix (p.5, p.20-27): one GPT-4 run per condition is analysed; a rerun is used to check one outlier."
+ },
+ "X2": {
+  "value": "no",
+  "x2_types": [],
+  "x2_sources": [],
+  "evidence": "No decomposition; reruns are a spot check."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": ""
+ },
+ "notes": ""
+}

@@ -1,0 +1,26 @@
+{
+  "order": 28,
+  "study_id": "https://openalex.org/W4394647506",
+  "pass": "codex",
+  "brief_version": "1.0",
+  "date": "2026-11-07",
+  "full_text": "research/sources/md/fulltext/028_W4394647506.md",
+  "sources_varied": ["M", "W", "O"],
+  "X1": {
+    "value": "yes",
+    "sources_crossed": ["M", "O"],
+    "evidence": "Sec. 4.2–4.3, Table 3: each stimulus was duplicated with option order flipped, and the model set was evaluated on the resulting dataset."
+  },
+  "X2": {
+    "value": "yes",
+    "x2_types": ["effect_change"],
+    "x2_sources": ["M"],
+    "evidence": "Sec. 5.5.1, Table 4: authors compare quantified mean α-scores across models and interpret higher means as stronger overall sensitivity."
+  },
+  "X3": {
+    "value": "no",
+    "x3_pairs": [],
+    "evidence": "Secs. 4–6, Tables 3–6: results report model-wise outcomes and test/control conditions, but no interaction between varied sources."
+  },
+  "notes": "Prompt elicitation differs by model type: chat models receive a question, while plain autoregressive models are evaluated by next-token prediction."
+}

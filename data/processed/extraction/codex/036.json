@@ -1,0 +1,126 @@
+{
+ "order": 36,
+ "study_id": "https://openalex.org/W4412980707",
+ "full_text": {
+  "obtained": true,
+  "source": "Published version in the supplied full text"
+ },
+ "eligibility": {
+  "decision": "YES",
+  "failed_criterion": null,
+  "borderline": false,
+  "evidence": "Methods §§2.1–2.2 and Results §§3.1–3.3: tests ChatGPT in turn-taking conversations using ethics, commonsense, and cultural-sensitivity prompts; the paper grounds its assessment in Grice's cooperative-principle paradigm."
+ },
+ "A": {
+  "doi": "10.1016/j.chbah.2025.100191",
+  "arxiv_id": null,
+  "title": "Limits of ChatGPT’s conversational pragmatics in a Turing test on ethics, commonsense, and cultural sensitivity",
+  "first_author": "Wolfgang Wagner",
+  "year": 2025,
+  "venue": "Computers in Human Behavior: Artificial Humans",
+  "peer_reviewed": "yes",
+  "first_author_field": "psychology",
+  "country": "Estonia"
+ },
+ "B": {
+  "models": [
+   {
+    "name": "ChatGPT-4o",
+    "version": "GPT-4o",
+    "access": "API",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "GPT",
+    "query_date": "not_reported"
+   }
+  ],
+  "n_models": 1,
+  "n_model_families": 1
+ },
+ "C": {
+  "paradigms": [
+   {
+    "pid": "P1",
+    "name": "Conversational pragmatics in ethical, commonsense, and cultural-sensitivity scenarios",
+    "family": "OTH",
+    "source_paper": "not_reported",
+    "items_origin": "not_reported",
+    "n_items": 10,
+    "languages": [
+     "English",
+     "Chinese"
+    ],
+    "modality": "text",
+    "contamination_risk": "not_reported",
+    "location": "Methods §2.2; Results §§3.1–3.3"
+   }
+  ]
+ },
+ "D": {
+  "types": [
+   "none"
+  ],
+  "primary_type": "none",
+  "human_n": null,
+  "population": "not_reported",
+  "metric": "Gricean maxim adherence, assessed qualitatively by two judges"
+ },
+ "E": {
+  "outcome_types": [
+   "other"
+  ],
+  "rows_aggregated": false,
+  "effects": [
+   {
+    "pid": "P1",
+    "model": "ChatGPT-4o",
+    "model_family": "GPT",
+    "outcome_kind": "effect",
+    "basis": "descriptive",
+    "model_effect_present": "yes",
+    "human_effect_present": "no_human_reference",
+    "direction": "not_reported",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "NO-HUMAN-REFERENCE",
+    "location": "Results §§3.1–3.3; Discussion §4"
+   }
+  ],
+  "headline": "Qualitative analysis found that ChatGPT often violated Gricean conversational maxims and struggled with contextual and cultural adaptation."
+ },
+ "F": {
+  "f1": "no",
+  "f2": "no",
+  "f3": "no",
+  "f4": "yes",
+  "f5": "no",
+  "f6": "na",
+  "f7": "no",
+  "f8": "no",
+  "f9": "no",
+  "f10": "no",
+  "f11": "no",
+  "f12": "yes",
+  "perturbations_tested": [],
+  "robustness_outcome": "na"
+ },
+ "G": {
+  "notes": "The authors describe the design as a Turing test, but report no human comparison sample or quantitative coding results. A referee might ask for transparent judge agreement and operational criteria for the qualitative ratings.",
+  "extractor": "codex (default)",
+  "date": "2026-10-16",
+  "minutes": 0.5,
+  "sections_read": [
+   "Abstract",
+   "Introduction",
+   "Methods",
+   "Results",
+   "Discussion",
+   "Data availability"
+  ]
+ }
+}

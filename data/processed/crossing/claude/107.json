@@ -1,0 +1,28 @@
+{
+ "order": 107,
+ "study_id": "W4390740352",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/107_W4390740352.md",
+ "sources_varied": [
+  "M"
+ ],
+ "X1": {
+  "value": "no",
+  "sources_crossed": [],
+  "evidence": "Method (p.3): GPT-4 stories generated with default settings except a temperature drawn from .65 to .8 (not analysed), against human stories; prompt is a covariate."
+ },
+ "X2": {
+  "value": "no",
+  "x2_types": [],
+  "x2_sources": [],
+  "evidence": "Mixed models explain creativity ratings by semantic diversity and perceptual detail; no source of simulation uncertainty decomposed."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "Temperature was jittered within a range, not a design factor."
+ },
+ "notes": ""
+}

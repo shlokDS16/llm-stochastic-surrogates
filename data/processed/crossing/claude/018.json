@@ -1,0 +1,28 @@
+{
+ "order": 18,
+ "study_id": "https://openalex.org/W3213674227",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/018_W3213674227.md",
+ "sources_varied": [
+  "M"
+ ],
+ "X1": {
+  "value": "no",
+  "sources_crossed": [],
+  "evidence": "Methods and Results: six neural language models scored on one item set with one fixed procedure (text garbled in conversion); no wording, order or sampling variation found."
+ },
+ "X2": {
+  "value": "no",
+  "x2_types": [],
+  "x2_sources": [],
+  "evidence": "Mixed-effects models are fitted to human scores only; no source decomposed for the models."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": ""
+ },
+ "notes": ""
+}

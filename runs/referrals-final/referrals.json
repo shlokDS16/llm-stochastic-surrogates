@@ -1,0 +1,1002 @@
+{
+ "summary": {
+  "records": 110,
+  "disagreements": 19,
+  "borderline_exclusions": 24,
+  "referred": 32,
+  "borderline_flag_any": 58,
+  "unclear_either": 2
+ },
+ "rows": [
+  {
+   "id": "001",
+   "claude": "NO",
+   "codex": "NO",
+   "disagree": false,
+   "borderline_exclusion": true,
+   "borderline_any": true,
+   "referred": true
+  },
+  {
+   "id": "002",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "004",
+   "claude": "NO",
+   "codex": "NO",
+   "disagree": false,
+   "borderline_exclusion": true,
+   "borderline_any": true,
+   "referred": true
+  },
+  {
+   "id": "006",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": true,
+   "referred": false
+  },
+  {
+   "id": "009",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "010",
+   "claude": "NO",
+   "codex": "NO",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "011",
+   "claude": "NO",
+   "codex": "NO",
+   "disagree": false,
+   "borderline_exclusion": true,
+   "borderline_any": true,
+   "referred": true
+  },
+  {
+   "id": "012",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "013",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": true,
+   "referred": false
+  },
+  {
+   "id": "015",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": true,
+   "referred": false
+  },
+  {
+   "id": "016",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "017",
+   "claude": "UNCLEAR",
+   "codex": "NO",
+   "disagree": true,
+   "borderline_exclusion": false,
+   "borderline_any": true,
+   "referred": true
+  },
+  {
+   "id": "018",
+   "claude": "YES",
+   "codex": "NO",
+   "disagree": true,
+   "borderline_exclusion": false,
+   "borderline_any": true,
+   "referred": true
+  },
+  {
+   "id": "019",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "021",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": true,
+   "referred": false
+  },
+  {
+   "id": "022",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "023",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": true,
+   "referred": false
+  },
+  {
+   "id": "024",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "025",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "026",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": true,
+   "referred": false
+  },
+  {
+   "id": "027",
+   "claude": "NO",
+   "codex": "NO",
+   "disagree": false,
+   "borderline_exclusion": true,
+   "borderline_any": true,
+   "referred": true
+  },
+  {
+   "id": "028",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "029",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "030",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "031",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": true,
+   "referred": false
+  },
+  {
+   "id": "032",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": true,
+   "referred": false
+  },
+  {
+   "id": "033",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "034",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "035",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "036",
+   "claude": "NO",
+   "codex": "YES",
+   "disagree": true,
+   "borderline_exclusion": true,
+   "borderline_any": true,
+   "referred": true
+  },
+  {
+   "id": "041",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "044",
+   "claude": "NO",
+   "codex": "YES",
+   "disagree": true,
+   "borderline_exclusion": true,
+   "borderline_any": true,
+   "referred": true
+  },
+  {
+   "id": "045",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": true,
+   "referred": false
+  },
+  {
+   "id": "046",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "048",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "049",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "053",
+   "claude": "NO",
+   "codex": "NO",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "054",
+   "claude": "UNCLEAR",
+   "codex": "YES",
+   "disagree": true,
+   "borderline_exclusion": false,
+   "borderline_any": true,
+   "referred": true
+  },
+  {
+   "id": "055",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": true,
+   "referred": false
+  },
+  {
+   "id": "056",
+   "claude": "NO",
+   "codex": "YES",
+   "disagree": true,
+   "borderline_exclusion": true,
+   "borderline_any": true,
+   "referred": true
+  },
+  {
+   "id": "057",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "058",
+   "claude": "NO",
+   "codex": "NO",
+   "disagree": false,
+   "borderline_exclusion": true,
+   "borderline_any": true,
+   "referred": true
+  },
+  {
+   "id": "059",
+   "claude": "YES",
+   "codex": "NO",
+   "disagree": true,
+   "borderline_exclusion": true,
+   "borderline_any": true,
+   "referred": true
+  },
+  {
+   "id": "060",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "061",
+   "claude": "NO",
+   "codex": "YES",
+   "disagree": true,
+   "borderline_exclusion": true,
+   "borderline_any": true,
+   "referred": true
+  },
+  {
+   "id": "062",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "063",
+   "claude": "NO",
+   "codex": "NO",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "065",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": true,
+   "referred": false
+  },
+  {
+   "id": "067",
+   "claude": "NO",
+   "codex": "NO",
+   "disagree": false,
+   "borderline_exclusion": true,
+   "borderline_any": true,
+   "referred": true
+  },
+  {
+   "id": "072",
+   "claude": "NO",
+   "codex": "NO",
+   "disagree": false,
+   "borderline_exclusion": true,
+   "borderline_any": true,
+   "referred": true
+  },
+  {
+   "id": "073",
+   "claude": "YES",
+   "codex": "NO",
+   "disagree": true,
+   "borderline_exclusion": false,
+   "borderline_any": true,
+   "referred": true
+  },
+  {
+   "id": "074",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "075",
+   "claude": "YES",
+   "codex": "NO",
+   "disagree": true,
+   "borderline_exclusion": false,
+   "borderline_any": true,
+   "referred": true
+  },
+  {
+   "id": "076",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": true,
+   "referred": false
+  },
+  {
+   "id": "077",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": true,
+   "referred": false
+  },
+  {
+   "id": "078",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "083",
+   "claude": "NO",
+   "codex": "NO",
+   "disagree": false,
+   "borderline_exclusion": true,
+   "borderline_any": true,
+   "referred": true
+  },
+  {
+   "id": "084",
+   "claude": "NO",
+   "codex": "NO",
+   "disagree": false,
+   "borderline_exclusion": true,
+   "borderline_any": true,
+   "referred": true
+  },
+  {
+   "id": "085",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "086",
+   "claude": "NO",
+   "codex": "YES",
+   "disagree": true,
+   "borderline_exclusion": true,
+   "borderline_any": true,
+   "referred": true
+  },
+  {
+   "id": "087",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "088",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "089",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "090",
+   "claude": "NO",
+   "codex": "NO",
+   "disagree": false,
+   "borderline_exclusion": true,
+   "borderline_any": true,
+   "referred": true
+  },
+  {
+   "id": "091",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "092",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": true,
+   "referred": false
+  },
+  {
+   "id": "093",
+   "claude": "NO",
+   "codex": "NO",
+   "disagree": false,
+   "borderline_exclusion": true,
+   "borderline_any": true,
+   "referred": true
+  },
+  {
+   "id": "094",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": true,
+   "referred": false
+  },
+  {
+   "id": "095",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "096",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "098",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "099",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "100",
+   "claude": "NO",
+   "codex": "NO",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "101",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": true,
+   "referred": false
+  },
+  {
+   "id": "103",
+   "claude": "NO",
+   "codex": "NO",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "104",
+   "claude": "YES",
+   "codex": "NO",
+   "disagree": true,
+   "borderline_exclusion": false,
+   "borderline_any": true,
+   "referred": true
+  },
+  {
+   "id": "105",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "106",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": true,
+   "referred": false
+  },
+  {
+   "id": "107",
+   "claude": "YES",
+   "codex": "NO",
+   "disagree": true,
+   "borderline_exclusion": true,
+   "borderline_any": true,
+   "referred": true
+  },
+  {
+   "id": "108",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": true,
+   "referred": false
+  },
+  {
+   "id": "109",
+   "claude": "NO",
+   "codex": "YES",
+   "disagree": true,
+   "borderline_exclusion": true,
+   "borderline_any": true,
+   "referred": true
+  },
+  {
+   "id": "110",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "111",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": true,
+   "referred": false
+  },
+  {
+   "id": "113",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": true,
+   "referred": false
+  },
+  {
+   "id": "114",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "115",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "116",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "117",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "118",
+   "claude": "NO",
+   "codex": "YES",
+   "disagree": true,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": true
+  },
+  {
+   "id": "119",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": true,
+   "referred": false
+  },
+  {
+   "id": "120",
+   "claude": "NO",
+   "codex": "YES",
+   "disagree": true,
+   "borderline_exclusion": true,
+   "borderline_any": true,
+   "referred": true
+  },
+  {
+   "id": "121",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": true,
+   "referred": false
+  },
+  {
+   "id": "122",
+   "claude": "YES",
+   "codex": "NO",
+   "disagree": true,
+   "borderline_exclusion": true,
+   "borderline_any": true,
+   "referred": true
+  },
+  {
+   "id": "126",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": true,
+   "referred": false
+  },
+  {
+   "id": "127",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": true,
+   "referred": false
+  },
+  {
+   "id": "132",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": true,
+   "referred": false
+  },
+  {
+   "id": "133",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "134",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "135",
+   "claude": "NO",
+   "codex": "YES",
+   "disagree": true,
+   "borderline_exclusion": true,
+   "borderline_any": true,
+   "referred": true
+  },
+  {
+   "id": "138",
+   "claude": "NO",
+   "codex": "NO",
+   "disagree": false,
+   "borderline_exclusion": true,
+   "borderline_any": true,
+   "referred": true
+  },
+  {
+   "id": "139",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "140",
+   "claude": "NO",
+   "codex": "NO",
+   "disagree": false,
+   "borderline_exclusion": true,
+   "borderline_any": true,
+   "referred": true
+  },
+  {
+   "id": "141",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": true,
+   "referred": false
+  },
+  {
+   "id": "142",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "144",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "145",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "147",
+   "claude": "YES",
+   "codex": "NO",
+   "disagree": true,
+   "borderline_exclusion": false,
+   "borderline_any": true,
+   "referred": true
+  },
+  {
+   "id": "148",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "149",
+   "claude": "NO",
+   "codex": "NO",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": false,
+   "referred": false
+  },
+  {
+   "id": "150",
+   "claude": "YES",
+   "codex": "YES",
+   "disagree": false,
+   "borderline_exclusion": false,
+   "borderline_any": true,
+   "referred": false
+  }
+ ]
+}

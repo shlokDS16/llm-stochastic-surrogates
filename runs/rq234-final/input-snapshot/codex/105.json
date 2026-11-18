@@ -1,0 +1,130 @@
+{
+ "order": 105,
+ "study_id": "https://openalex.org/W4405133564",
+ "full_text": {
+  "obtained": true,
+  "source": "https://www.sciencedirect.com/science/article/pii/S2949948824000611"
+ },
+ "eligibility": {
+  "decision": "YES",
+  "failed_criterion": null,
+  "borderline": false,
+  "evidence": "Sections 4–5 report a ChatGPT study using the classic Navon hierarchical-letter paradigm, with novel stimuli and a comparison to newly collected human data."
+ },
+ "A": {
+  "doi": "10.1016/j.ject.2024.11.008",
+  "arxiv_id": null,
+  "title": "ChatGPT and CLT: Investigating differences in multimodal processing",
+  "first_author": "Michael Cahalane",
+  "year": 2025,
+  "venue": "Journal of Economy and Technology",
+  "peer_reviewed": "yes",
+  "first_author_field": "not_reported",
+  "country": "not_reported"
+ },
+ "B": {
+  "models": [
+   {
+    "name": "ChatGPT",
+    "version": "not_reported",
+    "access": "not_reported",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "GPT",
+    "query_date": "not_reported"
+   }
+  ],
+  "n_models": 1,
+  "n_model_families": 1
+ },
+ "C": {
+  "paradigms": [
+   {
+    "pid": "P1",
+    "name": "Navon hierarchical letters task",
+    "family": "LANG",
+    "source_paper": "Navon (1977)",
+    "items_origin": "novel",
+    "n_items": 10,
+    "languages": [
+     "not_reported"
+    ],
+    "modality": "image plus text",
+    "contamination_risk": "no",
+    "location": "Sections 4.1–4.3 and 5"
+   }
+  ]
+ },
+ "D": {
+  "types": [
+   "own_sample"
+  ],
+  "primary_type": "own_sample",
+  "human_n": 120,
+  "population": "Prolific participants; 75 female, mean age 40.38 years (SD 12.63)",
+  "metric": "Proportion identifying local versus global letters; z-tests against 50% benchmark and comparison of ChatGPT with human responses"
+ },
+ "E": {
+  "outcome_types": [
+   "choice_distribution",
+   "bias_magnitude"
+  ],
+  "rows_aggregated": false,
+  "effects": [
+   {
+    "pid": "P1",
+    "model": "ChatGPT",
+    "model_family": "GPT",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "opposite",
+    "model_es": 95.5,
+    "human_es": null,
+    "es_metric": "percent selecting local letter",
+    "authors_comparison": "different",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "DIFFERENT",
+    "location": "Section 5; Fig. 2. ChatGPT selected local letters in 95.5% of valid observations (z = -9.59, p < 0.001 vs 50%). The human-results paragraph is internally contradictory about the global-letter percentage, so a human effect size is not extracted."
+   }
+  ],
+  "headline": "ChatGPT strongly favored local features in hierarchical-letter images, diverging from humans, who the authors report tended to favor global features."
+ },
+ "F": {
+  "f1": "no",
+  "f2": "no",
+  "f3": "yes",
+  "f4": "yes",
+  "f5": "no",
+  "f6": "yes",
+  "f7": "no",
+  "f8": "no",
+  "f9": "yes",
+  "f10": "yes",
+  "f11": "yes",
+  "f12": "yes",
+  "perturbations_tested": [
+   "option_order",
+   "contamination",
+   "response_format"
+  ],
+  "robustness_outcome": "survived"
+ },
+ "G": {
+  "notes": "The human-results paragraph says only 5% identified the global letter, then says humans predominantly identified global letters and reports all participants did so for most items; the abstract and discussion also report global preference. The full text supplied ends during Section 6.2, so later limitations and availability statements are unavailable.",
+  "extractor": "codex (default)",
+  "date": "2026-10-17",
+  "minutes": 0.4,
+  "sections_read": [
+   "Abstract",
+   "Sections 1–6.2 (partial)",
+   "Tables 1–3",
+   "Figures 1–2 descriptions",
+   "Methods",
+   "Results"
+  ]
+ }
+}

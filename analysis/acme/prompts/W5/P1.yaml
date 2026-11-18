@@ -1,0 +1,21 @@
+paradigm: P1
+wording: W5
+response_type: choice
+stem: 'Let it be supposed that preparations are under way in the United States for an outbreak of an uncommon illness, by which 600 individuals are anticipated to be killed. Two alternative programs to combat the illness have been put forward. It should be assumed that the exact scientific estimates of the outcomes of the programs are as follows:'
+question: Which program would be selected by you?
+frames:
+  x1:
+    name: gain
+    labels:
+    - A
+    - B
+    sure: Upon adoption of Program {L}, 200 individuals will be saved.
+    risky: Upon adoption of Program {L}, a probability of 1/3 exists that 600 individuals will be saved, and a probability of 2/3 exists that no individuals will be saved.
+  x0:
+    name: loss
+    labels:
+    - C
+    - D
+    sure: Upon adoption of Program {L}, 400 individuals will perish.
+    risky: Upon adoption of Program {L}, a probability of 1/3 exists that no individuals will perish, and a probability of 2/3 exists that 600 individuals will perish.
+order_note: O=sure_first puts the sure program on the first label; O=risky_first swaps the two lines (labels stay in order).

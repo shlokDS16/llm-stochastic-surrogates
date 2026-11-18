@@ -1,0 +1,43 @@
+{
+  "order": 150,
+  "study_id": "https://openalex.org/W7140872457",
+  "full_text": {"obtained": true, "source": "research/sources/md/fulltext/150_W7140872457.md (Springer open-access PDF, Artificial Intelligence and Law)"},
+  "eligibility": {"decision": "YES", "failed_criterion": null, "borderline": true,
+    "evidence": "Sec. 3 and Table 1: criminal vignettes taken from Kruis et al. 2024 and Trist et al. 2025, offender/victim gender manipulated, six chat LLMs queried 20 times each, sentence and stigma ratings, paired t-tests (Sec. 4). Borderline: criminology framing, chat products, unstated versions."},
+  "A": {"doi": "10.1007/s10506-026-09504-x", "arxiv_id": null,
+        "title": "Virtual Judgments: Testing the Chivalry Hypothesis and Attribution Theory in AI Models",
+        "first_author": "Lam", "year": 2026, "venue": "Artificial Intelligence and Law", "peer_reviewed": "yes",
+        "first_author_field": "other", "country": "Israel"},
+  "B": {"models": [
+    {"name": "ChatGPT (free version)", "version": "not_reported", "access": "not_reported", "params_b": null, "release_date": "not_reported", "tuning": "not_reported", "family": "GPT", "query_date": "December 2025"},
+    {"name": "Perplexity (free version)", "version": "not_reported", "access": "not_reported", "params_b": null, "release_date": "not_reported", "tuning": "not_reported", "family": "other", "query_date": "December 2025"},
+    {"name": "Gemini (free version)", "version": "not_reported", "access": "not_reported", "params_b": null, "release_date": "not_reported", "tuning": "not_reported", "family": "Gemini", "query_date": "December 2025"},
+    {"name": "Grok (free version)", "version": "not_reported", "access": "not_reported", "params_b": null, "release_date": "not_reported", "tuning": "not_reported", "family": "other", "query_date": "December 2025"},
+    {"name": "DeepSeek (free version)", "version": "not_reported", "access": "not_reported", "params_b": null, "release_date": "not_reported", "tuning": "not_reported", "family": "other", "query_date": "December 2025"},
+    {"name": "Claude (free version)", "version": "not_reported", "access": "not_reported", "params_b": null, "release_date": "not_reported", "tuning": "not_reported", "family": "Claude", "query_date": "December 2025"}
+  ], "n_models": 6, "n_model_families": 4},
+  "C": {"paradigms": [
+    {"pid": "P1", "name": "Gender-manipulated criminal vignette: sentence recommendation and stigmatization ratings (chivalry hypothesis, attribution theory)", "family": "TOM",
+     "source_paper": "Kruis et al. 2024 (intimate partner violence vignette); Trist et al. 2025 (robbery and fraud vignettes)", "items_origin": "verbatim", "n_items": 3, "languages": ["English"], "modality": "text",
+     "contamination_risk": "partly", "location": "Sec. 3 Materials and methods and Table 1; measures Sec. 3.1 (sentence length, 7 stigma items on a 5-point scale)"}
+  ]},
+  "D": {"types": ["published_norms"], "primary_type": "published_norms", "human_n": null,
+        "population": "not_reported (hypotheses rest on cited human sentencing literature, e.g. Embry & Lyons 2012; no human data collected)",
+        "metric": "direction of gender disparity in sentencing and stigmatization (qualitative, from the literature)"},
+  "E": {"outcome_types": ["bias_magnitude", "effect_size"], "rows_aggregated": false,
+        "effects": [
+    {"pid": "P1", "model": "ChatGPT (free version)", "model_family": "GPT", "outcome_kind": "effect", "basis": "test", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "SAME-DIRECTION-UNQUANTIFIED", "location": "Sec. 4, Table 2: sentence length, first-reported offense (intimate partner violence), male-on-female 6.40 vs female-on-male 4.45 years, paired t-test significant. Robbery and fraud differences non-significant for this model."},
+    {"pid": "P1", "model": "Perplexity (free version)", "model_family": "other", "outcome_kind": "effect", "basis": "test", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "SAME-DIRECTION-UNQUANTIFIED", "location": "Sec. 4, Table 2: sentence length, intimate partner violence 6.40 vs 4.80 years, significant. Also significant for robbery and fraud."},
+    {"pid": "P1", "model": "Gemini (free version)", "model_family": "Gemini", "outcome_kind": "effect", "basis": "test", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "SAME-DIRECTION-UNQUANTIFIED", "location": "Sec. 4, Table 2: sentence length, intimate partner violence 6.65 vs 5.17 years, significant. Also significant for robbery and fraud."},
+    {"pid": "P1", "model": "Grok (free version)", "model_family": "other", "outcome_kind": "effect", "basis": "test", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "SAME-DIRECTION-UNQUANTIFIED", "location": "Sec. 4, Table 2: sentence length, intimate partner violence 5.75 vs 4.90 years, significant, d = 0.67 (medium); robbery and fraud non-significant."},
+    {"pid": "P1", "model": "DeepSeek (free version)", "model_family": "other", "outcome_kind": "effect", "basis": "test", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "SAME-DIRECTION-UNQUANTIFIED", "location": "Sec. 4, Table 2: sentence length, intimate partner violence 6.42 vs 5.15 years, significant; robbery and fraud non-significant."},
+    {"pid": "P1", "model": "Claude (free version)", "model_family": "Claude", "outcome_kind": "effect", "basis": "descriptive", "model_effect_present": "not_reported", "human_effect_present": "yes", "direction": "not_reported", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "INSUFFICIENT", "location": "Sec. 3 and Sec. 4: refused all 120 prompts ('I can't role-play as a jury foreman'), marked not testable."}
+  ],
+  "headline": "Gender disparities in sentencing and stigmatization appear in all five testable models for intimate partner violence but are weak or absent for robbery and fraud."},
+  "F": {"f1": "no", "f2": "no", "f3": "yes", "f4": "yes", "f5": "no", "f6": "na", "f7": "no", "f8": "no",
+        "f9": "no", "f10": "yes", "f11": "no", "f12": "no", "perturbations_tested": [],
+        "robustness_outcome": "na"},
+  "G": {"notes": "Free chat products with unstated versions and decoding; Perplexity is search-augmented. Twenty repeats per cell are called non-independent yet enter paired t-tests. Stigma scale alpha is low for several models. Sentence ranges are quoted inconsistently (Methods vs Results). Prompt-embedded sentence anchors. Claude refused every prompt. No data or code link.",
+        "extractor": "paper-reader (claude-sonnet)", "date": "2026-10-16", "minutes": 12,
+        "sections_read": ["abstract", "2.2 research questions", "3 Materials and methods", "3.1 Measures", "4 Results (text; tables partly garbled in conversion)", "5 Discussion", "5.1 Limitations"]}
+}

@@ -1,0 +1,39 @@
+{
+ "order": 25,
+ "study_id": "W4399354223",
+ "pass": "codex",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/025_W4399354223.md",
+ "sources_varied": [
+  "M",
+  "W",
+  "T"
+ ],
+ "X1": {
+  "value": "yes",
+  "sources_crossed": [
+   "M",
+   "W",
+   "T"
+  ],
+  "evidence": "Sections 3.1–3.2, Tables 1–2: models and temperatures are run across the same prompts; Section 4.4 and Appendix C.5, Table 25: eight framings are tested across six models."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "W",
+   "T"
+  ],
+  "evidence": "Section 3.1, Table 1 reports head proportions by temperature; Section 3.2.1, Table 3 reports first-head proportions under H-first versus T-first wording, and Section 4.4, Table 25 reports alternation rates across framings."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "Sections 3.1–3.2 and 4.4 report results by model, temperature, or framing, but do not estimate or state an interaction between varied sources."
+ },
+ "notes": ""
+}

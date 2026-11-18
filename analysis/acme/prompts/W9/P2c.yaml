@@ -1,0 +1,11 @@
+paradigm: P2c
+wording: W9
+response_type: number
+intro: Don't know the right answer? Just take a best guess. We're curious what people think about the world around them, so for this question, give us your best estimate.
+conditions:
+  x1: Compared with 45,500 feet, Mount Everest is shorter. How high would you guess it is?
+  x0: Compared with 2,000 feet, Mount Everest is taller. How high would you guess it is?
+condition_names:
+  x1: high anchor
+  x0: low anchor
+baseline: How high would you guess Mount Everest is, in feet?

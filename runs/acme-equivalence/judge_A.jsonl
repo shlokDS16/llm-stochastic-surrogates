@@ -1,0 +1,110 @@
+{"id": "E001", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same scenario, paid versus free ticket, same 9-point scale endpoints and reversed scale; wording only differs."}
+{"id": "E002", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same Chicago population task and same 5,000,000 and 200,000 anchors with same direction."}
+{"id": "E003", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same two North Korea reporter questions in the same order; colloquial wording only."}
+{"id": "E004", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same babies-per-day task, anchors 50,000 (upper) and 100 (lower) kept."}
+{"id": "E005", "label": "NOT-EQUIVALENT", "element": "manipulation", "confidence": 5, "reason": "Anchors differ: 3,000,000 and 2,000,000 against 5,000,000 and 200,000."}
+{"id": "E006", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same babies-per-day task and anchors under 50,000 and over 100."}
+{"id": "E007", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same task and anchors; only register changed."}
+{"id": "E008", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same casino dice scenario: three 6's versus one 3 and two 6's; same question."}
+{"id": "E009", "label": "NOT-EQUIVALENT", "element": "task", "confidence": 5, "reason": "One asks which program to choose, the other which to reject."}
+{"id": "E010", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same disease scenario, numbers, gain and loss frames, and choice question in formal passive style."}
+{"id": "E011", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same quote, same speakers and same 9-point scale endpoints in forward and reversed forms."}
+{"id": "E012", "label": "NOT-EQUIVALENT", "element": "scenario_fact", "confidence": 5, "reason": "Weather is pleasantly warm in one and freezing cold in the other, changing the stay-home incentive."}
+{"id": "E013", "label": "NOT-EQUIVALENT", "element": "manipulation", "confidence": 5, "reason": "Anchor directions flipped: more than 5,000,000 and less than 200,000 against less than 5,000,000 and more than 200,000."}
+{"id": "E014", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same forbid and allow questions about speeches against democracy; only clause order differs."}
+{"id": "E015", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same scenario, numbers, frames and choose question; reordered clauses and formal style."}
+{"id": "E016", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same babies-per-day task with the same anchors; formal passive style."}
+{"id": "E017", "label": "EQUIVALENT", "element": "none", "confidence": 4, "reason": "Same Everest anchors 45,500 and 2,000 and direction; 'is recorded as being' adds a mild source cue only."}
+{"id": "E018", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same Chicago anchors 5,000,000 (upper) and 200,000 (lower) and same estimation task; formal style."}
+{"id": "E019", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same Everest anchors and directions; only wording of the intro and question differs."}
+{"id": "E020", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same quote, speakers, scale endpoints in both orientations; passive phrasing."}
+{"id": "E021", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same two North Korea reporter questions and order; passive voice."}
+{"id": "E022", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same casino dice observations and same question."}
+{"id": "E023", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same football scenario, paid versus free, freezing cold and scale endpoints in both orientations; passive."}
+{"id": "E024", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same distance task with anchors 6,000 (upper) and 1,500 (lower)."}
+{"id": "E025", "label": "NOT-EQUIVALENT", "element": "manipulation", "confidence": 5, "reason": "Anchor directions flipped: more than 50,000 and less than 100 against less than 50,000 and more than 100."}
+{"id": "E026", "label": "NOT-EQUIVALENT", "element": "manipulation", "confidence": 5, "reason": "Speakers are two unknown names instead of George Washington and Osama Bin Laden, removing the source contrast."}
+{"id": "E027", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same dice scenario and same question in a different register and voice."}
+{"id": "E028", "label": "NOT-EQUIVALENT", "element": "scenario_fact", "confidence": 5, "reason": "The agent is North Korea in one and the United States in the other."}
+{"id": "E029", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same distance task and anchors 6,000 and 1,500 with same directions; formal style."}
+{"id": "E030", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same distance anchors and directions; colloquial register only."}
+{"id": "E031", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same forbid and allow questions; only the question frame differs."}
+{"id": "E032", "label": "EQUIVALENT", "element": "none", "confidence": 4, "reason": "Same scenario, paid versus free, freezing cold and scale endpoints in both orientations; reordered clauses."}
+{"id": "E033", "label": "EQUIVALENT", "element": "none", "confidence": 4, "reason": "Same Everest anchors and directions; 'been measured as' adds a mild source cue only."}
+{"id": "E034", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same forbid and allow questions; 'public addresses that oppose democracy' keeps the topic."}
+{"id": "E035", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same quote, speakers and scale endpoints in both orientations."}
+{"id": "E036", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same disease scenario, numbers and frames; same choose question in colloquial passive style."}
+{"id": "E037", "label": "EQUIVALENT", "element": "none", "confidence": 4, "reason": "Same football scenario, paid versus free, freezing cold and scale endpoints; colloquial reordering."}
+{"id": "E038", "label": "NOT-EQUIVALENT", "element": "task", "confidence": 5, "reason": "Asks how many more times he will roll after you leave, not how many times he had rolled before."}
+{"id": "E039", "label": "NOT-EQUIVALENT", "element": "scenario_fact", "confidence": 5, "reason": "A different quote is attributed to the speakers."}
+{"id": "E040", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same quote, speakers and scale endpoints in both orientations; colloquial passive."}
+{"id": "E041", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same football scenario, paid versus free, cold and scale endpoints in both orientations; colloquial passive."}
+{"id": "E042", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same distance anchors and directions with fronted predicate; same task."}
+{"id": "E043", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same North Korea reporter questions in the same order; journalists and papers are synonyms."}
+{"id": "E044", "label": "NOT-EQUIVALENT", "element": "scenario_fact", "confidence": 5, "reason": "South Korea replaces North Korea in both questions."}
+{"id": "E045", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same quote, speakers and scale endpoints in both orientations."}
+{"id": "E046", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same Everest anchors and directions; formal reordered wording of the same task."}
+{"id": "E047", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same Chicago anchors 5,000,000 (upper) and 200,000 (lower) and same estimate task."}
+{"id": "E048", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same distance anchors 6,000 and 1,500 with the same directions and same estimate task."}
+{"id": "E049", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same disease scenario, numbers, gain and loss frames, and choose question; colloquial reordering."}
+{"id": "E050", "label": "NOT-EQUIVALENT", "element": "manipulation", "confidence": 5, "reason": "Anchors differ: 31,000 and 27,000 feet against 45,500 and 2,000 feet."}
+{"id": "E051", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same football scenario, paid versus free, cold and scale endpoints in both orientations."}
+{"id": "E052", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same quote, speakers and scale endpoints in both orientations; colloquial."}
+{"id": "E053", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same reporter questions in the same order; 'Is it your opinion' frame only."}
+{"id": "E054", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same babies-per-day task and anchors; reordered phrasing."}
+{"id": "E055", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same reporter questions with permit-by passive; journalists are synonyms of reporters."}
+{"id": "E056", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same disease scenario, numbers and frames; same choose question ('pick')."}
+{"id": "E057", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same football scenario, paid versus free, cold and scale endpoints; clauses reordered."}
+{"id": "E058", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same quote, speakers and scale endpoints in both orientations; colloquial."}
+{"id": "E059", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same babies-per-day task and anchors; infants is a synonym."}
+{"id": "E060", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same dice observations and same before-walking-by question."}
+{"id": "E061", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same quote, speakers and scale endpoints in both orientations; fronted predicate."}
+{"id": "E062", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same Chicago anchors and directions; same estimate task."}
+{"id": "E063", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same distance anchors 6,000 and 1,500 and directions; same task."}
+{"id": "E064", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same dice scenario and observations; same question in colloquial passive."}
+{"id": "E065", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same babies-per-day anchors and directions; same task."}
+{"id": "E066", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same Chicago anchors and directions; asks how many people live there."}
+{"id": "E067", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same Everest anchors and directions; 'known to be' keeps the fact framing."}
+{"id": "E068", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same reporter questions in the same order; colloquial wording only."}
+{"id": "E069", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same forbid and allow questions on speeches against democracy in the United States; formal wording."}
+{"id": "E070", "label": "NOT-EQUIVALENT", "element": "manipulation", "confidence": 5, "reason": "Anchors differ: 3,500 and 2,500 miles against 6,000 and 1,500 miles."}
+{"id": "E071", "label": "NOT-EQUIVALENT", "element": "manipulation", "confidence": 5, "reason": "Two dice (both 6's; one 3 and one 6) instead of three dice (all 6's; one 3 and two 6's)."}
+{"id": "E072", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same football scenario, paid versus free, cold and scale endpoints in both orientations."}
+{"id": "E073", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same dice scenario and observations; passive voice only."}
+{"id": "E074", "label": "NOT-EQUIVALENT", "element": "manipulation", "confidence": 5, "reason": "Anchors differ: 12,000 and 8,000 against 50,000 and 100."}
+{"id": "E075", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same babies-per-day anchors and directions; anchor placed in a relative clause."}
+{"id": "E076", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same forbid and allow questions; passive 'get forbidden' only."}
+{"id": "E077", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same Chicago anchors and directions; same estimate task."}
+{"id": "E078", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same Chicago anchors and directions with fronted predicate; same estimate task."}
+{"id": "E079", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same dice scenario and observations; same before-walking-by question."}
+{"id": "E080", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same football scenario, paid versus free, cold and scale endpoints in both orientations; clauses reordered."}
+{"id": "E081", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same forbid and allow questions; 'In your opinion' frame only."}
+{"id": "E082", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same dice observations and question; clause order differs."}
+{"id": "E083", "label": "NOT-EQUIVALENT", "element": "manipulation", "confidence": 5, "reason": "Sure program is 300 saved or 300 die instead of 200 saved or 400 die."}
+{"id": "E084", "label": "NOT-EQUIVALENT", "element": "scenario_fact", "confidence": 5, "reason": "Speeches in favor of democracy instead of against democracy, reversing the topic."}
+{"id": "E085", "label": "NOT-EQUIVALENT", "element": "manipulation", "confidence": 5, "reason": "Paid ticket is 'paid almost nothing for', removing the sunk-cost contrast with the free ticket."}
+{"id": "E086", "label": "EQUIVALENT", "element": "none", "confidence": 4, "reason": "Same reporter questions in the same order; 'journalists' without 'newspaper' in the first question is minor."}
+{"id": "E087", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same reporter questions in the same order; passive wording only."}
+{"id": "E088", "label": "NOT-EQUIVALENT", "element": "manipulation", "confidence": 5, "reason": "Anchor directions flipped: taller than 45,500 and shorter than 2,000 feet."}
+{"id": "E089", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same quote, speakers and scale endpoints in both orientations; formal passive."}
+{"id": "E090", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same dice observations and question; colloquial."}
+{"id": "E091", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same Everest anchors and directions with fronted predicate; same task."}
+{"id": "E092", "label": "NOT-EQUIVALENT", "element": "manipulation", "confidence": 5, "reason": "Anchor directions flipped: longer than 6,000 and shorter than 1,500 miles."}
+{"id": "E093", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same reporter questions in the same order; 'In your opinion' frame only."}
+{"id": "E094", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same Everest anchors and directions; same estimate task."}
+{"id": "E095", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same Chicago anchors and directions; asks how many people live there."}
+{"id": "E096", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same distance anchors and directions; formal passive-style wording."}
+{"id": "E097", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same disease scenario, numbers, frames and choose question; probabilities reordered."}
+{"id": "E098", "label": "NOT-EQUIVALENT", "element": "task", "confidence": 5, "reason": "'Bar from coming in' reverses what Yes means compared with 'let come in'."}
+{"id": "E099", "label": "EQUIVALENT", "element": "none", "confidence": 3, "reason": "Same numbers, frames and choose question; adds 'health officials' as actors, a mild addition."}
+{"id": "E100", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same forbid and allow questions; 'talks' is a synonym of speeches."}
+{"id": "E101", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same Everest anchors and directions; same estimate task."}
+{"id": "E102", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same babies-per-day anchors and directions; same task."}
+{"id": "E103", "label": "EQUIVALENT", "element": "none", "confidence": 4, "reason": "Same Everest anchors and directions expressed as 'compared with'; same estimate task."}
+{"id": "E104", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same forbid and allow questions; colloquial wording only."}
+{"id": "E105", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same disease scenario, numbers, frames and choose question; 'saving all 600' keeps the 600 figure."}
+{"id": "E106", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same Chicago anchors and directions; same estimate task."}
+{"id": "E107", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same distance anchors 6,000 and 1,500 with the same directions."}
+{"id": "E108", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same distance anchors and directions; same estimate task."}
+{"id": "E109", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same disease scenario, numbers, frames and choose question; formal synonyms."}
+{"id": "E110", "label": "EQUIVALENT", "element": "none", "confidence": 5, "reason": "Same forbid and allow questions; 'addresses' is a synonym of speeches."}

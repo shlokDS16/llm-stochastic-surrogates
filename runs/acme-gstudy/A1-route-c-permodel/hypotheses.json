@@ -1,0 +1,64 @@
+{
+ "H3": {
+  "estimate": 0.32106142128236936,
+  "pooled_MW": 0.3181230582131602,
+  "pooled_W": -0.002938363069209124,
+  "lo": 0.13809037720154607,
+  "hi": 0.710573564192337,
+  "p_raw": 0.0,
+  "k_items": 2,
+  "estimator": "A1",
+  "p_holm": 0.0,
+  "reject_holm_alpha": true
+ },
+ "H1": {
+  "estimate": 0.201474707715631,
+  "pooled_wording": 0.31742240943265304,
+  "pooled_T": 0.11594770171702201,
+  "T_terms": [
+   "T",
+   "MT",
+   "OT",
+   "WT",
+   "MOT",
+   "MWT",
+   "WOT"
+  ],
+  "lo": -0.058821108843631426,
+  "hi": 0.7611392509593059,
+  "p_raw": 0.0585,
+  "k_items": 2,
+  "estimator": "A1",
+  "p_holm": 0.0585,
+  "reject_holm_alpha": false
+ },
+ "H2": {
+  "items": [
+   {
+    "item": "AF",
+    "median_setup_sd": 0.7629909645560308,
+    "lb95": 0.6795341297271094,
+    "lb95_onesided": 0.6912796453883387,
+    "single_site_se": 0.1862488756838169,
+    "p_one_sided": 0.0,
+    "holds": true
+   },
+   {
+    "item": "NR",
+    "median_setup_sd": 0.10870291224976242,
+    "lb95": 0.07125220496036805,
+    "lb95_onesided": 0.07530463870562987,
+    "single_site_se": 0.1858383157164574,
+    "p_one_sided": 1.0,
+    "holds": false
+   }
+  ],
+  "k": 2,
+  "need": 1,
+  "n_hold": 1,
+  "holds": true,
+  "p_raw": 0.0,
+  "p_holm": 0.0,
+  "reject_holm_alpha": true
+ }
+}

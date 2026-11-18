@@ -1,0 +1,25 @@
+% HAND-BUILT body of Table s-readout (CRP-S09 prose pass B, 2026-11-07). Receives the numbers of the readout checks that Sections 7.6 and 7.7 no longer
+% carry in prose. Every number is a \NUM key (vf.* and syn.*, sources named in analysis/acme/make_autonumbers.py); no value is typed by hand.
+{\footnotesize\setlength{\tabcolsep}{4pt}\renewcommand{\arraystretch}{1.08}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.17\textwidth}>{\raggedright\arraybackslash}p{0.50\textwidth}>{\raggedright\arraybackslash}p{0.28\textwidth}@{}}
+\toprule
+Check & Quantity & Value \\
+\midrule
+Gate G4, pre-outcome rule & Models that pass, models that fail & \NUM{vf.g4.main.pass}, \NUM{vf.g4.main.fail} \\
+Gate G4, binomial standard error & Models that pass, models that fail & \NUM{vf.g4.sampledSE.pass}, \NUM{vf.g4.sampledSE.fail} \\
+Gate G4, no valid-mass exclusion & Models that pass, models that fail & \NUM{vf.g4.noexcl.pass}, \NUM{vf.g4.noexcl.fail} \\
+Gate G4, pooled over models & Slope of the sampled on the exact effect, binary items; standard deviation of the standardized differences & \NUM{vf.g4.pool.binary.slope}; \NUM{vf.g4.pool.binary.zsd} \\
+ & The same for rating items & \NUM{vf.g4.pool.rating.slope}; \NUM{vf.g4.pool.rating.zsd} \\
+ & Slope for numeric items, information only & \NUM{vf.g4.pool.numeric.slope} \\
+\addlinespace[2pt]
+Defect 1, path drift & Readout rows with valid mass above one, of all rows; above one by more than a rounding margin; maximum at the reference temperature & \NUM{vf.d1.gt1} of \NUM{vf.d1.rows}; \NUM{vf.d1.gt1001}; \NUM{vf.d1.vmax.T1} \\
+ & Gap in log probability, single-token rating paths: median, 95th percentile, maximum & \NUM{vf.d1.gap.med}; \NUM{vf.d1.gap.p95}; \NUM{vf.d1.gap.max} \\
+ & Difference on the renormalized rating outcome, rating-scale points: median, 95th percentile, maximum & \NUM{vf.d1.dy.med}; \NUM{vf.d1.dy.p95}; \NUM{vf.d1.dy.max} \\
+\addlinespace[2pt]
+Defect 2, multiplier words & Share of Arm~S answers to P2b with a multiplier word, most affected model; models at or above a tenth; maximum on the other numeric items & \NUM{vf.d2.p2b.max}; \NUM{vf.d2.p2b.n10}; \NUM{vf.d2.other.max} \\
+ & OLMo-2~7B instruct, P2b, W1, lower Arm~S temperature: Arm~L effect, Arm~S effect (log units) & \NUM{vf.d2.ex.dL}; \NUM{vf.d2.ex.dS} \\
+\addlinespace[2pt]
+Sampled-arm estimator, synthetic arrays & Largest absolute bias of the share with sampling noise as a component (E2); cells above the limit of \NUM{syn.crit.bias}, of all cells & \NUM{syn.e2.maxbias}; \NUM{syn.e2.gt02} of \NUM{syn.e2.cells} \\
+ & Coverage of the corrected draw bootstrap: lowest, highest; percent of cells inside the target range of \NUM{syn.crit.lo} to \NUM{syn.crit.hi}, of all cells & \NUM{syn.cov.min}; \NUM{syn.cov.max}; \NUM{syn.cov.inrange} percent of \NUM{syn.cov.cells} \\
+\bottomrule
+\end{tabular}}

@@ -1,0 +1,294 @@
+{
+ "model": "granite-3.3-2b-instruct",
+ "repo": "ibm-granite/granite-3.3-2b-instruct",
+ "revision": "707f574c62054322f6b5b04b6d075f0a8f05e0f0",
+ "quant": "bf16",
+ "bs_f0": 80,
+ "bs_f1": 80,
+ "started": "2026-11-06T14:55:38",
+ "ram_before": {
+  "avail_phys_gb": 8.39,
+  "avail_commit_gb": 15.08
+ },
+ "gpu_before": {
+  "mem_used_mib": 12.0,
+  "temp_c": 79.0,
+  "power_w": 14.4,
+  "t": "2026-11-06T14:55:38"
+ },
+ "torch": "2.11.0+cu128",
+ "transformers": "5.20.0",
+ "load_seconds": 11.3,
+ "ram_after_load": {
+  "avail_phys_gb": 7.29,
+  "avail_commit_gb": 7.21
+ },
+ "vram_after_load_gib": 4.719,
+ "end_of_turn_id": 0,
+ "end_of_turn_piece": "<|end_of_text|>",
+ "answer_token_ids": {
+  "A": 51,
+  " A": 399,
+  "B": 52,
+  " B": 551,
+  "C": 53,
+  " C": 390,
+  "D": 54,
+  " D": 475,
+  "Yes": 10922,
+  " Yes": 10100,
+  "No": 2023,
+  " No": 3139,
+  "yes": 7134,
+  " yes": 9155,
+  "no": 1347,
+  " no": 1289,
+  "1": 35,
+  "2": 36,
+  "3": 37,
+  "4": 38,
+  "5": 39,
+  "6": 40,
+  "7": 41,
+  "8": 42,
+  "9": 43
+ },
+ "forward_seconds_per_prompt": 0.0844,
+ "n_f0_prompts": 64,
+ "n_bf16_ties": 5,
+ "fwd_eq_gen_rate_all": 0.96875,
+ "fwd_eq_gen_rate_nontie": 1.0,
+ "fwd_gen_mismatches": [
+  {
+   "key": "P1|W0|F0|0.0|risky_first|1|0",
+   "tie": true,
+   "gap12_bf16": 0.0,
+   "top5": [
+    [
+     "A",
+     23.434
+    ],
+    [
+     "B",
+     23.406
+    ],
+    [
+     "Program",
+     20.476
+    ],
+    [
+     "The",
+     14.997
+    ],
+    [
+     "Both",
+     14.488
+    ]
+   ],
+   "gen": "A"
+  },
+  {
+   "key": "P2d|W1|F0|0.0|None|1|0",
+   "tie": true,
+   "gap12_bf16": 0.0,
+   "top5": [
+    [
+     "1",
+     20.414
+    ],
+    [
+     "2",
+     20.405
+    ],
+    [
+     "Around",
+     19.534
+    ],
+    [
+     "3",
+     18.589
+    ],
+    [
+     "Approx",
+     18.203
+    ]
+   ],
+   "gen": "1"
+  }
+ ],
+ "mass_letters_P1": {
+  "min": 0.9882,
+  "mean": 0.9988,
+  "share_below_0p9": 0.0
+ },
+ "mass_letters_first_token_P1": {
+  "min": 0.8904,
+  "mean": 0.9692,
+  "share_below_0p9": 0.0625
+ },
+ "mass_digits_P3": {
+  "min": 0.9999,
+  "mean": 1.0,
+  "share_below_0p9": 0.0
+ },
+ "argmax_pieces_numeric": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "8",
+  "Around"
+ ],
+ "pilot_parity": {
+  "n": 64,
+  "first_token_match_all": 0.953125,
+  "n_nontie": 59,
+  "first_token_match_nontie": 0.9830508474576272,
+  "restricted_n": 22,
+  "restricted_match": 1.0,
+  "mismatches": [
+   {
+    "key": "P1|W3|F0|0.0|sure_first|0|0",
+    "argmax": "D",
+    "pilot_raw": "C",
+    "tie": false,
+    "gap12_bf16": 0.25,
+    "top5": [
+     [
+      "D",
+      22.504
+     ],
+     [
+      "C",
+      22.24
+     ],
+     [
+      "Program",
+      19.467
+     ],
+     [
+      "I",
+      15.11
+     ],
+     [
+      "A",
+      14.312
+     ]
+    ]
+   },
+   {
+    "key": "P2d|W1|F0|0.0|None|1|0",
+    "argmax": "2",
+    "pilot_raw": "150,000",
+    "tie": true,
+    "gap12_bf16": 0.0,
+    "top5": [
+     [
+      "1",
+      20.414
+     ],
+     [
+      "2",
+      20.405
+     ],
+     [
+      "Around",
+      19.534
+     ],
+     [
+      "3",
+      18.589
+     ],
+     [
+      "Approx",
+      18.203
+     ]
+    ]
+   },
+   {
+    "key": "P4|W1|F0|0.0|None|1|0",
+    "argmax": "3",
+    "pilot_raw": "1",
+    "tie": true,
+    "gap12_bf16": 0.125,
+    "top5": [
+     [
+      "3",
+      19.446
+     ],
+     [
+      "1",
+      19.436
+     ],
+     [
+      "4",
+      18.407
+     ],
+     [
+      "2",
+      17.217
+     ],
+     [
+      "Three",
+      17.002
+     ]
+    ]
+   }
+  ]
+ },
+ "grid_test": {
+  "grid": [
+   "1500",
+   "2000",
+   "2500",
+   "2900",
+   "3000",
+   "4000",
+   "6000"
+  ],
+  "n_tokens": [
+   5,
+   5,
+   5,
+   5,
+   5,
+   5,
+   5
+  ],
+  "logp": [
+   -15.56,
+   -12.93,
+   -14.564,
+   -16.562,
+   -12.764,
+   -14.5,
+   -12.036
+  ],
+  "Z": 1.2426294163943686e-05,
+  "finite": true
+ },
+ "vram_f1": {
+  "batch": 80,
+  "new_tokens": 256,
+  "seconds": 41.45,
+  "tok_per_s": 494,
+  "peak_gib": 7.646
+ },
+ "vram_f0": {
+  "batch": 80,
+  "new_tokens": 24,
+  "seconds": 5.36,
+  "tok_per_s": 358,
+  "peak_gib": 6.435
+ },
+ "nonfinite": 0,
+ "gpu_after": {
+  "mem_used_mib": 9057.0,
+  "temp_c": 86.0,
+  "power_w": 52.22,
+  "t": "2026-11-06T14:56:54"
+ },
+ "fails": [],
+ "status": "pass",
+ "finished": "2026-11-06T14:56:54"
+}

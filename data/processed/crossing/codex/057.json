@@ -1,0 +1,38 @@
+{
+ "order": 57,
+ "study_id": "https://openalex.org/W4416241868",
+ "pass": "codex",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/057_W4416241868.md",
+ "sources_varied": [
+  "M",
+  "W"
+ ],
+ "X1": {
+  "value": "yes",
+  "sources_crossed": [
+   "M",
+   "W"
+  ],
+  "evidence": "Sec. 3.3: a fully crossed 14×27×10 matrix combines each model with each dilemma and ethical framing."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "W"
+  ],
+  "evidence": "Secs. 4.1 and 4.3, Table 4: intervention, conflict, and KL outcomes are quantified by frame; e.g., intervention ranges from 31% to 82%."
+ },
+ "X3": {
+  "value": "yes",
+  "x3_pairs": [
+   "M x W"
+  ],
+  "evidence": "Sec. 4.2: reasoning-prompt effects differ by model; Qwen and Gemini increase utilitarian actions by 7 pp, while Claude's public match changes from 56% to 59%."
+ },
+ "notes": ""
+}

@@ -1,0 +1,53 @@
+{
+  "order": 148,
+  "study_id": "https://openalex.org/W4386910589",
+  "full_text": {"obtained": true, "source": "research/sources/md/fulltext/148_W4386910589.md (arXiv 2306.06548 v3 preprint of the Psychological Review article)"},
+  "eligibility": {"decision": "YES", "failed_criterion": null, "borderline": false,
+    "evidence": "Overview and Exp. 1-2 (pp.8-23): GPT-3.5 and GPT-4 administered the property-induction phenomena of Osherson et al. 1990 and compared with new MTurk data (110 and 610 participants); sign tests and Spearman correlations reported."},
+  "A": {"doi": "10.1037/rev0000446", "arxiv_id": "2306.06548",
+        "title": "Inductive reasoning in humans and large language models",
+        "first_author": "Han", "year": 2023, "venue": "Psychological Review", "peer_reviewed": "yes",
+        "first_author_field": "psychology", "country": "Australia"},
+  "B": {"models": [
+    {"name": "GPT-4", "version": "gpt-4-0314", "access": "API", "params_b": null, "release_date": "not_reported", "tuning": "instruction", "family": "GPT", "query_date": "not_reported"},
+    {"name": "GPT-3.5 (text-davinci-003)", "version": "text-davinci-003", "access": "API", "params_b": null, "release_date": "not_reported", "tuning": "instruction", "family": "GPT", "query_date": "not_reported"},
+    {"name": "GPT-3.5 chat (gpt-3.5-turbo)", "version": "gpt-3.5-turbo-0613", "access": "API", "params_b": null, "release_date": "not_reported", "tuning": "instruction", "family": "GPT", "query_date": "not_reported"},
+    {"name": "text-davinci-002", "version": "text-davinci-002", "access": "API", "params_b": null, "release_date": "not_reported", "tuning": "instruction", "family": "GPT", "query_date": "not_reported"},
+    {"name": "text-davinci-001", "version": "text-davinci-001", "access": "API", "params_b": null, "release_date": "not_reported", "tuning": "instruction", "family": "GPT", "query_date": "not_reported"},
+    {"name": "davinci", "version": "davinci", "access": "API", "params_b": null, "release_date": "not_reported", "tuning": "base", "family": "GPT", "query_date": "not_reported"}
+  ], "n_models": 6, "n_model_families": 1},
+  "C": {"paradigms": [
+    {"pid": "P1", "name": "Property induction, forced choice of the stronger of two arguments (11 Osherson et al. phenomena x Mammals/Birds/Vehicles)", "family": "RE",
+     "source_paper": "Osherson, Smith, Wilkie, Lopez & Shafir 1990; Rips 1975", "items_origin": "adapted", "n_items": 792, "languages": ["English"], "modality": "text",
+     "contamination_risk": "partly", "location": "Experiment 1, pp.8-16, Table 1, Table 4; contamination discussion p.30"},
+    {"pid": "P2", "name": "Property induction, strength rating of individual one- and two-premise arguments", "family": "RE",
+     "source_paper": "Osherson et al. 1990; Glick 2011", "items_origin": "adapted", "n_items": 1168, "languages": ["English"], "modality": "text",
+     "contamination_risk": "partly", "location": "Experiment 2, pp.16-26, Figure 5, Table 6"},
+    {"pid": "P3", "name": "Similarity ratings of category pairs (0-20), compared with human similarity norms", "family": "LANG",
+     "source_paper": "De Deyne et al. 2008 (Leuven Natural Concepts Dataset)", "items_origin": "verbatim", "n_items": null, "languages": ["English"], "modality": "text",
+     "contamination_risk": "not_reported", "location": "Extracting similarity judgments and Representation, pp.20-25, Figure 6"}
+  ]},
+  "D": {"types": ["own_sample", "published_norms"], "primary_type": "own_sample", "human_n": 110,
+        "population": "Amazon Mechanical Turk workers pre-screened for English: Exp. 1 N=110 analysed (120 recruited), Exp. 2 N=610, plus 40 for an Osherson replication; similarity norms from De Deyne et al. 2008",
+        "metric": "sign test on which argument was rated stronger (Exp. 1); Spearman rho between model and human argument rankings, split-half reliability (Exp. 2)"},
+  "E": {"outcome_types": ["choice_distribution", "human_correlation"], "rows_aggregated": false,
+        "effects": [
+    {"pid": "P1", "model": "GPT-4", "model_family": "GPT", "outcome_kind": "effect", "basis": "test", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "SAME-DIRECTION-UNQUANTIFIED", "location": "Table 4 p.15; authors report 11 phenomena x 3 domains separately, so first-reported condition used (Similarity, Mammals; sign test p<.001 for GPT-4 and humans). Abstract: GPT-4 matches humans except Non-Monotonicity."},
+    {"pid": "P1", "model": "GPT-3.5 (text-davinci-003)", "model_family": "GPT", "outcome_kind": "effect", "basis": "test", "model_effect_present": "no", "human_effect_present": "yes", "direction": "not_applicable", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "SUPER-NORMATIVE", "location": "Table 4 p.15, first-reported condition (Similarity, Mammals; GPT-3.5 sign test p=0.17, humans p<.001). Most other cells also non-significant for GPT-3.5."},
+    {"pid": "P1", "model": "GPT-3.5 chat (gpt-3.5-turbo)", "model_family": "GPT", "outcome_kind": "effect", "basis": "test", "model_effect_present": "no", "human_effect_present": "yes", "direction": "not_applicable", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "SUPER-NORMATIVE", "location": "Table D1 p.49, first-reported condition (Similarity, Mammals; p=0.17; humans p<.001). Chat variant does capture Similarity for Vehicles (p<.001)."},
+    {"pid": "P2", "model": "GPT-4", "model_family": "GPT", "outcome_kind": "agreement", "basis": "descriptive", "model_effect_present": "na", "human_effect_present": "na", "direction": "not_applicable", "model_es": null, "human_es": null, "es_metric": "Spearman rho", "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "AGREEMENT-ONLY", "location": "Figure 5 p.22 and Table 6 p.23, first-reported split (Specific, single-premise, Mammals); rho shown only in the figure. Text: GPT-4 nearly as good as Human SCM on Specific arguments, uncorrelated on single-premise General Mammals."},
+    {"pid": "P2", "model": "GPT-3.5 (text-davinci-003)", "model_family": "GPT", "outcome_kind": "agreement", "basis": "descriptive", "model_effect_present": "na", "human_effect_present": "na", "direction": "not_applicable", "model_es": null, "human_es": null, "es_metric": "Spearman rho", "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "AGREEMENT-ONLY", "location": "Figure 5 p.22 and Table 6 p.23, first-reported split (Specific, single-premise, Mammals); rho only in figure. GPT-3.5 worse than GPT-4 on Specific, better on General arguments."},
+    {"pid": "P2", "model": "GPT-3.5 chat (gpt-3.5-turbo)", "model_family": "GPT", "outcome_kind": "agreement", "basis": "descriptive", "model_effect_present": "na", "human_effect_present": "na", "direction": "not_applicable", "model_es": null, "human_es": null, "es_metric": "Spearman rho", "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "AGREEMENT-ONLY", "location": "Figure D1 p.50 (rho shown only in figure); appendix D says differences between GPT models are small, with degradation for single-premise General arguments."},
+    {"pid": "P2", "model": "text-davinci-002", "model_family": "GPT", "outcome_kind": "agreement", "basis": "descriptive", "model_effect_present": "na", "human_effect_present": "na", "direction": "not_applicable", "model_es": null, "human_es": null, "es_metric": "Spearman rho", "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "AGREEMENT-ONLY", "location": "Figure D1 p.50 (rho shown only in figure)."},
+    {"pid": "P2", "model": "text-davinci-001", "model_family": "GPT", "outcome_kind": "agreement", "basis": "descriptive", "model_effect_present": "na", "human_effect_present": "na", "direction": "not_applicable", "model_es": null, "human_es": null, "es_metric": "Spearman rho", "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "AGREEMENT-ONLY", "location": "Figure D1 p.50 (rho shown only in figure)."},
+    {"pid": "P3", "model": "GPT-4", "model_family": "GPT", "outcome_kind": "agreement", "basis": "descriptive", "model_effect_present": "na", "human_effect_present": "na", "direction": "not_applicable", "model_es": null, "human_es": null, "es_metric": "Spearman rho", "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "AGREEMENT-ONLY", "location": "Figure 6 p.24 and text p.24: correlation with human similarity exceeds 0.6 in all three domains (exact values in figure only)."},
+    {"pid": "P3", "model": "GPT-3.5 (text-davinci-003)", "model_family": "GPT", "outcome_kind": "agreement", "basis": "descriptive", "model_effect_present": "na", "human_effect_present": "na", "direction": "not_applicable", "model_es": null, "human_es": null, "es_metric": "Spearman rho", "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "AGREEMENT-ONLY", "location": "Figure 6 p.24 and text p.24: prompt-based correlation exceeds 0.4 in all three domains (exact values in figure only)."}
+  ],
+  "headline": "GPT-4 qualitatively matches humans on property induction apart from premise non-monotonicity; GPT-3.5 struggles to capture many aspects of human behaviour."},
+  "F": {"f1": "no", "f2": "yes", "f3": "no", "f4": "yes", "f5": "yes", "f6": "no", "f7": "no", "f8": "yes",
+        "f9": "no", "f10": "yes", "f11": "no", "f12": "yes", "perturbations_tested": ["wording", "model_version"],
+        "robustness_outcome": "mixed"},
+  "G": {"notes": "Eleven phenomena pooled into one paradigm; E rows use the first-reported condition, so they understate the GPT-4 Non-Monotonicity failure. Prompt-variant results (S/C/A/Q/O) are not reported, only the best prompt. No query dates. Temperature 1 mentioned informally, results not shown. Human Diversity effect not replicated.",
+        "extractor": "paper-reader (claude-sonnet)", "date": "2026-10-16", "minutes": 14,
+        "sections_read": ["abstract", "introduction", "inductive phenomena", "Experiment 1 methods and results", "Experiment 2 methods and results", "representation and reasoning analyses", "discussion", "Appendix A and B prompt tables (skimmed)", "Appendix D"]}
+}

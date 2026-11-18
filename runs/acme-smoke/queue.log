@@ -1,0 +1,88 @@
+2026-11-06T14:53:56+05:45 qwen2.5-0.5b-instruct already passed
+2026-11-06T14:53:56+05:45 qwen2.5-1.5b-instruct already passed
+2026-11-06T14:53:56+05:45 start olmo2-1b-instruct bs_f0=40 bs_f1=40
+2026-11-06T14:54:29+05:45 end olmo2-1b-instruct rc=0 olmo2-1b-instruct {"status": "pass", "fails": [], "load_seconds": 8.7, "n_bf16_ties": 9, "fwd_eq_gen_rate_nontie": 1.0, "mass_letters_P1": {"min": 0.8784, "mean": 0.9193, "share_below_0p9": 0.25}, "mass_letters_first_token_P1": {"min": 0.092, "mean": 0.3414, "share_below_0p9": 1.0}, "mass_digits_P3": {"min": 0.9553, "mean": 0.9603, "share_below_0p9": 0.0}, "pilot": {"n": 64, "first_token_match_all
+2026-11-06T14:54:30+05:45 start olmo2-1b-sft bs_f0=40 bs_f1=40
+2026-11-06T14:55:03+05:45 end olmo2-1b-sft rc=0 olmo2-1b-sft {"status": "pass", "fails": [], "load_seconds": 9.6, "n_bf16_ties": 8, "fwd_eq_gen_rate_nontie": 1.0, "mass_letters_P1": {"min": 0.712, "mean": 0.8221, "share_below_0p9": 0.9375}, "mass_letters_first_token_P1": {"min": 0.1739, "mean": 0.3466, "share_below_0p9": 1.0}, "mass_digits_P3": {"min": 0.7066, "mean": 0.7862, "share_below_0p9": 1.0}, "pilot": {}, "vram": [3.792, 4.924], "Z": 0.
+2026-11-06T14:55:04+05:45 start olmo2-1b-dpo bs_f0=40 bs_f1=40
+2026-11-06T14:55:37+05:45 end olmo2-1b-dpo rc=0 olmo2-1b-dpo {"status": "pass", "fails": [], "load_seconds": 9.7, "n_bf16_ties": 5, "fwd_eq_gen_rate_nontie": 1.0, "mass_letters_P1": {"min": 0.8741, "mean": 0.9184, "share_below_0p9": 0.25}, "mass_letters_first_token_P1": {"min": 0.0087, "mean": 0.0481, "share_below_0p9": 1.0}, "mass_digits_P3": {"min": 0.5912, "mean": 0.6775, "share_below_0p9": 1.0}, "pilot": {}, "vram": [3.792, 4.924], "Z": 0.0
+2026-11-06T14:55:38+05:45 start granite-3.3-2b-instruct bs_f0=80 bs_f1=80
+2026-11-06T14:56:55+05:45 end granite-3.3-2b-instruct rc=0 granite-3.3-2b-instruct {"status": "pass", "fails": [], "load_seconds": 11.3, "n_bf16_ties": 5, "fwd_eq_gen_rate_nontie": 1.0, "mass_letters_P1": {"min": 0.9882, "mean": 0.9988, "share_below_0p9": 0.0}, "mass_letters_first_token_P1": {"min": 0.8904, "mean": 0.9692, "share_below_0p9": 0.0625}, "mass_digits_P3": {"min": 0.9999, "mean": 1.0, "share_below_0p9": 0.0}, "pilot": {"n": 64, "first_token_ma
+2026-11-06T14:56:55+05:45 start smollm2-1.7b-instruct bs_f0=64 bs_f1=32
+2026-11-06T14:57:32+05:45 end smollm2-1.7b-instruct rc=0 smollm2-1.7b-instruct {"status": "pass", "fails": [], "load_seconds": 9.0, "n_bf16_ties": 14, "fwd_eq_gen_rate_nontie": 1.0, "mass_letters_P1": {"min": 0.9519, "mean": 0.9701, "share_below_0p9": 0.0}, "mass_letters_first_token_P1": {"min": 0.8731, "mean": 0.9428, "share_below_0p9": 0.125}, "mass_digits_P3": {"min": 0.9097, "mean": 0.937, "share_below_0p9": 0.0}, "pilot": {}, "vram": [5.53, 5.781],
+2026-11-06T14:57:32+05:45 start phi4-mini-instruct bs_f0=48 bs_f1=24
+2026-11-06T14:58:30+05:45 end phi4-mini-instruct rc=0 phi4-mini-instruct {"status": "pass", "fails": [], "load_seconds": 13.3, "n_bf16_ties": 22, "fwd_eq_gen_rate_nontie": 1.0, "mass_letters_P1": {"min": 0.7878, "mean": 0.9674, "share_below_0p9": 0.0625}, "mass_letters_first_token_P1": {"min": 1.3519, "mean": 1.8113, "share_below_0p9": 0.0}, "mass_digits_P3": {"min": 1.2605, "mean": 1.4914, "share_below_0p9": 0.0}, "pilot": {}, "vram": [4.131, 4.177]
+2026-11-06T14:58:30+05:45 start qwen2.5-7b-instruct bs_f0=64 bs_f1=64
+2026-11-06T15:00:32+05:45 end qwen2.5-7b-instruct rc=0 qwen2.5-7b-instruct {"status": "pass", "fails": [], "load_seconds": 15.4, "n_bf16_ties": 2, "fwd_eq_gen_rate_nontie": 1.0, "mass_letters_P1": {"min": 1.0, "mean": 1.0, "share_below_0p9": 0.0}, "mass_letters_first_token_P1": {"min": 0.9999, "mean": 1.0, "share_below_0p9": 0.0}, "mass_digits_P3": {"min": 1.0, "mean": 1.0, "share_below_0p9": 0.0}, "pilot": {"n": 64, "first_token_match_all": 0.984375,
+2026-11-06T15:00:32+05:45 start olmo2-7b-instruct bs_f0=6 bs_f1=6
+2026-11-06T15:01:56+05:45 end olmo2-7b-instruct rc=0 olmo2-7b-instruct {"status": "pass", "fails": [], "load_seconds": 16.5, "n_bf16_ties": 3, "fwd_eq_gen_rate_nontie": 1.0, "mass_letters_P1": {"min": 0.9711, "mean": 0.9918, "share_below_0p9": 0.0}, "mass_letters_first_token_P1": {"min": 0.9185, "mean": 0.9743, "share_below_0p9": 0.0}, "mass_digits_P3": {"min": 0.9596, "mean": 0.975, "share_below_0p9": 0.0}, "pilot": {"n": 64, "first_token_match_all
+2026-11-06T15:01:57+05:45 start granite-3.3-8b-instruct bs_f0=24 bs_f1=24
+2026-11-06T15:03:59+05:45 end granite-3.3-8b-instruct rc=0 granite-3.3-8b-instruct {"status": "pass", "fails": [], "load_seconds": 14.0, "n_bf16_ties": 4, "fwd_eq_gen_rate_nontie": 1.0, "mass_letters_P1": {"min": 0.9106, "mean": 0.977, "share_below_0p9": 0.0}, "mass_letters_first_token_P1": {"min": 0.3204, "mean": 0.8232, "share_below_0p9": 0.5625}, "mass_digits_P3": {"min": 0.9636, "mean": 0.9893, "share_below_0p9": 0.0}, "pilot": {"n": 64, "first_token_
+2026-11-06T15:03:59+05:45 GPU 86C, waiting
+2026-11-06T15:05:00+05:45 start mistral-7b-instruct-v0.3 bs_f0=48 bs_f1=16
+2026-11-06T15:05:20+05:45 end mistral-7b-instruct-v0.3 rc=1 
+2026-11-06T15:05:21+05:45 start mistral-7b-instruct-v0.3 bs_f0=48 bs_f1=16
+2026-11-06T15:05:38+05:45 end mistral-7b-instruct-v0.3 rc=1 
+2026-11-06T15:05:39+05:45 mistral-7b-instruct-v0.3 FAILED TWICE (substitute rule)
+2026-11-06T15:05:39+05:45 start qwen2.5-14b-instruct bs_f0=32 bs_f1=8
+2026-11-06T15:06:13+05:45 end qwen2.5-14b-instruct rc=1 
+2026-11-06T15:06:13+05:45 start qwen2.5-14b-instruct bs_f0=32 bs_f1=8
+2026-11-06T15:06:23+05:45 NOTE: the mistral 'FAILED TWICE' above was a harness bug (scoring.end_of_turn_id assertion with Mistral's system-turn placement), fixed; mistral to be rerun
+2026-11-06T15:06:53+05:45 end qwen2.5-14b-instruct rc=1 
+2026-11-06T15:06:54+05:45 qwen2.5-14b-instruct FAILED TWICE (substitute rule)
+2026-11-06T15:06:54+05:45 start olmo2-13b-instruct bs_f0=12 bs_f1=4
+2026-11-06T15:07:40+05:45 end olmo2-13b-instruct rc=1 
+2026-11-06T15:07:40+05:45 start olmo2-13b-instruct bs_f0=12 bs_f1=4
+2026-11-06T15:08:22+05:45 end olmo2-13b-instruct rc=1 
+2026-11-06T15:08:22+05:45 olmo2-13b-instruct FAILED TWICE (substitute rule)
+2026-11-06T15:08:22+05:45 queue done
+2026-11-06T15:09:27+05:45 start mistral-7b-instruct-v0.3 bs_f0=48 bs_f1=16
+2026-11-06T15:10:47+05:45 end mistral-7b-instruct-v0.3 rc=0 mistral-7b-instruct-v0.3 {"status": "pass", "fails": [], "load_seconds": 16.7, "n_bf16_ties": 6, "fwd_eq_gen_rate_nontie": 1.0, "mass_letters_P1": {"min": 0.0495, "mean": 0.5849, "share_below_0p9": 0.6875}, "mass_letters_first_token_P1": {"min": 0.0, "mean": 0.0008, "share_below_0p9": 1.0}, "mass_digits_P3": {"min": 0.0, "mean": 0.0, "share_below_0p9": 1.0}, "pilot": {}, "vram": [5.757, 5.089], "Z
+2026-11-06T15:10:47+05:45 start qwen2.5-14b-instruct bs_f0=32 bs_f1=8
+2026-11-06T15:11:02+05:45 end qwen2.5-14b-instruct rc=1 
+2026-11-06T15:11:02+05:45 start qwen2.5-14b-instruct bs_f0=32 bs_f1=8
+2026-11-06T15:11:17+05:45 end qwen2.5-14b-instruct rc=1 
+2026-11-06T15:11:17+05:45 qwen2.5-14b-instruct FAILED TWICE (substitute rule)
+2026-11-06T15:11:18+05:45 start olmo2-13b-instruct bs_f0=12 bs_f1=4
+2026-11-06T15:11:32+05:45 end olmo2-13b-instruct rc=1 
+2026-11-06T15:11:32+05:45 start olmo2-13b-instruct bs_f0=12 bs_f1=4
+2026-11-06T15:11:47+05:45 end olmo2-13b-instruct rc=1 
+2026-11-06T15:11:47+05:45 olmo2-13b-instruct FAILED TWICE (substitute rule)
+2026-11-06T15:11:47+05:45 queue done
+2026-11-06T15:12:45+05:45 start qwen2.5-14b-instruct bs_f0=32 bs_f1=8
+2026-11-06T15:12:59+05:45 end qwen2.5-14b-instruct rc=1 
+2026-11-06T15:12:59+05:45 start qwen2.5-14b-instruct bs_f0=32 bs_f1=8
+2026-11-06T15:13:13+05:45 end qwen2.5-14b-instruct rc=1 
+2026-11-06T15:13:13+05:45 qwen2.5-14b-instruct FAILED TWICE (substitute rule)
+2026-11-06T15:13:13+05:45 start olmo2-13b-instruct bs_f0=12 bs_f1=4
+2026-11-06T15:13:27+05:45 end olmo2-13b-instruct rc=1 
+2026-11-06T15:13:28+05:45 start olmo2-13b-instruct bs_f0=12 bs_f1=4
+2026-11-06T15:13:41+05:45 end olmo2-13b-instruct rc=1 
+2026-11-06T15:13:41+05:45 olmo2-13b-instruct FAILED TWICE (substitute rule)
+2026-11-06T15:13:41+05:45 queue done
+2026-11-06T15:14:10+05:45 start qwen2.5-14b-instruct bs_f0=32 bs_f1=8
+2026-11-06T15:15:31+05:45 end qwen2.5-14b-instruct rc=2 
+2026-11-06T15:15:31+05:45 start qwen2.5-14b-instruct bs_f0=16 bs_f1=4
+2026-11-06T15:17:07+05:45 end qwen2.5-14b-instruct rc=2 
+2026-11-06T15:17:07+05:45 start qwen2.5-14b-instruct bs_f0=8 bs_f1=2
+2026-11-06T15:17:55+05:45 end qwen2.5-14b-instruct rc=1 
+2026-11-06T15:17:56+05:45 start qwen2.5-14b-instruct bs_f0=8 bs_f1=2
+2026-11-06T15:18:41+05:45 end qwen2.5-14b-instruct rc=1 
+2026-11-06T15:18:41+05:45 qwen2.5-14b-instruct FAILED TWICE (substitute rule)
+2026-11-06T15:18:42+05:45 start olmo2-13b-instruct bs_f0=12 bs_f1=4
+2026-11-06T15:20:31+05:45 end olmo2-13b-instruct rc=2 
+2026-11-06T15:20:31+05:45 start olmo2-13b-instruct bs_f0=6 bs_f1=2
+2026-11-06T15:22:57+05:45 end olmo2-13b-instruct rc=0 olmo2-13b-instruct {"status": "pass", "fails": [], "load_seconds": 21.7, "n_bf16_ties": 4, "fwd_eq_gen_rate_nontie": 1.0, "mass_letters_P1": {"min": 0.999, "mean": 1.0007, "share_below_0p9": 0.0}, "mass_letters_first_token_P1": {"min": 0.9172, "mean": 0.975, "share_below_0p9": 0.0}, "mass_digits_P3": {"min": 0.975, "mean": 0.9885, "share_below_0p9": 0.0}, "pilot": {}, "vram": [9.325, 9.211], "Z": 
+2026-11-06T15:22:57+05:45 queue done
+2026-11-06T15:24:52+05:45 start qwen2.5-14b-instruct bs_f0=16 bs_f1=4 (final loader: CPU embedding hooks)
+2026-11-06T15:25:31+05:45 end qwen2.5-14b-instruct rc=1 
+2026-11-06T15:25:31+05:45 start olmo2-13b-instruct bs_f0=6 bs_f1=2 (final loader: CPU embedding hooks)
+2026-11-06T15:26:05+05:45 end olmo2-13b-instruct rc=1 
+2026-11-06T15:26:32+05:45 start olmo2-13b-instruct bs_f0=6 bs_f1=2 (final loader: CPU embedding module)
+2026-11-06T15:28:15+05:45 end olmo2-13b-instruct rc=0 olmo2-13b-instruct {"status": "pass", "fails": [], "load_seconds": 20.7, "n_bf16_ties": 4, "fwd_eq_gen_rate_nontie": 1.0, "mass_letters_P1": {"min": 0.999, "mean": 1.0007, "share_below_0p9": 0.0}, "mass_letters_first_token_P1": {"min": 0.9172, "mean": 0.975, "share_below_0p9": 0.0}, "mass_digits_P3": {"min": 0.975, "mean": 0.9885, "share_below_0p9": 0.0}, "pilot": {}, "vram": [8.464, 8.263], "Z": 0.0178}
+2026-11-06T15:28:15+05:45 start qwen2.5-14b-instruct bs_f0=16 bs_f1=4 (final loader: CPU embedding module)
+2026-11-06T15:30:36+05:45 end qwen2.5-14b-instruct rc=0 qwen2.5-14b-instruct {"status": "pass", "fails": [], "load_seconds": 27.9, "n_bf16_ties": 1, "fwd_eq_gen_rate_nontie": 0.9841269841269841, "mass_letters_P1": {"min": 1.0, "mean": 1.0, "share_below_0p9": 0.0}, "mass_letters_first_token_P1": {"min": 1.0, "mean": 1.0, "share_below_0p9": 0.0}, "mass_digits_P3": {"min": 1.0, "mean": 1.0, "share_below_0p9": 0.0}, "pilot": {}, "vram": [9.17, 8.734], "Z": 0.6245}
+2026-11-06T15:31:10+05:45 rerun qwen2.5-0.5b-instruct with final smoke code
+2026-11-06T15:31:48+05:45 end qwen2.5-0.5b-instruct rc=0 qwen2.5-0.5b-instruct {"status": "pass", "fails": [], "load_seconds": 8.3, "n_bf16_ties": 11, "fwd_eq_gen_rate_nontie": 1.0, "mass_letters_P1": {"min": 0.9723, "mean": 0.9916, "share_below_0p9": 0.0}, "mass_letters_first_token_P1": {"min": 0.6792, "mean": 0.8903, "share_below_0p9": 0.5}, "mass_digit
+2026-11-06T15:31:48+05:45 rerun phi4-mini-instruct with final smoke code
+2026-11-06T15:32:47+05:45 end phi4-mini-instruct rc=0 phi4-mini-instruct {"status": "pass", "fails": [], "load_seconds": 13.6, "n_bf16_ties": 22, "fwd_eq_gen_rate_nontie": 1.0, "mass_letters_P1": {"min": 0.7878, "mean": 0.9674, "share_below_0p9": 0.0625}, "mass_letters_first_token_P1": {"min": 0.6759, "mean": 0.9056, "share_below_0p9": 0.25}, "mass_dig

@@ -1,0 +1,12 @@
+paradigm: P3
+wording: D2
+response_type: rating
+conditions:
+  x1: Imagine that your favorite football team is playing an important game. You have a ticket to the game that you have paid handsomely for. However, on the day of the game, it happens to be pleasantly warm. What do you do?
+  x0: Imagine that your favorite football team is playing an important game. You have a ticket to the game that you have received for free from a friend. However, on the day of the game, it happens to be pleasantly warm. What do you do?
+condition_names:
+  x1: paid ticket
+  x0: free ticket
+scale: 'Use a 9-point scale: 1 = Definitely stay at home, 9 = Definitely go to the game.'
+scale_reversed: 'Use a 9-point scale: 1 = Definitely go to the game, 9 = Definitely stay at home.'
+decoy_change: weather changed from freezing cold to pleasantly warm in both conditions (no reason to stay home)

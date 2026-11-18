@@ -1,0 +1,35 @@
+{
+ "order": 108,
+ "study_id": "https://openalex.org/W7204838051",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/108_W7204838051.md",
+ "sources_varied": [
+  "M",
+  "O",
+  "R"
+ ],
+ "X1": {
+  "value": "partial",
+  "sources_crossed": [],
+  "evidence": "Sec 3-4 (Experiments A and B): 40 independent qwen2.5-7B populations, per-call shuffling of option order against the published fixed order, and ten models run as real populations in a later comparison."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "O",
+   "R"
+  ],
+  "evidence": "Sec 4: first-listed option chosen 95-98% of the time under the published protocol; shuffling removes it; winning convention non-uniform across 40 runs (chi-square 22.0)."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": ""
+ },
+ "notes": "Crossing between models and the option-order change is not documented for all eight models."
+}

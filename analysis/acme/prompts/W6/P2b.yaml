@@ -1,0 +1,11 @@
+paradigm: P2b
+wording: W6
+response_type: number
+intro: We're curious about what people believe about the world around them. For this question, a best estimate is what's wanted from you. If the correct answer isn't known to you, just give your best guess.
+conditions:
+  x1: Chicago is lived in by fewer than 5,000,000 people. How many people do you think live there?
+  x0: Chicago is lived in by more than 200,000 people. How many people do you think live there?
+condition_names:
+  x1: high anchor
+  x0: low anchor
+baseline: So how many people do you think live in Chicago?

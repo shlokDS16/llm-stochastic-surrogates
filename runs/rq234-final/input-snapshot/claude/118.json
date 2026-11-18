@@ -1,0 +1,15 @@
+{
+  "order": 118,
+  "study_id": "https://openalex.org/W4403705247",
+  "full_text": {"obtained": true, "source": "research/sources/md/fulltext/118_W4403705247.md"},
+  "eligibility": {"decision": "NO", "failed_criterion": "not-llm", "borderline": false, "evidence": "Methods (p.2): the authors train small vanilla decoder-only Transformers from scratch on N-back sequences (1 layer, 1 head, no FFN); no pretrained generative language model is tested. Prior GPT results are only reproduced from another paper (Fig. 1b)."},
+  "A": {"doi": "10.48550/arxiv.2409.10715", "arxiv_id": "2409.10715", "title": "Self-Attention Limits Working Memory Capacity of Transformer-Based Models", "first_author": "Dongyu Gong", "year": 2024, "venue": "NeurIPS 2024 Workshop on Behavioral Machine Learning (arXiv v2)", "peer_reviewed": "preprint", "first_author_field": "not_reported", "country": "USA"},
+  "B": {"models": [], "n_models": 0, "n_model_families": 0},
+  "C": {"paradigms": []},
+  "D": {"types": [], "primary_type": "none", "human_n": null, "population": "not_reported", "metric": "not_reported"},
+  "E": {"outcome_types": [], "rows_aggregated": false, "effects": [], "headline": ""},
+  "F": {"f1": "no", "f2": "no", "f3": "no", "f4": "no", "f5": "no", "f6": "no", "f7": "no", "f8": "no",
+        "f9": "no", "f10": "no", "f11": "no", "f12": "no", "perturbations_tested": [],
+        "robustness_outcome": "na"},
+  "G": {"notes": "Mechanistic study of purpose-built toy Transformers; no pretrained LLM is run. Referee would ask how findings transfer to pretrained LLMs, which the authors themselves say is not straightforward (Discussion, p.5).", "extractor": "paper-reader (claude-sonnet)", "date": "2026-10-16", "minutes": 3, "sections_read": ["Abstract", "1 Introduction", "2 Methods", "3 Results", "4 Discussion", "Appendix (Table 1, Figs 6-12)"]}
+}

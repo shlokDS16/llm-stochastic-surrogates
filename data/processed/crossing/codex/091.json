@@ -1,0 +1,34 @@
+{
+ "order": 91,
+ "study_id": "arxiv:2610.01222",
+ "pass": "codex",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/091_arxiv_2610.01222.md",
+ "sources_varied": [
+  "M",
+  "R"
+ ],
+ "X1": {
+  "value": "partial",
+  "sources_crossed": [],
+  "evidence": "Secs. 3–4, SI B.5 and C.1: Multiple models and repeated runs were used; each main model-condition cell had 39 or 10 runs, and open-source models had 5. Minimum-thinking trials were a supplementary variation. No model-by-run design factor was described."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "anova_or_mixed_term",
+   "effect_change"
+  ],
+  "x2_sources": [
+   "M"
+  ],
+  "evidence": "Secs. 3–4: Mixed ANOVAs report model as a factor, including F tests and η²p; cooperation means and comparisons are reported by model."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "Secs. 3–4 and SI B.1: The reported interaction analyses concern experimental factors such as reputation, strategy, and emotion; no interaction between varied simulation sources is estimated or shown."
+ },
+ "notes": "Reputation, strategy, and emotion are experimental conditions, not simulation-uncertainty sources. Repeats estimate outcomes per condition; they are not treated as a run-to-run variation factor, so R should not be counted. Model is the only varied source; X1 is no."
+}

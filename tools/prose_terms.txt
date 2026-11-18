@@ -1,0 +1,46 @@
+# Defined terms and proper names that checkers must not "correct" (one per line, case-insensitive match).
+# Add a word here and it is also added to the Harper user dictionary and the Vale ACME vocabulary.
+LLM
+LLMs
+PRISMA
+OLMo
+Qwen
+Granite
+Many Labs
+ACME
+Klein
+OpenAlex
+Crossref
+Zenodo
+# Proper names (not in the Harper/LanguageTool dictionaries)
+Clopper
+Pearson
+Fleiss
+Kish
+Cohen
+Springer
+Nature
+Exa
+Codex
+OpenAI
+Anthropic
+Claude
+BAAI
+gpt
+luna
+cli
+bge
+haiku
+sonnet
+opus
+# Valid British words and technical terms missing from Harper's dictionary
+psychometrics
+generalisability
+nonresponse
+nonrespondents
+estimand
+labeller
+recoded
+synthesised
+not-english
+prevalences

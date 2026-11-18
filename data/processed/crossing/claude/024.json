@@ -1,0 +1,39 @@
+{
+ "order": 24,
+ "study_id": "https://openalex.org/W4404986392",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/024_W4404986392.md",
+ "sources_varied": [
+  "M",
+  "X"
+ ],
+ "X1": {
+  "value": "yes",
+  "sources_crossed": [
+   "M",
+   "X"
+  ],
+  "evidence": "Sec 4-5, Tables 1 and 3, Figs 6-7: nine LLMs each run the same decoy tasks 45 times in a single-query and a multiple-query (session memory) format."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "X",
+   "M"
+  ],
+  "evidence": "Sec 5 (Figs 6-7): decoy effect and target-article ratings contrasted between formats per model; GPT-4o and others show the largest format difference."
+ },
+ "X3": {
+  "value": "yes",
+  "x3_pairs": [
+   "M x X"
+  ],
+  "evidence": "Sec 5, Figs 6-7: only two models follow the same trend in both formats, the others differ; descriptive, not tested."
+ },
+ "notes": "Query format (single vs session memory) coded as X (context/presentation)."
+}

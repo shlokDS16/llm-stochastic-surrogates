@@ -1,0 +1,406 @@
+{
+  "order": 12,
+  "study_id": "https://openalex.org/W7140226071",
+  "full_text": {
+    "obtained": true,
+    "source": "https://onlinelibrary.wiley.com/doi/full/10.1111/tgis.70242; partial page text, ending in Section 6.1"
+  },
+  "eligibility": {
+    "decision": "YES",
+    "failed_criterion": null,
+    "borderline": false,
+    "evidence": "Sections 2.1.1–2.1.2 identify category production as a cognitive-psychology experiment and cite Battig and Montague (1969), Rosch (1975), and Smith and Mark (2001). Sections 3–4 report original LLM experiments across 297 geographic categories."
+  },
+  "A": {
+    "doi": "10.1111/tgis.70242",
+    "arxiv_id": null,
+    "title": "Golden Gate Bridge, as Always? Eliciting Prototypical Places From Autoregressive Large Language Models via Category Production",
+    "first_author": "Zilong Liu",
+    "year": 2026,
+    "venue": "Transactions in GIS",
+    "peer_reviewed": "yes",
+    "first_author_field": "not_reported",
+    "country": "not_reported"
+  },
+  "B": {
+    "models": [
+      {
+        "name": "GPT-3.5 Turbo",
+        "version": "gpt-3.5-turbo-0125",
+        "access": "API",
+        "params_b": null,
+        "release_date": "not_reported",
+        "tuning": "instruction",
+        "family": "GPT",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "GPT-4 Turbo",
+        "version": "gpt-4-turbo-2024-04-09",
+        "access": "API",
+        "params_b": null,
+        "release_date": "not_reported",
+        "tuning": "instruction",
+        "family": "GPT",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "GPT-4o Mini",
+        "version": "gpt-4o-mini-2024-07-18",
+        "access": "API",
+        "params_b": null,
+        "release_date": "not_reported",
+        "tuning": "instruction",
+        "family": "GPT",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "GPT-4o",
+        "version": "gpt-4o-2024-08-06",
+        "access": "API",
+        "params_b": null,
+        "release_date": "not_reported",
+        "tuning": "instruction",
+        "family": "GPT",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "ChatGPT-4o",
+        "version": "chatgpt-4o-latest",
+        "access": "API",
+        "params_b": null,
+        "release_date": "not_reported",
+        "tuning": "instruction",
+        "family": "GPT",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "GPT-4.1 Nano",
+        "version": "gpt-4.1-nano-2025-04-14",
+        "access": "API",
+        "params_b": null,
+        "release_date": "not_reported",
+        "tuning": "instruction",
+        "family": "GPT",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "GPT-4.1 Mini",
+        "version": "gpt-4.1-mini-2025-04-14",
+        "access": "API",
+        "params_b": null,
+        "release_date": "not_reported",
+        "tuning": "instruction",
+        "family": "GPT",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "GPT-4.1",
+        "version": "gpt-4.1-2025-04-14",
+        "access": "API",
+        "params_b": null,
+        "release_date": "not_reported",
+        "tuning": "instruction",
+        "family": "GPT",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "DeepSeek-V3",
+        "version": "deepseek-v3-0324",
+        "access": "open_weights",
+        "params_b": null,
+        "release_date": "not_reported",
+        "tuning": "not_reported",
+        "family": "other",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "Llama 4 Scout",
+        "version": "llama-4-scout-17b-16e-instruct",
+        "access": "open_weights",
+        "params_b": null,
+        "release_date": "not_reported",
+        "tuning": "instruction",
+        "family": "Llama",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "Llama 4 Maverick",
+        "version": "llama-4-maverick-17b-128e-instruct-fp8",
+        "access": "open_weights",
+        "params_b": null,
+        "release_date": "not_reported",
+        "tuning": "instruction",
+        "family": "Llama",
+        "query_date": "not_reported"
+      }
+    ],
+    "n_models": 11,
+    "n_model_families": 3
+  },
+  "C": {
+    "paradigms": [
+      {
+        "pid": "P1",
+        "name": "Category production for geographic categories",
+        "family": "LEARN",
+        "source_paper": "Battig and Montague (1969); adapted geographic category production also discussed in Smith and Mark (2001)",
+        "items_origin": "adapted",
+        "n_items": 297,
+        "languages": [
+          "English"
+        ],
+        "modality": "text",
+        "contamination_risk": "partly",
+        "location": "Sections 2.1.1–2.1.2, 3.1–3.3"
+      }
+    ]
+  },
+  "D": {
+    "types": [],
+    "primary_type": "none",
+    "human_n": null,
+    "population": "not_reported",
+    "metric": "not_reported"
+  },
+  "E": {
+    "outcome_types": [
+      "choice_distribution",
+      "other"
+    ],
+    "rows_aggregated": false,
+    "effects": [
+      {
+        "pid": "P1",
+        "model": "GPT-3.5 Turbo",
+        "model_family": "GPT",
+        "outcome_kind": "effect",
+        "basis": "descriptive",
+        "model_effect_present": "yes",
+        "human_effect_present": "no_human_reference",
+        "direction": "not_reported",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "NO-HUMAN-REFERENCE",
+        "location": "Sections 4.1–4.3; Figures 2–10 and Tables 3–5"
+      },
+      {
+        "pid": "P1",
+        "model": "GPT-4 Turbo",
+        "model_family": "GPT",
+        "outcome_kind": "effect",
+        "basis": "descriptive",
+        "model_effect_present": "yes",
+        "human_effect_present": "no_human_reference",
+        "direction": "not_reported",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "NO-HUMAN-REFERENCE",
+        "location": "Sections 4.1–4.3; Figures 2–10 and Tables 3–5"
+      },
+      {
+        "pid": "P1",
+        "model": "GPT-4o Mini",
+        "model_family": "GPT",
+        "outcome_kind": "effect",
+        "basis": "descriptive",
+        "model_effect_present": "yes",
+        "human_effect_present": "no_human_reference",
+        "direction": "not_reported",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "NO-HUMAN-REFERENCE",
+        "location": "Sections 4.1–4.3; Figures 2–10 and Tables 3–5"
+      },
+      {
+        "pid": "P1",
+        "model": "GPT-4o",
+        "model_family": "GPT",
+        "outcome_kind": "effect",
+        "basis": "descriptive",
+        "model_effect_present": "yes",
+        "human_effect_present": "no_human_reference",
+        "direction": "not_reported",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "NO-HUMAN-REFERENCE",
+        "location": "Sections 4.1–4.3; Figures 2–10 and Tables 3–5"
+      },
+      {
+        "pid": "P1",
+        "model": "ChatGPT-4o",
+        "model_family": "GPT",
+        "outcome_kind": "effect",
+        "basis": "descriptive",
+        "model_effect_present": "yes",
+        "human_effect_present": "no_human_reference",
+        "direction": "not_reported",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "NO-HUMAN-REFERENCE",
+        "location": "Sections 4.1–4.3; Figures 2–10 and Tables 3–5"
+      },
+      {
+        "pid": "P1",
+        "model": "GPT-4.1 Nano",
+        "model_family": "GPT",
+        "outcome_kind": "effect",
+        "basis": "descriptive",
+        "model_effect_present": "yes",
+        "human_effect_present": "no_human_reference",
+        "direction": "not_reported",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "NO-HUMAN-REFERENCE",
+        "location": "Sections 4.1–4.3; Figures 2–10 and Tables 3–5"
+      },
+      {
+        "pid": "P1",
+        "model": "GPT-4.1 Mini",
+        "model_family": "GPT",
+        "outcome_kind": "effect",
+        "basis": "descriptive",
+        "model_effect_present": "yes",
+        "human_effect_present": "no_human_reference",
+        "direction": "not_reported",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "NO-HUMAN-REFERENCE",
+        "location": "Sections 4.1–4.3; Figures 2–10 and Tables 3–5"
+      },
+      {
+        "pid": "P1",
+        "model": "GPT-4.1",
+        "model_family": "GPT",
+        "outcome_kind": "effect",
+        "basis": "descriptive",
+        "model_effect_present": "yes",
+        "human_effect_present": "no_human_reference",
+        "direction": "not_reported",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "NO-HUMAN-REFERENCE",
+        "location": "Sections 4.1–4.3; Figures 2–10 and Tables 3–5"
+      },
+      {
+        "pid": "P1",
+        "model": "DeepSeek-V3",
+        "model_family": "other",
+        "outcome_kind": "effect",
+        "basis": "descriptive",
+        "model_effect_present": "yes",
+        "human_effect_present": "no_human_reference",
+        "direction": "not_reported",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "NO-HUMAN-REFERENCE",
+        "location": "Sections 4.1–4.3; Figures 2–10 and Tables 3–5"
+      },
+      {
+        "pid": "P1",
+        "model": "Llama 4 Scout",
+        "model_family": "Llama",
+        "outcome_kind": "effect",
+        "basis": "descriptive",
+        "model_effect_present": "yes",
+        "human_effect_present": "no_human_reference",
+        "direction": "not_reported",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "NO-HUMAN-REFERENCE",
+        "location": "Sections 4.1–4.3; Figures 2–10 and Tables 3–5"
+      },
+      {
+        "pid": "P1",
+        "model": "Llama 4 Maverick",
+        "model_family": "Llama",
+        "outcome_kind": "effect",
+        "basis": "descriptive",
+        "model_effect_present": "yes",
+        "human_effect_present": "no_human_reference",
+        "direction": "not_reported",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "NO-HUMAN-REFERENCE",
+        "location": "Sections 4.1–4.3; Figures 2–10 and Tables 3–5"
+      }
+    ],
+    "headline": "Across 297 geographic categories, the models produced graded category norms with recurring prototypical places and limited geographic diversity."
+  },
+  "F": {
+    "f1": "no",
+    "f2": "yes",
+    "f3": "yes",
+    "f4": "yes",
+    "f5": "no",
+    "f6": "na",
+    "f7": "yes",
+    "f8": "yes",
+    "f9": "no",
+    "f10": "no",
+    "f11": "no",
+    "f12": "not_reported",
+    "perturbations_tested": [
+      "decoding",
+      "persona"
+    ],
+    "robustness_outcome": "survived"
+  },
+  "G": {
+    "notes": "The captured full text ends within Section 6.1; conclusions, appendices, references and availability statements are missing. The report describes strong geographic underrepresentation but gives no parallel human experiment, limiting claims about correspondence to human prototypes.",
+    "extractor": "codex (default)",
+    "date": "2026-10-17",
+    "minutes": 6,
+    "sections_read": [
+      "Abstract",
+      "Sections 1–5",
+      "Section 6.1 (partial)",
+      "Methods: model list, procedure and prompts",
+      "Results: reported tables and figures"
+    ]
+  }
+}

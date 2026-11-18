@@ -1,0 +1,159 @@
+{
+ "order": 98,
+ "study_id": "https://openalex.org/W4324108791",
+ "full_text": {
+  "obtained": true,
+  "source": "research/sources/md/fulltext/098_W4324108791.md (arXiv 2303.06074)"
+ },
+ "eligibility": {
+  "decision": "YES",
+  "failed_criterion": null,
+  "borderline": false,
+  "evidence": "Sections 3-4: GPT-3 completion used as simulated participant in an illusory-truth-effect experiment and a populist news-framing experiment, compared with human data."
+ },
+ "A": {
+  "doi": "10.48550/arxiv.2303.06074",
+  "arxiv_id": "2303.06074",
+  "title": "Susceptibility to Influence of Large Language Models",
+  "first_author": "Lewis D Griffin",
+  "year": 2023,
+  "venue": "arXiv",
+  "peer_reviewed": "preprint",
+  "first_author_field": "CS",
+  "country": "UK"
+ },
+ "B": {
+  "models": [
+   {
+    "name": "GPT-3 text-davinci-003",
+    "version": "text-davinci-003",
+    "access": "API",
+    "params_b": 200,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "GPT",
+    "query_date": "Study 2: early February 2023; Study 1 not stated"
+   }
+  ],
+  "n_models": 1,
+  "n_model_families": 1
+ },
+ "C": {
+  "paradigms": [
+   {
+    "pid": "P1",
+    "name": "Illusory truth effect (exposure by rating one attribute, later truth/interest/sentiment/importance rating)",
+    "family": "HB",
+    "source_paper": "ITE literature, first shown 1977 (ref [28]); reference list not read",
+    "items_origin": "novel",
+    "n_items": 100,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "no",
+    "location": "Sec. 3.1, Tables 1-2, Figs 1-2"
+   },
+   {
+    "pid": "P2",
+    "name": "Populist framing of news, persuasion and mobilization (simulated Bos et al. design)",
+    "family": "HB",
+    "source_paper": "Bos et al. (ref [35])",
+    "items_origin": "adapted",
+    "n_items": 4,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "no",
+    "location": "Sec. 4.1-4.2, Fig. 6; four article versions, five probe statements"
+   }
+  ]
+ },
+ "D": {
+  "types": [
+   "own_sample",
+   "published_norms"
+  ],
+  "primary_type": "own_sample",
+  "human_n": 1000,
+  "population": "P1: 1000 Prolific participants, UK, aged 21-65; P2: 7286 participants from 15 countries (Bos et al. data)",
+  "metric": "mean rating shifts (offset/tilt) for P1; regression coefficients on 1-7 persuasion and mobilization scores for P2"
+ },
+ "E": {
+  "outcome_types": [
+   "effect_size",
+   "human_correlation"
+  ],
+  "rows_aggregated": false,
+  "effects": [
+   {
+    "pid": "P1",
+    "model": "text-davinci-003",
+    "model_family": "GPT",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": 0.54,
+    "human_es": 0.26,
+    "es_metric": "offset in truth rating points, mixed exposure (Eq. 1, Table 4)",
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "EXAGGERATED",
+    "location": "Sec. 3.3, Table 4 (truth offset; CIs [0.22,0.95] vs [0.12,0.39]); authors call magnitudes similar, Sec. 5"
+   },
+   {
+    "pid": "P2",
+    "model": "text-davinci-003",
+    "model_family": "GPT",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": 0.478,
+    "human_es": 0.079,
+    "es_metric": "regression coefficient, anti-elitist framing (E) on persuasion, 1-7 scale (H1a, Table 7)",
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "EXAGGERATED",
+    "location": "Sec. 4.3, Table 7 row H1a (first-reported effect; other 11 effects reported separately, not pooled)"
+   }
+  ],
+  "headline": "GPT-3 reproduces the human illusory truth effect and several framing effects, but misses the relative-deprivation modulation; LLMs may model influence."
+ },
+ "F": {
+  "f1": "no",
+  "f2": "no",
+  "f3": "no",
+  "f4": "no",
+  "f5": "no",
+  "f6": "no",
+  "f7": "no",
+  "f8": "no",
+  "f9": "no",
+  "f10": "yes",
+  "f11": "no",
+  "f12": "no",
+  "perturbations_tested": [],
+  "robustness_outcome": "na"
+ },
+ "G": {
+  "notes": "P2 has 12 separate effects (4 absent in both, 3 matching, 2 human-only, 3 GPT-only); only the first-reported row coded. Offset ratio in P1 is 2.08 by rule although CIs overlap and authors say similar. Temperature not stated for Study 1. Only 2153 of 7286 simulated PFN participants run.",
+  "extractor": "paper-reader (claude-sonnet)",
+  "date": "2026-10-16",
+  "minutes": 1.3,
+  "sections_read": [
+   "abstract",
+   "sec 2",
+   "sec 3 incl. Tables 1-5",
+   "sec 4 incl. Tables 6-7",
+   "sec 5",
+   "sec 6.1"
+  ]
+ }
+}

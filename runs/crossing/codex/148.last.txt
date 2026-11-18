@@ -1,0 +1,26 @@
+{
+  "order": 148,
+  "study_id": "https://openalex.org/W4386910589",
+  "pass": "codex",
+  "brief_version": "1.0",
+  "date": "2026-11-07",
+  "full_text": "research/sources/md/fulltext/148_W4386910589.md",
+  "sources_varied": ["M", "W"],
+  "X1": {
+    "value": "partial",
+    "sources_crossed": [],
+    "evidence": "Experiment 1, pp. 11–13; Appendix A, pp. 39–40: GPT-4 was evaluated with selected prompt variants, while GPT-3.5 used one adapted prompt; models and wording were not fully crossed."
+  },
+  "X2": {
+    "value": "yes",
+    "x2_types": ["effect_change"],
+    "x2_sources": ["M"],
+    "evidence": "Experiment 2, Table 6, p. 23: bootstrap comparisons quantified how often one model correlated better with human ratings than another."
+  },
+  "X3": {
+    "value": "no",
+    "x3_pairs": [],
+    "evidence": "Experiments 1–2, pp. 11–23; Appendices A–B, pp. 39–42: prompt variants and model comparisons are described, but no source-by-source interaction is estimated or shown."
+  },
+  "notes": ""
+}

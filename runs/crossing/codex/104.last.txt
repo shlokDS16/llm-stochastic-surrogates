@@ -1,0 +1,26 @@
+{
+  "order": 104,
+  "study_id": "https://openalex.org/W4409346804",
+  "pass": "codex",
+  "brief_version": "1.0",
+  "date": "2026-11-07",
+  "full_text": "research/sources/md/fulltext/104_W4409346804.md",
+  "sources_varied": ["M", "P", "R"],
+  "X1": {
+    "value": "partial",
+    "sources_crossed": [],
+    "evidence": "Sec. 5, Tables 3 and 5: nine models were evaluated, personality trait profiles varied, and results were averaged over five runs; the text does not report a full crossing of models, profiles, and runs."
+  },
+  "X2": {
+    "value": "yes",
+    "x2_types": ["effect_change"],
+    "x2_sources": ["P"],
+    "evidence": "Sec. 5, Table 5: performance scores are reported separately for high and low levels of each personality trait, with the text describing performance variation by trait."
+  },
+  "X3": {
+    "value": "no",
+    "x3_pairs": [],
+    "evidence": "Sec. 5, Table 5 reports personality-level scores by model, but the text does not estimate or state that the effect of personality depends on model."
+  },
+  "notes": "Five-run averages and standard deviations are reported, but runs are used to summarize performance rather than analyzed as a design factor."
+}

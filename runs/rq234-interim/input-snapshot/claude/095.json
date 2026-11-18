@@ -1,0 +1,35 @@
+{
+  "order": 95,
+  "study_id": "https://openalex.org/W4414907014",
+  "full_text": {"obtained": true, "source": "research/sources/md/fulltext/095_W4414907014.md"},
+  "eligibility": {"decision": "YES", "failed_criterion": null, "borderline": false,
+    "evidence": "Method pp7-10: GPT-3.5-turbo, GPT-4-turbo, GPT-4o give relatedness and judgment-of-learning ratings for garden-path sentence pairs (cites Nelson 1990, Koriat 1997); same task run on 78 Prolific participants; new model and human data."},
+  "A": {"doi": "10.1038/s41598-025-22290-x", "arxiv_id": "2410.13392",
+        "title": "Judgments of learning distinguish humans from large language models in predicting memory",
+        "first_author": "Markus Huff", "year": 2025, "venue": "Scientific Reports", "peer_reviewed": "yes",
+        "first_author_field": "not_reported", "country": "Germany"},
+  "B": {"models": [
+    {"name": "GPT-3.5-turbo", "version": "gpt-3.5-turbo-0125", "access": "API", "params_b": null, "release_date": "not_reported", "tuning": "instruction", "family": "GPT", "query_date": "not_reported"},
+    {"name": "GPT-4-turbo", "version": "gpt-4-turbo-2024-04-09", "access": "API", "params_b": null, "release_date": "not_reported", "tuning": "instruction", "family": "GPT", "query_date": "not_reported"},
+    {"name": "GPT-4o", "version": "gpt-4o-2024-05-13", "access": "API", "params_b": null, "release_date": "not_reported", "tuning": "instruction", "family": "GPT", "query_date": "not_reported"}
+    ],
+    "n_models": 3, "n_model_families": 1},
+  "C": {"paradigms": [
+    {"pid": "P1", "name": "Judgment of learning (memorability rating of a garden-path sentence after a fitting or unfitting context sentence) predicting human recognition memory", "family": "MEM", "source_paper": "Nelson 1990; Koriat 1997; Huff and Ulakci 2024", "items_origin": "verbatim", "n_items": 45, "languages": ["English"], "modality": "text", "contamination_risk": "not_reported", "location": "Method pp7-10, Table 1"}
+  ]},
+  "D": {"types": ["own_sample"], "primary_type": "own_sample", "human_n": 78, "population": "English-speaking adults recruited via Prolific, mean age 46.04", "metric": "slope of recognition accuracy on JOL (bootstrapped mixed model, 95% CI)"},
+  "E": {"outcome_types": ["human_correlation", "effect_size"], "rows_aggregated": false,
+    "effects": [
+      {"pid": "P1", "model": "gpt-3.5-turbo-0125", "model_family": "GPT", "outcome_kind": "agreement", "basis": "test", "model_effect_present": "na", "human_effect_present": "na", "direction": "not_applicable", "model_es": 0.013, "human_es": 0.167, "es_metric": "bootstrapped slope of human recognition on JOL, fitting context (95% CI model [-0.147, 0.172]; human [0.018, 0.316])", "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": 0.013, "label": "AGREEMENT-ONLY", "location": "Results pp12-14, Fig 2; fitting context reported first, unfitting slope 0.044 [-0.087, 0.175] vs human 0.104"},
+      {"pid": "P1", "model": "gpt-4-turbo-2024-04-09", "model_family": "GPT", "outcome_kind": "agreement", "basis": "test", "model_effect_present": "na", "human_effect_present": "na", "direction": "not_applicable", "model_es": 0.026, "human_es": 0.167, "es_metric": "bootstrapped slope of human recognition on JOL, fitting context (95% CI model [-0.143, 0.194]; human [0.018, 0.316])", "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": 0.026, "label": "AGREEMENT-ONLY", "location": "Results pp13-14, Fig 2; fitting context reported first, unfitting slope 0.016 [-0.108, 0.139]"},
+      {"pid": "P1", "model": "gpt-4o-2024-05-13", "model_family": "GPT", "outcome_kind": "agreement", "basis": "test", "model_effect_present": "na", "human_effect_present": "na", "direction": "not_applicable", "model_es": 0.045, "human_es": 0.167, "es_metric": "bootstrapped slope of human recognition on JOL, fitting context (95% CI model [-0.159, 0.248]; human [0.018, 0.316])", "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": 0.045, "label": "AGREEMENT-ONLY", "location": "Results pp13-14, Fig 2; fitting context reported first, unfitting slope 0.027 [-0.090, 0.143]"}
+    ],
+    "headline": "Human judgments of learning predict item-level recognition memory; none of the three GPT models' ratings do, in either context."},
+  "F": {"f1": "no", "f2": "yes", "f3": "yes", "f4": "yes", "f5": "no", "f6": "na", "f7": "no", "f8": "yes",
+        "f9": "no", "f10": "yes", "f11": "no", "f12": "yes",
+        "perturbations_tested": ["model_version"],
+        "robustness_outcome": "survived"},
+  "G": {"notes": "Conclusion rests on non-significant model slopes (CIs include zero) set beside a significant human slope; no direct test of the model-human slope difference. Human learning phase used 22 pairs per person, models rated all 45. Zero-shot single prompt wording. Query dates not given.",
+        "extractor": "paper-reader (claude-sonnet)", "date": "2026-10-16", "minutes": 4,
+        "sections_read": ["abstract", "Introduction", "Method", "Results", "Discussion", "Limitations", "Data Availability Statement"]}
+}

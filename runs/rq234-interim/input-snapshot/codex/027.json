@@ -1,0 +1,89 @@
+{
+ "order": 27,
+ "study_id": "https://openalex.org/W4389523946",
+ "full_text": {
+  "obtained": true,
+  "source": "research/sources/md/fulltext/027_W4389523946.md"
+ },
+ "eligibility": {
+  "decision": "NO",
+  "failed_criterion": "questionnaire-only",
+  "borderline": false,
+  "evidence": "Sections 2–3: tests ChatGPT on NLU dataset classification tasks with shuffled labels, rather than administering a cognitive-experimental paradigm to study human cognition."
+ },
+ "A": {
+  "doi": null,
+  "arxiv_id": "2310.13206",
+  "title": "Primacy Effect of ChatGPT",
+  "first_author": "Yiwei Wang",
+  "year": 2024,
+  "venue": "arXiv preprint",
+  "peer_reviewed": "preprint",
+  "first_author_field": "not_reported",
+  "country": "United States"
+ },
+ "B": {
+  "models": [
+   {
+    "name": "ChatGPT",
+    "version": "gpt-3.5-turbo",
+    "access": "API",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "GPT",
+    "query_date": "not_reported"
+   }
+  ],
+  "n_models": 1,
+  "n_model_families": 1
+ },
+ "C": {
+  "paradigms": []
+ },
+ "D": {
+  "types": [],
+  "primary_type": "none",
+  "human_n": null,
+  "population": "not_reported",
+  "metric": "not_reported"
+ },
+ "E": {
+  "outcome_types": [],
+  "rows_aggregated": false,
+  "effects": [],
+  "headline": ""
+ },
+ "F": {
+  "f1": "no",
+  "f2": "no",
+  "f3": "no",
+  "f4": "no",
+  "f5": "no",
+  "f6": "no",
+  "f7": "no",
+  "f8": "no",
+  "f9": "no",
+  "f10": "no",
+  "f11": "no",
+  "f12": "no",
+  "perturbations_tested": [],
+  "robustness_outcome": "na"
+ },
+ "G": {
+  "notes": "The study measures label-order sensitivity in language-model classification, using existing labeled datasets; it does not test a cognitive-experimental task with human participants or comparison data.",
+  "extractor": "codex (default)",
+  "date": "2026-10-16",
+  "minutes": 0.5,
+  "sections_read": [
+   "Abstract",
+   "Introduction",
+   "Methods",
+   "Experiments",
+   "Results",
+   "Limitations",
+   "Conclusion",
+   "References"
+  ]
+ }
+}

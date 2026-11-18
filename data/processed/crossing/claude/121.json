@@ -1,0 +1,36 @@
+{
+ "order": 121,
+ "study_id": "https://openalex.org/W4387075046",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/121_W4387075046.md",
+ "sources_varied": [
+  "M",
+  "O"
+ ],
+ "X1": {
+  "value": "yes",
+  "sources_crossed": [
+   "M",
+   "O"
+  ],
+  "evidence": "Sec 3 (p.5-6): seven LLMs at temperature 0 on each dilemma with 8 permutations of the 12 statements and all 6 permutations of the options (48 prompts per dilemma)."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "O"
+  ],
+  "evidence": "Sec 4 (violin plots, Figs 2-3): spread of pscore across the 48 permutation runs reported per model and dilemma."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": ""
+ },
+ "notes": "Spread across permutations is shown but not partitioned into shares."
+}

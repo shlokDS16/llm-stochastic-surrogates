@@ -1,0 +1,406 @@
+{
+ "selection": "data/processed/extraction/claude/*.json with eligibility.decision == \"YES\" (full-text eligibility E1-E6, research/protocol/fulltext-extraction-brief.md); full text path from data/processed/fulltext/reading-list.jsonl",
+ "n": 80,
+ "studies": [
+  {
+   "order": 2,
+   "study_id": "W4415187106",
+   "full_text": "research/sources/md/fulltext/002_W4415187106.md"
+  },
+  {
+   "order": 6,
+   "study_id": "W4409762247",
+   "full_text": "research/sources/md/fulltext/006_W4409762247.md"
+  },
+  {
+   "order": 9,
+   "study_id": "W7165674475",
+   "full_text": "research/sources/md/fulltext/009_W7165674475.md"
+  },
+  {
+   "order": 12,
+   "study_id": "W7140226071",
+   "full_text": "research/sources/md/fulltext/012_W7140226071.md"
+  },
+  {
+   "order": 13,
+   "study_id": "https://openalex.org/W4404782648",
+   "full_text": "research/sources/md/fulltext/013_W4404782648.md"
+  },
+  {
+   "order": 15,
+   "study_id": "https://openalex.org/W7133223423",
+   "full_text": "research/sources/md/fulltext/015_W7133223423.md"
+  },
+  {
+   "order": 16,
+   "study_id": "https://openalex.org/W7168344152",
+   "full_text": "research/sources/md/fulltext/016_W7168344152.md"
+  },
+  {
+   "order": 18,
+   "study_id": "https://openalex.org/W3213674227",
+   "full_text": "research/sources/md/fulltext/018_W3213674227.md"
+  },
+  {
+   "order": 19,
+   "study_id": "https://openalex.org/W7166839453",
+   "full_text": "research/sources/md/fulltext/019_W7166839453.md"
+  },
+  {
+   "order": 21,
+   "study_id": "https://openalex.org/W4389520324",
+   "full_text": "research/sources/md/fulltext/021_W4389520324.md"
+  },
+  {
+   "order": 22,
+   "study_id": "https://openalex.org/W7165006854",
+   "full_text": "research/sources/md/fulltext/022_W7165006854.md"
+  },
+  {
+   "order": 23,
+   "study_id": "https://openalex.org/W7128741662",
+   "full_text": "research/sources/md/fulltext/023_W7128741662.md"
+  },
+  {
+   "order": 24,
+   "study_id": "https://openalex.org/W4404986392",
+   "full_text": "research/sources/md/fulltext/024_W4404986392.md"
+  },
+  {
+   "order": 25,
+   "study_id": "W4399354223",
+   "full_text": "research/sources/md/fulltext/025_W4399354223.md"
+  },
+  {
+   "order": 26,
+   "study_id": "https://openalex.org/W7139936057",
+   "full_text": "research/sources/md/fulltext/026_W7139936057.md"
+  },
+  {
+   "order": 28,
+   "study_id": "https://openalex.org/W4394647506",
+   "full_text": "research/sources/md/fulltext/028_W4394647506.md"
+  },
+  {
+   "order": 29,
+   "study_id": "W7154453073",
+   "full_text": "research/sources/md/fulltext/029_W7154453073.md"
+  },
+  {
+   "order": 30,
+   "study_id": "W4392811684",
+   "full_text": "research/sources/md/fulltext/030_W4392811684.md"
+  },
+  {
+   "order": 31,
+   "study_id": "W7170054352",
+   "full_text": "research/sources/md/fulltext/031_W7170054352.md"
+  },
+  {
+   "order": 32,
+   "study_id": "https://openalex.org/W7170951503",
+   "full_text": "research/sources/md/fulltext/032_W7170951503.md"
+  },
+  {
+   "order": 33,
+   "study_id": "W4414079627",
+   "full_text": "research/sources/md/fulltext/033_W4414079627.md"
+  },
+  {
+   "order": 34,
+   "study_id": "https://openalex.org/W4392181976",
+   "full_text": "research/sources/md/fulltext/034_W4392181976.md"
+  },
+  {
+   "order": 35,
+   "study_id": "https://openalex.org/W4390754474",
+   "full_text": "research/sources/md/fulltext/035_W4390754474.md"
+  },
+  {
+   "order": 41,
+   "study_id": "W4408102289",
+   "full_text": "research/sources/md/fulltext/041_W4408102289.md"
+  },
+  {
+   "order": 45,
+   "study_id": "https://openalex.org/W4386272709",
+   "full_text": "research/sources/md/fulltext/045_W4386272709.md"
+  },
+  {
+   "order": 46,
+   "study_id": "arxiv:2607.21558",
+   "full_text": "research/sources/md/fulltext/046_arxiv_2607.21558.md"
+  },
+  {
+   "order": 48,
+   "study_id": "https://openalex.org/W7166838030",
+   "full_text": "research/sources/md/fulltext/048_W7166838030.md"
+  },
+  {
+   "order": 49,
+   "study_id": "https://openalex.org/W4376140095",
+   "full_text": "research/sources/md/fulltext/049_W4376140095.md"
+  },
+  {
+   "order": 55,
+   "study_id": "https://openalex.org/W7155065994",
+   "full_text": "research/sources/md/fulltext/055_W7155065994.md"
+  },
+  {
+   "order": 57,
+   "study_id": "https://openalex.org/W4416241868",
+   "full_text": "research/sources/md/fulltext/057_W4416241868.md"
+  },
+  {
+   "order": 59,
+   "study_id": "arxiv:2606.11724",
+   "full_text": "research/sources/md/fulltext/059_arxiv_2606.11724.md"
+  },
+  {
+   "order": 60,
+   "study_id": "https://openalex.org/W4404136902",
+   "full_text": "research/sources/md/fulltext/060_W4404136902.md"
+  },
+  {
+   "order": 62,
+   "study_id": "https://openalex.org/W4414940251",
+   "full_text": "research/sources/md/fulltext/062_W4414940251.md"
+  },
+  {
+   "order": 65,
+   "study_id": "https://openalex.org/W4402667152",
+   "full_text": "research/sources/md/fulltext/065_W4402667152.md"
+  },
+  {
+   "order": 73,
+   "study_id": "https://openalex.org/W4388787315",
+   "full_text": "research/sources/md/fulltext/073_W4388787315.md"
+  },
+  {
+   "order": 74,
+   "study_id": "https://openalex.org/W4405469570",
+   "full_text": "research/sources/md/fulltext/074_W4405469570.md"
+  },
+  {
+   "order": 75,
+   "study_id": "https://openalex.org/W4387634965",
+   "full_text": "research/sources/md/fulltext/075_W4387634965.md"
+  },
+  {
+   "order": 76,
+   "study_id": "https://openalex.org/W7140140566",
+   "full_text": "research/sources/md/fulltext/076_W7140140566.md"
+  },
+  {
+   "order": 77,
+   "study_id": "https://openalex.org/W4405785524",
+   "full_text": "research/sources/md/fulltext/077_W4405785524.md"
+  },
+  {
+   "order": 78,
+   "study_id": "https://openalex.org/W7154389923",
+   "full_text": "research/sources/md/fulltext/078_W7154389923.md"
+  },
+  {
+   "order": 85,
+   "study_id": "https://openalex.org/W4385571259",
+   "full_text": "research/sources/md/fulltext/085_W4385571259.md"
+  },
+  {
+   "order": 87,
+   "study_id": "https://openalex.org/W4390306118",
+   "full_text": "research/sources/md/fulltext/087_W4390306118.md"
+  },
+  {
+   "order": 88,
+   "study_id": "https://openalex.org/W4321277158",
+   "full_text": "research/sources/md/fulltext/088_W4321277158.md"
+  },
+  {
+   "order": 89,
+   "study_id": "https://openalex.org/W4403881111",
+   "full_text": "research/sources/md/fulltext/089_W4403881111.md"
+  },
+  {
+   "order": 91,
+   "study_id": "arxiv:2610.01222",
+   "full_text": "research/sources/md/fulltext/091_arxiv_2610.01222.md"
+  },
+  {
+   "order": 92,
+   "study_id": "https://openalex.org/W4402669698",
+   "full_text": "research/sources/md/fulltext/092_W4402669698.md"
+  },
+  {
+   "order": 94,
+   "study_id": "https://openalex.org/W4404554448",
+   "full_text": "research/sources/md/fulltext/094_W4404554448.md"
+  },
+  {
+   "order": 95,
+   "study_id": "https://openalex.org/W4414907014",
+   "full_text": "research/sources/md/fulltext/095_W4414907014.md"
+  },
+  {
+   "order": 96,
+   "study_id": "https://openalex.org/W4383058631",
+   "full_text": "research/sources/md/fulltext/096_W4383058631.md"
+  },
+  {
+   "order": 98,
+   "study_id": "https://openalex.org/W4324108791",
+   "full_text": "research/sources/md/fulltext/098_W4324108791.md"
+  },
+  {
+   "order": 99,
+   "study_id": "https://openalex.org/W4380714623",
+   "full_text": "research/sources/md/fulltext/099_W4380714623.md"
+  },
+  {
+   "order": 101,
+   "study_id": "https://openalex.org/W7133241468",
+   "full_text": "research/sources/md/fulltext/101_W7133241468.md"
+  },
+  {
+   "order": 104,
+   "study_id": "https://openalex.org/W4409346804",
+   "full_text": "research/sources/md/fulltext/104_W4409346804.md"
+  },
+  {
+   "order": 105,
+   "study_id": "W4405133564",
+   "full_text": "research/sources/md/fulltext/105_W4405133564.md"
+  },
+  {
+   "order": 106,
+   "study_id": "https://openalex.org/W4416843768",
+   "full_text": "research/sources/md/fulltext/106_W4416843768.md"
+  },
+  {
+   "order": 107,
+   "study_id": "W4390740352",
+   "full_text": "research/sources/md/fulltext/107_W4390740352.md"
+  },
+  {
+   "order": 108,
+   "study_id": "https://openalex.org/W7204838051",
+   "full_text": "research/sources/md/fulltext/108_W7204838051.md"
+  },
+  {
+   "order": 110,
+   "study_id": "https://openalex.org/W4412944072",
+   "full_text": "research/sources/md/fulltext/110_W4412944072.md"
+  },
+  {
+   "order": 111,
+   "study_id": "https://openalex.org/W7155407217",
+   "full_text": "research/sources/md/fulltext/111_W7155407217.md"
+  },
+  {
+   "order": 113,
+   "study_id": "arxiv:2608.01598",
+   "full_text": "research/sources/md/fulltext/113_arxiv_2608.01598.md"
+  },
+  {
+   "order": 114,
+   "study_id": "https://openalex.org/W4405076079",
+   "full_text": "research/sources/md/fulltext/114_W4405076079.md"
+  },
+  {
+   "order": 115,
+   "study_id": "https://openalex.org/W4402671882",
+   "full_text": "research/sources/md/fulltext/115_W4402671882.md"
+  },
+  {
+   "order": 116,
+   "study_id": "https://openalex.org/W4410251374",
+   "full_text": "research/sources/md/fulltext/116_W4410251374.md"
+  },
+  {
+   "order": 117,
+   "study_id": "https://openalex.org/W4403007278",
+   "full_text": "research/sources/md/fulltext/117_W4403007278.md"
+  },
+  {
+   "order": 119,
+   "study_id": "https://openalex.org/W4387725480",
+   "full_text": "research/sources/md/fulltext/119_W4387725480.md"
+  },
+  {
+   "order": 121,
+   "study_id": "https://openalex.org/W4387075046",
+   "full_text": "research/sources/md/fulltext/121_W4387075046.md"
+  },
+  {
+   "order": 122,
+   "study_id": "https://openalex.org/W7160647047",
+   "full_text": "research/sources/md/fulltext/122_W7160647047.md"
+  },
+  {
+   "order": 126,
+   "study_id": "https://openalex.org/W7152081016",
+   "full_text": "research/sources/md/fulltext/126_W7152081016.md"
+  },
+  {
+   "order": 127,
+   "study_id": "https://openalex.org/W7147187740",
+   "full_text": "research/sources/md/fulltext/127_W7147187740.md"
+  },
+  {
+   "order": 132,
+   "study_id": "https://openalex.org/W7159841819",
+   "full_text": "research/sources/md/fulltext/132_W7159841819.md"
+  },
+  {
+   "order": 133,
+   "study_id": "https://openalex.org/W4411113330",
+   "full_text": "research/sources/md/fulltext/133_W4411113330.md"
+  },
+  {
+   "order": 134,
+   "study_id": "https://openalex.org/W4387185333",
+   "full_text": "research/sources/md/fulltext/134_W4387185333.md"
+  },
+  {
+   "order": 139,
+   "study_id": "https://openalex.org/W4378508547",
+   "full_text": "research/sources/md/fulltext/139_W4378508547.md"
+  },
+  {
+   "order": 141,
+   "study_id": "https://openalex.org/W4415797152",
+   "full_text": "research/sources/md/fulltext/141_W4415797152.md"
+  },
+  {
+   "order": 142,
+   "study_id": "https://openalex.org/W4390920734",
+   "full_text": "research/sources/md/fulltext/142_W4390920734.md"
+  },
+  {
+   "order": 144,
+   "study_id": "https://openalex.org/W7133348821",
+   "full_text": "research/sources/md/fulltext/144_W7133348821.md"
+  },
+  {
+   "order": 145,
+   "study_id": "https://openalex.org/W3163651756",
+   "full_text": "research/sources/md/fulltext/145_W3163651756.md"
+  },
+  {
+   "order": 147,
+   "study_id": "https://openalex.org/W7160676434",
+   "full_text": "research/sources/md/fulltext/147_W7160676434.md"
+  },
+  {
+   "order": 148,
+   "study_id": "https://openalex.org/W4386910589",
+   "full_text": "research/sources/md/fulltext/148_W4386910589.md"
+  },
+  {
+   "order": 150,
+   "study_id": "https://openalex.org/W7140872457",
+   "full_text": "research/sources/md/fulltext/150_W7140872457.md"
+  }
+ ]
+}

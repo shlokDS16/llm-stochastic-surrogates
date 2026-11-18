@@ -1,0 +1,193 @@
+{
+  "order": 19,
+  "study_id": "https://openalex.org/W7166839453",
+  "full_text": {
+    "obtained": true,
+    "source": "research/sources/md/fulltext/019_W7166839453.md"
+  },
+  "eligibility": {
+    "decision": "YES",
+    "failed_criterion": null,
+    "borderline": false,
+    "evidence": "Methods §§3.1–3.3, pp. 744–745: tests 17 generative open-weight LLM variants on false-belief scenarios derived from the cited human paradigm of Wimmer and Perner (1983), comparing performance with published human results."
+  },
+  "A": {
+    "doi": null,
+    "arxiv_id": null,
+    "title": "Traces of Social Competence in Large Language Models",
+    "first_author": "Tom Kouwenhoven",
+    "year": 2026,
+    "venue": "Proceedings of the 30th Conference on Computational Natural Language Learning",
+    "peer_reviewed": "yes",
+    "first_author_field": "CS",
+    "country": "Netherlands"
+  },
+  "B": {
+    "models": [
+      {
+        "name": "OLMo 2",
+        "version": "1B, 7B, 13B, 32B; Base, Instruct, Reasoning and checkpoints",
+        "access": "open_weights",
+        "params_b": null,
+        "release_date": "not_reported",
+        "tuning": "not_reported",
+        "family": "OLMo",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "OLMo 3",
+        "version": "7B, 32B; Base, SFT, DPO, RLVR, Thinking",
+        "access": "open_weights",
+        "params_b": null,
+        "release_date": "not_reported",
+        "tuning": "not_reported",
+        "family": "OLMo",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "Gemma 3",
+        "version": "270M, 1B, 4B, 12B, 27B; Base, IT",
+        "access": "open_weights",
+        "params_b": null,
+        "release_date": "not_reported",
+        "tuning": "not_reported",
+        "family": "Gemini",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "Qwen3",
+        "version": "4B, 30B; Base, IT, Thinking",
+        "access": "open_weights",
+        "params_b": null,
+        "release_date": "not_reported",
+        "tuning": "not_reported",
+        "family": "Qwen",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "K2-V2",
+        "version": "70B; Base, IT",
+        "access": "open_weights",
+        "params_b": 70,
+        "release_date": "not_reported",
+        "tuning": "not_reported",
+        "family": "other",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "Llama 3.1",
+        "version": "1B, 3B, 8B, 70B; Base, IT",
+        "access": "open_weights",
+        "params_b": null,
+        "release_date": "not_reported",
+        "tuning": "not_reported",
+        "family": "Llama",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "Llama 3.2",
+        "version": "1B, 3B, 8B, 70B; Base, IT",
+        "access": "open_weights",
+        "params_b": null,
+        "release_date": "not_reported",
+        "tuning": "not_reported",
+        "family": "Llama",
+        "query_date": "not_reported"
+      }
+    ],
+    "n_models": 7,
+    "n_model_families": 6
+  },
+  "C": {
+    "paradigms": [
+      {
+        "pid": "P1",
+        "name": "False Belief Test (FBT), 192 variants from Trott et al. (2023)",
+        "family": "TOM",
+        "source_paper": "Wimmer and Perner (1983); task battery from Trott et al. (2023)",
+        "items_origin": "adapted",
+        "n_items": 192,
+        "languages": [
+          "English"
+        ],
+        "modality": "text",
+        "contamination_risk": "partly",
+        "location": "§3.1, pp. 744–745; Table 3, p. 755"
+      }
+    ]
+  },
+  "D": {
+    "types": [
+      "published_norms"
+    ],
+    "primary_type": "published_norms",
+    "human_n": null,
+    "population": "Human baseline reported by Trott et al. (2023); the paper describes it as aligning with the oldest child group in Wimmer and Perner (1983).",
+    "metric": "Accuracy; Trott et al. human baseline of 83% correct on false-belief questions."
+  },
+  "E": {
+    "outcome_types": [
+      "accuracy",
+      "effect_size"
+    ],
+    "rows_aggregated": false,
+    "effects": [
+      {
+        "pid": "P1",
+        "model": "17 open-weight model variants across six families; model-specific results are not tabulated in the supplied text",
+        "model_family": "other",
+        "outcome_kind": "accuracy",
+        "basis": "test",
+        "model_effect_present": "na",
+        "human_effect_present": "na",
+        "direction": "not_applicable",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "INSUFFICIENT",
+        "location": "§§4.1–5.2, pp. 745–749; reported analyses pool model variants and conditions; model-specific comparison unavailable in supplied text."
+      }
+    ],
+    "headline": "Across 17 LLM variants, scaling and post-training have nuanced effects on false-belief performance, which is not robust across belief state and cue variations."
+  },
+  "F": {
+    "f1": "no",
+    "f2": "no",
+    "f3": "no",
+    "f4": "yes",
+    "f5": "no",
+    "f6": "no",
+    "f7": "no",
+    "f8": "no",
+    "f9": "yes",
+    "f10": "yes",
+    "f11": "no",
+    "f12": "yes",
+    "perturbations_tested": [
+      "wording",
+      "contamination"
+    ],
+    "robustness_outcome": "weakened"
+  },
+  "G": {
+    "notes": "The 17 variants are not itemized in the supplied main text; Appendix Table 2 groups models by family, size and training variant, limiting exact checkpoint-level extraction. The human baseline is inherited from Trott et al. (2023), and its participant count is not reported here.",
+    "extractor": "codex (default)",
+    "date": "2026-10-16",
+    "minutes": 12,
+    "sections_read": [
+      "Abstract",
+      "Introduction",
+      "Methods §§3.1–3.4",
+      "Results §§4.1–4.3",
+      "Case study §§5.1–5.2",
+      "Steering §6",
+      "Conclusion and limitations",
+      "Appendices A–D",
+      "Data leakage analysis",
+      "References"
+    ]
+  }
+}

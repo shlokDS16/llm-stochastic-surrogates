@@ -1,0 +1,88 @@
+{
+ "order": 72,
+ "study_id": "arxiv:2607.20251",
+ "full_text": {
+  "obtained": true,
+  "source": "provided full text"
+ },
+ "eligibility": {
+  "decision": "NO",
+  "failed_criterion": "neural-only",
+  "borderline": false,
+  "evidence": "Methods §§3.4–3.5: evaluates GPT-2-style models trained from scratch on grammaticality judgments and internal representations; no human participants or human comparison data are reported."
+ },
+ "A": {
+  "doi": null,
+  "arxiv_id": "2607.20251",
+  "title": "Exposure is Optional: Learning Unlike Coordination in Language Models",
+  "first_author": "Jiamu Luo",
+  "year": 2026,
+  "venue": "arXiv preprint",
+  "peer_reviewed": "preprint",
+  "first_author_field": "not_reported",
+  "country": "United States"
+ },
+ "B": {
+  "models": [
+   {
+    "name": "GPT-2-style Transformer",
+    "version": "GPT-2 Large-comparable configuration, trained from scratch",
+    "access": "open_weights",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "base",
+    "family": "GPT",
+    "query_date": "not_reported"
+   }
+  ],
+  "n_models": 1,
+  "n_model_families": 1
+ },
+ "C": {
+  "paradigms": []
+ },
+ "D": {
+  "types": [],
+  "primary_type": "none",
+  "human_n": null,
+  "population": "not_reported",
+  "metric": "not_reported"
+ },
+ "E": {
+  "outcome_types": [],
+  "rows_aggregated": false,
+  "effects": [],
+  "headline": ""
+ },
+ "F": {
+  "f1": "no",
+  "f2": "no",
+  "f3": "no",
+  "f4": "no",
+  "f5": "no",
+  "f6": "no",
+  "f7": "no",
+  "f8": "no",
+  "f9": "no",
+  "f10": "no",
+  "f11": "no",
+  "f12": "no",
+  "perturbations_tested": [],
+  "robustness_outcome": "na"
+ },
+ "G": {
+  "notes": "The study reports computational grammaticality judgments and representation analyses, without human participants or a human comparison. The first author’s department is not stated; NYU affiliation alone does not establish field.",
+  "extractor": "codex (default)",
+  "date": "2026-10-16",
+  "minutes": 0.5,
+  "sections_read": [
+   "Abstract",
+   "Introduction",
+   "Methods",
+   "Results and Analysis",
+   "Discussion and Conclusion",
+   "Limitations",
+   "Appendices"
+  ]
+ }
+}

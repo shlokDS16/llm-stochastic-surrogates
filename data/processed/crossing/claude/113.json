@@ -1,0 +1,34 @@
+{
+ "order": 113,
+ "study_id": "arxiv:2608.01598",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/113_arxiv_2608.01598.md",
+ "sources_varied": [
+  "M",
+  "X",
+  "W"
+ ],
+ "X1": {
+  "value": "partial",
+  "sources_crossed": [],
+  "evidence": "Sec 5-6 and App (Tables 9-10): seven models on ToM benchmarks with PICTURE versus baselines; ten instruction wordings (six instructive, two misleading, two irrelevant) and four random seeds in robustness studies on a GPT-3.5 backbone."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "W"
+  ],
+  "evidence": "App, Table 10: false-belief accuracy 82.3 to 83.5 across six instructive wordings; misleading and irrelevant wordings lower it."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": ""
+ },
+ "notes": ""
+}

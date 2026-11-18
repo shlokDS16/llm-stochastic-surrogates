@@ -1,0 +1,27 @@
+field,level,n,agreement,kappa,categories
+eligibility.decision,study,8,1.0,,yes
+A.peer_reviewed,study,8,0.75,0.0,preprint|yes
+D.primary_type,yes-both,8,0.625,0.2,crowd_norms|own_sample|published_norms
+F.f1,yes-both,8,0.875,0.6,no|yes
+F.f2,yes-both,8,0.875,0.714,no|yes
+F.f3,yes-both,8,0.75,0.467,no|yes
+F.f4,yes-both,8,0.75,0.0,no|yes
+F.f5,yes-both,8,0.75,0.385,no|yes
+F.f6,yes-both,8,0.625,0.385,na|no|yes
+F.f7,yes-both,8,1.0,1.0,no|yes
+F.f8,yes-both,8,0.625,0.333,no|yes
+F.f9,yes-both,8,0.875,0.714,no|yes
+F.f10,yes-both,8,0.875,0.6,no|yes
+F.f11,yes-both,8,1.0,,no
+F.f12,yes-both,8,0.875,0.714,no|yes
+F.robustness_outcome,yes-both,8,0.625,0.489,mixed|na|not_reported|survived|weakened
+C.family_presence (pooled),yes-both x family,88,0.989,0.956,False|True
+F.perturbations_tested (pooled),yes-both x type,80,0.863,0.51,False|True
+E.outcome_kind,matched (paradigm family x model family),40,0.925,0.887,accuracy|agreement|effect
+E.basis,matched (paradigm family x model family),40,0.325,0.041,descriptive|null|test
+E.model_effect_present,matched (paradigm family x model family),40,0.925,0.821,na|no|yes
+E.human_effect_present,matched (paradigm family x model family),40,0.95,0.879,na|not_reported|yes
+E.direction,matched (paradigm family x model family),40,0.925,0.8,not_applicable|not_reported|same
+E.model_vs_human,matched (paradigm family x model family),40,1.0,1.0,above|not_compared
+E.authors_comparison,matched (paradigm family x model family),40,0.975,0.844,different|not_tested
+E.label,matched (paradigm family x model family),40,0.6,0.507,above-human|agreement-only|human-like|insufficient|no-human-reference|same-direction-unquantified|super-normative

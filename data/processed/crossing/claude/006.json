@@ -1,0 +1,26 @@
+{
+ "order": 6,
+ "study_id": "W4409762247",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/006_W4409762247.md",
+ "sources_varied": [],
+ "X1": {
+  "value": "no",
+  "sources_crossed": [],
+  "evidence": "Sec III p.2-3: GPT-4 only, temperature 0, one prompt set; each prompt repeated eight times and aggregated (repeats not analysed as a source)."
+ },
+ "X2": {
+  "value": "no",
+  "x2_types": [],
+  "x2_sources": [],
+  "evidence": "No variance share, test or effect change attributed to any source; Sec III-IV report only agreement with human ratings."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "Single model, one source or none varied."
+ },
+ "notes": ""
+}

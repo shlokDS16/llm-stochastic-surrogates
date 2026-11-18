@@ -1,0 +1,99 @@
+{
+ "rule": "ok in runs/acme-S-gstudy/roster_strict.csv AND not in runs/acme-L/exclusions_per_type.csv",
+ "min_models": 3,
+ "models_left": {
+  "P1": 8,
+  "AF": 11,
+  "NR": 12,
+  "P3": 5,
+  "QA": 5,
+  "P2a": 0,
+  "P2b": 0,
+  "P2c": 3,
+  "P2d": 0,
+  "P4": 0
+ },
+ "decomposed": [
+  "P1",
+  "AF",
+  "NR",
+  "P3",
+  "QA",
+  "P2c"
+ ],
+ "not_decomposed": {
+  "P2a": 0,
+  "P2b": 0,
+  "P2d": 0,
+  "P4": 0
+ },
+ "wordings": [
+  "W0",
+  "W1",
+  "W2",
+  "W3"
+ ],
+ "temps": [
+  0.7,
+  1.0
+ ],
+ "variant": "main",
+ "models": {
+  "P1": [
+   "granite-3.3-2b-instruct",
+   "olmo2-13b-instruct",
+   "olmo2-7b-instruct",
+   "qwen2.5-0.5b-instruct",
+   "qwen2.5-1.5b-instruct",
+   "qwen2.5-14b-instruct",
+   "qwen2.5-7b-instruct",
+   "smollm2-1.7b-instruct"
+  ],
+  "AF": [
+   "granite-3.3-2b-instruct",
+   "mistral-7b-instruct-v0.3",
+   "olmo2-13b-instruct",
+   "olmo2-1b-dpo",
+   "olmo2-1b-instruct",
+   "olmo2-7b-instruct",
+   "phi4-mini-instruct",
+   "qwen2.5-0.5b-instruct",
+   "qwen2.5-1.5b-instruct",
+   "qwen2.5-14b-instruct",
+   "qwen2.5-7b-instruct"
+  ],
+  "NR": [
+   "granite-3.3-2b-instruct",
+   "mistral-7b-instruct-v0.3",
+   "olmo2-13b-instruct",
+   "olmo2-1b-dpo",
+   "olmo2-1b-instruct",
+   "olmo2-1b-sft",
+   "olmo2-7b-instruct",
+   "phi4-mini-instruct",
+   "qwen2.5-0.5b-instruct",
+   "qwen2.5-1.5b-instruct",
+   "qwen2.5-14b-instruct",
+   "qwen2.5-7b-instruct"
+  ],
+  "P3": [
+   "mistral-7b-instruct-v0.3",
+   "olmo2-1b-instruct",
+   "qwen2.5-0.5b-instruct",
+   "qwen2.5-14b-instruct",
+   "qwen2.5-7b-instruct"
+  ],
+  "QA": [
+   "mistral-7b-instruct-v0.3",
+   "olmo2-1b-instruct",
+   "qwen2.5-0.5b-instruct",
+   "qwen2.5-14b-instruct",
+   "qwen2.5-7b-instruct"
+  ],
+  "P2c": [
+   "granite-3.3-2b-instruct",
+   "phi4-mini-instruct",
+   "qwen2.5-1.5b-instruct"
+  ]
+ }
+}

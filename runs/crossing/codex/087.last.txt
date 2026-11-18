@@ -1,0 +1,26 @@
+{
+  "order": 87,
+  "study_id": "https://openalex.org/W4390306118",
+  "pass": "codex",
+  "brief_version": "1.0",
+  "date": "2026-11-07",
+  "full_text": "research/sources/md/fulltext/087_W4390306118.md",
+  "sources_varied": ["M", "W", "T", "P"],
+  "X1": {
+    "value": "partial",
+    "sources_crossed": [],
+    "evidence": "Secs. 4.3.2–4.3.3, App. C.2–C.3: model, persona, and temperature variations are examined in separate sensitivity analyses; no full factorial crossing is described."
+  },
+  "X2": {
+    "value": "yes",
+    "x2_types": ["anova_or_mixed_term", "effect_change"],
+    "x2_sources": ["M", "W", "T", "P"],
+    "evidence": "Secs. 4.1, 4.3.2–4.3.3: model and persona effects are quantified; temperature and CoT prompt changes are compared, with changes in outcomes reported."
+  },
+  "X3": {
+    "value": "no",
+    "x3_pairs": [],
+    "evidence": "Secs. 4.3 and App. C report sensitivity results by factor, without estimating or showing interactions between varied simulation sources."
+  },
+  "notes": "Wording (W) is varied through inclusion or exclusion of CoT prompting."
+}

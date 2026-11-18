@@ -1,0 +1,27 @@
+{
+  "order": 35,
+  "study_id": "https://openalex.org/W4390754474",
+  "full_text": {"obtained": true, "source": "research/sources/md/fulltext/035_W4390754474.md (Scientific Reports PDF)"},
+  "eligibility": {"decision": "YES", "failed_criterion": null, "borderline": false,
+    "evidence": "Overview of study, Results: ChatGPT retells 116 stories in chains of three using the same instructions as the human serial-reproduction study; paradigm cites Bartlett (ref 10) and Breithaupt et al. 2022 (ref 29); word, concept and affect outcomes analysed against human retellings."},
+  "A": {"doi": "10.1038/s41598-023-50229-7", "arxiv_id": null,
+        "title": "Humans create more novelty than ChatGPT when asked to retell a story",
+        "first_author": "Fritz Breithaupt", "year": 2024, "venue": "Scientific Reports",
+        "peer_reviewed": "yes", "first_author_field": "cognitive science", "country": "USA"},
+  "B": {"models": [
+    {"name": "ChatGPT (GPT-3.5, 'ChatGPT3')", "version": "not_reported", "access": "API", "params_b": null, "release_date": "not_reported", "tuning": "instruction", "family": "GPT", "query_date": "not_reported"}
+  ], "n_models": 1, "n_model_families": 1},
+  "C": {"paradigms": [
+    {"pid": "P1", "name": "Serial reproduction of narratives (three-step retelling chains)", "family": "MEM", "source_paper": "Bartlett 1932 (ref 10); Breithaupt, Li & Kruschke 2022 (ref 29)", "items_origin": "verbatim", "n_items": 116, "languages": ["English"], "modality": "text", "contamination_risk": "not_reported", "location": "Overview of study; stories are the 116 from Study 1 of ref 29"}
+  ]},
+  "D": {"types": ["published_norms"], "primary_type": "published_norms", "human_n": 348, "population": "Amazon Mechanical Turk retellers (data of Breithaupt et al. 2022); emotion raters 537 AMT (humans) and 531 Prolific (ChatGPT retellings)", "metric": "word count, part-of-speech proportions, synset novelty and survival, age of acquisition, rated happiness and sadness"},
+  "E": {"outcome_types": ["other"], "rows_aggregated": false,
+    "effects": [
+      {"pid": "P1", "model": "ChatGPT (GPT-3.5, 'ChatGPT3')", "model_family": "GPT", "outcome_kind": "effect", "basis": "descriptive", "model_effect_present": "no", "human_effect_present": "yes", "direction": "not_applicable", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "different", "model_vs_human": "not_compared", "agreement_value": null, "label": "SUPER-NORMATIVE", "location": "Fig 2 and Discussion: humans create 55-60% novel synsets per retelling, ChatGPT makes few changes after retelling 1; Fig 1 regression p<0.001 for shallower decline. Affect preservation (Fig 4) is equivalent in both and not coded as a second row"}
+    ],
+    "headline": "Humans keep inventing new concepts across retellings while ChatGPT summarises once and then repeats itself; both preserve emotional ratings."},
+  "F": {"f1": "no", "f2": "no", "f3": "no", "f4": "yes", "f5": "no", "f6": "na", "f7": "no", "f8": "no",
+        "f9": "no", "f10": "yes", "f11": "no", "f12": "yes", "perturbations_tested": [],
+        "robustness_outcome": "na"},
+  "G": {"notes": "One closed model (ChatGPT3), version, date and sampling settings unreported; one prompt, no variants. Human data come from an earlier study with different rater pools (AMT vs Prolific). Outcome fits no standard kind cleanly: coded as effect (novelty drift) with emotion stability similar in both. Contamination not discussed.", "extractor": "paper-reader (claude-sonnet)", "date": "2026-10-16", "minutes": 8, "sections_read": ["Abstract", "Introduction", "Overview of study", "Results (word count to affect preservation)", "Discussion", "Limitations", "Data availability"]}
+}

@@ -1,0 +1,28 @@
+{
+ "order": 145,
+ "study_id": "https://openalex.org/W3163651756",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/145_W3163651756.md",
+ "sources_varied": [
+  "M"
+ ],
+ "X1": {
+  "value": "no",
+  "sources_crossed": [],
+  "evidence": "Sec 3-5: six pretrained language models scored on typicality items with one fixed procedure; premise-order sensitivity is a probe of the model, not a varied prompt source."
+ },
+ "X2": {
+  "value": "no",
+  "x2_types": [],
+  "x2_sources": [],
+  "evidence": "Correlations with human typicality ratings per model; no source attribution."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": ""
+ },
+ "notes": ""
+}

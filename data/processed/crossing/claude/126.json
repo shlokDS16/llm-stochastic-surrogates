@@ -1,0 +1,28 @@
+{
+ "order": 126,
+ "study_id": "https://openalex.org/W7152081016",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/126_W7152081016.md",
+ "sources_varied": [
+  "M"
+ ],
+ "X1": {
+  "value": "no",
+  "sources_crossed": [],
+  "evidence": "Sec 3 (p.3-6): twelve LLM judges at temperature 0 rate the same items under a 2x2 design of source label and true origin (both conditions of the experiment); no wording, order or sampling variation."
+ },
+ "X2": {
+  "value": "no",
+  "x2_types": [],
+  "x2_sources": [],
+  "evidence": "Mixed ANOVA confirms the label effect in all models; label and origin are treatments, and model-level differences are not quantified."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": ""
+ },
+ "notes": ""
+}

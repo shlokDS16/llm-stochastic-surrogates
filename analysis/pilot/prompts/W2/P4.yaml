@@ -1,0 +1,9 @@
+paradigm: P4
+wording: W2
+response_type: number
+conditions:
+  x1: Picture yourself in a casino, passing a man who is rolling dice. As you watch, he rolls three dice and all three come up 6's. Based on this imagined scenario, how many times do you think he had rolled the dice before you walked by?
+  x0: Picture yourself in a casino, passing a man who is rolling dice. As you watch, he rolls three dice and one comes up 3, and two come up 6's. Based on this imagined scenario, how many times do you think he had rolled the dice before you walked by?
+condition_names:
+  x1: three 6s
+  x0: one 3 and two 6s

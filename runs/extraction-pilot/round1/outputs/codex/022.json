@@ -1,0 +1,277 @@
+{
+ "order": 22,
+ "study_id": "https://openalex.org/W7165006854",
+ "full_text": {
+  "obtained": true,
+  "source": "Europe PMC PMC13318900 JATS XML"
+ },
+ "eligibility": {
+  "decision": "YES",
+  "failed_criterion": null,
+  "borderline": false,
+  "evidence": "Sections 3.1–3.2 and 3.4: the study administers classic human cognitive-bias tasks to LLMs and compares results with a human control group."
+ },
+ "A": {
+  "doi": "10.3389/frai.2026.1808549",
+  "arxiv_id": null,
+  "title": "Cross-linguistic patterns of cognitive biases in large language models: a comparative study in English, Hebrew, and Russian",
+  "first_author": "Katya Grander",
+  "year": 2026,
+  "venue": "Frontiers in Artificial Intelligence",
+  "peer_reviewed": "yes",
+  "first_author_field": "other",
+  "country": "Israel"
+ },
+ "B": {
+  "models": [
+   {
+    "name": "ChatGPT",
+    "version": "GPT-4o (gpt-4o-2024-11-20)",
+    "access": "API",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "GPT",
+    "query_date": "August 2025"
+   },
+   {
+    "name": "Claude",
+    "version": "Claude 4 Sonnet (claude-sonnet-4-20250514)",
+    "access": "API",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "Claude",
+    "query_date": "August 2025"
+   },
+   {
+    "name": "Gemini",
+    "version": "Gemini 2.5 Flash (gemini-2.5-flash)",
+    "access": "API",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "Gemini",
+    "query_date": "August 2025"
+   }
+  ],
+  "n_models": 3,
+  "n_model_families": 3
+ },
+ "C": {
+  "paradigms": [
+   {
+    "pid": "P1",
+    "name": "Original Word Frequency Test (availability heuristic)",
+    "family": "HB",
+    "source_paper": "Tversky and Kahneman (1974), Judgment under Uncertainty: Heuristics and Biases",
+    "items_origin": "adapted",
+    "n_items": 1,
+    "languages": [
+     "English",
+     "Hebrew",
+     "Russian"
+    ],
+    "modality": "text",
+    "contamination_risk": "partly",
+    "location": "Sections 3.1.1–3.2"
+   },
+   {
+    "pid": "P2",
+    "name": "Modified Word Frequency Test (availability heuristic)",
+    "family": "HB",
+    "source_paper": "Castello et al. (2024); based on the Word Frequency Test tradition",
+    "items_origin": "adapted",
+    "n_items": 1,
+    "languages": [
+     "English",
+     "Hebrew",
+     "Russian"
+    ],
+    "modality": "text",
+    "contamination_risk": "partly",
+    "location": "Sections 3.1.1–3.2"
+   },
+   {
+    "pid": "P3",
+    "name": "Modified Wason Selection Task (confirmation bias)",
+    "family": "HB",
+    "source_paper": "Wason (1968); Wason and Shapiro (1971)",
+    "items_origin": "adapted",
+    "n_items": 1,
+    "languages": [
+     "English",
+     "Hebrew",
+     "Russian"
+    ],
+    "modality": "text",
+    "contamination_risk": "partly",
+    "location": "Sections 3.1.2–3.2"
+   }
+  ]
+ },
+ "D": {
+  "types": [
+   "own_sample"
+  ],
+  "primary_type": "own_sample",
+  "human_n": 169,
+  "population": "Convenience sample of fluent English-, Hebrew-, or Russian-speaking adults; 58 English, 58 Hebrew, 53 Russian",
+  "metric": "Task response correctness (% correct); human group served as baseline"
+ },
+ "E": {
+  "outcome_types": [
+   "accuracy"
+  ],
+  "rows_aggregated": false,
+  "effects": [
+   {
+    "pid": "P1",
+    "model": "GPT-4o",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": 0.74,
+    "human_es": 0.28,
+    "es_metric": "proportion correct, pooled across English, Hebrew, and Russian",
+    "authors_comparison": "different",
+    "label": "SUPER-NORMATIVE",
+    "location": "Sections 4.1.2, 4.2.2, 4.3.2; Table 2"
+   },
+   {
+    "pid": "P1",
+    "model": "Claude 4 Sonnet",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": 0.63,
+    "human_es": 0.28,
+    "es_metric": "proportion correct, pooled across English, Hebrew, and Russian",
+    "authors_comparison": "different",
+    "label": "SUPER-NORMATIVE",
+    "location": "Sections 4.1.2, 4.2.2, 4.3.2; Table 2"
+   },
+   {
+    "pid": "P1",
+    "model": "Gemini 2.5 Flash",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": 0.87,
+    "human_es": 0.28,
+    "es_metric": "proportion correct, pooled across English, Hebrew, and Russian",
+    "authors_comparison": "different",
+    "label": "SUPER-NORMATIVE",
+    "location": "Sections 4.1.2, 4.2.2, 4.3.2; Table 2"
+   },
+   {
+    "pid": "P2",
+    "model": "GPT-4o",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": 0.59,
+    "human_es": 0.38,
+    "es_metric": "proportion correct, pooled across English, Hebrew, and Russian",
+    "authors_comparison": "different",
+    "label": "SUPER-NORMATIVE",
+    "location": "Sections 4.1.1, 4.2.1, 4.3.1; Table 2"
+   },
+   {
+    "pid": "P2",
+    "model": "Claude 4 Sonnet",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": 0.72,
+    "human_es": 0.38,
+    "es_metric": "proportion correct, pooled across English, Hebrew, and Russian",
+    "authors_comparison": "different",
+    "label": "SUPER-NORMATIVE",
+    "location": "Sections 4.1.1, 4.2.1, 4.3.1; Table 2"
+   },
+   {
+    "pid": "P2",
+    "model": "Gemini 2.5 Flash",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": 0.55,
+    "human_es": 0.38,
+    "es_metric": "proportion correct, pooled across English, Hebrew, and Russian",
+    "authors_comparison": "different",
+    "label": "SUPER-NORMATIVE",
+    "location": "Sections 4.1.1, 4.2.1, 4.3.1; Table 2"
+   },
+   {
+    "pid": "P3",
+    "model": "GPT-4o",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": 0.73,
+    "human_es": 0.32,
+    "es_metric": "proportion correct, pooled across English, Hebrew, and Russian",
+    "authors_comparison": "different",
+    "label": "SUPER-NORMATIVE",
+    "location": "Sections 4.1.3, 4.2.3, 4.3.3; Table 2"
+   },
+   {
+    "pid": "P3",
+    "model": "Claude 4 Sonnet",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": 0.96,
+    "human_es": 0.32,
+    "es_metric": "proportion correct, pooled across English, Hebrew, and Russian",
+    "authors_comparison": "different",
+    "label": "SUPER-NORMATIVE",
+    "location": "Sections 4.1.3, 4.2.3, 4.3.3; Table 2"
+   },
+   {
+    "pid": "P3",
+    "model": "Gemini 2.5 Flash",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": 1.0,
+    "human_es": 0.32,
+    "es_metric": "proportion correct, pooled across English, Hebrew, and Russian",
+    "authors_comparison": "different",
+    "label": "SUPER-NORMATIVE",
+    "location": "Sections 4.1.3, 4.2.3, 4.3.3; Table 2"
+   }
+  ],
+  "headline": "Models generally exceeded human accuracy on rule-based reasoning, while word-frequency task performance varied substantially by model and language; the authors interpret these patterns as language-dependent bias-like responses."
+ },
+ "F": {
+  "f1": "yes",
+  "f2": "yes",
+  "f3": "yes",
+  "f4": "yes",
+  "f5": "no",
+  "f6": "no",
+  "f7": "no",
+  "f8": "no",
+  "f9": "yes",
+  "f10": "yes",
+  "f11": "no",
+  "f12": "yes",
+  "perturbations_tested": [],
+  "robustness_outcome": "na"
+ },
+ "G": {
+  "notes": "A referee would ask whether one item per construct supports the claimed bias interpretation, whether translation effects were separated from language effects, and how conclusions account for dependent repeated outputs from the same model. The authors note these limitations and the deontic framing and possible task recognition.",
+  "extractor": "codex (default)",
+  "date": "2026-10-16",
+  "minutes": 0.8,
+  "sections_read": [
+   "Abstract",
+   "Sections 1–3.9",
+   "Sections 4.1–4.4.1.3",
+   "Sections 5–6",
+   "Data availability statement"
+  ]
+ }
+}

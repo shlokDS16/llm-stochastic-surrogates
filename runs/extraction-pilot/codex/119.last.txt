@@ -1,0 +1,161 @@
+{
+  "order": 119,
+  "study_id": "https://openalex.org/W4387725480",
+  "full_text": {
+    "obtained": true,
+    "source": "research/sources/md/fulltext/119_W4387725480.md"
+  },
+  "eligibility": {
+    "decision": "YES",
+    "failed_criterion": null,
+    "borderline": false,
+    "evidence": "Methods, pp. 22–24: GPT-4 completed probability and ambiguity rating tasks based on probabilistic phrases previously studied with human participants; the paper reports new human data."
+  },
+  "A": {
+    "doi": null,
+    "arxiv_id": null,
+    "title": "Use of Probabilistic Phrases in a Coordination Game: Human Versus GPT-4",
+    "first_author": "Laurence T. Maloney",
+    "year": null,
+    "venue": "not_reported",
+    "peer_reviewed": "preprint",
+    "first_author_field": "psychology",
+    "country": "United States"
+  },
+  "B": {
+    "models": [
+      {
+        "name": "GPT-4",
+        "version": "GPT-4",
+        "access": "not_reported",
+        "params_b": null,
+        "release_date": "not_reported",
+        "tuning": "not_reported",
+        "family": "GPT",
+        "query_date": "not_reported"
+      }
+    ],
+    "n_models": 1,
+    "n_model_families": 1
+  },
+  "C": {
+    "paradigms": [
+      {
+        "pid": "P1",
+        "name": "Coordination-game decoding of probabilistic phrases: estimate probability",
+        "family": "LANG",
+        "source_paper": "O’Brien (1989)",
+        "items_origin": "adapted",
+        "n_items": 23,
+        "languages": [
+          "English"
+        ],
+        "modality": "text",
+        "contamination_risk": "partly",
+        "location": "Introduction, pp. 5–7; Methods, pp. 22–24"
+      },
+      {
+        "pid": "P2",
+        "name": "Coordination-game decoding of probabilistic phrases: rate ambiguity",
+        "family": "LANG",
+        "source_paper": "O’Brien (1989)",
+        "items_origin": "adapted",
+        "n_items": 23,
+        "languages": [
+          "English"
+        ],
+        "modality": "text",
+        "contamination_risk": "partly",
+        "location": "Introduction, pp. 5–7; Methods, pp. 22–24"
+      }
+    ]
+  },
+  "D": {
+    "types": [
+      "own_sample"
+    ],
+    "primary_type": "own_sample",
+    "human_n": 50,
+    "population": "New York University SONA Subject Pool participants; 25 assigned to each of the medical and investment contexts",
+    "metric": "Human median probability and ambiguity ratings; discordance among participants and between GPT-4 and participants"
+  },
+  "E": {
+    "outcome_types": [
+      "bias_magnitude",
+      "choice_distribution",
+      "human_correlation"
+    ],
+    "rows_aggregated": false,
+    "effects": [
+      {
+        "pid": "P1",
+        "model": "GPT-4",
+        "model_family": "GPT",
+        "outcome_kind": "agreement",
+        "basis": "test",
+        "model_effect_present": "na",
+        "human_effect_present": "na",
+        "direction": "not_applicable",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "different",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "AGREEMENT-ONLY",
+        "location": "Results, pp. 10–13, Figures 2–3: probability estimates compared with human medians and discordance"
+      },
+      {
+        "pid": "P2",
+        "model": "GPT-4",
+        "model_family": "GPT",
+        "outcome_kind": "agreement",
+        "basis": "test",
+        "model_effect_present": "na",
+        "human_effect_present": "na",
+        "direction": "not_applicable",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "different",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "AGREEMENT-ONLY",
+        "location": "Results, pp. 13–14, Figure 4: ambiguity ratings compared with human medians"
+      }
+    ],
+    "headline": "GPT-4’s probability estimates coordinated with human responses at least as well as a typical participant, though human estimates were compressed; ambiguity estimates also showed patterned differences."
+  },
+  "F": {
+    "f1": "no",
+    "f2": "no",
+    "f3": "yes",
+    "f4": "yes",
+    "f5": "no",
+    "f6": "na",
+    "f7": "no",
+    "f8": "no",
+    "f9": "no",
+    "f10": "yes",
+    "f11": "no",
+    "f12": "no",
+    "perturbations_tested": [
+      "seeds"
+    ],
+    "robustness_outcome": "not_reported"
+  },
+  "G": {
+    "notes": "The GPT-4 interface and snapshot are unspecified, as are query dates and decoding settings. Only one run per condition informed the main analyses; four repeats addressed one medical-context outlier, limiting conclusions about stability.",
+    "extractor": "codex (default)",
+    "date": "2026-10-16",
+    "minutes": 7,
+    "sections_read": [
+      "Abstract",
+      "Introduction",
+      "Results",
+      "Discussion",
+      "Methods",
+      "References"
+    ]
+  }
+}

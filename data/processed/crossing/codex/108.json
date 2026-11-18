@@ -1,0 +1,37 @@
+{
+ "order": 108,
+ "study_id": "https://openalex.org/W7204838051",
+ "pass": "codex",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/108_W7204838051.md",
+ "sources_varied": [
+  "M",
+  "W",
+  "P",
+  "X"
+ ],
+ "X1": {
+  "value": "partial",
+  "sources_crossed": [],
+  "evidence": "§6, Table 1: multiple models and concrete versus abstract stimuli are compared, but not crossed on identical items; §8.1–8.3 vary pressure or framing in separate experiments. No two listed sources are reported in a full factorial design."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "M",
+   "W",
+   "X"
+  ],
+  "evidence": "§6, Table 1: form alignment differs by model (qwen +0.133, gemma −0.013) and by concrete versus abstract stimulus framing (+0.133 versus +0.080); §8.1 reports quantified outcome changes across patient/impatient conditions."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "§6–§8 report comparisons across models, stimulus framings, and pressure/framing conditions, but no source-by-source interaction is estimated or shown."
+ },
+ "notes": "M is varied across models in the study. W is varied through value-only versus published reply formats in a protocol comparison (§3, §9), but not reported as a crossed outcome analysis. P is not clearly varied as a design factor; no persona levels are specified. X covers experimental framing/pressure contrasts in §8, which are separate studies rather than a crossed design."
+}

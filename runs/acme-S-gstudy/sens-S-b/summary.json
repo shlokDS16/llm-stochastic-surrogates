@@ -1,0 +1,402 @@
+{
+ "meta": {
+  "roster": "runs/acme-S-gstudy/roster_strict.csv",
+  "roster_note": "outcome-blind validity rule of EXPERT-statistician.md section 1",
+  "cells": "C:\\Users\\Shlok\\Downloads\\Thenboli ma'am review paper\\runs\\acme-S-gstudy\\cells.csv",
+  "validity_cells": true,
+  "temps": [
+   0.7,
+   1.0
+  ],
+  "logit": false,
+  "drop_W0": false,
+  "wordings": [
+   "W0",
+   "W1",
+   "W2",
+   "W3"
+  ],
+  "min_models": 3,
+  "no_bootstrap": true,
+  "git": {
+   "head": "01e3ade297c0d5f92db0279921149f352d95f389",
+   "analysis_dirty": false
+  },
+  "argv": [
+   "run",
+   "--approved-by-lead",
+   "--no-bootstrap",
+   "--out",
+   "runs/acme-S-gstudy/sens-S-b",
+   "--label",
+   "Sensitivity S-b: validity cells (every cell >= 0.9 in both conditions), strict roster further restricted",
+   "--roster",
+   "runs/acme-S-gstudy/roster_strict.csv",
+   "--validity-cells"
+  ]
+ },
+ "items": {
+  "P1": {
+   "models": [
+    "granite-3.3-2b-instruct",
+    "olmo2-13b-instruct",
+    "olmo2-7b-instruct",
+    "qwen2.5-0.5b-instruct",
+    "qwen2.5-1.5b-instruct",
+    "qwen2.5-14b-instruct",
+    "qwen2.5-7b-instruct",
+    "smollm2-1.7b-instruct"
+   ],
+   "n_models": 8,
+   "shape": [
+    8,
+    4,
+    2,
+    2
+   ],
+   "facets": [
+    "M",
+    "W",
+    "O",
+    "T"
+   ],
+   "wordings": [
+    "W0",
+    "W1",
+    "W2",
+    "W3"
+   ],
+   "temps": [
+    0.7,
+    1.0
+   ],
+   "a1_max_abs_diff": 0.0,
+   "draw_share_e2": 0.02334784491029697
+  },
+  "AF": {
+   "models": [
+    "granite-3.3-2b-instruct",
+    "granite-3.3-8b-instruct",
+    "mistral-7b-instruct-v0.3",
+    "olmo2-13b-instruct",
+    "olmo2-1b-dpo",
+    "olmo2-1b-instruct",
+    "olmo2-7b-instruct",
+    "phi4-mini-instruct",
+    "qwen2.5-0.5b-instruct",
+    "qwen2.5-1.5b-instruct",
+    "qwen2.5-14b-instruct",
+    "qwen2.5-7b-instruct"
+   ],
+   "n_models": 12,
+   "shape": [
+    12,
+    4,
+    2,
+    2
+   ],
+   "facets": [
+    "M",
+    "W",
+    "O",
+    "T"
+   ],
+   "wordings": [
+    "W0",
+    "W1",
+    "W2",
+    "W3"
+   ],
+   "temps": [
+    0.7,
+    1.0
+   ],
+   "a1_max_abs_diff": 1.3877787807814457e-17,
+   "draw_share_e2": 0.021569395816076364
+  },
+  "NR": {
+   "models": [
+    "granite-3.3-2b-instruct",
+    "granite-3.3-8b-instruct",
+    "mistral-7b-instruct-v0.3",
+    "olmo2-13b-instruct",
+    "olmo2-1b-dpo",
+    "olmo2-1b-instruct",
+    "olmo2-1b-sft",
+    "olmo2-7b-instruct",
+    "phi4-mini-instruct",
+    "qwen2.5-0.5b-instruct",
+    "qwen2.5-1.5b-instruct",
+    "qwen2.5-14b-instruct",
+    "qwen2.5-7b-instruct"
+   ],
+   "n_models": 13,
+   "shape": [
+    13,
+    4,
+    2,
+    2
+   ],
+   "facets": [
+    "M",
+    "W",
+    "O",
+    "T"
+   ],
+   "wordings": [
+    "W0",
+    "W1",
+    "W2",
+    "W3"
+   ],
+   "temps": [
+    0.7,
+    1.0
+   ],
+   "a1_max_abs_diff": 1.3877787807814457e-17,
+   "draw_share_e2": 0.030812465475235112
+  },
+  "P3": {
+   "models": [
+    "granite-3.3-2b-instruct",
+    "granite-3.3-8b-instruct",
+    "mistral-7b-instruct-v0.3",
+    "olmo2-13b-instruct",
+    "olmo2-1b-instruct",
+    "olmo2-7b-instruct",
+    "qwen2.5-0.5b-instruct",
+    "qwen2.5-1.5b-instruct",
+    "qwen2.5-14b-instruct",
+    "qwen2.5-7b-instruct"
+   ],
+   "n_models": 10,
+   "shape": [
+    10,
+    4,
+    2
+   ],
+   "facets": [
+    "M",
+    "W",
+    "T"
+   ],
+   "wordings": [
+    "W0",
+    "W1",
+    "W2",
+    "W3"
+   ],
+   "temps": [
+    0.7,
+    1.0
+   ],
+   "a1_max_abs_diff": 8.326672684688674e-17,
+   "draw_share_e2": 0.0637387285424561
+  },
+  "QA": {
+   "models": [
+    "granite-3.3-2b-instruct",
+    "granite-3.3-8b-instruct",
+    "mistral-7b-instruct-v0.3",
+    "olmo2-1b-instruct",
+    "olmo2-7b-instruct",
+    "qwen2.5-0.5b-instruct",
+    "qwen2.5-1.5b-instruct",
+    "qwen2.5-14b-instruct",
+    "qwen2.5-7b-instruct"
+   ],
+   "n_models": 9,
+   "shape": [
+    9,
+    4,
+    2,
+    2
+   ],
+   "facets": [
+    "M",
+    "W",
+    "O",
+    "T"
+   ],
+   "wordings": [
+    "W0",
+    "W1",
+    "W2",
+    "W3"
+   ],
+   "temps": [
+    0.7,
+    1.0
+   ],
+   "a1_max_abs_diff": 6.938893903907228e-18,
+   "draw_share_e2": 0.006068965822411603
+  },
+  "P2a": {
+   "models": [
+    "granite-3.3-2b-instruct",
+    "granite-3.3-8b-instruct",
+    "mistral-7b-instruct-v0.3",
+    "olmo2-13b-instruct",
+    "olmo2-7b-instruct",
+    "qwen2.5-0.5b-instruct",
+    "qwen2.5-14b-instruct",
+    "qwen2.5-7b-instruct"
+   ],
+   "n_models": 8,
+   "shape": [
+    8,
+    4,
+    2
+   ],
+   "facets": [
+    "M",
+    "W",
+    "T"
+   ],
+   "wordings": [
+    "W0",
+    "W1",
+    "W2",
+    "W3"
+   ],
+   "temps": [
+    0.7,
+    1.0
+   ],
+   "a1_max_abs_diff": 2.220446049250313e-16,
+   "draw_share_e2": 0.10351884528815103
+  },
+  "P2b": {
+   "models": [
+    "granite-3.3-2b-instruct",
+    "granite-3.3-8b-instruct",
+    "olmo2-13b-instruct",
+    "olmo2-7b-instruct",
+    "qwen2.5-1.5b-instruct",
+    "qwen2.5-14b-instruct",
+    "qwen2.5-7b-instruct"
+   ],
+   "n_models": 7,
+   "shape": [
+    7,
+    4,
+    2
+   ],
+   "facets": [
+    "M",
+    "W",
+    "T"
+   ],
+   "wordings": [
+    "W0",
+    "W1",
+    "W2",
+    "W3"
+   ],
+   "temps": [
+    0.7,
+    1.0
+   ],
+   "a1_max_abs_diff": 5.551115123125783e-17,
+   "draw_share_e2": 0.015343513581601576
+  },
+  "P2c": {
+   "models": [
+    "granite-3.3-2b-instruct",
+    "granite-3.3-8b-instruct",
+    "olmo2-7b-instruct",
+    "phi4-mini-instruct",
+    "qwen2.5-0.5b-instruct",
+    "qwen2.5-1.5b-instruct",
+    "qwen2.5-14b-instruct",
+    "qwen2.5-7b-instruct"
+   ],
+   "n_models": 8,
+   "shape": [
+    8,
+    4,
+    2
+   ],
+   "facets": [
+    "M",
+    "W",
+    "T"
+   ],
+   "wordings": [
+    "W0",
+    "W1",
+    "W2",
+    "W3"
+   ],
+   "temps": [
+    0.7,
+    1.0
+   ],
+   "a1_max_abs_diff": 1.3877787807814457e-17,
+   "draw_share_e2": 0.04435605067996548
+  },
+  "P2d": {
+   "models": [
+    "granite-3.3-8b-instruct",
+    "qwen2.5-14b-instruct",
+    "qwen2.5-7b-instruct"
+   ],
+   "n_models": 3,
+   "shape": [
+    3,
+    4,
+    2
+   ],
+   "facets": [
+    "M",
+    "W",
+    "T"
+   ],
+   "wordings": [
+    "W0",
+    "W1",
+    "W2",
+    "W3"
+   ],
+   "temps": [
+    0.7,
+    1.0
+   ],
+   "a1_max_abs_diff": 8.673617379884035e-18,
+   "draw_share_e2": 0.0094578788660648
+  },
+  "P4": {
+   "models": [
+    "granite-3.3-2b-instruct",
+    "granite-3.3-8b-instruct",
+    "qwen2.5-0.5b-instruct",
+    "qwen2.5-14b-instruct",
+    "qwen2.5-7b-instruct"
+   ],
+   "n_models": 5,
+   "shape": [
+    5,
+    4,
+    2
+   ],
+   "facets": [
+    "M",
+    "W",
+    "T"
+   ],
+   "wordings": [
+    "W0",
+    "W1",
+    "W2",
+    "W3"
+   ],
+   "temps": [
+    0.7,
+    1.0
+   ],
+   "a1_max_abs_diff": 0.0,
+   "draw_share_e2": 0.03368145547847534
+  }
+ },
+ "not_decomposed": {}
+}

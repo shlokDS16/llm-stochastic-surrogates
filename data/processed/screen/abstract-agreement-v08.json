@@ -1,0 +1,29 @@
+{
+ "n": 6209,
+ "strict": {
+  "eligible": 1470,
+  "excluded_abstract": 3418,
+  "excluded_tiebreak": 1321
+ },
+ "liberal": {
+  "eligible": 2022,
+  "excluded_abstract": 3418,
+  "excluded_tiebreak": 769
+ },
+ "qwen_labels": {
+  "INCLUDE": 1670,
+  "EXCLUDE": 3010,
+  "MAYBE": 1529
+ },
+ "qwen_labels_on_disagreements": {
+  "INCLUDE": 1109,
+  "EXCLUDE": 814,
+  "MAYBE": 748
+ },
+ "kappa_pairwise": {
+  "claude-olmo": 0.075,
+  "claude-qwen": 0.277,
+  "olmo-qwen": 0.089
+ },
+ "fleiss_kappa_3class": 0.12
+}

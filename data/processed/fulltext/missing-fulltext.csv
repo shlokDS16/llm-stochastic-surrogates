@@ -1,0 +1,49 @@
+order,group,publisher,doi,title
+3,A eGateway,Springer,10.1007/s43681-023-00335-z,Exploring differences in ethical decision-making processes between humans and ChatGPT-3 model: a study of trade-offs
+7,A eGateway,Springer,10.1007/978-3-032-10073-3_25,GPT-4’s Alignment with Human Lie and Falsity Attribution in Cases of Deceptive Implicatures
+12,A eGateway,Wiley,10.1111/tgis.70242,"Golden Gate Bridge, as Always? Eliciting Prototypical Places From Autoregressive Large Language Models via Category Production"
+14,A eGateway,Springer,10.1007/978-981-97-9434-8_32,Evaluating Human-Large Language Model Alignment in Group Process
+29,A eGateway,IEEE,10.1109/i-coste68047.2025.11467175,Leveraging Large Language Models to Investigate the Decoy Effect in Route Choice Behavior
+30,A eGateway,Springer,10.1007/978-3-031-55245-8_7,"Can a Conversational Agent Pass Theory-of-Mind Tasks? A Case Study of ChatGPT with the Hinting, False Beliefs, and Strange Stories Paradigms"
+31,A eGateway,Wiley,10.1111/lcrp.70053,Human and AI judgements of restorative responses to sexual abuse: The role of perceived severity
+33,A eGateway,IEEE,10.1109/isec64801.2025.11147285,Framing Effects on Large Language Models
+38,A eGateway,Springer,10.1007/978-3-031-66635-3_29,Moral Asymmetries in LLMs
+41,A eGateway,Elsevier,10.1016/j.chbah.2025.100138,Artificial intelligence and human decision making: Exploring similarities in cognitive bias
+47,A eGateway,Springer,10.1007/s11023-026-09803-x,Abduction In Silico: Large Language Models Replicate Human Inference to the Best Explanation
+50,A eGateway,ACM,10.1145/3765766.3765799,Exploring Creative Human-Agent Discussion via Assigned Perspectives
+52,A eGateway,IEEE,10.1109/taffc.2026.3696891,Evaluating Large Language Models as Substitutes for Human Affective Ratings in Naturalistic Paradigms
+64,A eGateway,Romanian Academy,10.59277/rrl.2025.3-4.15,The pragmatic competence of ChatGPT. An AI-assisted research project
+68,A eGateway,Korean Assoc. Applied Linguistics,10.17154/kjal.2022.6.38.2.59,A Targeted Assessment of SRC vs ORC Processing in Neural Language Models and Humans
+79,A eGateway,ACM,10.1145/3717511.3747081,Evaluating Theory-of-Mind in Large Language Models Through Opponent Modeling
+82,A eGateway,Springer,10.1007/978-3-032-09315-8_11,The Power of Stories: Narrative Priming in Networked Multi-Agent LLM Interactions
+105,A eGateway,Elsevier,10.1016/j.ject.2024.11.008,ChatGPT and CLT: Investigating differences in multimodal processing
+107,A eGateway,Wiley,10.1002/jocb.636,The Language of Creativity: Evidence from Humans and Large Language Models
+125,A eGateway,Elsevier,10.1016/j.jml.2025.104713,Structural priming in humans and large language models
+5,B open repository / search,"Poznan Univ. Econ. (open, blocked)",10.18559/ebr.2025.2.2182,Game-theory behaviour of large language models: The case of Keynesian beauty contests
+8,B open repository / search,PsyArXiv (open),10.31234/osf.io/tyjcs_v1,Aligned but Biased: Comparing Human and Large Language Model Intergroup Bias
+20,B open repository / search,OSF (open),10.17605/osf.io/b742w,Bias or Memory? Contamination-Controlled Measurement of Behavioral Biases in Large Language Models
+37,B open repository / search,PsyArXiv (open),10.31234/osf.io/aqbvk,Action Identification Characteristics and Priming Effects in ChatGPT
+39,B open repository / search,Authorea (open),10.22541/au.172296312.22226544/v1,Assessing Reasoning Capabilities of Commercial LLMs: A Comparative Study of Inductive and Deductive Tasks
+40,B open repository / search,Zenodo (open),10.5281/zenodo.19463984,MARKOVWORK Baby40: Post-Hoc Executive Control Scaffold for Feedback-Free LLM Cognitive Flexibility — Code and Data (v1.01)
+42,B open repository / search,Zenodo (open),10.5281/zenodo.7811310,Assessing Chat GPT's ethical proficiency by testing it's performance at the Situational Judgement Test
+43,B open repository / search,figshare (open),10.6084/m9.figshare.33390499,Do Large Language Models Reproduce Human Sensory Biases? An Exploratory Study
+51,B open repository / search,no DOI,,Cognitive Biases in Large Language Models for Disaster Management: A Controlled Vignette Experiment
+66,B open repository / search,ARVO (J Vision abstract),10.1167/jov.25.9.2626,Human and machine perception of material similarities
+69,B open repository / search,"SSRN (open, login may be needed)",10.2139/ssrn.6278158,Haggling with a Bot: Human vs. LLM Negotiation in Supply Chain Contracts
+70,B open repository / search,no DOI,,Towards a Cognitive Science of Large Language Models
+71,B open repository / search,no DOI,,Generative AI vs Human Creativity: Divergent Thinking and Fixation Bias
+80,B open repository / search,no DOI,,ChatGPT structural priming
+81,B open repository / search,PsyArXiv (open),10.31234/osf.io/aj46b,Large Language Models Amplify Human Biases in Moral Decision-Making
+97,B open repository / search,"SSRN (open, login may be needed)",10.2139/ssrn.6257103,Would ChatGPT Let Me Eat My Dead Dog? Probing Moral Judgment and Moral Action in Large Language Models
+102,B open repository / search,"SSRN (open, login may be needed)",10.2139/ssrn.5395490,Negotiating with GPT-4: Digital Doormat or Skilful Counterpart?
+112,B open repository / search,Zenodo (open),10.5281/zenodo.20176592,Visual Dark Patterns on Multimodal LLMs in Shopping Contexts: Vigilance Over Anchoring
+123,B open repository / search,OSF (open),10.17605/osf.io/t3pkr,Agents under pressure - A preregistered stress-testing paradigm for decision-making under uncertainty in large language models
+124,B open repository / search,Research Square (open),10.21203/rs.3.rs-8827610/v1,LLMs in the Lab: Can AI Predict What Real Participants Do?
+128,B open repository / search,no DOI,,Exploring the Limits of Large Language Models as a Reflection of Human Cognition: An Illustration in the Context of Moral Judgement
+129,B open repository / search,"Hans (open, blocked)",10.12677/ml.2026.145393,Exploring the Ability of Large Language Models to Recognize and Generate Irony: A Sociocognitive Pragmatic Perspective
+130,B open repository / search,"MDPI (open, blocked)",10.3390/bdcc10040102,Emotional Framing in Prompts Modulates Large Language Model Performance
+131,B open repository / search,Zenodo (open),10.5281/zenodo.22072943,That's Not My Volvo: Stable Preferences Without Self-Recognition in Language Models
+136,B open repository / search,ARVO (J Vision abstract),10.1167/jov.25.9.2822,Visual Cognition in Vision-Language Models
+137,B open repository / search,"SSRN (open, login may be needed)",10.2139/ssrn.4526072,Testing Theoretical Alignment in Large Language Models: Evidence from Insurance Choices
+143,B open repository / search,no DOI,,Interpretation of Generalization in Masked Language Models: An Investigation Straddling Quantifiers and Generics
+146,B open repository / search,PsyArXiv (open),10.31234/osf.io/fzvd8_v1,Skill but not Effort Drive GPT Overperformance over Humans in Cognitive Reframing of Negative Scenarios

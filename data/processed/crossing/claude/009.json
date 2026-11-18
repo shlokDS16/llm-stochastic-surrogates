@@ -1,0 +1,36 @@
+{
+ "order": 9,
+ "study_id": "W7165674475",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/009_W7165674475.md",
+ "sources_varied": [
+  "M",
+  "T",
+  "P",
+  "R"
+ ],
+ "X1": {
+  "value": "partial",
+  "sources_crossed": [],
+  "evidence": "Methods p.4-5 and Fig 2C: 23 model systems at temperature 1.0; GPT-3.5 and GPT-4 re-run at temperatures 0.01, 0.7, 1.5 (side experiment); each run assigned a new simulated participant identity; repeat runs reported."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "T",
+   "R"
+  ],
+  "evidence": "Results p.7-8: Spearman alignment across the four temperatures reported for GPT-3.5 and GPT-4 and judged non-systematic; ICC varies with temperature (Fig 2C); repeat runs tabulated (Tables S2-S3)."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "No model-by-temperature interaction estimated; temperature effects shown per model only."
+ },
+ "notes": ""
+}

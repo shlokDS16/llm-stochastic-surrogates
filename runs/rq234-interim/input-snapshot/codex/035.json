@@ -1,0 +1,129 @@
+{
+ "order": 35,
+ "study_id": "https://openalex.org/W4390754474",
+ "full_text": {
+  "obtained": true,
+  "source": "Scientific Reports full text supplied in prompt"
+ },
+ "eligibility": {
+  "decision": "YES",
+  "failed_criterion": null,
+  "borderline": false,
+  "evidence": "Overview of study, pp. 2–3: compares ChatGPT story-retelling performance with human retellings in a serial-reproduction task, using the same stories and instructions."
+ },
+ "A": {
+  "doi": "10.1038/s41598-023-50229-7",
+  "arxiv_id": null,
+  "title": "Humans create more novelty than ChatGPT when asked to retell a story",
+  "first_author": "Fritz Breithaupt",
+  "year": 2024,
+  "venue": "Scientific Reports",
+  "peer_reviewed": "yes",
+  "first_author_field": "cognitive science",
+  "country": "USA"
+ },
+ "B": {
+  "models": [
+   {
+    "name": "ChatGPT",
+    "version": "ChatGPT3 (stable version; exact model checkpoint not reported)",
+    "access": "API",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "GPT",
+    "query_date": "not_reported"
+   }
+  ],
+  "n_models": 1,
+  "n_model_families": 1
+ },
+ "C": {
+  "paradigms": [
+   {
+    "pid": "P1",
+    "name": "Serial reproduction of narratives (story retelling in three successive iterations)",
+    "family": "MEM",
+    "source_paper": "Breithaupt, Li, and Kruschke (2022), “Serial reproduction of narratives preserves emotional appraisals”",
+    "items_origin": "verbatim",
+    "n_items": 116,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "yes",
+    "location": "Overview of study, pp. 2–3; Results, pp. 3–7"
+   }
+  ]
+ },
+ "D": {
+  "types": [
+   "published_norms",
+   "own_sample"
+  ],
+  "primary_type": "own_sample",
+  "human_n": 348,
+  "population": "Amazon Mechanical Turk participants who retold stories; 531 Prolific participants rated ChatGPT retellings. Prior published human retelling data were also used.",
+  "metric": "Word and synset transmission/change; grammatical-category proportions; age of acquisition; human ratings of happiness, sadness, imagery, and emotional impact."
+ },
+ "E": {
+  "outcome_types": [
+   "bias_magnitude",
+   "effect_size",
+   "other"
+  ],
+  "rows_aggregated": false,
+  "effects": [
+   {
+    "pid": "P1",
+    "model": "ChatGPT (ChatGPT3)",
+    "model_family": "GPT",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "different",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "ATTENUATED",
+    "location": "Results, pp. 3–7; Figs. 1–4. Human retellings created approximately 55–60% novel synsets per iteration; ChatGPT showed fewer novel synsets and less change across retellings. Statistical details and data: OSF project jr2py."
+   }
+  ],
+  "headline": "ChatGPT quickly condenses stories and changes little afterward, while humans continually invent concepts; both preserve the stories’ emotional appraisals."
+ },
+ "F": {
+  "f1": "no",
+  "f2": "no",
+  "f3": "no",
+  "f4": "yes",
+  "f5": "no",
+  "f6": "na",
+  "f7": "no",
+  "f8": "no",
+  "f9": "no",
+  "f10": "yes",
+  "f11": "no",
+  "f12": "yes",
+  "perturbations_tested": [],
+  "robustness_outcome": "na"
+ },
+ "G": {
+  "notes": "The exact ChatGPT checkpoint, query dates, and decoding settings are not reported. The paper describes human retelling data from a prior study as well as a Prolific rating sample; clarify the participant counts and role of each dataset when interpreting the human comparison.",
+  "extractor": "codex (default)",
+  "date": "2026-10-16",
+  "minutes": 0.5,
+  "sections_read": [
+   "Abstract",
+   "Overview of study",
+   "Methods as described in Overview of study",
+   "Results",
+   "Discussion",
+   "Limitations and future research",
+   "Data availability"
+  ]
+ }
+}

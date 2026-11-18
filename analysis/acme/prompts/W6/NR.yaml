@@ -1,0 +1,8 @@
+paradigm: NR
+wording: W6
+response_type: yesno2
+q_us: Do you think newspaper reporters from North Korea should get let in here by the United States, so they can send back to their papers the news as they see it?
+q_other: Do you think American newspaper reporters should get let in by North Korea, so they can send back to America the news as they see it?
+options:
+- 'Yes'
+- 'No'

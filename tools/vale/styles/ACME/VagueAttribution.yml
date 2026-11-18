@@ -1,0 +1,11 @@
+extends: existence
+message: "Vague attribution '%s' (ai-patterns-academic A5). Cite the specific study next to the specific fact."
+level: warning
+ignorecase: true
+tokens:
+  - (studies|research|work|evidence) (has|have) (shown|demonstrated|suggested|indicated)
+  - (it is|it has been) (widely|generally|commonly) (recogni[sz]ed|accepted|known|believed)
+  - researchers have (increasingly|widely)
+  - recent (literature|studies|work|research) (suggests?|shows?|indicates?)
+  - many (researchers|studies|authors)
+  - some (researchers|studies|authors)

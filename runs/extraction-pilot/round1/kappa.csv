@@ -1,0 +1,24 @@
+field,level,n,agreement,kappa,categories
+eligibility.decision,study,12,0.917,0.824,no|unclear|yes
+A.peer_reviewed,study,12,0.75,0.25,preprint|yes
+D.primary_type,yes-both,8,0.75,0.385,crowd_norms|own_sample|published_norms
+F.f1,yes-both,8,0.875,0.6,no|yes
+F.f2,yes-both,8,0.875,0.714,no|yes
+F.f3,yes-both,8,0.875,0.0,no|yes
+F.f4,yes-both,8,0.875,0.0,no|yes
+F.f5,yes-both,8,0.75,0.385,no|yes
+F.f6,yes-both,8,0.25,-0.171,na|no|yes
+F.f7,yes-both,8,1.0,1.0,no|yes
+F.f8,yes-both,8,0.75,0.5,no|yes
+F.f9,yes-both,8,0.75,0.5,no|yes
+F.f10,yes-both,8,0.875,0.0,no|yes
+F.f11,yes-both,8,1.0,,no
+F.f12,yes-both,8,0.875,0.714,no|yes
+F.robustness_outcome,yes-both,8,0.5,0.304,mixed|na|not_reported|survived
+C.family_presence (pooled),yes-both x family,88,0.943,0.781,False|True
+F.perturbations_tested (pooled),yes-both x type,80,0.863,0.516,False|True
+E.model_effect_present,matched (paradigm family x model family),20,0.35,0.0,no|not_reported|yes
+E.human_effect_present,matched (paradigm family x model family),20,0.75,0.438,no_human_reference|not_reported|yes
+E.direction,matched (paradigm family x model family),20,0.5,0.225,not_applicable|not_reported|same
+E.authors_comparison,matched (paradigm family x model family),20,0.95,0.773,different|not_tested
+E.label,matched (paradigm family x model family),20,0.5,0.369,attenuated|different|human-like|insufficient|no-human-reference|same-direction-unquantified|super-normative

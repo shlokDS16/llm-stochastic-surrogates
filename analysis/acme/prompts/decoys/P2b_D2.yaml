@@ -1,0 +1,12 @@
+paradigm: P2b
+wording: D2
+response_type: number
+intro: We are interested in people's beliefs about the world around them. For the following question we would like you to give your best estimate. If you do not know the correct answer, just give your best guess.
+conditions:
+  x1: The population of Chicago is more than 5,000,000. What do you think the population of Chicago is?
+  x0: The population of Chicago is less than 200,000. What do you think the population of Chicago is?
+condition_names:
+  x1: high anchor
+  x0: low anchor
+baseline: What do you think the population of Chicago is?
+decoy_change: 'anchor directions flipped: high anchor now reads ''more than 5,000,000'', low anchor ''less than 200,000'' (both false statements)'

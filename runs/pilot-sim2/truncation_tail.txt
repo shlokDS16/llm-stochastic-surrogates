@@ -1,0 +1,6 @@
+OLMo-2 1B, F1, censored-lognormal fit of answer length (tokens)
+paradigm                         n  cens@128  median  P(>192)  P(>256)  P(>320)  P(>384)  P(>512)
+P1 (cap 128 probe+stage)       840     0.167      89   0.0146   0.0014   0.0001   0.0000   0.0000
+P2a-d (cap 128)                160     0.300      98   0.0659   0.0157   0.0040   0.0011   0.0001
+P3 (cap 128 probe+stage)       360     0.211      85   0.0400   0.0090   0.0022   0.0006   0.0001
+P4 (cap 128)                    40     0.475     119   0.2170   0.1051   0.0529   0.0277   0.0085

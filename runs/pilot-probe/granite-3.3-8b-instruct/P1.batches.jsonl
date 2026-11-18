@@ -1,0 +1,8 @@
+{"paradigm": "P1", "F": "F0", "batch": 0, "rows": 50, "seconds": 8.485, "new_tokens": 76, "padded_prompt_len": 153, "peak_vram_gib": 6.89}
+{"paradigm": "P1", "F": "F0", "batch": 1, "rows": 50, "seconds": 7.757, "new_tokens": 96, "padded_prompt_len": 153, "peak_vram_gib": 6.889}
+{"paradigm": "P1", "F": "F0", "batch": 2, "rows": 50, "seconds": 7.902, "new_tokens": 98, "padded_prompt_len": 155, "peak_vram_gib": 6.919}
+{"paradigm": "P1", "F": "F0", "batch": 3, "rows": 50, "seconds": 8.192, "new_tokens": 122, "padded_prompt_len": 155, "peak_vram_gib": 6.919}
+{"paradigm": "P1", "F": "F1", "batch": 4, "rows": 50, "seconds": 21.991, "new_tokens": 2948, "padded_prompt_len": 173, "peak_vram_gib": 7.274}
+{"paradigm": "P1", "F": "F1", "batch": 5, "rows": 50, "seconds": 53.024, "new_tokens": 3130, "padded_prompt_len": 173, "peak_vram_gib": 7.563}
+{"paradigm": "P1", "F": "F1", "batch": 6, "rows": 50, "seconds": 25.007, "new_tokens": 2991, "padded_prompt_len": 175, "peak_vram_gib": 7.387}
+{"paradigm": "P1", "F": "F1", "batch": 7, "rows": 50, "seconds": 27.088, "new_tokens": 3144, "padded_prompt_len": 175, "peak_vram_gib": 7.481}

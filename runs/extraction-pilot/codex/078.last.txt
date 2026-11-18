@@ -1,0 +1,388 @@
+{
+  "order": 78,
+  "study_id": "https://openalex.org/W7154389923",
+  "full_text": {
+    "obtained": true,
+    "source": "provided full text"
+  },
+  "eligibility": {
+    "decision": "YES",
+    "failed_criterion": null,
+    "borderline": false,
+    "evidence": "Sections 2–4 and Appendix A: tests trained LLMs on the canonical N-back working-memory paradigm, citing human studies and comparing model results with pooled human N-back data."
+  },
+  "A": {
+    "doi": null,
+    "arxiv_id": "2604.09670",
+    "title": "In-context superposition: human-like working memory interference in large language models",
+    "first_author": "Hua-Dong Xiong",
+    "year": 2026,
+    "venue": "COLM 2026",
+    "peer_reviewed": "yes",
+    "first_author_field": "psychology",
+    "country": "United States"
+  },
+  "B": {
+    "models": [
+      {
+        "name": "Gemma 3",
+        "version": "Gemma-3-1B-IT",
+        "access": "open_weights",
+        "params_b": 1,
+        "release_date": "not_reported",
+        "tuning": "instruction",
+        "family": "other",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "Gemma 3",
+        "version": "Gemma-3-4B-IT",
+        "access": "open_weights",
+        "params_b": 4,
+        "release_date": "not_reported",
+        "tuning": "instruction",
+        "family": "other",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "Gemma 3",
+        "version": "Gemma-3-12B-IT",
+        "access": "open_weights",
+        "params_b": 12,
+        "release_date": "not_reported",
+        "tuning": "instruction",
+        "family": "other",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "Gemma 3",
+        "version": "Gemma-3-27B-IT",
+        "access": "open_weights",
+        "params_b": 27,
+        "release_date": "not_reported",
+        "tuning": "instruction",
+        "family": "other",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "Qwen 3.5",
+        "version": "Qwen3.5-2B",
+        "access": "open_weights",
+        "params_b": 2,
+        "release_date": "not_reported",
+        "tuning": "instruction",
+        "family": "Qwen",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "Qwen 3.5",
+        "version": "Qwen3.5-4B",
+        "access": "open_weights",
+        "params_b": 4,
+        "release_date": "not_reported",
+        "tuning": "instruction",
+        "family": "Qwen",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "Qwen 3.5",
+        "version": "Qwen3.5-9B",
+        "access": "open_weights",
+        "params_b": 9,
+        "release_date": "not_reported",
+        "tuning": "instruction",
+        "family": "Qwen",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "Qwen 3.5",
+        "version": "Qwen3.5-27B",
+        "access": "open_weights",
+        "params_b": 27,
+        "release_date": "not_reported",
+        "tuning": "instruction",
+        "family": "Qwen",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "Llama 3.1",
+        "version": "Llama-3.1-8B-Instruct",
+        "access": "open_weights",
+        "params_b": 8,
+        "release_date": "not_reported",
+        "tuning": "instruction",
+        "family": "Llama",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "Ministral 3",
+        "version": "Ministral-3-14B-Instruct",
+        "access": "open_weights",
+        "params_b": 14,
+        "release_date": "not_reported",
+        "tuning": "instruction",
+        "family": "Mistral",
+        "query_date": "not_reported"
+      }
+    ],
+    "n_models": 10,
+    "n_model_families": 4
+  },
+  "C": {
+    "paradigms": [
+      {
+        "pid": "P1",
+        "name": "N-back working-memory task (baseline and lure, reduced-vocabulary, and structured-transition conditions)",
+        "family": "MEM",
+        "source_paper": "Cowan (2001); Engle et al. (1999); Conway et al. (2003)",
+        "items_origin": "adapted",
+        "n_items": null,
+        "languages": [
+          "English"
+        ],
+        "modality": "text",
+        "contamination_risk": "partly",
+        "location": "Sections 2–3; Appendix A.2–A.6"
+      }
+    ]
+  },
+  "D": {
+    "types": [
+      "published_norms"
+    ],
+    "primary_type": "published_norms",
+    "human_n": null,
+    "population": "Human N-back study samples pooled from five published datasets; overall participant count not reported.",
+    "metric": "Cohen's κ for load performance; accuracy and condition effects for interference comparisons."
+  },
+  "E": {
+    "outcome_types": [
+      "accuracy",
+      "bias_magnitude",
+      "effect_size",
+      "choice_distribution",
+      "other"
+    ],
+    "rows_aggregated": false,
+    "effects": [
+      {
+        "pid": "P1",
+        "model": "Gemma-3-1B-IT",
+        "model_family": "other",
+        "outcome_kind": "effect",
+        "basis": "descriptive",
+        "model_effect_present": "yes",
+        "human_effect_present": "yes",
+        "direction": "same",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "SAME-DIRECTION-UNQUANTIFIED",
+        "location": "Sections 2.1–2.3; Figures 1–2; Appendix Figure 9; load-dependent performance decline and recency/interference patterns are described across models rather than separately quantified here."
+      },
+      {
+        "pid": "P1",
+        "model": "Gemma-3-4B-IT",
+        "model_family": "other",
+        "outcome_kind": "effect",
+        "basis": "descriptive",
+        "model_effect_present": "yes",
+        "human_effect_present": "yes",
+        "direction": "same",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "SAME-DIRECTION-UNQUANTIFIED",
+        "location": "Sections 2.1–2.3; Figures 1–2; Appendix Figures 9–10; load-dependent decline and interference signatures are reported across models."
+      },
+      {
+        "pid": "P1",
+        "model": "Gemma-3-12B-IT",
+        "model_family": "other",
+        "outcome_kind": "effect",
+        "basis": "descriptive",
+        "model_effect_present": "yes",
+        "human_effect_present": "yes",
+        "direction": "same",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "SAME-DIRECTION-UNQUANTIFIED",
+        "location": "Sections 2.1–2.3; Figures 1–2; Appendix Figures 9–10; load-dependent decline and interference signatures are reported across models."
+      },
+      {
+        "pid": "P1",
+        "model": "Gemma-3-27B-IT",
+        "model_family": "other",
+        "outcome_kind": "effect",
+        "basis": "descriptive",
+        "model_effect_present": "yes",
+        "human_effect_present": "yes",
+        "direction": "same",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "SAME-DIRECTION-UNQUANTIFIED",
+        "location": "Sections 2.1–2.3; Figures 1–2; Appendix Figures 9–10; load-dependent decline and interference signatures are reported across models."
+      },
+      {
+        "pid": "P1",
+        "model": "Qwen3.5-2B",
+        "model_family": "Qwen",
+        "outcome_kind": "effect",
+        "basis": "descriptive",
+        "model_effect_present": "yes",
+        "human_effect_present": "yes",
+        "direction": "same",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "SAME-DIRECTION-UNQUANTIFIED",
+        "location": "Sections 2.1–2.3; Figures 1–2; Appendix Figures 9–10; load-dependent decline and interference signatures are reported across models."
+      },
+      {
+        "pid": "P1",
+        "model": "Qwen3.5-4B",
+        "model_family": "Qwen",
+        "outcome_kind": "effect",
+        "basis": "descriptive",
+        "model_effect_present": "yes",
+        "human_effect_present": "yes",
+        "direction": "same",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "SAME-DIRECTION-UNQUANTIFIED",
+        "location": "Sections 2.1–2.3; Figures 1–2; Appendix Figures 9–10; load-dependent decline and interference signatures are reported across models."
+      },
+      {
+        "pid": "P1",
+        "model": "Qwen3.5-9B",
+        "model_family": "Qwen",
+        "outcome_kind": "effect",
+        "basis": "descriptive",
+        "model_effect_present": "yes",
+        "human_effect_present": "yes",
+        "direction": "same",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "SAME-DIRECTION-UNQUANTIFIED",
+        "location": "Sections 2.1–2.3; Figures 1–2; Appendix Figures 9–10; load-dependent decline and interference signatures are reported across models."
+      },
+      {
+        "pid": "P1",
+        "model": "Qwen3.5-27B",
+        "model_family": "Qwen",
+        "outcome_kind": "effect",
+        "basis": "descriptive",
+        "model_effect_present": "yes",
+        "human_effect_present": "yes",
+        "direction": "same",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "SAME-DIRECTION-UNQUANTIFIED",
+        "location": "Sections 2.1–2.3; Figures 1–2; Appendix Figures 9–10; authors report a qualitatively human-like load decline, while Qwen3.5-27B exceeded human performance."
+      },
+      {
+        "pid": "P1",
+        "model": "Llama-3.1-8B-Instruct",
+        "model_family": "Llama",
+        "outcome_kind": "effect",
+        "basis": "descriptive",
+        "model_effect_present": "yes",
+        "human_effect_present": "yes",
+        "direction": "same",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "SAME-DIRECTION-UNQUANTIFIED",
+        "location": "Sections 2.1–2.3; Figures 1–2; Appendix Figures 9–10; load-dependent decline and interference signatures are reported across models."
+      },
+      {
+        "pid": "P1",
+        "model": "Ministral-3-14B-Instruct",
+        "model_family": "Mistral",
+        "outcome_kind": "effect",
+        "basis": "descriptive",
+        "model_effect_present": "yes",
+        "human_effect_present": "yes",
+        "direction": "same",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "SAME-DIRECTION-UNQUANTIFIED",
+        "location": "Sections 2.1–2.3; Figures 1–2; Appendix Figures 9–10; load-dependent decline and interference signatures are reported across models."
+      }
+    ],
+    "headline": "Across ten trained LLMs, working-memory performance declined with memory load and retrieval showed human-like interference signatures, though model capacity varied."
+  },
+  "F": {
+    "f1": "no",
+    "f2": "no",
+    "f3": "no",
+    "f4": "yes",
+    "f5": "no",
+    "f6": "na",
+    "f7": "no",
+    "f8": "no",
+    "f9": "yes",
+    "f10": "yes",
+    "f11": "no",
+    "f12": "yes",
+    "perturbations_tested": [
+      "wording",
+      "response_format",
+      "decoding",
+      "seeds",
+      "contamination",
+      "other"
+    ],
+    "robustness_outcome": "na"
+  },
+  "G": {
+    "notes": "The intervention sweep selected and evaluated settings on the same trials, so its gains may not generalize; the authors acknowledge held-out validation is needed. The human reference pools heterogeneous studies and reports no total participant count.",
+    "extractor": "codex (default)",
+    "date": "2026-10-16",
+    "minutes": 12,
+    "sections_read": [
+      "Abstract and introduction",
+      "Sections 2–5",
+      "Limitations",
+      "Appendix A.1–A.7",
+      "Reproducibility statement",
+      "Tables and figures"
+    ]
+  }
+}

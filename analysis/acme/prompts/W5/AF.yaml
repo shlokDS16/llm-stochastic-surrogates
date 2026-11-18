@@ -1,0 +1,12 @@
+paradigm: AF
+wording: W5
+response_type: yesno
+conditions:
+  x1: Is it your opinion that public addresses opposed to democracy ought to be forbidden in the United States?
+  x0: Is it your opinion that public addresses opposed to democracy ought to be allowed in the United States?
+condition_names:
+  x1: forbid question
+  x0: allow question
+options:
+- 'Yes'
+- 'No'

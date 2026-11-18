@@ -1,0 +1,260 @@
+{
+ "cfg": {
+  "reps": 300,
+  "B": 1000,
+  "scenarios": [
+   "a",
+   "b",
+   "c",
+   "d",
+   "e",
+   "f",
+   "g",
+   "h25",
+   "h50"
+  ],
+  "workers": 5
+ },
+ "runtime_s": 447.74038457870483,
+ "pooled_median_share_mean": {
+  "a": [
+   -0.0023282175896694123,
+   -0.00011853286647102292,
+   -0.00010683333264121337,
+   -0.0013627822091872568,
+   0.5204823773721211,
+   -0.00013430143451002762,
+   0.43319865757158177
+  ],
+  "b": [
+   -0.00040945738619949015,
+   -3.174436991031273e-05,
+   -2.572666944732167e-06,
+   0.719985974144942,
+   0.1035251622651267,
+   -4.247757389097227e-05,
+   0.0838900737326853
+  ],
+  "c": [
+   -0.002318825595095318,
+   -2.5714334825108955e-05,
+   -1.8220657232000456e-05,
+   -0.0033297874329819644,
+   0.8507748355611667,
+   -1.6352631170603286e-05,
+   0.12353404941764386
+  ],
+  "d": [
+   -0.00034742377355948906,
+   0.7009893172535593,
+   -0.0011912208391507265,
+   0.00012917271150420797,
+   0.0006987478769214823,
+   -0.0013648327313074888,
+   0.29864967898778255
+  ],
+  "e": [
+   0.10153807898205268,
+   0.016261294418504237,
+   0.027886997812858427,
+   0.08635219619169918,
+   0.43744441522199407,
+   0.018240698260276255,
+   0.15448667634671925
+  ],
+  "f": [
+   0.2982339230050712,
+   0.0018891368727427594,
+   0.02213565351145418,
+   0.031526224553402184,
+   0.37154119327334956,
+   0.004614673532951497,
+   0.1379251179825341
+  ],
+  "g": [
+   0.09963347580511418,
+   0.014559168030882223,
+   0.028260437598780025,
+   0.09510330277683413,
+   0.41583322836211645,
+   0.02128111810689016,
+   0.16026566078621723
+  ],
+  "h25": [
+   0.23121118150532163,
+   0.002847187247581013,
+   0.007531240755870421,
+   0.026326287500131874,
+   0.3988673492795841,
+   0.003366117113379187,
+   0.18119523734591
+  ],
+  "h50": [
+   0.22621940869968896,
+   0.007019424872218935,
+   0.021604479510432883,
+   0.029142809811835525,
+   0.38717770677916846,
+   0.002980126062327079,
+   0.16866407442393408
+  ]
+ },
+ "verdicts": {
+  "A1": {
+   "C1": {
+    "pass_": true,
+    "n_cells": 63,
+    "n_violations": 0,
+    "worst": {
+     "scenario": "f",
+     "scenario_label": "saturated binary, logistic link",
+     "level": "pooled_mean",
+     "variant": "A1",
+     "component": "M",
+     "n_models": 14,
+     "reps": 300,
+     "B": 1000,
+     "true_share": 0.2975571100307671,
+     "mean_estimate": 0.3015572534311706,
+     "bias": 0.0040001434004035,
+     "sd_estimate": 0.02979348887279275,
+     "coverage": 0.9333333333333333,
+     "lower_gt0_rate": 1.0,
+     "true_is_zero": false,
+     "false_positive_rate": NaN,
+     "mean_lo": 0.2480971168111949,
+     "mean_hi": 0.3585757704197904,
+     "rank_applicable": false,
+     "rank_correct_rate": NaN,
+     "rank_correct_rate_any": 0.9566666666666667,
+     "true_top_component": "MW"
+    }
+   },
+   "C2": {
+    "pass_": false,
+    "fraction": 0.7936507936507936,
+    "n_cells": 63,
+    "n_ok": 50
+   },
+   "C3": {
+    "pass_": true,
+    "n_cells": 19,
+    "n_violations": 0,
+    "worst": {
+     "scenario": "d",
+     "scenario_label": "O dominant (two-order items)",
+     "level": "pooled_mean",
+     "variant": "A1",
+     "component": "MW",
+     "n_models": 14,
+     "reps": 300,
+     "B": 1000,
+     "true_share": 0.0,
+     "mean_estimate": -8.8298873212328e-05,
+     "bias": -8.8298873212328e-05,
+     "sd_estimate": 0.012823926330186166,
+     "coverage": 0.9266666666666666,
+     "lower_gt0_rate": 0.043333333333333335,
+     "true_is_zero": true,
+     "false_positive_rate": 0.043333333333333335,
+     "mean_lo": -0.022828086452159172,
+     "mean_hi": 0.02264069512404138,
+     "rank_applicable": true,
+     "rank_correct_rate": 1.0,
+     "rank_correct_rate_any": 1.0,
+     "true_top_component": "O"
+    }
+   },
+   "C4": {
+    "pass_": true,
+    "scenarios": {
+     "b": 1.0,
+     "c": 1.0,
+     "d": 1.0,
+     "e": 1.0,
+     "g": 1.0
+    },
+    "n_violations": 0
+   },
+   "overall": false
+  },
+  "S1_student": {
+   "C1": {
+    "pass_": true,
+    "n_cells": 63,
+    "n_violations": 0,
+    "worst": {
+     "scenario": "f",
+     "scenario_label": "saturated binary, logistic link",
+     "level": "pooled_mean",
+     "variant": "S1_student",
+     "component": "M",
+     "n_models": 14,
+     "reps": 300,
+     "B": 1000,
+     "true_share": 0.2975571100307671,
+     "mean_estimate": 0.3015572534311706,
+     "bias": 0.0040001434004035,
+     "sd_estimate": 0.02979348887279275,
+     "coverage": 0.9033333333333333,
+     "lower_gt0_rate": 1.0,
+     "true_is_zero": false,
+     "false_positive_rate": NaN,
+     "mean_lo": 0.2490893313262677,
+     "mean_hi": 0.35418534849867295,
+     "rank_applicable": false,
+     "rank_correct_rate": NaN,
+     "rank_correct_rate_any": 0.9566666666666667,
+     "true_top_component": "MW"
+    }
+   },
+   "C2": {
+    "pass_": true,
+    "fraction": 0.9682539682539683,
+    "n_cells": 63,
+    "n_ok": 61
+   },
+   "C3": {
+    "pass_": true,
+    "n_cells": 19,
+    "n_violations": 0,
+    "worst": {
+     "scenario": "a",
+     "scenario_label": "residual only",
+     "level": "pooled_mean",
+     "variant": "S1_student",
+     "component": "M",
+     "n_models": 14,
+     "reps": 300,
+     "B": 1000,
+     "true_share": 0.0,
+     "mean_estimate": 0.0005991128541316567,
+     "bias": 0.0005991128541316567,
+     "sd_estimate": 0.011373149431346374,
+     "coverage": 0.92,
+     "lower_gt0_rate": 0.05,
+     "true_is_zero": true,
+     "false_positive_rate": 0.05,
+     "mean_lo": -0.019131333655665016,
+     "mean_hi": 0.023789120120282725,
+     "rank_applicable": false,
+     "rank_correct_rate": NaN,
+     "rank_correct_rate_any": 0.5366666666666666,
+     "true_top_component": "MW"
+    }
+   },
+   "C4": {
+    "pass_": true,
+    "scenarios": {
+     "b": 1.0,
+     "c": 1.0,
+     "d": 1.0,
+     "e": 1.0,
+     "g": 1.0
+    },
+    "n_violations": 0
+   },
+   "overall": true
+  }
+ }
+}

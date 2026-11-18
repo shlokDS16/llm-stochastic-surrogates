@@ -1,0 +1,221 @@
+{
+  "order": 41,
+  "study_id": "https://openalex.org/W4408102289",
+  "full_text": {
+    "obtained": true,
+    "source": "ScienceDirect open-access page text, accessed 2026-10-17"
+  },
+  "eligibility": {
+    "decision": "YES",
+    "failed_criterion": null,
+    "borderline": false,
+    "evidence": "Studies 1–4 administer named human cognitive-bias paradigms to GPT-3.5-generated personas and report new model results."
+  },
+  "A": {
+    "doi": "10.1016/j.chbah.2025.100138",
+    "arxiv_id": null,
+    "title": "Artificial intelligence and human decision making: Exploring similarities in cognitive bias",
+    "first_author": "Hanna Campbell",
+    "year": 2025,
+    "venue": "Computers in Human Behavior: Artificial Humans",
+    "peer_reviewed": "yes",
+    "first_author_field": "not_reported",
+    "country": "not_reported"
+  },
+  "B": {
+    "models": [
+      {
+        "name": "GPT-3.5",
+        "version": "gpt-3.5-turbo-0301",
+        "access": "API",
+        "params_b": null,
+        "release_date": "not_reported",
+        "tuning": "not_reported",
+        "family": "GPT",
+        "query_date": "not_reported"
+      }
+    ],
+    "n_models": 1,
+    "n_model_families": 1
+  },
+  "C": {
+    "paradigms": [
+      {
+        "pid": "P1",
+        "name": "Halo effect: good-deed versus neutral target ratings",
+        "family": "HB",
+        "source_paper": "Nisbett and Wilson (1977), lecturer evaluation paradigm",
+        "items_origin": "adapted",
+        "n_items": 40,
+        "languages": [
+          "English"
+        ],
+        "modality": "text",
+        "contamination_risk": "no",
+        "location": "Study 1, Method and Results"
+      },
+      {
+        "pid": "P2",
+        "name": "In-group–out-group bias: political identity target ratings",
+        "family": "TOM",
+        "source_paper": "Johnson (1981), political-party target evaluation paradigm",
+        "items_origin": "adapted",
+        "n_items": 40,
+        "languages": [
+          "English"
+        ],
+        "modality": "text",
+        "contamination_risk": "no",
+        "location": "Study 2, Method and Results"
+      },
+      {
+        "pid": "P3",
+        "name": "False consensus effect: estimates of population prevalence of behaviors and beliefs",
+        "family": "HB",
+        "source_paper": "Ross, Green, and House (1977)",
+        "items_origin": "adapted",
+        "n_items": 25,
+        "languages": [
+          "English"
+        ],
+        "modality": "text",
+        "contamination_risk": "no",
+        "location": "Study 3, Method and Results"
+      },
+      {
+        "pid": "P4",
+        "name": "Anchoring effect: numerical estimation after high or low anchors",
+        "family": "HB",
+        "source_paper": "Tversky and Kahneman (1974)",
+        "items_origin": "adapted",
+        "n_items": 4,
+        "languages": [
+          "English"
+        ],
+        "modality": "text",
+        "contamination_risk": "no",
+        "location": "Study 4, Method and Results"
+      }
+    ]
+  },
+  "D": {
+    "types": [
+      "published_norms"
+    ],
+    "primary_type": "published_norms",
+    "human_n": null,
+    "population": "Human effect sizes from cited meta-analyses are discussed; no human participant sample or sample size is reported.",
+    "metric": "Cohen's d"
+  },
+  "E": {
+    "outcome_types": [
+      "bias_magnitude"
+    ],
+    "rows_aggregated": false,
+    "effects": [
+      {
+        "pid": "P1",
+        "model": "GPT-3.5 (gpt-3.5-turbo-0301)",
+        "model_family": "GPT",
+        "outcome_kind": "effect",
+        "basis": "test",
+        "model_effect_present": "yes",
+        "human_effect_present": "yes",
+        "direction": "same",
+        "model_es": 1.0925,
+        "human_es": null,
+        "es_metric": "Cohen's d; study reports four effects, mean d calculated from reported values",
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "SAME-DIRECTION-UNQUANTIFIED",
+        "location": "Study 1 Results; Discussion"
+      },
+      {
+        "pid": "P2",
+        "model": "GPT-3.5 (gpt-3.5-turbo-0301)",
+        "model_family": "GPT",
+        "outcome_kind": "effect",
+        "basis": "test",
+        "model_effect_present": "yes",
+        "human_effect_present": "yes",
+        "direction": "same",
+        "model_es": 1.5825,
+        "human_es": null,
+        "es_metric": "Cohen's d; study reports four effects, mean d calculated from reported values",
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "SAME-DIRECTION-UNQUANTIFIED",
+        "location": "Study 2 Results; Discussion"
+      },
+      {
+        "pid": "P3",
+        "model": "GPT-3.5 (gpt-3.5-turbo-0301)",
+        "model_family": "GPT",
+        "outcome_kind": "effect",
+        "basis": "test",
+        "model_effect_present": "yes",
+        "human_effect_present": "yes",
+        "direction": "same",
+        "model_es": 2.955,
+        "human_es": null,
+        "es_metric": "Cohen's d; study reports four effects, mean d calculated from reported values",
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "SAME-DIRECTION-UNQUANTIFIED",
+        "location": "Study 3 Results; Discussion"
+      },
+      {
+        "pid": "P4",
+        "model": "GPT-3.5 (gpt-3.5-turbo-0301)",
+        "model_family": "GPT",
+        "outcome_kind": "effect",
+        "basis": "test",
+        "model_effect_present": "yes",
+        "human_effect_present": "yes",
+        "direction": "same",
+        "model_es": 1.8525,
+        "human_es": null,
+        "es_metric": "Cohen's d; study reports four effects, mean d calculated from reported values",
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "SAME-DIRECTION-UNQUANTIFIED",
+        "location": "Study 4 Results; Discussion"
+      }
+    ],
+    "headline": "Artificial personas showed three tested cognitive biases and three of four anchoring effects; the authors describe persona effects as stronger than typical human findings."
+  },
+  "F": {
+    "f1": "no",
+    "f2": "no",
+    "f3": "no",
+    "f4": "yes",
+    "f5": "no",
+    "f6": "na",
+    "f7": "no",
+    "f8": "no",
+    "f9": "no",
+    "f10": "yes",
+    "f11": "no",
+    "f12": "yes",
+    "perturbations_tested": [],
+    "robustness_outcome": "na"
+  },
+  "G": {
+    "notes": "The claimed human effect-size contrast relies on cited meta-analyses, but the paper gives no paradigm-specific human estimates or direct model–human tests. Reported anchors use familiar quantities, raising a memorization concern.",
+    "extractor": "codex (default)",
+    "date": "2026-10-17",
+    "minutes": 4,
+    "sections_read": [
+      "Abstract",
+      "Introduction",
+      "Studies 1–4 methods and results",
+      "Discussion",
+      "Limitations",
+      "Declarations and data availability"
+    ]
+  }
+}

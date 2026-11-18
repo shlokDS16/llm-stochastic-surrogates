@@ -1,0 +1,8 @@
+grids 42; recomputed label differs from stored rule_outcome in 0
+fragile grids: 41 {'sigma only': np.int64(2), 'range only': np.int64(10), 'both': np.int64(29)}
+grids with sigma >= 0.9: 4
+                  model paradigm  sigma   llm_mu    llm_S rule_outcome     clause  dbar_minus_2S_lower  nd_flag_any
+granite-3.3-2b-instruct      P2d 1.0000 7.938141 8.954711      fragile range only           -11.229666         True
+    qwen2.5-7b-instruct       P1 0.9375 6.768899 2.122955       stable       none             0.804498         True
+    qwen2.5-7b-instruct      P2a 1.0000 1.160854 0.773209      fragile range only            -0.629344         True
+    qwen2.5-7b-instruct      P2d 0.9375 3.586219 1.842972      fragile range only            -1.504865         True

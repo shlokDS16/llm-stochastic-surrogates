@@ -1,0 +1,227 @@
+{
+ "order": 101,
+ "study_id": "https://openalex.org/W7133241468",
+ "full_text": {
+  "obtained": true,
+  "source": "provided full text; NeurIPS 2023 Track on Datasets and Benchmarks"
+ },
+ "eligibility": {
+  "decision": "YES",
+  "failed_criterion": null,
+  "borderline": false,
+  "evidence": "Sections 1–4 and Appendix C: tests GPT models on a task derived from Only Connect and explicitly connects the task to the Remote Associates Test and human fixation research; reports human performance and model results."
+ },
+ "A": {
+  "doi": null,
+  "arxiv_id": "2302.11167",
+  "title": "Large Language Models are Fixated by Red Herrings: Exploring Creative Problem Solving and Einstellung Effect with the OnlyConnect Wall Dataset",
+  "first_author": "Saeid Alavi Naeini",
+  "year": 2023,
+  "venue": "NeurIPS 2023 Track on Datasets and Benchmarks",
+  "peer_reviewed": "yes",
+  "first_author_field": "other",
+  "country": "Canada"
+ },
+ "B": {
+  "models": [
+   {
+    "name": "GPT-3.5-turbo",
+    "version": "gpt-3.5-turbo-0301",
+    "access": "API",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "GPT",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "GPT-4",
+    "version": "gpt-4-0314",
+    "access": "API",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "GPT",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "LLaMA",
+    "version": "7B",
+    "access": "open_weights",
+    "params_b": 7,
+    "release_date": "not_reported",
+    "tuning": "base",
+    "family": "Llama",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "LLaMA",
+    "version": "13B",
+    "access": "open_weights",
+    "params_b": 13,
+    "release_date": "not_reported",
+    "tuning": "base",
+    "family": "Llama",
+    "query_date": "not_reported"
+   }
+  ],
+  "n_models": 4,
+  "n_model_families": 2
+ },
+ "C": {
+  "paradigms": [
+   {
+    "pid": "P1",
+    "name": "Only Connect Wall grouping task (creative problem solving with red-herring distractors)",
+    "family": "OTH",
+    "source_paper": "Mednick’s Remote Associates Test; human fixation and negative-transfer paradigms cited in the paper",
+    "items_origin": "mixed",
+    "n_items": 494,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "partly",
+    "location": "Sections 2.1–2.2, 3.2; Tables 3–5, 9–10; Appendix C"
+   },
+   {
+    "pid": "P2",
+    "name": "Only Connect Wall connections task",
+    "family": "OTH",
+    "source_paper": "Only Connect quiz-show task; related to Mednick’s Remote Associates Test as described in the paper",
+    "items_origin": "mixed",
+    "n_items": 494,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "partly",
+    "location": "Sections 2.1–2.2, 3.2, 4.2; Figure 6"
+   }
+  ]
+ },
+ "D": {
+  "types": [
+   "published_norms"
+  ],
+  "primary_type": "published_norms",
+  "human_n": null,
+  "population": "Only Connect quiz-show contestants; human performance manually curated from episodes",
+  "metric": "Grouping: solved walls and correct groups; Connections: fraction of correctly guessed connections"
+ },
+ "E": {
+  "outcome_types": [
+   "accuracy",
+   "choice_distribution",
+   "bias_magnitude"
+  ],
+  "rows_aggregated": false,
+  "effects": [
+   {
+    "pid": "P1",
+    "model": "GPT-3.5-turbo (gpt-3.5-turbo-0301)",
+    "model_family": "GPT",
+    "outcome_kind": "accuracy",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "below",
+    "agreement_value": null,
+    "label": "BELOW-HUMAN",
+    "location": "Section 4.1, Table 4: GPT-3.5-turbo solved 0–2/494 walls and 114–149/1976 groups; human performance 285/494 walls and 1405/1976 groups."
+   },
+   {
+    "pid": "P1",
+    "model": "GPT-4 (gpt-4-0314)",
+    "model_family": "GPT",
+    "outcome_kind": "accuracy",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "below",
+    "agreement_value": null,
+    "label": "BELOW-HUMAN",
+    "location": "Section 4.1, Table 4: GPT-4 solved 3–7/494 walls and 239–272/1976 groups; human performance 285/494 walls and 1405/1976 groups."
+   },
+   {
+    "pid": "P2",
+    "model": "GPT-3.5-turbo (gpt-3.5-turbo-0301)",
+    "model_family": "GPT",
+    "outcome_kind": "accuracy",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "below",
+    "agreement_value": null,
+    "label": "BELOW-HUMAN",
+    "location": "Section 4.2, Figure 6: model connection scores are low, with exact match below 15%; human correct-connection performance is approximately 80%."
+   },
+   {
+    "pid": "P2",
+    "model": "GPT-4 (gpt-4-0314)",
+    "model_family": "GPT",
+    "outcome_kind": "accuracy",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "below",
+    "agreement_value": null,
+    "label": "BELOW-HUMAN",
+    "location": "Section 4.2, Figure 6: best GPT-4 few-shot performance is 41–45% F1, below approximately 80% human correct-connection performance."
+   }
+  ],
+  "headline": "GPT-4 outperformed other tested language models but remained far below human performance; reducing red herrings improved grouping results."
+ },
+ "F": {
+  "f1": "yes",
+  "f2": "yes",
+  "f3": "no",
+  "f4": "yes",
+  "f5": "no",
+  "f6": "na",
+  "f7": "no",
+  "f8": "no",
+  "f9": "yes",
+  "f10": "no",
+  "f11": "no",
+  "f12": "yes",
+  "perturbations_tested": [
+   "option_order",
+   "other"
+  ],
+  "robustness_outcome": "weakened"
+ },
+ "G": {
+  "notes": "Human grouping results are episode-level contestant performance, while model results are aggregated over 494 test walls; the paper gives no human participant count or inferential model–human test. The red-herring ablations alter task difficulty and composition, so they do not isolate a controlled human-style fixation effect.",
+  "extractor": "codex (default)",
+  "date": "2026-10-16",
+  "minutes": 0.5,
+  "sections_read": [
+   "Abstract",
+   "Sections 1–6",
+   "Tables 1–5",
+   "Figure 6",
+   "Appendices A–C"
+  ]
+ }
+}

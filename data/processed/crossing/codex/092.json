@@ -1,0 +1,33 @@
+{
+ "order": 92,
+ "study_id": "https://openalex.org/W4402669698",
+ "pass": "codex",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/092_W4402669698.md",
+ "sources_varied": [
+  "M",
+  "X"
+ ],
+ "X1": {
+  "value": "partial",
+  "sources_crossed": [],
+  "evidence": "Secs. 3.2 and Appendix A: three models are compared on the main datasets; a separate ChatGPT context-length experiment varies context turns, and a temperature 0-to-1 check is mentioned."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "X"
+  ],
+  "evidence": "Appendix A.2, Figure 1: alignment increases across context lengths, with substantial gains through 20 turns and slight gains through 35."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "Secs. 3.2 and Appendix A: the context-length experiment holds ChatGPT and the response constant; no interaction between varied sources is estimated or shown."
+ },
+ "notes": "Context length is coded as X. Repeated samples are used to estimate alignment and are not analyzed as run-to-run variation."
+}

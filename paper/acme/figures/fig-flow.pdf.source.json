@@ -1,0 +1,149 @@
+{
+ "script": "analysis/acme/figures/fig_flow.py",
+ "gstudy_dir": "runs/rq1-fig1-prisma",
+ "gstudy_dir_resolved": "C:\\Users\\Shlok\\Downloads\\Thenboli ma'am review paper\\runs\\rq1-fig1-prisma",
+ "git_head": "541f69d0b4a23d93276ffdd4035a46a2a5d47b18",
+ "timestamp_utc": "2026-11-07T19:45:57+00:00",
+ "inputs": {
+  "data/processed/prisma-fulltext.json": "cd671966916d12a9e2b776d3289e061956d10b9a20294f1876e49ff89dad7cc6",
+  "paper/acme/autonumbers.tex": "f3f9f0a81d0479029680ebe01c7723bc27884d7ad2ca40a6af70b184c65cb946",
+  "research/protocol/prisma-counts.json": "9902797b60b35b2e2eade22f7ea5fa3d546bf5dd6ce63d89a1e0f1b6bc4a92a2",
+  "research/protocol/search-log.md": "279b9ce7be319177e007f04cb271ac47b674c8c5693e830445be3a4d5a0b7f64",
+  "runs/rq1-fig1-prisma/counts.json": "7145e6afa897eeee8824ac9264a2a187ab8c32e7233130139de43ad89783abb0"
+ },
+ "figure_cm": [
+  16.0,
+  17.68
+ ],
+ "counts": {
+  "openalex": {
+   "value": 96462,
+   "source": "runs/rq1-fig1-prisma/counts.json#openalex_total"
+  },
+  "arxiv": {
+   "value": 5031,
+   "source": "runs/rq1-fig1-prisma/counts.json#arxiv"
+  },
+  "identified": {
+   "value": 101493,
+   "source": "runs/rq1-fig1-prisma/counts.json#identified_total"
+  },
+  "dup": {
+   "value": 22484,
+   "source": "runs/rq1-fig1-prisma/counts.json#duplicates_removed"
+  },
+  "unique": {
+   "value": 79009,
+   "source": "runs/rq1-fig1-prisma/counts.json#unique"
+  },
+  "title_ex": {
+   "value": 72800,
+   "source": "runs/rq1-fig1-prisma/counts.json#title_excluded"
+  },
+  "stage2": {
+   "value": 6209,
+   "source": "runs/rq1-fig1-prisma/counts.json#stage2"
+  },
+  "abs_ex": {
+   "value": 3418,
+   "source": "runs/rq1-fig1-prisma/counts.json#abstract_both_exclude"
+  },
+  "both_inc": {
+   "value": 120,
+   "source": "runs/rq1-fig1-prisma/counts.json#both_include"
+  },
+  "split": {
+   "value": 2671,
+   "source": "runs/rq1-fig1-prisma/counts.json#disagree_or_maybe"
+  },
+  "ft_input": {
+   "value": 2791,
+   "source": "research/protocol/prisma-counts.json#full_text_input"
+  },
+  "tb_ex": {
+   "value": 769,
+   "source": "runs/rq1-fig1-prisma/counts.json#tiebreak_excluded"
+  },
+  "liberal": {
+   "value": 2022,
+   "source": "runs/rq1-fig1-prisma/counts.json#liberal_eligible"
+  },
+  "strict": {
+   "value": 1470,
+   "source": "runs/rq1-fig1-prisma/counts.json#strict_eligible"
+  },
+  "flag_yes": {
+   "value": 992,
+   "source": "runs/rq1-fig1-prisma/counts.json#flag.yes"
+  },
+  "flag_unc": {
+   "value": 759,
+   "source": "runs/rq1-fig1-prisma/counts.json#flag.unclear"
+  },
+  "flag_no": {
+   "value": 271,
+   "source": "runs/rq1-fig1-prisma/counts.json#flag.no"
+  },
+  "drawn": {
+   "value": 250,
+   "source": "runs/rq1-fig1-prisma/counts.json#sample_drawn"
+  },
+  "analysed": {
+   "value": 150,
+   "source": "runs/rq1-fig1-prisma/counts.json#sample_analysed"
+  },
+  "sought": {
+   "value": 150,
+   "source": "data/processed/prisma-fulltext.json#fulltext_sought"
+  },
+  "no_ft": {
+   "value": 40,
+   "source": "data/processed/prisma-fulltext.json#fulltext_not_retrievable"
+  },
+  "assessed": {
+   "value": 110,
+   "source": "data/processed/prisma-fulltext.json#fulltext_assessed"
+  },
+  "ft_ex": {
+   "value": 30,
+   "source": "data/processed/prisma-fulltext.json#excluded_fulltext_total"
+  },
+  "incl1": {
+   "value": 80,
+   "source": "data/processed/prisma-fulltext.json#included_rq2_rq4"
+  },
+  "incl2": {
+   "value": 81,
+   "source": "runs/rq1-fig1-prisma/counts.json#fulltext_second_coding_included"
+  },
+  "not_drawn": {
+   "value": 1772,
+   "source": "derived: liberal_eligible - sample_drawn"
+  },
+  "drawn_unread": {
+   "value": 100,
+   "source": "derived: sample_drawn - sample_analysed"
+  }
+ },
+ "exclusion_reasons": {
+  "abstract-only (E5; pending human confirmation)": 2,
+  "benchmark-only": 12,
+  "neural-only": 3,
+  "not-english": 1,
+  "not-llm": 4,
+  "other": 7,
+  "questionnaire-only": 1
+ },
+ "search_facts": {
+  "openalex_date": "2026-10-16",
+  "arxiv_date": "2026-10-16",
+  "openalex_from": "2018-01-01",
+  "arxiv_from": "2026-06-01",
+  "arxiv_to": "2026-10-16"
+ },
+ "crosscheck": {
+  "checks_run": 56,
+  "mismatches": []
+ },
+ "layout_issues": []
+}

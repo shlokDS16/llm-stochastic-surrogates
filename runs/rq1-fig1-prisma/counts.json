@@ -1,0 +1,58 @@
+{
+ "openalex_by_block": {
+  "B1": 24405,
+  "B10": 11139,
+  "B2": 36509,
+  "B3": 1701,
+  "B4": 1770,
+  "B5": 1356,
+  "B6": 2221,
+  "B7": 694,
+  "B8": 12966,
+  "B9": 3701
+ },
+ "openalex_total": 96462,
+ "arxiv": 5031,
+ "identified_total": 101493,
+ "duplicates_removed": 22484,
+ "unique": 79009,
+ "title_excluded": 72800,
+ "stage2": 6209,
+ "abstract_both_exclude": 3418,
+ "both_include": 120,
+ "disagree_or_maybe": 2671,
+ "tiebreak_eligible": 1902,
+ "tiebreak_excluded": 769,
+ "liberal_eligible": 2022,
+ "strict_eligible": 1470,
+ "rq1_coded_frame": 2022,
+ "flag": {
+  "yes": 992,
+  "unclear": 759,
+  "no": 271
+ },
+ "sample_drawn": 250,
+ "sample_analysed": 150,
+ "fulltext": {
+  "_note": "Filled after full-text reading of the analysed set (first 150 of the 250 drawn, sample.jsonl 'analysed'). null = pending. Read by analysis/rq1/fig1_prisma.py.",
+  "fulltext_assessed": 110,
+  "fulltext_not_retrievable": 40,
+  "excluded_fulltext_total": 30,
+  "excluded_fulltext_reasons": {
+   "abstract-only (E5; pending human confirmation)": 2,
+   "benchmark-only": 12,
+   "neural-only": 3,
+   "not-english": 1,
+   "not-llm": 4,
+   "other": 7,
+   "questionnaire-only": 1
+  },
+  "included_rq2_rq4": 80,
+  "fulltext_sought": 150,
+  "fulltext_pending_assessment": 0,
+  "fulltext_unresolved_unclear": 0,
+  "interim": false,
+  "_interim_note": "Claude primary coder, eligibility from the Claude extraction; orders 17 and 54 counted as excluded (abstract-only, E5) pending human confirmation; 67 and 120 keep the extractor's decision, flagged. Written by analysis/fulltext/rq234_analysis.py; rerun to update."
+ },
+ "fulltext_second_coding_included": 81
+}

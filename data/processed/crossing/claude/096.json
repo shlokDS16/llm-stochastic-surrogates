@@ -1,0 +1,32 @@
+{
+ "order": 96,
+ "study_id": "https://openalex.org/W4383058631",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/096_W4383058631.md",
+ "sources_varied": [
+  "M"
+ ],
+ "X1": {
+  "value": "no",
+  "sources_crossed": [],
+  "evidence": "Sec Method and Supplement: GPT-3 text-davinci-002 on one prompt design; the supplementary analysis runs GPT-3 models from ada to davinci on the same items."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "M"
+  ],
+  "evidence": "Supplementary size analysis (Fig 3): accuracy rises with model size from text-001-ada to davinci, stated in the text."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": ""
+ },
+ "notes": ""
+}

@@ -1,0 +1,11 @@
+{
+ "script": "analysis/acme/figures/fig_framework.py",
+ "gstudy_dir": "n/a",
+ "gstudy_dir_resolved": "n/a",
+ "git_head": "998723cbed0898076c76fd888bc57a6d0237ebb7",
+ "timestamp_utc": "2026-11-07T19:41:07+00:00",
+ "inputs": {},
+ "unhashed_inputs": [
+  "paper/journals/acme/build/main.aux"
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "source_exclusions": "runs/acme-L/exclusions_per_type.csv",
+ "models_left": {
+  "AF": 12,
+  "NR": 12,
+  "P1": 9,
+  "P2a": 0,
+  "P2b": 0,
+  "P2c": 3,
+  "P2d": 0,
+  "P3": 5,
+  "P4": 0,
+  "QA": 5
+ },
+ "decomposed": [
+  "AF",
+  "NR",
+  "P1",
+  "P2c",
+  "P3",
+  "QA"
+ ],
+ "not_decomposed": {
+  "P2a": 0,
+  "P2b": 0,
+  "P2d": 0,
+  "P4": 0
+ },
+ "min_models": 3
+}

@@ -1,0 +1,78 @@
+{
+ "order": 1,
+ "study_id": "https://openalex.org/W4416033771",
+ "full_text": {
+  "obtained": true,
+  "source": "research/sources/md/fulltext/001_W4416033771.md"
+ },
+ "eligibility": {
+  "decision": "NO",
+  "failed_criterion": "benchmark-only",
+  "borderline": true,
+  "evidence": "Sections 3–4: evaluates model judgments on a curated dataset of 847 Reddit moral-conflict posts against community verdicts; the task is a real-world scenario benchmark, not an administered cognitive-experimental paradigm."
+ },
+ "A": {
+  "doi": null,
+  "arxiv_id": null,
+  "title": "Human-AI Moral Judgment Congruence on Real-World Scenarios: A Cross-Lingual Analysis",
+  "first_author": "Nan Li",
+  "year": 2025,
+  "venue": "Proceedings of the 9th Widening NLP Workshop",
+  "peer_reviewed": "yes",
+  "first_author_field": "CS",
+  "country": "Belgium"
+ },
+ "B": {
+  "models": [],
+  "n_models": 0,
+  "n_model_families": 0
+ },
+ "C": {
+  "paradigms": []
+ },
+ "D": {
+  "types": [],
+  "primary_type": "none",
+  "human_n": null,
+  "population": "not_reported",
+  "metric": "not_reported"
+ },
+ "E": {
+  "outcome_types": [],
+  "rows_aggregated": false,
+  "effects": [],
+  "headline": ""
+ },
+ "F": {
+  "f1": "no",
+  "f2": "no",
+  "f3": "no",
+  "f4": "no",
+  "f5": "no",
+  "f6": "no",
+  "f7": "no",
+  "f8": "no",
+  "f9": "no",
+  "f10": "no",
+  "f11": "no",
+  "f12": "no",
+  "perturbations_tested": [],
+  "robustness_outcome": "na"
+ },
+ "G": {
+  "notes": "The task uses everyday moral scenarios, but the record describes dataset evaluation against community verdicts rather than an administered cognitive-experimental paradigm; confirm the benchmark-only boundary.",
+  "extractor": "codex (default)",
+  "date": "2026-10-16",
+  "minutes": 0.5,
+  "sections_read": [
+   "Abstract",
+   "Introduction",
+   "Related Work and Motivation",
+   "Tentative Methodology",
+   "Early Results",
+   "Ongoing Work",
+   "Limitations",
+   "References"
+  ]
+ }
+}

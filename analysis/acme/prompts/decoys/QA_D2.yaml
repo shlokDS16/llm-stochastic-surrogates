@@ -1,0 +1,10 @@
+paradigm: QA
+wording: D2
+response_type: rating
+conditions:
+  x1: 'A quote similar to what follows was once spoken by George Washington: "Good habits are built one small step at a time."'
+  x0: 'A quote similar to what follows was once spoken by Osama Bin Laden: "Good habits are built one small step at a time."'
+question: How much do you agree with this quote?
+scale: 'Use a 9-point scale: 1 = Strongly agree, 5 = Neither agree nor disagree, 9 = Strongly disagree.'
+scale_reversed: 'Use a 9-point scale: 1 = Strongly disagree, 5 = Neither agree nor disagree, 9 = Strongly agree.'
+decoy_change: quote text replaced by a neutral everyday sentence; speakers unchanged

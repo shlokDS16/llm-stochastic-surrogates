@@ -1,0 +1,3 @@
+qwen2.5-7b-instruct P2b: sampled=1600 validity=1.000 by_format={'F0': 1.0, 'F1': 1.0}
+  primary [standardised]: cells 16/16 dbar=0.015 S=0.551 CI95=[0.439, 0.664] shares_reportable=True sign_stab=0.31
+  sens_raw [standardised]: cells 16/16 dbar=0.167 S=0.656 CI95=[0.551, 0.75] shares_reportable=True sign_stab=0.38

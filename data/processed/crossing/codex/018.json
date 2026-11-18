@@ -1,0 +1,28 @@
+{
+ "order": 18,
+ "study_id": "https://openalex.org/W3213674227",
+ "pass": "codex",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/018_W3213674227.md",
+ "sources_varied": [
+  "M"
+ ],
+ "X1": {
+  "value": "no",
+  "sources_crossed": [],
+  "evidence": "Sec. 5.2 and Appendix D, Tables 5–6: multiple Transformer families and sizes are evaluated on ProSPer; prompt wording and decoding settings are not varied."
+ },
+ "X2": {
+  "value": "no",
+  "x2_types": [],
+  "x2_sources": [],
+  "evidence": "Sec. 5.4, Table 9: performance is listed by model, without quantifying or testing the effect of model as a source."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "Appendix G: reported interactions concern model with corpus, verb, modality, perspective, or syntactic environment; no two varied simulation-uncertainty sources are crossed."
+ },
+ "notes": "Corpus and linguistic categories are analyzed as task or item characteristics, not varied simulation-uncertainty sources."
+}

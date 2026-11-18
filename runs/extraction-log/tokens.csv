@@ -1,0 +1,45 @@
+order,extractor,decision,subagent_tokens,tool_uses,seconds,md_bytes
+1,claude-sonnet,NO,118945,9,58,27499
+4,claude-sonnet,NO,120127,15,107,111710
+2,claude-sonnet,YES,157422,22,195,121074
+6,claude-sonnet,YES,139001,10,90,65517
+10,claude-sonnet,NO,120338,8,49,29932
+9,claude-sonnet,YES,164641,15,192,100698
+11,claude-sonnet,NO,137895,12,71,84129
+15,claude-sonnet,YES,158857,18,153,109373
+13,claude-sonnet,YES,170728,20,248,145845
+21,claude-sonnet,YES,153053,16,164,179827
+16-17,claude-sonnet,YES+UNCLEAR,189463,16,248,
+22,claude-sonnet,YES,143924,12,120,115829
+18-19,claude-sonnet-v1.1,YES+YES,232156,21,312,330000
+23-24,claude-sonnet-v1.1,YES+YES,207903,24,303,303000
+25+2,claude-sonnet-v1.1,YES+YES,236069,24,391,240000
+6+9,claude-sonnet-v1.1,YES+YES,201593,17,305,165000
+13+15,claude-sonnet-v1.1,YES+YES,227350,28,409,255000
+22+26,claude-sonnet-v1.1,YES+YES,182515,23,216,
+16+21,claude-sonnet-v1.1,YES+YES,232403,31,372,
+27+28,claude-sonnet-v1.1,NO+YES,185800,17,200,
+36+44+45,claude-sonnet-v1.1,NO+NO+YES,177111,17,157,
+32+34+35,claude-sonnet-v1.1,YES+YES+YES,254467,32,418,
+46+48+49,claude-sonnet-v1.1,YES+YES+YES,248231,29,421,
+53-56,claude-sonnet-v1.1,NO+UNCLEAR+YES+NO,173585,27,253,
+57-60,claude-sonnet-v1.1,YES+NO+YES+YES,228067,32,413,
+61-65,claude-sonnet-v1.1,NO+YES+NO+YES,217581,33,334,
+67-74,claude-sonnet-v1.1,NO+NO+YES+YES,210295,25,368,
+83-86,claude-sonnet-v1.1,NO+NO+YES+NO,199043,37,303,
+75-78,claude-sonnet-v1.1,YES+YES+YES+YES,245481,32,471,
+87-90,claude-sonnet-v1.1,YES+YES+YES+NO,211490,35,338,
+91-95,claude-sonnet-v1.1,YES+YES+NO+YES,210552,24,319,
+96-101,claude-sonnet-v1.1,YES+YES+NO+YES,207541,31,310,
+103-108,claude-sonnet-v1.1,NO+YES+YES+YES,243389,33,397,
+109-113,claude-sonnet-v1.1,NO+YES+YES+YES,250520,35,382,
+114-117,claude-sonnet-v1.1,YESx4,199973,21,327,
+118-121,claude-sonnet-v1.1,NO+YES+NO+YES,219655,24,274,
+133-138,claude-sonnet-v1.1,YES+YES+NO+NO,181318,19,181,
+122-132,claude-sonnet-v1.1,YESx4,237473,33,412,
+139-142,claude-sonnet-v1.1,YES+NO+YES+YES,207683,32,384,
+144-150,claude-sonnet-v1.1,YES+YES+YES+NO+YES,277363,39,535,
+94+99+147,claude-sonnet-v1.1,YES+YES+YES,223489,32,360,
+107+41+12,claude-sonnet-v1.1 (CRP-S05 egateway),YES+YES+YES,161172,13,142,
+30+105+31,claude-sonnet-v1.1 (CRP-S05 egateway),YES+YES+YES,162934,15,187,
+29+33,claude-sonnet-v1.1 (CRP-S05 egateway IEEE),YES+YES,128212,9,89,

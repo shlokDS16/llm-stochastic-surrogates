@@ -1,0 +1,271 @@
+{
+ "order": 2,
+ "study_id": "https://openalex.org/W4415187106",
+ "full_text": {
+  "obtained": true,
+  "source": "research/sources/md/fulltext/002_W4415187106.md"
+ },
+ "eligibility": {
+  "decision": "YES",
+  "failed_criterion": null,
+  "borderline": false,
+  "evidence": "Sections 3–4, pp. 6–14: GPT is tested on three established IS decision experiments, including phishing framing, perspective-taking, and the deaf effect; original studies are cited."
+ },
+ "A": {
+  "doi": "10.3127/ajis.v29.5573",
+  "arxiv_id": null,
+  "title": "The Role of Roles: Are LLMs Behavioural in Information Systems Decision-Making?",
+  "first_author": "Nazmiye Guler",
+  "year": 2025,
+  "venue": "Australasian Journal of Information Systems",
+  "peer_reviewed": "yes",
+  "first_author_field": "other",
+  "country": "Australia"
+ },
+ "B": {
+  "models": [
+   {
+    "name": "ChatGPT",
+    "version": "GPT-3.5",
+    "access": "API",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "GPT",
+    "query_date": "October 3, 2023"
+   },
+   {
+    "name": "ChatGPT",
+    "version": "GPT-4",
+    "access": "API",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "GPT",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "ChatGPT",
+    "version": "GPT-4-1106 preview",
+    "access": "API",
+    "params_b": null,
+    "release_date": "November 6, 2023",
+    "tuning": "instruction",
+    "family": "GPT",
+    "query_date": "November 10, 2023"
+   }
+  ],
+  "n_models": 3,
+  "n_model_families": 1
+ },
+ "C": {
+  "paradigms": [
+   {
+    "pid": "P1",
+    "name": "Phishing susceptibility under gain/loss framing and contextualisation",
+    "family": "HB",
+    "source_paper": "Goel, Williams, & Dincelli (2017), “Got phished? Internet security and human vulnerability”",
+    "items_origin": "verbatim",
+    "n_items": 8,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "yes",
+    "location": "Section 4.1 and Appendix 2, pp. 8–10, 28–30"
+   },
+   {
+    "pid": "P2",
+    "name": "Perspective-taking and de-escalation of commitment to a software product launch",
+    "family": "JDM",
+    "source_paper": "Lee, Lee, & Keil (2018), “Using perspective-taking to de-escalate launch date commitment for products with known software defects”",
+    "items_origin": "adapted",
+    "n_items": 1,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "partly",
+    "location": "Section 4.2 and Appendix 2, pp. 11–12, 31–33"
+   },
+   {
+    "pid": "P3",
+    "name": "Deaf effect in IT project escalation: messenger role and perceived control",
+    "family": "JDM",
+    "source_paper": "Nuijten, Keil, & Commandeur (2016), “Collaborative partner or opponent: How the messenger influences the deaf effect in IT projects”",
+    "items_origin": "adapted",
+    "n_items": 1,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "partly",
+    "location": "Section 4.3 and Appendix 2, pp. 13–14, 33–36"
+   }
+  ]
+ },
+ "D": {
+  "types": [
+   "published_norms"
+  ],
+  "primary_type": "published_norms",
+  "human_n": null,
+  "population": "Undergraduate students in Goel et al. (2017); participants in Lee et al. (2018) and Nuijten et al. (2016); sample sizes not reported here",
+  "metric": "Phishing likelihood ratings and effects; launch and guilt ratings; project continuation decisions"
+ },
+ "E": {
+  "outcome_types": [
+   "bias_magnitude",
+   "choice_distribution",
+   "other"
+  ],
+  "rows_aggregated": false,
+  "effects": [
+   {
+    "pid": "P1",
+    "model": "GPT-3.5",
+    "model_family": "GPT",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Section 4.1, Figure 3 and Table 1, pp. 9–10"
+   },
+   {
+    "pid": "P1",
+    "model": "GPT-4",
+    "model_family": "GPT",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Section 4.1, Figure 3 and Table 1, pp. 9–10"
+   },
+   {
+    "pid": "P1",
+    "model": "GPT-4-1106 preview",
+    "model_family": "GPT",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Section 4.1, Figure 3 and Table 1, pp. 9–10"
+   },
+   {
+    "pid": "P2",
+    "model": "GPT-4",
+    "model_family": "GPT",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Section 4.2, Figure 4 and Table 2, pp. 11–12"
+   },
+   {
+    "pid": "P2",
+    "model": "GPT-4-1106 preview",
+    "model_family": "GPT",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Section 4.2, Figure 4 and Table 2, pp. 11–12"
+   },
+   {
+    "pid": "P3",
+    "model": "GPT-4",
+    "model_family": "GPT",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Section 4.3, Figure 5 and Table 3, pp. 13–14"
+   }
+  ],
+  "headline": "Role prompts shaped GPT’s decisions: human framing generally heightened behavioural and contextual influences, while AI framing produced more consistent responses."
+ },
+ "F": {
+  "f1": "no",
+  "f2": "yes",
+  "f3": "yes",
+  "f4": "yes",
+  "f5": "no",
+  "f6": "no",
+  "f7": "yes",
+  "f8": "yes",
+  "f9": "no",
+  "f10": "yes",
+  "f11": "no",
+  "f12": "no",
+  "perturbations_tested": [
+   "decoding",
+   "model_version",
+   "persona"
+  ],
+  "robustness_outcome": "weakened"
+ },
+ "G": {
+  "notes": "The authors rely on prior human studies without reporting their sample sizes or directly comparing GPT and human effect magnitudes. The study uses classic scenarios and discusses possible training-data exposure, but does not test contamination.",
+  "extractor": "codex (default)",
+  "date": "2026-10-16",
+  "minutes": 0.5,
+  "sections_read": [
+   "Abstract",
+   "Sections 3–8",
+   "Tables 1–3",
+   "Figures 2–5",
+   "Appendix 1",
+   "Appendix 2",
+   "References",
+   "Copyright"
+  ]
+ }
+}

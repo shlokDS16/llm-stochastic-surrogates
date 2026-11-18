@@ -1,0 +1,42 @@
+{
+ "order": 25,
+ "study_id": "W4399354223",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/025_W4399354223.md",
+ "sources_varied": [
+  "M",
+  "T",
+  "W"
+ ],
+ "X1": {
+  "value": "yes",
+  "sources_crossed": [
+   "M",
+   "T",
+   "W"
+  ],
+  "evidence": "Sec 3 and Figs 1-4: eleven models, prompts (flip a coin, flip a fair coin, flip 20 fair coins) and temperatures 0.0 to 1.5; multi-flip versus separate flips in App C."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "T",
+   "W",
+   "M"
+  ],
+  "evidence": "Sec 4, Fig 1 and App C.3: run counts and head rates compared across temperature and prompt wording; bundling effect reported with Welch t and bootstrap CI."
+ },
+ "X3": {
+  "value": "yes",
+  "x3_pairs": [
+   "M x T"
+  ],
+  "evidence": "Sec 4 (run-length results): authors state GPT-3.5 departs from the temperature trend of GPT-4 and Llama 3; descriptive."
+ },
+ "notes": "Interaction rests on descriptive statements, borderline."
+}

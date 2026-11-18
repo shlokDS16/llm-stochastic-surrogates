@@ -1,0 +1,142 @@
+{
+ "Fig6": {
+  "rows_a": 6,
+  "rows_b": 6,
+  "height_mm": 132.8
+ },
+ "Fig7": {
+  "families": 12,
+  "kinds": [
+   "effect",
+   "accuracy",
+   "agreement"
+  ],
+  "columns": {
+   "effect": [
+    "ANY",
+    "HUMAN-LIKE",
+    "EXAGGERATED",
+    "ATTENUATED",
+    "SUPER-NORMATIVE",
+    "DIFFERENT",
+    "SAME-DIRECTION-UNQUANTIFIED",
+    "NO-HUMAN-REFERENCE",
+    "INSUFFICIENT",
+    "UNCLASSIFIED-MODEL-ONLY"
+   ],
+   "accuracy": [
+    "ANY",
+    "ABOVE-HUMAN",
+    "HUMAN-LEVEL",
+    "BELOW-HUMAN",
+    "NO-HUMAN-REFERENCE",
+    "INSUFFICIENT"
+   ],
+   "agreement": [
+    "ANY",
+    "AGREEMENT-ONLY"
+   ]
+  },
+  "vmax": 77.0,
+  "height_mm": 210.6
+ },
+ "Fig8": {
+  "rows_a": 12,
+  "rows_b": 5,
+  "height_mm": 167.8
+ },
+ "Fig9": {
+  "items": [
+   "robustness_tested|yes",
+   "f1|yes",
+   "f2|yes",
+   "f3|yes",
+   "f4|yes",
+   "f9|yes",
+   "f10|yes",
+   "f12|yes"
+  ],
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "descriptive_only": [
+   "claude:rq4|f11|yes",
+   "claude:rq4|perturbation|contamination",
+   "claude:rq4|perturbation|language",
+   "claude:rq4|perturbation|persona",
+   "claude:rq4|perturbation|response_format",
+   "claude:rq4|perturbation|seeds",
+   "claude:rq4|robustness_outcome_among_tested|reversed",
+   "claude:rq4|robustness_outcome_among_tested|weakened",
+   "codex:rq4|f11|yes",
+   "codex:rq4|f1|yes",
+   "codex:rq4|perturbation|language",
+   "codex:rq4|robustness_outcome_among_tested|mixed",
+   "codex:rq4|robustness_outcome_among_tested|reversed"
+  ],
+  "height_mm": 214.0,
+  "n_mismatch": [],
+  "or_axis": [
+   0.307,
+   2.61
+  ]
+ },
+ "Fig10": {
+  "families": [
+   "TOM",
+   "LANG",
+   "HB",
+   "JDM",
+   "RE",
+   "LEARN",
+   "MEM",
+   "MOR",
+   "OTH",
+   "NUM",
+   "DEV"
+  ],
+  "columns": [
+   "f1",
+   "f2",
+   "f3",
+   "f4",
+   "f5",
+   "f6_applicable",
+   "f7",
+   "f8",
+   "f9",
+   "f10",
+   "f11",
+   "f12",
+   "robustness_tested"
+  ],
+  "failing_columns": [
+   "f4",
+   "f5",
+   "f6_applicable",
+   "f8"
+  ],
+  "height_mm": 139.8
+ },
+ "min_cell_text_contrast": 4.75,
+ "input_dir": "C:\\Users\\Shlok\\Downloads\\Thenboli ma'am review paper\\runs\\rq234-final",
+ "interim": false,
+ "inputs_sha256": {
+  "rq2_labels": "855c1c92492329ef5478c6ccfa53ecd897725f9fa212236ebadfe110a30d423b",
+  "rq3_comparisons": "7eea84fe44f35ff3103d44825ac6763399b72f218ce16358ea0f79f40d9a64ab",
+  "rq4_items_by_coder": "6f5e578c13c43ec3780e617c9c049a68fcd979ab0e3e3ca1088842eba7fddf7a",
+  "rq4_items_by_family": "4dec9809b17955f747001f5fa98e12054f33134821786ac528e7441dfa22fab9",
+  "rq4_trend_counts": "2488a4b010bfe3b0375364e8654d605ce0f19af5b4321a43653622b55c0f1f39",
+  "rq3": "d4690bd99892254ba28e620e5197f6cd654bd7e1f6b63248062d2583870e5d30",
+  "rq4_trend_fit": "7132d83c75f1f5677937c7e44fd52fc390dc7302bc622d56978924558a3abd61",
+  "trend_descriptive_only": "7704eac277ef252e4ef41d50e7fa8c4bd3a9952994855dc355a1cad89e7f3587",
+  "rows_by_family": "0cebf2dfcc26bda010f800c528054b5ed0db9b87c08af69a9d36d00fea4de160",
+  "config": "128cfb36fcb6a8663d5f90f4fe1ae7e14ffeb87439aa15653bf151357c5c1083"
+ }
+}

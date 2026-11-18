@@ -1,0 +1,32 @@
+{
+ "order": 91,
+ "study_id": "arxiv:2610.01222",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/091_arxiv_2610.01222.md",
+ "sources_varied": [
+  "M"
+ ],
+ "X1": {
+  "value": "no",
+  "sources_crossed": [],
+  "evidence": "Exp 1-2 (p.5-7): three non-reasoning and then reasoning frontier models (12 in total) play 39 runs per condition with default parameters; reputation, strategy and emotion are game conditions."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "anova_or_mixed_term"
+  ],
+  "x2_sources": [
+   "M"
+  ],
+  "evidence": "Results: mixed ANOVA with model as a factor and eta-squared effect sizes for model and conditions."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "Model-by-condition interactions are source-by-treatment."
+ },
+ "notes": ""
+}

@@ -1,0 +1,9 @@
+paradigm: NR
+wording: D2
+response_type: yesno2
+q_us: Do you think the United States should bar newspaper reporters from North Korea from coming in here and sending back to their papers the news as they see it?
+q_other: Do you think North Korea should bar American newspaper reporters from coming in and sending back to America the news as they see it?
+options:
+- 'Yes'
+- 'No'
+decoy_change: '''let ... come in'' replaced by ''bar ... from coming in'' in both questions (Yes/No meaning inverted)'

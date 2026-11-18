@@ -1,0 +1,2 @@
+qwen2.5-1.5b-instruct P3: sampled=1600 validity=0.981 by_format={'F0': 0.99875, 'F1': 0.96375}
+  primary [raw_difference_forced]: cells 16/16 dbar=-0.328 S=0.452 CI95=[0.0, 0.785] shares_reportable=False sign_stab=0.00

@@ -1,0 +1,347 @@
+{
+ "order": 45,
+ "study_id": "https://openalex.org/W4386272709",
+ "full_text": {
+  "obtained": true,
+  "source": "provided full text"
+ },
+ "eligibility": {
+  "decision": "YES",
+  "failed_criterion": null,
+  "borderline": false,
+  "evidence": "Methods, Materials and Procedures: GPT-3.5 and GPT-4 completed established cultural psychology measures and a triadic categorization task, compared with prior human norms."
+ },
+ "A": {
+  "doi": null,
+  "arxiv_id": null,
+  "title": "The Cultural Psychology of Large Language Models: Is ChatGPT a Holistic or Analytic Thinker?",
+  "first_author": "Chuanyang Jin",
+  "year": null,
+  "venue": "not_reported",
+  "peer_reviewed": "not_reported",
+  "first_author_field": "CS",
+  "country": "United States"
+ },
+ "B": {
+  "models": [
+   {
+    "name": "GPT-3.5",
+    "version": "GPT-3.5 (exact version not reported)",
+    "access": "not_reported",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "GPT",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "GPT-4",
+    "version": "GPT-4 (exact version not reported)",
+    "access": "not_reported",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "GPT",
+    "query_date": "not_reported"
+   }
+  ],
+  "n_models": 2,
+  "n_model_families": 1
+ },
+ "C": {
+  "paradigms": [
+   {
+    "pid": "P1",
+    "name": "Analysis-Holism Scale (AHS)",
+    "family": "HB",
+    "source_paper": "Choi, Koo, and Choi (2007)",
+    "items_origin": "verbatim",
+    "n_items": 24,
+    "languages": [
+     "not_reported"
+    ],
+    "modality": "text",
+    "contamination_risk": "yes",
+    "location": "Introduction; Methods, Materials"
+   },
+   {
+    "pid": "P2",
+    "name": "Triadic Categorization Task (TCT)",
+    "family": "LEARN",
+    "source_paper": "Talhelm et al. (2014); Dong, Talhelm, and Ren (2019)",
+    "items_origin": "adapted",
+    "n_items": 20,
+    "languages": [
+     "not_reported"
+    ],
+    "modality": "text",
+    "contamination_risk": "partly",
+    "location": "Introduction; Methods, Materials"
+   },
+   {
+    "pid": "P3",
+    "name": "Dialectical Self Scale (DSS)",
+    "family": "OTH",
+    "source_paper": "Spencer-Rodgers et al. (2009); Hamamura, Heine, and Paulhus (2008)",
+    "items_origin": "verbatim",
+    "n_items": null,
+    "languages": [
+     "not_reported"
+    ],
+    "modality": "text",
+    "contamination_risk": "yes",
+    "location": "Introduction; Methods, Materials"
+   },
+   {
+    "pid": "P4",
+    "name": "Self-construal Scale (SCS), independent and interdependent subscales",
+    "family": "OTH",
+    "source_paper": "Singelis (1994)",
+    "items_origin": "verbatim",
+    "n_items": null,
+    "languages": [
+     "not_reported"
+    ],
+    "modality": "text",
+    "contamination_risk": "yes",
+    "location": "Introduction; Methods, Materials"
+   }
+  ]
+ },
+ "D": {
+  "types": [
+   "published_norms"
+  ],
+  "primary_type": "published_norms",
+  "human_n": null,
+  "population": "Norms from prior psychological studies; sample populations not fully specified in this paper.",
+  "metric": "Scale/task mean comparisons; t-tests"
+ },
+ "E": {
+  "outcome_types": [
+   "bias_magnitude",
+   "effect_size"
+  ],
+  "rows_aggregated": false,
+  "effects": [
+   {
+    "pid": "P1",
+    "model": "GPT-3.5",
+    "model_family": "GPT",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": 5.35,
+    "human_es": 4.87,
+    "es_metric": "AHS mean score; higher indicates holistic thinking",
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Results, Table 1; GPT-3.5 AHS: p < .001"
+   },
+   {
+    "pid": "P1",
+    "model": "GPT-4",
+    "model_family": "GPT",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": 5.01,
+    "human_es": 4.87,
+    "es_metric": "AHS mean score; higher indicates holistic thinking",
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Results, Table 1; GPT-4 AHS: p < .001"
+   },
+   {
+    "pid": "P2",
+    "model": "GPT-3.5",
+    "model_family": "GPT",
+    "outcome_kind": "effect",
+    "basis": "descriptive",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "not_reported",
+    "model_es": 0.87,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "INSUFFICIENT",
+    "location": "Results, Table 1; Discussion, Summary of Results"
+   },
+   {
+    "pid": "P2",
+    "model": "GPT-4",
+    "model_family": "GPT",
+    "outcome_kind": "effect",
+    "basis": "descriptive",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "not_reported",
+    "model_es": 0.85,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "INSUFFICIENT",
+    "location": "Results, Table 1; Discussion, Summary of Results"
+   },
+   {
+    "pid": "P3",
+    "model": "GPT-3.5",
+    "model_family": "GPT",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": 4.59,
+    "human_es": 4.0,
+    "es_metric": "DSS mean score",
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Results, Table 1; GPT-3.5 DSS: p < .001"
+   },
+   {
+    "pid": "P3",
+    "model": "GPT-4",
+    "model_family": "GPT",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "no",
+    "human_effect_present": "yes",
+    "direction": "not_applicable",
+    "model_es": 3.97,
+    "human_es": 4.0,
+    "es_metric": "DSS mean score",
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SUPER-NORMATIVE",
+    "location": "Results, Table 1; GPT-4 DSS: p = .344"
+   },
+   {
+    "pid": "P4",
+    "model": "GPT-3.5",
+    "model_family": "GPT",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": 6.98,
+    "human_es": 4.73,
+    "es_metric": "SCS independent subscale mean score",
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Results, Table 1; GPT-3.5 SCS-Ind: p < .001"
+   },
+   {
+    "pid": "P4",
+    "model": "GPT-4",
+    "model_family": "GPT",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": 5.32,
+    "human_es": 4.73,
+    "es_metric": "SCS independent subscale mean score",
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Results, Table 1; GPT-4 SCS-Ind: p < .001"
+   },
+   {
+    "pid": "P4",
+    "model": "GPT-3.5",
+    "model_family": "GPT",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": 5.85,
+    "human_es": 4.81,
+    "es_metric": "SCS interdependent subscale mean score",
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Results, Table 1; GPT-3.5 SCS-Interd: p < .001"
+   },
+   {
+    "pid": "P4",
+    "model": "GPT-4",
+    "model_family": "GPT",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": 4.95,
+    "human_es": 4.81,
+    "es_metric": "SCS interdependent subscale mean score",
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Results, Table 1; GPT-4 SCS-Interd: p = .07 (marginal)"
+   }
+  ],
+  "headline": "GPT-3.5 and GPT-4 showed holistic tendencies on AHS and TCT; their value and self-construal responses varied, with GPT-4 closer to norms on several measures."
+ },
+ "F": {
+  "f1": "no",
+  "f2": "yes",
+  "f3": "yes",
+  "f4": "no",
+  "f5": "yes",
+  "f6": "no",
+  "f7": "yes",
+  "f8": "no",
+  "f9": "no",
+  "f10": "yes",
+  "f11": "no",
+  "f12": "no",
+  "perturbations_tested": [
+   "wording",
+   "decoding"
+  ],
+  "robustness_outcome": "survived"
+ },
+ "G": {
+  "notes": "Report gives no publication venue, year, language, or full prompt text in the provided paper. Clarify whether comparisons against norms test cultural effects or only differences from scale means; TCT provincial means are summarized without a common inferential comparison.",
+  "extractor": "codex (default)",
+  "date": "2026-10-16",
+  "minutes": 0.6,
+  "sections_read": [
+   "Abstract",
+   "Introduction",
+   "Methods: Materials",
+   "Methods: Procedures",
+   "Results",
+   "Table 1",
+   "Figure 1",
+   "Discussion: Summary of Results",
+   "Discussion: Implications and Limitations",
+   "References"
+  ]
+ }
+}

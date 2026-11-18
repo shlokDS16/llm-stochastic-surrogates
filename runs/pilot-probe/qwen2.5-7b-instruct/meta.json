@@ -1,0 +1,39 @@
+{
+  "model": "qwen2.5-7b-instruct",
+  "repo": "Qwen/Qwen2.5-7B-Instruct",
+  "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "quant": "nf4_saved",
+  "batch_size": 64,
+  "torch": "2.11.0+cu128",
+  "transformers": "5.20.0",
+  "cuda": "12.8",
+  "gpu": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+  "git_sha": "262de99ffa390c8976e93cdf18842b983ded2f2d",
+  "config_sha256_16": "2395ed657753f4a9",
+  "n": 50,
+  "wordings": [
+    "W0"
+  ],
+  "formats": [
+    "F0",
+    "F1"
+  ],
+  "temps": [
+    1.0
+  ],
+  "orders": [
+    "sure_first",
+    "risky_first"
+  ],
+  "greedy": false,
+  "max_new_tokens": {
+    "F0": 24,
+    "F1": 128
+  },
+  "eos_ids": [
+    151643,
+    151645
+  ],
+  "prompt_manifest": "verified",
+  "started": "2026-10-16T03:31:58+0530"
+}

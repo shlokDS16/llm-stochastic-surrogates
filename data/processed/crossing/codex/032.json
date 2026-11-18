@@ -1,0 +1,32 @@
+{
+ "order": 32,
+ "study_id": "https://openalex.org/W7170951503",
+ "pass": "codex",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/032_W7170951503.md",
+ "sources_varied": [
+  "M"
+ ],
+ "X1": {
+  "value": "no",
+  "sources_crossed": [],
+  "evidence": "Secs. 3.2, 3.5, 4.1: three architectures and corresponding base/instruct models are compared using the same corpus and procedure; no other uncertainty source is varied."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "M"
+  ],
+  "evidence": "Sec. 4.1, Table 5: base-versus-instruct BCB differences are quantified across models, including Qwen amplification and Gemma's near-pure induction."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "Secs. 4.1–4.4: no interaction between varied simulation sources is estimated or shown; the study varies model only."
+ },
+ "notes": ""
+}

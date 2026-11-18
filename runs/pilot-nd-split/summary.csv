@@ -1,0 +1,3 @@
+scale,scale_status,grids,grids_nd_flagged,reportable,reportable_nd,reportable_not_nd,wording_dominated,wording_dominated_nd,wording_dominated_not_nd,not_wording_dominated_nd,not_wording_dominated_not_nd,median_wording_share_nd,median_wording_share_not_nd,wording_ge_0.4_nd,wording_ge_0.4_not_nd,wording_ge_0.5_nd,wording_ge_0.5_not_nd,wording_ge_0.6_nd,wording_ge_0.6_not_nd
+A1,preregistered (A1),42,32,29,24,5,14,11,3,13,2,0.4411,0.5188,13,3,11,3,5,1
+A2,"post-results (A2, not preregistered)",42,32,33,25,8,14,10,4,15,4,0.3826,0.4316,12,4,10,4,6,2

@@ -1,0 +1,17 @@
+{"paradigm": "P2b", "F": "F0", "batch": 0, "rows": 48, "seconds": 7.254, "new_tokens": 927, "padded_prompt_len": 93, "peak_vram_gib": 5.342}
+{"paradigm": "P2b", "F": "F0", "batch": 1, "rows": 48, "seconds": 7.286, "new_tokens": 891, "padded_prompt_len": 93, "peak_vram_gib": 5.342}
+{"paradigm": "P2b", "F": "F0", "batch": 2, "rows": 48, "seconds": 6.268, "new_tokens": 915, "padded_prompt_len": 95, "peak_vram_gib": 5.23}
+{"paradigm": "P2b", "F": "F0", "batch": 3, "rows": 48, "seconds": 7.329, "new_tokens": 977, "padded_prompt_len": 95, "peak_vram_gib": 5.368}
+{"paradigm": "P2b", "F": "F0", "batch": 4, "rows": 48, "seconds": 7.001, "new_tokens": 909, "padded_prompt_len": 97, "peak_vram_gib": 5.252}
+{"paradigm": "P2b", "F": "F0", "batch": 5, "rows": 48, "seconds": 7.543, "new_tokens": 927, "padded_prompt_len": 97, "peak_vram_gib": 5.395}
+{"paradigm": "P2b", "F": "F0", "batch": 6, "rows": 48, "seconds": 7.524, "new_tokens": 932, "padded_prompt_len": 97, "peak_vram_gib": 5.395}
+{"paradigm": "P2b", "F": "F0", "batch": 7, "rows": 48, "seconds": 7.194, "new_tokens": 865, "padded_prompt_len": 97, "peak_vram_gib": 5.395}
+{"paradigm": "P2b", "F": "F0", "batch": 8, "rows": 48, "seconds": 7.538, "new_tokens": 929, "padded_prompt_len": 97, "peak_vram_gib": 5.395}
+{"paradigm": "P2b", "F": "F0", "batch": 9, "rows": 48, "seconds": 7.533, "new_tokens": 1010, "padded_prompt_len": 97, "peak_vram_gib": 5.395}
+{"paradigm": "P2b", "F": "F0", "batch": 10, "rows": 48, "seconds": 7.08, "new_tokens": 1102, "padded_prompt_len": 99, "peak_vram_gib": 5.275}
+{"paradigm": "P2b", "F": "F0", "batch": 11, "rows": 48, "seconds": 7.451, "new_tokens": 1137, "padded_prompt_len": 99, "peak_vram_gib": 5.421}
+{"paradigm": "P2b", "F": "F0", "batch": 12, "rows": 48, "seconds": 6.637, "new_tokens": 1057, "padded_prompt_len": 101, "peak_vram_gib": 5.297}
+{"paradigm": "P2b", "F": "F0", "batch": 13, "rows": 48, "seconds": 7.634, "new_tokens": 830, "padded_prompt_len": 101, "peak_vram_gib": 5.447}
+{"paradigm": "P2b", "F": "F0", "batch": 14, "rows": 48, "seconds": 7.179, "new_tokens": 899, "padded_prompt_len": 103, "peak_vram_gib": 5.32}
+{"paradigm": "P2b", "F": "F0", "batch": 15, "rows": 48, "seconds": 7.332, "new_tokens": 885, "padded_prompt_len": 103, "peak_vram_gib": 5.474}
+{"paradigm": "P2b", "F": "F0", "batch": 16, "rows": 40, "seconds": 6.878, "new_tokens": 827, "padded_prompt_len": 103, "peak_vram_gib": 5.257}

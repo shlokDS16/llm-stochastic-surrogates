@@ -1,0 +1,60 @@
+{
+ "config": {
+  "B": 1000,
+  "estimator": "A1",
+  "alpha": 0.05,
+  "pass_max": 0.06949358868961793,
+  "c_p": 0.2,
+  "workers": 2,
+  "reps": {
+   "H1_null": 500,
+   "H2_null": 500,
+   "H3_null": 500,
+   "H1_alt": 300,
+   "H2_alt": 300,
+   "H3_alt": 300
+  },
+  "scenarios": [
+   "H1_null",
+   "H2_null",
+   "H3_null",
+   "H1_alt",
+   "H2_alt",
+   "H3_alt"
+  ],
+  "shapes": {
+   "models": 14,
+   "wordings": 10,
+   "two_order_items": 5,
+   "one_order_items": 5,
+   "temperatures": 4
+  }
+ },
+ "seeds": {
+  "base": 20261106,
+  "replicate": "default_rng([20261106, 9000+s, r])",
+  "spec": "default_rng([20261106, 8500+s, item])",
+  "estimator_seed": "20261106 + 100000*(s+1) + r",
+  "scenario_index": {
+   "H1_null": 0,
+   "H2_null": 1,
+   "H3_null": 2,
+   "H1_alt": 3,
+   "H2_alt": 4,
+   "H3_alt": 5
+  }
+ },
+ "git_head": "1431596c8cbe95cd9c2f8a758bc4f68bd232a08c",
+ "sha256_lf": {
+  "analysis/acme/gstudy.py": "25eb9ac0d1178ed9e04d9cc0656d9907681fb0465dffdca6aea0b99ef327146c",
+  "analysis/acme/simulate_G1.py": "393842cb4fe3a2382455ef51b9f82bbb41ac9fa0e5b986251704431767666749",
+  "analysis/acme/simulate_G1b.py": "d5627d1cbd709fc6765fe346e5a12f235ea83b91aa37d19fa737e331185175a0"
+ },
+ "commands": [
+  ".venv/Scripts/python.exe -I analysis/acme/simulate_G1b.py run --workers 2 --out runs/acme-G1b"
+ ],
+ "wall_s_sessions": [
+  3613.9
+ ],
+ "note": "simulate_G1b.py was edited after the run only in the text of the H2 diagnostic line of the aggregate report (no change to generators or tests); sha256_lf at commit: e1ff16a2e772be2877cee9eb37e5ac695462d96af00719d474fbe79d66ef808b"
+}

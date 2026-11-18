@@ -1,0 +1,8 @@
+extends: existence
+message: "Empty opener '%s' (grammarly-issue-catalog 3). Recast with the real subject."
+level: suggestion
+scope: sentence
+nonword: true
+tokens:
+  - '^It (is|was|has been) [^,.;:]{1,40} that\b'
+  - '^There (is|are|was|were) [^,.;:]{1,60}\b(that|which|who)\b'

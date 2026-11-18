@@ -1,0 +1,40 @@
+{
+ "order": 22,
+ "study_id": "https://openalex.org/W7165006854",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/022_W7165006854.md",
+ "sources_varied": [
+  "M",
+  "W"
+ ],
+ "X1": {
+  "value": "yes",
+  "sources_crossed": [
+   "M",
+   "W"
+  ],
+  "evidence": "Sec 2.3 and Table of results: ChatGPT, Claude 4 Sonnet and Gemini 2.5 Flash each tested in English, Hebrew and Russian prompts on the same tasks; temperature fixed at 1.0."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "anova_or_mixed_term",
+   "effect_change"
+  ],
+  "x2_sources": [
+   "W",
+   "M"
+  ],
+  "evidence": "Results: chi-square tests of language on correctness per model with Cramer's V; logistic regression with source as predictor; post hoc contrasts between languages."
+ },
+ "X3": {
+  "value": "yes",
+  "x3_pairs": [
+   "M x W"
+  ],
+  "evidence": "Figs 5-8 (model-language interaction plots) and Discussion: authors state the language hierarchy differs by model and task."
+ },
+ "notes": "Language of the prompt coded as wording (W)."
+}

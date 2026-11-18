@@ -1,0 +1,28 @@
+{
+ "order": 85,
+ "study_id": "https://openalex.org/W4385571259",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/085_W4385571259.md",
+ "sources_varied": [
+  "M"
+ ],
+ "X1": {
+  "value": "no",
+  "sources_crossed": [],
+  "evidence": "Methods and App (p.5): 14 models queried with one set of faux pas stories; per-model decoding settings listed in the appendix (not a controlled variation)."
+ },
+ "X2": {
+  "value": "no",
+  "x2_types": [],
+  "x2_sources": [],
+  "evidence": "Per-model accuracy tables only; no test or attribution to a source."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "Converted text partly garbled; design read from the methods and appendix."
+ },
+ "notes": ""
+}

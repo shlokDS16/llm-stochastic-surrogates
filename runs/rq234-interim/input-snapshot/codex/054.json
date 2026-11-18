@@ -1,0 +1,92 @@
+{
+ "order": 54,
+ "study_id": "https://openalex.org/W7154581698",
+ "full_text": {
+  "obtained": true,
+  "source": "research/sources/md/fulltext/054_W7154581698.md"
+ },
+ "eligibility": {
+  "decision": "YES",
+  "failed_criterion": null,
+  "borderline": true,
+  "evidence": "Abstract: compares human and LLM performance on verbal analogy tasks with congruent and incongruent priming; the source paradigm is not cited in the available text."
+ },
+ "A": {
+  "doi": null,
+  "arxiv_id": null,
+  "title": "Priming Effects on Verbal Analogy Performance Across IQ Levels in Humans and AI",
+  "first_author": "Quinn Lin",
+  "year": 2025,
+  "venue": "Proceedings of the 47th Annual Meeting of the Cognitive Science Society",
+  "peer_reviewed": "yes",
+  "first_author_field": "not_reported",
+  "country": "Germany"
+ },
+ "B": {
+  "models": [],
+  "n_models": 0,
+  "n_model_families": 0
+ },
+ "C": {
+  "paradigms": [
+   {
+    "pid": "P1",
+    "name": "Verbal analogy performance with congruent and incongruent relation priming",
+    "family": "LANG",
+    "source_paper": "not_reported",
+    "items_origin": "not_reported",
+    "n_items": null,
+    "languages": [
+     "not_reported"
+    ],
+    "modality": "text",
+    "contamination_risk": "not_reported",
+    "location": "Abstract"
+   }
+  ]
+ },
+ "D": {
+  "types": [
+   "own_sample"
+  ],
+  "primary_type": "own_sample",
+  "human_n": null,
+  "population": "Human participants across IQ levels; sample details not reported in available text",
+  "metric": "Verbal analogy priming effect and accuracy"
+ },
+ "E": {
+  "outcome_types": [
+   "bias_magnitude",
+   "accuracy"
+  ],
+  "rows_aggregated": false,
+  "effects": [],
+  "headline": "Humans and LLMs showed similar priming and IQ effects, with a change in error pattern between congruent and incongruent priming."
+ },
+ "F": {
+  "f1": "no",
+  "f2": "no",
+  "f3": "no",
+  "f4": "no",
+  "f5": "no",
+  "f6": "no",
+  "f7": "no",
+  "f8": "no",
+  "f9": "no",
+  "f10": "yes",
+  "f11": "no",
+  "f12": "no",
+  "perturbations_tested": [],
+  "robustness_outcome": "na"
+ },
+ "G": {
+  "notes": "The provided full text consists only of the abstract and metadata. The LLMs, prompts, sampling, sample size, item construction, and human-model comparisons cannot be assessed.",
+  "extractor": "codex (default)",
+  "date": "2026-10-16",
+  "minutes": 0.4,
+  "sections_read": [
+   "metadata",
+   "abstract"
+  ]
+ }
+}

@@ -1,0 +1,26 @@
+{
+  "order": 78,
+  "study_id": "https://openalex.org/W7154389923",
+  "pass": "codex",
+  "brief_version": "1.0",
+  "date": "2026-11-07",
+  "full_text": "research/sources/md/fulltext/078_W7154389923.md",
+  "sources_varied": ["M", "X"],
+  "X1": {
+    "value": "partial",
+    "sources_crossed": [],
+    "evidence": "Sec. 2, 2.3 and App. A.5.6: models vary, and lure, vocabulary size, and transition structure are tested against baseline as separate manipulations; no factorial crossing is reported."
+  },
+  "X2": {
+    "value": "yes",
+    "x2_types": ["effect_change"],
+    "x2_sources": ["X"],
+    "evidence": "Sec. 2.3, Table 1 and App. A.5.6: accuracy changes from baseline are quantified for lure, vocabulary, and transition manipulations, then correlated with accuracy across models and N levels."
+  },
+  "X3": {
+    "value": "no",
+    "x3_pairs": [],
+    "evidence": "Secs. 2–3 and App. A.5.6: no interaction between varied sources is estimated or shown."
+  },
+  "notes": "X denotes stimulus-content manipulations (lures, active set size, and transition structure), each compared with baseline. Autoregressive and teacher-forced modes are evaluation procedures, not varied decoding settings."
+}

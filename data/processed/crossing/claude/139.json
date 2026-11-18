@@ -1,0 +1,39 @@
+{
+ "order": 139,
+ "study_id": "https://openalex.org/W4378508547",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/139_W4378508547.md",
+ "sources_varied": [
+  "M",
+  "W"
+ ],
+ "X1": {
+  "value": "yes",
+  "sources_crossed": [
+   "M",
+   "W"
+  ],
+  "evidence": "Sec 3-4 (p.4-8), Tables of results: ChatGPT-3 and ChatGPT-4 each given five prompts per ToM principle, 45 outputs per problem and model at temperature 0.7."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "W",
+   "M"
+  ],
+  "evidence": "Sec 4 (p.6-8): accuracy per prompt and model compared; ChatGPT-4 differs across prompts, ChatGPT-3 does not; tests reported in the tables."
+ },
+ "X3": {
+  "value": "yes",
+  "x3_pairs": [
+   "M x W"
+  ],
+  "evidence": "Sec 4: authors state ChatGPT-4 shows differences between prompts while ChatGPT-3 does not (descriptive)."
+ },
+ "notes": ""
+}

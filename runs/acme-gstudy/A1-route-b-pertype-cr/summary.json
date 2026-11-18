@@ -1,0 +1,187 @@
+{
+ "config": {
+  "B": 2000,
+  "seed": 20261106,
+  "estimator": "A1",
+  "share_mode": null,
+  "effects": "runs/acme-gstudy/A1-route-b-pertype-cr/inputs/effects.csv",
+  "scaled": true
+ },
+ "exclusions": [],
+ "items": {
+  "AF": {
+   "models": [
+    "granite-3.3-2b-instruct",
+    "mistral-7b-instruct-v0.3",
+    "olmo2-13b-instruct",
+    "olmo2-1b-dpo",
+    "olmo2-1b-instruct",
+    "olmo2-1b-sft",
+    "olmo2-7b-instruct",
+    "phi4-mini-instruct",
+    "qwen2.5-0.5b-instruct",
+    "qwen2.5-1.5b-instruct",
+    "qwen2.5-14b-instruct",
+    "qwen2.5-7b-instruct"
+   ],
+   "dstudy_min_design_0p1": [
+    30,
+    1
+   ]
+  },
+  "NR": {
+   "models": [
+    "granite-3.3-2b-instruct",
+    "mistral-7b-instruct-v0.3",
+    "olmo2-13b-instruct",
+    "olmo2-1b-dpo",
+    "olmo2-1b-instruct",
+    "olmo2-1b-sft",
+    "olmo2-7b-instruct",
+    "phi4-mini-instruct",
+    "qwen2.5-0.5b-instruct",
+    "qwen2.5-1.5b-instruct",
+    "qwen2.5-14b-instruct",
+    "qwen2.5-7b-instruct"
+   ],
+   "dstudy_min_design_0p1": [
+    26,
+    1
+   ]
+  },
+  "P1": {
+   "models": [
+    "granite-3.3-2b-instruct",
+    "olmo2-13b-instruct",
+    "olmo2-7b-instruct",
+    "phi4-mini-instruct",
+    "qwen2.5-0.5b-instruct",
+    "qwen2.5-1.5b-instruct",
+    "qwen2.5-14b-instruct",
+    "qwen2.5-7b-instruct",
+    "smollm2-1.7b-instruct"
+   ],
+   "dstudy_min_design_0p1": [
+    17,
+    1
+   ]
+  },
+  "P3": {
+   "models": [
+    "mistral-7b-instruct-v0.3",
+    "olmo2-1b-instruct",
+    "qwen2.5-0.5b-instruct",
+    "qwen2.5-14b-instruct",
+    "qwen2.5-7b-instruct"
+   ],
+   "dstudy_min_design_0p1": [
+    17,
+    1
+   ]
+  },
+  "QA": {
+   "models": [
+    "mistral-7b-instruct-v0.3",
+    "olmo2-1b-instruct",
+    "qwen2.5-0.5b-instruct",
+    "qwen2.5-14b-instruct",
+    "qwen2.5-7b-instruct"
+   ],
+   "dstudy_min_design_0p1": [
+    36,
+    1
+   ]
+  }
+ },
+ "hypotheses": {
+  "H3": {
+   "estimate": 0.2315567797911274,
+   "pooled_MW": 0.22794064042479292,
+   "pooled_W": -0.0036161393663344554,
+   "lo": 0.16175083475010119,
+   "hi": 0.30533529915696744,
+   "p_raw": 0.0,
+   "k_items": 5,
+   "estimator": "A1",
+   "p_holm": 0.0,
+   "reject_holm_alpha": true
+  },
+  "H1": {
+   "estimate": 0.1582679560831018,
+   "pooled_wording": 0.20425725115843543,
+   "pooled_T": 0.04598929507533365,
+   "T_terms": [
+    "T",
+    "MT",
+    "OT",
+    "WT",
+    "MOT",
+    "MWT",
+    "WOT"
+   ],
+   "lo": 0.09658778758130812,
+   "hi": 0.22499372003589285,
+   "p_raw": 0.0,
+   "k_items": 5,
+   "estimator": "A1",
+   "p_holm": 0.0,
+   "reject_holm_alpha": true
+  },
+  "H2": {
+   "items": [
+    {
+     "item": "AF",
+     "median_setup_sd": 0.6346349566707302,
+     "lb95": 0.3048389981069235,
+     "lb95_onesided": 0.35235575409155995,
+     "single_site_se": 0.1862488756838169,
+     "p_one_sided": 0.001,
+     "holds": true
+    },
+    {
+     "item": "NR",
+     "median_setup_sd": 0.35323963552844123,
+     "lb95": 0.23239762096235636,
+     "lb95_onesided": 0.24427950515367886,
+     "single_site_se": 0.1858383157164574,
+     "p_one_sided": 0.0025,
+     "holds": true
+    },
+    {
+     "item": "P1",
+     "median_setup_sd": 0.3524296490025654,
+     "lb95": 0.30319206649940256,
+     "lb95_onesided": 0.31342181302004046,
+     "single_site_se": 0.1968400602467537,
+     "p_one_sided": 0.0,
+     "holds": true
+    },
+    {
+     "item": "P3",
+     "median_setup_sd": 0.25309250266565286,
+     "lb95": 0.13522804780344178,
+     "lb95_onesided": 0.14222544637503579,
+     "single_site_se": 0.1923493869660462,
+     "p_one_sided": 0.2965,
+     "holds": false
+    },
+    {
+     "item": "QA",
+     "median_setup_sd": 0.6533145906937413,
+     "lb95": 0.5108828475270812,
+     "lb95_onesided": 0.5381247569256103,
+     "single_site_se": 0.1938981184242444,
+     "p_one_sided": 0.0,
+     "holds": true
+    }
+   ],
+   "k": 5,
+   "need": 3,
+   "n_hold": 4,
+   "holds": true,
+   "p_raw": 0.001,
+   "p_holm": 0.001,
+   "reject_holm_alpha": true
+  }
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "H3": {
+  "estimate": 0.17245858120271113,
+  "pooled_MW": 0.175181187873219,
+  "pooled_W": 0.0027226066705078695,
+  "lo": -0.040240904407570305,
+  "hi": 0.7666796143693162,
+  "p_raw": 0.129,
+  "k_items": 5,
+  "estimator": "A1",
+  "p_holm": 0.30300000000000005,
+  "reject_holm_alpha": false
+ },
+ "H1": {
+  "estimate": 0.15991243606802943,
+  "pooled_wording": 0.17167210724247783,
+  "pooled_T": 0.011759671174448427,
+  "T_terms": [
+   "T",
+   "MT",
+   "OT",
+   "WT",
+   "MOT",
+   "MWT",
+   "WOT"
+  ],
+  "lo": -0.051398289456637575,
+  "hi": 0.7488872486515654,
+  "p_raw": 0.101,
+  "k_items": 5,
+  "estimator": "A1",
+  "p_holm": 0.30300000000000005,
+  "reject_holm_alpha": false
+ },
+ "H2": {
+  "items": [
+   {
+    "item": "AF",
+    "median_setup_sd": 0.14434263088350366,
+    "lb95": 0.06392892715140523,
+    "lb95_onesided": 0.08099933853604359,
+    "single_site_se": 0.1862488756838169,
+    "p_one_sided": 1.0,
+    "holds": false
+   },
+   {
+    "item": "NR",
+    "median_setup_sd": 0.27030747424044654,
+    "lb95": 0.14315265285539802,
+    "lb95_onesided": 0.16241922585110652,
+    "single_site_se": 0.1858383157164574,
+    "p_one_sided": 0.1495,
+    "holds": false
+   },
+   {
+    "item": "P1",
+    "median_setup_sd": 0.40215162242205965,
+    "lb95": 0.24272952286745203,
+    "lb95_onesided": 0.25096622243712474,
+    "single_site_se": 0.1968400602467537,
+    "p_one_sided": 0.005,
+    "holds": true
+   },
+   {
+    "item": "P3",
+    "median_setup_sd": 0.14226405687307012,
+    "lb95": 0.011726006683804406,
+    "lb95_onesided": 0.013540026230827649,
+    "single_site_se": 0.1923493869660462,
+    "p_one_sided": 1.0,
+    "holds": false
+   },
+   {
+    "item": "QA",
+    "median_setup_sd": 0.5528231671171074,
+    "lb95": 0.45994090604485255,
+    "lb95_onesided": 0.48644288461561935,
+    "single_site_se": 0.1938981184242444,
+    "p_one_sided": 0.0,
+    "holds": true
+   }
+  ],
+  "k": 5,
+  "need": 3,
+  "n_hold": 2,
+  "holds": false,
+  "p_raw": 0.1495,
+  "p_holm": 0.30300000000000005,
+  "reject_holm_alpha": false
+ }
+}

@@ -1,0 +1,185 @@
+{
+  "order": 49,
+  "study_id": "https://openalex.org/W4376140095",
+  "full_text": {
+    "obtained": true,
+    "source": "research/sources/md/fulltext/049_W4376140095.md"
+  },
+  "eligibility": {
+    "decision": "YES",
+    "failed_criterion": null,
+    "borderline": false,
+    "evidence": "Methods, pp. 1740–1744: GPT-3 and BLOOM were tested on classic transformation and nature-versus-nurture categorization tasks from cited human studies."
+  },
+  "A": {
+    "doi": null,
+    "arxiv_id": null,
+    "title": "You are what you’re for: Essentialist categorization in large language models",
+    "first_author": "Siying Zhang",
+    "year": 2023,
+    "venue": "Proceedings of the 45th Annual Meeting of the Cognitive Science Society",
+    "peer_reviewed": "yes",
+    "first_author_field": "psychology",
+    "country": "United States"
+  },
+  "B": {
+    "models": [
+      {
+        "name": "GPT-3",
+        "version": "text-curie-001",
+        "access": "API",
+        "params_b": null,
+        "release_date": "not_reported",
+        "tuning": "not_reported",
+        "family": "GPT",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "GPT-3",
+        "version": "text-davinci-002",
+        "access": "API",
+        "params_b": null,
+        "release_date": "not_reported",
+        "tuning": "instruction",
+        "family": "GPT",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "BLOOM",
+        "version": "176B",
+        "access": "open_weights",
+        "params_b": 176,
+        "release_date": "not_reported",
+        "tuning": "base",
+        "family": "other",
+        "query_date": "not_reported"
+      }
+    ],
+    "n_models": 3,
+    "n_model_families": 2
+  },
+  "C": {
+    "paradigms": [
+      {
+        "pid": "P1",
+        "name": "Essentialist categorization transformation tasks (telos, material constitution, and appearance)",
+        "family": "LEARN",
+        "source_paper": "Rose & Nichols (2019, 2020); Gelman & Wellman (1991); Keil (1992); Waxman et al. (2007); Hampton et al. (2007); Barton & Komatsu (1989)",
+        "items_origin": "adapted",
+        "n_items": null,
+        "languages": [
+          "English"
+        ],
+        "modality": "text",
+        "contamination_risk": "partly",
+        "location": "Methods and Experiments 1–3, pp. 1740–1744"
+      }
+    ]
+  },
+  "D": {
+    "types": [
+      "published_norms"
+    ],
+    "primary_type": "published_norms",
+    "human_n": null,
+    "population": "Participants in prior studies; population details not reported here",
+    "metric": "Majority-choice agreement for prior studies; no direct human effect-size comparison for Experiments 1–3"
+  },
+  "E": {
+    "outcome_types": [
+      "accuracy",
+      "bias_magnitude"
+    ],
+    "rows_aggregated": false,
+    "effects": [
+      {
+        "pid": "P1",
+        "model": "GPT-3 (text-curie-001)",
+        "model_family": "GPT",
+        "outcome_kind": "accuracy",
+        "basis": "descriptive",
+        "model_effect_present": "na",
+        "human_effect_present": "na",
+        "direction": "not_applicable",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "INSUFFICIENT",
+        "location": "Table 1, p. 1740"
+      },
+      {
+        "pid": "P1",
+        "model": "GPT-3 (text-davinci-002)",
+        "model_family": "GPT",
+        "outcome_kind": "effect",
+        "basis": "test",
+        "model_effect_present": "yes",
+        "human_effect_present": "not_reported",
+        "direction": "not_reported",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "INSUFFICIENT",
+        "location": "Experiments 1–3, Tables 2–4, pp. 1742–1744"
+      },
+      {
+        "pid": "P1",
+        "model": "BLOOM (176B)",
+        "model_family": "other",
+        "outcome_kind": "effect",
+        "basis": "test",
+        "model_effect_present": "yes",
+        "human_effect_present": "not_reported",
+        "direction": "not_reported",
+        "model_es": null,
+        "human_es": null,
+        "es_metric": null,
+        "authors_comparison": "not_tested",
+        "model_vs_human": "not_compared",
+        "agreement_value": null,
+        "label": "INSUFFICIENT",
+        "location": "Experiments 1–3, Tables 2–4, pp. 1742–1744"
+      }
+    ],
+    "headline": "GPT-3 prioritized teleological properties in categorization, while BLOOM’s effects were weaker and more mixed."
+  },
+  "F": {
+    "f1": "no",
+    "f2": "yes",
+    "f3": "yes",
+    "f4": "yes",
+    "f5": "no",
+    "f6": "na",
+    "f7": "no",
+    "f8": "no",
+    "f9": "no",
+    "f10": "yes",
+    "f11": "yes",
+    "f12": "yes",
+    "perturbations_tested": [
+      "option_order"
+    ],
+    "robustness_outcome": "na"
+  },
+  "G": {
+    "notes": "Clarify whether the GPT-3 training examples used to extract single-word responses could influence categorization. Human majority judgments are drawn from prior studies, while the new experiments have no directly matched human comparison.",
+    "extractor": "codex (default)",
+    "date": "2026-10-16",
+    "minutes": null,
+    "sections_read": [
+      "Abstract",
+      "Methods",
+      "Results and Discussion",
+      "Tables 1–4",
+      "General Discussion",
+      "Conclusion",
+      "Acknowledgments and data/code availability"
+    ]
+  }
+}

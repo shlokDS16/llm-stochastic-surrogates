@@ -1,0 +1,205 @@
+{
+ "model": "qwen2.5-7b-instruct",
+ "repo": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "quant": "nf4_saved",
+ "bs_f0": 64,
+ "bs_f1": 64,
+ "started": "2026-11-06T14:58:30",
+ "ram_before": {
+  "avail_phys_gb": 8.04,
+  "avail_commit_gb": 15.18
+ },
+ "gpu_before": {
+  "mem_used_mib": 12.0,
+  "temp_c": 83.0,
+  "power_w": 15.57,
+  "t": "2026-11-06T14:58:30"
+ },
+ "torch": "2.11.0+cu128",
+ "transformers": "5.20.0",
+ "load_seconds": 15.4,
+ "ram_after_load": {
+  "avail_phys_gb": 8.12,
+  "avail_commit_gb": 8.99
+ },
+ "vram_after_load_gib": 5.449,
+ "end_of_turn_id": 151645,
+ "end_of_turn_piece": "<|im_end|>",
+ "answer_token_ids": {
+  "A": 32,
+  " A": 362,
+  "B": 33,
+  " B": 425,
+  "C": 34,
+  " C": 356,
+  "D": 35,
+  " D": 422,
+  "Yes": 9454,
+  " Yes": 7414,
+  "No": 2753,
+  " No": 2308,
+  "yes": 9693,
+  " yes": 9834,
+  "no": 2152,
+  " no": 902,
+  "1": 16,
+  "2": 17,
+  "3": 18,
+  "4": 19,
+  "5": 20,
+  "6": 21,
+  "7": 22,
+  "8": 23,
+  "9": 24
+ },
+ "forward_seconds_per_prompt": 0.1907,
+ "n_f0_prompts": 64,
+ "n_bf16_ties": 2,
+ "fwd_eq_gen_rate_all": 0.984375,
+ "fwd_eq_gen_rate_nontie": 1.0,
+ "fwd_gen_mismatches": [
+  {
+   "key": "P2a|W0|F0|0.0|None|1|0",
+   "tie": true,
+   "gap12_bf16": 0.0,
+   "top5": [
+    [
+     "2",
+     27.21
+    ],
+    [
+     "3",
+     27.195
+    ],
+    [
+     "4",
+     23.648
+    ],
+    [
+     "5",
+     19.316
+    ],
+    [
+     "approximately",
+     17.658
+    ]
+   ],
+   "gen": "2"
+  }
+ ],
+ "mass_letters_P1": {
+  "min": 1.0,
+  "mean": 1.0,
+  "share_below_0p9": 0.0
+ },
+ "mass_letters_first_token_P1": {
+  "min": 0.9999,
+  "mean": 1.0,
+  "share_below_0p9": 0.0
+ },
+ "mass_digits_P3": {
+  "min": 1.0,
+  "mean": 1.0,
+  "share_below_0p9": 0.0
+ },
+ "argmax_pieces_numeric": [
+  "1",
+  "2",
+  "3"
+ ],
+ "pilot_parity": {
+  "n": 64,
+  "first_token_match_all": 0.984375,
+  "n_nontie": 62,
+  "first_token_match_nontie": 1.0,
+  "restricted_n": 24,
+  "restricted_match": 1.0,
+  "mismatches": [
+   {
+    "key": "P2a|W0|F0|0.0|None|1|0",
+    "argmax": "3",
+    "pilot_raw": "2,000",
+    "tie": true,
+    "gap12_bf16": 0.0,
+    "top5": [
+     [
+      "2",
+      27.21
+     ],
+     [
+      "3",
+      27.195
+     ],
+     [
+      "4",
+      23.648
+     ],
+     [
+      "5",
+      19.316
+     ],
+     [
+      "approximately",
+      17.658
+     ]
+    ]
+   }
+  ]
+ },
+ "grid_test": {
+  "grid": [
+   "1500",
+   "2000",
+   "2500",
+   "2900",
+   "3000",
+   "4000",
+   "6000"
+  ],
+  "n_tokens": [
+   5,
+   5,
+   5,
+   5,
+   5,
+   5,
+   5
+  ],
+  "logp": [
+   -16.315,
+   -4.026,
+   -5.372,
+   -7.138,
+   -0.593,
+   -3.937,
+   -13.142
+  ],
+  "Z": 0.5957122734255635,
+  "finite": true
+ },
+ "vram_f1": {
+  "batch": 64,
+  "new_tokens": 256,
+  "seconds": 63.39,
+  "tok_per_s": 258,
+  "peak_gib": 7.419
+ },
+ "vram_f0": {
+  "batch": 64,
+  "new_tokens": 24,
+  "seconds": 10.31,
+  "tok_per_s": 149,
+  "peak_gib": 7.18
+ },
+ "nonfinite": 0,
+ "gpu_after": {
+  "mem_used_mib": 8655.0,
+  "temp_c": 87.0,
+  "power_w": 41.56,
+  "t": "2026-11-06T15:00:30"
+ },
+ "fails": [],
+ "status": "pass",
+ "finished": "2026-11-06T15:00:30"
+}

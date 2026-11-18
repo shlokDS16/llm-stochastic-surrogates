@@ -1,0 +1,8 @@
+{
+ "frame_liberal": 2022,
+ "pilot": 70,
+ "pilot_not_in_frame": 10,
+ "total": 2032,
+ "batches": 21,
+ "seed": 20261016
+}

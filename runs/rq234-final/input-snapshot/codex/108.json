@@ -1,0 +1,361 @@
+{
+ "order": 108,
+ "study_id": "https://openalex.org/W7204838051",
+ "full_text": {
+  "obtained": true,
+  "source": "provided full text"
+ },
+ "eligibility": {
+  "decision": "YES",
+  "failed_criterion": null,
+  "borderline": false,
+  "evidence": "Sections 3–8 administer naming and referential games to frozen LLM populations, including human-derived paradigms, and report new model results."
+ },
+ "A": {
+  "doi": null,
+  "arxiv_id": null,
+  "title": "Same Structure, Different Words: Dissociating the Two Senses of Universality in Languages Invented by LLM Populations",
+  "first_author": "Syed Mustafa Quadri",
+  "year": 2026,
+  "venue": "not_reported",
+  "peer_reviewed": "preprint",
+  "first_author_field": "not_reported",
+  "country": "not_reported"
+ },
+ "B": {
+  "models": [
+   {
+    "name": "Qwen2.5",
+    "version": "0.5B",
+    "access": "open_weights",
+    "params_b": 0.5,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "Qwen",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Qwen2.5",
+    "version": "3B",
+    "access": "open_weights",
+    "params_b": 3,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "Qwen",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Qwen2.5",
+    "version": "7B",
+    "access": "open_weights",
+    "params_b": 7,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "Qwen",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Qwen2.5",
+    "version": "14B",
+    "access": "open_weights",
+    "params_b": 14,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "Qwen",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Qwen3",
+    "version": "8B",
+    "access": "open_weights",
+    "params_b": 8,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "Qwen",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Llama 3.1",
+    "version": "8B",
+    "access": "open_weights",
+    "params_b": 8,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "Llama",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Gemma 2",
+    "version": "9B",
+    "access": "open_weights",
+    "params_b": 9,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Six other models",
+    "version": "not_reported",
+    "access": "open_weights",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "other",
+    "query_date": "not_reported"
+   }
+  ],
+  "n_models": 8,
+  "n_model_families": 3
+ },
+ "C": {
+  "paradigms": [
+   {
+    "pid": "P1",
+    "name": "Naming game (convention formation)",
+    "family": "OTH",
+    "source_paper": "Centola and Baronchelli (2015); protocol from Ashery et al. (2025)",
+    "items_origin": "adapted",
+    "n_items": 10,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "partly",
+    "location": "Sections 2–5"
+   },
+   {
+    "pid": "P2",
+    "name": "Referential game and cross-play/form-alignment test",
+    "family": "LANG",
+    "source_paper": "Chaabouni et al. (2021); zero-shot coordination measurement from Hu et al. (2020)",
+    "items_origin": "adapted",
+    "n_items": 9,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "partly",
+    "location": "Sections 3 and 6"
+   },
+   {
+    "pid": "P3",
+    "name": "Variable-length referential game (length-economy and impatience)",
+    "family": "LANG",
+    "source_paper": "Chaabouni et al. (2019); Rita et al. (2020)",
+    "items_origin": "adapted",
+    "n_items": 9,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "partly",
+    "location": "Section 8.1"
+   },
+   {
+    "pid": "P4",
+    "name": "Temporal framing of referential meanings",
+    "family": "LANG",
+    "source_paper": "not_reported",
+    "items_origin": "novel",
+    "n_items": null,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "no",
+    "location": "Section 8.2"
+   },
+   {
+    "pid": "P5",
+    "name": "Contextual word-to-object learning and binding",
+    "family": "LANG",
+    "source_paper": "Keller (1903)",
+    "items_origin": "novel",
+    "n_items": 6,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "no",
+    "location": "Section 8.3"
+   },
+   {
+    "pid": "P6",
+    "name": "Other-initiated conversational repair",
+    "family": "LANG",
+    "source_paper": "Dingemanse et al. (2015)",
+    "items_origin": "adapted",
+    "n_items": null,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "partly",
+    "location": "Section 8.4"
+   }
+  ]
+ },
+ "D": {
+  "types": [
+   "published_norms"
+  ],
+  "primary_type": "published_norms",
+  "human_n": null,
+  "population": "Prior human naming-game and communication studies cited for comparison; no human participant sample reported in this paper.",
+  "metric": "Published convergence-round benchmark and qualitative comparison with human communication universals"
+ },
+ "E": {
+  "outcome_types": [
+   "choice_distribution",
+   "effect_size",
+   "other"
+  ],
+  "rows_aggregated": false,
+  "effects": [
+   {
+    "pid": "P1",
+    "model": "Qwen2.5 7B",
+    "model_family": "Qwen",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "yes",
+    "human_effect_present": "not_reported",
+    "direction": "not_reported",
+    "model_es": 10.5,
+    "human_es": 15,
+    "es_metric": "median population rounds to consensus (published comparison)",
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "INSUFFICIENT",
+    "location": "Section 4"
+   },
+   {
+    "pid": "P2",
+    "model": "Qwen2.5 7B",
+    "model_family": "Qwen",
+    "outcome_kind": "agreement",
+    "basis": "test",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": "Spearman correlation of pairwise message-distance matrices",
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": 0.133,
+    "label": "AGREEMENT-ONLY",
+    "location": "Table 1; Section 6"
+   },
+   {
+    "pid": "P3",
+    "model": "Qwen2.5 7B",
+    "model_family": "Qwen",
+    "outcome_kind": "effect",
+    "basis": "descriptive",
+    "model_effect_present": "yes",
+    "human_effect_present": "not_reported",
+    "direction": "not_reported",
+    "model_es": -0.86,
+    "human_es": null,
+    "es_metric": "front-load score I(pos 1) − I(pos 3)",
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "INSUFFICIENT",
+    "location": "Section 8.1; Figure 4"
+   },
+   {
+    "pid": "P4",
+    "model": "Qwen2.5 7B",
+    "model_family": "Qwen",
+    "outcome_kind": "effect",
+    "basis": "descriptive",
+    "model_effect_present": "no",
+    "human_effect_present": "not_reported",
+    "direction": "not_reported",
+    "model_es": -0.083,
+    "human_es": null,
+    "es_metric": "conditional mutual information iconicity score",
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "INSUFFICIENT",
+    "location": "Section 8.2"
+   },
+   {
+    "pid": "P5",
+    "model": "Qwen2.5 7B",
+    "model_family": "Qwen",
+    "outcome_kind": "accuracy",
+    "basis": "descriptive",
+    "model_effect_present": "na",
+    "human_effect_present": "na",
+    "direction": "not_applicable",
+    "model_es": 0.834,
+    "human_es": null,
+    "es_metric": "proportion correct object",
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "NO-HUMAN-REFERENCE",
+    "location": "Section 8.3; Figure 4a"
+   },
+   {
+    "pid": "P6",
+    "model": "Qwen2.5 7B",
+    "model_family": "Qwen",
+    "outcome_kind": "effect",
+    "basis": "descriptive",
+    "model_effect_present": "no",
+    "human_effect_present": "not_reported",
+    "direction": "not_reported",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": "repair effect on accuracy",
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "INSUFFICIENT",
+    "location": "Section 8.4"
+   }
+  ],
+  "headline": "LLM populations converge on shared lexicon geometry while remaining largely unintelligible across populations; their communication form reflects model priors more than human-like pressures."
+ },
+ "F": {
+  "f1": "no",
+  "f2": "no",
+  "f3": "no",
+  "f4": "yes",
+  "f5": "no",
+  "f6": "no",
+  "f7": "no",
+  "f8": "no",
+  "f9": "yes",
+  "f10": "yes",
+  "f11": "no",
+  "f12": "yes",
+  "perturbations_tested": [
+   "contamination",
+   "language",
+   "response_format",
+   "other"
+  ],
+  "robustness_outcome": "na"
+ },
+ "G": {
+  "notes": "The manuscript is dated August 2026 and reports a reserved Zenodo DOI and reviewer-only repository access; final publication status and materials availability should be checked. Results span several game variants, but effect rows summarize only selected headline outcomes.",
+  "extractor": "codex (default)",
+  "date": "2026-10-16",
+  "minutes": 0.6,
+  "sections_read": [
+   "Abstract",
+   "Sections 1–11",
+   "Reproducibility",
+   "Data and code availability",
+   "References"
+  ]
+ }
+}

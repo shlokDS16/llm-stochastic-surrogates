@@ -1,0 +1,201 @@
+{
+  "order": 11,
+  "study_id": "https://openalex.org/W7139097623",
+  "full_text": {
+    "obtained": true,
+    "source": "research/sources/md/fulltext/011_W7139097623.md"
+  },
+  "eligibility": {
+    "decision": "NO",
+    "failed_criterion": "benchmark-only",
+    "borderline": false,
+    "evidence": "Methodology and Experiments, pp. 33828–33832: evaluates LLMs on a newly constructed benchmark and reports benchmark performance, without administering a cognitive-experimental paradigm."
+  },
+  "A": {
+    "doi": null,
+    "arxiv_id": null,
+    "title": "MovieGraph-ToM: Evaluating Long-Range Theory of Mind in Large Language Models via Implicit Social-Causal Graphs",
+    "first_author": "Tingjiang Wei",
+    "year": 2026,
+    "venue": "The Fortieth AAAI Conference on Artificial Intelligence (AAAI-26)",
+    "peer_reviewed": "yes",
+    "first_author_field": "not_reported",
+    "country": "China"
+  },
+  "B": {
+    "models": [
+      {
+        "name": "DeepSeek Chat V3",
+        "version": "deepseek-chat-v3-0324",
+        "access": "API",
+        "params_b": null,
+        "release_date": "not_reported",
+        "tuning": "not_reported",
+        "family": "other",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "GPT-4.1",
+        "version": "gpt-4.1",
+        "access": "API",
+        "params_b": null,
+        "release_date": "not_reported",
+        "tuning": "not_reported",
+        "family": "GPT",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "Gemini 2.5 Flash",
+        "version": "gemini-2.5-flash",
+        "access": "API",
+        "params_b": null,
+        "release_date": "not_reported",
+        "tuning": "not_reported",
+        "family": "Gemini",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "Gemini 2.5 Pro",
+        "version": "gemini-2.5-pro",
+        "access": "API",
+        "params_b": null,
+        "release_date": "not_reported",
+        "tuning": "not_reported",
+        "family": "Gemini",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "Gemini 2.0 Flash",
+        "version": "gemini-2.0-flash-001",
+        "access": "API",
+        "params_b": null,
+        "release_date": "not_reported",
+        "tuning": "not_reported",
+        "family": "Gemini",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "LLaVA-OneVision Qwen2",
+        "version": "llava-onevision-qwen2-7b",
+        "access": "open_weights",
+        "params_b": 7,
+        "release_date": "not_reported",
+        "tuning": "not_reported",
+        "family": "other",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "GPT-4o mini",
+        "version": "gpt-4o-mini",
+        "access": "API",
+        "params_b": null,
+        "release_date": "not_reported",
+        "tuning": "not_reported",
+        "family": "GPT",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "InternVL3",
+        "version": "InternVL3-8B",
+        "access": "open_weights",
+        "params_b": 8,
+        "release_date": "not_reported",
+        "tuning": "not_reported",
+        "family": "other",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "Qwen2.5-VL",
+        "version": "qwen2.5-vl-72b",
+        "access": "open_weights",
+        "params_b": 72,
+        "release_date": "not_reported",
+        "tuning": "not_reported",
+        "family": "Qwen",
+        "query_date": "not_reported"
+      },
+      {
+        "name": "Mistral Small",
+        "version": "mistral-small-3.2-24b",
+        "access": "open_weights",
+        "params_b": 24,
+        "release_date": "not_reported",
+        "tuning": "not_reported",
+        "family": "Mistral",
+        "query_date": "not_reported"
+      }
+    ],
+    "n_models": 10,
+    "n_model_families": 6
+  },
+  "C": {
+    "paradigms": [
+      {
+        "pid": "P1",
+        "name": "MovieGraph-ToM hierarchical multimodal theory-of-mind and social reasoning benchmark",
+        "family": "TOM",
+        "source_paper": "not_reported",
+        "items_origin": "novel",
+        "n_items": null,
+        "languages": [
+          "not_reported"
+        ],
+        "modality": "image plus text",
+        "contamination_risk": "no",
+        "location": "Methodology, pp. 33828–33831; Experiments, p. 33831"
+      }
+    ]
+  },
+  "D": {
+    "types": [
+      "none"
+    ],
+    "primary_type": "none",
+    "human_n": null,
+    "population": "not_reported",
+    "metric": "not_reported"
+  },
+  "E": {
+    "outcome_types": [],
+    "rows_aggregated": false,
+    "effects": [],
+    "headline": ""
+  },
+  "F": {
+    "f1": "no",
+    "f2": "no",
+    "f3": "no",
+    "f4": "no",
+    "f5": "no",
+    "f6": "no",
+    "f7": "no",
+    "f8": "no",
+    "f9": "yes",
+    "f10": "yes",
+    "f11": "no",
+    "f12": "yes",
+    "perturbations_tested": [
+      "other"
+    ],
+    "robustness_outcome": "na"
+  },
+  "G": {
+    "notes": "A referee may ask how benchmark labels and the LLM judge were validated, given the authors identify judge bias as a limitation.",
+    "extractor": "codex (default)",
+    "date": "2026-10-16",
+    "minutes": 4,
+    "sections_read": [
+      "Abstract",
+      "Introduction",
+      "Methodology",
+      "Benchmark Construction Pipeline",
+      "Task Formulation",
+      "Two-Phase Evaluation Protocol",
+      "Experiments",
+      "Results and Comparisons",
+      "Discussion",
+      "Conclusion",
+      "References"
+    ]
+  }
+}

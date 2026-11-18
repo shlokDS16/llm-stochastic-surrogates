@@ -1,0 +1,2 @@
+{"paradigm": "P2b", "F": "F0", "batch": 0, "rows": 40, "seconds": 0.924, "new_tokens": 175, "padded_prompt_len": 104, "peak_vram_gib": 3.524}
+{"paradigm": "P2b", "F": "F1", "batch": 1, "rows": 40, "seconds": 3.388, "new_tokens": 3348, "padded_prompt_len": 124, "peak_vram_gib": 4.068}

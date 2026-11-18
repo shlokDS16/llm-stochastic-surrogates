@@ -1,0 +1,68 @@
+{
+ "claude": {
+  "rows": 779,
+  "studies": 72,
+  "rows_per_generation": {
+   "G1": 147,
+   "G2": 199,
+   "G3": 374,
+   "unknown": 59
+  },
+  "studies_per_generation": {
+   "G1": 21,
+   "G2": 33,
+   "G3": 38,
+   "unknown": 9
+  },
+  "unknown_share": 0.0757,
+  "rows_by_source": {
+   "none": 59,
+   "name": 718,
+   "release_date": 2
+  },
+  "rows_per_generation_name_rule_only": {
+   "G1": 146,
+   "G2": 198,
+   "G3": 374,
+   "unknown": 61
+  },
+  "rows_with_name_and_release_year": 10,
+  "release_date_rows_disagreeing_with_name_rule": 0,
+  "distinct_unknown_model_strings": 22,
+  "table_rows_never_matched": [
+   "custom|vanilla causal|open-weight model variants",
+   "qwen-?0\\.5b"
+  ]
+ },
+ "codex": {
+  "rows": 649,
+  "studies": 74,
+  "rows_per_generation": {
+   "G1": 110,
+   "G2": 190,
+   "G3": 312,
+   "unknown": 37
+  },
+  "studies_per_generation": {
+   "G1": 21,
+   "G2": 32,
+   "G3": 39,
+   "unknown": 12
+  },
+  "unknown_share": 0.057,
+  "rows_by_source": {
+   "name": 612,
+   "none": 37
+  },
+  "rows_per_generation_name_rule_only": {
+   "G1": 110,
+   "G2": 190,
+   "G3": 312,
+   "unknown": 37
+  },
+  "rows_with_name_and_release_year": 41,
+  "release_date_rows_disagreeing_with_name_rule": 8,
+  "distinct_unknown_model_strings": 16,
+  "table_rows_never_matched": []
+ }
+}

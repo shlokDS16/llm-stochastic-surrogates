@@ -1,0 +1,58 @@
+  3 no_open_copy  0 candidates  Exploring differences in ethical decision-making processes b
+  5 no_open_copy  0 candidates  Game-theory behaviour of large language models: The case of 
+  7 no_open_copy  0 candidates  GPT-4’s Alignment with Human Lie and Falsity Attribution in 
+  8 no_open_copy  1 candidates  Aligned but Biased: Comparing Human and Large Language Model
+ 12 no_open_copy  0 candidates  Golden Gate Bridge, as Always? Eliciting Prototypical Places
+ 14 no_open_copy  0 candidates  Evaluating Human-Large Language Model Alignment in Group Pro
+ 20 no_open_copy  0 candidates  Bias or Memory? Contamination-Controlled Measurement of Beha
+ 29 no_open_copy  0 candidates  Leveraging Large Language Models to Investigate the Decoy Ef
+ 30 no_open_copy  0 candidates  Can a Conversational Agent Pass Theory-of-Mind Tasks? A Case
+ 31 no_open_copy  0 candidates  Human and AI judgements of restorative responses to sexual a
+ 32 ok            1 candidates  The Alignment Footprint: Locating and Removing Cognitive Bia
+ 33 no_open_copy  0 candidates  Framing Effects on Large Language Models
+ 37 no_open_copy  1 candidates  Action Identification Characteristics and Priming Effects in
+ 38 no_open_copy  0 candidates  Moral Asymmetries in LLMs
+ 39 no_open_copy  0 candidates  Assessing Reasoning Capabilities of Commercial LLMs: A Compa
+ 40 no_open_copy  0 candidates  MARKOVWORK Baby40: Post-Hoc Executive Control Scaffold for F
+ 41 no_open_copy  0 candidates  Artificial intelligence and human decision making: Exploring
+ 42 no_open_copy  0 candidates  Assessing Chat GPT's ethical proficiency by testing it's per
+ 43 no_open_copy  0 candidates  Do Large Language Models Reproduce Human Sensory Biases? An 
+ 47 no_open_copy  0 candidates  Abduction In Silico: Large Language Models Replicate Human I
+ 50 no_open_copy  0 candidates  Exploring Creative Human-Agent Discussion via Assigned Persp
+ 51 no_open_copy  0 candidates  Cognitive Biases in Large Language Models for Disaster Manag
+ 52 no_open_copy  0 candidates  Evaluating Large Language Models as Substitutes for Human Af
+ 58 no_open_copy  0 candidates  Easy for Children, Hard for AI: The Limits of Multimodal LLM
+ 64 no_open_copy  0 candidates  The pragmatic competence of ChatGPT. An AI-assisted research
+ 66 no_open_copy  0 candidates  Human and machine perception of material similarities
+ 68 no_open_copy  0 candidates  A Targeted Assessment of SRC vs ORC Processing in Neural Lan
+ 69 no_open_copy  0 candidates  Haggling with a Bot: Human vs. LLM Negotiation in Supply Cha
+ 70 no_open_copy  0 candidates  Towards a Cognitive Science of Large Language Models
+ 71 no_open_copy  0 candidates  Generative AI vs Human Creativity: Divergent Thinking and Fi
+ 79 no_open_copy  0 candidates  Evaluating Theory-of-Mind in Large Language Models Through O
+ 80 no_open_copy  0 candidates  ChatGPT structural priming
+ 81 no_open_copy  1 candidates  Large Language Models Amplify Human Biases in Moral Decision
+ 82 no_open_copy  0 candidates  The Power of Stories: Narrative Priming in Networked Multi-A
+ 94 no_open_copy  0 candidates  Reproducing and Extending Experiments in Behavioral Strategy
+ 97 no_open_copy  0 candidates  Would ChatGPT Let Me Eat My Dead Dog? Probing Moral Judgment
+ 99 no_open_copy  1 candidates  Human-Like Intuitive Behavior and Reasoning Biases Emerged i
+102 no_open_copy  0 candidates  Negotiating with GPT-4: Digital Doormat or Skilful Counterpa
+105 no_open_copy  0 candidates  ChatGPT and CLT: Investigating differences in multimodal pro
+107 no_open_copy  0 candidates  The Language of Creativity: Evidence from Humans and Large L
+108 ok            1 candidates  Same Structure, Different Words: Dissociating the Two Senses
+112 no_open_copy  1 candidates  Visual Dark Patterns on Multimodal LLMs in Shopping Contexts
+123 no_open_copy  0 candidates  Agents under pressure - A preregistered stress-testing parad
+124 no_open_copy  0 candidates  LLMs in the Lab: Can AI Predict What Real Participants Do?
+125 no_open_copy  0 candidates  Structural priming in humans and large language models
+128 no_open_copy  0 candidates  Exploring the Limits of Large Language Models as a Reflectio
+129 no_open_copy  0 candidates  Exploring the Ability of Large Language Models to Recognize 
+130 no_open_copy  0 candidates  Emotional Framing in Prompts Modulates Large Language Model 
+131 no_open_copy  0 candidates  That's Not My Volvo: Stable Preferences Without Self-Recogni
+132 ok            1 candidates  Behavioral Evidence of Valence-Driven Choice Modulation in Q
+136 no_open_copy  0 candidates  Visual Cognition in Vision-Language Models
+137 no_open_copy  0 candidates  Testing Theoretical Alignment in Large Language Models: Evid
+143 no_open_copy  0 candidates  Interpretation of Generalization in Masked Language Models: 
+146 no_open_copy  1 candidates  Skill but not Effort Drive GPT Overperformance over Humans i
+147 no_open_copy  0 candidates  Using Priming to Uncover the Organization of Syntactic Repre
+148 no_open_copy  0 candidates  Inductive reasoning in minds and machines.
+149 ok            1 candidates  Entity recognition as a selective modulator of in-context ev
+Counter({'ok': 97, 'no_open_copy': 53})

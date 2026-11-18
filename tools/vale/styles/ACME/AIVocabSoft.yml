@@ -1,0 +1,13 @@
+extends: existence
+message: "'%s' is frequent in AI-written prose (ai-patterns-academic B). Keep only if it carries a defined, specific meaning."
+level: suggestion
+ignorecase: true
+tokens:
+  - crucial(ly)?
+  - vital(ly)?
+  - comprehensive(ly)?
+  - robust(ness)?
+  - notabl[ey]
+  - landscape
+  - paradigm(s)?
+  - state-of-the-art

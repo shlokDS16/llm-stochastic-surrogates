@@ -1,0 +1,20 @@
+% HAND-BUILT body of Table budget (CRP-S09 writer, 2026-11-07). Two evidence columns, never multiplied. Every number is a \NUM key:
+% literature column = au.*, sp.*, val.* (design-weighted shares of eligible studies in coding pass 1 and pass 2; source runs/rq234-final/);
+% case-study column = rt.* (variance shares of the manipulation effect, runs/acme-gstudy/route-table/route_table.csv, column (b) unless named) and vf.*.
+% The shares are post-outcome, descriptive and underpowered (Section 7.8); the table gives no total and no ranking.
+{\footnotesize\setlength{\tabcolsep}{4pt}\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.15\textwidth}>{\raggedright\arraybackslash}p{0.40\textwidth}>{\raggedright\arraybackslash}p{0.40\textwidth}@{}}
+\toprule
+Source & Coded literature (Sections~\ref{sec:specification} to~\ref{sec:audit}; percent of eligible studies, pass 1 and pass 2) & Verification case study (Section~\ref{sec:benchmark}; share of effect variance) \\
+\midrule
+Model & Version and query date stated by \NUM{sp.f1.p1} and \NUM{sp.f1.p2}; where an abstract gives the number of models tested, the median is \NUM{sp.nm.med} & Model share \NUM{rt.b.M.four.min} to \NUM{rt.b.M.four.max} on P1, QA, AF and NR; \NUM{n.models} models as a fixed facet; the share depends on the roster \\
+Wording & Wording varied, as a perturbation type, by \NUM{au.pw.p1} and \NUM{au.pw.p2} & Main effect at most \NUM{rt.b.W.cr.maxabs} in size on the choice and rating items; model-by-wording \NUM{rt.b.MW.cr.min} to \NUM{rt.b.MW.cr.max} \\
+Option order & Order varied by \NUM{au.po.p1} and \NUM{au.po.p2} (field below the agreement rule, values stand side by side) & Order terms \NUM{rt.b.O.cr.min} to \NUM{rt.b.O.cr.max} on the five choice and rating items \\
+Decoding temperature & Temperature stated by \NUM{sp.f2.p1} and \NUM{sp.f2.p2}; decoding varied by \NUM{au.pd.p1} and \NUM{au.pd.p2} & Terms that contain temperature \NUM{rt.b.T.cr.min} to \NUM{rt.b.T.cr.max}; temperature is applied to the logits, so it adds no sampling \\
+Sampling seed & Repeated sampling of one prompt by \NUM{au.rep.p1} and \NUM{au.rep.p2} & Draw noise of the sampled arm \NUM{rt.a.draw.cr.min} to \NUM{rt.a.draw.cr.max} (column (a), four wordings); the exact arm has none by construction \\
+Model version & Two or more snapshots compared by \NUM{au.snap.p1} and \NUM{au.snap.p2} & Not varied; each model is one pinned revision, and related checkpoints are compared descriptively \\
+Contamination & Novel or perturbed items by \NUM{au.nov.p1} and \NUM{au.nov.p2}; contamination perturbation by \NUM{au.pc.p1} and \NUM{au.pc.p2} & Not varied; the public wording W0 is reported apart \\
+Readout and scoring & No field in the coding scheme; option order coded not applicable for \NUM{sp.f6na.p1} and \NUM{sp.f6na.p2}, a proxy for studies that parse numbers or text & Valid-mass rule excludes \NUM{vf.g3.excl} of \NUM{vf.g3.pairs} model--item pairs; path-sum drift measured and not repaired \\
+Human reference & Multi-site dataset used by \NUM{val.ref.repl.p1k} of \NUM{val.ref.repl.n1} and \NUM{val.ref.repl.p2k} of \NUM{val.ref.repl.n2} studies & Single-site standard error \NUM{cp.min} to \NUM{cp.max} Many Labs~1 SD units; the between-site interval reaches zero for four items \\
+\bottomrule
+\end{tabular}}

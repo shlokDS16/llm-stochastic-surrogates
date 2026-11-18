@@ -1,0 +1,6 @@
+empirical S=0.0 W     bias_S=+0.049 bias_S2=-0.0002 cov_basic=1.000 cov_pct=0.566 share_bias_max=nan reported=nan [13s]
+empirical S=0.1 W     bias_S=-0.009 bias_S2=+0.0011 cov_basic=0.980 cov_pct=0.638 share_bias_max=0.064 reported=0.00 [26s]
+empirical S=0.1 split bias_S=-0.008 bias_S2=+0.0017 cov_basic=0.990 cov_pct=0.658 share_bias_max=0.026 reported=0.00 [39s]
+empirical S=0.3 W     bias_S=+0.012 bias_S2=+0.0109 cov_basic=0.968 cov_pct=0.738 share_bias_max=0.011 reported=0.39 [52s]
+empirical S=0.3 split bias_S=+0.007 bias_S2=+0.0085 cov_basic=0.958 cov_pct=0.766 share_bias_max=0.005 reported=0.38 [66s]
+VERDICT (all S>=0.1 scenarios, all families): {'percentile': False, 'basic': False}

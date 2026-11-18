@@ -1,0 +1,27 @@
+{
+  "order": 65,
+  "study_id": "https://openalex.org/W4402667152",
+  "full_text": {"obtained": true, "source": "research/sources/md/fulltext/065_W4402667152.md"},
+  "eligibility": {"decision": "YES", "failed_criterion": null, "borderline": true, "evidence": "Sec 3.2, 4: GPT-2 completions (1000 sampled per sub-phrase) feed a new 'incompatibility fraction' measure, tested on the Pickering & Traxler (1998) garden-path items and compared with human reading times and surprisal (Tables 1-4). Borderline because GPT-2 is a component of a modelling framework rather than a participant, and its size is not stated."},
+  "A": {"doi": "10.18653/v1/2024.cmcl-1.14", "arxiv_id": null, "title": "How can large language models become more human?", "first_author": "Daphne Wang", "year": 2024, "venue": "Workshop on Cognitive Modeling and Computational Linguistics (CMCL 2024)", "peer_reviewed": "yes", "first_author_field": "not_reported", "country": "United Kingdom"},
+  "B": {
+    "models": [
+      {"name": "GPT-2", "version": "not_reported", "access": "open_weights", "params_b": null, "release_date": "not_reported", "tuning": "base", "family": "other", "query_date": "not_reported"}
+    ],
+    "n_models": 1, "n_model_families": 1},
+  "C": {"paradigms": [
+    {"pid": "P1", "name": "Garden-path sentences: complement-clause (NP/S, easy) and subordinate-clause (NP/Z, hard) ambiguities, reading-time garden-path effect", "family": "LANG", "source_paper": "Pickering & Traxler 1998", "items_origin": "verbatim", "n_items": 48, "languages": ["English"], "modality": "text", "contamination_risk": "yes", "location": "Sec 4 (2 datasets x 24 sets of 4 sentences), Tables 1-2"},
+    {"pid": "P2", "name": "Plausibility manipulation within garden-path sentences (implausible sub-phrase shortens garden-path effect and slows reading)", "family": "LANG", "source_paper": "Pickering & Traxler 1998", "items_origin": "verbatim", "n_items": 48, "languages": ["English"], "modality": "text", "contamination_risk": "yes", "location": "Sec 4-5, Tables 3-4"}
+  ]},
+  "D": {"types": ["published_norms"], "primary_type": "published_norms", "human_n": null, "population": "not_reported (first-pass and total reading times from Pickering & Traxler 1998)", "metric": "garden-path effect and reading time in ms; correlation rho with model measures"},
+  "E": {"outcome_types": ["effect_size", "human_correlation"], "rows_aggregated": false,
+    "effects": [
+      {"pid": "P1", "model": "GPT-2 (IF-min first-pass; surprisal also reported)", "model_family": "other", "outcome_kind": "effect", "basis": "test", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": 39.47, "human_es": 39.5, "es_metric": "garden-path effect in ms, first-pass reading time, all items", "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "HUMAN-LIKE", "location": "Table 2 p.172 (first-pass; total-pass IF-min 66.17 vs human 185.5 ms gives ratio 0.36, computed here); rho with human reading time 0.595, p=0.00032, Table 1 p.172; surprisal first-pass GPE 0.35 ms"},
+      {"pid": "P2", "model": "GPT-2 (IF-min first-pass)", "model_family": "other", "outcome_kind": "effect", "basis": "descriptive", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "opposite", "model_es": 21.62, "human_es": -22.0, "es_metric": "change in garden-path effect (ms) for implausible minus plausible, first-pass, computed here from Table 3", "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "DIFFERENT", "location": "Table 3 p.173: model GPE rises with implausible cues (28.66 to 50.28 ms), human falls (50.5 to 28.5 ms); authors state all measures showed the opposite"}
+    ],
+    "headline": "Incompatibility fractions from GPT-2 completions plus a dependency parser track human garden-path reading times and beat surprisal, but fail on plausibility effects."},
+  "F": {"f1": "no", "f2": "no", "f3": "yes", "f4": "no", "f5": "no", "f6": "na", "f7": "no", "f8": "no",
+        "f9": "no", "f10": "yes", "f11": "no", "f12": "no", "perturbations_tested": [],
+        "robustness_outcome": "na"},
+  "G": {"notes": "GPT-2 size, decoding settings and human sample are not stated; no code link. Human numbers are group means from Pickering & Traxler, so ratios compare to a single published study. IF measures are tuned by regression on the same reading times (Table 1), so fit is in-sample. Eligibility borderline: model is a component of a metric.", "extractor": "paper-reader (claude-sonnet)", "date": "2026-10-16", "minutes": 12, "sections_read": ["abstract", "1 Introduction", "3.1-3.3 Methodology (partial)", "4 Experiments", "5 Results and Analysis", "6 Conclusions and limitations"]}
+}

@@ -1,0 +1,13 @@
+paradigm: AF
+wording: D2
+response_type: yesno
+conditions:
+  x1: Do you think North Korea should forbid public speeches against democracy?
+  x0: Do you think North Korea should allow public speeches against democracy?
+condition_names:
+  x1: forbid question
+  x0: allow question
+options:
+- 'Yes'
+- 'No'
+decoy_change: agent changed from the United States to North Korea

@@ -1,0 +1,42 @@
+{
+  "model": "granite-3.3-2b-instruct",
+  "repo": "ibm-granite/granite-3.3-2b-instruct",
+  "revision": "707f574c62054322f6b5b04b6d075f0a8f05e0f0",
+  "quant": "bf16",
+  "batch_size": 80,
+  "torch": "2.11.0+cu128",
+  "transformers": "5.20.0",
+  "cuda": "12.8",
+  "gpu": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+  "git_sha": "8c90633dbe14d0813c95b77d37296dacfc58ae06",
+  "config_sha256_16": "ec69ba67a38c5d3d",
+  "n": 50,
+  "wordings": [
+    "W0",
+    "W1",
+    "W2",
+    "W3"
+  ],
+  "formats": [
+    "F0",
+    "F1"
+  ],
+  "temps": [
+    0.7,
+    1.0
+  ],
+  "orders": [
+    "sure_first",
+    "risky_first"
+  ],
+  "greedy": true,
+  "max_new_tokens": {
+    "F0": 24,
+    "F1": 256
+  },
+  "eos_ids": [
+    0
+  ],
+  "prompt_manifest": "verified",
+  "started": "2026-10-16T06:06:16+0530"
+}

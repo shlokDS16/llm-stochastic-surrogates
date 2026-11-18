@@ -1,0 +1,132 @@
+=== CRP-S02 2026-10-16T15:27:39 Qwen2.5-7B third rater (v0.8)
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+W1016 15:27:56.180000 19736 Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+W1016 15:27:58.222000 19736 Lib\site-packages\torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:   1%|          | 2/339 [00:00<00:31, 10.82it/s]Loading weights:   4%|3         | 12/339 [00:00<00:08, 39.57it/s]Loading weights:   5%|5         | 17/339 [00:00<00:08, 36.57it/s]Loading weights:   7%|7         | 24/339 [00:00<00:07, 44.08it/s]Loading weights:   9%|8         | 29/339 [00:00<00:07, 39.12it/s]Loading weights:  11%|#         | 37/339 [00:00<00:06, 48.57it/s]Loading weights:  13%|#2        | 43/339 [00:01<00:06, 44.05it/s]Loading weights:  15%|#4        | 50/339 [00:01<00:06, 43.31it/s]Loading weights:  17%|#6        | 57/339 [00:01<00:05, 48.16it/s]Loading weights:  19%|#8        | 64/339 [00:01<00:06, 41.51it/s]Loading weights:  22%|##1       | 74/339 [00:01<00:05, 45.63it/s]Loading weights:  23%|##3       | 79/339 [00:01<00:05, 43.41it/s]Loading weights:  25%|##5       | 86/339 [00:02<00:05, 44.03it/s]Loading weights:  27%|##7       | 93/339 [00:02<00:05, 48.99it/s]Loading weights:  29%|##9       | 100/339 [00:02<00:05, 41.21it/s]Loading weights:  32%|###2      | 109/339 [00:02<00:04, 51.07it/s]Loading weights:  34%|###3      | 115/339 [00:02<00:04, 46.25it/s]Loading weights:  36%|###5      | 122/339 [00:02<00:04, 44.77it/s]Loading weights:  38%|###8      | 129/339 [00:02<00:04, 49.15it/s]Loading weights:  40%|###9      | 135/339 [00:03<00:04, 48.97it/s]Loading weights:  42%|####1     | 141/339 [00:03<00:03, 51.37it/s]Loading weights:  43%|####3     | 147/339 [00:03<00:04, 47.03it/s]Loading weights:  45%|####5     | 154/339 [00:03<00:03, 51.11it/s]Loading weights:  47%|####7     | 160/339 [00:03<00:04, 43.54it/s]Loading weights:  50%|#####     | 170/339 [00:03<00:03, 48.93it/s]Loading weights:  52%|#####2    | 177/339 [00:03<00:03, 52.36it/s]Loading weights:  54%|#####4    | 184/339 [00:04<00:03, 45.80it/s]Loading weights:  57%|#####7    | 194/339 [00:04<00:02, 50.33it/s]Loading weights:  59%|#####8    | 200/339 [00:04<00:02, 52.19it/s]Loading weights:  61%|######1   | 207/339 [00:04<00:02, 51.32it/s]Loading weights:  63%|######2   | 213/339 [00:04<00:02, 51.87it/s]Loading weights:  65%|######4   | 219/339 [00:04<00:02, 51.42it/s]Loading weights:  66%|######6   | 225/339 [00:04<00:02, 53.04it/s]Loading weights:  68%|######8   | 231/339 [00:04<00:02, 48.13it/s]Loading weights:  71%|#######   | 240/339 [00:05<00:01, 58.44it/s]Loading weights:  73%|#######2  | 247/339 [00:05<00:01, 48.34it/s]Loading weights:  75%|#######4  | 254/339 [00:05<00:01, 48.99it/s]Loading weights:  77%|#######6  | 261/339 [00:05<00:01, 51.65it/s]Loading weights:  79%|#######8  | 267/339 [00:05<00:01, 48.30it/s]Loading weights:  81%|########  | 273/339 [00:05<00:01, 48.98it/s]Loading weights:  82%|########2 | 279/339 [00:05<00:01, 50.20it/s]Loading weights:  86%|########5 | 290/339 [00:06<00:00, 58.45it/s]Loading weights:  87%|########7 | 296/339 [00:06<00:00, 54.37it/s]Loading weights:  89%|########9 | 302/339 [00:06<00:00, 51.21it/s]Loading weights:  92%|#########2| 312/339 [00:06<00:00, 56.72it/s]Loading weights:  94%|#########3| 318/339 [00:06<00:00, 51.95it/s]Loading weights:  96%|#########6| 326/339 [00:06<00:00, 54.00it/s]Loading weights: 100%|##########| 339/339 [00:06<00:00, 49.68it/s]
+8/6193 2.02 rec/s
+408/6193 2.80 rec/s
+808/6193 2.48 rec/s
+WALL 471.4s PEAK_VRAM_GiB 8.37 RESERVED_GiB 13.08
+Traceback (most recent call last):
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\runs\screen-local\run_wrapped.py", line 7, in <module>
+    runpy.run_path("analysis/screening/local_screen.py", run_name="__main__")
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "analysis/screening/local_screen.py", line 90, in <module>
+    main()
+  File "analysis/screening/local_screen.py", line 77, in main
+    logits = model(**enc, logits_to_keep=1).logits[:, -1, :].float()   # last position only: saves VRAM, same values
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\transformers\utils\generic.py", line 943, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\transformers\models\qwen2\modeling_qwen2.py", line 444, in forward
+    outputs: BaseModelOutputWithPast = self.model(
+                                       ^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\transformers\utils\generic.py", line 1081, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\transformers\utils\output_capturing.py", line 287, in wrapper
+    outputs = func(self, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\transformers\models\qwen2\modeling_qwen2.py", line 380, in forward
+    hidden_states = decoder_layer(
+                    ^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\transformers\modeling_layers.py", line 111, in __call__
+    return super().__call__(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\transformers\models\qwen2\modeling_qwen2.py", line 288, in forward
+    hidden_states = self.mlp(hidden_states)
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\transformers\models\qwen2\modeling_qwen2.py", line 46, in forward
+    down_proj = self.down_proj(self.act_fn(self.gate_proj(x)) * self.up_proj(x))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\bitsandbytes\nn\modules.py", line 637, in forward
+    return bnb.matmul_4bit(x, self.weight, bias=bias, quant_state=quant_state).to(inp_dtype)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\bitsandbytes\autograd\_functions.py", line 462, in matmul_4bit
+    result = torch.ops.bitsandbytes.gemm_4bit.default(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\torch\_ops.py", line 865, in __call__
+    return self._op(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\torch\_compile.py", line 54, in inner
+    return disable_fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\torch\_dynamo\eval_frame.py", line 1263, in _fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\torch\library.py", line 751, in func_no_dynamo
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\bitsandbytes\backends\cuda\ops.py", line 967, in _
+    return _dequant_linear_fallback(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\bitsandbytes\backends\cuda\ops.py", line 916, in _dequant_linear_fallback
+    return torch.nn.functional.linear(A, B_dq, bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: CUDA error: CUBLAS_STATUS_INTERNAL_ERROR when calling `cublasGemmEx( handle, opa, opb, m, n, k, &falpha, a, CUDA_R_16BF, lda, b, CUDA_R_16BF, ldb, &fbeta, c, std::is_same_v<C_Dtype, float> ? CUDA_R_32F : CUDA_R_16BF, ldc, compute_type, CUBLAS_GEMM_DEFAULT_TENSOR_OP)`
+=== CRP-S02 2026-10-16T15:36:13 resume at batch 4 after CUBLAS error (reserved 13.1 GiB)
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+W1016 15:36:49.821000 22892 Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+W1016 15:36:54.038000 22892 Lib\site-packages\torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:   2%|1         | 6/339 [00:00<00:05, 59.25it/s]Loading weights:   4%|4         | 14/339 [00:00<00:06, 52.65it/s]Loading weights:   6%|6         | 22/339 [00:00<00:05, 60.85it/s]Loading weights:   9%|8         | 29/339 [00:00<00:07, 44.03it/s]Loading weights:  11%|#1        | 38/339 [00:00<00:06, 48.42it/s]Loading weights:  13%|#3        | 45/339 [00:00<00:05, 51.29it/s]Loading weights:  15%|#5        | 52/339 [00:01<00:06, 43.13it/s]Loading weights:  18%|#7        | 60/339 [00:01<00:05, 48.88it/s]Loading weights:  19%|#9        | 66/339 [00:01<00:06, 44.09it/s]Loading weights:  22%|##1       | 74/339 [00:01<00:05, 44.75it/s]Loading weights:  23%|##3       | 79/339 [00:01<00:05, 45.82it/s]Loading weights:  26%|##5       | 88/339 [00:01<00:05, 42.50it/s]Loading weights:  28%|##8       | 96/339 [00:02<00:04, 49.88it/s]Loading weights:  30%|###       | 102/339 [00:02<00:05, 45.00it/s]Loading weights:  33%|###3      | 112/339 [00:02<00:04, 50.00it/s]Loading weights:  35%|###4      | 118/339 [00:02<00:04, 51.41it/s]Loading weights:  37%|###6      | 124/339 [00:02<00:05, 42.45it/s]Loading weights:  39%|###8      | 132/339 [00:02<00:04, 47.53it/s]Loading weights:  41%|####      | 138/339 [00:02<00:04, 42.70it/s]Loading weights:  42%|####2     | 144/339 [00:03<00:04, 41.56it/s]Loading weights:  44%|####4     | 150/339 [00:03<00:04, 43.58it/s]Loading weights:  47%|####6     | 158/339 [00:03<00:03, 46.44it/s]Loading weights:  48%|####8     | 163/339 [00:03<00:03, 46.03it/s]Loading weights:  50%|#####     | 170/339 [00:03<00:03, 43.00it/s]Loading weights:  52%|#####1    | 175/339 [00:03<00:03, 44.29it/s]Loading weights:  54%|#####4    | 184/339 [00:04<00:03, 39.09it/s]Loading weights:  57%|#####6    | 192/339 [00:04<00:03, 39.59it/s]Loading weights:  58%|#####8    | 197/339 [00:04<00:03, 40.39it/s]Loading weights:  61%|######    | 206/339 [00:04<00:03, 43.32it/s]Loading weights:  63%|######2   | 213/339 [00:04<00:02, 48.40it/s]Loading weights:  65%|######4   | 219/339 [00:04<00:02, 45.57it/s]Loading weights:  66%|######6   | 224/339 [00:04<00:02, 46.00it/s]Loading weights:  68%|######7   | 230/339 [00:05<00:02, 43.05it/s]Loading weights:  70%|######9   | 236/339 [00:05<00:02, 45.63it/s]Loading weights:  71%|#######1  | 242/339 [00:05<00:02, 41.40it/s]Loading weights:  73%|#######2  | 247/339 [00:05<00:02, 42.29it/s]Loading weights:  75%|#######4  | 254/339 [00:05<00:02, 41.28it/s]Loading weights:  76%|#######6  | 259/339 [00:05<00:01, 40.77it/s]Loading weights:  78%|#######8  | 266/339 [00:05<00:01, 41.22it/s]Loading weights:  80%|#######9  | 271/339 [00:06<00:01, 41.64it/s]Loading weights:  82%|########2 | 278/339 [00:06<00:01, 47.88it/s]Loading weights:  83%|########3 | 283/339 [00:06<00:01, 40.26it/s]Loading weights:  86%|########5 | 290/339 [00:06<00:01, 46.35it/s]Loading weights:  87%|########7 | 295/339 [00:06<00:01, 36.77it/s]Loading weights:  89%|########9 | 302/339 [00:06<00:00, 37.89it/s]Loading weights:  91%|######### | 307/339 [00:06<00:00, 39.84it/s]Loading weights:  93%|#########2| 314/339 [00:07<00:00, 45.72it/s]Loading weights:  94%|#########4| 319/339 [00:07<00:00, 38.53it/s]Loading weights:  96%|#########5| 324/339 [00:07<00:00, 34.59it/s]Loading weights:  97%|#########7| 329/339 [00:07<00:00, 36.89it/s]Loading weights: 100%|##########| 339/339 [00:07<00:00, 44.62it/s]
+4/5241 1.61 rec/s
+204/5241 2.60 rec/s
+404/5241 2.67 rec/s
+604/5241 2.69 rec/s
+804/5241 2.65 rec/s
+1004/5241 2.66 rec/s
+1204/5241 2.70 rec/s
+1404/5241 2.73 rec/s
+1604/5241 2.74 rec/s
+1804/5241 2.76 rec/s
+2004/5241 2.78 rec/s
+2204/5241 2.79 rec/s
+2404/5241 2.79 rec/s
+2604/5241 2.81 rec/s
+2804/5241 2.81 rec/s
+3004/5241 2.81 rec/s
+3204/5241 2.82 rec/s
+3404/5241 2.83 rec/s
+3604/5241 2.82 rec/s
+3804/5241 2.82 rec/s
+4004/5241 2.82 rec/s
+4204/5241 2.82 rec/s
+4404/5241 2.83 rec/s
+4604/5241 2.83 rec/s
+4804/5241 2.83 rec/s
+5004/5241 2.83 rec/s
+5204/5241 2.83 rec/s
+WALL 1903.3s PEAK_VRAM_GiB 6.73 RESERVED_GiB 9.71

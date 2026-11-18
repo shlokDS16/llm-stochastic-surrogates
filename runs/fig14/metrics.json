@@ -1,0 +1,1033 @@
+{
+ "rows": [
+  {
+   "label": "Wording (perturbation)",
+   "key": "perturbation|wording",
+   "status": "ok",
+   "claude": {
+    "est": 24.376,
+    "lo": 14.41,
+    "hi": 34.341,
+    "k": 27,
+    "n": 80,
+    "passes": true,
+    "kappa": 0.704,
+    "pagree": 86.1,
+    "rule": "kappa>=0.6"
+   },
+   "codex": {
+    "est": 28.893,
+    "lo": 16.883,
+    "hi": 40.904,
+    "k": 32,
+    "n": 81,
+    "passes": true,
+    "kappa": 0.704,
+    "pagree": 86.1,
+    "rule": "kappa>=0.6"
+   },
+   "bounds": true,
+   "bound_values": {
+    "claude": [
+     17.9,
+     58.6
+    ],
+    "codex": [
+     18.4,
+     59.4
+    ]
+   }
+  },
+  {
+   "label": "Paraphrases compared (f5)",
+   "key": "f5|yes",
+   "status": "fail",
+   "claude": {
+    "est": 24.376,
+    "lo": 14.41,
+    "hi": 34.341,
+    "k": 27,
+    "n": 80,
+    "passes": false,
+    "kappa": 0.523,
+    "pagree": 80.6,
+    "rule": "kappa>=0.6"
+   },
+   "codex": {
+    "est": 10.719,
+    "lo": 4.274,
+    "hi": 17.165,
+    "k": 14,
+    "n": 81,
+    "passes": false,
+    "kappa": 0.523,
+    "pagree": 80.6,
+    "rule": "kappa>=0.6"
+   },
+   "bounds": true,
+   "bound_values": {
+    "claude": [
+     17.9,
+     58.6
+    ],
+    "codex": [
+     7.7,
+     48.7
+    ]
+   }
+  },
+  {
+   "label": "Option order (perturbation)",
+   "key": "perturbation|option_order",
+   "status": "fail",
+   "claude": {
+    "est": 12.64,
+    "lo": 4.001,
+    "hi": 21.279,
+    "k": 13,
+    "n": 80,
+    "passes": false,
+    "kappa": 0.557,
+    "pagree": 86.1,
+    "rule": "kappa>=0.6"
+   },
+   "codex": {
+    "est": 16.116,
+    "lo": 6.712,
+    "hi": 25.521,
+    "k": 18,
+    "n": 81,
+    "passes": false,
+    "kappa": 0.557,
+    "pagree": 86.1,
+    "rule": "kappa>=0.6"
+   },
+   "bounds": true,
+   "bound_values": {
+    "claude": [
+     8.2,
+     48.8
+    ],
+    "codex": [
+     9.7,
+     50.8
+    ]
+   }
+  },
+  {
+   "label": "Order, where applicable (f6)",
+   "key": "f6_applicable|yes",
+   "status": "fail",
+   "claude": {
+    "est": 29.464,
+    "lo": 12.39,
+    "hi": 46.538,
+    "k": 14,
+    "n": 40,
+    "passes": false,
+    "kappa": 0.309,
+    "pagree": 56.9,
+    "rule": "kappa>=0.6"
+   },
+   "codex": {
+    "est": 21.045,
+    "lo": 7.484,
+    "hi": 34.605,
+    "k": 17,
+    "n": 45,
+    "passes": false,
+    "kappa": 0.309,
+    "pagree": 56.9,
+    "rule": "kappa>=0.6"
+   },
+   "bounds": false,
+   "bound_values": {}
+  },
+  {
+   "label": "Response format",
+   "key": "perturbation|response_format",
+   "status": "fail",
+   "claude": {
+    "est": 5.809,
+    "lo": 1.493,
+    "hi": 10.126,
+    "k": 8,
+    "n": 80,
+    "passes": false,
+    "kappa": 0.336,
+    "pagree": 84.7,
+    "rule": "kappa>=0.6"
+   },
+   "codex": {
+    "est": 11.782,
+    "lo": 3.43,
+    "hi": 20.134,
+    "k": 11,
+    "n": 81,
+    "passes": false,
+    "kappa": 0.336,
+    "pagree": 84.7,
+    "rule": "kappa>=0.6"
+   },
+   "bounds": false,
+   "bound_values": {}
+  },
+  {
+   "label": "Persona",
+   "key": "perturbation|persona",
+   "status": "ok",
+   "claude": {
+    "est": 8.179,
+    "lo": 0.0,
+    "hi": 16.899,
+    "k": 5,
+    "n": 80,
+    "passes": true,
+    "kappa": 0.633,
+    "pagree": 93.1,
+    "rule": "kappa>=0.6"
+   },
+   "codex": {
+    "est": 17.957,
+    "lo": 7.479,
+    "hi": 28.434,
+    "k": 12,
+    "n": 81,
+    "passes": true,
+    "kappa": 0.633,
+    "pagree": 93.1,
+    "rule": "kappa>=0.6"
+   },
+   "bounds": false,
+   "bound_values": {}
+  },
+  {
+   "label": "Language",
+   "key": "perturbation|language",
+   "status": "low",
+   "claude": {
+    "est": 2.405,
+    "lo": 0.0,
+    "hi": 6.066,
+    "k": 2,
+    "n": 80,
+    "passes": true,
+    "kappa": 0.379,
+    "pagree": 95.8,
+    "rule": "percent>=0.80"
+   },
+   "codex": {
+    "est": 6.526,
+    "lo": 0.0,
+    "hi": 13.375,
+    "k": 3,
+    "n": 81,
+    "passes": true,
+    "kappa": 0.379,
+    "pagree": 95.8,
+    "rule": "percent>=0.80"
+   },
+   "bounds": false,
+   "bound_values": {}
+  },
+  {
+   "label": "Several temperatures (f7)",
+   "key": "f7|yes",
+   "status": "ok",
+   "claude": {
+    "est": 17.253,
+    "lo": 8.359,
+    "hi": 26.147,
+    "k": 12,
+    "n": 80,
+    "passes": true,
+    "kappa": 0.901,
+    "pagree": 97.2,
+    "rule": "percent>=0.80"
+   },
+   "codex": {
+    "est": 21.64,
+    "lo": 11.714,
+    "hi": 31.567,
+    "k": 14,
+    "n": 81,
+    "passes": true,
+    "kappa": 0.901,
+    "pagree": 97.2,
+    "rule": "percent>=0.80"
+   },
+   "bounds": true,
+   "bound_values": {
+    "claude": [
+     11.8,
+     52.5
+    ],
+    "codex": [
+     13.6,
+     54.6
+    ]
+   }
+  },
+  {
+   "label": "Decoding (perturbation)",
+   "key": "perturbation|decoding",
+   "status": "ok",
+   "claude": {
+    "est": 17.253,
+    "lo": 8.359,
+    "hi": 26.147,
+    "k": 12,
+    "n": 80,
+    "passes": true,
+    "kappa": 0.638,
+    "pagree": 87.5,
+    "rule": "kappa>=0.6"
+   },
+   "codex": {
+    "est": 30.164,
+    "lo": 19.067,
+    "hi": 41.26,
+    "k": 22,
+    "n": 81,
+    "passes": true,
+    "kappa": 0.638,
+    "pagree": 87.5,
+    "rule": "kappa>=0.6"
+   },
+   "bounds": false,
+   "bound_values": {}
+  },
+  {
+   "label": "Seeds (perturbation)",
+   "key": "perturbation|seeds",
+   "status": "fail",
+   "claude": {
+    "est": 6.905,
+    "lo": 0.0,
+    "hi": 14.482,
+    "k": 5,
+    "n": 80,
+    "passes": false,
+    "kappa": 0.309,
+    "pagree": 86.1,
+    "rule": "kappa>=0.6"
+   },
+   "codex": {
+    "est": 23.563,
+    "lo": 10.935,
+    "hi": 36.19,
+    "k": 14,
+    "n": 81,
+    "passes": false,
+    "kappa": 0.309,
+    "pagree": 86.1,
+    "rule": "kappa>=0.6"
+   },
+   "bounds": false,
+   "bound_values": {}
+  },
+  {
+   "label": "Model version (perturbation)",
+   "key": "perturbation|model_version",
+   "status": "fail",
+   "claude": {
+    "est": 26.733,
+    "lo": 15.393,
+    "hi": 38.073,
+    "k": 21,
+    "n": 80,
+    "passes": false,
+    "kappa": 0.286,
+    "pagree": 72.2,
+    "rule": "kappa>=0.6"
+   },
+   "codex": {
+    "est": 20.481,
+    "lo": 9.891,
+    "hi": 31.072,
+    "k": 20,
+    "n": 81,
+    "passes": false,
+    "kappa": 0.286,
+    "pagree": 72.2,
+    "rule": "kappa>=0.6"
+   },
+   "bounds": false,
+   "bound_values": {}
+  },
+  {
+   "label": "Snapshots compared (f8)",
+   "key": "f8|yes",
+   "status": "fail",
+   "claude": {
+    "est": 33.635,
+    "lo": 21.68,
+    "hi": 45.59,
+    "k": 27,
+    "n": 80,
+    "passes": false,
+    "kappa": 0.501,
+    "pagree": 76.4,
+    "rule": "kappa>=0.6"
+   },
+   "codex": {
+    "est": 37.723,
+    "lo": 25.488,
+    "hi": 49.958,
+    "k": 30,
+    "n": 81,
+    "passes": false,
+    "kappa": 0.501,
+    "pagree": 76.4,
+    "rule": "kappa>=0.6"
+   },
+   "bounds": true,
+   "bound_values": {
+    "claude": [
+     22.0,
+     62.6
+    ],
+    "codex": [
+     24.5,
+     65.5
+    ]
+   }
+  },
+  {
+   "label": "Novel or perturbed items (f9)",
+   "key": "f9|yes",
+   "status": "ok",
+   "claude": {
+    "est": 20.683,
+    "lo": 11.405,
+    "hi": 29.961,
+    "k": 26,
+    "n": 80,
+    "passes": true,
+    "kappa": 0.621,
+    "pagree": 81.9,
+    "rule": "kappa>=0.6"
+   },
+   "codex": {
+    "est": 29.234,
+    "lo": 17.592,
+    "hi": 40.876,
+    "k": 35,
+    "n": 81,
+    "passes": true,
+    "kappa": 0.621,
+    "pagree": 81.9,
+    "rule": "kappa>=0.6"
+   },
+   "bounds": true,
+   "bound_values": {
+    "claude": [
+     14.0,
+     54.6
+    ],
+    "codex": [
+     19.0,
+     60.1
+    ]
+   }
+  },
+  {
+   "label": "Contamination (perturbation)",
+   "key": "perturbation|contamination",
+   "status": "fail",
+   "claude": {
+    "est": 8.693,
+    "lo": 2.061,
+    "hi": 15.326,
+    "k": 9,
+    "n": 80,
+    "passes": false,
+    "kappa": 0.491,
+    "pagree": 83.3,
+    "rule": "kappa>=0.6"
+   },
+   "codex": {
+    "est": 22.489,
+    "lo": 11.595,
+    "hi": 33.383,
+    "k": 22,
+    "n": 81,
+    "passes": false,
+    "kappa": 0.491,
+    "pagree": 83.3,
+    "rule": "kappa>=0.6"
+   },
+   "bounds": false,
+   "bound_values": {}
+  },
+  {
+   "label": "Any of six judged types",
+   "key": "robustness_tested|yes",
+   "status": "ok",
+   "claude": {
+    "est": 54.078,
+    "lo": 41.228,
+    "hi": 66.928,
+    "k": 48,
+    "n": 80,
+    "passes": true,
+    "kappa": 0.624,
+    "pagree": 81.9,
+    "rule": "kappa>=0.6"
+   },
+   "codex": {
+    "est": 48.962,
+    "lo": 36.561,
+    "hi": 61.363,
+    "k": 47,
+    "n": 81,
+    "passes": true,
+    "kappa": 0.624,
+    "pagree": 81.9,
+    "rule": "kappa>=0.6"
+   },
+   "bounds": true,
+   "bound_values": {
+    "claude": [
+     34.0,
+     74.7
+    ],
+    "codex": [
+     31.7,
+     72.7
+    ]
+   }
+  },
+  {
+   "label": "Full prompts available (f4)",
+   "key": "f4|yes",
+   "status": "fail",
+   "claude": {
+    "est": 68.62,
+    "lo": 56.212,
+    "hi": 81.028,
+    "k": 56,
+    "n": 80,
+    "passes": false,
+    "kappa": 0.476,
+    "pagree": 79.2,
+    "rule": "kappa>=0.6"
+   },
+   "codex": {
+    "est": 74.265,
+    "lo": 62.378,
+    "hi": 86.153,
+    "k": 63,
+    "n": 81,
+    "passes": false,
+    "kappa": 0.476,
+    "pagree": 79.2,
+    "rule": "kappa>=0.6"
+   },
+   "bounds": true,
+   "bound_values": {
+    "claude": [
+     41.0,
+     81.7
+    ],
+    "codex": [
+     44.0,
+     85.0
+    ]
+   }
+  },
+  {
+   "label": "Temperature stated (f2)",
+   "key": "f2|yes",
+   "status": "ok",
+   "claude": {
+    "est": 42.193,
+    "lo": 30.338,
+    "hi": 54.048,
+    "k": 31,
+    "n": 80,
+    "passes": true,
+    "kappa": 0.813,
+    "pagree": 90.3,
+    "rule": "percent>=0.80"
+   },
+   "codex": {
+    "est": 49.995,
+    "lo": 37.111,
+    "hi": 62.879,
+    "k": 38,
+    "n": 81,
+    "passes": true,
+    "kappa": 0.813,
+    "pagree": 90.3,
+    "rule": "percent>=0.80"
+   },
+   "bounds": true,
+   "bound_values": {
+    "claude": [
+     26.4,
+     67.0
+    ],
+    "codex": [
+     30.4,
+     71.5
+    ]
+   }
+  },
+  {
+   "label": "Repeated draws, n stated (f3)",
+   "key": "f3|yes",
+   "status": "ok",
+   "claude": {
+    "est": 52.353,
+    "lo": 38.787,
+    "hi": 65.919,
+    "k": 38,
+    "n": 80,
+    "passes": true,
+    "kappa": 0.671,
+    "pagree": 83.3,
+    "rule": "percent>=0.80"
+   },
+   "codex": {
+    "est": 55.28,
+    "lo": 41.762,
+    "hi": 68.799,
+    "k": 41,
+    "n": 81,
+    "passes": true,
+    "kappa": 0.671,
+    "pagree": 83.3,
+    "rule": "percent>=0.80"
+   },
+   "bounds": true,
+   "bound_values": {
+    "claude": [
+     28.4,
+     69.1
+    ],
+    "codex": [
+     31.0,
+     72.0
+    ]
+   }
+  },
+  {
+   "label": "Exact model and date (f1)",
+   "key": "f1|yes",
+   "status": "low",
+   "claude": {
+    "est": 25.023,
+    "lo": 13.724,
+    "hi": 36.321,
+    "k": 15,
+    "n": 80,
+    "passes": true,
+    "kappa": 0.045,
+    "pagree": 80.6,
+    "rule": "percent>=0.80"
+   },
+   "codex": {
+    "est": 8.092,
+    "lo": 0.0,
+    "hi": 16.88,
+    "k": 4,
+    "n": 81,
+    "passes": true,
+    "kappa": 0.045,
+    "pagree": 80.6,
+    "rule": "percent>=0.80"
+   },
+   "bounds": true,
+   "bound_values": {
+    "claude": [
+     14.2,
+     54.9
+    ],
+    "codex": [
+     3.8,
+     44.9
+    ]
+   }
+  },
+  {
+   "label": "Test or interval (f10)",
+   "key": "f10|yes",
+   "status": "ok",
+   "claude": {
+    "est": 75.91,
+    "lo": 65.059,
+    "hi": 86.761,
+    "k": 58,
+    "n": 80,
+    "passes": true,
+    "kappa": 0.6,
+    "pagree": 87.5,
+    "rule": "kappa>=0.6"
+   },
+   "codex": {
+    "est": 88.057,
+    "lo": 79.423,
+    "hi": 96.691,
+    "k": 70,
+    "n": 81,
+    "passes": true,
+    "kappa": 0.6,
+    "pagree": 87.5,
+    "rule": "kappa>=0.6"
+   },
+   "bounds": true,
+   "bound_values": {
+    "claude": [
+     44.9,
+     85.5
+    ],
+    "codex": [
+     51.4,
+     92.5
+    ]
+   }
+  },
+  {
+   "label": "Preregistration cited (f11)",
+   "key": "f11|yes",
+   "status": "ok",
+   "claude": {
+    "est": 5.294,
+    "lo": 0.0,
+    "hi": 12.408,
+    "k": 5,
+    "n": 80,
+    "passes": true,
+    "kappa": 0.786,
+    "pagree": 97.2,
+    "rule": "percent>=0.80"
+   },
+   "codex": {
+    "est": 6.316,
+    "lo": 0.0,
+    "hi": 13.907,
+    "k": 7,
+    "n": 81,
+    "passes": true,
+    "kappa": 0.786,
+    "pagree": 97.2,
+    "rule": "percent>=0.80"
+   },
+   "bounds": true,
+   "bound_values": {
+    "claude": [
+     2.3,
+     42.9
+    ],
+    "codex": [
+     2.8,
+     43.9
+    ]
+   }
+  },
+  {
+   "label": "Code or data link (f12)",
+   "key": "f12|yes",
+   "status": "ok",
+   "claude": {
+    "est": 46.44,
+    "lo": 32.865,
+    "hi": 60.015,
+    "k": 41,
+    "n": 80,
+    "passes": true,
+    "kappa": 0.676,
+    "pagree": 83.3,
+    "rule": "percent>=0.80"
+   },
+   "codex": {
+    "est": 62.571,
+    "lo": 48.481,
+    "hi": 76.661,
+    "k": 53,
+    "n": 81,
+    "passes": true,
+    "kappa": 0.676,
+    "pagree": 83.3,
+    "rule": "percent>=0.80"
+   },
+   "bounds": true,
+   "bound_values": {
+    "claude": [
+     28.0,
+     68.6
+    ],
+    "codex": [
+     35.8,
+     76.8
+    ]
+   }
+  },
+  {
+   "label": "Replication dataset",
+   "key": "replication_dataset",
+   "status": "ok",
+   "claude": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 4.506,
+    "k": 0,
+    "n": 80,
+    "passes": true,
+    "kappa": NaN,
+    "pagree": 100.0,
+    "rule": "percent>=0.80"
+   },
+   "codex": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 4.452,
+    "k": 0,
+    "n": 81,
+    "passes": true,
+    "kappa": NaN,
+    "pagree": 100.0,
+    "rule": "percent>=0.80"
+   },
+   "bounds": false,
+   "bound_values": {}
+  },
+  {
+   "label": "Published norms",
+   "key": "published_norms",
+   "status": "ok",
+   "claude": {
+    "est": 46.019,
+    "lo": 32.958,
+    "hi": 59.079,
+    "k": 42,
+    "n": 80,
+    "passes": true,
+    "kappa": 0.68,
+    "pagree": 84.7,
+    "rule": "kappa>=0.6"
+   },
+   "codex": {
+    "est": 52.736,
+    "lo": 39.547,
+    "hi": 65.926,
+    "k": 51,
+    "n": 81,
+    "passes": true,
+    "kappa": 0.68,
+    "pagree": 84.7,
+    "rule": "kappa>=0.6"
+   },
+   "bounds": false,
+   "bound_values": {}
+  },
+  {
+   "label": "Own human sample",
+   "key": "own_sample",
+   "status": "ok",
+   "claude": {
+    "est": 34.99,
+    "lo": 22.014,
+    "hi": 47.965,
+    "k": 24,
+    "n": 80,
+    "passes": true,
+    "kappa": 0.898,
+    "pagree": 95.8,
+    "rule": "kappa>=0.6"
+   },
+   "codex": {
+    "est": 35.696,
+    "lo": 21.819,
+    "hi": 49.572,
+    "k": 25,
+    "n": 81,
+    "passes": true,
+    "kappa": 0.898,
+    "pagree": 95.8,
+    "rule": "kappa>=0.6"
+   },
+   "bounds": false,
+   "bound_values": {}
+  },
+  {
+   "label": "No human comparison",
+   "key": "none",
+   "status": "ok",
+   "claude": {
+    "est": 21.701,
+    "lo": 11.694,
+    "hi": 31.708,
+    "k": 17,
+    "n": 80,
+    "passes": true,
+    "kappa": 0.662,
+    "pagree": 90.3,
+    "rule": "kappa>=0.6"
+   },
+   "codex": {
+    "est": 20.784,
+    "lo": 9.109,
+    "hi": 32.459,
+    "k": 13,
+    "n": 81,
+    "passes": true,
+    "kappa": 0.662,
+    "pagree": 90.3,
+    "rule": "kappa>=0.6"
+   },
+   "bounds": false,
+   "bound_values": {}
+  },
+  {
+   "label": "Human n reported",
+   "key": null,
+   "status": "ok",
+   "claude": {
+    "est": 40.45,
+    "lo": 26.66,
+    "hi": 54.24,
+    "k": 32,
+    "n": 80,
+    "passes": true,
+    "kappa": 1.0,
+    "pagree": 100.0,
+    "rule": "kappa>=0.6"
+   },
+   "codex": {
+    "est": 42.32,
+    "lo": 27.56,
+    "hi": 57.07,
+    "k": 34,
+    "n": 81,
+    "passes": true,
+    "kappa": 1.0,
+    "pagree": 100.0,
+    "rule": "kappa>=0.6"
+   },
+   "bounds": false,
+   "bound_values": {}
+  }
+ ],
+ "bounds_drawn": 28,
+ "not_coded": [
+  "System prompt, few-shot, CoT",
+  "Scoring method",
+  "Claim scope"
+ ],
+ "agree_rows": {
+  "E.outcome_kind": {
+   "kappa": 0.731,
+   "passes": true
+  },
+  "E.derived_label (script)": {
+   "kappa": 0.565,
+   "passes": false
+  }
+ },
+ "f5_wording": {
+  "claude_f5": 27,
+  "claude_wording": 27,
+  "codex_f5": 14,
+  "codex_wording": 32,
+  "codex_n": 81,
+  "claude_n": 80,
+  "discrepancy_codex": true,
+  "discrepancy_claude": false
+ },
+ "pilot_counts": {
+  "grids": 42,
+  "fragile": 41,
+  "stable": 1,
+  "neither": 0,
+  "sign_match": 33,
+  "above": 24,
+  "overlap": 17,
+  "below": 1,
+  "placement_all": {
+   "n_grids": 42,
+   "larger": 24,
+   "overlap": 17,
+   "smaller": 1
+  },
+  "placement_without_nd": {
+   "n_grids": 10,
+   "larger": 4,
+   "overlap": 6,
+   "smaller": 0
+  },
+  "shares_reportable": 29,
+  "without_nd": 5,
+  "with_nd": 24,
+  "not_reportable": 13
+ },
+ "rule_calibration": {
+  "paradigms": [
+   "P3",
+   "P4"
+  ],
+  "p_fragile": {
+   "P3": 0.991,
+   "P4": 0.809
+  },
+  "grids_marked": 12,
+  "n_per_arm": 50,
+  "reps": 2000,
+  "p_fragile_other": {
+   "P1": 0.0005,
+   "P2a": 0.0,
+   "P2b": 0.0,
+   "P2c": 0.0,
+   "P2d": 0.0
+  }
+ },
+ "shares_sum_check": [
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "terms_drawn": [
+  "F",
+  "T",
+  "W"
+ ],
+ "nf4_models": [
+  "granite-3.3-8b-instruct",
+  "olmo2-7b-instruct",
+  "qwen2.5-7b-instruct"
+ ],
+ "min_font_pt": 7.0,
+ "height_mm": 219.75,
+ "width_mm": 174.0,
+ "run": "rq234-final",
+ "interim": false,
+ "font": "Arial",
+ "inputs_sha256": {
+  "runs\\rq234-final\\fig_inputs\\rq4_items_by_coder.csv": "6f5e578c13c43ec3780e617c9c049a68fcd979ab0e3e3ca1088842eba7fddf7a",
+  "runs\\rq234-final\\fig_inputs\\rq3_comparisons.csv": "7eea84fe44f35ff3103d44825ac6763399b72f218ce16358ea0f79f40d9a64ab",
+  "runs\\rq234-final\\rq3.csv": "d4690bd99892254ba28e620e5197f6cd654bd7e1f6b63248062d2583870e5d30",
+  "runs\\rq234-final\\agreement.csv": "d900c45c6b2d976521b92a899c3c673afbe8b19ce901b13353a4c630adffd59e",
+  "runs\\rq234-final\\nonresponse.md": "3f806cfe7a1a4590783c520a98e39df9223bd7a024976e32faaa6c3e8ae3d2fd",
+  "runs\\rq234-final\\config.json": "128cfb36fcb6a8663d5f90f4fe1ae7e14ffeb87439aa15653bf151357c5c1083",
+  "runs\\pilot-side-by-side\\table_a1.csv": "6098510c6bf521961c77c8affe50b5d34023c70b90369396b73902cd8e18fdfe",
+  "runs\\pilot-side-by-side\\fig_inputs\\fig12_variance_terms.csv": "7e38786889030a45adc6f31d4f63afdaef073bfaee7daf8b4a74be502efdc76e",
+  "runs\\pilot-rule-calibration\\summary.csv": "5083167b07860cce77ad4fd23fad80eb8b10255acf0c5f40ffdabf0250166f9a",
+  "runs\\pilot-rule-calibration\\config.json": "d7e7cba852e7b7cad5c047b1da9720c8d906430ac8d9aaad36e464444b6f3989",
+  "runs\\pilot-placement-sensitivity\\placement_counts.csv": "dea1625821b1b83dc9f6f29272e661401b441c5c26bef2751efea9cd78797ad7",
+  "runs\\pilot\\granite-3.3-2b-instruct\\meta.json": "320d4b35638de81d489b2232487975e2049f3e518346cd47d8dbcd8734194a82",
+  "runs\\pilot\\granite-3.3-8b-instruct\\meta.json": "2b85a0720e5395afdc9292e97c72dc4a40a90cd5167caa12897a7d9c23a9b447",
+  "runs\\pilot\\olmo2-1b-instruct\\meta.json": "3bae70dbdab033336675eca433649cc1449f2983f672c9df85c951d79393efe4",
+  "runs\\pilot\\olmo2-7b-instruct\\meta.json": "88cdccfbc7136385346d4659fc1ab0a56e86e920baa18584df86f1e873734a42",
+  "runs\\pilot\\qwen2.5-1.5b-instruct\\meta.json": "a3bb18ac48f9700fd14793dc164abeff0545672355bfe5ffbf3371e4322d28c9",
+  "runs\\pilot\\qwen2.5-7b-instruct\\meta.json": "d68c5db0a4844a7e10bb26c56c7ecf16dc3f6c0cf8502bb2c49f89d4498b3c94"
+ },
+ "n_rows_data": 27
+}

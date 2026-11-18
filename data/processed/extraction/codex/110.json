@@ -1,0 +1,401 @@
+{
+ "order": 110,
+ "study_id": "https://openalex.org/W4412944072",
+ "full_text": {
+  "obtained": true,
+  "source": "provided full text"
+ },
+ "eligibility": {
+  "decision": "YES",
+  "failed_criterion": null,
+  "borderline": false,
+  "evidence": "Methods and Results: evaluates language models on value-based preferences, prisoner’s dilemma, and traveler’s dilemma, comparing strategic preferences with empirical human findings."
+ },
+ "A": {
+  "doi": null,
+  "arxiv_id": "2404.07870",
+  "title": "Do Large Language Models Learn Human-Like Strategic Preferences?",
+  "first_author": "Jesse Roberts",
+  "year": 2024,
+  "venue": "arXiv preprint",
+  "peer_reviewed": "preprint",
+  "first_author_field": "not_reported",
+  "country": "United States"
+ },
+ "B": {
+  "models": [
+   {
+    "name": "Solar",
+    "version": "Solar 10.7B",
+    "access": "open_weights",
+    "params_b": 10.7,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Mistral",
+    "version": "Mistral 7B",
+    "access": "open_weights",
+    "params_b": 7,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "Mistral",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Gemma",
+    "version": "not_reported",
+    "access": "open_weights",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "Gemini",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Llama-2",
+    "version": "Llama-2 7B",
+    "access": "open_weights",
+    "params_b": 7,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "Llama",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Llama-2",
+    "version": "Llama-2 13B",
+    "access": "open_weights",
+    "params_b": 13,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "Llama",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Phi-2",
+    "version": "Phi-2",
+    "access": "open_weights",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "other",
+    "query_date": "not_reported"
+   }
+  ],
+  "n_models": 6,
+  "n_model_families": 4
+ },
+ "C": {
+  "paradigms": [
+   {
+    "pid": "P1",
+    "name": "Value-based preference judgment",
+    "family": "JDM",
+    "source_paper": "not_reported",
+    "items_origin": "novel",
+    "n_items": 3,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "no",
+    "location": "Methods, Do LLMs Prefer Strategies Based on Value?"
+   },
+   {
+    "pid": "P2",
+    "name": "Prisoner’s dilemma",
+    "family": "JDM",
+    "source_paper": "Yamagishi et al. (2016)",
+    "items_origin": "adapted",
+    "n_items": 2,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "no",
+    "location": "Methods, Do LLMs Have Human-Like Preference in the Prisoner’s Dilemma?; Table 2"
+   },
+   {
+    "pid": "P3",
+    "name": "Traveler’s dilemma",
+    "family": "JDM",
+    "source_paper": "Basu (1994); human comparison references Becker et al. (2004) and Morone et al. (2014)",
+    "items_origin": "adapted",
+    "n_items": 2,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "no",
+    "location": "Methods and Results, Do LLMs Have Human-Like Preference in the Traveler’s Dilemma?"
+   }
+  ]
+ },
+ "D": {
+  "types": [
+   "published_norms"
+  ],
+  "primary_type": "published_norms",
+  "human_n": null,
+  "population": "Human findings from prior experimental studies; the paper cites Yamagishi et al. (2016) for prisoner’s dilemma behavior and prior traveler’s dilemma studies.",
+  "metric": "Qualitative comparison of preference patterns and stake or penalty size effects"
+ },
+ "E": {
+  "outcome_types": [
+   "bias_magnitude",
+   "choice_distribution"
+  ],
+  "rows_aggregated": false,
+  "effects": [
+   {
+    "pid": "P1",
+    "model": "Solar 10.7B",
+    "model_family": "other",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "yes",
+    "human_effect_present": "not_reported",
+    "direction": "not_reported",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "INSUFFICIENT",
+    "location": "Results: Value-Based Preference; Figure 1; Table 1",
+    "headline": "Solar shows stable, self-consistent value-based preferences."
+   },
+   {
+    "pid": "P1",
+    "model": "Mistral 7B",
+    "model_family": "Mistral",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "yes",
+    "human_effect_present": "not_reported",
+    "direction": "not_reported",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "INSUFFICIENT",
+    "location": "Results: Value-Based Preference; Figure 1; Table 1",
+    "headline": "Mistral shows stable, self-consistent value-based preferences."
+   },
+   {
+    "pid": "P1",
+    "model": "Gemma",
+    "model_family": "Gemini",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "yes",
+    "human_effect_present": "not_reported",
+    "direction": "not_reported",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "INSUFFICIENT",
+    "location": "Results: Value-Based Preference; Table 1",
+    "headline": "Gemma shows value-based preferences but is brittle."
+   },
+   {
+    "pid": "P1",
+    "model": "Llama-2 7B",
+    "model_family": "Llama",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "yes",
+    "human_effect_present": "not_reported",
+    "direction": "not_reported",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "INSUFFICIENT",
+    "location": "Results: Value-Based Preference; Table 1",
+    "headline": "Llama-2 shows value-based preferences but is brittle."
+   },
+   {
+    "pid": "P1",
+    "model": "Phi-2",
+    "model_family": "other",
+    "outcome_kind": "effect",
+    "basis": "test",
+    "model_effect_present": "not_reported",
+    "human_effect_present": "not_reported",
+    "direction": "not_reported",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "INSUFFICIENT",
+    "location": "Results: Value-Based Preference; Table 1",
+    "headline": "The paper does not report a value-based preference result for Phi-2."
+   },
+   {
+    "pid": "P2",
+    "model": "Solar 10.7B",
+    "model_family": "other",
+    "outcome_kind": "effect",
+    "basis": "descriptive",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Results: LLMs Prefer Cooperation in the PD; Figure 3",
+    "headline": "Solar favors cooperation under low stakes and shows the human-aligned stake-size shift."
+   },
+   {
+    "pid": "P2",
+    "model": "Mistral 7B",
+    "model_family": "Mistral",
+    "outcome_kind": "effect",
+    "basis": "descriptive",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Results: LLMs Prefer Cooperation in the PD; Figure 3",
+    "headline": "Mistral favors cooperation under low stakes and shows the human-aligned stake-size shift."
+   },
+   {
+    "pid": "P2",
+    "model": "Gemma",
+    "model_family": "Gemini",
+    "outcome_kind": "effect",
+    "basis": "descriptive",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Results: LLMs Prefer Cooperation in the PD; Figure 3",
+    "headline": "Gemma’s low-stakes preference is uncertain; at high stakes, its preference shifts toward self-interest."
+   },
+   {
+    "pid": "P2",
+    "model": "Llama-2 7B",
+    "model_family": "Llama",
+    "outcome_kind": "effect",
+    "basis": "descriptive",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Results: LLMs Prefer Cooperation in the PD; Figure 3",
+    "headline": "Llama-2 favors cooperation under low stakes and shows the human-aligned stake-size shift."
+   },
+   {
+    "pid": "P3",
+    "model": "Solar 10.7B",
+    "model_family": "other",
+    "outcome_kind": "effect",
+    "basis": "descriptive",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Results: LLMs Prefer Cooperation in the TD; Figure 4",
+    "headline": "Solar is indifferent at low penalties and partially prefers the Nash-aligned strategy at high penalties."
+   },
+   {
+    "pid": "P3",
+    "model": "Mistral 7B",
+    "model_family": "Mistral",
+    "outcome_kind": "effect",
+    "basis": "descriptive",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "same",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "model_vs_human": "not_compared",
+    "agreement_value": null,
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Results: LLMs Prefer Cooperation in the TD; Figure 4",
+    "headline": "Mistral is indifferent at low penalties and partially prefers the Nash-aligned strategy at high penalties."
+   }
+  ],
+  "headline": "Solar and Mistral show stable value-based preferences and human-like cooperative preferences in prisoner’s and traveler’s dilemmas, with stake and penalty sensitivity."
+ },
+ "F": {
+  "f1": "no",
+  "f2": "no",
+  "f3": "yes",
+  "f4": "yes",
+  "f5": "no",
+  "f6": "no",
+  "f7": "no",
+  "f8": "no",
+  "f9": "yes",
+  "f10": "yes",
+  "f11": "no",
+  "f12": "no",
+  "perturbations_tested": [
+   "option_order",
+   "seeds",
+   "contamination"
+  ],
+  "robustness_outcome": "survived"
+ },
+ "G": {
+  "notes": "The full text references a technical appendix with prompts, but the appendix itself is not included here. The reported 50-member populations are model-generated perturbations, not human participants. Results on the original strategy-preference task should be distinguished from game outcomes.",
+  "extractor": "codex (default)",
+  "date": "2026-10-16",
+  "minutes": 0.7,
+  "sections_read": [
+   "Abstract",
+   "Introduction",
+   "Methods",
+   "Results",
+   "Figures 1–4",
+   "Tables 1–3",
+   "Limitations",
+   "References"
+  ]
+ }
+}

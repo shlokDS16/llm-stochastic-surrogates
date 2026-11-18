@@ -1,0 +1,32 @@
+{
+ "order": 26,
+ "study_id": "https://openalex.org/W7139936057",
+ "pass": "codex",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/026_W7139936057.md",
+ "sources_varied": [
+  "M"
+ ],
+ "X1": {
+  "value": "no",
+  "sources_crossed": [],
+  "evidence": "Sec. 1.4, Methods 2.1, Results 3.3: seven LLMs were tested; no model, wording, order, sampling, persona, or repeated-draw factor was crossed."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "anova_or_mixed_term"
+  ],
+  "x2_sources": [
+   "M"
+  ],
+  "evidence": "Results 3.3: mixed-model comparisons report originality differences among LLMs, with o3 and Claude-Sonnet-4 exceeding other models."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "Results 3.4 estimates condition-by-idea-source interaction; the study varies only one listed simulation-uncertainty source, model."
+ },
+ "notes": ""
+}

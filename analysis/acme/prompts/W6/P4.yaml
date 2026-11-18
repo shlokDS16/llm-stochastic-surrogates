@@ -1,0 +1,9 @@
+paradigm: P4
+wording: W6
+response_type: number
+conditions:
+  x1: Say you're in a casino and a man rolling dice gets passed by you. Three dice get rolled by him, and all three come up 6's. So how many times do you think the dice had been rolled by him before you walked by?
+  x0: Say you're in a casino and a man rolling dice gets passed by you. Three dice get rolled by him, and one comes up 3, and two come up 6's. So how many times do you think the dice had been rolled by him before you walked by?
+condition_names:
+  x1: three 6s
+  x0: one 3 and two 6s

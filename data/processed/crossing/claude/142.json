@@ -1,0 +1,26 @@
+{
+ "order": 142,
+ "study_id": "https://openalex.org/W4390920734",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/142_W4390920734.md",
+ "sources_varied": [],
+ "X1": {
+  "value": "no",
+  "sources_crossed": [],
+  "evidence": "Sec 3.3 (p.5): LaMDA only; each task run ten times with fixed renamed names, objects and novel words to limit contamination; no comparison of original and permuted forms."
+ },
+ "X2": {
+  "value": "no",
+  "x2_types": [],
+  "x2_sources": [],
+  "evidence": "Results score each experiment with an average rating; no source decomposed."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": ""
+ },
+ "notes": ""
+}

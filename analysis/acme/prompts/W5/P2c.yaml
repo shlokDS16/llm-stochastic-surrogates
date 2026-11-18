@@ -1,0 +1,11 @@
+paradigm: P2c
+wording: W5
+response_type: number
+intro: The beliefs that people hold about the world around them are of interest to us. For the question below, your most accurate estimate is requested. Should the correct answer be unknown to you, you are asked simply to offer your best conjecture.
+conditions:
+  x1: Mount Everest is recorded as being lower than 45,500 feet in height. What is your estimate of its height?
+  x0: Mount Everest is recorded as being higher than 2,000 feet in height. What is your estimate of its height?
+condition_names:
+  x1: high anchor
+  x0: low anchor
+baseline: What is your estimate of the height of Mount Everest, in feet?

@@ -1,0 +1,42 @@
+{
+ "order": 55,
+ "study_id": "https://openalex.org/W7155065994",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/055_W7155065994.md",
+ "sources_varied": [
+  "M",
+  "T",
+  "R",
+  "W"
+ ],
+ "X1": {
+  "value": "yes",
+  "sources_crossed": [
+   "M",
+   "T",
+   "R"
+  ],
+  "evidence": "Sec 4.3 and 5.14: six Llama-3.1-8B variants x ten temperatures (0.1 to 1.0) x 17 prompts x three runs, all crossed (3,060 responses)."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "T",
+   "R"
+  ],
+  "evidence": "Methods p.9 and Sec 5.14: coefficient of variation of response length across temperatures per model and prompt domain; three runs identical in 100% of cases; no variance share."
+ },
+ "X3": {
+  "value": "yes",
+  "x3_pairs": [
+   "M x T"
+  ],
+  "evidence": "Abstract and Sec 5: divergence between traditions intensifies at higher temperatures; fine-tuned variants differ in temperature sensitivity (descriptive)."
+ },
+ "notes": "Interaction claim is descriptive."
+}

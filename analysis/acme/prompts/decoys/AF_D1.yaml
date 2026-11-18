@@ -1,0 +1,13 @@
+paradigm: AF
+wording: D1
+response_type: yesno
+conditions:
+  x1: Do you think the United States should forbid public speeches in favor of democracy?
+  x0: Do you think the United States should allow public speeches in favor of democracy?
+condition_names:
+  x1: forbid question
+  x0: allow question
+options:
+- 'Yes'
+- 'No'
+decoy_change: speeches in favor of democracy instead of against democracy

@@ -1,0 +1,560 @@
+{
+ "order": 15,
+ "study_id": "https://openalex.org/W7133223423",
+ "full_text": {
+  "obtained": true,
+  "source": "provided full text"
+ },
+ "eligibility": {
+  "decision": "YES",
+  "failed_criterion": null,
+  "borderline": false,
+  "evidence": "Sections 3–5 and Appendix B: evaluates LLM predictions of human moral judgments on three moral-psychology paradigms, comparing model outcomes with human responses."
+ },
+ "A": {
+  "doi": null,
+  "arxiv_id": "2210.14748",
+  "title": "When to Make Exceptions: Exploring Language Models as Accounts of Human Moral Judgment",
+  "first_author": "Zhijing Jin",
+  "year": 2022,
+  "venue": "36th Conference on Neural Information Processing Systems (NeurIPS 2022)",
+  "peer_reviewed": "yes",
+  "first_author_field": "cognitive science",
+  "country": "Switzerland"
+ },
+ "B": {
+  "models": [
+   {
+    "name": "BERT-base",
+    "version": "BERT-base",
+    "access": "open_weights",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "BERT-large",
+    "version": "BERT-large",
+    "access": "open_weights",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "RoBERTa-large",
+    "version": "RoBERTa-large",
+    "access": "open_weights",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "ALBERT-xxlarge",
+    "version": "ALBERT-xxlarge",
+    "access": "open_weights",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "GPT-3",
+    "version": "davinci",
+    "access": "API",
+    "params_b": 175,
+    "release_date": "not_reported",
+    "tuning": "base",
+    "family": "GPT",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "InstructGPT",
+    "version": "davinci-text-002",
+    "access": "API",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "instruction",
+    "family": "GPT",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Delphi",
+    "version": "Delphi",
+    "access": "not_reported",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "other",
+    "query_date": "not_reported"
+   },
+   {
+    "name": "Delphi++",
+    "version": "Delphi++",
+    "access": "not_reported",
+    "params_b": null,
+    "release_date": "not_reported",
+    "tuning": "not_reported",
+    "family": "other",
+    "query_date": "not_reported"
+   }
+  ],
+  "n_models": 8,
+  "n_model_families": 2
+ },
+ "C": {
+  "paradigms": [
+   {
+    "pid": "P1",
+    "name": "Moral permissibility of exceptions to the rule against cutting in line",
+    "family": "MOR",
+    "source_paper": "Awad et al. (2022b), When is it acceptable to break the rules?",
+    "items_origin": "mixed",
+    "n_items": 66,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "partly",
+    "location": "Sections 3.1, Table 2, Appendix A.1"
+   },
+   {
+    "pid": "P2",
+    "name": "Moral permissibility of interfering with someone else’s property",
+    "family": "MOR",
+    "source_paper": "Levine et al. (2018), The cognitive mechanisms of contractualist moral decision-making",
+    "items_origin": "mixed",
+    "n_items": 54,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "partly",
+    "location": "Sections 3.2, Table 2, Appendix A.2"
+   },
+   {
+    "pid": "P3",
+    "name": "Moral permissibility of exceptions to a novel rule against cannonballing into a pool",
+    "family": "MOR",
+    "source_paper": "Novel rule proposed in this study; informed by Levine et al. (2018) and Awad et al. (2022b)",
+    "items_origin": "novel",
+    "n_items": 28,
+    "languages": [
+     "English"
+    ],
+    "modality": "text",
+    "contamination_risk": "no",
+    "location": "Sections 3.3, Table 2, Appendix A.3"
+   }
+  ]
+ },
+ "D": {
+  "types": [
+   "published_norms"
+  ],
+  "primary_type": "published_norms",
+  "human_n": null,
+  "population": "US residents recruited from Amazon Mechanical Turk; sample sizes differed by source study and condition",
+  "metric": "Human permissibility judgments, measured as proportions or probabilities saying the action was permissible (F1/accuracy classification and MAE/cross-entropy comparisons)."
+ },
+ "E": {
+  "outcome_types": [
+   "accuracy",
+   "choice_distribution",
+   "other"
+  ],
+  "rows_aggregated": true,
+  "effects": [
+   {
+    "pid": "P1",
+    "model": "BERT-base",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "not_reported",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Table 3"
+   },
+   {
+    "pid": "P2",
+    "model": "BERT-base",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "not_reported",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Table 3"
+   },
+   {
+    "pid": "P3",
+    "model": "BERT-base",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "not_reported",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Table 3"
+   },
+   {
+    "pid": "P1",
+    "model": "BERT-large",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "not_reported",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Table 3"
+   },
+   {
+    "pid": "P2",
+    "model": "BERT-large",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "not_reported",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Table 3"
+   },
+   {
+    "pid": "P3",
+    "model": "BERT-large",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "not_reported",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Table 3"
+   },
+   {
+    "pid": "P1",
+    "model": "RoBERTa-large",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "not_reported",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Table 3"
+   },
+   {
+    "pid": "P2",
+    "model": "RoBERTa-large",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "not_reported",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Table 3"
+   },
+   {
+    "pid": "P3",
+    "model": "RoBERTa-large",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "not_reported",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Table 3"
+   },
+   {
+    "pid": "P1",
+    "model": "ALBERT-xxlarge",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "not_reported",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Table 3"
+   },
+   {
+    "pid": "P2",
+    "model": "ALBERT-xxlarge",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "not_reported",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Table 3"
+   },
+   {
+    "pid": "P3",
+    "model": "ALBERT-xxlarge",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "not_reported",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Table 3"
+   },
+   {
+    "pid": "P1",
+    "model": "GPT-3",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "not_reported",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Table 3"
+   },
+   {
+    "pid": "P2",
+    "model": "GPT-3",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "not_reported",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Table 3"
+   },
+   {
+    "pid": "P3",
+    "model": "GPT-3",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "not_reported",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Table 3"
+   },
+   {
+    "pid": "P1",
+    "model": "InstructGPT",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "not_reported",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Table 3"
+   },
+   {
+    "pid": "P2",
+    "model": "InstructGPT",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "not_reported",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Table 3"
+   },
+   {
+    "pid": "P3",
+    "model": "InstructGPT",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "not_reported",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Table 3"
+   },
+   {
+    "pid": "P1",
+    "model": "Delphi",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "not_reported",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Table 3"
+   },
+   {
+    "pid": "P2",
+    "model": "Delphi",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "not_reported",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Table 3"
+   },
+   {
+    "pid": "P3",
+    "model": "Delphi",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "not_reported",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Table 3"
+   },
+   {
+    "pid": "P1",
+    "model": "Delphi++",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "not_reported",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Table 3"
+   },
+   {
+    "pid": "P2",
+    "model": "Delphi++",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "not_reported",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Table 3"
+   },
+   {
+    "pid": "P3",
+    "model": "Delphi++",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "not_reported",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Table 3"
+   },
+   {
+    "pid": "P1",
+    "model": "MORALCOT (InstructGPT davinci-text-002)",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "not_reported",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Table 3"
+   },
+   {
+    "pid": "P2",
+    "model": "MORALCOT (InstructGPT davinci-text-002)",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "not_reported",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Table 3"
+   },
+   {
+    "pid": "P3",
+    "model": "MORALCOT (InstructGPT davinci-text-002)",
+    "model_effect_present": "yes",
+    "human_effect_present": "yes",
+    "direction": "not_reported",
+    "model_es": null,
+    "human_es": null,
+    "es_metric": null,
+    "authors_comparison": "not_tested",
+    "label": "SAME-DIRECTION-UNQUANTIFIED",
+    "location": "Table 3"
+   }
+  ],
+  "headline": "MORALCOT improved weighted F1 by 6.2 percentage points over Delphi++, while overall model performance remained modest against human moral judgments."
+ },
+ "F": {
+  "f1": "no",
+  "f2": "yes",
+  "f3": "yes",
+  "f4": "yes",
+  "f5": "yes",
+  "f6": "yes",
+  "f7": "no",
+  "f8": "no",
+  "f9": "yes",
+  "f10": "yes",
+  "f11": "no",
+  "f12": "yes",
+  "perturbations_tested": [
+   "wording"
+  ],
+  "robustness_outcome": "survived"
+ },
+ "G": {
+  "notes": "The paper reports aggregate task metrics, but paradigm-specific human-versus-model effect estimates and statistical comparisons are not provided, limiting direct classification of model–human similarity.",
+  "extractor": "codex (default)",
+  "date": "2026-10-16",
+  "minutes": 0.8,
+  "sections_read": [
+   "Abstract",
+   "Sections 3–5",
+   "Tables 1–6",
+   "Appendices A–C",
+   "Limitations",
+   "Data/code availability"
+  ]
+ }
+}

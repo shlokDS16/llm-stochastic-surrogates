@@ -1,0 +1,24 @@
+{
+ "model": "smollm2-1.7b-instruct",
+ "repo": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+ "revision": "31b70e2e869a7173562077fd711b654946d38674",
+ "quant": "bf16",
+ "torch": "2.11.0+cu128",
+ "transformers": "5.20.0",
+ "gpu": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+ "load_seconds": 13.8,
+ "git_sha": "62e0f3c821298cf8ccf069f49c9d42085460b5a0",
+ "manifest_sha256": "07f72271a531dc3cd26fc84194c9326cbbde30a2a532f98cbd99cd6a96014187",
+ "temps": [
+  0.3,
+  0.7,
+  1.0,
+  1.5
+ ],
+ "end_of_turn_id": 2,
+ "started": "2026-11-06T22:41:56",
+ "ram_after_load": {
+  "avail_phys_gb": 8.67,
+  "avail_commit_gb": 10.65
+ }
+}

@@ -1,0 +1,27 @@
+C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1593: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+scenario a done [298s]
+scenario b done [583s]
+scenario c done [900s]
+scenario d done [1181s]
+scenario e done [1513s]
+scenario f done [1862s]
+scenario g done [2185s]
+scenario h25 done [2537s]
+scenario h50 done [2892s]
+as_written FAIL {'C1': False, 'C2': False, 'C3': False, 'C4': True}
+untruncated FAIL {'C1': False, 'C2': False, 'C3': False, 'C4': True}
+D1_centered FAIL {'C1': True, 'C2': False, 'C3': False, 'C4': True}
+D2_shrunk_centered FAIL {'C1': True, 'C2': False, 'C3': True, 'C4': True}
+A1 PASS {'C1': True, 'C2': True, 'C3': True, 'C4': True}
+runtime 2892s

@@ -1,0 +1,36 @@
+{
+ "order": 28,
+ "study_id": "https://openalex.org/W4394647506",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/028_W4394647506.md",
+ "sources_varied": [
+  "M",
+  "O"
+ ],
+ "X1": {
+  "value": "yes",
+  "sources_crossed": [
+   "M",
+   "O"
+  ],
+  "evidence": "Sec 4.2-4.3 and the results table (p.7): 15 models (Llama 2 sizes and chat variants, GPT-3 to GPT-4); every datapoint duplicated with the option labels flipped (Option A and B swapped)."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "M"
+  ],
+  "evidence": "Sec 4.3, results table: accuracy by model size and chat tuning contrasted in the text; flipped-order columns are shown but no order effect is quantified."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "No model-by-order interaction reported."
+ },
+ "notes": ""
+}

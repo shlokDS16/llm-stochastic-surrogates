@@ -1,0 +1,62 @@
+{
+  "order": 105,
+  "study_id": "W4405133564",
+  "full_text": {"obtained": true, "source": "research/sources/md/fulltext/105_W4405133564.md"},
+  "eligibility": {
+    "decision": "YES",
+    "failed_criterion": null,
+    "borderline": false,
+    "evidence": "Sections 4.1-4.2: ChatGPT given ten novel hierarchical (Navon) letter images, adapted from Navon (1977) and Wakslak and Trope (2009), choosing global or local letter (120 chats, 111 valid), with 120 Prolific humans for comparison. Meets E1-E6. Partial capture: the Discussion after Section 6.2 (including any limitations) and references are missing; Sections 2.1 and 3.1 summarised."
+  },
+  "A": {
+    "doi": "10.1016/j.ject.2024.11.008",
+    "arxiv_id": null,
+    "title": "ChatGPT and CLT: Investigating differences in multimodal processing",
+    "first_author": "Cahalane",
+    "year": 2025,
+    "venue": "Journal of Economy and Technology",
+    "peer_reviewed": "yes",
+    "first_author_field": "not_reported",
+    "country": "not_reported"
+  },
+  "B": {
+    "models": [
+      {"name": "ChatGPT with image input (GPT-4V per Section 2.4)", "version": "not_reported", "access": "not_reported", "params_b": null, "release_date": "not_reported", "tuning": "not_reported", "family": "GPT", "query_date": "not_reported"}
+    ],
+    "n_models": 1,
+    "n_model_families": 1
+  },
+  "C": {
+    "paradigms": [
+      {"pid": "P1", "name": "Navon hierarchical-letters task as a construal-level (global vs local) measure, image input", "family": "MEM", "source_paper": "Navon (1977); Wakslak and Trope (2009)", "items_origin": "novel", "n_items": 10, "languages": ["en"], "modality": "image", "contamination_risk": "no", "location": "Sections 4.1, 4.2, Fig. 1; family coded MEM (attention, global-local perception) as the closest listed code"}
+    ]
+  },
+  "D": {
+    "types": ["own_sample"],
+    "primary_type": "own_sample",
+    "human_n": 120,
+    "population": "Prolific adults (75 females, mean age 40.4), each shown one hierarchical-letter image and also asked how they expected ChatGPT to answer",
+    "metric": "Proportion choosing the global versus local letter, tested against a 50% benchmark with z tests"
+  },
+  "E": {
+    "outcome_types": ["bias_magnitude", "choice_distribution"],
+    "rows_aggregated": false,
+    "effects": [
+      {"pid": "P1", "model": "ChatGPT with image input (GPT-4V per Section 2.4)", "model_family": "GPT", "outcome_kind": "effect", "basis": "test", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "opposite", "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "DIFFERENT", "location": "Section 5: model chose the local letter in 95.5% of 111 valid chats (z = -9.59, p < .001 vs 50%); humans chose the global letter (z = 9.31). The printed sentence 'Only 5 % ... identified the global letter' contradicts the abstract and the rest of the paragraph, so the human percentage is not used. The authors test each group against 50% and the model against human expectations (z = 5.97), not model against human choices directly."}
+    ],
+    "headline": "ChatGPT mostly picked the local letter of hierarchical images, unlike humans who picked the global letter; humans underestimated how concrete ChatGPT was."
+  },
+  "F": {
+    "f1": "no", "f2": "no", "f3": "yes", "f4": "yes", "f5": "no", "f6": "yes", "f7": "no", "f8": "no",
+    "f9": "yes", "f10": "yes", "f11": "yes", "f12": "yes",
+    "perturbations_tested": ["option_order", "response_format"],
+    "robustness_outcome": "survived"
+  },
+  "G": {
+    "notes": "Model version, access route, query date and temperature are not stated in the captured text. Option order was counterbalanced but not analysed separately; the free-response follow-up kept the local-letter pattern. Human percentage misprint in Section 5. Only one stimulus set and one chat product; limitations section not captured.",
+    "extractor": "paper-reader (Claude Sonnet 5.5)",
+    "date": "2026-10-17",
+    "minutes": 6,
+    "sections_read": ["Abstract", "1 Introduction", "2.2-2.4 Study background", "3.2 Theoretical framing", "4 Research design (4.1-4.3)", "5 Results", "6 Discussion (6.1, start of 6.2)"]
+  }
+}

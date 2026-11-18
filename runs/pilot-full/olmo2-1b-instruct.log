@@ -1,0 +1,194 @@
+﻿.venv\Scripts\python.exe : W1016 03:59:30.503000 22872 
+Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not 
+supported in Windows or MacOs.
+At line:1 char:727
++ ... \queue.log; .venv\Scripts\python.exe -I analysis\pilot\run_pilot.py - ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (W1016 03:59:30....ndows or MacOs.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+olmo2-1b-instruct P1: 3232 planned, 0 done, 3232 to do
+olmo2-1b-instruct P2a: 1616 planned, 0 done, 1616 to do
+olmo2-1b-instruct P2b: 1616 planned, 0 done, 1616 to do
+olmo2-1b-instruct P2c: 1616 planned, 0 done, 1616 to do
+olmo2-1b-instruct P2d: 1616 planned, 0 done, 1616 to do
+olmo2-1b-instruct P3: 1616 planned, 0 done, 1616 to do
+olmo2-1b-instruct P4: 1616 planned, 0 done, 1616 to do
+
+Loading weights:   0%|          | 0/179 [00:00<?, ?it/s]
+Loading weights:   9%|8         | 16/179 [00:00<00:01, 135.02it/s]
+Loading weights:  17%|#7        | 31/179 [00:00<00:01, 132.23it/s]
+Loading weights:  25%|##5       | 45/179 [00:00<00:01, 117.41it/s]
+Loading weights:  33%|###2      | 59/179 [00:00<00:00, 121.75it/s]
+Loading weights:  42%|####1     | 75/179 [00:00<00:00, 133.85it/s]
+Loading weights:  50%|####9     | 89/179 [00:00<00:00, 115.69it/s]
+Loading weights:  57%|#####6    | 102/179 [00:00<00:00, 118.60it/s]
+Loading weights:  64%|######4   | 115/179 [00:00<00:00, 120.32it/s]
+Loading weights:  73%|#######3  | 131/179 [00:01<00:00, 119.65it/s]
+Loading weights:  80%|########  | 144/179 [00:01<00:00, 114.43it/s]
+Loading weights:  88%|########7 | 157/179 [00:01<00:00, 116.35it/s]
+Loading weights:  96%|#########5| 171/179 [00:01<00:00, 119.83it/s]
+Loading weights: 100%|##########| 179/179 [00:01<00:00, 125.43it/s]
+P1 batch 1/34 F=F0 rows=100 1.4s 130 tok/s peak 5.13 GiB elapsed 1s
+P1 batch 6/34 F=F0 rows=100 1.9s 118 tok/s peak 5.17 GiB elapsed 9s
+P1 batch 11/34 F=F0 rows=100 1.3s 146 tok/s peak 5.26 GiB elapsed 17s
+P1 batch 16/34 F=F0 rows=100 1.9s 95 tok/s peak 5.32 GiB elapsed 26s
+P1 batch 21/34 F=F1 rows=100 158.7s 68 tok/s peak 7.96 GiB elapsed 459s
+Traceback (most recent call last):
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\analysis\pilot\run_pilot.py", line 198, in generate_safe
+    return generate_batch(model, tok, rendered, seeds, temps, mnt, eos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\analysis\pilot\run_pilot.py", line 175, in generate_batch
+    out = model.generate(**enc, generation_config=gc, logits_processor=proc)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\torch\utils\_contextlib.py", line 
+124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review 
+paper\.venv\Lib\site-packages\transformers\generation\utils.py", line 2989, in generate
+    result = decoding_method(
+             ^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review 
+paper\.venv\Lib\site-packages\transformers\generation\utils.py", line 3232, in _sample
+    next_token_scores = logits_processor(input_ids, next_token_logits)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review 
+paper\.venv\Lib\site-packages\transformers\generation\logits_process.py", line 96, in __call__
+    scores = processor(input_ids, scores)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\analysis\pilot\run_pilot.py", line 147, in __call__
+    out[i] = out[i] / T - torch.log(-torch.log(u))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^
+torch.AcceleratorError: CUDA error: out of memory
+Search for `cudaErrorMemoryAllocation' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for 
+more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\analysis\pilot\run_pilot.py", line 337, in <module>
+    main()
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\analysis\pilot\run_pilot.py", line 310, in main
+    texts, ntoks, fin, dt, plen = generate_safe(model, tok, [pr["rendered"] for pr in prs], [it["seed"] for it in 
+batch],
+                                  
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\analysis\pilot\run_pilot.py", line 202, in generate_safe
+    torch.cuda.empty_cache()
+  File "C:\Users\Shlok\Downloads\Thenboli ma'am review paper\.venv\Lib\site-packages\torch\cuda\memory.py", line 224, 
+in empty_cache
+    torch._C._cuda_emptyCache()
+torch.AcceleratorError: CUDA error: out of memory
+Search for `cudaErrorMemoryAllocation' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for 
+more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+.venv\Scripts\python.exe : W1016 08:23:37.433000 42772 
+Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not 
+supported in Windows or MacOs.
+At line:1 char:639
++ ... \queue.log; .venv\Scripts\python.exe -I analysis\pilot\run_pilot.py - ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (W1016 08:23:37....ndows or MacOs.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+olmo2-1b-instruct P1: 3232 planned, 2416 done, 816 to do
+olmo2-1b-instruct P2a: 1616 planned, 0 done, 1616 to do
+olmo2-1b-instruct P2b: 1616 planned, 0 done, 1616 to do
+olmo2-1b-instruct P2c: 1616 planned, 0 done, 1616 to do
+olmo2-1b-instruct P2d: 1616 planned, 0 done, 1616 to do
+olmo2-1b-instruct P3: 1616 planned, 0 done, 1616 to do
+olmo2-1b-instruct P4: 1616 planned, 0 done, 1616 to do
+
+Loading weights:   0%|          | 0/179 [00:00<?, ?it/s]
+Loading weights:   6%|6         | 11/179 [00:00<00:02, 63.12it/s]
+Loading weights:  12%|#2        | 22/179 [00:00<00:02, 70.80it/s]
+Loading weights:  17%|#6        | 30/179 [00:00<00:02, 73.64it/s]
+Loading weights:  21%|##1       | 38/179 [00:00<00:02, 69.06it/s]
+Loading weights:  25%|##5       | 45/179 [00:00<00:02, 66.40it/s]
+Loading weights:  31%|###       | 55/179 [00:00<00:01, 74.38it/s]
+Loading weights:  36%|###6      | 65/179 [00:00<00:01, 75.33it/s]
+Loading weights:  42%|####1     | 75/179 [00:01<00:01, 63.86it/s]
+Loading weights:  49%|####8     | 87/179 [00:01<00:01, 76.88it/s]
+Loading weights:  54%|#####4    | 97/179 [00:01<00:01, 78.00it/s]
+Loading weights:  60%|######    | 108/179 [00:01<00:00, 81.78it/s]
+Loading weights:  66%|######5   | 118/179 [00:01<00:00, 71.72it/s]
+Loading weights:  73%|#######3  | 131/179 [00:01<00:00, 84.54it/s]
+Loading weights:  79%|#######8  | 141/179 [00:01<00:00, 66.93it/s]
+Loading weights:  85%|########5 | 153/179 [00:02<00:00, 73.17it/s]
+Loading weights:  91%|#########1| 163/179 [00:02<00:00, 75.11it/s]
+Loading weights:  99%|#########9| 178/179 [00:02<00:00, 92.17it/s]
+Loading weights: 100%|##########| 179/179 [00:02<00:00, 77.17it/s]
+P1 batch 1/21 F=F1 rows=40 10.8s 381 tok/s peak 4.78 GiB elapsed 11s
+P1 batch 6/21 F=F1 rows=40 3.4s 986 tok/s peak 4.25 GiB elapsed 54s
+P1 batch 11/21 F=F1 rows=40 12.1s 290 tok/s peak 4.68 GiB elapsed 118s
+P1 batch 16/21 F=F1 rows=40 10.8s 328 tok/s peak 4.66 GiB elapsed 178s
+P1 batch 21/21 F=F1 rows=16 3.4s 448 tok/s peak 3.43 GiB elapsed 223s
+P2a batch 1/42 F=F0 rows=40 2.4s 120 tok/s peak 3.48 GiB elapsed 2s
+P2a batch 6/42 F=F0 rows=40 2.3s 34 tok/s peak 3.51 GiB elapsed 14s
+P2a batch 11/42 F=F0 rows=40 2.9s 118 tok/s peak 3.52 GiB elapsed 28s
+P2a batch 16/42 F=F0 rows=40 0.8s 233 tok/s peak 3.55 GiB elapsed 40s
+P2a batch 21/42 F=F0 rows=8 0.5s 67 tok/s peak 2.93 GiB elapsed 43s
+P2a batch 26/42 F=F1 rows=40 8.7s 509 tok/s peak 4.67 GiB elapsed 77s
+P2a batch 31/42 F=F1 rows=40 9.4s 517 tok/s peak 4.69 GiB elapsed 119s
+P2a batch 36/42 F=F1 rows=40 9.5s 523 tok/s peak 4.71 GiB elapsed 167s
+P2a batch 41/42 F=F1 rows=40 10.3s 478 tok/s peak 4.72 GiB elapsed 210s
+P2a batch 42/42 F=F1 rows=8 4.6s 264 tok/s peak 3.16 GiB elapsed 215s
+P2b batch 1/42 F=F0 rows=40 1.8s 165 tok/s peak 3.45 GiB elapsed 2s
+P2b batch 6/42 F=F0 rows=40 2.0s 69 tok/s peak 3.47 GiB elapsed 12s
+P2b batch 11/42 F=F0 rows=40 2.3s 101 tok/s peak 3.48 GiB elapsed 22s
+P2b batch 16/42 F=F0 rows=40 2.7s 40 tok/s peak 3.51 GiB elapsed 35s
+P2b batch 21/42 F=F0 rows=8 0.1s 138 tok/s peak 2.92 GiB elapsed 47s
+P2b batch 26/42 F=F1 rows=40 4.5s 784 tok/s peak 4.23 GiB elapsed 82s
+P2b batch 31/42 F=F1 rows=40 8.3s 487 tok/s peak 4.65 GiB elapsed 112s
+P2b batch 36/42 F=F1 rows=40 9.0s 522 tok/s peak 4.68 GiB elapsed 152s
+P2b batch 41/42 F=F1 rows=40 9.6s 413 tok/s peak 4.72 GiB elapsed 191s
+P2b batch 42/42 F=F1 rows=8 3.0s 273 tok/s peak 3.07 GiB elapsed 194s
+P2c batch 1/42 F=F0 rows=40 1.8s 98 tok/s peak 3.46 GiB elapsed 2s
+P2c batch 6/42 F=F0 rows=40 1.7s 50 tok/s peak 3.47 GiB elapsed 11s
+P2c batch 11/42 F=F0 rows=40 2.0s 105 tok/s peak 3.47 GiB elapsed 21s
+P2c batch 16/42 F=F0 rows=40 2.6s 42 tok/s peak 3.50 GiB elapsed 31s
+P2c batch 21/42 F=F0 rows=8 0.2s 147 tok/s peak 2.92 GiB elapsed 42s
+P2c batch 26/42 F=F1 rows=40 8.4s 536 tok/s peak 4.66 GiB elapsed 80s
+P2c batch 31/42 F=F1 rows=40 8.5s 595 tok/s peak 4.66 GiB elapsed 119s
+P2c batch 36/42 F=F1 rows=40 8.8s 792 tok/s peak 4.66 GiB elapsed 163s
+P2c batch 41/42 F=F1 rows=40 9.2s 606 tok/s peak 4.68 GiB elapsed 210s
+P2c batch 42/42 F=F1 rows=8 4.7s 257 tok/s peak 3.15 GiB elapsed 214s
+P2d batch 1/42 F=F0 rows=40 2.1s 19 tok/s peak 3.50 GiB elapsed 2s
+P2d batch 6/42 F=F0 rows=40 0.3s 129 tok/s peak 3.56 GiB elapsed 13s
+P2d batch 11/42 F=F0 rows=40 0.3s 131 tok/s peak 3.57 GiB elapsed 15s
+P2d batch 16/42 F=F0 rows=40 0.8s 181 tok/s peak 3.59 GiB elapsed 19s
+P2d batch 21/42 F=F0 rows=8 0.9s 69 tok/s peak 2.94 GiB elapsed 25s
+P2d batch 26/42 F=F1 rows=40 7.5s 520 tok/s peak 4.62 GiB elapsed 82s
+P2d batch 31/42 F=F1 rows=40 10.6s 461 tok/s peak 4.73 GiB elapsed 139s
+P2d batch 36/42 F=F1 rows=40 10.9s 485 tok/s peak 4.73 GiB elapsed 181s
+P2d batch 41/42 F=F1 rows=40 10.9s 414 tok/s peak 4.74 GiB elapsed 231s
+P2d batch 42/42 F=F1 rows=8 3.9s 243 tok/s peak 3.14 GiB elapsed 235s
+P3 batch 1/42 F=F0 rows=40 0.3s 120 tok/s peak 3.59 GiB elapsed 0s
+P3 batch 6/42 F=F0 rows=40 0.3s 120 tok/s peak 3.61 GiB elapsed 3s
+P3 batch 11/42 F=F0 rows=40 0.3s 116 tok/s peak 3.62 GiB elapsed 5s
+P3 batch 16/42 F=F0 rows=40 0.4s 112 tok/s peak 3.65 GiB elapsed 7s
+P3 batch 21/42 F=F0 rows=8 0.1s 108 tok/s peak 2.95 GiB elapsed 10s
+P3 batch 26/42 F=F1 rows=40 4.3s 902 tok/s peak 4.36 GiB elapsed 60s
+P3 batch 31/42 F=F1 rows=40 11.9s 323 tok/s peak 4.78 GiB elapsed 104s
+P3 batch 36/42 F=F1 rows=40 12.3s 297 tok/s peak 4.78 GiB elapsed 148s
+P3 batch 41/42 F=F1 rows=40 13.2s 263 tok/s peak 4.79 GiB elapsed 199s
+P3 batch 42/42 F=F1 rows=8 3.2s 207 tok/s peak 3.10 GiB elapsed 203s
+P4 batch 1/42 F=F0 rows=40 1.8s 46 tok/s peak 3.42 GiB elapsed 2s
+P4 batch 6/42 F=F0 rows=40 1.9s 66 tok/s peak 3.44 GiB elapsed 11s
+P4 batch 11/42 F=F0 rows=40 1.7s 36 tok/s peak 3.46 GiB elapsed 20s
+P4 batch 16/42 F=F0 rows=40 2.3s 35 tok/s peak 3.47 GiB elapsed 32s
+P4 batch 21/42 F=F0 rows=8 0.1s 105 tok/s peak 2.92 GiB elapsed 41s
+P4 batch 26/42 F=F1 rows=40 7.9s 527 tok/s peak 4.65 GiB elapsed 77s
+P4 batch 31/42 F=F1 rows=40 8.1s 596 tok/s peak 4.65 GiB elapsed 118s
+P4 batch 36/42 F=F1 rows=40 8.9s 710 tok/s peak 4.66 GiB elapsed 162s
+P4 batch 41/42 F=F1 rows=40 8.9s 693 tok/s peak 4.67 GiB elapsed 206s
+P4 batch 42/42 F=F1 rows=8 2.7s 287 tok/s peak 3.05 GiB elapsed 209s
+done

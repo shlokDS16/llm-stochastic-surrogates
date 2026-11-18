@@ -1,0 +1,32 @@
+{
+ "order": 78,
+ "study_id": "https://openalex.org/W7154389923",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/078_W7154389923.md",
+ "sources_varied": [
+  "M"
+ ],
+ "X1": {
+  "value": "no",
+  "sources_crossed": [],
+  "evidence": "Sec 2-3 and App A.3-A.4: ten models on the N-back task with one system prompt; N, lure type and lure probability are task conditions, 200 trials per cell."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "M"
+  ],
+  "evidence": "Results and Sec on model families: effects compared across model size within two families; mixed-effects and permutation tests are on task conditions."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": ""
+ },
+ "notes": ""
+}

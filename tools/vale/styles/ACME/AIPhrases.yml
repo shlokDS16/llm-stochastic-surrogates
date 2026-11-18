@@ -1,0 +1,28 @@
+extends: existence
+message: "AI-pattern phrase '%s' (ai-patterns-academic A and B). State the concrete point or cut it."
+level: warning
+ignorecase: true
+tokens:
+  - it is worth noting that
+  - it is important to note that
+  - it should be noted that
+  - it is worth mentioning that
+  - plays? an? (crucial|pivotal|key|vital|significant|important) role
+  - a wide range of
+  - in the realm of
+  - highlights? the importance of
+  - underscores? the (importance|need)
+  - paves? the way for
+  - sheds? (new )?light on
+  - opens? (up )?new (avenues|horizons)
+  - a significant step (toward|towards|forward)
+  - in recent years
+  - with the rapid (development|advance|advances|growth) of
+  - (increasing|growing) (attention|interest)
+  - extensive experiments
+  - to the best of our knowledge
+  - novel framework
+  - comprehensive (analysis|evaluation|review|study|overview)
+  - in today's
+  - ever-(evolving|changing|growing)
+  - (rich|vast) body of

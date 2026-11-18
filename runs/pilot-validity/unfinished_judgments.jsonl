@@ -1,0 +1,121 @@
+{"sid": "U001", "verdict": "AMBIGUOUS", "answer": null, "reason": "Malformed number '2,500000'"}
+{"sid": "U002", "verdict": "COMPLETE", "answer": 13000, "reason": "Number stated, followed by parenthesis"}
+{"sid": "U003", "verdict": "COMPLETE", "answer": 2700000, "reason": "Single answer stated clearly"}
+{"sid": "U004", "verdict": "COMPLETE", "answer": 12694598, "reason": "Single answer stated clearly"}
+{"sid": "U005", "verdict": "COMPLETE", "answer": 15000000, "reason": "Single answer stated clearly"}
+{"sid": "U006", "verdict": "COMPLETE", "answer": 3879, "reason": "Number then unit"}
+{"sid": "U007", "verdict": "COMPLETE", "answer": 0, "reason": "Digit then newline"}
+{"sid": "U008", "verdict": "COMPLETE", "answer": 2700000, "reason": "Single answer stated clearly"}
+{"sid": "U009", "verdict": "COMPLETE", "answer": 52000, "reason": "Approximately 52,000 stated"}
+{"sid": "U010", "verdict": "COMPLETE", "answer": 13155, "reason": "Single answer stated clearly"}
+{"sid": "U011", "verdict": "COMPLETE", "answer": 10000000, "reason": "Single answer stated clearly"}
+{"sid": "U012", "verdict": "COMPLETE", "answer": 35860, "reason": "Number then unit"}
+{"sid": "U013", "verdict": "COMPLETE", "answer": 250000, "reason": "Single answer stated clearly"}
+{"sid": "U014", "verdict": "COMPLETE", "answer": 13000, "reason": "Single answer stated clearly"}
+{"sid": "U015", "verdict": "AMBIGUOUS", "answer": null, "reason": "Meters and feet values both given"}
+{"sid": "U016", "verdict": "COMPLETE", "answer": 2700000, "reason": "Single answer stated clearly"}
+{"sid": "U017", "verdict": "COMPLETE", "answer": 200000, "reason": "Single answer stated clearly"}
+{"sid": "U018", "verdict": "COMPLETE", "answer": 8000, "reason": "Single answer stated clearly"}
+{"sid": "U019", "verdict": "COMPLETE", "answer": 7, "reason": "Single answer stated clearly"}
+{"sid": "U020", "verdict": "COMPLETE", "answer": 1, "reason": "Single answer stated clearly"}
+{"sid": "U021", "verdict": "COMPLETE", "answer": 3934, "reason": "Single answer stated clearly"}
+{"sid": "U022", "verdict": "COMPLETE", "answer": 1, "reason": "'1.' stated"}
+{"sid": "U023", "verdict": "COMPLETE", "answer": 35860, "reason": "Single answer stated clearly"}
+{"sid": "U024", "verdict": "COMPLETE", "answer": 29032, "reason": "Single answer stated clearly"}
+{"sid": "U025", "verdict": "COMPLETE", "answer": 10000000, "reason": "Single answer stated clearly"}
+{"sid": "U026", "verdict": "COMPLETE", "answer": 13000, "reason": "Single answer stated clearly"}
+{"sid": "U027", "verdict": "COMPLETE", "answer": 35860, "reason": "Single answer stated clearly"}
+{"sid": "U028", "verdict": "COMPLETE", "answer": 2200000, "reason": "2.2 million"}
+{"sid": "U029", "verdict": "COMPLETE", "answer": 2500, "reason": "Single answer stated clearly"}
+{"sid": "U030", "verdict": "COMPLETE", "answer": 13000, "reason": "Single answer stated clearly"}
+{"sid": "U031", "verdict": "COMPLETE", "answer": 48000, "reason": "Single answer stated clearly"}
+{"sid": "U032", "verdict": "COMPLETE", "answer": 1, "reason": "Single answer stated clearly"}
+{"sid": "U033", "verdict": "COMPLETE", "answer": 3845, "reason": "Stated; later unit remark cut"}
+{"sid": "U034", "verdict": "COMPLETE", "answer": 100000, "reason": "Roughly 100,000 stated"}
+{"sid": "U035", "verdict": "COMPLETE", "answer": 2700000, "reason": "Single answer stated clearly"}
+{"sid": "U036", "verdict": "COMPLETE", "answer": 1, "reason": "Single answer stated clearly"}
+{"sid": "U037", "verdict": "COMPLETE", "answer": 35860, "reason": "Single answer stated clearly"}
+{"sid": "U038", "verdict": "COMPLETE", "answer": 3, "reason": "'The answer is 3.'"}
+{"sid": "U039", "verdict": "COMPLETE", "answer": 3900000, "reason": "Single answer stated clearly"}
+{"sid": "U040", "verdict": "COMPLETE", "answer": 35860, "reason": "Single answer stated clearly"}
+{"sid": "U041", "verdict": "COMPLETE", "answer": 4235000, "reason": "Single answer stated clearly"}
+{"sid": "U042", "verdict": "COMPLETE", "answer": 2200000, "reason": "2.2 million"}
+{"sid": "U043", "verdict": "COMPLETE", "answer": 2705094, "reason": "Year 2010 is context; population stated"}
+{"sid": "U044", "verdict": "COMPLETE", "answer": 1, "reason": "Single answer stated clearly"}
+{"sid": "U045", "verdict": "COMPLETE", "answer": 5950, "reason": "Single answer stated clearly"}
+{"sid": "U046", "verdict": "COMPLETE", "answer": 2000000, "reason": "2 million"}
+{"sid": "U047", "verdict": "COMPLETE", "answer": 38080, "reason": "Single answer stated clearly"}
+{"sid": "U048", "verdict": "COMPLETE", "answer": 2700, "reason": "Single answer stated clearly"}
+{"sid": "U049", "verdict": "COMPLETE", "answer": 3328371, "reason": "Single answer stated clearly"}
+{"sid": "U050", "verdict": "COMPLETE", "answer": 13000, "reason": "Single answer stated clearly"}
+{"sid": "U051", "verdict": "COMPLETE", "answer": 8848.86, "reason": "Number then unit"}
+{"sid": "U052", "verdict": "AMBIGUOUS", "answer": null, "reason": "'3,900,000+' hedge, later text gives 2.7 million"}
+{"sid": "U053", "verdict": "COMPLETE", "answer": 2700000, "reason": "Single answer stated clearly"}
+{"sid": "U054", "verdict": "COMPLETE", "answer": 1, "reason": "Single answer stated clearly"}
+{"sid": "U055", "verdict": "COMPLETE", "answer": 8848.86, "reason": "Single answer stated clearly"}
+{"sid": "U056", "verdict": "COMPLETE", "answer": 13300, "reason": "Single answer stated clearly"}
+{"sid": "U057", "verdict": "COMPLETE", "answer": 14000, "reason": "Single answer stated clearly"}
+{"sid": "U058", "verdict": "COMPLETE", "answer": 3000000, "reason": "Single answer stated clearly"}
+{"sid": "U059", "verdict": "COMPLETE", "answer": "A", "reason": "Program A stated"}
+{"sid": "U060", "verdict": "COMPLETE", "answer": 2700000, "reason": "Single answer stated clearly"}
+{"sid": "U061", "verdict": "COMPLETE", "answer": 38480, "reason": "Single answer stated clearly"}
+{"sid": "U062", "verdict": "COMPLETE", "answer": 13986, "reason": "Single answer stated clearly"}
+{"sid": "U063", "verdict": "COMPLETE", "answer": 2753, "reason": "Single answer stated clearly"}
+{"sid": "U064", "verdict": "COMPLETE", "answer": 3930, "reason": "Single answer stated clearly"}
+{"sid": "U065", "verdict": "COMPLETE", "answer": 2700000, "reason": "Single answer stated clearly"}
+{"sid": "U066", "verdict": "COMPLETE", "answer": 3, "reason": "Single answer stated clearly"}
+{"sid": "U067", "verdict": "COMPLETE", "answer": 1995, "reason": "Single answer stated clearly"}
+{"sid": "U068", "verdict": "COMPLETE", "answer": 3000000, "reason": "Single answer stated clearly"}
+{"sid": "U069", "verdict": "COMPLETE", "answer": 2789, "reason": "Single answer stated clearly"}
+{"sid": "U070", "verdict": "COMPLETE", "answer": 3600000, "reason": "Single answer stated clearly"}
+{"sid": "U071", "verdict": "COMPLETE", "answer": 1, "reason": "Single answer stated clearly"}
+{"sid": "U072", "verdict": "COMPLETE", "answer": 13000, "reason": "Single answer stated clearly"}
+{"sid": "U073", "verdict": "INCOMPLETE", "answer": null, "reason": "No commitment to an answer before cut"}
+{"sid": "U074", "verdict": "COMPLETE", "answer": 1, "reason": "Single answer stated clearly"}
+{"sid": "U075", "verdict": "COMPLETE", "answer": 12000, "reason": "Single answer stated clearly"}
+{"sid": "U076", "verdict": "COMPLETE", "answer": 35860, "reason": "Single answer stated clearly"}
+{"sid": "U077", "verdict": "COMPLETE", "answer": 3000000, "reason": "Single answer stated clearly"}
+{"sid": "U078", "verdict": "COMPLETE", "answer": 35860, "reason": "Single answer stated clearly"}
+{"sid": "U079", "verdict": "COMPLETE", "answer": 15000000, "reason": "15 million"}
+{"sid": "U080", "verdict": "COMPLETE", "answer": 1, "reason": "Single answer stated clearly"}
+{"sid": "U081", "verdict": "COMPLETE", "answer": 1600, "reason": "Stated as estimate; exact value noted in aside"}
+{"sid": "U082", "verdict": "COMPLETE", "answer": 3900000, "reason": "Single answer stated clearly"}
+{"sid": "U083", "verdict": "COMPLETE", "answer": 3900000, "reason": "Single answer stated clearly"}
+{"sid": "U084", "verdict": "AMBIGUOUS", "answer": null, "reason": "Answer 20 then 'However, upon reviewing' signals revision"}
+{"sid": "U085", "verdict": "COMPLETE", "answer": 4235000, "reason": "Single answer stated clearly"}
+{"sid": "U086", "verdict": "AMBIGUOUS", "answer": null, "reason": "3,934 then text gives different current distance"}
+{"sid": "U087", "verdict": "COMPLETE", "answer": 2700000, "reason": "Single answer stated clearly"}
+{"sid": "U088", "verdict": "COMPLETE", "answer": 1, "reason": "Single answer stated clearly"}
+{"sid": "U089", "verdict": "COMPLETE", "answer": "B", "reason": "Program B stated"}
+{"sid": "U090", "verdict": "COMPLETE", "answer": 1, "reason": "Single answer stated clearly"}
+{"sid": "U091", "verdict": "COMPLETE", "answer": 3140000, "reason": "3.14 million"}
+{"sid": "U092", "verdict": "COMPLETE", "answer": 2030, "reason": "Single answer stated clearly"}
+{"sid": "U093", "verdict": "COMPLETE", "answer": 3000000, "reason": "Single answer stated clearly"}
+{"sid": "U094", "verdict": "COMPLETE", "answer": 2700000, "reason": "Single answer stated clearly"}
+{"sid": "U095", "verdict": "COMPLETE", "answer": 2790, "reason": "Single answer stated clearly"}
+{"sid": "U096", "verdict": "COMPLETE", "answer": 3900000, "reason": "Single answer stated clearly"}
+{"sid": "U097", "verdict": "COMPLETE", "answer": 3000000, "reason": "Single answer stated clearly"}
+{"sid": "U098", "verdict": "COMPLETE", "answer": 1600, "reason": "Stated as rough estimate; actual cut"}
+{"sid": "U099", "verdict": "COMPLETE", "answer": 140000, "reason": "Single answer stated clearly"}
+{"sid": "U100", "verdict": "AMBIGUOUS", "answer": null, "reason": "Meters and feet values both given"}
+{"sid": "U101", "verdict": "COMPLETE", "answer": 8848.86, "reason": "Number then unit"}
+{"sid": "U102", "verdict": "COMPLETE", "answer": 1, "reason": "Single answer stated clearly"}
+{"sid": "U103", "verdict": "COMPLETE", "answer": 10000, "reason": "Single answer stated clearly"}
+{"sid": "U104", "verdict": "COMPLETE", "answer": 29035, "reason": "Single answer stated clearly"}
+{"sid": "U105", "verdict": "INCOMPLETE", "answer": null, "reason": "Garbled output, answer cut after 'Approximately'"}
+{"sid": "U106", "verdict": "COMPLETE", "answer": "C", "reason": "Program C stated"}
+{"sid": "U107", "verdict": "COMPLETE", "answer": 4319998, "reason": "Single answer stated clearly"}
+{"sid": "U108", "verdict": "COMPLETE", "answer": 29032, "reason": "Single answer stated clearly"}
+{"sid": "U109", "verdict": "COMPLETE", "answer": 3845, "reason": "Single answer stated clearly"}
+{"sid": "U110", "verdict": "COMPLETE", "answer": 3900000, "reason": "3.9 million"}
+{"sid": "U111", "verdict": "COMPLETE", "answer": "D", "reason": "D stated first"}
+{"sid": "U112", "verdict": "COMPLETE", "answer": 13000, "reason": "Single answer stated clearly"}
+{"sid": "U113", "verdict": "COMPLETE", "answer": 1, "reason": "Single answer stated clearly"}
+{"sid": "U114", "verdict": "COMPLETE", "answer": 13000000, "reason": "Single answer stated clearly"}
+{"sid": "U115", "verdict": "COMPLETE", "answer": 2600, "reason": "Single answer stated clearly"}
+{"sid": "U116", "verdict": "COMPLETE", "answer": 10000000, "reason": "Single answer stated clearly"}
+{"sid": "U117", "verdict": "COMPLETE", "answer": 3, "reason": "'Three'"}
+{"sid": "U118", "verdict": "COMPLETE", "answer": 2700000, "reason": "Single answer stated clearly"}
+{"sid": "U119", "verdict": "COMPLETE", "answer": 35860, "reason": "Single answer stated clearly"}
+{"sid": "U120", "verdict": "COMPLETE", "answer": 2700000, "reason": "Single answer stated clearly"}
+{"sid": "U121", "verdict": "COMPLETE", "answer": 13062098, "reason": "Single answer stated clearly"}

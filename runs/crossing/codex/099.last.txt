@@ -1,0 +1,26 @@
+{
+  "order": 99,
+  "study_id": "https://openalex.org/W4380714623",
+  "pass": "codex",
+  "brief_version": "1.0",
+  "date": "2026-11-07",
+  "full_text": "research/sources/md/fulltext/099_W4380714623.md",
+  "sources_varied": ["M", "W", "X"],
+  "X1": {
+    "value": "partial",
+    "sources_crossed": [],
+    "evidence": "Appendix B and D, Figs. 1–3: multiple models were tested; GPT-3 text-davinci-003 separately received multiple-choice, reasoning-suffix, and few-shot prompt variants, with no full crossing of these sources."
+  },
+  "X2": {
+    "value": "yes",
+    "x2_types": ["anova_or_mixed_term", "effect_change"],
+    "x2_sources": ["M", "W", "X"],
+    "evidence": "Results, Figs. 1–3 and Appendix D: model differences are quantified; GPT-3 response proportions and statistical tests quantify changes for prompt formats, reasoning suffixes, and training-shot levels."
+  },
+  "X3": {
+    "value": "no",
+    "x3_pairs": [],
+    "evidence": "Appendix D and Fig. 3 report prompt intervention results separately; no source-by-source interaction is estimated or shown."
+  },
+  "notes": "X denotes prompt intervention type (multiple-choice format, reasoning suffix, and training examples); few-shot quantity also varies."
+}

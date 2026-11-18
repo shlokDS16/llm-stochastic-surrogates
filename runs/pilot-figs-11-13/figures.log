@@ -1,0 +1,18 @@
+fig11 P1: xlim=(-0.32,7.63) nd=6 topup=0
+fig11 P2a: xlim=(-1.48,2.78) nd=5 topup=1
+fig11 P2b: xlim=(-0.26,4.77) nd=5 topup=1
+fig11 P2c: xlim=(-0.37,2.60) nd=5 topup=1
+fig11 P2d: xlim=(-0.37,9.64) nd=3 topup=1
+fig11 P3: xlim=(-0.29,1.32) nd=4 topup=1
+fig11 P4: xlim=(-0.77,1.64) nd=4 topup=1
+saved Fig11.pdf / .eps / .png
+fig12 W: reported cells=29, not reported/absent=13
+fig12 F: reported cells=29, not reported/absent=13
+fig12 T: reported cells=29, not reported/absent=13
+fig12 INT: reported cells=29, not reported/absent=13
+fig12 O: reported cells=5, not reported/absent=1
+saved Fig12.pdf / .eps / .png
+fig13 pt: min=0.188 max=1.000
+fig13 st: min=0.000 max=1.000
+saved Fig13.pdf / .eps / .png
+minimum text contrast in heatmap cells: 4.66:1 (need >= 4.5)

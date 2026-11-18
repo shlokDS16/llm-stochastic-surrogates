@@ -1,0 +1,48 @@
+{
+  "order": 107,
+  "study_id": "W4390740352",
+  "full_text": {"obtained": true, "source": "research/sources/md/fulltext/107_W4390740352.md"},
+  "eligibility": {
+    "decision": "YES",
+    "failed_criterion": null,
+    "borderline": true,
+    "evidence": "Methods: GPT-3 (davinci-003) and GPT-4 write short stories with the same three-word prompts given to humans, via the five-sentence creative story task the paper attributes to Johnson et al. 2022 and Prabhakaran et al. 2014 (cited paradigm, E2 route a). New model stories were generated and rated for creativity (E3, E4). Borderline because creativity/story writing is not a listed E2 domain and the main outcome is a rated quality score. Reference list not captured in the fetched file."
+  },
+  "A": {"doi": "10.1002/jocb.636", "arxiv_id": null,
+        "title": "The Language of Creativity: Evidence from Humans and Large Language Models",
+        "first_author": "William Orwig", "year": 2024, "venue": "The Journal of Creative Behavior",
+        "peer_reviewed": "yes", "first_author_field": "not_reported", "country": "United States"},
+  "B": {"models": [
+          {"name": "GPT-3", "version": "text-davinci-003 (paper: davinci-003 engine)", "access": "API", "params_b": null,
+           "release_date": "not_reported", "tuning": "instruction", "family": "GPT", "query_date": "not_reported"},
+          {"name": "GPT-4", "version": "not_reported", "access": "API", "params_b": null,
+           "release_date": "not_reported", "tuning": "not_reported", "family": "GPT", "query_date": "not_reported"}],
+        "n_models": 2, "n_model_families": 1},
+  "C": {"paradigms": [
+          {"pid": "P1", "name": "Five-sentence creative story task (three-word prompt story writing, rated for creativity)",
+           "family": "OTH", "source_paper": "Johnson et al. 2022; Prabhakaran, Green & Gray 2014",
+           "items_origin": "verbatim", "n_items": 6, "languages": ["English"], "modality": "text",
+           "contamination_risk": "partly", "location": "Methods, paragraphs 2-3 (six word-triple prompts listed)"}]},
+  "D": {"types": ["own_sample"], "primary_type": "own_sample", "human_n": 290,
+        "population": "Prolific, native English speakers: 50 story writers (age 18-35) plus an independent 240 raters (age 18-55); the 240 raters also rated all model stories",
+        "metric": "mean human creativity rating (1-5, 12 raters per story); mixed-effects regression of rating on source"},
+  "E": {"outcome_types": ["other"], "rows_aggregated": false,
+        "effects": [
+          {"pid": "P1", "model": "GPT-3 (text-davinci-003)", "model_family": "GPT", "outcome_kind": "accuracy",
+           "basis": "test", "model_effect_present": "na", "human_effect_present": "na", "direction": "not_applicable",
+           "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "not_different",
+           "model_vs_human": "similar", "agreement_value": null, "label": "HUMAN-LEVEL",
+           "location": "Results, third model (human vs GPT-3 condition on human creativity ratings): beta .07, p = .11; pooled model p = .10"},
+          {"pid": "P1", "model": "GPT-4", "model_family": "GPT", "outcome_kind": "accuracy",
+           "basis": "test", "model_effect_present": "na", "human_effect_present": "na", "direction": "not_applicable",
+           "model_es": null, "human_es": null, "es_metric": null, "authors_comparison": "not_different",
+           "model_vs_human": "similar", "agreement_value": null, "label": "HUMAN-LEVEL",
+           "location": "Results, replication sample paragraph (pooled model, human creativity ratings): GPT-4 vs human t = -1.98, p = .05, reported as not significant"}],
+        "headline": "Paper reports GPT-3 and GPT-4 stories were not rated significantly less creative than human stories; semantic diversity and perceptual detail predicted creativity in both."},
+  "F": {"f1": "no", "f2": "no", "f3": "yes", "f4": "yes", "f5": "no", "f6": "na", "f7": "no", "f8": "yes",
+        "f9": "no", "f10": "yes", "f11": "no", "f12": "no", "perturbations_tested": ["model_version"],
+        "robustness_outcome": "survived"},
+  "G": {"notes": "Outcome is a rated quality score with no answer key, coded as accuracy-type with a human reference (nearest category); referee would question this. GPT-4 temperature and snapshot not stated; no data link. GPT-4 as rater favoured its own stories (separate secondary result). Temperature varied 0.65-0.80 without comparison. Reference list not captured.",
+         "extractor": "paper-reader, Claude Sonnet 5.5", "date": "2026-10-17", "minutes": 8,
+         "sections_read": ["abstract", "introduction", "methods", "results", "discussion", "data availability"]}
+}

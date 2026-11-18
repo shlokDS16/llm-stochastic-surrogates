@@ -1,0 +1,70 @@
+{
+  "order": 31,
+  "study_id": "W7170054352",
+  "full_text": {"obtained": true, "source": "research/sources/md/fulltext/031_W7170054352.md"},
+  "eligibility": {
+    "decision": "YES",
+    "failed_criterion": null,
+    "borderline": true,
+    "evidence": "Methods: Gemini, Grok and DeepSeek rated a randomised-context vignette (intra- vs extrafamilial abuse) on offence severity (Warr, 1989; Alter et al., 2007) and restorative-justice support (Peleg-Koriat and Klar-Chalamish, 2020), compared with 469 humans. Coded as a moral/justice judgement task with an experimental manipulation and a cited human study; borderline because the measures are attitude questionnaires and the authors say they do not treat LLMs as silicon samples. Background subsections and references omitted from the capture."
+  },
+  "A": {
+    "doi": "10.1111/lcrp.70053",
+    "arxiv_id": null,
+    "title": "Human and AI judgements of restorative responses to sexual abuse: The role of perceived severity",
+    "first_author": "Peleg-Koriat",
+    "year": 2026,
+    "venue": "Legal and Criminological Psychology",
+    "peer_reviewed": "yes",
+    "first_author_field": "not_reported",
+    "country": "not_reported"
+  },
+  "B": {
+    "models": [
+      {"name": "Gemini 3 (Google), thinking mode", "version": "Gemini 3", "access": "not_reported", "params_b": null, "release_date": "not_reported", "tuning": "not_reported", "family": "Gemini", "query_date": "January 2026"},
+      {"name": "Grok 4.1 (X Corp.), thinking mode", "version": "Grok 4.1", "access": "not_reported", "params_b": null, "release_date": "not_reported", "tuning": "not_reported", "family": "other", "query_date": "January 2026"},
+      {"name": "DeepSeek 3.2, thinking mode", "version": "DeepSeek 3.2", "access": "not_reported", "params_b": null, "release_date": "not_reported", "tuning": "not_reported", "family": "other", "query_date": "January 2026"}
+    ],
+    "n_models": 3,
+    "n_model_families": 2
+  },
+  "C": {
+    "paradigms": [
+      {"pid": "P1", "name": "Vignette judgement of offence severity, intra- vs extrafamilial sexual abuse (4 items)", "family": "MOR", "source_paper": "Warr (1989); Alter et al. (2007)", "items_origin": "adapted", "n_items": 2, "languages": [], "modality": "text", "contamination_risk": "not_reported", "location": "Methods: Measures and Procedure; n_items = 2 vignettes (4 rating items each)"},
+      {"pid": "P2", "name": "Vignette judgement of support for restorative justice, intra- vs extrafamilial sexual abuse (7 items)", "family": "MOR", "source_paper": "Peleg-Koriat and Klar-Chalamish (2020)", "items_origin": "adapted", "n_items": 2, "languages": [], "modality": "text", "contamination_risk": "not_reported", "location": "Methods: Measures and Procedure; n_items = 2 vignettes (7 rating items each)"}
+    ]
+  },
+  "D": {
+    "types": ["own_sample"],
+    "primary_type": "own_sample",
+    "human_n": 469,
+    "population": "Adults from the Israeli online panel iPanel (227 women, mean age 42; about half Jewish and half Arab), randomly assigned to one vignette",
+    "metric": "7-point mean ratings of offence severity and of restorative-justice support, compared by t tests, one-sample Z tests, mixed models and mediation"
+  },
+  "E": {
+    "outcome_types": ["effect_size", "other"],
+    "rows_aggregated": false,
+    "effects": [
+      {"pid": "P1", "model": "Gemini 3 (Google), thinking mode", "model_family": "Gemini", "outcome_kind": "effect", "basis": "test", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": 0.37, "human_es": 0.19, "es_metric": "standardised mean difference (approximated Cohen's d from mixed model for LLMs; Hedges' g for humans)", "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "HUMAN-LIKE", "location": "Results, H1: context effect on severity tested on pooled LLM outputs (mixed model, LLM random intercept), p = .045; humans p = .038. Per-model context effects not reported; Context x LLM interaction ns (F = 0.08). Ratio 1.9 is near the 2.0 cut-off; borderline"},
+      {"pid": "P1", "model": "Grok 4.1 (X Corp.), thinking mode", "model_family": "other", "outcome_kind": "effect", "basis": "test", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": 0.37, "human_es": 0.19, "es_metric": "standardised mean difference (approximated Cohen's d from mixed model for LLMs; Hedges' g for humans)", "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "HUMAN-LIKE", "location": "Results, H1: same pooled test as the Gemini row (not model-specific); Context x LLM interaction ns"},
+      {"pid": "P1", "model": "DeepSeek 3.2, thinking mode", "model_family": "other", "outcome_kind": "effect", "basis": "test", "model_effect_present": "yes", "human_effect_present": "yes", "direction": "same", "model_es": 0.37, "human_es": 0.19, "es_metric": "standardised mean difference (approximated Cohen's d from mixed model for LLMs; Hedges' g for humans)", "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "HUMAN-LIKE", "location": "Results, H1: same pooled test as the Gemini row (not model-specific); Context x LLM interaction ns"},
+      {"pid": "P2", "model": "Gemini 3 (Google), thinking mode", "model_family": "Gemini", "outcome_kind": "effect", "basis": "test", "model_effect_present": "yes", "human_effect_present": "no", "direction": "same", "model_es": 0.47, "human_es": 0.08, "es_metric": "standardised mean difference (approximated Cohen's d from mixed model for LLMs; Cohen's d for humans)", "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "EXAGGERATED", "location": "Results, H3: pooled LLM context effect on RJ support t(117) = 2.59, p = .010 (lower support when intrafamilial); humans t(467) = 0.87, p = .384. No rule label fits 'model effect present, human effect absent'; EXAGGERATED used as the closest (ratio about 5.9) and flagged for adjudication. Per-model effects not reported. Level difference (LLM RJ support higher than humans, g = 0.75) is outside the effect fields"},
+      {"pid": "P2", "model": "Grok 4.1 (X Corp.), thinking mode", "model_family": "other", "outcome_kind": "effect", "basis": "test", "model_effect_present": "yes", "human_effect_present": "no", "direction": "same", "model_es": 0.47, "human_es": 0.08, "es_metric": "standardised mean difference (approximated Cohen's d from mixed model for LLMs; Cohen's d for humans)", "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "EXAGGERATED", "location": "Results, H3: same pooled test as the Gemini row; rule gap flagged as above"},
+      {"pid": "P2", "model": "DeepSeek 3.2, thinking mode", "model_family": "other", "outcome_kind": "effect", "basis": "test", "model_effect_present": "yes", "human_effect_present": "no", "direction": "same", "model_es": 0.47, "human_es": 0.08, "es_metric": "standardised mean difference (approximated Cohen's d from mixed model for LLMs; Cohen's d for humans)", "authors_comparison": "not_tested", "model_vs_human": "not_compared", "agreement_value": null, "label": "EXAGGERATED", "location": "Results, H3: same pooled test as the Gemini row; rule gap flagged as above"}
+    ],
+    "headline": "Both humans and LLMs rated intrafamilial abuse as more severe, but LLMs gave higher restorative-justice support; severity mediated support fully in humans, partly in LLMs."
+  },
+  "F": {
+    "f1": "no", "f2": "no", "f3": "yes", "f4": "yes", "f5": "no", "f6": "na", "f7": "no", "f8": "no",
+    "f9": "no", "f10": "yes", "f11": "no", "f12": "no",
+    "perturbations_tested": [],
+    "robustness_outcome": "na"
+  },
+  "G": {
+    "notes": "Chat-app models in thinking mode with default settings; versions are product names, temperature unknown. Pooled LLM tests hide per-model context effects, so model rows repeat one pooled result. ChatGPT 5.2 refused and was excluded (refusal not coded). Data only on request. Attitude questionnaires versus cognitive paradigm is the eligibility question.",
+    "extractor": "paper-reader (Claude Sonnet 5.5)",
+    "date": "2026-10-17",
+    "minutes": 8,
+    "sections_read": ["Abstract", "Introduction framing and The current study", "Method", "Results", "Discussion", "Limitations and future directions", "Conclusion", "Declarations"]
+  }
+}

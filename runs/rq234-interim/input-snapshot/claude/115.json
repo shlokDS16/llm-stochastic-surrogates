@@ -1,0 +1,33 @@
+{
+  "order": 115,
+  "study_id": "https://openalex.org/W4402671882",
+  "full_text": {"obtained": true, "source": "research/sources/md/fulltext/115_W4402671882.md"},
+  "eligibility": {"decision": "YES", "failed_criterion": null, "borderline": false,
+                  "evidence": "Sec 3: five open chat LLMs solve the 12 propositional-logic marble problems of Van der Henst et al. (2002); strategies and answer correctness are coded and compared with the human study (Table 1)."},
+  "A": {"doi": "10.18653/v1/2024.acl-long.508", "arxiv_id": "2402.14856", "title": "Comparing Inferential Strategies of Humans and Large Language Models in Deductive Reasoning", "first_author": "Philipp Mondorf", "year": 2024, "venue": "ACL 2024 (Annual Meeting of the Association for Computational Linguistics)",
+        "peer_reviewed": "yes", "first_author_field": "not_reported", "country": "Germany"},
+  "B": {"models": [
+    {"name": "Llama-2-7b-chat-hf", "version": "Llama-2-chat-hf 7B", "access": "open_weights", "params_b": 7, "release_date": "not_reported", "tuning": "instruction", "family": "Llama", "query_date": "not_reported"},
+    {"name": "Llama-2-13b-chat-hf", "version": "Llama-2-chat-hf 13B", "access": "open_weights", "params_b": 13, "release_date": "not_reported", "tuning": "instruction", "family": "Llama", "query_date": "not_reported"},
+    {"name": "Llama-2-70b-chat-hf", "version": "Llama-2-chat-hf 70B", "access": "open_weights", "params_b": 70, "release_date": "not_reported", "tuning": "instruction", "family": "Llama", "query_date": "not_reported"},
+    {"name": "Mistral-7B-Instruct-v0.2", "version": "Mistral-7B-Instruct-v0.2", "access": "open_weights", "params_b": 7, "release_date": "not_reported", "tuning": "instruction", "family": "Mistral", "query_date": "not_reported"},
+    {"name": "zephyr-7b-beta", "version": "zephyr-7b-beta", "access": "open_weights", "params_b": 7, "release_date": "not_reported", "tuning": "instruction", "family": "Mistral", "query_date": "not_reported"}
+  ], "n_models": 5, "n_model_families": 2},
+  "C": {"paradigms": [
+    {"pid": "P1", "name": "Propositional (deductive) reasoning with think-aloud strategy analysis, 12 marble problems", "family": "RE", "source_paper": "Van der Henst, Yang & Johnson-Laird (2002), experiment 1", "items_origin": "verbatim", "n_items": 12, "languages": ["English"], "modality": "text", "contamination_risk": "yes", "location": "Sec 3 Task Overview; Appendix Figure 5"}
+  ]},
+  "D": {"types": ["published_norms"], "primary_type": "published_norms", "human_n": null, "population": "not_reported", "metric": "strategy proportions; percent correct answers (human values taken from Van der Henst et al. 2002, Table 1 row Human Reasoner)"},
+  "E": {"outcome_types": ["accuracy", "choice_distribution"], "rows_aggregated": false,
+        "effects": [
+    {"pid": "P1", "model": "Llama-2-7b-chat-hf", "model_family": "Llama", "outcome_kind": "accuracy", "basis": "descriptive", "model_effect_present": "na", "human_effect_present": "na", "direction": "not_applicable", "model_es": 46.7, "human_es": 100, "es_metric": "percent correct final answers, mean over 5 seeds", "authors_comparison": "not_tested", "model_vs_human": "below", "agreement_value": null, "label": "BELOW-HUMAN", "location": "Table 1; Sec 4.1 (high human success rate contrasts sharply with models); strategy-profile comparison with humans coded in notes only"},
+    {"pid": "P1", "model": "Llama-2-13b-chat-hf", "model_family": "Llama", "outcome_kind": "accuracy", "basis": "descriptive", "model_effect_present": "na", "human_effect_present": "na", "direction": "not_applicable", "model_es": 40.0, "human_es": 100, "es_metric": "percent correct final answers, mean over 5 seeds", "authors_comparison": "not_tested", "model_vs_human": "below", "agreement_value": null, "label": "BELOW-HUMAN", "location": "Table 1; Sec 4.1"},
+    {"pid": "P1", "model": "Llama-2-70b-chat-hf", "model_family": "Llama", "outcome_kind": "accuracy", "basis": "descriptive", "model_effect_present": "na", "human_effect_present": "na", "direction": "not_applicable", "model_es": 56.7, "human_es": 100, "es_metric": "percent correct final answers, mean over 5 seeds", "authors_comparison": "not_tested", "model_vs_human": "below", "agreement_value": null, "label": "BELOW-HUMAN", "location": "Table 1; Sec 4.1"},
+    {"pid": "P1", "model": "Mistral-7B-Instruct-v0.2", "model_family": "Mistral", "outcome_kind": "accuracy", "basis": "descriptive", "model_effect_present": "na", "human_effect_present": "na", "direction": "not_applicable", "model_es": 55.0, "human_es": 100, "es_metric": "percent correct final answers, mean over 5 seeds", "authors_comparison": "not_tested", "model_vs_human": "below", "agreement_value": null, "label": "BELOW-HUMAN", "location": "Table 1; Sec 4.1"},
+    {"pid": "P1", "model": "zephyr-7b-beta", "model_family": "Mistral", "outcome_kind": "accuracy", "basis": "descriptive", "model_effect_present": "na", "human_effect_present": "na", "direction": "not_applicable", "model_es": 45.0, "human_es": 100, "es_metric": "percent correct final answers, mean over 5 seeds", "authors_comparison": "not_tested", "model_vs_human": "below", "agreement_value": null, "label": "BELOW-HUMAN", "location": "Table 1; Sec 4.1"}
+  ],
+        "headline": "LLMs show human-like inferential strategies (supposition following, chain construction), but final-answer accuracy near chance does not reflect sound reasoning."},
+  "F": {"f1": "yes", "f2": "yes", "f3": "yes", "f4": "yes", "f5": "no", "f6": "na", "f7": "no", "f8": "no",
+        "f9": "no", "f10": "no", "f11": "no", "f12": "yes", "perturbations_tested": ["seeds"],
+        "robustness_outcome": "not_reported"},
+  "G": {"notes": "Human comparison is a published study (no new human data); human strategy values come from that paper and exclude incremental diagram, which LLMs never produced. Strategy-profile similarity is judged descriptively, no test. Only 12 verbatim problems, 60 responses per model, manual coding by two annotators (kappa 0.98).", "extractor": "paper-reader (claude-sonnet)", "date": "2026-10-16", "minutes": 4, "sections_read": ["abstract", "1 Introduction", "2 Strategies", "3 Experimental Setup", "4 Results and Analysis", "5 Related Work", "6 Conclusion", "7 Limitations", "Appendix Figure 5 locator"]}
+}

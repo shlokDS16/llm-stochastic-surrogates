@@ -1,0 +1,26 @@
+{
+ "order": 41,
+ "study_id": "W4408102289",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/041_W4408102289.md",
+ "sources_varied": [],
+ "X1": {
+  "value": "no",
+  "sources_crossed": [],
+  "evidence": "Methods and Results: one model, scenarios and anchor conditions are treatments; no model, wording, order or sampling variation reported."
+ },
+ "X2": {
+  "value": "no",
+  "x2_types": [],
+  "x2_sources": [],
+  "evidence": "ANOVAs and permutation tests address the experimental conditions (in-group, anchor level) only."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": ""
+ },
+ "notes": ""
+}

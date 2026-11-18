@@ -1,0 +1,9 @@
+paradigm: P4
+wording: W7
+response_type: number
+conditions:
+  x1: In a casino, imagine you happen to pass a man throwing dice. He throws three dice, and all three show 6. How many times do you think the man had thrown the dice before you walked by, based on your imagined scenario?
+  x0: In a casino, imagine you happen to pass a man throwing dice. He throws three dice, and one shows 3 and two show 6. How many times do you think the man had thrown the dice before you walked by, based on your imagined scenario?
+condition_names:
+  x1: three 6s
+  x0: one 3 and two 6s

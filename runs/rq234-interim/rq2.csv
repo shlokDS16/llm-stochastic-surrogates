@@ -1,0 +1,19 @@
+feature,claude_n_domain,claude_k,claude_est_pct,claude_lo_pct,claude_hi_pct,claude_lo_logit_pct,claude_hi_logit_pct,claude_N_hat_domain,claude_note,claude_cp_unweighted_pct,codex_n_domain,codex_k,codex_est_pct,codex_lo_pct,codex_hi_pct,codex_lo_logit_pct,codex_hi_logit_pct,codex_N_hat_domain,codex_note,codex_cp_unweighted_pct,agreement_field,kappa,percent_agreement,n_agreement,passes_v012_rule,rule_basis,outcome_kind,label
+rq2|effect|ANY,72,39,64.08,51.68,76.47,51.0,75.35,1341.4,,,74,46,70.09,58.64,81.54,57.57,80.18,1358.8,,,E.outcome_kind,0.719,82.6,144,True,kappa>=0.6,effect,ANY
+rq2|effect|ATTENUATED,72,1,0.62,0.0,1.79,0.09,3.96,1341.4,,,74,0,0.0,0.0,0.0,,,1358.8,zero-variance estimate; unweighted exact interval in cp_lo/cp_hi,0.0-4.9,E.derived_label (script),0.534,60.4,144,False,percent>=0.80,effect,ATTENUATED
+rq2|effect|DIFFERENT,72,3,4.47,0.0,9.9,1.3,14.3,1341.4,,,74,3,1.87,0.01,3.73,0.69,5.0,1358.8,,,E.derived_label (script),0.534,60.4,144,False,percent>=0.80,effect,DIFFERENT
+rq2|effect|EXAGGERATED,72,5,7.68,0.41,14.94,2.9,18.81,1341.4,,,74,3,4.66,0.0,10.89,1.19,16.55,1358.8,,,E.derived_label (script),0.534,60.4,144,False,percent>=0.80,effect,EXAGGERATED
+rq2|effect|HUMAN-LIKE,72,7,11.08,3.32,18.85,5.36,21.51,1341.4,,,74,3,2.98,0.0,7.47,0.64,12.7,1358.8,,,E.derived_label (script),0.534,60.4,144,False,percent>=0.80,effect,HUMAN-LIKE
+rq2|effect|INSUFFICIENT,72,6,20.54,13.1,27.97,14.08,28.96,1341.4,,,74,12,21.06,5.29,36.82,9.36,40.78,1358.8,,,E.derived_label (script),0.534,60.4,144,False,percent>=0.80,effect,INSUFFICIENT
+rq2|effect|NO-HUMAN-REFERENCE,72,12,19.52,7.87,31.17,10.36,33.74,1341.4,,,74,9,19.7,2.9,36.51,7.82,41.52,1358.8,,,E.derived_label (script),0.534,60.4,144,False,percent>=0.80,effect,NO-HUMAN-REFERENCE
+rq2|effect|SAME-DIRECTION-UNQUANTIFIED,72,19,31.28,13.29,49.26,16.46,51.24,1341.4,,,74,27,40.91,23.04,58.77,24.85,59.17,1358.8,,,E.derived_label (script),0.534,60.4,144,False,percent>=0.80,effect,SAME-DIRECTION-UNQUANTIFIED
+rq2|effect|SUPER-NORMATIVE,72,12,20.02,3.95,36.1,8.4,40.59,1341.4,,,74,7,11.23,0.0,25.41,2.96,34.42,1358.8,,,E.derived_label (script),0.534,60.4,144,False,percent>=0.80,effect,SUPER-NORMATIVE
+rq2|effect|UNCLASSIFIED-MODEL-ONLY,72,1,0.31,0.0,0.86,0.05,1.77,1341.4,,,74,0,0.0,0.0,0.0,,,1358.8,zero-variance estimate; unweighted exact interval in cp_lo/cp_hi,0.0-4.9,E.derived_label (script),0.534,60.4,144,False,percent>=0.80,effect,UNCLASSIFIED-MODEL-ONLY
+rq2|accuracy|ANY,72,29,34.63,22.44,46.82,23.62,47.58,1341.4,,,74,31,32.23,19.26,45.21,20.8,46.28,1358.8,,,E.outcome_kind,0.719,82.6,144,True,kappa>=0.6,accuracy,ANY
+rq2|accuracy|ABOVE-HUMAN,72,5,8.01,0.0,16.68,2.61,22.04,1341.4,,,74,10,12.42,2.94,21.89,5.6,25.31,1358.8,,,E.derived_label (script),0.534,60.4,144,False,percent>=0.80,accuracy,ABOVE-HUMAN
+rq2|accuracy|BELOW-HUMAN,72,14,17.2,5.73,28.68,8.5,31.74,1341.4,,,74,13,16.23,5.04,27.43,7.84,30.63,1358.8,,,E.derived_label (script),0.534,60.4,144,False,percent>=0.80,accuracy,BELOW-HUMAN
+rq2|accuracy|HUMAN-LEVEL,72,5,6.26,0.0,14.08,1.73,20.21,1341.4,,,74,6,8.24,0.0,16.94,2.76,22.1,1358.8,,,E.derived_label (script),0.534,60.4,144,False,percent>=0.80,accuracy,HUMAN-LEVEL
+rq2|accuracy|INSUFFICIENT,72,12,14.23,5.8,22.66,7.67,24.86,1341.4,,,74,15,13.87,5.51,22.23,7.4,24.48,1358.8,,,E.derived_label (script),0.534,60.4,144,False,percent>=0.80,accuracy,INSUFFICIENT
+rq2|accuracy|NO-HUMAN-REFERENCE,72,6,5.74,0.83,10.65,2.4,13.11,1341.4,,,74,3,2.05,0.0,5.13,0.45,8.86,1358.8,,,E.derived_label (script),0.534,60.4,144,False,percent>=0.80,accuracy,NO-HUMAN-REFERENCE
+rq2|agreement|ANY,72,14,9.95,3.95,15.95,5.35,17.75,1341.4,,,74,18,20.1,10.19,30.0,11.95,31.79,1358.8,,,E.outcome_kind,0.719,82.6,144,True,kappa>=0.6,agreement,ANY
+rq2|agreement|AGREEMENT-ONLY,72,14,9.95,3.95,15.95,5.35,17.75,1341.4,,,74,18,20.1,10.19,30.0,11.95,31.79,1358.8,,,E.derived_label (script),0.534,60.4,144,False,percent>=0.80,agreement,AGREEMENT-ONLY

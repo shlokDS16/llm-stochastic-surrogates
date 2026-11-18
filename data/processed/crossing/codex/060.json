@@ -1,0 +1,33 @@
+{
+ "order": 60,
+ "study_id": "https://openalex.org/W4404136902",
+ "pass": "codex",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/060_W4404136902.md",
+ "sources_varied": [
+  "M",
+  "R"
+ ],
+ "X1": {
+  "value": "partial",
+  "sources_crossed": [],
+  "evidence": "Methods, pp. 791–792: GPT-4.0 and GPT-3.5 were run on the same vignettes; repeating prompts 50 times was used to assess run-to-run variability. The sources were not factorially crossed."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "M"
+  ],
+  "evidence": "Results, Table 1, p. 792: diagnostic accuracy drops are reported separately for GPT-4.0 and GPT-3.5 across bias conditions, with decreases of 21% and 9%."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": "Results, Tables 1–2, pp. 792–793: no model-by-run interaction is estimated or shown."
+ },
+ "notes": "Repeated prompts were used to compute goodness-of-fit tests, but the paper does not report or analyze run-to-run variation as a design factor; per the brief, R should not be counted."
+}

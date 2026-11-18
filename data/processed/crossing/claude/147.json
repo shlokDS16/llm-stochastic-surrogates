@@ -1,0 +1,28 @@
+{
+ "order": 147,
+ "study_id": "https://openalex.org/W7160676434",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/147_W7160676434.md",
+ "sources_varied": [
+  "M"
+ ],
+ "X1": {
+  "value": "no",
+  "sources_crossed": [],
+  "evidence": "Methods and Results: 75 language models (architectures and sizes) scored on prompt-pair priming with one measurement protocol; conditions are syntactic primes."
+ },
+ "X2": {
+  "value": "no",
+  "x2_types": [],
+  "x2_sources": [],
+  "evidence": "Mixed-effects models estimate priming by prime condition (Table 4); no model-level source decomposed."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": ""
+ },
+ "notes": ""
+}

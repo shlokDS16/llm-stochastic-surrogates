@@ -1,0 +1,662 @@
+{
+ "E001": {
+  "item": "P3",
+  "wording": "W5",
+  "kind": "paraphrase",
+  "side": "W0_is_B"
+ },
+ "E002": {
+  "item": "P2b",
+  "wording": "W3",
+  "kind": "paraphrase",
+  "side": "W0_is_B"
+ },
+ "E003": {
+  "item": "NR",
+  "wording": "W3",
+  "kind": "paraphrase",
+  "side": "W0_is_A"
+ },
+ "E004": {
+  "item": "P2d",
+  "wording": "W1",
+  "kind": "paraphrase",
+  "side": "W0_is_B"
+ },
+ "E005": {
+  "item": "P2b",
+  "wording": "D1",
+  "kind": "decoy",
+  "side": "W0_is_B"
+ },
+ "E006": {
+  "item": "P2d",
+  "wording": "W9",
+  "kind": "paraphrase",
+  "side": "W0_is_B"
+ },
+ "E007": {
+  "item": "P2d",
+  "wording": "W6",
+  "kind": "paraphrase",
+  "side": "W0_is_B"
+ },
+ "E008": {
+  "item": "P4",
+  "wording": "W3",
+  "kind": "paraphrase",
+  "side": "W0_is_B"
+ },
+ "E009": {
+  "item": "P1",
+  "wording": "D2",
+  "kind": "decoy",
+  "side": "W0_is_A"
+ },
+ "E010": {
+  "item": "P1",
+  "wording": "W5",
+  "kind": "paraphrase",
+  "side": "W0_is_A"
+ },
+ "E011": {
+  "item": "QA",
+  "wording": "W1",
+  "kind": "paraphrase",
+  "side": "W0_is_B"
+ },
+ "E012": {
+  "item": "P3",
+  "wording": "D2",
+  "kind": "decoy",
+  "side": "W0_is_B"
+ },
+ "E013": {
+  "item": "P2b",
+  "wording": "D2",
+  "kind": "decoy",
+  "side": "W0_is_B"
+ },
+ "E014": {
+  "item": "AF",
+  "wording": "W4",
+  "kind": "paraphrase",
+  "side": "W0_is_A"
+ },
+ "E015": {
+  "item": "P1",
+  "wording": "W8",
+  "kind": "paraphrase",
+  "side": "W0_is_B"
+ },
+ "E016": {
+  "item": "P2d",
+  "wording": "W4",
+  "kind": "paraphrase",
+  "side": "W0_is_B"
+ },
+ "E017": {
+  "item": "P2c",
+  "wording": "W5",
+  "kind": "paraphrase",
+  "side": "W0_is_A"
+ },
+ "E018": {
+  "item": "P2b",
+  "wording": "W5",
+  "kind": "paraphrase",
+  "side": "W0_is_A"
+ },
+ "E019": {
+  "item": "P2c",
+  "wording": "W1",
+  "kind": "paraphrase",
+  "side": "W0_is_A"
+ },
+ "E020": {
+  "item": "QA",
+  "wording": "W4",
+  "kind": "paraphrase",
+  "side": "W0_is_B"
+ },
+ "E021": {
+  "item": "NR",
+  "wording": "W4",
+  "kind": "paraphrase",
+  "side": "W0_is_B"
+ },
+ "E022": {
+  "item": "P4",
+  "wording": "W2",
+  "kind": "paraphrase",
+  "side": "W0_is_B"
+ },
+ "E023": {
+  "item": "P3",
+  "wording": "W4",
+  "kind": "paraphrase",
+  "side": "W0_is_A"
+ },
+ "E024": {
+  "item": "P2a",
+  "wording": "W6",
+  "kind": "paraphrase",
+  "side": "W0_is_A"
+ },
+ "E025": {
+  "item": "P2d",
+  "wording": "D2",
+  "kind": "decoy",
+  "side": "W0_is_A"
+ },
+ "E026": {
+  "item": "QA",
+  "wording": "D1",
+  "kind": "decoy",
+  "side": "W0_is_B"
+ },
+ "E027": {
+  "item": "P4",
+  "wording": "W5",
+  "kind": "paraphrase",
+  "side": "W0_is_A"
+ },
+ "E028": {
+  "item": "AF",
+  "wording": "D2",
+  "kind": "decoy",
+  "side": "W0_is_B"
+ },
+ "E029": {
+  "item": "P2a",
+  "wording": "W5",
+  "kind": "paraphrase",
+  "side": "W0_is_A"
+ },
+ "E030": {
+  "item": "P2a",
+  "wording": "W9",
+  "kind": "paraphrase",
+  "side": "W0_is_B"
+ },
+ "E031": {
+  "item": "AF",
+  "wording": "W2",
+  "kind": "paraphrase",
+  "side": "W0_is_A"
+ },
+ "E032": {
+  "item": "P3",
+  "wording": "W2",
+  "kind": "paraphrase",
+  "side": "W0_is_A"
+ },
+ "E033": {
+  "item": "P2c",
+  "wording": "W6",
+  "kind": "paraphrase",
+  "side": "W0_is_A"
+ },
+ "E034": {
+  "item": "AF",
+  "wording": "W1",
+  "kind": "paraphrase",
+  "side": "W0_is_A"
+ },
+ "E035": {
+  "item": "QA",
+  "wording": "W2",
+  "kind": "paraphrase",
+  "side": "W0_is_A"
+ },
+ "E036": {
+  "item": "P1",
+  "wording": "W6",
+  "kind": "paraphrase",
+  "side": "W0_is_A"
+ },
+ "E037": {
+  "item": "P3",
+  "wording": "W9",
+  "kind": "paraphrase",
+  "side": "W0_is_A"
+ },
+ "E038": {
+  "item": "P4",
+  "wording": "D2",
+  "kind": "decoy",
+  "side": "W0_is_B"
+ },
+ "E039": {
+  "item": "QA",
+  "wording": "D2",
+  "kind": "decoy",
+  "side": "W0_is_A"
+ },
+ "E040": {
+  "item": "QA",
+  "wording": "W6",
+  "kind": "paraphrase",
+  "side": "W0_is_B"
+ },
+ "E041": {
+  "item": "P3",
+  "wording": "W6",
+  "kind": "paraphrase",
+  "side": "W0_is_B"
+ },
+ "E042": {
+  "item": "P2a",
+  "wording": "W8",
+  "kind": "paraphrase",
+  "side": "W0_is_A"
+ },
+ "E043": {
+  "item": "NR",
+  "wording": "W1",
+  "kind": "paraphrase",
+  "side": "W0_is_A"
+ },
+ "E044": {
+  "item": "NR",
+  "wording": "D1",
+  "kind": "decoy",
+  "side": "W0_is_A"
+ },
+ "E045": {
+  "item": "QA",
+  "wording": "W7",
+  "kind": "paraphrase",
+  "side": "W0_is_A"
+ },
+ "E046": {
+  "item": "P2c",
+  "wording": "W8",
+  "kind": "paraphrase",
+  "side": "W0_is_B"
+ },
+ "E047": {
+  "item": "P2b",
+  "wording": "W2",
+  "kind": "paraphrase",
+  "side": "W0_is_B"
+ },
+ "E048": {
+  "item": "P2a",
+  "wording": "W2",
+  "kind": "paraphrase",
+  "side": "W0_is_A"
+ },
+ "E049": {
+  "item": "P1",
+  "wording": "W9",
+  "kind": "paraphrase",
+  "side": "W0_is_A"
+ },
+ "E050": {
+  "item": "P2c",
+  "wording": "D1",
+  "kind": "decoy",
+  "side": "W0_is_B"
+ },
+ "E051": {
+  "item": "P3",
+  "wording": "W3",
+  "kind": "paraphrase",
+  "side": "W0_is_A"
+ },
+ "E052": {
+  "item": "QA",
+  "wording": "W3",
+  "kind": "paraphrase",
+  "side": "W0_is_B"
+ },
+ "E053": {
+  "item": "NR",
+  "wording": "W2",
+  "kind": "paraphrase",
+  "side": "W0_is_B"
+ },
+ "E054": {
+  "item": "P2d",
+  "wording": "W2",
+  "kind": "paraphrase",
+  "side": "W0_is_A"
+ },
+ "E055": {
+  "item": "NR",
+  "wording": "W5",
+  "kind": "paraphrase",
+  "side": "W0_is_B"
+ },
+ "E056": {
+  "item": "P1",
+  "wording": "W3",
+  "kind": "paraphrase",
+  "side": "W0_is_B"
+ },
+ "E057": {
+  "item": "P3",
+  "wording": "W8",
+  "kind": "paraphrase",
+  "side": "W0_is_A"
+ },
+ "E058": {
+  "item": "QA",
+  "wording": "W9",
+  "kind": "paraphrase",
+  "side": "W0_is_B"
+ },
+ "E059": {
+  "item": "P2d",
+  "wording": "W5",
+  "kind": "paraphrase",
+  "side": "W0_is_B"
+ },
+ "E060": {
+  "item": "P4",
+  "wording": "W7",
+  "kind": "paraphrase",
+  "side": "W0_is_B"
+ },
+ "E061": {
+  "item": "QA",
+  "wording": "W8",
+  "kind": "paraphrase",
+  "side": "W0_is_B"
+ },
+ "E062": {
+  "item": "P2b",
+  "wording": "W7",
+  "kind": "paraphrase",
+  "side": "W0_is_A"
+ },
+ "E063": {
+  "item": "P2a",
+  "wording": "W3",
+  "kind": "paraphrase",
+  "side": "W0_is_A"
+ },
+ "E064": {
+  "item": "P4",
+  "wording": "W6",
+  "kind": "paraphrase",
+  "side": "W0_is_A"
+ },
+ "E065": {
+  "item": "P2d",
+  "wording": "W7",
+  "kind": "paraphrase",
+  "side": "W0_is_A"
+ },
+ "E066": {
+  "item": "P2b",
+  "wording": "W1",
+  "kind": "paraphrase",
+  "side": "W0_is_A"
+ },
+ "E067": {
+  "item": "P2c",
+  "wording": "W4",
+  "kind": "paraphrase",
+  "side": "W0_is_B"
+ },
+ "E068": {
+  "item": "NR",
+  "wording": "W9",
+  "kind": "paraphrase",
+  "side": "W0_is_B"
+ },
+ "E069": {
+  "item": "AF",
+  "wording": "W5",
+  "kind": "paraphrase",
+  "side": "W0_is_B"
+ },
+ "E070": {
+  "item": "P2a",
+  "wording": "D1",
+  "kind": "decoy",
+  "side": "W0_is_B"
+ },
+ "E071": {
+  "item": "P4",
+  "wording": "D1",
+  "kind": "decoy",
+  "side": "W0_is_B"
+ },
+ "E072": {
+  "item": "P3",
+  "wording": "W1",
+  "kind": "paraphrase",
+  "side": "W0_is_A"
+ },
+ "E073": {
+  "item": "P4",
+  "wording": "W4",
+  "kind": "paraphrase",
+  "side": "W0_is_B"
+ },
+ "E074": {
+  "item": "P2d",
+  "wording": "D1",
+  "kind": "decoy",
+  "side": "W0_is_A"
+ },
+ "E075": {
+  "item": "P2d",
+  "wording": "W3",
+  "kind": "paraphrase",
+  "side": "W0_is_A"
+ },
+ "E076": {
+  "item": "AF",
+  "wording": "W6",
+  "kind": "paraphrase",
+  "side": "W0_is_A"
+ },
+ "E077": {
+  "item": "P2b",
+  "wording": "W4",
+  "kind": "paraphrase",
+  "side": "W0_is_B"
+ },
+ "E078": {
+  "item": "P2b",
+  "wording": "W8",
+  "kind": "paraphrase",
+  "side": "W0_is_B"
+ },
+ "E079": {
+  "item": "P4",
+  "wording": "W1",
+  "kind": "paraphrase",
+  "side": "W0_is_A"
+ },
+ "E080": {
+  "item": "P3",
+  "wording": "W7",
+  "kind": "paraphrase",
+  "side": "W0_is_A"
+ },
+ "E081": {
+  "item": "AF",
+  "wording": "W8",
+  "kind": "paraphrase",
+  "side": "W0_is_A"
+ },
+ "E082": {
+  "item": "P4",
+  "wording": "W8",
+  "kind": "paraphrase",
+  "side": "W0_is_B"
+ },
+ "E083": {
+  "item": "P1",
+  "wording": "D1",
+  "kind": "decoy",
+  "side": "W0_is_B"
+ },
+ "E084": {
+  "item": "AF",
+  "wording": "D1",
+  "kind": "decoy",
+  "side": "W0_is_B"
+ },
+ "E085": {
+  "item": "P3",
+  "wording": "D1",
+  "kind": "decoy",
+  "side": "W0_is_A"
+ },
+ "E086": {
+  "item": "NR",
+  "wording": "W7",
+  "kind": "paraphrase",
+  "side": "W0_is_B"
+ },
+ "E087": {
+  "item": "NR",
+  "wording": "W6",
+  "kind": "paraphrase",
+  "side": "W0_is_A"
+ },
+ "E088": {
+  "item": "P2c",
+  "wording": "D2",
+  "kind": "decoy",
+  "side": "W0_is_B"
+ },
+ "E089": {
+  "item": "QA",
+  "wording": "W5",
+  "kind": "paraphrase",
+  "side": "W0_is_A"
+ },
+ "E090": {
+  "item": "P4",
+  "wording": "W9",
+  "kind": "paraphrase",
+  "side": "W0_is_B"
+ },
+ "E091": {
+  "item": "P2c",
+  "wording": "W7",
+  "kind": "paraphrase",
+  "side": "W0_is_B"
+ },
+ "E092": {
+  "item": "P2a",
+  "wording": "D2",
+  "kind": "decoy",
+  "side": "W0_is_A"
+ },
+ "E093": {
+  "item": "NR",
+  "wording": "W8",
+  "kind": "paraphrase",
+  "side": "W0_is_A"
+ },
+ "E094": {
+  "item": "P2c",
+  "wording": "W2",
+  "kind": "paraphrase",
+  "side": "W0_is_B"
+ },
+ "E095": {
+  "item": "P2b",
+  "wording": "W6",
+  "kind": "paraphrase",
+  "side": "W0_is_B"
+ },
+ "E096": {
+  "item": "P2a",
+  "wording": "W4",
+  "kind": "paraphrase",
+  "side": "W0_is_A"
+ },
+ "E097": {
+  "item": "P1",
+  "wording": "W4",
+  "kind": "paraphrase",
+  "side": "W0_is_B"
+ },
+ "E098": {
+  "item": "NR",
+  "wording": "D2",
+  "kind": "decoy",
+  "side": "W0_is_B"
+ },
+ "E099": {
+  "item": "P1",
+  "wording": "W2",
+  "kind": "paraphrase",
+  "side": "W0_is_A"
+ },
+ "E100": {
+  "item": "AF",
+  "wording": "W9",
+  "kind": "paraphrase",
+  "side": "W0_is_B"
+ },
+ "E101": {
+  "item": "P2c",
+  "wording": "W3",
+  "kind": "paraphrase",
+  "side": "W0_is_B"
+ },
+ "E102": {
+  "item": "P2d",
+  "wording": "W8",
+  "kind": "paraphrase",
+  "side": "W0_is_B"
+ },
+ "E103": {
+  "item": "P2c",
+  "wording": "W9",
+  "kind": "paraphrase",
+  "side": "W0_is_A"
+ },
+ "E104": {
+  "item": "AF",
+  "wording": "W3",
+  "kind": "paraphrase",
+  "side": "W0_is_A"
+ },
+ "E105": {
+  "item": "P1",
+  "wording": "W1",
+  "kind": "paraphrase",
+  "side": "W0_is_B"
+ },
+ "E106": {
+  "item": "P2b",
+  "wording": "W9",
+  "kind": "paraphrase",
+  "side": "W0_is_A"
+ },
+ "E107": {
+  "item": "P2a",
+  "wording": "W7",
+  "kind": "paraphrase",
+  "side": "W0_is_A"
+ },
+ "E108": {
+  "item": "P2a",
+  "wording": "W1",
+  "kind": "paraphrase",
+  "side": "W0_is_B"
+ },
+ "E109": {
+  "item": "P1",
+  "wording": "W7",
+  "kind": "paraphrase",
+  "side": "W0_is_B"
+ },
+ "E110": {
+  "item": "AF",
+  "wording": "W7",
+  "kind": "paraphrase",
+  "side": "W0_is_B"
+ }
+}

@@ -1,0 +1,13 @@
+normal        S0.15split S2true=0.0225 S2E=0.0231 [splithalf] bias(S2)=+0.0018 bias(S)=-0.0090 cov basic 0.973 ti_gauss 0.930 ti_boot 0.950 lo>0 0.32 [216s]
+normal        S0.2split  S2true=0.0400 S2E=0.0396 [splithalf] bias(S2)=-0.0015 bias(S)=-0.0165 cov basic 0.957 ti_gauss 0.950 ti_boot 0.953 lo>0 0.54 [216s]
+normal        S0.25split S2true=0.0625 S2E=0.0635 [splithalf] bias(S2)=+0.0023 bias(S)=-0.0025 cov basic 0.980 ti_gauss 0.960 ti_boot 0.963 lo>0 0.84 [217s]
+normal        S0.5split  S2true=0.2500 S2E=0.2499 [splithalf] bias(S2)=+0.0036 bias(S)=+0.0010 cov basic 0.967 ti_gauss 0.960 ti_boot 0.967 lo>0 1.00 [217s]
+emp_P2c_log   S0.15split S2true=0.0225 S2E=0.0244 [splithalf] bias(S2)=+0.0040 bias(S)=-0.0053 cov basic 0.983 ti_gauss 0.940 ti_boot 0.953 lo>0 0.17 [217s]
+emp_P2c_log   S0.2split  S2true=0.0400 S2E=0.0431 [splithalf] bias(S2)=+0.0017 bias(S)=-0.0121 cov basic 0.963 ti_gauss 0.933 ti_boot 0.943 lo>0 0.35 [217s]
+emp_P2c_log   S0.25split S2true=0.0625 S2E=0.0685 [splithalf] bias(S2)=+0.0041 bias(S)=-0.0008 cov basic 0.983 ti_gauss 0.957 ti_boot 0.987 lo>0 0.61 [407s]
+emp_P2c_log   S0.5split  S2true=0.2500 S2E=0.2688 [splithalf] bias(S2)=+0.0123 bias(S)=+0.0073 cov basic 0.963 ti_gauss 0.923 ti_boot 0.957 lo>0 0.99 [407s]
+binary        S0.15split S2true=0.0225 S2E=0.0229 [formula] bias(S2)=-0.0010 bias(S)=-0.0232 cov basic 0.997 ti_gauss 0.957 ti_boot 0.963 lo>0 0.07 [1057s]
+binary        S0.2split  S2true=0.0400 S2E=0.0425 [formula] bias(S2)=+0.0042 bias(S)=-0.0137 cov basic 0.990 ti_gauss 0.947 ti_boot 0.960 lo>0 0.15 [1057s]
+binary        S0.25split S2true=0.0625 S2E=0.0675 [formula] bias(S2)=+0.0071 bias(S)=-0.0115 cov basic 0.990 ti_gauss 0.940 ti_boot 0.960 lo>0 0.26 [1057s]
+binary        S0.5split  S2true=0.2500 S2E=0.2622 [formula] bias(S2)=+0.0176 bias(S)=+0.0084 cov basic 0.990 ti_gauss 0.937 ti_boot 0.943 lo>0 0.97 [1057s]
+done 1057s

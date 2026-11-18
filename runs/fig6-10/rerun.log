@@ -1,0 +1,9 @@
+input C:\Users\Shlok\Downloads\Thenboli ma'am review paper\runs\rq234-interim run=rq234-interim interim=True font=Arial
+palette #0072B2 contrast on white 5.19:1
+palette #B34700 contrast on white 5.50:1
+Fig6 done: {'rows_a': 6, 'rows_b': 6, 'height_mm': 132.8}
+Fig7 done: {'families': 12, 'kinds': ['effect', 'accuracy', 'agreement'], 'columns': {'effect': ['ANY', 'HUMAN-LIKE', 'EXAGGERATED', 'ATTENUATED', 'SUPER-NORMATIVE', 'DIFFERENT', 'SAME-DIRECTION-UNQUANTIFIED', 'NO-HUMAN-REFERENCE', 'INSUFFICIENT', 'UNCLASSIFIED-MODEL-ONLY'], 'accuracy': ['ANY', 'ABOVE-HUMAN', 'HUMAN-LEVEL', 'BELOW-HUMAN', 'NO-HUMAN-REFERENCE', 'INSUFFICIENT'], 'agreement': ['ANY', 'AGREEMENT-ONLY']}, 'vmax': 75.0, 'height_mm': 210.6}
+Fig8 done: {'rows_a': 12, 'rows_b': 5, 'height_mm': 167.8}
+Fig9 done: {'items': ['robustness_tested|yes', 'f1|yes', 'f2|yes', 'f3|yes', 'f4|yes', 'f9|yes', 'f10|yes', 'f12|yes'], 'years': [2020, 2021, 2022, 2023, 2024, 2025, 2026], 'descriptive_only': ['claude:rq4|f11|yes', 'claude:rq4|perturbation|contamination', 'claude:rq4|perturbation|language', 'claude:rq4|perturbation|persona', 'claude:rq4|perturbation|response_format', 'claude:rq4|perturbation|seeds', 'claude:rq4|robustness_outcome_among_tested|reversed', 'claude:rq4|robustness_outcome_among_tested|weakened', 'codex:rq4|f10|yes', 'codex:rq4|f11|yes', 'codex:rq4|f1|yes', 'codex:rq4|perturbation|language', 'codex:rq4|robustness_outcome_among_tested|mixed', 'codex:rq4|robustness_outcome_among_tested|reversed'], 'height_mm': 214.0, 'n_mismatch': [], 'or_axis': [0.285, 2.854]}
+Fig10 done: {'families': ['TOM', 'LANG', 'HB', 'JDM', 'RE', 'LEARN', 'MEM', 'MOR', 'OTH', 'NUM', 'DEV'], 'columns': ['f1', 'f2', 'f3', 'f4', 'f5', 'f6_applicable', 'f7', 'f8', 'f9', 'f10', 'f11', 'f12', 'robustness_tested'], 'failing_columns': ['f10', 'f4', 'f5', 'f6_applicable', 'f8'], 'height_mm': 139.8}
+min cell text contrast 4.81:1

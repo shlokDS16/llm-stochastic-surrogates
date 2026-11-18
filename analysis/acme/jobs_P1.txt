@@ -1,0 +1,66 @@
+# P1 GPU queue (CRP-S08). Order = cut order of compute-plan 7.3 reversed: Arm L, S3, S1, then S2 (cut first).
+# Arm L
+.venv/Scripts/python.exe -I analysis/acme/run_armL.py --model qwen2.5-0.5b-instruct
+.venv/Scripts/python.exe -I analysis/acme/run_armL.py --model qwen2.5-1.5b-instruct
+.venv/Scripts/python.exe -I analysis/acme/run_armL.py --model olmo2-1b-instruct
+.venv/Scripts/python.exe -I analysis/acme/run_armL.py --model olmo2-1b-sft
+.venv/Scripts/python.exe -I analysis/acme/run_armL.py --model olmo2-1b-dpo
+.venv/Scripts/python.exe -I analysis/acme/run_armL.py --model granite-3.3-2b-instruct
+.venv/Scripts/python.exe -I analysis/acme/run_armL.py --model smollm2-1.7b-instruct
+.venv/Scripts/python.exe -I analysis/acme/run_armL.py --model phi4-mini-instruct
+.venv/Scripts/python.exe -I analysis/acme/run_armL.py --model qwen2.5-7b-instruct
+.venv/Scripts/python.exe -I analysis/acme/run_armL.py --model olmo2-7b-instruct
+.venv/Scripts/python.exe -I analysis/acme/run_armL.py --model granite-3.3-8b-instruct
+.venv/Scripts/python.exe -I analysis/acme/run_armL.py --model mistral-7b-instruct-v0.3
+.venv/Scripts/python.exe -I analysis/acme/run_armL.py --model qwen2.5-14b-instruct
+.venv/Scripts/python.exe -I analysis/acme/run_armL.py --model olmo2-13b-instruct
+# precision control (compute-plan 3.4): NF4 copy of Qwen2.5-1.5B in a scratch folder, Arm L on it
+.venv/Scripts/python.exe -I tools/quantize_model.py qwen2.5-1.5b-instruct --out-root models/scratch-q4 --no-manifest
+.venv/Scripts/python.exe -I analysis/acme/run_armL.py --model qwen2.5-1.5b-instruct-nf4ctl --out runs/acme-L-precision
+# S3: new items, all models (F0, W0-W3, both orders, T 0.7/1.0, n 50)
+.venv/Scripts/python.exe -I analysis/acme/run_armS.py --model qwen2.5-0.5b-instruct --stage S3
+.venv/Scripts/python.exe -I analysis/acme/run_armS.py --model qwen2.5-1.5b-instruct --stage S3
+.venv/Scripts/python.exe -I analysis/acme/run_armS.py --model olmo2-1b-instruct --stage S3
+.venv/Scripts/python.exe -I analysis/acme/run_armS.py --model olmo2-1b-sft --stage S3
+.venv/Scripts/python.exe -I analysis/acme/run_armS.py --model olmo2-1b-dpo --stage S3
+.venv/Scripts/python.exe -I analysis/acme/run_armS.py --model granite-3.3-2b-instruct --stage S3
+.venv/Scripts/python.exe -I analysis/acme/run_armS.py --model smollm2-1.7b-instruct --stage S3
+.venv/Scripts/python.exe -I analysis/acme/run_armS.py --model phi4-mini-instruct --stage S3
+.venv/Scripts/python.exe -I analysis/acme/run_armS.py --model qwen2.5-7b-instruct --stage S3
+.venv/Scripts/python.exe -I analysis/acme/run_armS.py --model olmo2-7b-instruct --stage S3
+.venv/Scripts/python.exe -I analysis/acme/run_armS.py --model granite-3.3-8b-instruct --stage S3
+.venv/Scripts/python.exe -I analysis/acme/run_armS.py --model mistral-7b-instruct-v0.3 --stage S3
+.venv/Scripts/python.exe -I analysis/acme/run_armS.py --model qwen2.5-14b-instruct --stage S3
+.venv/Scripts/python.exe -I analysis/acme/run_armS.py --model olmo2-13b-instruct --stage S3
+# S1: pilot items on the 8 non-pilot models (F0)
+.venv/Scripts/python.exe -I analysis/acme/run_pilot_acme.py --model qwen2.5-0.5b-instruct --config analysis/acme/config_S.yaml --formats F0 --out runs/acme-S1
+.venv/Scripts/python.exe -I analysis/acme/run_pilot_acme.py --model olmo2-1b-sft --config analysis/acme/config_S.yaml --formats F0 --out runs/acme-S1
+.venv/Scripts/python.exe -I analysis/acme/run_pilot_acme.py --model olmo2-1b-dpo --config analysis/acme/config_S.yaml --formats F0 --out runs/acme-S1
+.venv/Scripts/python.exe -I analysis/acme/run_pilot_acme.py --model smollm2-1.7b-instruct --config analysis/acme/config_S.yaml --formats F0 --out runs/acme-S1
+.venv/Scripts/python.exe -I analysis/acme/run_pilot_acme.py --model phi4-mini-instruct --config analysis/acme/config_S.yaml --formats F0 --out runs/acme-S1
+.venv/Scripts/python.exe -I analysis/acme/run_pilot_acme.py --model mistral-7b-instruct-v0.3 --config analysis/acme/config_S.yaml --formats F0 --out runs/acme-S1
+.venv/Scripts/python.exe -I analysis/acme/run_pilot_acme.py --model qwen2.5-14b-instruct --config analysis/acme/config_S.yaml --formats F0 --out runs/acme-S1
+.venv/Scripts/python.exe -I analysis/acme/run_pilot_acme.py --model olmo2-13b-instruct --config analysis/acme/config_S.yaml --formats F0 --out runs/acme-S1
+# S2: F1 reasoning format, T 1.0, n 25: new items on all models, pilot items on the non-pilot models
+.venv/Scripts/python.exe -I analysis/acme/run_armS.py --model qwen2.5-0.5b-instruct --stage S2new
+.venv/Scripts/python.exe -I analysis/acme/run_armS.py --model qwen2.5-1.5b-instruct --stage S2new
+.venv/Scripts/python.exe -I analysis/acme/run_armS.py --model olmo2-1b-instruct --stage S2new
+.venv/Scripts/python.exe -I analysis/acme/run_armS.py --model olmo2-1b-sft --stage S2new
+.venv/Scripts/python.exe -I analysis/acme/run_armS.py --model olmo2-1b-dpo --stage S2new
+.venv/Scripts/python.exe -I analysis/acme/run_armS.py --model granite-3.3-2b-instruct --stage S2new
+.venv/Scripts/python.exe -I analysis/acme/run_armS.py --model smollm2-1.7b-instruct --stage S2new
+.venv/Scripts/python.exe -I analysis/acme/run_armS.py --model phi4-mini-instruct --stage S2new
+.venv/Scripts/python.exe -I analysis/acme/run_armS.py --model qwen2.5-7b-instruct --stage S2new
+.venv/Scripts/python.exe -I analysis/acme/run_armS.py --model olmo2-7b-instruct --stage S2new
+.venv/Scripts/python.exe -I analysis/acme/run_armS.py --model granite-3.3-8b-instruct --stage S2new
+.venv/Scripts/python.exe -I analysis/acme/run_armS.py --model mistral-7b-instruct-v0.3 --stage S2new
+.venv/Scripts/python.exe -I analysis/acme/run_armS.py --model qwen2.5-14b-instruct --stage S2new
+.venv/Scripts/python.exe -I analysis/acme/run_armS.py --model olmo2-13b-instruct --stage S2new
+.venv/Scripts/python.exe -I analysis/acme/run_pilot_acme.py --model qwen2.5-0.5b-instruct --config analysis/acme/config_S.yaml --formats F1 --temps 1.0 --n 25 --no-greedy --batch-size 100 --out runs/acme-S2
+.venv/Scripts/python.exe -I analysis/acme/run_pilot_acme.py --model olmo2-1b-sft --config analysis/acme/config_S.yaml --formats F1 --temps 1.0 --n 25 --no-greedy --batch-size 40 --out runs/acme-S2
+.venv/Scripts/python.exe -I analysis/acme/run_pilot_acme.py --model olmo2-1b-dpo --config analysis/acme/config_S.yaml --formats F1 --temps 1.0 --n 25 --no-greedy --batch-size 40 --out runs/acme-S2
+.venv/Scripts/python.exe -I analysis/acme/run_pilot_acme.py --model smollm2-1.7b-instruct --config analysis/acme/config_S.yaml --formats F1 --temps 1.0 --n 25 --no-greedy --batch-size 32 --out runs/acme-S2
+.venv/Scripts/python.exe -I analysis/acme/run_pilot_acme.py --model phi4-mini-instruct --config analysis/acme/config_S.yaml --formats F1 --temps 1.0 --n 25 --no-greedy --batch-size 24 --out runs/acme-S2
+.venv/Scripts/python.exe -I analysis/acme/run_pilot_acme.py --model mistral-7b-instruct-v0.3 --config analysis/acme/config_S.yaml --formats F1 --temps 1.0 --n 25 --no-greedy --batch-size 16 --out runs/acme-S2
+.venv/Scripts/python.exe -I analysis/acme/run_pilot_acme.py --model qwen2.5-14b-instruct --config analysis/acme/config_S.yaml --formats F1 --temps 1.0 --n 25 --no-greedy --batch-size 4 --out runs/acme-S2
+.venv/Scripts/python.exe -I analysis/acme/run_pilot_acme.py --model olmo2-13b-instruct --config analysis/acme/config_S.yaml --formats F1 --temps 1.0 --n 25 --no-greedy --batch-size 2 --out runs/acme-S2

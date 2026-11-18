@@ -1,0 +1,24 @@
+% HAND-BUILT body of Table s-guidellm (CRP-S09 writer, 2026-11-08): the 14 items of the GUIDE-LLM checklist (Feuerriegel et al. 2026, Table 1; text in
+% research/sources/md/closest/feuerriegel.md) answered for the case study of Section 7, in which the models are the objects of study. The optional items
+% of the online checklist are not answered. Every number is a \NUM key. Use of generative tools in the preparation of the review is stated only in the Declarations.
+{\footnotesize\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.08}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.05\textwidth}>{\raggedright\arraybackslash}p{0.22\textwidth}>{\raggedright\arraybackslash}p{0.47\textwidth}>{\raggedright\arraybackslash}p{0.16\textwidth}@{}}
+\toprule
+Item & Content & Answer for this study & Reported \\
+\midrule
+A.1 & Scope of LLM use & The \NUM{n.models} open-weight models are the objects of study: they supply exact answer probabilities (Arm~L) and sampled answers (Arm~S) to Many Labs~1 items. & Yes; Section~\ref{sec:benchmark} \\
+A.2 & Degree of automation & Every model call runs from frozen prompts and a frozen plan without a person in the loop, and no model output was edited by hand. & Yes; Supplement Section~\ref{sec:s-implementation} \\
+B.1 & Model name, provider, size, exact version, date of access, source link & Family, size, licence and pinned repository revision of each model are in Table~\ref{tab:models}, and the full table is Table~\ref{tab:s-models}. The runs took place from \NUM{bm.env.first} to \NUM{bm.env.last}. & Yes; Table~\ref{tab:models} \\
+B.2 & Access and context mode & Local weights on one \NUM{bm.env.gpu}, one prompt per call. The norm-of-reciprocity item with the other-country question first is a three-message conversation inside one prompt. & Yes; Supplement Section~\ref{sec:s-implementation} \\
+B.3 & Configuration: temperature, tokens, seed, runs & Arm~L evaluates the logits at temperatures \NUM{temps.levels} with no sampling. Arm~S draws \NUM{bm.s.draws} answers per cell at temperatures \NUM{bm.s.temps} with recorded seeds. Software: PyTorch \NUM{bm.env.torch}, Transformers \NUM{bm.env.tf}. & Yes; Section~\ref{sec:benchmark} \\
+B.4 & Customization & None. The models are used as released, with no fine-tuning, persona or few-shot examples. The Mistral template has no system role (amendment A-L4). & Yes; Supplement Table~\ref{tab:s-amend} \\
+B.5 & Persistent memory & None. Each prompt is scored in a fresh context. & Yes; Supplement Section~\ref{sec:s-implementation} \\
+C.1 & Exact prompts & The wordings follow a written specification and are frozen in a manifest whose hash begins \NUM{bm.env.manifest12}. The prompt texts are in the deposit and are not printed. & Partly; Supplement Section~\ref{sec:s-implementation} \\
+C.2 & System-wide instructions & One fixed, neutral system message for every model that has a system role. & Yes; Section~\ref{sec:limitations} \\
+D.1 & Personal or sensitive data & No personal data enter a model. The human reference is the public Many Labs~1 data set. & Yes; Section~\ref{sec:benchmark} \\
+E.1 & Human validation of outputs & Model outputs are scored by fixed rules, not rated. Two blinded judgments checked the equivalence of the wordings, and the valid-mass rule checks the readout. & Partly; Supplement Section~\ref{sec:s-implementation} \\
+E.2 & Post-processing & Answer paths are summed and renormalized over valid answers, numbers are read from a truncated digit tree, and the Arm~S parser was written before data collection. & Yes; Section~\ref{sec:benchmark} \\
+F.1 & Code and scripts shared & The analysis code and the run files are in the deposit named in the Declarations. & Yes; Declarations \\
+G.1 & Funding and relationships & See the Declarations. The computation ran on one laptop GPU. & Yes; Declarations \\
+\bottomrule
+\end{tabular}}

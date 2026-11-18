@@ -1,0 +1,18 @@
+extends: existence
+message: "Likely error '%s' (grammarly-issue-catalog 2)."
+level: error
+ignorecase: true
+tokens:
+  - in the (Table|Fig\.|Figure|Section|Equation|Eq\.|Appendix) \d
+  - allows? to \w+
+  - enables? to \w+
+  - discuss(es|ed|ing)? about
+  - comprises? of
+  - comprised of
+  - researches
+  - informations
+  - evidences
+  - equipments
+  - suggests? \w+ to be
+  - different than
+  - depends? of

@@ -1,0 +1,33 @@
+{
+ "order": 148,
+ "study_id": "https://openalex.org/W4386910589",
+ "pass": "claude",
+ "brief_version": "1.0",
+ "date": "2026-11-07",
+ "full_text": "research/sources/md/fulltext/148_W4386910589.md",
+ "sources_varied": [
+  "M",
+  "W"
+ ],
+ "X1": {
+  "value": "partial",
+  "sources_crossed": [],
+  "evidence": "Sec 2.3 (p.10-12), Table 3, App A: system, context, argument, question and option variants give 288 possible prompts; only a subset was run on the 792 arguments, with the best prompt chosen per model."
+ },
+ "X2": {
+  "value": "yes",
+  "x2_types": [
+   "effect_change"
+  ],
+  "x2_sources": [
+   "W"
+  ],
+  "evidence": "Discussion (p.30-31): sensitivity of GPT-4 and GPT-3.5 to prompting reported from the prompt comparison; paraphrase variants in App C."
+ },
+ "X3": {
+  "value": "no",
+  "x3_pairs": [],
+  "evidence": ""
+ },
+ "notes": ""
+}

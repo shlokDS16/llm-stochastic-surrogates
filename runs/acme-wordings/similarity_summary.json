@@ -1,0 +1,146 @@
+{
+ "model": "BAAI/bge-small-en-v1.5",
+ "device": "cpu",
+ "per_item": {
+  "P1": {
+   "paraphrases_W1_W9": {
+    "n": 9,
+    "min": 0.9463,
+    "median": 0.9735,
+    "max": 0.99
+   },
+   "decoys": {
+    "n": 2,
+    "min": 0.9883,
+    "median": 0.9936,
+    "max": 0.999
+   }
+  },
+  "P2a": {
+   "paraphrases_W1_W9": {
+    "n": 9,
+    "min": 0.9213,
+    "median": 0.9529,
+    "max": 0.9855
+   },
+   "decoys": {
+    "n": 2,
+    "min": 0.9885,
+    "median": 0.9933,
+    "max": 0.9981
+   }
+  },
+  "P2b": {
+   "paraphrases_W1_W9": {
+    "n": 9,
+    "min": 0.9155,
+    "median": 0.9475,
+    "max": 0.9848
+   },
+   "decoys": {
+    "n": 2,
+    "min": 0.993,
+    "median": 0.9945,
+    "max": 0.9959
+   }
+  },
+  "P2c": {
+   "paraphrases_W1_W9": {
+    "n": 9,
+    "min": 0.9294,
+    "median": 0.9676,
+    "max": 0.992
+   },
+   "decoys": {
+    "n": 2,
+    "min": 0.9857,
+    "median": 0.9909,
+    "max": 0.9962
+   }
+  },
+  "P2d": {
+   "paraphrases_W1_W9": {
+    "n": 9,
+    "min": 0.9459,
+    "median": 0.9733,
+    "max": 0.9908
+   },
+   "decoys": {
+    "n": 2,
+    "min": 0.9894,
+    "median": 0.9942,
+    "max": 0.999
+   }
+  },
+  "P3": {
+   "paraphrases_W1_W9": {
+    "n": 9,
+    "min": 0.9297,
+    "median": 0.9682,
+    "max": 0.9886
+   },
+   "decoys": {
+    "n": 2,
+    "min": 0.9715,
+    "median": 0.9856,
+    "max": 0.9997
+   }
+  },
+  "P4": {
+   "paraphrases_W1_W9": {
+    "n": 9,
+    "min": 0.9327,
+    "median": 0.9623,
+    "max": 0.9885
+   },
+   "decoys": {
+    "n": 2,
+    "min": 0.981,
+    "median": 0.9884,
+    "max": 0.9957
+   }
+  },
+  "AF": {
+   "paraphrases_W1_W9": {
+    "n": 9,
+    "min": 0.8736,
+    "median": 0.9153,
+    "max": 0.9914
+   },
+   "decoys": {
+    "n": 2,
+    "min": 0.8649,
+    "median": 0.92,
+    "max": 0.9751
+   }
+  },
+  "QA": {
+   "paraphrases_W1_W9": {
+    "n": 9,
+    "min": 0.9435,
+    "median": 0.9601,
+    "max": 0.9778
+   },
+   "decoys": {
+    "n": 2,
+    "min": 0.8509,
+    "median": 0.8962,
+    "max": 0.9415
+   }
+  },
+  "NR": {
+   "paraphrases_W1_W9": {
+    "n": 9,
+    "min": 0.9562,
+    "median": 0.9879,
+    "max": 0.9934
+   },
+   "decoys": {
+    "n": 2,
+    "min": 0.9593,
+    "median": 0.9637,
+    "max": 0.9681
+   }
+  }
+ }
+}

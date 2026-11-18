@@ -1,0 +1,494 @@
+{
+ "cfg": {
+  "reps": 500,
+  "B": 2000,
+  "scenarios": [
+   "a",
+   "b",
+   "c",
+   "d",
+   "e",
+   "f",
+   "g",
+   "h25",
+   "h50"
+  ],
+  "workers": 5
+ },
+ "runtime_s": 499.7118754386902,
+ "pooled_median_share_mean": {
+  "a": [
+   0.0031930396238313355,
+   3.3135179528641494e-06,
+   3.720580294416653e-05,
+   0.0035831658971494994,
+   0.5133052066769992,
+   6.845519493771402e-05,
+   0.41611478535077623
+  ],
+  "b": [
+   0.0010556572067642576,
+   3.0974611081242952e-06,
+   2.2751284751109508e-05,
+   0.6721084647673591,
+   0.1253073197375171,
+   8.795876597682766e-06,
+   0.10494168247078596
+  ],
+  "c": [
+   0.0048716205629025285,
+   2.8318868691760464e-07,
+   2.5492982649757336e-05,
+   0.003102323801550051,
+   0.8284182633100708,
+   3.479936289374488e-05,
+   0.12042236772298051
+  ],
+  "d": [
+   0.001062299943213741,
+   0.68101323618499,
+   0.0017907092713611542,
+   0.0015539358263224438,
+   0.0055979220110480565,
+   0.0016092665003618343,
+   0.2947836271949834
+  ],
+  "e": [
+   0.10140667639383076,
+   0.01552118744804776,
+   0.0282210947132939,
+   0.0834616075569286,
+   0.4380473367014735,
+   0.019056299828895094,
+   0.15611152778176346
+  ],
+  "f": [
+   0.2925215381006815,
+   0.0017230694644736722,
+   0.02057478329923743,
+   0.031227247117974144,
+   0.37492640255496856,
+   0.004903962677481707,
+   0.14102848716225222
+  ],
+  "g": [
+   0.09891017999364016,
+   0.013619181018372282,
+   0.02743145535071159,
+   0.09131458845614286,
+   0.41973567585965604,
+   0.021411764698478084,
+   0.1625791831149181
+  ],
+  "h25": [
+   0.2275960919670596,
+   0.002568324480768501,
+   0.007625685526546303,
+   0.025932084240147212,
+   0.4010853763403268,
+   0.0031383152376180065,
+   0.18375439136769484
+  ],
+  "h50": [
+   0.22349675936802504,
+   0.0068661538025022876,
+   0.020694820206681973,
+   0.02884502920836208,
+   0.38921185544943193,
+   0.0031402379562604607,
+   0.1710706320777707
+  ]
+ },
+ "verdicts": {
+  "as_written": {
+   "C1": {
+    "pass_": false,
+    "n_cells": 63,
+    "n_violations": 4,
+    "worst": {
+     "scenario": "b",
+     "scenario_label": "W dominant",
+     "level": "pooled_mean",
+     "variant": "as_written",
+     "component": "W",
+     "n_models": 14,
+     "reps": 500,
+     "B": 2000,
+     "true_share": 0.7000000000000001,
+     "mean_estimate": 0.6558340445628694,
+     "bias": -0.044165955437130644,
+     "sd_estimate": 0.03865736668040278,
+     "coverage": 0.2,
+     "lower_gt0_rate": 1.0,
+     "true_is_zero": false,
+     "false_positive_rate": NaN,
+     "mean_lo": 0.5253888271687895,
+     "mean_hi": 0.6681295001688649,
+     "rank_applicable": true,
+     "rank_correct_rate": 1.0,
+     "rank_correct_rate_any": 1.0,
+     "true_top_component": "W"
+    }
+   },
+   "C2": {
+    "pass_": false,
+    "fraction": 0.14285714285714285,
+    "n_cells": 63,
+    "n_ok": 9
+   },
+   "C3": {
+    "pass_": false,
+    "n_cells": 19,
+    "n_violations": 19,
+    "worst": {
+     "scenario": "a",
+     "scenario_label": "residual only",
+     "level": "pooled_mean",
+     "variant": "as_written",
+     "component": "M",
+     "n_models": 14,
+     "reps": 500,
+     "B": 2000,
+     "true_share": 0.0,
+     "mean_estimate": 0.012146029235690527,
+     "bias": 0.012146029235690527,
+     "sd_estimate": 0.006903233875624442,
+     "coverage": 0.0,
+     "lower_gt0_rate": 1.0,
+     "true_is_zero": true,
+     "false_positive_rate": 1.0,
+     "mean_lo": 0.04139594127883834,
+     "mean_hi": 0.10905850477040727,
+     "rank_applicable": false,
+     "rank_correct_rate": NaN,
+     "rank_correct_rate_any": 0.968,
+     "true_top_component": "MW"
+    }
+   },
+   "C4": {
+    "pass_": true,
+    "scenarios": {
+     "b": 1.0,
+     "c": 1.0,
+     "d": 1.0,
+     "e": 1.0,
+     "g": 1.0
+    },
+    "n_violations": 0
+   },
+   "overall": false
+  },
+  "A1": {
+   "C1": {
+    "pass_": true,
+    "n_cells": 63,
+    "n_violations": 0,
+    "worst": {
+     "scenario": "b",
+     "scenario_label": "W dominant",
+     "level": "pooled_mean",
+     "variant": "A1",
+     "component": "W",
+     "n_models": 14,
+     "reps": 500,
+     "B": 2000,
+     "true_share": 0.7000000000000001,
+     "mean_estimate": 0.7030811826149986,
+     "bias": 0.0030811826149985677,
+     "sd_estimate": 0.04016050947200204,
+     "coverage": 0.932,
+     "lower_gt0_rate": 1.0,
+     "true_is_zero": false,
+     "false_positive_rate": NaN,
+     "mean_lo": 0.6211900361088722,
+     "mean_hi": 0.7703131663190913,
+     "rank_applicable": true,
+     "rank_correct_rate": 1.0,
+     "rank_correct_rate_any": 1.0,
+     "true_top_component": "W"
+    }
+   },
+   "C2": {
+    "pass_": false,
+    "fraction": 0.7777777777777778,
+    "n_cells": 63,
+    "n_ok": 49
+   },
+   "C3": {
+    "pass_": true,
+    "n_cells": 19,
+    "n_violations": 0,
+    "worst": {
+     "scenario": "d",
+     "scenario_label": "O dominant (two-order items)",
+     "level": "pooled_mean",
+     "variant": "A1",
+     "component": "W",
+     "n_models": 14,
+     "reps": 500,
+     "B": 2000,
+     "true_share": 0.0,
+     "mean_estimate": 8.681202181928357e-05,
+     "bias": 8.681202181928357e-05,
+     "sd_estimate": 0.003458102315938277,
+     "coverage": 0.916,
+     "lower_gt0_rate": 0.04,
+     "true_is_zero": true,
+     "false_positive_rate": 0.04,
+     "mean_lo": -0.005973674161874502,
+     "mean_hi": 0.006086460222896355,
+     "rank_applicable": true,
+     "rank_correct_rate": 1.0,
+     "rank_correct_rate_any": 1.0,
+     "true_top_component": "O"
+    }
+   },
+   "C4": {
+    "pass_": true,
+    "scenarios": {
+     "b": 1.0,
+     "c": 1.0,
+     "d": 1.0,
+     "e": 1.0,
+     "g": 1.0
+    },
+    "n_violations": 0
+   },
+   "overall": false
+  },
+  "P1_param_centered": {
+   "C1": {
+    "pass_": true,
+    "n_cells": 63,
+    "n_violations": 0,
+    "worst": {
+     "scenario": "b",
+     "scenario_label": "W dominant",
+     "level": "pooled_mean",
+     "variant": "P1_param_centered",
+     "component": "W",
+     "n_models": 14,
+     "reps": 500,
+     "B": 2000,
+     "true_share": 0.7000000000000001,
+     "mean_estimate": 0.7030811826149986,
+     "bias": 0.0030811826149985677,
+     "sd_estimate": 0.04016050947200204,
+     "coverage": 0.93,
+     "lower_gt0_rate": 1.0,
+     "true_is_zero": false,
+     "false_positive_rate": NaN,
+     "mean_lo": 0.6284262284753463,
+     "mean_hi": 0.7701992516824505,
+     "rank_applicable": true,
+     "rank_correct_rate": 1.0,
+     "rank_correct_rate_any": 1.0,
+     "true_top_component": "W"
+    }
+   },
+   "C2": {
+    "pass_": false,
+    "fraction": 0.6349206349206349,
+    "n_cells": 63,
+    "n_ok": 40
+   },
+   "C3": {
+    "pass_": true,
+    "n_cells": 19,
+    "n_violations": 0,
+    "worst": {
+     "scenario": "a",
+     "scenario_label": "residual only",
+     "level": "pooled_mean",
+     "variant": "P1_param_centered",
+     "component": "M",
+     "n_models": 14,
+     "reps": 500,
+     "B": 2000,
+     "true_share": 0.0,
+     "mean_estimate": 0.00010799282997795395,
+     "bias": 0.00010799282997795395,
+     "sd_estimate": 0.010785412921007285,
+     "coverage": 0.958,
+     "lower_gt0_rate": 0.026,
+     "true_is_zero": true,
+     "false_positive_rate": 0.026,
+     "mean_lo": -0.0207357955011888,
+     "mean_hi": 0.023050063509546314,
+     "rank_applicable": false,
+     "rank_correct_rate": NaN,
+     "rank_correct_rate_any": 0.532,
+     "true_top_component": "MW"
+    }
+   },
+   "C4": {
+    "pass_": true,
+    "scenarios": {
+     "b": 1.0,
+     "c": 1.0,
+     "d": 1.0,
+     "e": 1.0,
+     "g": 1.0
+    },
+    "n_violations": 0
+   },
+   "overall": false
+  },
+  "P2_param_pivotal": {
+   "C1": {
+    "pass_": true,
+    "n_cells": 63,
+    "n_violations": 0,
+    "worst": {
+     "scenario": "b",
+     "scenario_label": "W dominant",
+     "level": "pooled_mean",
+     "variant": "P2_param_pivotal",
+     "component": "W",
+     "n_models": 14,
+     "reps": 500,
+     "B": 2000,
+     "true_share": 0.7000000000000001,
+     "mean_estimate": 0.7030811826149986,
+     "bias": 0.0030811826149985677,
+     "sd_estimate": 0.04016050947200204,
+     "coverage": 0.932,
+     "lower_gt0_rate": 1.0,
+     "true_is_zero": false,
+     "false_positive_rate": NaN,
+     "mean_lo": 0.6359631135475468,
+     "mean_hi": 0.7777361367546511,
+     "rank_applicable": true,
+     "rank_correct_rate": 1.0,
+     "rank_correct_rate_any": 1.0,
+     "true_top_component": "W"
+    }
+   },
+   "C2": {
+    "pass_": false,
+    "fraction": 0.5873015873015873,
+    "n_cells": 63,
+    "n_ok": 37
+   },
+   "C3": {
+    "pass_": true,
+    "n_cells": 19,
+    "n_violations": 0,
+    "worst": {
+     "scenario": "d",
+     "scenario_label": "O dominant (two-order items)",
+     "level": "pooled_mean",
+     "variant": "P2_param_pivotal",
+     "component": "MW",
+     "n_models": 14,
+     "reps": 500,
+     "B": 2000,
+     "true_share": 0.0,
+     "mean_estimate": -0.00039079198255707935,
+     "bias": -0.00039079198255707935,
+     "sd_estimate": 0.01249946176130846,
+     "coverage": 0.964,
+     "lower_gt0_rate": 0.024,
+     "true_is_zero": true,
+     "false_positive_rate": 0.024,
+     "mean_lo": -0.02541473448639862,
+     "mean_hi": 0.024594221101298316,
+     "rank_applicable": true,
+     "rank_correct_rate": 1.0,
+     "rank_correct_rate_any": 1.0,
+     "true_top_component": "O"
+    }
+   },
+   "C4": {
+    "pass_": true,
+    "scenarios": {
+     "b": 1.0,
+     "c": 1.0,
+     "d": 1.0,
+     "e": 1.0,
+     "g": 1.0
+    },
+    "n_violations": 0
+   },
+   "overall": false
+  },
+  "wald_jk": {
+   "C1": {
+    "pass_": true,
+    "n_cells": 63,
+    "n_violations": 0,
+    "worst": {
+     "scenario": "b",
+     "scenario_label": "W dominant",
+     "level": "pooled_mean",
+     "variant": "wald_jk",
+     "component": "W",
+     "n_models": 14,
+     "reps": 500,
+     "B": 2000,
+     "true_share": 0.7000000000000001,
+     "mean_estimate": 0.7030811826149986,
+     "bias": 0.0030811826149985677,
+     "sd_estimate": 0.04016050947200204,
+     "coverage": 0.948,
+     "lower_gt0_rate": 1.0,
+     "true_is_zero": false,
+     "false_positive_rate": NaN,
+     "mean_lo": 0.6226024972332748,
+     "mean_hi": 0.7835598679967226,
+     "rank_applicable": true,
+     "rank_correct_rate": 1.0,
+     "rank_correct_rate_any": 1.0,
+     "true_top_component": "W"
+    }
+   },
+   "C2": {
+    "pass_": false,
+    "fraction": 0.8095238095238095,
+    "n_cells": 63,
+    "n_ok": 51
+   },
+   "C3": {
+    "pass_": true,
+    "n_cells": 19,
+    "n_violations": 0,
+    "worst": {
+     "scenario": "d",
+     "scenario_label": "O dominant (two-order items)",
+     "level": "pooled_mean",
+     "variant": "wald_jk",
+     "component": "MW",
+     "n_models": 14,
+     "reps": 500,
+     "B": 2000,
+     "true_share": 0.0,
+     "mean_estimate": -0.00039079198255707935,
+     "bias": -0.00039079198255707935,
+     "sd_estimate": 0.01249946176130846,
+     "coverage": 0.966,
+     "lower_gt0_rate": 0.02,
+     "true_is_zero": true,
+     "false_positive_rate": 0.02,
+     "mean_lo": -0.02643179024556201,
+     "mean_hi": 0.025650206280447854,
+     "rank_applicable": true,
+     "rank_correct_rate": 1.0,
+     "rank_correct_rate_any": 1.0,
+     "true_top_component": "O"
+    }
+   },
+   "C4": {
+    "pass_": true,
+    "scenarios": {
+     "b": 1.0,
+     "c": 1.0,
+     "d": 1.0,
+     "e": 1.0,
+     "g": 1.0
+    },
+    "n_violations": 0
+   },
+   "overall": false
+  }
+ }
+}

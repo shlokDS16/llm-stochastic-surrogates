@@ -1,0 +1,13 @@
+{"paradigm": "P4", "F": "F1", "batch": 0, "rows": 16, "seconds": 29.819, "new_tokens": 2196, "padded_prompt_len": 102, "peak_vram_gib": 5.173}
+{"paradigm": "P4", "F": "F1", "batch": 1, "rows": 16, "seconds": 27.724, "new_tokens": 2159, "padded_prompt_len": 103, "peak_vram_gib": 4.938}
+{"paradigm": "P4", "F": "F1", "batch": 2, "rows": 16, "seconds": 28.353, "new_tokens": 2125, "padded_prompt_len": 103, "peak_vram_gib": 5.113}
+{"paradigm": "P4", "F": "F1", "batch": 3, "rows": 16, "seconds": 20.075, "new_tokens": 2091, "padded_prompt_len": 104, "peak_vram_gib": 4.793}
+{"paradigm": "P4", "F": "F1", "batch": 4, "rows": 16, "seconds": 20.839, "new_tokens": 2260, "padded_prompt_len": 106, "peak_vram_gib": 4.852}
+{"paradigm": "P4", "F": "F1", "batch": 5, "rows": 16, "seconds": 23.686, "new_tokens": 2171, "padded_prompt_len": 106, "peak_vram_gib": 5.036}
+{"paradigm": "P4", "F": "F1", "batch": 6, "rows": 16, "seconds": 22.454, "new_tokens": 2172, "padded_prompt_len": 107, "peak_vram_gib": 4.846}
+{"paradigm": "P4", "F": "F1", "batch": 7, "rows": 16, "seconds": 28.061, "new_tokens": 2178, "padded_prompt_len": 108, "peak_vram_gib": 4.969}
+{"paradigm": "P4", "F": "F1", "batch": 8, "rows": 16, "seconds": 19.083, "new_tokens": 1830, "padded_prompt_len": 108, "peak_vram_gib": 4.934}
+{"paradigm": "P4", "F": "F1", "batch": 9, "rows": 16, "seconds": 28.641, "new_tokens": 2138, "padded_prompt_len": 110, "peak_vram_gib": 4.973}
+{"paradigm": "P4", "F": "F1", "batch": 10, "rows": 16, "seconds": 29.322, "new_tokens": 2047, "padded_prompt_len": 112, "peak_vram_gib": 4.976}
+{"paradigm": "P4", "F": "F1", "batch": 11, "rows": 16, "seconds": 30.033, "new_tokens": 2257, "padded_prompt_len": 112, "peak_vram_gib": 5.201}
+{"paradigm": "P4", "F": "F1", "batch": 12, "rows": 8, "seconds": 16.839, "new_tokens": 1150, "padded_prompt_len": 112, "peak_vram_gib": 4.568}
