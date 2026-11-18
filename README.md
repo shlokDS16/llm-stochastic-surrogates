@@ -2,8 +2,12 @@
 
 Data and code for the article "Large Language Models as Stochastic Surrogates of Human Participants: A Review of
 Verification, Validation and Uncertainty Practice in Cognitive Experiments" by Shlok Kumar Goenka, M. Thenmozhi and
-Lawanya Shri M (Vellore Institute of Technology, Vellore, India).
+Lawanya Shri M (Vellore Institute of Technology, Vellore, India), submitted as a Review to *Archives of Computational
+Methods in Engineering* (ACME, Springer; https://link.springer.com/journal/11831).
 DOI of this deposit: https://doi.org/10.5281/zenodo.24046587
+
+This GitHub repository mirrors the Zenodo deposit for the ACME submission. Files of 10 MB or more are on Zenodo only
+(`LARGE-FILES.md`).
 
 Every number in the article is generated from a file in this deposit. `paper/acme/autonumbers.tex` holds one LaTeX macro
 per number, and the comment of each macro names the run file and the field it came from. `MANIFEST.sha256` lists the
